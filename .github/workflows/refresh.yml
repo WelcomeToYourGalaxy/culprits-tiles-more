@@ -7,6 +7,9 @@
 #    Culprits by the next day. Maps that live only inside a Weebly page are
 #    skipped until they are added to the maps repo.
 #
+#  - Trase: its regional measures, every country, level and year, reread on
+#    Mondays (and whenever the workflow is run by hand) by scripts/trase.py.
+#
 # It commits only when something changed, then asks GitHub Pages to republish.
 # Everything runs on GitHub; nothing else is needed.
 name: refresh
@@ -26,7 +29,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,6 +42,15 @@ jobs:
       - name: PalmWatch
         continue-on-error: true
         run: python3 scripts/palmwatch.py
+
+      - name: Trase (Mondays, or when run by hand)
+        continue-on-error: true
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python3 scripts/trase.py
+          else
+            echo "Not Monday; Trase is reread weekly."
+          fi
 
       - name: The site's own maps on GitHub
         continue-on-error: true
@@ -55,8 +67,9 @@ jobs:
           git config user.name "culprits-refresh"
           git config user.email "actions@users.noreply.github.com"
           git add sitemaps
+          if [ -d trase ]; then git add trase; fi
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
-          git commit -m "Daily refresh: PalmWatch and the site's own maps"
+          git commit -m "Refresh: PalmWatch, Trase and the site's own maps"
           git push
           echo "CHANGED=1" >> "$GITHUB_ENV"
 
