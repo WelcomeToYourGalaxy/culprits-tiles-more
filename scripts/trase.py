@@ -12,6 +12,9 @@ another website, so this script copies them, every measure, level and year:
 
   trase/catalogue.json                       the menu: countries, levels, measures, years, units, text
   trase/values/<country>/<level>/<METRIC>.json   {year: {region id: value}}
+  trase/facilities.json                      which file on resources.trase.earth holds each
+                                             facilities map (Trase dates its file names, so
+                                             they are found again each week in its page code)
 
 Run weekly by .github/workflows/refresh.yml (Mondays, or by hand).
 """
@@ -34,7 +37,56 @@ def get(path, tries=4):
             time.sleep(4 * (i + 1))
 
 
+FACILITY_TYPES = [  # Trase's facilities menu: its id, what it holds, and a part of its file name
+    ("brazil-facilities", "Brazil: slaughterhouses and animal-product facilities", "beef_logistics"),
+    ("brazil-silos", "Brazil: soy silos and storage", "silos_"),
+    ("cote-d-ivoire-cocoa-cooperatives", "C\u00f4te d'Ivoire: cocoa cooperatives", "coop"),
+    ("indonesia-palm-oil-mills", "Indonesia: palm oil mills", "PO_mills"),
+    ("indonesia-wood-pulp-mills", "Indonesia: wood pulp mills", "wood_mills"),
+    ("indonesia-wood-pulp-concessions-2015-2019", "Indonesia: wood pulp concessions, 2015\u20132019", "concessions_2015_2019"),
+    ("indonesia-wood-pulp-concessions-2020-2022", "Indonesia: wood pulp concessions, 2020\u20132022", "concessions_2020_2022"),
+    ("indonesia-wood-pulp-concessions-2023-2024", "Indonesia: wood pulp concessions, 2023\u20132024", "concessions_2023_2024"),
+]
+
+
+def facilities():
+    """Find the current file behind each facilities map in the page's own code."""
+    import re
+    page = BASE + "/explore/facilities-data/map?facilityTypeId=brazil-facilities"
+    req = urllib.request.Request(page, headers={"User-Agent": "Mozilla/5.0 (Culprits atlas refresh)"})
+    html = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+    code = html
+    for src in sorted(set(re.findall(r'src="(/_next/static/[^"]+\.js)"', html))):
+        try:
+            code += urllib.request.urlopen(urllib.request.Request(BASE + src, headers={"User-Agent": "Mozilla/5.0"}),
+                                           timeout=60).read().decode("utf-8", "replace")
+        except Exception:  # noqa: BLE001
+            pass
+    files = sorted(set(re.findall(r"[A-Za-z0-9_.\-]+\.geo\.json", code)))
+    files = [f for f in files if f not in ("metadata.geo.json",)]
+    out, used = [], set()
+    for tid, label, part in FACILITY_TYPES:
+        hit = [f for f in files if part in f]
+        if hit:
+            out.append({"id": tid, "label": label, "file": sorted(hit)[-1]})
+            used.update(hit)
+    # A facilities map Trase adds later still appears, named by its file.
+    for f in files:
+        if f not in used and not re.search(r"^(country|province|department|municipality|state|region|district|kabupaten|parish|canton|biome|port|mesoregion|microregion)-", f):
+            out.append({"id": f.replace(".geo.json", ""), "label": "Trase: " + f.replace(".geo.json", "").replace("_", " "), "file": f})
+    return out
+
+
 def main():
+    try:
+        fac = facilities()
+        if fac:
+            OUT.mkdir(parents=True, exist_ok=True)
+            (OUT / "facilities.json").write_text(json.dumps({"base": "https://resources.trase.earth/data/facilities-data/",
+                                                             "types": fac}, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"trase: {len(fac)} facilities maps found")
+    except Exception as e:  # noqa: BLE001
+        print(f"  facilities list could not be read: {e}", file=sys.stderr)
     rows = (get("/api/data/spatial-data/indicators") or {}).get("rows") or []
     if not rows:
         sys.exit("Trase returned no measures; nothing written (the last good copy stays).")
