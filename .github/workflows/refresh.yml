@@ -1,0 +1,67 @@
+# Keeps the maps this repo serves in step with their sources, every day.
+#
+#  - PalmWatch: reread from PalmWatch's own public routes (scripts/palmwatch.py).
+#  - The site's own maps that live on GitHub (maps, local-map and the other map
+#    repos): each map's own page is reread with the culprits repo's reader
+#    (pipeline/sitemaps/build_boxes.py), so an edit to a map shows up in
+#    Culprits by the next day. Maps that live only inside a Weebly page are
+#    skipped until they are added to the maps repo.
+#
+# It commits only when something changed, then asks GitHub Pages to republish.
+# Everything runs on GitHub; nothing else is needed.
+name: refresh
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: PalmWatch
+        continue-on-error: true
+        run: python3 scripts/palmwatch.py
+
+      - name: The site's own maps on GitHub
+        continue-on-error: true
+        run: |
+          git clone --depth 1 https://github.com/WelcomeToYourGalaxy/culprits.git "$RUNNER_TEMP/culprits"
+          cd "$RUNNER_TEMP/culprits"
+          IDS=$(python3 -c 'import json; print(",".join(m["id"] for m in json.load(open("pipeline/sitemaps/registry.json"))["maps"] if m.get("url") and m["id"] not in ("carbon_majors", "site_environment_law")))')
+          python3 pipeline/sitemaps/build_boxes.py "$IDS"
+          mkdir -p "$GITHUB_WORKSPACE/sitemaps"
+          cp map/data/sitemaps/*.places.geojson map/data/sitemaps/*.boxes.json "$GITHUB_WORKSPACE/sitemaps/"
+
+      - name: Commit what changed
+        run: |
+          git config user.name "culprits-refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add sitemaps
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git commit -m "Daily refresh: PalmWatch and the site's own maps"
+          git push
+          echo "CHANGED=1" >> "$GITHUB_ENV"
+
+      - name: Republish Pages
+        if: env.CHANGED == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages will republish on its own."
