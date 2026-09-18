@@ -134,7 +134,7 @@ def main():
         keys = [f"country:{country}", f"rspo:{rspo}", f"cur:{cur}"]
         for fam, v in (("country", country), ("rspo", rspo), ("cur", cur)):
             counts[fam][v] = counts[fam].get(v, 0) + 1
-        props = {"k": uml, "t": 1, "c": LOSS_COLOURS[2], "f": "|" + "|".join(keys) + "|",
+        props = {"k": uml, "p": 1, "n": str(p.get("Mill Name") or uml), "t": 1, "c": LOSS_COLOURS[2], "f": "|" + "|".join(keys) + "|",
                  "cur": cur, "past": past, "fut": fut}
         for y in years:
             v = num(p.get(f"treeloss_km_{y}"))
