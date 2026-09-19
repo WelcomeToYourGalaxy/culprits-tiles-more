@@ -14,7 +14,8 @@ places that have none, and says so in their boxes.
 """
 import html, json, os, pathlib, re, sys, time, urllib.parse, urllib.request
 
-MAPS = ["1PwPKisRf73FPC6hTtZDCv2s_B6_x0Pk7", "1c-vPoGf79mfQezTgcFoKb-xN4A4"]
+MAPS = ["1PwPKisRf73FPC6hTtZDCv2s_B6_x0Pk7", "1c-vPoGf79mfQezTgcFoKb-xN4A4",
+        "1vrnqSW4cWWdnjz6cJ-qFMmd0zbJzYd6V", "1seBCggQGg1tcRYpqpZ5ZKJaxHs4"]
 OUT = pathlib.Path(os.environ.get("MYMAPS_OUT", "mymaps"))
 UA = "WelcomeToYourGalaxy-Culprits/1.0 (https://github.com/WelcomeToYourGalaxy/culprits)"
 NOMINATIM = os.environ.get("NOMINATIM", "https://nominatim.openstreetmap.org/search")
