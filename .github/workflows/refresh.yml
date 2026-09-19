@@ -60,7 +60,12 @@ jobs:
           git add -A
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git commit -m "Refresh: every script and the site's own maps"
-          git push
+          # The run can take over an hour; anything pushed meanwhile is taken in first.
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push && break
+            echo "Push attempt $i did not go through; trying again."
+            sleep 10
+          done
           echo "CHANGED=1" >> "$GITHUB_ENV"
 
       - name: Republish Pages
