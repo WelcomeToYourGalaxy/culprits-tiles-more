@@ -1,17 +1,12 @@
 # Keeps the maps this repo serves in step with their sources, every day.
 #
-#  - PalmWatch: reread from PalmWatch's own public routes (scripts/palmwatch.py).
-#  - The site's own maps that live on GitHub (maps, local-map and the other map
-#    repos): each map's own page is reread with the culprits repo's reader
-#    (pipeline/sitemaps/build_boxes.py), so an edit to a map shows up in
-#    Culprits by the next day. Maps that live only inside a Weebly page are
-#    skipped until they are added to the maps repo.
-#
-#  - Trase: its regional measures, every country, level and year, reread on
-#    Mondays (and whenever the workflow is run by hand) by scripts/trase.py.
+#  - Every script in scripts/ is run: PalmWatch, Trase (which rereads itself
+#    only on Mondays, or when this is run by hand), the Google My Maps address
+#    lookups, and any script added later, with no change needed here.
+#  - The site's own maps that live on GitHub are reread with the culprits
+#    repo's reader, so an edit to a map shows up in Culprits by the next day.
 #
 # It commits only when something changed, then asks GitHub Pages to republish.
-# Everything runs on GitHub; nothing else is needed.
 name: refresh
 on:
   schedule:
@@ -29,7 +24,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,18 +34,14 @@ jobs:
         with:
           node-version: "22"
 
-      - name: PalmWatch
-        continue-on-error: true
-        run: python3 scripts/palmwatch.py
-
-      - name: Trase (Mondays, or when run by hand)
-        continue-on-error: true
+      - name: Every refresh script
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python3 scripts/trase.py
-          else
-            echo "Not Monday; Trase is reread weekly."
-          fi
+          for f in scripts/*.py; do
+            echo "== $f"
+            python3 "$f" || echo "$f failed; the last good copy stays."
+          done
 
       - name: The site's own maps on GitHub
         continue-on-error: true
@@ -66,10 +57,9 @@ jobs:
         run: |
           git config user.name "culprits-refresh"
           git config user.email "actions@users.noreply.github.com"
-          git add sitemaps
-          if [ -d trase ]; then git add trase; fi
+          git add -A
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
-          git commit -m "Refresh: PalmWatch, Trase and the site's own maps"
+          git commit -m "Refresh: every script and the site's own maps"
           git push
           echo "CHANGED=1" >> "$GITHUB_ENV"
 
