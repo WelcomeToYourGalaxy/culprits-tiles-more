@@ -78,6 +78,10 @@ def facilities():
 
 
 def main():
+    # Weekly: Mondays, or whenever the workflow is run by hand.
+    if time.gmtime().tm_wday != 0 and os.environ.get("GITHUB_EVENT_NAME", "workflow_dispatch") != "workflow_dispatch":
+        print("trase: not Monday; Trase is reread weekly.")
+        return
     try:
         fac = facilities()
         if fac:
