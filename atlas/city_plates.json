@@ -475,119 +475,325 @@
  },
  "makassar": {
   "kept": false,
-  "reason": "only 0 names read off the picture were found near the city",
-  "read": 1
+  "reason": "only 2 names read off the picture were found near the city",
+  "read": 10,
+  "v": 2
  },
  "mecca": {
   "kept": false,
-  "reason": "only 0 names read off the picture were found near the city",
-  "read": 3
+  "reason": "only 3 names agree on a placement (at least 4 needed)",
+  "read": 26,
+  "v": 2
  },
  "mexico_city": {
-  "kept": false,
-  "reason": "only 2 names read off the picture were found near the city",
-  "read": 3
- },
- "nairobi": {
-  "kept": false,
-  "reason": "only 1 names read off the picture were found near the city",
-  "read": 5
- },
- "osaka": {
   "kept": true,
-  "error_km": 5.72,
-  "width_km": 411.5,
+  "error_km": 9.01,
+  "width_km": 511.9,
   "names": [
-   "Les",
-   "Ty!",
-   "Vos",
-   "War"
+   "By &",
+   "Noe",
+   "Ns S",
+   "Vine"
   ],
   "corners": [
    [
-    138.320281,
-    33.867817
+    -98.26225,
+    18.463953
    ],
    [
-    133.910915,
-    34.496203
+    -101.480512,
+    21.93835
    ],
    [
-    135.488282,
-    35.652141
+    -99.254966,
+    20.563009
    ],
    [
-    139.897648,
-    35.032526
+    -96.036704,
+    17.058607
    ]
   ],
-  "read": 5,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/osaka.webp"
+  "read": 14,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/mexico_city.webp"
+ },
+ "nairobi": {
+  "kept": true,
+  "error_km": 2.7,
+  "width_km": 139.6,
+  "names": [
+   "Jez",
+   "Sim",
+   "Toy",
+   "Wate"
+  ],
+  "corners": [
+   [
+    37.37964,
+    -1.437833
+   ],
+   [
+    36.161702,
+    -1.133756
+   ],
+   [
+    36.640319,
+    -1.278515
+   ],
+   [
+    37.858256,
+    -1.582574
+   ]
+  ],
+  "read": 26,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/nairobi.webp"
+ },
+ "osaka": {
+  "kept": false,
+  "reason": "only 3 names agree on a placement (at least 4 needed)",
+  "read": 16,
+  "v": 2
  },
  "perth": {
-  "kept": false,
-  "reason": "only 2 names read off the picture were found near the city",
-  "read": 4
+  "kept": true,
+  "error_km": 11.06,
+  "width_km": 782.9,
+  "names": [
+   "A j",
+   "Con",
+   "Las",
+   "Yes"
+  ],
+  "corners": [
+   [
+    116.185855,
+    -29.126391
+   ],
+   [
+    115.205423,
+    -36.119018
+   ],
+   [
+    116.205891,
+    -31.901392
+   ],
+   [
+    117.186323,
+    -24.587036
+   ]
+  ],
+  "read": 22,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/perth.webp"
  },
  "port-au-prince": {
-  "kept": false,
-  "reason": "only 1 names read off the picture were found near the city",
-  "read": 10
+  "kept": true,
+  "error_km": 9.89,
+  "width_km": 449.1,
+  "names": [
+   "Ae ‘",
+   "A—f",
+   "I ! \\ >",
+   "N ee",
+   "S Se",
+   "T i / ~"
+  ],
+  "corners": [
+   [
+    -74.316692,
+    18.24776
+   ],
+   [
+    -70.065286,
+    18.184764
+   ],
+   [
+    -71.852975,
+    18.199792
+   ],
+   [
+    -76.104381,
+    18.262784
+   ]
+  ],
+  "read": 26,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/port-au-prince.webp"
  },
  "rawalpindi": {
   "kept": false,
   "reason": "only 3 names agree on a placement (at least 4 needed)",
-  "read": 4
+  "read": 26,
+  "v": 2
  },
  "santiago": {
-  "kept": false,
-  "reason": "only 0 names read off the picture were found near the city",
-  "read": 3
- },
- "sao_paulo": {
-  "kept": false,
-  "reason": "only 3 names agree on a placement (at least 4 needed)",
-  "read": 9
- },
- "sydney": {
-  "kept": false,
-  "reason": "only 0 names read off the picture were found near the city",
-  "read": 2
- },
- "tashkent": {
-  "kept": false,
-  "reason": "only 3 names agree on a placement (at least 4 needed)",
-  "read": 4
- },
- "tel_aviv": {
   "kept": true,
-  "error_km": 10.49,
-  "width_km": 448.4,
+  "error_km": 3.8,
+  "width_km": 134.6,
   "names": [
-   "Bac",
-   "Raw",
-   "Sof",
-   "Ste"
+   "I ‘ &",
+   "Pad",
+   "Pate",
+   "Re?",
+   "Usa",
+   "Var"
   ],
   "corners": [
    [
-    35.687082,
-    32.262821
+    -71.065807,
+    -34.627983
    ],
    [
-    35.282132,
-    28.245209
+    -70.587562,
+    -33.483705
    ],
    [
-    34.545047,
-    35.13424
+    -70.44553,
+    -32.618759
    ],
    [
-    34.949997,
-    38.849062
+    -70.923775,
+    -33.774507
    ]
   ],
-  "read": 8,
+  "read": 32,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/santiago.webp"
+ },
+ "sao_paulo": {
+  "kept": true,
+  "error_km": 8.76,
+  "width_km": 335.1,
+  "names": [
+   "A |",
+   "Bie",
+   "Ng >",
+   "Se i",
+   "Ton"
+  ],
+  "corners": [
+   [
+    -43.109603,
+    -19.442142
+   ],
+   [
+    -45.055673,
+    -21.843172
+   ],
+   [
+    -49.292835,
+    -26.682081
+   ],
+   [
+    -47.346765,
+    -24.366748
+   ]
+  ],
+  "read": 17,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/sao_paulo.webp"
+ },
+ "sydney": {
+  "kept": true,
+  "error_km": 5.53,
+  "width_km": 263.2,
+  "names": [
+   "A !",
+   "J { } {",
+   "Pays",
+   "Sas"
+  ],
+  "corners": [
+   [
+    152.058977,
+    -33.795624
+   ],
+   [
+    151.360839,
+    -31.502357
+   ],
+   [
+    150.560198,
+    -33.483257
+   ],
+   [
+    151.258336,
+    -35.725052
+   ]
+  ],
+  "read": 23,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/sydney.webp"
+ },
+ "tashkent": {
+  "kept": true,
+  "error_km": 13.44,
+  "width_km": 793.6,
+  "names": [
+   "Arg",
+   "Blo",
+   "Cool",
+   "J \\",
+   "NS | ad"
+  ],
+  "corners": [
+   [
+    74.35027,
+    35.627412
+   ],
+   [
+    69.328484,
+    41.592131
+   ],
+   [
+    67.327997,
+    43.407763
+   ],
+   [
+    72.349784,
+    37.604055
+   ]
+  ],
+  "read": 33,
+  "v": 2,
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/tashkent.webp"
+ },
+ "tel_aviv": {
+  "kept": true,
+  "error_km": 11.12,
+  "width_km": 414.4,
+  "names": [
+   "A >",
+   "A a",
+   "Al = VP",
+   "I ‘",
+   "Ns N",
+   "O = Df",
+   "Prs",
+   "Sie",
+   "TAY | ad"
+  ],
+  "corners": [
+   [
+    34.777161,
+    35.310743
+   ],
+   [
+    35.230916,
+    31.603151
+   ],
+   [
+    35.540327,
+    28.028233
+   ],
+   [
+    35.086572,
+    31.878667
+   ]
+  ],
+  "read": 39,
+  "v": 2,
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/tel_aviv.webp"
  }
 }
