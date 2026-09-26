@@ -31,7 +31,7 @@ witness_names, the names of private people.
 
 Rebuilt only when UFOSINT publishes a new release (or with UFOSINT_REBUILD=1).
 """
-import gzip, json, os, pathlib, re, shutil, sqlite3, subprocess, sys, tempfile, time, urllib.request
+import gzip, json, math, os, pathlib, re, shutil, sqlite3, subprocess, sys, tempfile, time, urllib.request
 
 REPO = "https://github.com/UFOSINT/ufosint-explorer"
 DB_URL = f"{REPO}/releases/latest/download/ufo_public.db"
@@ -47,7 +47,16 @@ LEFT_OUT = {"witness_names"}
 # year are one point of the tiles, carrying how many (n), their year (y) and
 # their ids, so the world view is a fifth of the size it was and the map's year
 # bar can filter by year. Nothing is dropped: every sighting is in its point.
-FORMAT = 2
+FORMAT = 3
+# Format 3 (26 September, round 59): the owner found the points slow to load.
+# With every spot in every tile down to the world view, the world tile held all
+# 227,000 spots and their ids. Now the wide views draw sightings summed into
+# squares (BANDS), still by year so the year bar works, each square at the
+# middle of its own sightings rather than at the square's centre; from zoom
+# DETAIL_FROM every spot is drawn as before, with its ids. Nothing is dropped:
+# the squares' counts add up to every sighting, and zooming in shows each one.
+BANDS = [(0, 1, 2.0), (2, 3, 0.5), (4, 5, 0.1)]      # zooms from, to; square size in degrees
+DETAIL_FROM = 6
 UNDATED = -9999
 UA = {"User-Agent": "Culprits atlas build (github.com/WelcomeToYourGalaxy)"}
 
@@ -253,16 +262,39 @@ def main():
 
     tools()
     parts = []
-    one = work / f"{ROW}.pmtiles"
-    sh("tippecanoe", "-o", str(one), "--force", "-q", "-Z0", f"-z{MAXZOOM}", "-r1", "-l", ROW, "--name", ROW,
+    # The wide views: sightings summed by square and year.
+    for lo, hi, cell in BANDS:
+        sq = {}
+        for (x, y, yr, geo), ids in spots.items():
+            k = (math.floor(x / cell), math.floor(y / cell), yr)
+            a = sq.setdefault(k, [0, 0.0, 0.0, 0])
+            n = len(ids)
+            a[0] += n; a[1] += x * n; a[2] += y * n; a[3] += n if geo else 0
+        band = work / f"band{lo}.geojsonl"
+        with open(band, "w", encoding="utf-8") as fo:
+            for (gx, gy, yr), (n, sx, sy, named_n) in sq.items():
+                props = {"y": yr, "n": n, "sq": 1}
+                if named_n:
+                    props["placed_from_place_name"] = named_n
+                fo.write(json.dumps({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(sx / n, 5), round(sy / n, 5)]},
+                                     "properties": props}, separators=(",", ":")) + "\n")
+        name = OUT.name if lo == 0 else f"{ROW}_z{lo}.pmtiles"
+        p = work / name
+        sh("tippecanoe", "-o", str(p), "--force", "-q", f"-Z{lo}", f"-z{hi}", "-r1", "-l", ROW, "--name", ROW,
+           "--no-feature-limit", "--no-tile-size-limit", str(band))
+        print(f"  zooms {lo}-{hi}: {len(sq):,} squares, {p.stat().st_size / 1e6:.1f} MB", flush=True)
+        parts.append({"file": name, "from": lo, "to": hi, "bytes": p.stat().st_size, "_path": p})
+    # Close in: every spot, with its ids, as before.
+    one = work / f"{ROW}_z{DETAIL_FROM}.pmtiles"
+    sh("tippecanoe", "-o", str(one), "--force", "-q", f"-Z{DETAIL_FROM}", f"-z{MAXZOOM}", "-r1", "-l", ROW, "--name", ROW,
        "--no-feature-limit", "--no-tile-size-limit", "--preserve-input-order", str(lines))
     if one.stat().st_size <= LIMIT:
-        parts = [{"file": OUT.name, "from": 0, "to": MAXZOOM, "bytes": one.stat().st_size, "_path": one}]
+        parts.append({"file": one.name, "from": DETAIL_FROM, "to": MAXZOOM, "bytes": one.stat().st_size, "_path": one})
     else:
         print(f"  one file is {one.stat().st_size / 1e6:.0f} MB; one file per zoom instead", flush=True)
         one.unlink()
-        for z in range(0, MAXZOOM + 1):
-            name = OUT.name if z == 0 else f"{ROW}_z{z}.pmtiles"
+        for z in range(DETAIL_FROM, MAXZOOM + 1):
+            name = f"{ROW}_z{z}.pmtiles"
             p = work / name
             sh("tippecanoe", "-o", str(p), "--force", "-q", f"-Z{z}", f"-z{z}", "-r1", "-l", ROW, "--name", ROW,
                "--no-feature-limit", "--no-tile-size-limit", "--preserve-input-order", str(lines))
@@ -289,8 +321,9 @@ def main():
             "years": [min(years), max(years)] if years else None,
             "undated_with_position": sum(len(v) for k, v in spots.items() if k[2] == UNDATED),
             "left_out_columns": sorted(LEFT_OUT), "source": DB_URL}
-    if len(parts) > 1:
-        info["parts"] = parts
+    info["parts"] = parts
+    info["squares"] = [{"zooms": [lo, hi], "degrees": cell} for lo, hi, cell in BANDS]
+    info["detail_from"] = DETAIL_FROM
     STAMP.write_text(json.dumps(info, indent=1))
     print(f"ufosint: {placed:,} drawn and {total - placed:,} without a position, from release {tag}; "
           f"{len(parts)} tile file(s), {len(streams)} pieces")
