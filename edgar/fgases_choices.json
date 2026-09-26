@@ -1,0 +1,104 @@
+{
+ "choices": [
+  {
+   "label": "HFC-125 (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_125.pmtiles"
+  },
+  {
+   "label": "HFC-134 (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_134.pmtiles"
+  },
+  {
+   "label": "HFC-134a (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_134a.pmtiles"
+  },
+  {
+   "label": "HFC-143 (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_143.pmtiles"
+  },
+  {
+   "label": "HFC-143a (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_143a.pmtiles"
+  },
+  {
+   "label": "HFC-152a (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_152a.pmtiles"
+  },
+  {
+   "label": "HFC-227ea (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_227ea.pmtiles"
+  },
+  {
+   "label": "HFC-236fa (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_236fa.pmtiles"
+  },
+  {
+   "label": "HFC-23 (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_23.pmtiles"
+  },
+  {
+   "label": "HFC-245fa (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_245fa.pmtiles"
+  },
+  {
+   "label": "HFC-32 (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_32.pmtiles"
+  },
+  {
+   "label": "HFC-365mfc (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_365mfc.pmtiles"
+  },
+  {
+   "label": "HFC-41 (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_41.pmtiles"
+  },
+  {
+   "label": "HFC-43-10-mee (Hydrofluorocarbons (HFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hfc_43_10_mee.pmtiles"
+  },
+  {
+   "label": "C2F6 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_c2f6.pmtiles"
+  },
+  {
+   "label": "C3F8 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_c3f8.pmtiles"
+  },
+  {
+   "label": "C4F10 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_c4f10.pmtiles"
+  },
+  {
+   "label": "C5F12 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_c5f12.pmtiles"
+  },
+  {
+   "label": "C6F14 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_c6f14.pmtiles"
+  },
+  {
+   "label": "CF4 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_cf4.pmtiles"
+  },
+  {
+   "label": "c-C4F8 (Perfluorocarbons (PFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_c_c4f8.pmtiles"
+  },
+  {
+   "label": "Sulphur hexafluoride (SF6)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_sf6.pmtiles"
+  },
+  {
+   "label": "Nitrogen trifluoride (NF3)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_nf3.pmtiles"
+  },
+  {
+   "label": "HCFC-141b (Hydrochlorofluorocarbons (HCFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hcfc_141b.pmtiles"
+  },
+  {
+   "label": "HCFC-142b (Hydrochlorofluorocarbons (HCFCs))",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/edgar_fgases_hcfc_142b.pmtiles"
+  }
+ ]
+}

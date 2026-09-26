@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_rice_cultivation.pmtiles",
+   "from": 0,
+   "to": 10,
+   "bytes": 89130056
+  },
+  {
+   "file": "climate_trace_co2_rice_cultivation_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 64618253
+  }
+ ],
+ "zoom": 12
+}

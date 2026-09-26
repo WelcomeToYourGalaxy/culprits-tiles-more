@@ -1,0 +1,380 @@
+{
+ "elementFormDefault": "qualified",
+ "targetNamespace": "https://staging.nusantara-atlas.org",
+ "targetPrefix": "atlas-workspace-v3",
+ "featureTypes": [
+  {
+   "typeName": "millopbufferpolyloreal_spv",
+   "properties": [
+    {
+     "name": "ogc_fid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:int",
+     "localType": "int"
+    },
+    {
+     "name": "millid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:int",
+     "localType": "int"
+    },
+    {
+     "name": "cid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:int",
+     "localType": "int"
+    },
+    {
+     "name": "umlid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "name",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "mill_name",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "groupcom",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "prevgroup",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "acqyear",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:int",
+     "localType": "int"
+    },
+    {
+     "name": "certified",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "method",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "district",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "province",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "country",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "region",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "doclink",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "status",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "locstatus",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "locstatsor",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "lon",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "lat",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "verified",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "rspo",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "ispo",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "spottgroup",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "spotturl",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "url",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "uid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "areaha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "shape_length",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "shape_area",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "geom",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "gml:MultiPolygon",
+     "localType": "MultiPolygon"
+    },
+    {
+     "name": "peatareaha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "peatareaprop",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "rspostatus",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "rspotype",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "parentcom",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "rspocert",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "t2019",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "l2019",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "l2020",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "l2021",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "l2021ex",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "loreal",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "remforestha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "remforestprop",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    }
+   ]
+  }
+ ]
+}

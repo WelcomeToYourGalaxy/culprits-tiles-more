@@ -1,0 +1,25 @@
+{
+ "release": "v0.17.0",
+ "rows": 702572,
+ "alerts_with_position": 493845,
+ "no_position": 208727,
+ "placed_from_place_name": 200177,
+ "by_source_database": {
+  "UFOCAT": 320412,
+  "UPDB": 296956,
+  "UFO-search": 54751,
+  "Capella": 30453
+ },
+ "points_merged": "only sightings at the same spot in the same year",
+ "spots": 227516,
+ "format": 2,
+ "years": [
+  19,
+  2023
+ ],
+ "undated_with_position": 1188,
+ "left_out_columns": [
+  "witness_names"
+ ],
+ "source": "https://github.com/UFOSINT/ufosint-explorer/releases/latest/download/ufo_public.db"
+}

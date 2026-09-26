@@ -1,0 +1,107 @@
+{
+ "source": "https://zenodo.org/records/20396072/files/global_forest_management_2020_100m_v1.tif",
+ "record": "https://zenodo.org/records/20396072",
+ "licence": "CC BY 4.0",
+ "classes": [
+  {
+   "value": 11,
+   "colour": "#4F6B55",
+   "name": "Unmanaged natural forests (including primary forests)"
+  },
+  {
+   "value": 20,
+   "colour": "#8C5A68",
+   "name": "Naturally regenerated forests with visible human activity"
+  },
+  {
+   "value": 31,
+   "colour": "#6E6A55",
+   "name": "Planted forest"
+  },
+  {
+   "value": 32,
+   "colour": "#8A7E6A",
+   "name": "Plantation forest"
+  },
+  {
+   "value": 33,
+   "colour": "#7A6A72",
+   "name": "Rubber plantation"
+  },
+  {
+   "value": 40,
+   "colour": "#B07F86",
+   "name": "Oil palm plantations"
+  },
+  {
+   "value": 50,
+   "colour": "#A39C92",
+   "name": "Tree crops (monocultures)"
+  },
+  {
+   "value": 53,
+   "colour": "#6F7F72",
+   "name": "Agroforestry"
+  },
+  {
+   "value": 100,
+   "colour": "#5E6D78",
+   "name": "Other trees"
+  }
+ ],
+ "max_zoom": 9,
+ "squares": 61395,
+ "values_without_class": [
+  1
+ ],
+ "parts": [
+  {
+   "file": "forest_management.pmtiles",
+   "from": 0,
+   "to": 7,
+   "bytes": 30995587
+  },
+  {
+   "file": "forest_management_z8.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 79380552
+  },
+  {
+   "file": "forest_management_z9_x0.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 94396364,
+   "bounds": [
+    -180.0,
+    -85.051129,
+    -2.8125,
+    85.051129
+   ]
+  },
+  {
+   "file": "forest_management_z9_x252.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 93960299,
+   "bounds": [
+    -2.8125,
+    -85.051129,
+    80.859375,
+    85.051129
+   ]
+  },
+  {
+   "file": "forest_management_z9_x371.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 83140713,
+   "bounds": [
+    80.859375,
+    -85.051129,
+    180.0,
+    85.051129
+   ]
+  }
+ ]
+}

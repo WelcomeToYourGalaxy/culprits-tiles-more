@@ -1,0 +1,13 @@
+{
+ "data": {
+  "created_on": "2025-09-19T15:55:40.715258",
+  "updated_on": "2025-09-19T15:55:40.715262",
+  "dataset": "wur_integration_alert_drivers_date",
+  "is_downloadable": true,
+  "metadata": {},
+  "versions": [
+   "v20250925"
+  ]
+ },
+ "status": "success"
+}

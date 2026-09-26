@@ -1,0 +1,77 @@
+# Applies the patch files uploaded to patches/ on github.com, so a round needs
+# nothing on the owner's computer. Each patch is run and the result saved with
+# the patch file removed. A patch that fails is moved to patches/failed/ and
+# nothing else it did is kept; the run then shows red with the reason in its log.
+name: apply-patch
+on:
+  push:
+    branches: [main]
+    paths: ["patches/*.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: apply-patch
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Apply and save
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -u
+          git config user.name "apply-patch"
+          git config user.email "actions@users.noreply.github.com"
+          shopt -s nullglob
+          ran=0; bad=0
+          for p in patches/*.py; do
+            ran=1
+            name=$(basename "$p")
+            echo "::group::$p"
+            if python3 "$p"; then
+              echo "::endgroup::"
+              find . -path ./.git -prune -o -name __pycache__ -type d -print0 | xargs -0 rm -rf
+              git rm -q "$p"
+              git add -A
+              git commit -q -m "Apply $name" || true
+              echo "Applied $name."
+            else
+              echo "::endgroup::"
+              git reset -q --hard HEAD
+              git clean -q -fd
+              mkdir -p patches/failed
+              git mv "$p" "patches/failed/$name"
+              git commit -q -m "Could not apply $name"
+              echo "::error::$name did not apply; moved to patches/failed/. Nothing else it did was kept."
+              bad=1
+            fi
+          done
+          [ $ran = 1 ] || { echo "No patches waiting."; exit 0; }
+          for i in 1 2 3 4 5 6 7 8; do
+            if git pull -q --rebase origin main && git push -q origin HEAD:main; then
+              echo "Saved."
+              gh api -X POST "repos/$REPO/pages/builds" >/dev/null 2>&1 || echo "Pages will republish on its own."
+              exit $bad
+            fi
+            git rebase --abort >/dev/null 2>&1 || true
+            sleep $((RANDOM % 20 + 5))
+          done
+          echo "::error::Could not save after 8 tries."
+          exit 1

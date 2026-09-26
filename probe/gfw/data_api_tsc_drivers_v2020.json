@@ -1,0 +1,20 @@
+{
+ "data": {
+  "created_on": "2021-04-09T19:37:30.670842",
+  "updated_on": "2022-02-10T16:28:30.895522",
+  "dataset": "tsc_drivers",
+  "version": "v2020",
+  "is_latest": true,
+  "is_mutable": false,
+  "metadata": {},
+  "status": "saved",
+  "assets": [
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_drivers/v2020/raster/epsg-4326/10/40000/drivers/geotiff/{tile_id}.tif",
+    "71c46a33-c870-4fdd-bea9-fa2ec51bc1e9"
+   ]
+  ]
+ },
+ "status": "success"
+}

@@ -1,0 +1,199 @@
+{
+ "co2": {
+  "name": "carbon dioxide",
+  "archives": [
+   {
+    "id": "climate_trace_co2_crop_residues",
+    "subsector": "crop_residues",
+    "label": "crop residues",
+    "sector": "agriculture",
+    "bytes": 157029916,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_co2_cropland_fires",
+    "subsector": "cropland_fires",
+    "label": "cropland fires",
+    "sector": "agriculture",
+    "bytes": 157320555,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_co2_forest_land_clearing",
+    "subsector": "forest_land_clearing",
+    "label": "forest land clearing",
+    "sector": "forestry_and_land_use",
+    "bytes": 191957126,
+    "files": 3
+   },
+   {
+    "id": "climate_trace_co2_forest_land_degradation",
+    "subsector": "forest_land_degradation",
+    "label": "forest land degradation",
+    "sector": "forestry_and_land_use",
+    "bytes": 162987067,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_co2_manure_applied_to_soils",
+    "subsector": "manure_applied_to_soils",
+    "label": "manure applied to soils",
+    "sector": "agriculture",
+    "bytes": 159211154,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_co2_net_forest_land",
+    "subsector": "net_forest_land",
+    "label": "net forest land",
+    "sector": "forestry_and_land_use",
+    "bytes": 183736253,
+    "files": 3
+   },
+   {
+    "id": "climate_trace_co2_non_residential_onsite_fuel_usage",
+    "subsector": "non_residential_onsite_fuel_usage",
+    "label": "non residential onsite fuel usage",
+    "sector": "buildings",
+    "bytes": 287415979,
+    "files": 4
+   },
+   {
+    "id": "climate_trace_co2_rice_cultivation",
+    "subsector": "rice_cultivation",
+    "label": "rice cultivation",
+    "sector": "agriculture",
+    "bytes": 153748309,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_co2_synthetic_fertilizer_application",
+    "subsector": "synthetic_fertilizer_application",
+    "label": "synthetic fertilizer application",
+    "sector": "agriculture",
+    "bytes": 160477999,
+    "files": 2
+   }
+  ],
+  "units": {
+   "agriculture/crop_residues": {
+    "built": 1790293031,
+    "archives": [
+     "climate_trace_co2_crop_residues"
+    ]
+   },
+   "agriculture/crop_residues_raster": {
+    "checked": 1790293036
+   },
+   "agriculture/cropland_fires": {
+    "built": 1790293997,
+    "archives": [
+     "climate_trace_co2_cropland_fires"
+    ]
+   },
+   "agriculture/cropland_fires_raster": {
+    "checked": 1790294002
+   },
+   "agriculture/enteric_fermentation_cattle_operation": {
+    "built": 1790298980,
+    "archives": []
+   },
+   "agriculture/enteric_fermentation_cattle_pasture": {
+    "built": 1790310299,
+    "archives": []
+   },
+   "agriculture/enteric_fermentation_cattle_pasture_raster": {
+    "checked": 1790310302
+   },
+   "agriculture/enteric_fermentation_other": {
+    "checked": 1790310306
+   },
+   "agriculture/manure_applied_to_soils": {
+    "built": 1790339170,
+    "archives": [
+     "climate_trace_co2_manure_applied_to_soils"
+    ]
+   },
+   "agriculture/manure_applied_to_soils_raster": {
+    "checked": 1790339174
+   },
+   "agriculture/manure_left_on_pasture_cattle": {
+    "built": 1790340144,
+    "archives": []
+   },
+   "agriculture/manure_left_on_pasture_cattle_raster": {
+    "checked": 1790340148
+   },
+   "agriculture/manure_management_cattle_operation": {
+    "built": 1790345464,
+    "archives": []
+   },
+   "agriculture/manure_management_other": {
+    "checked": 1790384681
+   },
+   "agriculture/other_agricultural_soil_emissions": {
+    "checked": 1790384684
+   },
+   "agriculture/rice_cultivation": {
+    "built": 1790385605,
+    "archives": [
+     "climate_trace_co2_rice_cultivation"
+    ]
+   },
+   "agriculture/rice_cultivation_raster": {
+    "checked": 1790385609
+   },
+   "agriculture/synthetic_fertilizer_application": {
+    "built": 1790386605,
+    "archives": [
+     "climate_trace_co2_synthetic_fertilizer_application"
+    ]
+   },
+   "agriculture/synthetic_fertilizer_application_raster": {
+    "checked": 1790386609
+   },
+   "buildings/non_residential_onsite_fuel_usage": {
+    "built": 1790387923,
+    "archives": [
+     "climate_trace_co2_non_residential_onsite_fuel_usage"
+    ]
+   },
+   "buildings/non_residential_onsite_fuel_usage_raster": {
+    "checked": 1790387925
+   },
+   "buildings/other_onsite_fuel_usage": {
+    "checked": 1790387927
+   },
+   "buildings/residential_onsite_fuel_usage": {
+    "built": 1790389428,
+    "archives": []
+   },
+   "buildings/residential_onsite_fuel_usage_raster": {
+    "checked": 1790423649
+   },
+   "forestry_and_land_use/forest_land_clearing": {
+    "built": 1790424789,
+    "archives": [
+     "climate_trace_co2_forest_land_clearing"
+    ]
+   },
+   "forestry_and_land_use/forest_land_degradation": {
+    "built": 1790425743,
+    "archives": [
+     "climate_trace_co2_forest_land_degradation"
+    ]
+   },
+   "forestry_and_land_use/forest_land_fires": {
+    "built": 1790426698,
+    "archives": []
+   },
+   "forestry_and_land_use/net_forest_land": {
+    "built": 1790427809,
+    "archives": [
+     "climate_trace_co2_net_forest_land"
+    ]
+   }
+  },
+  "built": 1790427809
+ }
+}

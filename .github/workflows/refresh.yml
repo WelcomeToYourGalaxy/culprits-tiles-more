@@ -1,0 +1,110 @@
+# Keeps the maps this repo serves in step with their sources, every day.
+#
+# Each script in scripts/ runs as its own job and saves its own results as soon
+# as it finishes. Before, everything was saved only at the very end, so one slow
+# build (the mines) running past the time limit, or one failure, threw away what
+# every other script had done - which is why the Google My Maps address lookups
+# never got published. Now a script that fails or runs long costs only itself.
+#
+# To run some of them by hand: Actions > refresh > Run workflow, and type their
+# names in the box, separated by spaces or commas (for example: mines slicks
+# mymaps_geocode). Leave the box empty to run all. A name with no script behind
+# it stops the run and says which, rather than quietly running nothing.
+name: refresh
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Scripts to run, separated by spaces or commas (names without .py); empty runs all"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      scripts: ${{ steps.s.outputs.scripts }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: s
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, pathlib, re
+          asked = [n.removesuffix(".py") for n in re.split(r"[\s,]+", (os.environ.get("ONLY") or "").strip()) if n]
+          names = sorted(p.stem for p in pathlib.Path("scripts").glob("*.py"))
+          missing = [n for n in asked if n not in names]
+          if missing:
+              raise SystemExit("no script named: " + ", ".join(missing))
+          if asked:
+              names = [n for n in names if n in asked]
+          print("scripts=" + json.dumps(names))
+          PY
+
+  script:
+    needs: list
+    if: needs.list.outputs.scripts != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        name: ${{ fromJson(needs.list.outputs.scripts) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run ${{ matrix.name }}
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: timeout 160m python3 "scripts/${{ matrix.name }}.py"
+      - name: Save what it made
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: bash .github/save.sh "Refresh, ${{ matrix.name }}"
+
+  sitemaps:
+    needs: list
+    if: github.event.inputs.only == '' || github.event.inputs.only == null
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: The site's own maps on GitHub
+        run: |
+          git clone --depth 1 https://github.com/WelcomeToYourGalaxy/culprits.git "$RUNNER_TEMP/culprits"
+          cd "$RUNNER_TEMP/culprits"
+          IDS=$(python3 -c 'import json; print(",".join(m["id"] for m in json.load(open("pipeline/sitemaps/registry.json"))["maps"] if m.get("url") and m["id"] not in ("carbon_majors", "site_environment_law")))')
+          python3 pipeline/sitemaps/build_boxes.py "$IDS"
+          mkdir -p "$GITHUB_WORKSPACE/sitemaps"
+          cp map/data/sitemaps/*.places.geojson map/data/sitemaps/*.boxes.json "$GITHUB_WORKSPACE/sitemaps/"
+      - name: Save what it made
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: bash .github/save.sh "Refresh, the site's own maps"

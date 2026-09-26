@@ -1,0 +1,29 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_non_residential_onsite_fuel_usage.pmtiles",
+   "from": 0,
+   "to": 8,
+   "bytes": 75866334
+  },
+  {
+   "file": "climate_trace_co2_non_residential_onsite_fuel_usage_2.pmtiles",
+   "from": 9,
+   "to": 10,
+   "bytes": 92549937
+  },
+  {
+   "file": "climate_trace_co2_non_residential_onsite_fuel_usage_3.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 57348122
+  },
+  {
+   "file": "climate_trace_co2_non_residential_onsite_fuel_usage_4.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 61651586
+  }
+ ],
+ "zoom": 12
+}

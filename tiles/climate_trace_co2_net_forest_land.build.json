@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_net_forest_land.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 80893178
+  },
+  {
+   "file": "climate_trace_co2_net_forest_land_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 64001195
+  },
+  {
+   "file": "climate_trace_co2_net_forest_land_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 38841880
+  }
+ ],
+ "zoom": 12
+}
