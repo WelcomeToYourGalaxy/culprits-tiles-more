@@ -36,6 +36,9 @@ def main():
         tpl = (props.get("urls") or {}).get("datalayer_view") or "/en/datalayer/{map_id}/{pk}/"
         here = OUT / str(mid)
         here.mkdir(parents=True, exist_ok=True)
+        # The map's own settings too (round 61): read live, they failed on the
+        # owner's screen and the whole row with them.
+        (here / "map.json").write_text(json.dumps(m, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         for dl in props.get("datalayers") or m.get("datalayers") or []:
             lid = dl.get("id") or dl.get("uuid") or dl.get("pk") if isinstance(dl, dict) else dl
             if not lid:
