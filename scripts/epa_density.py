@@ -39,10 +39,12 @@ BUILD = TILES / "epa_efpoints.build.json"
 INDEX = TILES / "epa_density.json"
 TOP = 5
 SIZE = 256
-# Colour by the number of points in a pixel: the map's GLAD-S2 range, from a
-# deep indigo for one point to a pale cyan where hundreds share a pixel.
+# Colour by the number of points in a pixel: neon blue for one point through
+# cyan to neon green and pale mint where hundreds share a pixel (round 82b: the
+# owner's 80s neon greens and blues; was indigo to cyan).
 STEPS = [1, 3, 10, 30, 100, 300]
-RAMP = [(46, 52, 150, 170), (52, 80, 190, 195), (58, 118, 214, 215), (70, 160, 222, 230), (120, 200, 232, 240), (200, 238, 246, 250)]
+RAMP = [(20, 90, 255, 190), (0, 150, 255, 205), (0, 210, 240, 220), (0, 255, 190, 232), (90, 255, 120, 242), (215, 255, 225, 250)]
+PALETTE = "neon-1"
 
 
 def source_path():
@@ -58,7 +60,7 @@ def source_path():
 def main():
     # The points' build list names every file and its size; the pictures are
     # made again only when that changes.
-    sig = BUILD.read_text() if BUILD.exists() else ""
+    sig = PALETTE + (BUILD.read_text() if BUILD.exists() else "")
     try:
         was = json.loads(INDEX.read_text()).get("from", None) if INDEX.exists() else None
     except Exception:  # noqa: BLE001
