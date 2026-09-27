@@ -58,7 +58,11 @@ def latest():
             if "fleet and marine tracker" in t.lower():
                 link = text(re.search(r"<link>([\s\S]*?)</link>", item).group(1))
                 date = (re.search(r"/(\d{4})/(\d\d)/(\d\d)/", link) or None)
-                return t, link, "-".join(date.groups()) if date else ""
+                # The article's own words ride in the feed (content:encoded); the
+                # article page itself answers 403 to the refresh (27 September).
+                enc = re.search(r"<content:encoded>([\s\S]*?)</content:encoded>", item)
+                body = enc.group(1).replace("<![CDATA[", "").replace("]]>", "") if enc else ""
+                return t, link, "-".join(date.groups()) if date else "", body
     raise RuntimeError("no Fleet and Marine Tracker article in the feeds")
 
 
@@ -73,9 +77,24 @@ def place(heading):
     return None
 
 
+def article(link, body):
+    """The article's HTML: from the feed, else WordPress's own API, else the page."""
+    if body and "<h" in body:
+        return body
+    slug = link.rstrip("/").rsplit("/", 1)[-1]
+    try:
+        posts = json.loads(get(f"https://news.usni.org/wp-json/wp/v2/posts?slug={slug}"))
+        if posts and posts[0].get("content", {}).get("rendered"):
+            return posts[0]["content"]["rendered"]
+    except Exception as e:  # noqa: BLE001
+        print(f"  WordPress API: {e}", file=sys.stderr)
+    req = urllib.request.Request(link, headers=dict(UA, **{"Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9"}))
+    return urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+
+
 def main():
-    title, link, date = latest()
-    page = get(link)
+    title, link, date, fed = latest()
+    page = article(link, fed)
     body = re.search(r'<div class="entry-content[^"]*">([\s\S]*?)</div>\s*<(?:footer|div class="(?:sharedaddy|entry-meta))', page)
     body = body.group(1) if body else page
     parts = re.split(r"<h[2-4][^>]*>([\s\S]*?)</h[2-4]>", body)
