@@ -1,0 +1,38 @@
+{
+ "n2o": {
+  "name": "nitrous oxide",
+  "archives": [
+   {
+    "id": "climate_trace_n2o_crop_residues",
+    "subsector": "crop_residues",
+    "label": "crop residues",
+    "sector": "agriculture",
+    "bytes": 260002543,
+    "files": 4
+   }
+  ],
+  "units": {
+   "agriculture/crop_residues": {
+    "built": 1790513887,
+    "archives": [
+     "climate_trace_n2o_crop_residues"
+    ]
+   },
+   "agriculture/crop_residues_raster": {
+    "checked": 1790513893
+   },
+   "agriculture/cropland_fires": {
+    "built": 1790515016,
+    "archives": []
+   },
+   "agriculture/cropland_fires_raster": {
+    "checked": 1790515020
+   },
+   "agriculture/enteric_fermentation_cattle_operation": {
+    "built": 1790519958,
+    "archives": []
+   }
+  },
+  "built": 1790519958
+ }
+}

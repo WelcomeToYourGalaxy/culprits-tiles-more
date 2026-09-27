@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_forest_land_clearing.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 84547856
+  },
+  {
+   "file": "climate_trace_co2_forest_land_clearing_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 66901533
+  },
+  {
+   "file": "climate_trace_co2_forest_land_clearing_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 40507737
+  }
+ ],
+ "zoom": 12
+}

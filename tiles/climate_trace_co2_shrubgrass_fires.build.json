@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_shrubgrass_fires.pmtiles",
+   "from": 0,
+   "to": 10,
+   "bytes": 93907817
+  },
+  {
+   "file": "climate_trace_co2_shrubgrass_fires_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 67366142
+  }
+ ],
+ "zoom": 12
+}

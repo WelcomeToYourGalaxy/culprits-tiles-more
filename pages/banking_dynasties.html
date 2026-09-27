@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Banking Dynasties | Dark Theme Edition</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          onerror="this.onerror=null;this.href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css'" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #c4c4c4;
+            padding: 0;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        
+        .container {
+            max-width: 1900px;
+            margin: 0 auto;
+            padding: 40px 30px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 12px;
+            color: #ffffff;
+            font-weight: 200;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .subtitle {
+            font-size: 1em;
+            color: #808080;
+            font-weight: 300;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .chart-container {
+            background: #121212;
+            border: 1px solid #1a1a1a;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #ffffff;
+            margin-bottom: 30px;
+            font-size: 1.4em;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #2a2a2a;
+            padding-bottom: 15px;
+        }
+        
+        .timeline-svg {
+            width: 100%;
+            height: 1200px;
+            background: #0a0a0a;
+            overflow: visible;
+        }
+        
+        .era-bg {
+            opacity: 0.03;
+        }
+        
+        .era-label {
+            font-size: 10px;
+            font-weight: 400;
+            fill: #505050;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .family-line {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .family-line:hover {
+            filter: brightness(1.3);
+        }
+        
+        .family-label {
+            font-size: 10px;
+            fill: #c4c4c4;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+        
+        .year-label {
+            font-size: 10px;
+            fill: #606060;
+            font-weight: 300;
+        }
+        
+        .axis-line {
+            stroke: #2a2a2a;
+            stroke-width: 1;
+        }
+        
+        .grid-line {
+            stroke: #1a1a1a;
+            stroke-width: 1;
+            stroke-dasharray: 2,4;
+        }
+        
+        .peak-glow {
+            filter: drop-shadow(0 0 8px currentColor);
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px 0;
+            padding: 25px;
+            background: #0a0a0a;
+            border: 1px solid #1a1a1a;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .legend-line {
+            width: 40px;
+            height: 2px;
+        }
+        
+        .legend-text {
+            font-size: 11px;
+            color: #808080;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2px;
+            margin: 0 0 50px 0;
+            background: #1a1a1a;
+        }
+        
+        .stat-card {
+            background: #0a0a0a;
+            padding: 35px 25px;
+            text-align: center;
+            border: 1px solid #1a1a1a;
+        }
+        
+        .stat-number {
+            font-size: 3.5em;
+            color: #ffffff;
+            font-weight: 200;
+        }
+        
+        .stat-label {
+            font-size: 0.75em;
+            color: #606060;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+        
+        .tooltip {
+            position: absolute;
+            background: #000000;
+            border: 1px solid #2a2a2a;
+            padding: 20px;
+            display: none;
+            z-index: 1000;
+            max-width: 400px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.9);
+            font-size: 12px;
+        }
+        
+        .tooltip h3 {
+            color: #ffffff;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        
+        .tooltip p {
+            margin: 8px 0;
+            font-size: 0.9em;
+            color: #808080;
+            line-height: 1.6;
+        }
+        
+        .tooltip strong {
+            color: #c4c4c4;
+            font-weight: 400;
+        }
+        
+        canvas {
+            max-height: 500px;
+        }
+        
+        .dot-start, .dot-end {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .dot-start:hover, .dot-end:hover {
+            r: 6;
+            filter: brightness(1.5);
+        }
+        
+        .power-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+            margin-top: 30px;
+        }
+        
+        .family-card {
+            background: #0a0a0a;
+            border: 1px solid #2a2a2a;
+            padding: 20px;
+            transition: all 0.2s ease;
+        }
+        
+        .family-card:hover {
+            border-color: #404040;
+            background: #0f0f0f;
+        }
+        
+        .family-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        
+        .family-card-title {
+            font-size: 1.1em;
+            color: #ffffff;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
+        .family-card-period {
+            font-size: 0.8em;
+            color: #606060;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .city-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .city-tag {
+            background: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            padding: 5px 10px;
+            font-size: 0.8em;
+            color: #808080;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Global Banking Dynasties</h1>
+            <div class="subtitle">Analysis 1250-2025</div>
+        </header>
+
+        <!-- Main Timeline -->
+        <div class="chart-container">
+            <h2>Chronological Timeline of Banking Dynasties</h2>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #6B4423;"></div>
+                    <span class="legend-text">Medieval (1250-1400)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #8B7355;"></div>
+                    <span class="legend-text">Renaissance (1400-1700)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #6B5B4F;"></div>
+                    <span class="legend-text">Early Modern (1700-1850)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #5B6B7D;"></div>
+                    <span class="legend-text">Industrial (1850-1950)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #7D8B8B;"></div>
+                    <span class="legend-text">Modern (1950+)</span>
+                </div>
+            </div>
+            
+            <svg id="mainTimeline" class="timeline-svg"></svg>
+        </div>
+
+        <!-- Geographic Influence Timeline -->
+        <div class="chart-container">
+            <h2>Global Empire: Geographic Reach & Influence</h2>
+            <div style="margin-bottom: 20px; color: #808080; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">
+                Primary Operations Centers and Regional Influence Over Time
+            </div>
+            <svg id="geographicTimeline" class="timeline-svg" style="height: 1000px;"></svg>
+        </div>
+
+        <!-- City & Continent Breakdown -->
+        <div class="chart-container">
+            <h2>Global Operations Map</h2>
+            <div style="margin-bottom: 20px; color: #808080; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">
+                Interactive satellite view of all major banking centers across 775 years · Each marker represents a family's operations hub
+            </div>
+            <div id="worldMap" style="height: 700px; width: 100%; background: #0a0a0a; border: 1px solid #2a2a2a; border-radius: 2px;"></div>
+            <div id="mapLegend" style="margin-top: 25px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;"></div>
+        </div>
+
+        <!-- Power Comparison Charts -->
+        <div class="chart-container">
+            <h2>Peak Wealth Comparison (Inflation-Adjusted Billions USD)</h2>
+            <canvas id="wealthChart"></canvas>
+        </div>
+
+        <div class="power-grid">
+            <div class="chart-container">
+                <h2>Banks Owned at Peak</h2>
+                <canvas id="banksChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Properties Owned at Peak</h2>
+                <canvas id="propertiesChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>Peak Workforce Size</h2>
+            <canvas id="employeesChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>Dynasty Longevity Comparison (Years Active)</h2>
+            <canvas id="longevityChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>Concurrent Dynasty Activity</h2>
+            <canvas id="overlapChart"></canvas>
+        </div>
+
+        <div class="tooltip" id="tooltip"></div>
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0"></script>
+    
+    <!-- Leaflet with multiple CDN fallbacks -->
+    <script>
+        // Try primary CDN
+        (function() {
+            var script = document.createElement('script');
+            script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+            script.onerror = function() {
+                console.log('Primary Leaflet CDN failed, trying backup...');
+                // Try backup CDN
+                var backup = document.createElement('script');
+                backup.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js';
+                backup.onerror = function() {
+                    console.log('Backup Leaflet CDN also failed, trying third option...');
+                    // Try third CDN
+                    var third = document.createElement('script');
+                    third.src = 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js';
+                    document.head.appendChild(third);
+                };
+                document.head.appendChild(backup);
+            };
+            document.head.appendChild(script);
+        })();
+    </script>
+
+    <script>
+        // Comprehensive banking families data with geographic influence
+        const families = [
+            {name: "Bardi", founded: 1250, peak_start: 1290, peak_end: 1340, decline: 1345, color: "#6B4423", era: "Medieval", origin: "Florence", wealth: 15, banks: 13, properties: 50, employees: 2000, 
+             geographic: {cities: ["Florence", "London", "Paris", "Naples", "Bruges", "Barcelona", "Avignon"], continents: 1, peak_cities: 13}},
+            {name: "Peruzzi", founded: 1275, peak_start: 1300, peak_end: 1340, decline: 1343, color: "#7B5433", era: "Medieval", origin: "Florence", wealth: 12, banks: 11, properties: 45, employees: 1800,
+             geographic: {cities: ["Florence", "London", "Paris", "Naples", "Bruges", "Avignon"], continents: 1, peak_cities: 11}},
+            {name: "Medici", founded: 1397, peak_start: 1434, peak_end: 1494, decline: 1737, color: "#8B7355", era: "Renaissance", origin: "Florence", wealth: 120, banks: 16, properties: 200, employees: 5000,
+             geographic: {cities: ["Florence", "Rome", "Venice", "Milan", "Geneva", "Lyon", "Bruges", "London"], continents: 1, peak_cities: 16}},
+            {name: "Fugger", founded: 1367, peak_start: 1495, peak_end: 1560, decline: 1600, color: "#9B8B7D", era: "Renaissance", origin: "Augsburg", wealth: 400, banks: 12, properties: 150, employees: 8000,
+             geographic: {cities: ["Augsburg", "Antwerp", "Rome", "Vienna", "Innsbruck", "Venice", "Lisbon", "Madrid"], continents: 1, peak_cities: 12}},
+            {name: "Welser", founded: 1246, peak_start: 1520, peak_end: 1560, decline: 1614, color: "#AB9B8D", era: "Renaissance", origin: "Augsburg", wealth: 180, banks: 10, properties: 150, employees: 4000,
+             geographic: {cities: ["Augsburg", "Antwerp", "Seville", "Santo Domingo", "Caracas"], continents: 3, peak_cities: 10}},
+            {name: "Hochstetter", founded: 1450, peak_start: 1520, peak_end: 1560, decline: 1570, color: "#8B837D", era: "Renaissance", origin: "Augsburg", wealth: 45, banks: 7, properties: 80, employees: 2500,
+             geographic: {cities: ["Augsburg", "Antwerp", "Rome", "Venice"], continents: 1, peak_cities: 7}},
+            {name: "Mitsui", founded: 1673, peak_start: 1890, peak_end: 1940, decline: 2025, color: "#7B6B5F", era: "Early Modern", origin: "Tokyo", wealth: 165, banks: 12, properties: 800, employees: 80000,
+             geographic: {cities: ["Tokyo", "Osaka", "Kyoto", "Shanghai", "Seoul", "Hong Kong", "London", "New York"], continents: 3, peak_cities: 45}},
+            {name: "Hope", founded: 1734, peak_start: 1780, peak_end: 1820, decline: 1923, color: "#7B7B6F", era: "Early Modern", origin: "Amsterdam", wealth: 85, banks: 6, properties: 200, employees: 3000,
+             geographic: {cities: ["Amsterdam", "London", "Paris"], continents: 1, peak_cities: 6}},
+            {name: "Rothschild", founded: 1760, peak_start: 1815, peak_end: 1900, decline: 2025, color: "#6B5B4F", era: "Early Modern", origin: "Frankfurt", wealth: 500, banks: 25, properties: 1800, employees: 15000,
+             geographic: {cities: ["Frankfurt", "London", "Paris", "Vienna", "Naples", "Berlin", "New York", "Geneva", "Zurich"], continents: 2, peak_cities: 41}},
+            {name: "Barings", founded: 1762, peak_start: 1810, peak_end: 1890, decline: 1995, color: "#8B7B6F", era: "Early Modern", origin: "London", wealth: 180, banks: 8, properties: 400, employees: 6000,
+             geographic: {cities: ["London", "Liverpool", "Boston", "Buenos Aires", "Hong Kong", "Shanghai"], continents: 4, peak_cities: 15}},
+            {name: "Bischoffsheim", founded: 1785, peak_start: 1850, peak_end: 1900, decline: 1920, color: "#7B6B5F", era: "Industrial", origin: "Mainz", wealth: 22, banks: 5, properties: 150, employees: 2000,
+             geographic: {cities: ["Mainz", "Paris", "Brussels", "London"], continents: 1, peak_cities: 8}},
+            {name: "Mallet", founded: 1713, peak_start: 1850, peak_end: 1950, decline: 1988, color: "#8B8B7F", era: "Early Modern", origin: "Geneva", wealth: 15, banks: 3, properties: 90, employees: 1000,
+             geographic: {cities: ["Geneva", "Paris", "London"], continents: 1, peak_cities: 5}},
+            {name: "Fould", founded: 1780, peak_start: 1850, peak_end: 1900, decline: 1950, color: "#6B6B5F", era: "Industrial", origin: "Paris", wealth: 18, banks: 4, properties: 120, employees: 1500,
+             geographic: {cities: ["Paris", "London", "Brussels", "Frankfurt"], continents: 1, peak_cities: 6}},
+            {name: "Warburg", founded: 1798, peak_start: 1890, peak_end: 1930, decline: 2025, color: "#6B7B8D", era: "Industrial", origin: "Hamburg", wealth: 45, banks: 12, properties: 300, employees: 8000,
+             geographic: {cities: ["Hamburg", "Amsterdam", "London", "New York", "Stockholm"], continents: 2, peak_cities: 18}},
+            {name: "Pictet", founded: 1805, peak_start: 1900, peak_end: 2025, decline: 2025, color: "#8B9B9B", era: "Industrial", origin: "Geneva", wealth: 700, banks: 28, properties: 300, employees: 5400,
+             geographic: {cities: ["Geneva", "Zurich", "Paris", "London", "Luxembourg", "Singapore", "Hong Kong", "Dubai"], continents: 4, peak_cities: 28}},
+            {name: "Morgan", founded: 1812, peak_start: 1871, peak_end: 1913, decline: 2025, color: "#5B6B7D", era: "Industrial", origin: "Hartford", wealth: 57, banks: 21, properties: 800, employees: 50000,
+             geographic: {cities: ["New York", "London", "Paris", "Philadelphia", "Boston", "Chicago"], continents: 2, peak_cities: 35}},
+            {name: "Brown Brothers", founded: 1818, peak_start: 1850, peak_end: 1930, decline: 2025, color: "#7B8B9D", era: "Industrial", origin: "Philadelphia", wealth: 25, banks: 5, properties: 200, employees: 3000,
+             geographic: {cities: ["Philadelphia", "New York", "Boston", "Baltimore", "London"], continents: 2, peak_cities: 12}},
+            {name: "Hambros", founded: 1839, peak_start: 1900, peak_end: 1970, decline: 1998, color: "#8B9BAD", era: "Industrial", origin: "Copenhagen", wealth: 12, banks: 4, properties: 100, employees: 2000,
+             geographic: {cities: ["Copenhagen", "London", "Stockholm", "Oslo"], continents: 1, peak_cities: 8}},
+            {name: "Lazard", founded: 1848, peak_start: 1900, peak_end: 2025, decline: 2025, color: "#7D8B8B", era: "Industrial", origin: "New Orleans", wealth: 52, banks: 3, properties: 120, employees: 3000,
+             geographic: {cities: ["Paris", "London", "New York"], continents: 2, peak_cities: 27}},
+            {name: "Lehman", founded: 1850, peak_start: 1920, peak_end: 1990, decline: 2008, color: "#8B9BAD", era: "Industrial", origin: "Montgomery", wealth: 680, banks: 5, properties: 150, employees: 25000,
+             geographic: {cities: ["New York", "London", "Tokyo", "Hong Kong"], continents: 3, peak_cities: 23}},
+            {name: "Yasuda", founded: 1864, peak_start: 1900, peak_end: 1945, decline: 1945, color: "#7B8B9D", era: "Industrial", origin: "Tokyo", wealth: 95, banks: 8, properties: 600, employees: 50000,
+             geographic: {cities: ["Tokyo", "Osaka", "Yokohama", "Kobe", "Seoul", "Shanghai"], continents: 1, peak_cities: 18}},
+            {name: "Schiff/Kuhn Loeb", founded: 1867, peak_start: 1885, peak_end: 1920, decline: 1977, color: "#7B8B9D", era: "Industrial", origin: "New York", wealth: 38, banks: 7, properties: 250, employees: 5000,
+             geographic: {cities: ["New York", "London", "Paris", "Frankfurt"], continents: 2, peak_cities: 12}},
+            {name: "Goldman Sachs", founded: 1869, peak_start: 1890, peak_end: 2025, decline: 2025, color: "#8D9B9B", era: "Industrial", origin: "New York", wealth: 150, banks: 8, properties: 400, employees: 45000,
+             geographic: {cities: ["New York", "London", "Tokyo", "Hong Kong", "Frankfurt", "Singapore", "Mumbai"], continents: 4, peak_cities: 67}},
+            {name: "Rockefeller", founded: 1870, peak_start: 1880, peak_end: 1920, decline: 2025, color: "#6B7B8D", era: "Industrial", origin: "New York", wealth: 318, banks: 15, properties: 2000, employees: 100000,
+             geographic: {cities: ["New York", "Cleveland", "Chicago", "London", "Paris"], continents: 2, peak_cities: 89}},
+            {name: "Oppenheimer", founded: 1667, peak_start: 1880, peak_end: 1940, decline: 2025, color: "#9B8B7D", era: "Industrial", origin: "Cologne", wealth: 8, banks: 4, properties: 180, employees: 2500,
+             geographic: {cities: ["Cologne", "London", "Amsterdam", "Johannesburg", "Kimberley"], continents: 3, peak_cities: 14}}
+        ];
+        
+        // Create main timeline with flowing lines
+        function createMainTimeline() {
+            const svg = document.getElementById('mainTimeline');
+            const width = svg.clientWidth;
+            const height = 1200;
+            const margin = {top: 80, right: 100, bottom: 100, left: 80};
+            const chartWidth = width - margin.left - margin.right;
+            const chartHeight = height - margin.top - margin.bottom;
+
+            const minYear = 1200;
+            const maxYear = 2050;
+            const yearRange = maxYear - minYear;
+
+            svg.setAttribute('width', width);
+            svg.setAttribute('height', height);
+            svg.innerHTML = '';
+
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('transform', `translate(${margin.left}, ${margin.top})`);
+            svg.appendChild(g);
+
+            // Draw era backgrounds
+            const eras = [
+                {name: "Medieval", start: 1250, end: 1400, color: '#1a1a1a'},
+                {name: "Renaissance", start: 1400, end: 1700, color: '#151515'},
+                {name: "Early Modern", start: 1700, end: 1850, color: '#1a1a1a'},
+                {name: "Industrial", start: 1850, end: 1950, color: '#151515'},
+                {name: "Modern", start: 1950, end: 2025, color: '#1a1a1a'}
+            ];
+
+            eras.forEach((era, idx) => {
+                const x = ((era.start - minYear) / yearRange) * chartWidth;
+                const width = ((era.end - era.start) / yearRange) * chartWidth;
+                
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', x);
+                rect.setAttribute('y', -60);
+                rect.setAttribute('width', width);
+                rect.setAttribute('height', chartHeight + 140);
+                rect.setAttribute('fill', era.color);
+                rect.setAttribute('class', 'era-bg');
+                g.appendChild(rect);
+
+                if (idx < eras.length - 1) {
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', x + width);
+                    line.setAttribute('y1', -60);
+                    line.setAttribute('x2', x + width);
+                    line.setAttribute('y2', chartHeight + 80);
+                    line.setAttribute('stroke', '#2a2a2a');
+                    line.setAttribute('stroke-width', 1);
+                    g.appendChild(line);
+                }
+
+                const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                label.setAttribute('x', x + width/2);
+                label.setAttribute('y', -35);
+                label.setAttribute('text-anchor', 'middle');
+                label.setAttribute('class', 'era-label');
+                label.textContent = era.name;
+                g.appendChild(label);
+            });
+
+            // Grid lines
+            const gridYears = [1250, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 1950, 2000, 2025];
+            gridYears.forEach(year => {
+                const x = ((year - minYear) / yearRange) * chartWidth;
+                const gridLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                gridLine.setAttribute('x1', x);
+                gridLine.setAttribute('y1', 0);
+                gridLine.setAttribute('x2', x);
+                gridLine.setAttribute('y2', chartHeight);
+                gridLine.setAttribute('class', 'grid-line');
+                g.appendChild(gridLine);
+            });
+
+            // Time axis
+            const axisY = chartHeight + 20;
+            const axisLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            axisLine.setAttribute('x1', 0);
+            axisLine.setAttribute('y1', axisY);
+            axisLine.setAttribute('x2', chartWidth);
+            axisLine.setAttribute('y2', axisY);
+            axisLine.setAttribute('class', 'axis-line');
+            g.appendChild(axisLine);
+
+            gridYears.forEach(year => {
+                const x = ((year - minYear) / yearRange) * chartWidth;
+                const tick = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                tick.setAttribute('x1', x);
+                tick.setAttribute('y1', axisY);
+                tick.setAttribute('x2', x);
+                tick.setAttribute('y2', axisY + 8);
+                tick.setAttribute('stroke', '#404040');
+                tick.setAttribute('stroke-width', 1);
+                g.appendChild(tick);
+
+                const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                label.setAttribute('x', x);
+                label.setAttribute('y', axisY + 25);
+                label.setAttribute('text-anchor', 'middle');
+                label.setAttribute('class', 'year-label');
+                label.textContent = year;
+                g.appendChild(label);
+            });
+
+            // Draw family lines
+            const verticalSpacing = chartHeight / (families.length + 1);
+
+            families.forEach((family, index) => {
+                const y = (index + 1) * verticalSpacing;
+                const x1 = ((family.founded - minYear) / yearRange) * chartWidth;
+                const x2 = ((family.decline - minYear) / yearRange) * chartWidth;
+                const px1 = ((family.peak_start - minYear) / yearRange) * chartWidth;
+                const px2 = ((family.peak_end - minYear) / yearRange) * chartWidth;
+
+                // Pre-peak
+                const prePeakPath = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                prePeakPath.setAttribute('x1', x1);
+                prePeakPath.setAttribute('y1', y);
+                prePeakPath.setAttribute('x2', px1);
+                prePeakPath.setAttribute('y2', y);
+                prePeakPath.setAttribute('stroke', family.color);
+                prePeakPath.setAttribute('stroke-width', 2);
+                prePeakPath.setAttribute('class', 'family-line');
+                prePeakPath.setAttribute('opacity', 0.6);
+                prePeakPath.addEventListener('mouseenter', (e) => showTooltip(e, family));
+                prePeakPath.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(prePeakPath);
+
+                // Peak period
+                const peakPath = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                peakPath.setAttribute('x1', px1);
+                peakPath.setAttribute('y1', y);
+                peakPath.setAttribute('x2', px2);
+                peakPath.setAttribute('y2', y);
+                peakPath.setAttribute('stroke', family.color);
+                peakPath.setAttribute('stroke-width', 4);
+                peakPath.setAttribute('class', 'family-line peak-glow');
+                peakPath.setAttribute('opacity', 1);
+                peakPath.addEventListener('mouseenter', (e) => showTooltip(e, family));
+                peakPath.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(peakPath);
+
+                // Post-peak
+                const postPeakPath = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                postPeakPath.setAttribute('x1', px2);
+                postPeakPath.setAttribute('y1', y);
+                postPeakPath.setAttribute('x2', x2);
+                postPeakPath.setAttribute('y2', y);
+                postPeakPath.setAttribute('stroke', family.color);
+                postPeakPath.setAttribute('stroke-width', 2);
+                postPeakPath.setAttribute('class', 'family-line');
+                postPeakPath.setAttribute('opacity', family.decline === 2025 ? 0.8 : 0.4);
+                postPeakPath.addEventListener('mouseenter', (e) => showTooltip(e, family));
+                postPeakPath.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(postPeakPath);
+
+                // Dots
+                const startDot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                startDot.setAttribute('cx', x1);
+                startDot.setAttribute('cy', y);
+                startDot.setAttribute('r', 4);
+                startDot.setAttribute('fill', family.color);
+                startDot.setAttribute('class', 'dot-start');
+                startDot.addEventListener('mouseenter', (e) => showTooltip(e, family));
+                startDot.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(startDot);
+
+                const endDot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                endDot.setAttribute('cx', x2);
+                endDot.setAttribute('cy', y);
+                endDot.setAttribute('r', family.decline === 2025 ? 5 : 3);
+                endDot.setAttribute('fill', family.decline === 2025 ? '#ffffff' : family.color);
+                endDot.setAttribute('stroke', family.color);
+                endDot.setAttribute('stroke-width', 2);
+                endDot.setAttribute('class', 'dot-end');
+                endDot.addEventListener('mouseenter', (e) => showTooltip(e, family));
+                endDot.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(endDot);
+
+                // Label
+                const labelX = px1 + (px2 - px1) / 2;
+                const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                label.setAttribute('x', labelX);
+                label.setAttribute('y', y - 10);
+                label.setAttribute('text-anchor', 'middle');
+                label.setAttribute('class', 'family-label');
+                label.textContent = family.name;
+                g.appendChild(label);
+            });
+        }
+
+        // Create geographic influence timeline
+        function createGeographicTimeline() {
+            const svg = document.getElementById('geographicTimeline');
+            const width = svg.clientWidth;
+            const height = 1000;
+            const margin = {top: 80, right: 200, bottom: 100, left: 80};
+            const chartWidth = width - margin.left - margin.right;
+            const chartHeight = height - margin.top - margin.bottom;
+
+            const minYear = 1200;
+            const maxYear = 2050;
+            const yearRange = maxYear - minYear;
+
+            svg.setAttribute('width', width);
+            svg.setAttribute('height', height);
+            svg.innerHTML = '';
+
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('transform', `translate(${margin.left}, ${margin.top})`);
+            svg.appendChild(g);
+
+            // Draw grid
+            const gridYears = [1250, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 1950, 2000, 2025];
+            gridYears.forEach(year => {
+                const x = ((year - minYear) / yearRange) * chartWidth;
+                const gridLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                gridLine.setAttribute('x1', x);
+                gridLine.setAttribute('y1', 0);
+                gridLine.setAttribute('x2', x);
+                gridLine.setAttribute('y2', chartHeight);
+                gridLine.setAttribute('class', 'grid-line');
+                g.appendChild(gridLine);
+            });
+
+            // Time axis
+            const axisY = chartHeight + 20;
+            const axisLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            axisLine.setAttribute('x1', 0);
+            axisLine.setAttribute('y1', axisY);
+            axisLine.setAttribute('x2', chartWidth);
+            axisLine.setAttribute('y2', axisY);
+            axisLine.setAttribute('class', 'axis-line');
+            g.appendChild(axisLine);
+
+            gridYears.forEach(year => {
+                const x = ((year - minYear) / yearRange) * chartWidth;
+                const tick = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                tick.setAttribute('x1', x);
+                tick.setAttribute('y1', axisY);
+                tick.setAttribute('x2', x);
+                tick.setAttribute('y2', axisY + 8);
+                tick.setAttribute('stroke', '#404040');
+                tick.setAttribute('stroke-width', 1);
+                g.appendChild(tick);
+
+                const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                label.setAttribute('x', x);
+                label.setAttribute('y', axisY + 25);
+                label.setAttribute('text-anchor', 'middle');
+                label.setAttribute('class', 'year-label');
+                label.textContent = year;
+                g.appendChild(label);
+            });
+
+            // Sort families by peak_cities for visualization
+            const sortedFamilies = [...families].sort((a, b) => b.geographic.peak_cities - a.geographic.peak_cities);
+            const verticalSpacing = chartHeight / (sortedFamilies.length + 1);
+
+            sortedFamilies.forEach((family, index) => {
+                const y = (index + 1) * verticalSpacing;
+                const x1 = ((family.founded - minYear) / yearRange) * chartWidth;
+                const x2 = ((family.decline - minYear) / yearRange) * chartWidth;
+                const px1 = ((family.peak_start - minYear) / yearRange) * chartWidth;
+                const px2 = ((family.peak_end - minYear) / yearRange) * chartWidth;
+
+                // Line width based on geographic reach (cities at peak)
+                const maxCities = Math.max(...families.map(f => f.geographic.peak_cities));
+                const baseWidth = 2;
+                const maxWidth = 12;
+                const peakWidth = baseWidth + (family.geographic.peak_cities / maxCities) * (maxWidth - baseWidth);
+
+                // Pre-peak segment (growing reach)
+                const prePeakPath = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                prePeakPath.setAttribute('x1', x1);
+                prePeakPath.setAttribute('y1', y);
+                prePeakPath.setAttribute('x2', px1);
+                prePeakPath.setAttribute('y2', y);
+                prePeakPath.setAttribute('stroke', family.color);
+                prePeakPath.setAttribute('stroke-width', baseWidth);
+                prePeakPath.setAttribute('class', 'family-line');
+                prePeakPath.setAttribute('opacity', 0.6);
+                prePeakPath.addEventListener('mouseenter', (e) => showGeographicTooltip(e, family));
+                prePeakPath.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(prePeakPath);
+
+                // Peak period (maximum reach) - thicker line
+                const peakPath = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                peakPath.setAttribute('x1', px1);
+                peakPath.setAttribute('y1', y);
+                peakPath.setAttribute('x2', px2);
+                peakPath.setAttribute('y2', y);
+                peakPath.setAttribute('stroke', family.color);
+                peakPath.setAttribute('stroke-width', peakWidth);
+                peakPath.setAttribute('class', 'family-line peak-glow');
+                peakPath.setAttribute('opacity', 1);
+                peakPath.addEventListener('mouseenter', (e) => showGeographicTooltip(e, family));
+                peakPath.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(peakPath);
+
+                // Post-peak segment (declining reach)
+                const postPeakPath = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                postPeakPath.setAttribute('x1', px2);
+                postPeakPath.setAttribute('y1', y);
+                postPeakPath.setAttribute('x2', x2);
+                postPeakPath.setAttribute('y2', y);
+                postPeakPath.setAttribute('stroke', family.color);
+                postPeakPath.setAttribute('stroke-width', baseWidth);
+                postPeakPath.setAttribute('class', 'family-line');
+                postPeakPath.setAttribute('opacity', family.decline === 2025 ? 0.7 : 0.3);
+                postPeakPath.addEventListener('mouseenter', (e) => showGeographicTooltip(e, family));
+                postPeakPath.addEventListener('mouseleave', hideTooltip);
+                g.appendChild(postPeakPath);
+
+                // Family name label with geographic reach info
+                const labelX = px1 + (px2 - px1) / 2;
+                const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                label.setAttribute('x', labelX);
+                label.setAttribute('y', y - peakWidth/2 - 5);
+                label.setAttribute('text-anchor', 'middle');
+                label.setAttribute('class', 'family-label');
+                label.textContent = family.name;
+                g.appendChild(label);
+
+                // Add reach info on the right side
+                const reachLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                reachLabel.setAttribute('x', chartWidth + 10);
+                reachLabel.setAttribute('y', y + 4);
+                reachLabel.setAttribute('text-anchor', 'start');
+                reachLabel.setAttribute('class', 'year-label');
+                reachLabel.setAttribute('font-size', '9');
+                reachLabel.textContent = `${family.geographic.peak_cities} cities · ${family.geographic.continents} continent${family.geographic.continents > 1 ? 's' : ''}`;
+                g.appendChild(reachLabel);
+            });
+
+            // Legend for line thickness
+            const legendY = -40;
+            const legendText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            legendText.setAttribute('x', 0);
+            legendText.setAttribute('y', legendY);
+            legendText.setAttribute('class', 'year-label');
+            legendText.setAttribute('font-size', '10');
+            legendText.textContent = 'Line thickness indicates geographic reach (number of cities with operations)';
+            g.appendChild(legendText);
+        }
+
+        // Create city breakdown cards
+        // City coordinates database
+        const cityCoords = {
+            'Florence': [43.7696, 11.2558], 'Rome': [41.9028, 12.4964], 'Venice': [45.4408, 12.3155],
+            'Milan': [45.4642, 9.1900], 'Pisa': [43.7228, 10.4017], 'Naples': [40.8518, 14.2681],
+            'Avignon': [43.9493, 4.8055], 'Bruges': [51.2093, 3.2247], 'London': [51.5074, -0.1278],
+            'Lyon': [45.7640, 4.8357], 'Geneva': [46.2044, 6.1432], 'Augsburg': [48.3705, 10.8978],
+            'Antwerp': [51.2194, 4.4025], 'Lisbon': [38.7223, -9.1393], 'Seville': [37.3891, -5.9845],
+            'Frankfurt': [50.1109, 8.6821], 'Vienna': [48.2082, 16.3738], 'Paris': [48.8566, 2.3522],
+            'Amsterdam': [52.3676, 4.9041], 'New York': [40.7128, -74.0060], 'Philadelphia': [39.9526, -75.1652],
+            'Boston': [42.3601, -71.0589], 'Chicago': [41.8781, -87.6298], 'Cleveland': [41.4993, -81.6944],
+            'Tokyo': [35.6762, 139.6503], 'Osaka': [34.6937, 135.5023], 'Hong Kong': [22.3193, 114.1694],
+            'Shanghai': [31.2304, 121.4737], 'Seoul': [37.5665, 126.9780], 'Singapore': [1.3521, 103.8198],
+            'Mumbai': [19.0760, 72.8777], 'Copenhagen': [55.6761, 12.5683], 'Berlin': [52.5200, 13.4050],
+            'Brussels': [50.8503, 4.3517], 'Madrid': [40.4168, -3.7038], 'Zurich': [47.3769, 8.5417],
+            'Basel': [47.5596, 7.5886], 'Mainz': [50.0000, 8.2711], 'Hamburg': [53.5511, 9.9937],
+            'Cologne': [50.9375, 6.9603], 'Munich': [48.1351, 11.5820], 'Johannesburg': [-26.2041, 28.0473],
+            'Pretoria': [-25.7479, 28.2293], 'Kimberley': [-28.7282, 24.7499], 'Toronto': [43.6532, -79.3832],
+            'Montreal': [45.5017, -73.5673], 'Sydney': [-33.8688, 151.2093], 'Melbourne': [-37.8136, 144.9631],
+            'São Paulo': [-23.5505, -46.6333], 'Buenos Aires': [-34.6037, -58.3816], 'Mexico City': [19.4326, -99.1332],
+            'San Francisco': [37.7749, -122.4194], 'Los Angeles': [34.0522, -118.2437], 'Houston': [29.7604, -95.3698],
+            'Dallas': [32.7767, -96.7970], 'Miami': [25.7617, -80.1918], 'Atlanta': [33.7490, -84.3880],
+            'Washington DC': [38.9072, -77.0369], 'Baltimore': [39.2904, -76.6122], 'Luxembourg': [49.6116, 6.1319],
+            'Milan': [45.4642, 9.1900], 'Istanbul': [41.0082, 28.9784], 'Dubai': [25.2048, 55.2708],
+            'Tel Aviv': [32.0853, 34.7818], 'Cairo': [30.0444, 31.2357], 'Lagos': [6.5244, 3.3792]
+        };
+
+        function createWorldMap() {
+            const mapElement = document.getElementById('worldMap');
+            if (!mapElement) {
+                console.error('Map element not found');
+                return;
+            }
+            
+            if (typeof L === 'undefined') {
+                console.error('Leaflet library not loaded');
+                mapElement.innerHTML = '<div style="padding: 50px; text-align: center; color: #808080;">Map library failed to load. Please refresh the page.</div>';
+                return;
+            }
+
+            try {
+                // Initialize map with dark theme
+                const map = L.map('worldMap', {
+                    center: [30, 15],
+                    zoom: 2,
+                    minZoom: 2,
+                    maxZoom: 10,
+                    worldCopyJump: true
+                });
+
+                // Use CartoDB Dark Matter tiles (matches dark theme design)
+                const baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '© OpenStreetMap © CartoDB',
+                    maxZoom: 19
+                });
+                
+                baseLayer.on('tileerror', function(error) {
+                    console.error('Tile loading error:', error);
+                    // Try OpenStreetMap as backup
+                    console.log('Trying backup tile provider...');
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '© OpenStreetMap contributors',
+                        maxZoom: 19
+                    }).addTo(map);
+                });
+                
+                baseLayer.addTo(map);
+
+            // Plot all cities for each family
+            const plotted = new Set();
+            
+            families.forEach(family => {
+                family.geographic.cities.forEach(cityName => {
+                    const coords = cityCoords[cityName];
+                    if (coords) {
+                        const key = `${cityName}-${family.name}`;
+                        if (!plotted.has(key)) {
+                            plotted.add(key);
+                            
+                            const marker = L.circleMarker(coords, {
+                                radius: 6,
+                                fillColor: family.color,
+                                color: '#ffffff',
+                                weight: 1,
+                                opacity: 0.9,
+                                fillOpacity: 0.8
+                            }).addTo(map);
+
+                            marker.bindPopup(`
+                                <div style="font-family: 'Helvetica Neue', sans-serif; color: #0a0a0a; min-width: 150px;">
+                                    <div style="font-weight: 600; font-size: 13px; margin-bottom: 4px; color: ${family.color};">${family.name}</div>
+                                    <div style="font-size: 12px; color: #404040; margin-bottom: 2px;">${cityName}</div>
+                                    <div style="font-size: 10px; color: #808080;">${family.founded}–${family.decline === 2025 ? 'Present' : family.decline}</div>
+                                </div>
+                            `);
+                        }
+                    }
+                });
+            });
+
+            // Create legend
+            const legend = document.getElementById('mapLegend');
+            legend.innerHTML = '';
+            
+            families.forEach(family => {
+                const item = document.createElement('div');
+                item.style.cssText = `
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    padding: 6px 10px;
+                    background: #0a0a0a;
+                    border: 1px solid #2a2a2a;
+                    border-radius: 2px;
+                    font-size: 11px;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                `;
+                
+                item.innerHTML = `
+                    <div style="width: 12px; height: 12px; border-radius: 50%; background: ${family.color}; border: 1px solid #ffffff; flex-shrink: 0;"></div>
+                    <div style="color: #c4c4c4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${family.name}</div>
+                `;
+                
+                item.onmouseover = () => {
+                    item.style.background = '#1a1a1a';
+                    item.style.borderColor = '#404040';
+                };
+                item.onmouseout = () => {
+                    item.style.background = '#0a0a0a';
+                    item.style.borderColor = '#2a2a2a';
+                };
+                
+                legend.appendChild(item);
+            });
+            
+            } catch (error) {
+                console.error('Error creating world map:', error);
+                const mapElement = document.getElementById('worldMap');
+                if (mapElement) {
+                    mapElement.innerHTML = '<div style="padding: 50px; text-align: center; color: #808080; font-family: sans-serif;">Unable to load map. Please refresh the page.<br><small style="color: #606060; font-size: 10px;">Error: ' + error.message + '</small></div>';
+                }
+            }
+        }
+
+        // Fallback map when Leaflet fails to load
+        function createFallbackMap() {
+            console.log('Creating fallback visualization...');
+            const mapElement = document.getElementById('worldMap');
+            const legend = document.getElementById('mapLegend');
+            
+            if (!mapElement) return;
+            
+            // Create simple text-based geographic breakdown
+            mapElement.style.height = 'auto';
+            mapElement.style.minHeight = '400px';
+            mapElement.style.padding = '30px';
+            mapElement.style.overflow = 'auto';
+            
+            let html = '<div style="color: #c4c4c4; font-family: sans-serif;">';
+            html += '<div style="text-align: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #2a2a2a;">';
+            html += '<h3 style="color: #ffffff; font-weight: 300; font-size: 18px; margin-bottom: 10px;">Geographic Operations Overview</h3>';
+            html += '<p style="color: #808080; font-size: 12px; margin: 0;">Interactive map unavailable - showing text summary</p>';
+            html += '<p style="color: #606060; font-size: 10px; margin-top: 5px;">Network may be blocking external map libraries</p>';
+            html += '</div>';
+            
+            // Sort by geographic reach
+            const sorted = [...families].sort((a, b) => b.geographic.peak_cities - a.geographic.peak_cities);
+            
+            html += '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">';
+            
+            sorted.forEach(family => {
+                html += `
+                    <div style="background: #0a0a0a; border-left: 3px solid ${family.color}; padding: 15px; border: 1px solid #2a2a2a;">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #2a2a2a;">
+                            <div style="font-weight: 500; color: #ffffff; font-size: 14px;">${family.name}</div>
+                            <div style="font-size: 11px; color: #606060;">${family.founded}–${family.decline === 2025 ? 'Present' : family.decline}</div>
+                        </div>
+                        <div style="font-size: 11px; color: #808080; margin-bottom: 8px;">
+                            <strong style="color: #c4c4c4;">${family.geographic.peak_cities}</strong> cities · 
+                            <strong style="color: #c4c4c4;">${family.geographic.continents}</strong> continent${family.geographic.continents > 1 ? 's' : ''}
+                        </div>
+                        <div style="font-size: 10px; color: #606060; line-height: 1.5;">
+                            ${family.geographic.cities.slice(0, 8).join(' · ')}${family.geographic.cities.length > 8 ? ' · ...' : ''}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '</div></div>';
+            mapElement.innerHTML = html;
+            
+            // Create simple legend
+            if (legend) {
+                legend.innerHTML = '';
+                legend.style.display = 'grid';
+                legend.style.gridTemplateColumns = 'repeat(auto-fill, minmax(180px, 1fr))';
+                legend.style.gap = '12px';
+                
+                families.forEach(family => {
+                    const item = document.createElement('div');
+                    item.style.cssText = `
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        padding: 6px 10px;
+                        background: #0a0a0a;
+                        border: 1px solid #2a2a2a;
+                        border-radius: 2px;
+                        font-size: 11px;
+                    `;
+                    
+                    item.innerHTML = `
+                        <div style="width: 12px; height: 12px; border-radius: 50%; background: ${family.color}; border: 1px solid #ffffff; flex-shrink: 0;"></div>
+                        <div style="color: #c4c4c4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${family.name}</div>
+                    `;
+                    
+                    legend.appendChild(item);
+                });
+            }
+        }
+
+        // Tooltip for geographic data
+        function showGeographicTooltip(event, family) {
+            const tooltip = document.getElementById('tooltip');
+            const longevity = family.decline - family.founded;
+            
+            tooltip.innerHTML = `
+                <h3>${family.name} Geographic Empire</h3>
+                <p><strong>Peak Reach:</strong> ${family.geographic.peak_cities} cities across ${family.geographic.continents} continent${family.geographic.continents > 1 ? 's' : ''}</p>
+                <p><strong>Major Centers:</strong> ${family.geographic.cities.join(', ')}</p>
+                <p><strong>Active Period:</strong> ${family.founded}–${family.decline === 2025 ? 'Present' : family.decline}</p>
+                <p><strong>Peak Influence:</strong> ${family.peak_start}–${family.peak_end}</p>
+            `;
+            
+            tooltip.style.display = 'block';
+            tooltip.style.left = (event.pageX + 15) + 'px';
+            tooltip.style.top = (event.pageY - 15) + 'px';
+        }
+
+        // Tooltip
+        function showTooltip(event, family) {
+            const tooltip = document.getElementById('tooltip');
+            const longevity = family.decline - family.founded;
+            
+            tooltip.innerHTML = `
+                <h3>${family.name}</h3>
+                <p><strong>Origin:</strong> ${family.origin}</p>
+                <p><strong>Founded:</strong> ${family.founded}</p>
+                <p><strong>Peak Period:</strong> ${family.peak_start}–${family.peak_end}</p>
+                <p><strong>Peak Wealth:</strong> $${family.wealth}B</p>
+                <p><strong>Banks Owned:</strong> ${family.banks}</p>
+                <p><strong>Properties:</strong> ${family.properties}</p>
+                <p><strong>Peak Employees:</strong> ${family.employees.toLocaleString()}</p>
+                <p><strong>Longevity:</strong> ${longevity} years</p>
+            `;
+            
+            tooltip.style.display = 'block';
+            tooltip.style.left = (event.pageX + 15) + 'px';
+            tooltip.style.top = (event.pageY - 15) + 'px';
+        }
+
+        function hideTooltip() {
+            document.getElementById('tooltip').style.display = 'none';
+        }
+
+        // Wealth chart
+        function createWealthChart() {
+            const ctx = document.getElementById('wealthChart').getContext('2d');
+            const sorted = [...families].sort((a, b) => b.wealth - a.wealth).slice(0, 15);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sorted.map(f => f.name),
+                    datasets: [{
+                        label: 'Peak Wealth (Billions USD)',
+                        data: sorted.map(f => f.wealth),
+                        backgroundColor: sorted.map(f => f.color),
+                        borderColor: '#0a0a0a',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    plugins: {legend: {display: false}},
+                    scales: {
+                        x: {
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        },
+                        y: {
+                            ticks: {color: '#c4c4c4', font: {size: 11}},
+                            grid: {display: false},
+                            border: {color: '#2a2a2a'}
+                        }
+                    }
+                }
+            });
+        }
+
+        // Banks chart
+        function createBanksChart() {
+            const ctx = document.getElementById('banksChart').getContext('2d');
+            const sorted = [...families].sort((a, b) => b.banks - a.banks).slice(0, 10);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sorted.map(f => f.name),
+                    datasets: [{
+                        label: 'Banks Owned',
+                        data: sorted.map(f => f.banks),
+                        backgroundColor: sorted.map(f => f.color),
+                        borderColor: '#0a0a0a',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {legend: {display: false}},
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        },
+                        x: {
+                            ticks: {color: '#c4c4c4', font: {size: 11}},
+                            grid: {display: false},
+                            border: {color: '#2a2a2a'}
+                        }
+                    }
+                }
+            });
+        }
+
+        // Properties chart
+        function createPropertiesChart() {
+            const ctx = document.getElementById('propertiesChart').getContext('2d');
+            const sorted = [...families].sort((a, b) => b.properties - a.properties).slice(0, 10);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sorted.map(f => f.name),
+                    datasets: [{
+                        label: 'Properties Owned',
+                        data: sorted.map(f => f.properties),
+                        backgroundColor: sorted.map(f => f.color),
+                        borderColor: '#0a0a0a',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {legend: {display: false}},
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        },
+                        x: {
+                            ticks: {color: '#c4c4c4', font: {size: 11}},
+                            grid: {display: false},
+                            border: {color: '#2a2a2a'}
+                        }
+                    }
+                }
+            });
+        }
+
+        // Employees chart
+        function createEmployeesChart() {
+            const ctx = document.getElementById('employeesChart').getContext('2d');
+            const sorted = [...families].sort((a, b) => b.employees - a.employees).slice(0, 15);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sorted.map(f => f.name),
+                    datasets: [{
+                        label: 'Peak Employees',
+                        data: sorted.map(f => f.employees),
+                        backgroundColor: sorted.map(f => f.color),
+                        borderColor: '#0a0a0a',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    plugins: {legend: {display: false}},
+                    scales: {
+                        x: {
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        },
+                        y: {
+                            ticks: {color: '#c4c4c4', font: {size: 11}},
+                            grid: {display: false},
+                            border: {color: '#2a2a2a'}
+                        }
+                    }
+                }
+            });
+        }
+
+        // Longevity chart
+        function createLongevityChart() {
+            const ctx = document.getElementById('longevityChart').getContext('2d');
+            const longevities = families.map(f => ({
+                name: f.name,
+                years: f.decline - f.founded,
+                color: f.color
+            })).sort((a, b) => b.years - a.years).slice(0, 15);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: longevities.map(l => l.name),
+                    datasets: [{
+                        label: 'Years Active',
+                        data: longevities.map(l => l.years),
+                        backgroundColor: longevities.map(l => l.color),
+                        borderColor: '#0a0a0a',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    plugins: {legend: {display: false}},
+                    scales: {
+                        x: {
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        },
+                        y: {
+                            ticks: {color: '#c4c4c4', font: {size: 11}},
+                            grid: {display: false},
+                            border: {color: '#2a2a2a'}
+                        }
+                    }
+                }
+            });
+        }
+
+        // Overlap chart
+        function createOverlapChart() {
+            const ctx = document.getElementById('overlapChart').getContext('2d');
+            const periods = [];
+            for (let year = 1250; year <= 2000; year += 50) {
+                const activeFamilies = families.filter(f => 
+                    f.founded <= year && f.decline >= year
+                ).length;
+                periods.push({year: year, count: activeFamilies});
+            }
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: periods.map(p => p.year),
+                    datasets: [{
+                        label: 'Active Dynasties',
+                        data: periods.map(p => p.count),
+                        borderColor: '#8B7B6F',
+                        backgroundColor: 'rgba(139, 123, 111, 0.1)',
+                        fill: true,
+                        tension: 0.4,
+                        borderWidth: 2,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#c4c4c4',
+                        pointBorderColor: '#8B7B6F',
+                        pointBorderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {legend: {labels: {color: '#c4c4c4', font: {size: 11}}}},
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        },
+                        x: {
+                            ticks: {color: '#808080', font: {size: 11}},
+                            grid: {color: '#1a1a1a'},
+                            border: {color: '#2a2a2a'}
+                        }
+                    }
+                }
+            });
+        }
+
+        // Initialize
+        // Initialize all visualizations
+        function initializeAll() {
+            createMainTimeline();
+            createGeographicTimeline();
+            
+            // Wait for Leaflet with extended timeout and fallback
+            let attempts = 0;
+            const maxAttempts = 20; // Try for 10 seconds
+            
+            function tryCreateMap() {
+                attempts++;
+                
+                if (typeof L !== 'undefined') {
+                    console.log('Leaflet loaded successfully');
+                    createWorldMap();
+                } else if (attempts < maxAttempts) {
+                    console.log(`Waiting for Leaflet (attempt ${attempts}/${maxAttempts})...`);
+                    setTimeout(tryCreateMap, 500);
+                } else {
+                    console.error('Leaflet failed to load after multiple attempts');
+                    createFallbackMap();
+                }
+            }
+            
+            tryCreateMap();
+            
+            createWealthChart();
+            createBanksChart();
+            createPropertiesChart();
+            createEmployeesChart();
+            createLongevityChart();
+            createOverlapChart();
+        }
+
+        window.addEventListener('load', initializeAll);
+
+        window.addEventListener('resize', () => {
+            createMainTimeline();
+            createGeographicTimeline();
+        });
+    </script>
+</body>
+</html>
+" width="100%" height="800" frameborder="0" style="border:none;

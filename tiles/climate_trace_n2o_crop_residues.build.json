@@ -1,0 +1,29 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_n2o_crop_residues.pmtiles",
+   "from": 0,
+   "to": 8,
+   "bytes": 70065733
+  },
+  {
+   "file": "climate_trace_n2o_crop_residues_2.pmtiles",
+   "from": 9,
+   "to": 10,
+   "bytes": 83387630
+  },
+  {
+   "file": "climate_trace_n2o_crop_residues_3.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 51333660
+  },
+  {
+   "file": "climate_trace_n2o_crop_residues_4.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 55215520
+  }
+ ],
+ "zoom": 12
+}

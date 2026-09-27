@@ -1,0 +1,58 @@
+{
+ "ch4": {
+  "name": "methane",
+  "archives": [
+   {
+    "id": "climate_trace_ch4_crop_residues",
+    "subsector": "crop_residues",
+    "label": "crop residues",
+    "sector": "agriculture",
+    "bytes": 157223887,
+    "files": 2
+   },
+   {
+    "id": "climate_trace_ch4_cropland_fires",
+    "subsector": "cropland_fires",
+    "label": "cropland fires",
+    "sector": "agriculture",
+    "bytes": 211586346,
+    "files": 3
+   },
+   {
+    "id": "climate_trace_ch4_enteric_fermentation_cattle_operation",
+    "subsector": "enteric_fermentation_cattle_operation",
+    "label": "enteric fermentation cattle operation",
+    "sector": "agriculture",
+    "bytes": 374020329,
+    "files": 5
+   }
+  ],
+  "units": {
+   "agriculture/crop_residues": {
+    "built": 1790513621,
+    "archives": [
+     "climate_trace_ch4_crop_residues"
+    ]
+   },
+   "agriculture/crop_residues_raster": {
+    "checked": 1790513626
+   },
+   "agriculture/cropland_fires": {
+    "built": 1790514702,
+    "archives": [
+     "climate_trace_ch4_cropland_fires"
+    ]
+   },
+   "agriculture/cropland_fires_raster": {
+    "checked": 1790514707
+   },
+   "agriculture/enteric_fermentation_cattle_operation": {
+    "built": 1790520043,
+    "archives": [
+     "climate_trace_ch4_enteric_fermentation_cattle_operation"
+    ]
+   }
+  },
+  "built": 1790520043
+ }
+}

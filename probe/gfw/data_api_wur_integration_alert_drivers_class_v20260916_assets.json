@@ -1,0 +1,31 @@
+{
+ "data": [
+  {
+   "created_on": "2026-09-16T20:33:38.542476",
+   "updated_on": "2026-09-16T20:57:14.527543",
+   "asset_id": "7f9d92dc-c7a9-4fe7-a438-9e56fd8cb25a",
+   "dataset": "wur_integration_alert_drivers_class",
+   "version": "v20260916",
+   "asset_type": "Raster tile set",
+   "asset_uri": "s3://gfw-data-lake/wur_integration_alert_drivers_class/v20260916/raster/epsg-4326/10/100000/class/geotiff/{tile_id}.tif",
+   "status": "saved",
+   "is_managed": true,
+   "is_downloadable": true,
+   "metadata": {}
+  },
+  {
+   "created_on": "2026-09-16T21:15:26.328981",
+   "updated_on": "2026-09-16T22:47:23.340381",
+   "asset_id": "c4c69e52-5e9c-46d5-a2a7-b7293ef9da4b",
+   "dataset": "wur_integration_alert_drivers_class",
+   "version": "v20260916",
+   "asset_type": "COG",
+   "asset_uri": "s3://gfw-data-lake/wur_integration_alert_drivers_class/v20260916/raster/epsg-4326/cog/class.tif",
+   "status": "saved",
+   "is_managed": true,
+   "is_downloadable": true,
+   "metadata": {}
+  }
+ ],
+ "status": "success"
+}

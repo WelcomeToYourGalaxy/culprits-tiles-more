@@ -1,0 +1,228 @@
+{
+ "elementFormDefault": "qualified",
+ "targetNamespace": "https://staging.nusantara-atlas.org",
+ "targetPrefix": "atlas-workspace-v3",
+ "featureTypes": [
+  {
+   "typeName": "concessioncma_spv",
+   "properties": [
+    {
+     "name": "objectid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:int",
+     "localType": "int"
+    },
+    {
+     "name": "geom",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "gml:MultiPolygon",
+     "localType": "MultiPolygon"
+    },
+    {
+     "name": "cid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:int",
+     "localType": "int"
+    },
+    {
+     "name": "concession",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "commodity",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "name",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "groupcom",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "parentgroup",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "licensestatus",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "license_status",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "license_number",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "license_areaha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "status",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "district",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "province",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "country",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "region",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "datasource",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "source_publisher",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "url",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "entity",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "name_original",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "uid",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:string",
+     "localType": "string"
+    },
+    {
+     "name": "areaha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "peatareaha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "remforestha",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    },
+    {
+     "name": "remforestprop",
+     "maxOccurs": 1,
+     "minOccurs": 0,
+     "nillable": true,
+     "type": "xsd:number",
+     "localType": "number"
+    }
+   ]
+  }
+ ]
+}

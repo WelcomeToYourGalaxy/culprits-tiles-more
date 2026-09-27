@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_cropland_fires.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 86375620
+  },
+  {
+   "file": "climate_trace_ch4_cropland_fires_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 78945112
+  },
+  {
+   "file": "climate_trace_ch4_cropland_fires_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 46265614
+  }
+ ],
+ "zoom": 12
+}

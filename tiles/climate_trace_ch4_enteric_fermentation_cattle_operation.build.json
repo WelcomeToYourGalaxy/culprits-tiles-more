@@ -1,0 +1,43 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_operation.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 92679849
+  },
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_operation_2.pmtiles",
+   "from": 10,
+   "to": 10,
+   "bytes": 74408119
+  },
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_operation_3.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 89918764
+  },
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_operation_4.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 58805318,
+   "columns": [
+    253,
+    2035
+   ]
+  },
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_operation_5.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 58208279,
+   "columns": [
+    2036,
+    4058
+   ]
+  }
+ ],
+ "zoom": 12
+}

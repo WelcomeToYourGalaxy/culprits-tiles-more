@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_net_wetland.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 77565214
+  },
+  {
+   "file": "climate_trace_co2_net_wetland_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 62363867
+  },
+  {
+   "file": "climate_trace_co2_net_wetland_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 38104018
+  }
+ ],
+ "zoom": 12
+}

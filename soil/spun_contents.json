@@ -1,0 +1,1093 @@
+{
+ "record": "https://doi.org/10.5281/zenodo.14871588",
+ "files": [
+  {
+   "name": "myc_richness/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/._myc_richness",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/.Rhistory",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/._.Rhistory",
+   "bytes": 163
+  },
+  {
+   "name": "myc_richness/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/1_rarefaction/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/._1_rarefaction",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/2_geospatial/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/._2_geospatial",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/README.md",
+   "bytes": 2196
+  },
+  {
+   "name": "__MACOSX/myc_richness/._README.md",
+   "bytes": 276
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/._99_exploratory_analyses",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/3_visualisations/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/._3_visualisations",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/99_misc/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/._99_misc",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/1_rarefaction/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/1_rarefaction/code/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/._code",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/._data",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/2_geospatial/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/._code",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/._data",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/code/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/._code",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/._WDPA",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/3_visualisations/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/3_visualisations/code/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/._code",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/3_visualisations/Hotspots/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/._Hotspots",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/99_misc/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/._biomes",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/99_misc/Continent_level_hotspots.pdf",
+   "bytes": 21620102
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/._Continent_level_hotspots.pdf",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/code/iNext_EcM_rwr_we.R",
+   "bytes": 11862
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/code/._iNext_EcM_rwr_we.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/code/iNext_EcM.R",
+   "bytes": 9220
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/code/._iNext_EcM.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/code/iNext_AMF-SSU_rwr_we.R",
+   "bytes": 4282
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/code/._iNext_AMF-SSU_rwr_we.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/code/iNext_AMF-SSU.R",
+   "bytes": 2178
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/code/._iNext_AMF-SSU.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/Dataset1_commpressed_otu_tab.otus_to_samples_arbuscular_ectomycorrhizal_fungi.txt",
+   "bytes": 25348337
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._Dataset1_commpressed_otu_tab.otus_to_samples_arbuscular_ectomycorrhizal_fungi.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/Dataset1_REL4_ITS2_otus_most_abundant_unite8.2_sim92_cov95_arbuscular_ectomycorrhizal_fungi.txt",
+   "bytes": 49387134
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._Dataset1_REL4_ITS2_otus_most_abundant_unite8.2_sim92_cov95_arbuscular_ectomycorrhizal_fungi.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/Dataset2_REL4_ITS2_otus_most_abundant_unite8.2_sim92_cov95_mycorrhizal_pathogens_parasites_saprotrophs_fungi.txt",
+   "bytes": 122522409
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._Dataset2_REL4_ITS2_otus_most_abundant_unite8.2_sim92_cov95_mycorrhizal_pathogens_parasites_saprotrophs_fungi.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/rarity_w_richness_am.csv",
+   "bytes": 108812
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._rarity_w_richness_am.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/GFv4_locations.csv",
+   "bytes": 863621
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._GFv4_locations.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/FungalTraits_tableS4_SH_guilds.csv",
+   "bytes": 23660894
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._FungalTraits_tableS4_SH_guilds.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/weighted_endemism_am_v2.csv",
+   "bytes": 570636
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._weighted_endemism_am_v2.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/Dataset2_commpressed_otu_tab.otus_to_samples_mycorrhizal_pathogens_parasites_saprotrophs_fungi.txt",
+   "bytes": 126312574
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._Dataset2_commpressed_otu_tab.otus_to_samples_mycorrhizal_pathogens_parasites_saprotrophs_fungi.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/20250116_AMF_we_sampled_outliersRemoved_onehot.csv",
+   "bytes": 22240063
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._20250116_AMF_we_sampled_outliersRemoved_onehot.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/SSU_species_table.csv",
+   "bytes": 2269254
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._SSU_species_table.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/weighted_endemism_em_v2.csv",
+   "bytes": 5160571
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._weighted_endemism_em_v2.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/SSU_species_table_cleaned.csv",
+   "bytes": 2268920
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._SSU_species_table_cleaned.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/REL4_datasets_samples_metadata.csv",
+   "bytes": 26382423
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._REL4_datasets_samples_metadata.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/SSU_metadata.csv",
+   "bytes": 3644851
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._SSU_metadata.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/rarity_w_richness_em.csv",
+   "bytes": 827444
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._rarity_w_richness_em.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/tax_table.txt",
+   "bytes": 49387134
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._tax_table.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/20250117_ECM_richness_rarefied.csv",
+   "bytes": 2537024
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._20250117_ECM_richness_rarefied.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/13225_2020_466_MOESM6_ESM.csv",
+   "bytes": 23756123
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._13225_2020_466_MOESM6_ESM.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/otu_compressed_ecmf_intax.txt",
+   "bytes": 40671714
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._otu_compressed_ecmf_intax.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/tax_table_ecmf.txt",
+   "bytes": 33568792
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._tax_table_ecmf.txt",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/1_rarefaction/data/SSU_locations.csv",
+   "bytes": 92444
+  },
+  {
+   "name": "__MACOSX/myc_richness/1_rarefaction/data/._SSU_locations.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/.Rhistory",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._.Rhistory",
+   "bytes": 163
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_EcM_rwr.py",
+   "bytes": 58582
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_EcM_rwr.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_AM_rwr_sampling_density.py",
+   "bytes": 59063
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_AM_rwr_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_AM_rwr.py",
+   "bytes": 7978
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_AM_rwr.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_EcM_we.py",
+   "bytes": 60316
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_EcM_we.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/1_sampling_script_EcM.py",
+   "bytes": 8206
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._1_sampling_script_EcM.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_AM.py",
+   "bytes": 8025
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_AM.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/1_sampling_script_AMF.py",
+   "bytes": 8230
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._1_sampling_script_AMF.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_AM_sampling_density.py",
+   "bytes": 7931
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_AM_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/5_bloocv_sklearn_EcM.py",
+   "bytes": 7982
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._5_bloocv_sklearn_EcM.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_AM_we_sampling_density.py",
+   "bytes": 59611
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_AM_we_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/3_EcM_onehotencoding.R",
+   "bytes": 2443
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._3_EcM_onehotencoding.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_EcM_fasttreeshap_rwr.py",
+   "bytes": 7832
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_EcM_fasttreeshap_rwr.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_EcM.py",
+   "bytes": 58880
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_EcM.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_EcM_we_sampling_density.py",
+   "bytes": 59744
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_EcM_we_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/functions/",
+   "bytes": 0
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._functions",
+   "bytes": 170
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_AM_rwr_sampling_density.py",
+   "bytes": 8114
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_AM_rwr_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/5_plot_sloo_cv.R",
+   "bytes": 1746
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._5_plot_sloo_cv.R",
+   "bytes": 313
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_EcM_fasttreeshap.py",
+   "bytes": 7899
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_EcM_fasttreeshap.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_EcM_fasttreeshap_sampling_density.py",
+   "bytes": 7905
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_EcM_fasttreeshap_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/3_AM_onehotencoding.R",
+   "bytes": 1509
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._3_AM_onehotencoding.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_AM_we.py",
+   "bytes": 57482
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_AM_we.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/2_data_filtering.R",
+   "bytes": 11471
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._2_data_filtering.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_AM_rwr.py",
+   "bytes": 58478
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_AM_rwr.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_EcM_rwr_sampling_density.py",
+   "bytes": 58748
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_EcM_rwr_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/4_richness_pipeline_AM.py",
+   "bytes": 55670
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._4_richness_pipeline_AM.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/5_bloocv_sklearn_AM.py",
+   "bytes": 5273
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._5_bloocv_sklearn_AM.py",
+   "bytes": 232
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/6_SHAP_EcM_fasttreeshap_rwr_sampling_density.py",
+   "bytes": 7979
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/._6_SHAP_EcM_fasttreeshap_rwr_sampling_density.py",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250205_arbuscular_mycorrhizal_SLOO_CV.csv",
+   "bytes": 3633
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250205_arbuscular_mycorrhizal_SLOO_CV.csv",
+   "bytes": 433
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/filtered_randomPoints_AMF.csv",
+   "bytes": 3508727
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._filtered_randomPoints_AMF.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/ExtendedDataTable1.csv",
+   "bytes": 4220
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._ExtendedDataTable1.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/filtered_randomPoints_ECM.csv",
+   "bytes": 3912952
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._filtered_randomPoints_ECM.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250212_ectomycorrhizal_SLOO_CV_v2.csv",
+   "bytes": 3608
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250212_ectomycorrhizal_SLOO_CV_v2.csv",
+   "bytes": 433
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/ecm_sampleintensity_5degrees_scaled_01.tif",
+   "bytes": 2715001
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._ecm_sampleintensity_5degrees_scaled_01.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250127_arbuscular_mycorrhizal_rwr_training_data_wSamplingDensity.csv",
+   "bytes": 1276631
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250127_arbuscular_mycorrhizal_rwr_training_data_wSamplingDensity.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250123_ectomycorrhizal_rwr_training_data_samplingdensity.csv",
+   "bytes": 7133852
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250123_ectomycorrhizal_rwr_training_data_samplingdensity.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250115_AMF_richness_rarefied_sampled.csv",
+   "bytes": 20035903
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250115_AMF_richness_rarefied_sampled.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250117_ECM_sampled_outliersRemoved_onehot.csv",
+   "bytes": 118678285
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250117_ECM_sampled_outliersRemoved_onehot.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250116_AMF_rwr_sampled_outliersRemoved_onehot.csv",
+   "bytes": 22172590
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250116_AMF_rwr_sampled_outliersRemoved_onehot.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/amf_sampleintensity_5degrees_scaled_01.tif",
+   "bytes": 12943381
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._amf_sampleintensity_5degrees_scaled_01.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250121_ectomycorrhizal_richness_training_data.csv",
+   "bytes": 6660895
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250121_ectomycorrhizal_richness_training_data.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250122_ectomycorrhizal_rwr_training_data.csv",
+   "bytes": 7133852
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250122_ectomycorrhizal_rwr_training_data.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250121_ECM_rwr_sampled_oneHot.csv",
+   "bytes": 118871639
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250121_ECM_rwr_sampled_oneHot.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250121_ECM_we_sampled_oneHot.csv",
+   "bytes": 119218532
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250121_ECM_we_sampled_oneHot.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250121_ectomycorrhizal_rwr_training_data.csv",
+   "bytes": 6840574
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250121_ectomycorrhizal_rwr_training_data.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/filtered_randomPoints.csv",
+   "bytes": 7863942
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._filtered_randomPoints.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250115_arbuscular_mycorrhizal_richness_training_data.csv",
+   "bytes": 1007391
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250115_arbuscular_mycorrhizal_richness_training_data.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250115_AMF_sampled_outliersRemoved_onehot.csv",
+   "bytes": 22070727
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250115_AMF_sampled_outliersRemoved_onehot.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250127_arbuscular_mycorrhizal_rwr_training_data.csv",
+   "bytes": 1230660
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250127_arbuscular_mycorrhizal_rwr_training_data.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250117_ECM_richness_rarefied_sampled.csv",
+   "bytes": 138223588
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250117_ECM_richness_rarefied_sampled.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250117_ECM_sampled_outliersRemoved.csv",
+   "bytes": 118928870
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250117_ECM_sampled_outliersRemoved.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/data/20250115_AMF_sampled_outliersRemoved.csv",
+   "bytes": 22166865
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/data/._20250115_AMF_sampled_outliersRemoved.csv",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/code/.DS_Store",
+   "bytes": 6148
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/code/._.DS_Store",
+   "bytes": 120
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/code/2_dbMEM_interpolation_1.R",
+   "bytes": 8103
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/code/._2_dbMEM_interpolation_1.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/code/idw_optimalpower.R",
+   "bytes": 1656
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/code/._idw_optimalpower.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/code/moranfast_sf.R",
+   "bytes": 548
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/code/._moranfast_sf.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_exploratory_analyses/code/1_dbMEMs_AMF_create_export.R",
+   "bytes": 2880
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_exploratory_analyses/code/._1_dbMEMs_AMF_create_export.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_VI.tif",
+   "bytes": 26998380
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_VI.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_V.tif",
+   "bytes": 24247293
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_V.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_II.tif",
+   "bytes": 26436872
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_II.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_III.tif",
+   "bytes": 22857069
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_III.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_I.tif",
+   "bytes": 24644383
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_I.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_IV.tif",
+   "bytes": 25044886
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_IV.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE.tif",
+   "bytes": 33132662
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/WDPA/WDPA_EE_null.tif",
+   "bytes": 29175640
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/WDPA/._WDPA_EE_null.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/code/Hotspot_Protected_Analysis.R",
+   "bytes": 9466
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/code/._Hotspot_Protected_Analysis.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/code/Richness_RWR_Uncertainty_Visualizations.R",
+   "bytes": 18775
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/code/._Richness_RWR_Uncertainty_Visualizations.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/Hotspots/EcM_fungal_rwr_hotspots.tif",
+   "bytes": 29240980
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/Hotspots/._EcM_fungal_rwr_hotspots.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/Hotspots/AM_fungal_rwr_hotspots.tif",
+   "bytes": 27367010
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/Hotspots/._AM_fungal_rwr_hotspots.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/Hotspots/EcM_fungal_richness_hotspots.tif",
+   "bytes": 26424849
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/Hotspots/._EcM_fungal_richness_hotspots.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/3_visualisations/Hotspots/AM_fungal_richness_hotspots.tif",
+   "bytes": 28748203
+  },
+  {
+   "name": "__MACOSX/myc_richness/3_visualisations/Hotspots/._AM_fungal_richness_hotspots.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_Tundra_EE.tif",
+   "bytes": 24512836
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_Tundra_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TropCon_EE.tif",
+   "bytes": 23125380
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TropCon_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_Boreal_EE.tif",
+   "bytes": 24650594
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_Boreal_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_FloodGrass_EE.tif",
+   "bytes": 24669602
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_FloodGrass_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TempBroad_EE.tif",
+   "bytes": 27614553
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TempBroad_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_Mediterranean_EE.tif",
+   "bytes": 24552563
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_Mediterranean_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TropBroad_EE.tif",
+   "bytes": 25394493
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TropBroad_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_Mangroves_EE.tif",
+   "bytes": 22808163
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_Mangroves_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TempGrass_EE.tif",
+   "bytes": 27504365
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TempGrass_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_Montane_EE.tif",
+   "bytes": 26852649
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_Montane_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TropGrass_EE.tif",
+   "bytes": 28907131
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TropGrass_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TropMoistBroad_EE.tif",
+   "bytes": 28898029
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TropMoistBroad_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_Desert_EE.tif",
+   "bytes": 29485180
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_Desert_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/99_misc/biomes/Biome_TempCon_EE.tif",
+   "bytes": 24082281
+  },
+  {
+   "name": "__MACOSX/myc_richness/99_misc/biomes/._Biome_TempCon_EE.tif",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/functions/generateFoldsKNNDM.R",
+   "bytes": 8128
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/functions/._generateFoldsKNNDM.R",
+   "bytes": 176
+  },
+  {
+   "name": "myc_richness/2_geospatial/code/functions/create_composite.js",
+   "bytes": 6869
+  },
+  {
+   "name": "__MACOSX/myc_richness/2_geospatial/code/functions/._create_composite.js",
+   "bytes": 176
+  }
+ ]
+}

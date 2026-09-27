@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_net_shrubgrass.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 80842587
+  },
+  {
+   "file": "climate_trace_co2_net_shrubgrass_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 63636556
+  },
+  {
+   "file": "climate_trace_co2_net_shrubgrass_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 38568133
+  }
+ ],
+ "zoom": 12
+}

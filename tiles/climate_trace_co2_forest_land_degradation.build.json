@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_forest_land_degradation.pmtiles",
+   "from": 0,
+   "to": 10,
+   "bytes": 94682295
+  },
+  {
+   "file": "climate_trace_co2_forest_land_degradation_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 68304772
+  }
+ ],
+ "zoom": 12
+}

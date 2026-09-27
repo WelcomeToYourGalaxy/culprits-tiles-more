@@ -1,0 +1,3614 @@
+{
+ "quarter": "2026q2",
+ "forest500_year": 2025,
+ "forest500_companies": 767,
+ "matched": 53,
+ "holdings": 53560,
+ "funds": 5507,
+ "tables_in_file": [
+  "BORROWER",
+  "BORROW_AGGREGATE",
+  "CONVERTIBLE_SECURITY_CURRENCY",
+  "DEBT_SECURITY",
+  "DEBT_SECURITY_REF_INSTRUMENT",
+  "DERIVATIVE_COUNTERPARTY",
+  "DESC_REF_INDEX_BASKET",
+  "DESC_REF_INDEX_COMPONENT",
+  "DESC_REF_OTHER",
+  "EXPLANATORY_NOTE",
+  "FLOATING_RATE_RESET_TENOR",
+  "FUND_REPORTED_HOLDING",
+  "FUND_REPORTED_INFO",
+  "FUND_VAR_INFO",
+  "FUT_FWD_NONFOREIGNCUR_CONTRACT",
+  "FWD_FOREIGNCUR_CONTRACT_SWAP",
+  "IDENTIFIERS",
+  "INTEREST_RATE_RISK",
+  "MONTHLY_RETURN_CAT_INSTRUMENT",
+  "MONTHLY_TOTAL_RETURN",
+  "NONFOREIGN_EXCHANGE_SWAP",
+  "OTHER_DERIV",
+  "OTHER_DERIV_NOTIONAL_AMOUNT",
+  "REGISTRANT",
+  "REPURCHASE_AGREEMENT",
+  "REPURCHASE_COLLATERAL",
+  "REPURCHASE_COUNTERPARTY",
+  "SECURITIES_LENDING",
+  "SUBMISSION",
+  "SWAPTION_OPTION_WARNT_DERIV",
+  "nport_metadata",
+  "nport_readme"
+ ],
+ "unmatched": [
+  {
+   "company": "Sipef Group",
+   "ticker": "CO2827",
+   "why": "no fund reports a holding with the ticker CO2827"
+  },
+  {
+   "company": "Suzano SA",
+   "ticker": "SUZB3:SAO",
+   "why": "no fund reports a holding with the ticker SUZB3:SAO"
+  },
+  {
+   "company": "Permata Hijau Group",
+   "ticker": "PRIV 105",
+   "why": "no fund reports a holding with the ticker PRIV 105"
+  },
+  {
+   "company": "Legal & General",
+   "ticker": "INVI89",
+   "why": "no fund reports a holding with the ticker INVI89"
+  },
+  {
+   "company": "Nestlé S.A.",
+   "ticker": "NESN VX",
+   "why": "no fund reports a holding with the ticker NESN VX"
+  },
+  {
+   "company": "Amaggi",
+   "ticker": "PRIV 45",
+   "why": "no fund reports a holding with the ticker PRIV 45"
+  },
+  {
+   "company": "Mars Inc",
+   "ticker": "PRIV 29",
+   "why": "no fund reports a holding with the ticker PRIV 29"
+  },
+  {
+   "company": "Louis Dreyfus Company",
+   "ticker": "PRIV 53",
+   "why": "no fund reports a holding with the ticker PRIV 53"
+  },
+  {
+   "company": "Mondi Group",
+   "ticker": "LON: MNDI",
+   "why": "no fund reports a holding with the ticker LON: MNDI"
+  },
+  {
+   "company": "Government Pension Fund Global (GPFG)",
+   "ticker": "INVP2",
+   "why": "no fund reports a holding with the ticker INVP2"
+  },
+  {
+   "company": "DSN Group",
+   "ticker": "CO4326",
+   "why": "no fund reports a holding with the ticker CO4326"
+  },
+  {
+   "company": "APAR Holdings (Alfa Group)",
+   "ticker": "CO14",
+   "why": "no fund reports a holding with the ticker CO14"
+  },
+  {
+   "company": "PT Rajawali Corp.",
+   "ticker": "PRIV 121",
+   "why": "no fund reports a holding with the ticker PRIV 121"
+  },
+  {
+   "company": "Flora Food Group BV",
+   "ticker": "CO4111719",
+   "why": "no fund reports a holding with the ticker CO4111719"
+  },
+  {
+   "company": "Matte",
+   "ticker": "CMPC.SN",
+   "why": "no fund reports a holding with the ticker CMPC.SN"
+  },
+  {
+   "company": "OLAM International",
+   "ticker": "OLAM SP",
+   "why": "no fund reports a holding with the ticker OLAM SP"
+  },
+  {
+   "company": "Bukit Darah PLC",
+   "ticker": "CO4319",
+   "why": "no fund reports a holding with the ticker CO4319"
+  },
+  {
+   "company": "Goodyear Tire & Rubber Company",
+   "ticker": "SPOTT1517",
+   "why": "no fund reports a holding with the ticker SPOTT1517"
+  },
+  {
+   "company": "Musim Mas",
+   "ticker": "PRIV 56",
+   "why": "no fund reports a holding with the ticker PRIV 56"
+  },
+  {
+   "company": "Halcyon Agri",
+   "ticker": "SPOTT957",
+   "why": "no fund reports a holding with the ticker SPOTT957"
+  },
+  {
+   "company": "ANJ Group",
+   "ticker": "CO4314",
+   "why": "no fund reports a holding with the ticker CO4314"
+  },
+  {
+   "company": "Marfrig Global Foods",
+   "ticker": "MRFG3 BZ",
+   "why": "no fund reports a holding with the ticker MRFG3 BZ"
+  },
+  {
+   "company": "Bunge Ltd",
+   "ticker": "BG US",
+   "why": "holdings with the ticker BG US give no issuer LEI"
+  },
+  {
+   "company": "Arcos Dorados Holdings Inc.",
+   "ticker": "FL 4405",
+   "why": "no fund reports a holding with the ticker FL 4405"
+  },
+  {
+   "company": "BNP Paribas",
+   "ticker": "INVI101",
+   "why": "no fund reports a holding with the ticker INVI101"
+  },
+  {
+   "company": "UPM",
+   "ticker": "HEL: UPM",
+   "why": "no fund reports a holding with the ticker HEL: UPM"
+  },
+  {
+   "company": "Neste Corp.",
+   "ticker": "NES1V FH",
+   "why": "no fund reports a holding with the ticker NES1V FH"
+  },
+  {
+   "company": "Royal Golden Eagle",
+   "ticker": "PRIV 31",
+   "why": "no fund reports a holding with the ticker PRIV 31"
+  },
+  {
+   "company": "Schroders",
+   "ticker": "INVI65",
+   "why": "no fund reports a holding with the ticker INVI65"
+  },
+  {
+   "company": "Tetra Laval",
+   "ticker": "CO2921",
+   "why": "no fund reports a holding with the ticker CO2921"
+  },
+  {
+   "company": "Rabobank",
+   "ticker": "INVB29",
+   "why": "no fund reports a holding with the ticker INVB29"
+  },
+  {
+   "company": "Bridgestone Corporation",
+   "ticker": "SPOTT954",
+   "why": "no fund reports a holding with the ticker SPOTT954"
+  },
+  {
+   "company": "Genting Bhd.",
+   "ticker": "GENT MK",
+   "why": "no fund reports a holding with the ticker GENT MK"
+  },
+  {
+   "company": "Precious Woods Holding AG",
+   "ticker": "PRWN SW",
+   "why": "no fund reports a holding with the ticker PRWN SW"
+  },
+  {
+   "company": "Lindt & Sprungli AG",
+   "ticker": "LISN SW",
+   "why": "holdings with the ticker LISN SW give no issuer LEI"
+  },
+  {
+   "company": "Socfin Group",
+   "ticker": "PRIV 129",
+   "why": "no fund reports a holding with the ticker PRIV 129"
+  },
+  {
+   "company": "IOI Corporation Bhd.",
+   "ticker": "IOI MK",
+   "why": "holdings with the ticker IOI MK give no issuer LEI"
+  },
+  {
+   "company": "ING Group",
+   "ticker": "INVI53",
+   "why": "no fund reports a holding with the ticker INVI53"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "ticker": "INVI103",
+   "why": "no fund reports a holding with the ticker INVI103"
+  },
+  {
+   "company": "Pirelli & C",
+   "ticker": "SPOTT1522",
+   "why": "no fund reports a holding with the ticker SPOTT1522"
+  },
+  {
+   "company": "Clariant",
+   "ticker": "CLN:SIX",
+   "why": "no fund reports a holding with the ticker CLN:SIX"
+  },
+  {
+   "company": "Wilmar International Ltd",
+   "ticker": "WIL SP",
+   "why": "holdings with the ticker WIL SP give no issuer LEI"
+  },
+  {
+   "company": "Felda Global Ventures Holdings Bhd.",
+   "ticker": "FGV MK",
+   "why": "no fund reports a holding with the ticker FGV MK"
+  },
+  {
+   "company": "Neumann Kaffee Gruppe",
+   "ticker": "CO1678",
+   "why": "no fund reports a holding with the ticker CO1678"
+  },
+  {
+   "company": "International Flavors & Fragrances, Inc (IFF)",
+   "ticker": "CO4031312",
+   "why": "no fund reports a holding with the ticker CO4031312"
+  },
+  {
+   "company": "Grupo SLC",
+   "ticker": "SLCE3 BZ",
+   "why": "no fund reports a holding with the ticker SLCE3 BZ"
+  },
+  {
+   "company": "The Siam Cement Public Company Limited",
+   "ticker": "CDP 16913",
+   "why": "no fund reports a holding with the ticker CDP 16913"
+  },
+  {
+   "company": "H & M Hennes & Mauritz AB",
+   "ticker": "HMB SS",
+   "why": "holdings with the ticker HMB SS give no issuer LEI"
+  },
+  {
+   "company": "J Sainsbury's PLC",
+   "ticker": "LON: SBRY",
+   "why": "no fund reports a holding with the ticker LON: SBRY"
+  },
+  {
+   "company": "Compagnie Générale des Établissements Michelin SCA",
+   "ticker": "SPOTT1521",
+   "why": "no fund reports a holding with the ticker SPOTT1521"
+  },
+  {
+   "company": "KPN Corp",
+   "ticker": "SPOTT845",
+   "why": "no fund reports a holding with the ticker SPOTT845"
+  },
+  {
+   "company": "PT Citra Borneo Indah",
+   "ticker": "CO4361",
+   "why": "no fund reports a holding with the ticker CO4361"
+  },
+  {
+   "company": "Reckitt Benckiser Group PLC",
+   "ticker": "RB LN",
+   "why": "no fund reports a holding with the ticker RB LN"
+  },
+  {
+   "company": "Southland Global Pte Ltd",
+   "ticker": "SPOTT1524",
+   "why": "no fund reports a holding with the ticker SPOTT1524"
+  },
+  {
+   "company": "International Paper",
+   "ticker": "NYSE: IP",
+   "why": "no fund reports a holding with the ticker NYSE: IP"
+  },
+  {
+   "company": "FrieslandCampina N.V.",
+   "ticker": "COOP 4",
+   "why": "no fund reports a holding with the ticker COOP 4"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group (MUFG)",
+   "ticker": "INVI40",
+   "why": "no fund reports a holding with the ticker INVI40"
+  },
+  {
+   "company": "Barclays",
+   "ticker": "INVI124",
+   "why": "no fund reports a holding with the ticker INVI124"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "ticker": "DELB BB",
+   "why": "no fund reports a holding with the ticker DELB BB"
+  },
+  {
+   "company": "JDE Peet’s",
+   "ticker": "CO4341",
+   "why": "no fund reports a holding with the ticker CO4341"
+  },
+  {
+   "company": "Mewah International Inc.",
+   "ticker": "MII SP",
+   "why": "no fund reports a holding with the ticker MII SP"
+  },
+  {
+   "company": "Unicharm Corporation",
+   "ticker": "TYO: 8113",
+   "why": "no fund reports a holding with the ticker TYO: 8113"
+  },
+  {
+   "company": "Nippon Paper Industries Co. Ltd.",
+   "ticker": "3863 JP",
+   "why": "holdings with the ticker 3863 JP give no issuer LEI"
+  },
+  {
+   "company": "Arezzo & Co International",
+   "ticker": "CDP 44718",
+   "why": "no fund reports a holding with the ticker CDP 44718"
+  },
+  {
+   "company": "Hermès International S.A",
+   "ticker": "CDP 8264",
+   "why": "no fund reports a holding with the ticker CDP 8264"
+  },
+  {
+   "company": "Tropicore",
+   "ticker": "CO4381",
+   "why": "no fund reports a holding with the ticker CO4381"
+  },
+  {
+   "company": "Klabin S.A.",
+   "ticker": "KLBN11:BZ",
+   "why": "no fund reports a holding with the ticker KLBN11:BZ"
+  },
+  {
+   "company": "Cargill Inc",
+   "ticker": "PRIV 35",
+   "why": "no fund reports a holding with the ticker PRIV 35"
+  },
+  {
+   "company": "Tapestry",
+   "ticker": "COH US",
+   "why": "no fund reports a holding with the ticker COH US"
+  },
+  {
+   "company": "Weyerhaeuser Company",
+   "ticker": "CDP 20612",
+   "why": "no fund reports a holding with the ticker CDP 20612"
+  },
+  {
+   "company": "Société Générale",
+   "ticker": "INVB12",
+   "why": "no fund reports a holding with the ticker INVB12"
+  },
+  {
+   "company": "The Yokohama Rubber Co Ltd",
+   "ticker": "SPOTT1527",
+   "why": "no fund reports a holding with the ticker SPOTT1527"
+  },
+  {
+   "company": "Sri Trang Agro-Industry Public Company Ltd",
+   "ticker": "SPOTT1525",
+   "why": "no fund reports a holding with the ticker SPOTT1525"
+  },
+  {
+   "company": "Standard Chartered",
+   "ticker": "FI48",
+   "why": "no fund reports a holding with the ticker FI48"
+  },
+  {
+   "company": "Fidelity International",
+   "ticker": "INVA4",
+   "why": "no fund reports a holding with the ticker INVA4"
+  },
+  {
+   "company": "Von Bundit",
+   "ticker": "CO4386",
+   "why": "no fund reports a holding with the ticker CO4386"
+  },
+  {
+   "company": "Touton S.A",
+   "ticker": "CO1691",
+   "why": "no fund reports a holding with the ticker CO1691"
+  },
+  {
+   "company": "Santander",
+   "ticker": "INVB15",
+   "why": "no fund reports a holding with the ticker INVB15"
+  },
+  {
+   "company": "Ecom Agroindustrial",
+   "ticker": "CO4327",
+   "why": "no fund reports a holding with the ticker CO4327"
+  },
+  {
+   "company": "Citigroup",
+   "ticker": "INVI152",
+   "why": "no fund reports a holding with the ticker INVI152"
+  },
+  {
+   "company": "Groupe Avril",
+   "ticker": "NA 286",
+   "why": "no fund reports a holding with the ticker NA 286"
+  },
+  {
+   "company": "Minerva S.A.",
+   "ticker": "BEEF3 BZ",
+   "why": "no fund reports a holding with the ticker BEEF3 BZ"
+  },
+  {
+   "company": "Vandemoortele NV",
+   "ticker": "PRIV 71",
+   "why": "no fund reports a holding with the ticker PRIV 71"
+  },
+  {
+   "company": "BMW Group",
+   "ticker": "CDP 1932",
+   "why": "no fund reports a holding with the ticker CDP 1932"
+  },
+  {
+   "company": "Kuala Lumpur Kepong Bhd.",
+   "ticker": "KLK MK",
+   "why": "holdings with the ticker KLK MK give no issuer LEI"
+  },
+  {
+   "company": "Arla Foods Amba",
+   "ticker": "COOP 5",
+   "why": "no fund reports a holding with the ticker COOP 5"
+  },
+  {
+   "company": "Crédit Agricole",
+   "ticker": "INVI96",
+   "why": "no fund reports a holding with the ticker INVI96"
+  },
+  {
+   "company": "Kraft Heinz Co.",
+   "ticker": "KRFT US",
+   "why": "no fund reports a holding with the ticker KRFT US"
+  },
+  {
+   "company": "Harita Group",
+   "ticker": "CO174",
+   "why": "no fund reports a holding with the ticker CO174"
+  },
+  {
+   "company": "Ferrero Group",
+   "ticker": "PRIV 24",
+   "why": "no fund reports a holding with the ticker PRIV 24"
+  },
+  {
+   "company": "Sucafina",
+   "ticker": "CO4375",
+   "why": "no fund reports a holding with the ticker CO4375"
+  },
+  {
+   "company": "Allianz",
+   "ticker": "INVI42",
+   "why": "no fund reports a holding with the ticker INVI42"
+  },
+  {
+   "company": "COFCO",
+   "ticker": "STAT 7",
+   "why": "no fund reports a holding with the ticker STAT 7"
+  },
+  {
+   "company": "Banco Bilbao Vizcaya Argentaria (BBVA)",
+   "ticker": "FI9",
+   "why": "no fund reports a holding with the ticker FI9"
+  },
+  {
+   "company": "Mizuho Financial Group Inc.",
+   "ticker": "INVI62",
+   "why": "no fund reports a holding with the ticker INVI62"
+  },
+  {
+   "company": "VW Group",
+   "ticker": "CO1104",
+   "why": "no fund reports a holding with the ticker CO1104"
+  },
+  {
+   "company": "Sucden",
+   "ticker": "CO4376",
+   "why": "no fund reports a holding with the ticker CO4376"
+  },
+  {
+   "company": "Deutsche Bank",
+   "ticker": "INVI22",
+   "why": "no fund reports a holding with the ticker INVI22"
+  },
+  {
+   "company": "Eight Capital Inc.",
+   "ticker": "FR SP",
+   "why": "holdings with the ticker FR SP give no issuer LEI"
+  },
+  {
+   "company": "SMBC Group",
+   "ticker": "FI58",
+   "why": "no fund reports a holding with the ticker FI58"
+  },
+  {
+   "company": "Orix Corporation",
+   "ticker": "FI40",
+   "why": "no fund reports a holding with the ticker FI40"
+  },
+  {
+   "company": "HOFER KG dba ALDI SOUTH Group",
+   "ticker": "CO1098",
+   "why": "no fund reports a holding with the ticker CO1098"
+  },
+  {
+   "company": "Essity",
+   "ticker": "STO: SCA-B",
+   "why": "no fund reports a holding with the ticker STO: SCA-B"
+  },
+  {
+   "company": "JBS",
+   "ticker": "JBSS3 BZ",
+   "why": "no fund reports a holding with the ticker JBSS3 BZ"
+  },
+  {
+   "company": "PT. Perkebunan Nusantara III",
+   "ticker": "STAT 3",
+   "why": "no fund reports a holding with the ticker STAT 3"
+  },
+  {
+   "company": "Sampoerna Agri Resources Pte. Ltd",
+   "ticker": "CO315",
+   "why": "no fund reports a holding with the ticker CO315"
+  },
+  {
+   "company": "Triputra Group",
+   "ticker": "PRIV 69",
+   "why": "no fund reports a holding with the ticker PRIV 69"
+  },
+  {
+   "company": "JB Foods Limited",
+   "ticker": "CO1671",
+   "why": "no fund reports a holding with the ticker CO1671"
+  },
+  {
+   "company": "IKEA",
+   "ticker": "PRIV 87",
+   "why": "no fund reports a holding with the ticker PRIV 87"
+  },
+  {
+   "company": "ED&F Man",
+   "ticker": "CO4281",
+   "why": "no fund reports a holding with the ticker CO4281"
+  },
+  {
+   "company": "HSBC",
+   "ticker": "INVI77",
+   "why": "no fund reports a holding with the ticker INVI77"
+  },
+  {
+   "company": "Japan Brazil paper and pulp Resources Development Co., ltd. (JBp)",
+   "ticker": "CO4342",
+   "why": "no fund reports a holding with the ticker CO4342"
+  },
+  {
+   "company": "NatWest Group",
+   "ticker": "INVB13",
+   "why": "no fund reports a holding with the ticker INVB13"
+  },
+  {
+   "company": "COOP",
+   "ticker": "FL 4417",
+   "why": "no fund reports a holding with the ticker FL 4417"
+  },
+  {
+   "company": "DBS",
+   "ticker": "FI21",
+   "why": "no fund reports a holding with the ticker FI21"
+  },
+  {
+   "company": "Puratos Group",
+   "ticker": "CO21152201",
+   "why": "no fund reports a holding with the ticker CO21152201"
+  },
+  {
+   "company": "Oji Holdings Corp",
+   "ticker": "3861 JP",
+   "why": "no fund reports a holding with the ticker 3861 JP"
+  },
+  {
+   "company": "Sinar Mas Group Co. Ltd.",
+   "ticker": "PRIV 81",
+   "why": "no fund reports a holding with the ticker PRIV 81"
+  },
+  {
+   "company": "Grupo Pão de Açúcar",
+   "ticker": "RSPO 4127",
+   "why": "no fund reports a holding with the ticker RSPO 4127"
+  },
+  {
+   "company": "Caramuru Alimentos",
+   "ticker": "PRIV 34",
+   "why": "no fund reports a holding with the ticker PRIV 34"
+  },
+  {
+   "company": "REWE Group",
+   "ticker": "PRIV 28",
+   "why": "no fund reports a holding with the ticker PRIV 28"
+  },
+  {
+   "company": "Oetker-Gruppe",
+   "ticker": "PRIV 17",
+   "why": "no fund reports a holding with the ticker PRIV 17"
+  },
+  {
+   "company": "Eldorado Brasil Celulose S/A",
+   "ticker": "SPOTT900",
+   "why": "no fund reports a holding with the ticker SPOTT900"
+  },
+  {
+   "company": "Metro AG",
+   "ticker": "MEO GR",
+   "why": "no fund reports a holding with the ticker MEO GR"
+  },
+  {
+   "company": "Aldi group (North)",
+   "ticker": "CO 17",
+   "why": "no fund reports a holding with the ticker CO 17"
+  },
+  {
+   "company": "McCormick & Co Inc",
+   "ticker": "CO4102318",
+   "why": "no fund reports a holding with the ticker CO4102318"
+  },
+  {
+   "company": "CIMB Group",
+   "ticker": "FI56",
+   "why": "no fund reports a holding with the ticker FI56"
+  },
+  {
+   "company": "Alfred Ritter GmbH & Co. KG",
+   "ticker": "CO4034413",
+   "why": "no fund reports a holding with the ticker CO4034413"
+  },
+  {
+   "company": "Nordea",
+   "ticker": "INVI76",
+   "why": "no fund reports a holding with the ticker INVI76"
+  },
+  {
+   "company": "Capri Holdings",
+   "ticker": "NYSE: CPRI",
+   "why": "no fund reports a holding with the ticker NYSE: CPRI"
+  },
+  {
+   "company": "China Hainan Rubber Industry Group Co., Ltd.",
+   "ticker": "CO4321",
+   "why": "no fund reports a holding with the ticker CO4321"
+  },
+  {
+   "company": "The Coca-Cola company",
+   "ticker": "CO3011320",
+   "why": "no fund reports a holding with the ticker CO3011320"
+  },
+  {
+   "company": "Groupe Lactalis",
+   "ticker": "PRIV 51",
+   "why": "no fund reports a holding with the ticker PRIV 51"
+  },
+  {
+   "company": "Sumitomo Mitsui Trust",
+   "ticker": "INVI46",
+   "why": "no fund reports a holding with the ticker INVI46"
+  },
+  {
+   "company": "Casino Guichard Perrachon S.A.",
+   "ticker": "CO FP",
+   "why": "no fund reports a holding with the ticker CO FP"
+  },
+  {
+   "company": "Domino's Pizza Inc",
+   "ticker": "DOM LN",
+   "why": "holdings with the ticker DOM LN give no issuer LEI"
+  },
+  {
+   "company": "Daio Paper Corporation",
+   "ticker": "3880:TYO",
+   "why": "no fund reports a holding with the ticker 3880:TYO"
+  },
+  {
+   "company": "Frigol S.A",
+   "ticker": "CO4297",
+   "why": "no fund reports a holding with the ticker CO4297"
+  },
+  {
+   "company": "Puma SE",
+   "ticker": "CDP 15345",
+   "why": "no fund reports a holding with the ticker CDP 15345"
+  },
+  {
+   "company": "Daiwa House Group",
+   "ticker": "1925 JP",
+   "why": "holdings with the ticker 1925 JP give no issuer LEI"
+  },
+  {
+   "company": "Mercedes-Benz Group",
+   "ticker": "CDP 866803",
+   "why": "no fund reports a holding with the ticker CDP 866803"
+  },
+  {
+   "company": "Aditya Birla Group",
+   "ticker": "ABNL:IN",
+   "why": "no fund reports a holding with the ticker ABNL:IN"
+  },
+  {
+   "company": "D H Brothers Industries (Pty) Ltd t/a Willowton Group",
+   "ticker": "CO4015511",
+   "why": "no fund reports a holding with the ticker CO4015511"
+  },
+  {
+   "company": "Hankook Tire & Technology",
+   "ticker": "SPOTT1519",
+   "why": "no fund reports a holding with the ticker SPOTT1519"
+  },
+  {
+   "company": "Hayel Saeed Anam Group",
+   "ticker": "PRIV 58",
+   "why": "no fund reports a holding with the ticker PRIV 58"
+  },
+  {
+   "company": "KEURIG DR PEPPER",
+   "ticker": "CO1673",
+   "why": "no fund reports a holding with the ticker CO1673"
+  },
+  {
+   "company": "Sime Darby Bhd.",
+   "ticker": "SIME MK",
+   "why": "holdings with the ticker SIME MK give no issuer LEI"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "ticker": "FI29",
+   "why": "no fund reports a holding with the ticker FI29"
+  },
+  {
+   "company": "Rino Mastrotto Group SPA",
+   "ticker": "CO4353",
+   "why": "no fund reports a holding with the ticker CO4353"
+  },
+  {
+   "company": "IFFCO",
+   "ticker": "PRIV 109",
+   "why": "no fund reports a holding with the ticker PRIV 109"
+  },
+  {
+   "company": "Grupo Nueva",
+   "ticker": "NA 288",
+   "why": "no fund reports a holding with the ticker NA 288"
+  },
+  {
+   "company": "Banco do Brasil",
+   "ticker": "INVR2",
+   "why": "no fund reports a holding with the ticker INVR2"
+  },
+  {
+   "company": "Migros-Genossenschafts-Bund",
+   "ticker": "CO4350",
+   "why": "no fund reports a holding with the ticker CO4350"
+  },
+  {
+   "company": "Samling Group",
+   "ticker": "PRIV 102",
+   "why": "no fund reports a holding with the ticker PRIV 102"
+  },
+  {
+   "company": "SIFCA Group",
+   "ticker": "PRIV 67",
+   "why": "no fund reports a holding with the ticker PRIV 67"
+  },
+  {
+   "company": "Thai Vegetable Oil Public Company Limited",
+   "ticker": "CO4378",
+   "why": "no fund reports a holding with the ticker CO4378"
+  },
+  {
+   "company": "Nissin Foods Holdings Co Ltd",
+   "ticker": "CO4096817",
+   "why": "no fund reports a holding with the ticker CO4096817"
+  },
+  {
+   "company": "ITOCHU Corporation",
+   "ticker": "CO853",
+   "why": "no fund reports a holding with the ticker CO853"
+  },
+  {
+   "company": "Korindo Group PT",
+   "ticker": "NA 297",
+   "why": "no fund reports a holding with the ticker NA 297"
+  },
+  {
+   "company": "Westrock",
+   "ticker": "NYSE: WRK",
+   "why": "no fund reports a holding with the ticker NYSE: WRK"
+  },
+  {
+   "company": "Masterboi",
+   "ticker": "FL 4472",
+   "why": "no fund reports a holding with the ticker FL 4472"
+  },
+  {
+   "company": "Danzer Group",
+   "ticker": "PRIV 77",
+   "why": "no fund reports a holding with the ticker PRIV 77"
+  },
+  {
+   "company": "Adient",
+   "ticker": "ADNT",
+   "why": "holdings with the ticker ADNT name 3 different issuer LEIs"
+  },
+  {
+   "company": "COLES GROUP LIMITED",
+   "ticker": "CDP 3603",
+   "why": "no fund reports a holding with the ticker CDP 3603"
+  },
+  {
+   "company": "Perum Perhutani",
+   "ticker": "NA 303",
+   "why": "no fund reports a holding with the ticker NA 303"
+  },
+  {
+   "company": "Mitsui & Co. Ltd",
+   "ticker": "TYO: 8031",
+   "why": "no fund reports a holding with the ticker TYO: 8031"
+  },
+  {
+   "company": "Costco Wholesale Corporation",
+   "ticker": "NASDAQ: COST",
+   "why": "no fund reports a holding with the ticker NASDAQ: COST"
+  },
+  {
+   "company": "General Motors",
+   "ticker": "CO4299",
+   "why": "no fund reports a holding with the ticker CO4299"
+  },
+  {
+   "company": "BNDES",
+   "ticker": "INVR1",
+   "why": "no fund reports a holding with the ticker INVR1"
+  },
+  {
+   "company": "FinLav S.p.A",
+   "ticker": "CO1667",
+   "why": "no fund reports a holding with the ticker CO1667"
+  },
+  {
+   "company": "Stellantis N.V.",
+   "ticker": "FL 4489",
+   "why": "no fund reports a holding with the ticker FL 4489"
+  },
+  {
+   "company": "Rich Holdings Inc.",
+   "ticker": "CO4037813",
+   "why": "no fund reports a holding with the ticker CO4037813"
+  },
+  {
+   "company": "Anta Sports",
+   "ticker": "CO4315",
+   "why": "no fund reports a holding with the ticker CO4315"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "ticker": "CO1095",
+   "why": "no fund reports a holding with the ticker CO1095"
+  },
+  {
+   "company": "BioMar",
+   "ticker": "NA 260",
+   "why": "no fund reports a holding with the ticker NA 260"
+  },
+  {
+   "company": "Salim Group",
+   "ticker": "CO312",
+   "why": "no fund reports a holding with the ticker CO312"
+  },
+  {
+   "company": "SSP Group Plc.",
+   "ticker": "CO1685",
+   "why": "no fund reports a holding with the ticker CO1685"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "ticker": "FI28",
+   "why": "no fund reports a holding with the ticker FI28"
+  },
+  {
+   "company": "New Balance Athletic Shoe Inc.",
+   "ticker": "PRIV 128",
+   "why": "no fund reports a holding with the ticker PRIV 128"
+  },
+  {
+   "company": "DLG Denmark",
+   "ticker": "COOP 6",
+   "why": "no fund reports a holding with the ticker COOP 6"
+  },
+  {
+   "company": "Morgan Stanley",
+   "ticker": "INVI19",
+   "why": "no fund reports a holding with the ticker INVI19"
+  },
+  {
+   "company": "Schwarz Group",
+   "ticker": "PRIV 126",
+   "why": "no fund reports a holding with the ticker PRIV 126"
+  },
+  {
+   "company": "Seven & I Holdings Co Ltd",
+   "ticker": "3382 JP",
+   "why": "holdings with the ticker 3382 JP give no issuer LEI"
+  },
+  {
+   "company": "Ilim Group",
+   "ticker": "CO4339",
+   "why": "no fund reports a holding with the ticker CO4339"
+  },
+  {
+   "company": "Amazon.com",
+   "ticker": "AMZN",
+   "why": "holdings with the ticker AMZN name 2 different issuer LEIs"
+  },
+  {
+   "company": "Hevea-Tec Industria e Comercio Ltda",
+   "ticker": "CO4285",
+   "why": "no fund reports a holding with the ticker CO4285"
+  },
+  {
+   "company": "Shell plc",
+   "ticker": "AMS: RDSA",
+   "why": "no fund reports a holding with the ticker AMS: RDSA"
+  },
+  {
+   "company": "Interfor Corporation",
+   "ticker": "CDP 54725",
+   "why": "no fund reports a holding with the ticker CDP 54725"
+  },
+  {
+   "company": "PT Astra International TBK",
+   "ticker": "AALI IJ",
+   "why": "no fund reports a holding with the ticker AALI IJ"
+  },
+  {
+   "company": "WM Morrison Supermarkets PLC",
+   "ticker": "LON:MRW",
+   "why": "no fund reports a holding with the ticker LON:MRW"
+  },
+  {
+   "company": "Stichting Pensioenfonds ABP",
+   "ticker": "INVP3",
+   "why": "no fund reports a holding with the ticker INVP3"
+  },
+  {
+   "company": "Decathlon",
+   "ticker": "CDP 59396",
+   "why": "no fund reports a holding with the ticker CDP 59396"
+  },
+  {
+   "company": "Racafé",
+   "ticker": "CO4364",
+   "why": "no fund reports a holding with the ticker CO4364"
+  },
+  {
+   "company": "West Fraser Timber Co Ltd.",
+   "ticker": "CDP 20571",
+   "why": "no fund reports a holding with the ticker CDP 20571"
+  },
+  {
+   "company": "Indcresa",
+   "ticker": "CO1670",
+   "why": "no fund reports a holding with the ticker CO1670"
+  },
+  {
+   "company": "Bestseller A/S",
+   "ticker": "NA 258",
+   "why": "no fund reports a holding with the ticker NA 258"
+  },
+  {
+   "company": "Boparan Holdings",
+   "ticker": "PRIV 30",
+   "why": "no fund reports a holding with the ticker PRIV 30"
+  },
+  {
+   "company": "Yildiz Holding",
+   "ticker": "PRIV 70",
+   "why": "no fund reports a holding with the ticker PRIV 70"
+  },
+  {
+   "company": "The Wendy's Company",
+   "ticker": "WEN US",
+   "why": "holdings with the ticker WEN US give no issuer LEI"
+  },
+  {
+   "company": "Restaurant Brands International Inc",
+   "ticker": "LON: 0VFA",
+   "why": "no fund reports a holding with the ticker LON: 0VFA"
+  },
+  {
+   "company": "Commerzbank",
+   "ticker": "FI18",
+   "why": "no fund reports a holding with the ticker FI18"
+  },
+  {
+   "company": "Bank of America",
+   "ticker": "INVI20",
+   "why": "no fund reports a holding with the ticker INVI20"
+  },
+  {
+   "company": "Ventura Foods, LLC",
+   "ticker": "CO4011610",
+   "why": "no fund reports a holding with the ticker CO4011610"
+  },
+  {
+   "company": "Nomad Foods Ltd",
+   "ticker": "CO4006710",
+   "why": "no fund reports a holding with the ticker CO4006710"
+  },
+  {
+   "company": "Guan Chong Bhd.",
+   "ticker": "CO1668",
+   "why": "no fund reports a holding with the ticker CO1668"
+  },
+  {
+   "company": "SIAT Group (Société d’Investissement pour l’Agriculture Tropicale)",
+   "ticker": "SPOTT960",
+   "why": "no fund reports a holding with the ticker SPOTT960"
+  },
+  {
+   "company": "SHV holdings",
+   "ticker": "NASDAQ: SHV",
+   "why": "no fund reports a holding with the ticker NASDAQ: SHV"
+  },
+  {
+   "company": "ANZ",
+   "ticker": "FI7",
+   "why": "no fund reports a holding with the ticker FI7"
+  },
+  {
+   "company": "Skandinaviska Enskilda Banken",
+   "ticker": "INVI88",
+   "why": "no fund reports a holding with the ticker INVI88"
+  },
+  {
+   "company": "Paper Excellence Group",
+   "ticker": "CO4358",
+   "why": "no fund reports a holding with the ticker CO4358"
+  },
+  {
+   "company": "Association Familiale Mulliez (AFM)",
+   "ticker": "211642Z FP",
+   "why": "no fund reports a holding with the ticker 211642Z FP"
+  },
+  {
+   "company": "Toyota Group",
+   "ticker": "CO1103",
+   "why": "no fund reports a holding with the ticker CO1103"
+  },
+  {
+   "company": "H. Schmidt Holding GmbH",
+   "ticker": "CO1096",
+   "why": "no fund reports a holding with the ticker CO1096"
+  },
+  {
+   "company": "UCC Holdings Pte. Ltd.",
+   "ticker": "CO4382",
+   "why": "no fund reports a holding with the ticker CO4382"
+  },
+  {
+   "company": "Groupe Savencia S.A.",
+   "ticker": "BH FP",
+   "why": "no fund reports a holding with the ticker BH FP"
+  },
+  {
+   "company": "CHS Inc.",
+   "ticker": "CO1038",
+   "why": "no fund reports a holding with the ticker CO1038"
+  },
+  {
+   "company": "Frigorifico Concepcion S.A.",
+   "ticker": "PRIV 124",
+   "why": "no fund reports a holding with the ticker PRIV 124"
+  },
+  {
+   "company": "Thai Rubber Latex Group Public Company Limited (\"ThaiTex\")",
+   "ticker": "CO4377",
+   "why": "no fund reports a holding with the ticker CO4377"
+  },
+  {
+   "company": "Canfor Corporation",
+   "ticker": "CDP 2682",
+   "why": "no fund reports a holding with the ticker CDP 2682"
+  },
+  {
+   "company": "Kasikornbank",
+   "ticker": "FI3082",
+   "why": "no fund reports a holding with the ticker FI3082"
+  },
+  {
+   "company": "Prada SpA",
+   "ticker": "1913 HK",
+   "why": "holdings with the ticker 1913 HK give no issuer LEI"
+  },
+  {
+   "company": "CJ Cheiljedang Corporation",
+   "ticker": "097950:KS",
+   "why": "no fund reports a holding with the ticker 097950:KS"
+  },
+  {
+   "company": "C & J Clark International Ltd.",
+   "ticker": "PRIV 33",
+   "why": "no fund reports a holding with the ticker PRIV 33"
+  },
+  {
+   "company": "Inner Mongolia Yili Industrial Group Co. Ltd.",
+   "ticker": "600887 CH",
+   "why": "no fund reports a holding with the ticker 600887 CH"
+  },
+  {
+   "company": "CSAP - COMPANHIA SUL AMERICANA DE PECUARIA SA",
+   "ticker": "CO4292",
+   "why": "no fund reports a holding with the ticker CO4292"
+  },
+  {
+   "company": "DZ Bank",
+   "ticker": "FI159",
+   "why": "no fund reports a holding with the ticker FI159"
+  },
+  {
+   "company": "Intersnack Group GmbH & Co KG",
+   "ticker": "PRIV 14",
+   "why": "no fund reports a holding with the ticker PRIV 14"
+  },
+  {
+   "company": "Godrej Group",
+   "ticker": "GDSP IN",
+   "why": "no fund reports a holding with the ticker GDSP IN"
+  },
+  {
+   "company": "Fast Retailing",
+   "ticker": "TYO: 9983",
+   "why": "no fund reports a holding with the ticker TYO: 9983"
+  },
+  {
+   "company": "Melitta Group",
+   "ticker": "CO1676",
+   "why": "no fund reports a holding with the ticker CO1676"
+  },
+  {
+   "company": "Bertelsmann SE & Co. KGaA",
+   "ticker": "PRIV 93",
+   "why": "no fund reports a holding with the ticker PRIV 93"
+  },
+  {
+   "company": "Pou Chen Corporation",
+   "ticker": "551 HK",
+   "why": "holdings with the ticker 551 HK give no issuer LEI"
+  },
+  {
+   "company": "DANSKE BANK",
+   "ticker": "DAT4443",
+   "why": "no fund reports a holding with the ticker DAT4443"
+  },
+  {
+   "company": "Walgreens Boots Alliance",
+   "ticker": "CO3000506",
+   "why": "no fund reports a holding with the ticker CO3000506"
+  },
+  {
+   "company": "ACOMO N.V.",
+   "ticker": "CO2132922",
+   "why": "no fund reports a holding with the ticker CO2132922"
+  },
+  {
+   "company": "Lojas Renner",
+   "ticker": "CDP 10791",
+   "why": "no fund reports a holding with the ticker CDP 10791"
+  },
+  {
+   "company": "Perez Companc Family Group",
+   "ticker": "X 16",
+   "why": "no fund reports a holding with the ticker X 16"
+  },
+  {
+   "company": "Morinaga & Co. Ltd.",
+   "ticker": "CO4120819",
+   "why": "no fund reports a holding with the ticker CO4120819"
+  },
+  {
+   "company": "Staples inc.",
+   "ticker": "SPLS US",
+   "why": "no fund reports a holding with the ticker SPLS US"
+  },
+  {
+   "company": "Bio-Pappel",
+   "ticker": "CO1091",
+   "why": "no fund reports a holding with the ticker CO1091"
+  },
+  {
+   "company": "ForFarmers B.V.",
+   "ticker": "COOP 10",
+   "why": "no fund reports a holding with the ticker COOP 10"
+  },
+  {
+   "company": "Bradesco",
+   "ticker": "FI13",
+   "why": "no fund reports a holding with the ticker FI13"
+  },
+  {
+   "company": "BMO Financial Group",
+   "ticker": "INVI97",
+   "why": "no fund reports a holding with the ticker INVI97"
+  },
+  {
+   "company": "Cresud S.A.",
+   "ticker": "CRES AR",
+   "why": "no fund reports a holding with the ticker CRES AR"
+  },
+  {
+   "company": "BTG Pactual",
+   "ticker": "FI14",
+   "why": "no fund reports a holding with the ticker FI14"
+  },
+  {
+   "company": "Bank Central Asia",
+   "ticker": "FI10",
+   "why": "no fund reports a holding with the ticker FI10"
+  },
+  {
+   "company": "Viet Nam Rubber Group (VRG)",
+   "ticker": "SPOTT962",
+   "why": "no fund reports a holding with the ticker SPOTT962"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
+   "ticker": "FI12",
+   "why": "no fund reports a holding with the ticker FI12"
+  },
+  {
+   "company": "JM Smucker",
+   "ticker": "NYSE: SJM",
+   "why": "no fund reports a holding with the ticker NYSE: SJM"
+  },
+  {
+   "company": "Ba Ria Vung Tau Rubber Joint Stock Company",
+   "ticker": "CO4316",
+   "why": "no fund reports a holding with the ticker CO4316"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "ticker": "CDP 832377",
+   "why": "no fund reports a holding with the ticker CDP 832377"
+  },
+  {
+   "company": "PHW Group",
+   "ticker": "NA 304",
+   "why": "no fund reports a holding with the ticker NA 304"
+  },
+  {
+   "company": "Curtume Viposa S/A Industria E Comercio",
+   "ticker": "FL 4421",
+   "why": "no fund reports a holding with the ticker FL 4421"
+  },
+  {
+   "company": "MRV Engenharia e Participacoes S.A.",
+   "ticker": "MRVE3 BZ",
+   "why": "no fund reports a holding with the ticker MRVE3 BZ"
+  },
+  {
+   "company": "De Heus",
+   "ticker": "PRIV 37",
+   "why": "no fund reports a holding with the ticker PRIV 37"
+  },
+  {
+   "company": "Dai Nippon Printing",
+   "ticker": "7912:TYO",
+   "why": "no fund reports a holding with the ticker 7912:TYO"
+  },
+  {
+   "company": "Bader GmbH & Co. KG",
+   "ticker": "CO4317",
+   "why": "no fund reports a holding with the ticker CO4317"
+  },
+  {
+   "company": "Schaeffler Group",
+   "ticker": "CO4371",
+   "why": "no fund reports a holding with the ticker CO4371"
+  },
+  {
+   "company": "UniCredit",
+   "ticker": "INVI95",
+   "why": "no fund reports a holding with the ticker INVI95"
+  },
+  {
+   "company": "Arcor SAIC",
+   "ticker": "PRIV 19",
+   "why": "no fund reports a holding with the ticker PRIV 19"
+  },
+  {
+   "company": "Adecoagro S.A.",
+   "ticker": "ACD GR",
+   "why": "no fund reports a holding with the ticker ACD GR"
+  },
+  {
+   "company": "Unigra",
+   "ticker": "CO2932",
+   "why": "no fund reports a holding with the ticker CO2932"
+  },
+  {
+   "company": "Gap Inc.",
+   "ticker": "GPS US",
+   "why": "no fund reports a holding with the ticker GPS US"
+  },
+  {
+   "company": "Durlicouros Ind E Com De Couros Exp E Importacao Ltda",
+   "ticker": "CO4305",
+   "why": "no fund reports a holding with the ticker CO4305"
+  },
+  {
+   "company": "HVP Plantations",
+   "ticker": "CO4286",
+   "why": "no fund reports a holding with the ticker CO4286"
+  },
+  {
+   "company": "Rimbunan Hijau Group",
+   "ticker": "PRIV 80",
+   "why": "no fund reports a holding with the ticker PRIV 80"
+  },
+  {
+   "company": "Samko Timber Ltd.",
+   "ticker": "SAMKO SP",
+   "why": "no fund reports a holding with the ticker SAMKO SP"
+  },
+  {
+   "company": "Danish Agro",
+   "ticker": "NA 274",
+   "why": "no fund reports a holding with the ticker NA 274"
+  },
+  {
+   "company": "SLJ Global",
+   "ticker": "SPOTT936",
+   "why": "no fund reports a holding with the ticker SPOTT936"
+  },
+  {
+   "company": "JBJ INVESTIMENTOS",
+   "ticker": "NA 296",
+   "why": "no fund reports a holding with the ticker NA 296"
+  },
+  {
+   "company": "Malayan Banking",
+   "ticker": "FI33",
+   "why": "no fund reports a holding with the ticker FI33"
+  },
+  {
+   "company": "Plukon Food Group",
+   "ticker": "NA 305",
+   "why": "no fund reports a holding with the ticker NA 305"
+  },
+  {
+   "company": "COFRA Holding AG",
+   "ticker": "NA 269",
+   "why": "no fund reports a holding with the ticker NA 269"
+  },
+  {
+   "company": "Vancouros Indústria e Comércio de Couros LTDA",
+   "ticker": "NA 318",
+   "why": "no fund reports a holding with the ticker NA 318"
+  },
+  {
+   "company": "Agrifirm",
+   "ticker": "COOP 11",
+   "why": "no fund reports a holding with the ticker COOP 11"
+  },
+  {
+   "company": "JBIC",
+   "ticker": "FI30",
+   "why": "no fund reports a holding with the ticker FI30"
+  },
+  {
+   "company": "Bank Mandiri",
+   "ticker": "INVR3",
+   "why": "no fund reports a holding with the ticker INVR3"
+  },
+  {
+   "company": "Adani Group",
+   "ticker": "NE 2303",
+   "why": "no fund reports a holding with the ticker NE 2303"
+  },
+  {
+   "company": "Gates Industrial Corporation plc",
+   "ticker": "CO4298",
+   "why": "no fund reports a holding with the ticker CO4298"
+  },
+  {
+   "company": "Goldman Sachs",
+   "ticker": "INVI32",
+   "why": "no fund reports a holding with the ticker INVI32"
+  },
+  {
+   "company": "Alicorp",
+   "ticker": "CO4083117",
+   "why": "no fund reports a holding with the ticker CO4083117"
+  },
+  {
+   "company": "JPMorgan Chase & Co.",
+   "ticker": "INVI11",
+   "why": "no fund reports a holding with the ticker INVI11"
+  },
+  {
+   "company": "Nomura",
+   "ticker": "INVI79",
+   "why": "no fund reports a holding with the ticker INVI79"
+  },
+  {
+   "company": "Yayasan Pelaburan Bumiputra",
+   "ticker": "FI176",
+   "why": "no fund reports a holding with the ticker FI176"
+  },
+  {
+   "company": "Toronto-Dominion Bank",
+   "ticker": "INVI102",
+   "why": "no fund reports a holding with the ticker INVI102"
+  },
+  {
+   "company": "Pwani Oil Products Limited",
+   "ticker": "CO4113619",
+   "why": "no fund reports a holding with the ticker CO4113619"
+  },
+  {
+   "company": "Skechers USA Inc.",
+   "ticker": "SKX US",
+   "why": "no fund reports a holding with the ticker SKX US"
+  },
+  {
+   "company": "Hyundai Motor Group",
+   "ticker": "CDP 8708",
+   "why": "no fund reports a holding with the ticker CDP 8708"
+  },
+  {
+   "company": "Guararapes",
+   "ticker": "FL 4454",
+   "why": "no fund reports a holding with the ticker FL 4454"
+  },
+  {
+   "company": "Groupe BPCE",
+   "ticker": "INVB14",
+   "why": "no fund reports a holding with the ticker INVB14"
+  },
+  {
+   "company": "Monde Nissin Corp",
+   "ticker": "CO4352",
+   "why": "no fund reports a holding with the ticker CO4352"
+  },
+  {
+   "company": "Uni-President Enterprises Corp.",
+   "ticker": "1216 TT",
+   "why": "holdings with the ticker 1216 TT give no issuer LEI"
+  },
+  {
+   "company": "Cardinal Health",
+   "ticker": "CDP 2825",
+   "why": "no fund reports a holding with the ticker CDP 2825"
+  },
+  {
+   "company": "Freudenberg Group",
+   "ticker": "CO4329",
+   "why": "no fund reports a holding with the ticker CO4329"
+  },
+  {
+   "company": "PT Sarana Agro Investama",
+   "ticker": "CO4362",
+   "why": "no fund reports a holding with the ticker CO4362"
+  },
+  {
+   "company": "Land O'Lakes Inc.",
+   "ticker": "COOP 7",
+   "why": "no fund reports a holding with the ticker COOP 7"
+  },
+  {
+   "company": "CDM Group",
+   "ticker": "FL 4412",
+   "why": "no fund reports a holding with the ticker FL 4412"
+  },
+  {
+   "company": "Swedbank",
+   "ticker": "INVI118",
+   "why": "no fund reports a holding with the ticker INVI118"
+  },
+  {
+   "company": "Exportadora de Café Guaxupé Ltda",
+   "ticker": "CO4282",
+   "why": "no fund reports a holding with the ticker CO4282"
+  },
+  {
+   "company": "Karex Berhad",
+   "ticker": "CDP 864600",
+   "why": "no fund reports a holding with the ticker CDP 864600"
+  },
+  {
+   "company": "Caixa Econômica Federal",
+   "ticker": "FI15",
+   "why": "no fund reports a holding with the ticker FI15"
+  },
+  {
+   "company": "Sailun Group Co., Ltd",
+   "ticker": "CDP 864611",
+   "why": "no fund reports a holding with the ticker CDP 864611"
+  },
+  {
+   "company": "Tata Sons",
+   "ticker": "CO1688",
+   "why": "no fund reports a holding with the ticker CO1688"
+  },
+  {
+   "company": "FRIGOESTRELA SA",
+   "ticker": "FL 4431",
+   "why": "no fund reports a holding with the ticker FL 4431"
+  },
+  {
+   "company": "Grupo Fuga Couros S/A",
+   "ticker": "NA 283",
+   "why": "no fund reports a holding with the ticker NA 283"
+  },
+  {
+   "company": "The TJX Companies, Inc.",
+   "ticker": "NYSE: TJX",
+   "why": "no fund reports a holding with the ticker NYSE: TJX"
+  },
+  {
+   "company": "Tangshan sanyou",
+   "ticker": "CO2917",
+   "why": "no fund reports a holding with the ticker CO2917"
+  },
+  {
+   "company": "Grupo Frialto",
+   "ticker": "NA 280",
+   "why": "no fund reports a holding with the ticker NA 280"
+  },
+  {
+   "company": "Pertamina Persero PT",
+   "ticker": "STAT 6",
+   "why": "no fund reports a holding with the ticker STAT 6"
+  },
+  {
+   "company": "Bom Futuro Agricola Ltda",
+   "ticker": "CO4278",
+   "why": "no fund reports a holding with the ticker CO4278"
+  },
+  {
+   "company": "AEON Co. Ltd.",
+   "ticker": "8267 JP",
+   "why": "holdings with the ticker 8267 JP give no issuer LEI"
+  },
+  {
+   "company": "Segezha Group",
+   "ticker": "CO4372",
+   "why": "no fund reports a holding with the ticker CO4372"
+  },
+  {
+   "company": "Nine Dragons Paper Holdings",
+   "ticker": "2689 HK",
+   "why": "no fund reports a holding with the ticker 2689 HK"
+  },
+  {
+   "company": "Frigorífico Rio Maria",
+   "ticker": "FL 4434",
+   "why": "no fund reports a holding with the ticker FL 4434"
+  },
+  {
+   "company": "Cyrela Brazil Realty",
+   "ticker": "CYRBY",
+   "why": "no fund reports a holding with the ticker CYRBY"
+  },
+  {
+   "company": "NH FOODS LTD.",
+   "ticker": "CO4130020",
+   "why": "no fund reports a holding with the ticker CO4130020"
+  },
+  {
+   "company": "Caleres, Inc.",
+   "ticker": "CO4294",
+   "why": "no fund reports a holding with the ticker CO4294"
+  },
+  {
+   "company": "Frimesa Cooperativa Central",
+   "ticker": "FL 4435",
+   "why": "no fund reports a holding with the ticker FL 4435"
+  },
+  {
+   "company": "Vologda Timber Merchants",
+   "ticker": "CO4385",
+   "why": "no fund reports a holding with the ticker CO4385"
+  },
+  {
+   "company": "BARRA MANSA MEATS",
+   "ticker": "FL 4407",
+   "why": "no fund reports a holding with the ticker FL 4407"
+  },
+  {
+   "company": "Nederland Group",
+   "ticker": "CO1677",
+   "why": "no fund reports a holding with the ticker CO1677"
+  },
+  {
+   "company": "Cocamar Cooperativa Agroindustrial",
+   "ticker": "FL 4414",
+   "why": "no fund reports a holding with the ticker FL 4414"
+  },
+  {
+   "company": "Spectrum Brands Holdings Inc",
+   "ticker": "FL 4488",
+   "why": "no fund reports a holding with the ticker FL 4488"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "ticker": "2801 JP",
+   "why": "holdings with the ticker 2801 JP give no issuer LEI"
+  },
+  {
+   "company": "Chanel SA",
+   "ticker": "CO4097017",
+   "why": "no fund reports a holding with the ticker CO4097017"
+  },
+  {
+   "company": "PT. TUNAS BARU LAMPUNG TBK",
+   "ticker": "SPOTT879",
+   "why": "no fund reports a holding with the ticker SPOTT879"
+  },
+  {
+   "company": "Jollibee Foods Corporation",
+   "ticker": "CDP 21941",
+   "why": "no fund reports a holding with the ticker CDP 21941"
+  },
+  {
+   "company": "Ebro Foods",
+   "ticker": "BME: EBRO",
+   "why": "no fund reports a holding with the ticker BME: EBRO"
+  },
+  {
+   "company": "Naturafrig Alimentos Ltda",
+   "ticker": "FL 4476",
+   "why": "no fund reports a holding with the ticker FL 4476"
+  },
+  {
+   "company": "Corporación Perhusa S.A.",
+   "ticker": "CO4325",
+   "why": "no fund reports a holding with the ticker CO4325"
+  },
+  {
+   "company": "Gruppo Veronesi",
+   "ticker": "NA 290",
+   "why": "no fund reports a holding with the ticker NA 290"
+  },
+  {
+   "company": "Masco Corporation",
+   "ticker": "CO4302",
+   "why": "no fund reports a holding with the ticker CO4302"
+  },
+  {
+   "company": "Deichmann Group",
+   "ticker": "PRIV 38",
+   "why": "no fund reports a holding with the ticker PRIV 38"
+  },
+  {
+   "company": "Nitori Holdings Co. Ltd.",
+   "ticker": "9843 JP",
+   "why": "holdings with the ticker 9843 JP give no issuer LEI"
+  },
+  {
+   "company": "LDC (Lambert Dodard Chancereul)",
+   "ticker": "CO40718160",
+   "why": "no fund reports a holding with the ticker CO40718160"
+  },
+  {
+   "company": "FAPCEN",
+   "ticker": "CO1093",
+   "why": "no fund reports a holding with the ticker CO1093"
+  },
+  {
+   "company": "Tolko Industries Ltd",
+   "ticker": "CO4380",
+   "why": "no fund reports a holding with the ticker CO4380"
+  },
+  {
+   "company": "Irmaos Goncalves Comercio E Industria Ltda",
+   "ticker": "FL 4432",
+   "why": "no fund reports a holding with the ticker FL 4432"
+  },
+  {
+   "company": "Wings Corp",
+   "ticker": "NA 319",
+   "why": "no fund reports a holding with the ticker NA 319"
+  },
+  {
+   "company": "X5 Group",
+   "ticker": "FIVE LI",
+   "why": "no fund reports a holding with the ticker FIVE LI"
+  },
+  {
+   "company": "Sigma Alimentos SA de CV",
+   "ticker": "CO4373",
+   "why": "no fund reports a holding with the ticker CO4373"
+  },
+  {
+   "company": "Ativo Alimentos",
+   "ticker": "FL 4468",
+   "why": "no fund reports a holding with the ticker FL 4468"
+  },
+  {
+   "company": "Lam Soon Cannery Private Limited",
+   "ticker": "CO2090918",
+   "why": "no fund reports a holding with the ticker CO2090918"
+  },
+  {
+   "company": "Bangkok Bank",
+   "ticker": "FI155",
+   "why": "no fund reports a holding with the ticker FI155"
+  },
+  {
+   "company": "Foot Locker, Inc.",
+   "ticker": "CO4296",
+   "why": "no fund reports a holding with the ticker CO4296"
+  },
+  {
+   "company": "Kamilche Company",
+   "ticker": "CO4287",
+   "why": "no fund reports a holding with the ticker CO4287"
+  },
+  {
+   "company": "Fiera Capital",
+   "ticker": "DAT4488",
+   "why": "no fund reports a holding with the ticker DAT4488"
+  },
+  {
+   "company": "LEATHER SpA",
+   "ticker": "CO4345",
+   "why": "no fund reports a holding with the ticker CO4345"
+  },
+  {
+   "company": "Bando Chemical Industries, Ltd.",
+   "ticker": "CO4318",
+   "why": "no fund reports a holding with the ticker CO4318"
+  },
+  {
+   "company": "California Public Employees' Retirement System (CalPERS)",
+   "ticker": "INVP6",
+   "why": "no fund reports a holding with the ticker INVP6"
+  },
+  {
+   "company": "Orion Holdings",
+   "ticker": "CO1680",
+   "why": "no fund reports a holding with the ticker CO1680"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "ticker": "FI11",
+   "why": "no fund reports a holding with the ticker FI11"
+  },
+  {
+   "company": "WH Group",
+   "ticker": "PRIV 16",
+   "why": "no fund reports a holding with the ticker PRIV 16"
+  },
+  {
+   "company": "Toyo Suisan Kaisha Ltd.",
+   "ticker": "2875 JP",
+   "why": "holdings with the ticker 2875 JP give no issuer LEI"
+  },
+  {
+   "company": "Sumitomo Rubber Industries",
+   "ticker": "SPOTT1526",
+   "why": "no fund reports a holding with the ticker SPOTT1526"
+  },
+  {
+   "company": "Grupo XP",
+   "ticker": "FI1070",
+   "why": "no fund reports a holding with the ticker FI1070"
+  },
+  {
+   "company": "Machu Picchu Foods SEC",
+   "ticker": "CO4348",
+   "why": "no fund reports a holding with the ticker CO4348"
+  },
+  {
+   "company": "Gruppo Mastrotto Spa",
+   "ticker": "PRIV 127",
+   "why": "no fund reports a holding with the ticker PRIV 127"
+  },
+  {
+   "company": "Tradewinds (M) Berhad",
+   "ticker": "NA 317",
+   "why": "no fund reports a holding with the ticker NA 317"
+  },
+  {
+   "company": "Gonçalves & Tortola S/A",
+   "ticker": "FL 4442",
+   "why": "no fund reports a holding with the ticker FL 4442"
+  },
+  {
+   "company": "Subway IP LLC",
+   "ticker": "PRIV 21",
+   "why": "no fund reports a holding with the ticker PRIV 21"
+  },
+  {
+   "company": "Bricapar S.A.",
+   "ticker": "NA 262",
+   "why": "no fund reports a holding with the ticker NA 262"
+  },
+  {
+   "company": "Grupo BBF (Brasil BioFuels)",
+   "ticker": "SPOTT1042",
+   "why": "no fund reports a holding with the ticker SPOTT1042"
+  },
+  {
+   "company": "ULK Group",
+   "ticker": "CO4383",
+   "why": "no fund reports a holding with the ticker CO4383"
+  },
+  {
+   "company": "Emami Ltd.",
+   "ticker": "HMN IN",
+   "why": "no fund reports a holding with the ticker HMN IN"
+  },
+  {
+   "company": "Nippon Life Insurance",
+   "ticker": "INVI130",
+   "why": "no fund reports a holding with the ticker INVI130"
+  },
+  {
+   "company": "Employees Provident Fund",
+   "ticker": "INVP12",
+   "why": "no fund reports a holding with the ticker INVP12"
+  },
+  {
+   "company": "Shandong Chenming Paper Holdings Co.ltd.",
+   "ticker": "1812 HK",
+   "why": "no fund reports a holding with the ticker 1812 HK"
+  },
+  {
+   "company": "Pengdu Agriculture&Animal Husbandry Co., Ltd.",
+   "ticker": "CO4359",
+   "why": "no fund reports a holding with the ticker CO4359"
+  },
+  {
+   "company": "Daiwa Securities",
+   "ticker": "FI1108",
+   "why": "no fund reports a holding with the ticker FI1108"
+  },
+  {
+   "company": "Wasco Berhad",
+   "ticker": "CO4387",
+   "why": "no fund reports a holding with the ticker CO4387"
+  },
+  {
+   "company": "Japfa Ltd",
+   "ticker": "JPFA IJ",
+   "why": "no fund reports a holding with the ticker JPFA IJ"
+  },
+  {
+   "company": "Northern Trust",
+   "ticker": "INVI13",
+   "why": "no fund reports a holding with the ticker INVI13"
+  },
+  {
+   "company": "Minh Tien Coffee",
+   "ticker": "CO4351",
+   "why": "no fund reports a holding with the ticker CO4351"
+  },
+  {
+   "company": "Fifth Third Bancorp",
+   "ticker": "FI24",
+   "why": "no fund reports a holding with the ticker FI24"
+  },
+  {
+   "company": "Wells Fargo",
+   "ticker": "INVI24",
+   "why": "no fund reports a holding with the ticker INVI24"
+  },
+  {
+   "company": "New York Life Insurance",
+   "ticker": "FI36",
+   "why": "no fund reports a holding with the ticker FI36"
+  },
+  {
+   "company": "Terra Forte Exportacao e Importacao de Cafe Limitada",
+   "ticker": "CO4289",
+   "why": "no fund reports a holding with the ticker CO4289"
+  },
+  {
+   "company": "Caisse de Dépôt et Placement du Québec (CDPQ)",
+   "ticker": "DAT4397",
+   "why": "no fund reports a holding with the ticker DAT4397"
+  },
+  {
+   "company": "Votorantim Group",
+   "ticker": "FI4533",
+   "why": "no fund reports a holding with the ticker FI4533"
+  },
+  {
+   "company": "FELCRA Bhd",
+   "ticker": "SPOTT844",
+   "why": "no fund reports a holding with the ticker SPOTT844"
+  },
+  {
+   "company": "CIBC",
+   "ticker": "FI1111",
+   "why": "no fund reports a holding with the ticker FI1111"
+  },
+  {
+   "company": "Royal Bank of Canada",
+   "ticker": "INVI59",
+   "why": "no fund reports a holding with the ticker INVI59"
+  },
+  {
+   "company": "Builders FirstSource, Inc.",
+   "ticker": "CO4303",
+   "why": "no fund reports a holding with the ticker CO4303"
+  },
+  {
+   "company": "Rougier SA",
+   "ticker": "ALRGR FP",
+   "why": "no fund reports a holding with the ticker ALRGR FP"
+  },
+  {
+   "company": "Blondeau Group",
+   "ticker": "NA 261",
+   "why": "no fund reports a holding with the ticker NA 261"
+  },
+  {
+   "company": "Coamo Agroindustrial Coop.",
+   "ticker": "COOP 9",
+   "why": "no fund reports a holding with the ticker COOP 9"
+  },
+  {
+   "company": "The Bank of Nova Scotia",
+   "ticker": "FI47",
+   "why": "no fund reports a holding with the ticker FI47"
+  },
+  {
+   "company": "Capital Group",
+   "ticker": "FI157",
+   "why": "no fund reports a holding with the ticker FI157"
+  },
+  {
+   "company": "China Construction Bank",
+   "ticker": "INVB2",
+   "why": "no fund reports a holding with the ticker INVB2"
+  },
+  {
+   "company": "Arre Beef S.A.",
+   "ticker": "NA 256",
+   "why": "no fund reports a holding with the ticker NA 256"
+  },
+  {
+   "company": "NordSud Timber",
+   "ticker": "PRIV 78",
+   "why": "no fund reports a holding with the ticker PRIV 78"
+  },
+  {
+   "company": "Aviva",
+   "ticker": "INVI146",
+   "why": "no fund reports a holding with the ticker INVI146"
+  },
+  {
+   "company": "KTS Group",
+   "ticker": "SPOTT1001",
+   "why": "no fund reports a holding with the ticker SPOTT1001"
+  },
+  {
+   "company": "Deka Group",
+   "ticker": "INVI162",
+   "why": "no fund reports a holding with the ticker INVI162"
+  },
+  {
+   "company": "Natuzzi",
+   "ticker": "NTZ US",
+   "why": "no fund reports a holding with the ticker NTZ US"
+  },
+  {
+   "company": "Intimex Group",
+   "ticker": "CO4340",
+   "why": "no fund reports a holding with the ticker CO4340"
+  },
+  {
+   "company": "Granol",
+   "ticker": "PRIV 44",
+   "why": "no fund reports a holding with the ticker PRIV 44"
+  },
+  {
+   "company": "Safra Group",
+   "ticker": "FI46",
+   "why": "no fund reports a holding with the ticker FI46"
+  },
+  {
+   "company": "Gold Best Holdings",
+   "ticker": "NA 285",
+   "why": "no fund reports a holding with the ticker NA 285"
+  },
+  {
+   "company": "Mayora Group",
+   "ticker": "CO4349",
+   "why": "no fund reports a holding with the ticker CO4349"
+  },
+  {
+   "company": "Indústria Frigorífica Boa Carne LTDA",
+   "ticker": "FL 4458",
+   "why": "no fund reports a holding with the ticker FL 4458"
+  },
+  {
+   "company": "International Meal Company Alimentacao SA",
+   "ticker": "FL 4459",
+   "why": "no fund reports a holding with the ticker FL 4459"
+  },
+  {
+   "company": "Agricultural Bank of China",
+   "ticker": "INVB4",
+   "why": "no fund reports a holding with the ticker INVB4"
+  },
+  {
+   "company": "Grupo Mateus SA",
+   "ticker": "CDP 864664",
+   "why": "no fund reports a holding with the ticker CDP 864664"
+  },
+  {
+   "company": "Ameropa Ltd.",
+   "ticker": "NA 254",
+   "why": "no fund reports a holding with the ticker NA 254"
+  },
+  {
+   "company": "Grupo Madero",
+   "ticker": "FL 4447",
+   "why": "no fund reports a holding with the ticker FL 4447"
+  },
+  {
+   "company": "Manulife Financial",
+   "ticker": "INVI50",
+   "why": "no fund reports a holding with the ticker INVI50"
+  },
+  {
+   "company": "Kido Group Corporation",
+   "ticker": "CO4133921",
+   "why": "no fund reports a holding with the ticker CO4133921"
+  },
+  {
+   "company": "Genesco Inc.",
+   "ticker": "CO4300",
+   "why": "no fund reports a holding with the ticker CO4300"
+  },
+  {
+   "company": "NongHyup Financial",
+   "ticker": "FI1615",
+   "why": "no fund reports a holding with the ticker FI1615"
+  },
+  {
+   "company": "Scheffer",
+   "ticker": "CO4288",
+   "why": "no fund reports a holding with the ticker CO4288"
+  },
+  {
+   "company": "THANG LOI COFFEE JOINT STOCK COMPANY",
+   "ticker": "CO4379",
+   "why": "no fund reports a holding with the ticker CO4379"
+  },
+  {
+   "company": "Grupo Industrial Alfa S.A.B de C.V",
+   "ticker": "FL 4445",
+   "why": "no fund reports a holding with the ticker FL 4445"
+  },
+  {
+   "company": "State Street",
+   "ticker": "INVI4",
+   "why": "no fund reports a holding with the ticker INVI4"
+  },
+  {
+   "company": "Grupo Supremo Carnes",
+   "ticker": "FL 4452",
+   "why": "no fund reports a holding with the ticker FL 4452"
+  },
+  {
+   "company": "Government Pension Investment Fund (GPIF)",
+   "ticker": "INVP1",
+   "why": "no fund reports a holding with the ticker INVP1"
+  },
+  {
+   "company": "California State Teachers' Retirement System (CalSTRS)",
+   "ticker": "INVP13",
+   "why": "no fund reports a holding with the ticker INVP13"
+  },
+  {
+   "company": "FKS Group",
+   "ticker": "CO4328",
+   "why": "no fund reports a holding with the ticker CO4328"
+  },
+  {
+   "company": "Brazil Fast Food Corporation",
+   "ticker": "FL 4409",
+   "why": "no fund reports a holding with the ticker FL 4409"
+  },
+  {
+   "company": "Agrolimen SA",
+   "ticker": "FL 4395",
+   "why": "no fund reports a holding with the ticker FL 4395"
+  },
+  {
+   "company": "Koch Industries",
+   "ticker": "FL 4465",
+   "why": "no fund reports a holding with the ticker FL 4465"
+  },
+  {
+   "company": "BOMBAY BURMAH TRADING CORPORATION",
+   "ticker": "CO1662",
+   "why": "no fund reports a holding with the ticker CO1662"
+  },
+  {
+   "company": "Rigoni di Asiago Srl",
+   "ticker": "CO4365",
+   "why": "no fund reports a holding with the ticker CO4365"
+  },
+  {
+   "company": "Grupo de Inversiones Suramericana",
+   "ticker": "FI4545",
+   "why": "no fund reports a holding with the ticker FI4545"
+  },
+  {
+   "company": "Fidelity Investments",
+   "ticker": "FI23",
+   "why": "no fund reports a holding with the ticker FI23"
+  },
+  {
+   "company": "Harlan Bakeries, LLC",
+   "ticker": "CO4096517",
+   "why": "no fund reports a holding with the ticker CO4096517"
+  },
+  {
+   "company": "UFP Industries, Inc.",
+   "ticker": "CDP 55092",
+   "why": "no fund reports a holding with the ticker CDP 55092"
+  },
+  {
+   "company": "Baillie Gifford",
+   "ticker": "FI153",
+   "why": "no fund reports a holding with the ticker FI153"
+  },
+  {
+   "company": "Yamazaki Baking Co.",
+   "ticker": "2212 JP",
+   "why": "no fund reports a holding with the ticker 2212 JP"
+  },
+  {
+   "company": "Truist Financial",
+   "ticker": "FI51",
+   "why": "no fund reports a holding with the ticker FI51"
+  },
+  {
+   "company": "Grupo Montesanto Tavares",
+   "ticker": "CO4284",
+   "why": "no fund reports a holding with the ticker CO4284"
+  },
+  {
+   "company": "TGI Group",
+   "ticker": "CO4384",
+   "why": "no fund reports a holding with the ticker CO4384"
+  },
+  {
+   "company": "RUBBERFLEX SDN.BHD.",
+   "ticker": "CO4366",
+   "why": "no fund reports a holding with the ticker CO4366"
+  },
+  {
+   "company": "Inspire Brands",
+   "ticker": "CO 112",
+   "why": "no fund reports a holding with the ticker CO 112"
+  },
+  {
+   "company": "T Rowe Price Group",
+   "ticker": "INVI12",
+   "why": "no fund reports a holding with the ticker INVI12"
+  },
+  {
+   "company": "Cooperativa Regional de Cafeicultores em Guaxupé LTDA",
+   "ticker": "CO4280",
+   "why": "no fund reports a holding with the ticker CO4280"
+  },
+  {
+   "company": "Coming Ind E Comercio De Couros Ltda",
+   "ticker": "FL 4415",
+   "why": "no fund reports a holding with the ticker FL 4415"
+  },
+  {
+   "company": "Grupo Muffato",
+   "ticker": "FL 4448",
+   "why": "no fund reports a holding with the ticker FL 4448"
+  },
+  {
+   "company": "Thomas Foods International Consolidated Pty Limited",
+   "ticker": "CO4290",
+   "why": "no fund reports a holding with the ticker CO4290"
+  },
+  {
+   "company": "Krung Thai Bank",
+   "ticker": "FI163",
+   "why": "no fund reports a holding with the ticker FI163"
+  },
+  {
+   "company": "Geode Capital Management",
+   "ticker": "INVI28",
+   "why": "no fund reports a holding with the ticker INVI28"
+  },
+  {
+   "company": "ABC-Mart,INC.",
+   "ticker": "CO4307",
+   "why": "no fund reports a holding with the ticker CO4307"
+  },
+  {
+   "company": "Invesco",
+   "ticker": "INVI23",
+   "why": "no fund reports a holding with the ticker INVI23"
+  },
+  {
+   "company": "Bank of New York Mellon",
+   "ticker": "INVI9",
+   "why": "no fund reports a holding with the ticker INVI9"
+  },
+  {
+   "company": "Neuberger Berman",
+   "ticker": "INVI92",
+   "why": "no fund reports a holding with the ticker INVI92"
+  },
+  {
+   "company": "ForteFrigo",
+   "ticker": "FL 4429",
+   "why": "no fund reports a holding with the ticker FL 4429"
+  },
+  {
+   "company": "Sun Life Financial",
+   "ticker": "INVI15",
+   "why": "no fund reports a holding with the ticker INVI15"
+  },
+  {
+   "company": "Ameriprise Financial",
+   "ticker": "INVI41",
+   "why": "no fund reports a holding with the ticker INVI41"
+  },
+  {
+   "company": "São Miguel",
+   "ticker": "CO4369",
+   "why": "no fund reports a holding with the ticker CO4369"
+  },
+  {
+   "company": "Janus Henderson",
+   "ticker": "INVI35",
+   "why": "no fund reports a holding with the ticker INVI35"
+  },
+  {
+   "company": "BRDE - Banco Regional de Desenvolvimento do Extremo Sul",
+   "ticker": "FI4532",
+   "why": "no fund reports a holding with the ticker FI4532"
+  },
+  {
+   "company": "Opportunity Asset Management",
+   "ticker": "FI4529",
+   "why": "no fund reports a holding with the ticker FI4529"
+  },
+  {
+   "company": "Siam Commercial Bank",
+   "ticker": "FI167",
+   "why": "no fund reports a holding with the ticker FI167"
+  },
+  {
+   "company": "SAVEGNAGO PARTICIPACOES",
+   "ticker": "FL 4486",
+   "why": "no fund reports a holding with the ticker FL 4486"
+  },
+  {
+   "company": "Africa Sourcing (formerly Armajaro Negoce)",
+   "ticker": "CO4308",
+   "why": "no fund reports a holding with the ticker CO4308"
+  },
+  {
+   "company": "Dimensional Fund Advisors",
+   "ticker": "INVI71",
+   "why": "no fund reports a holding with the ticker INVI71"
+  },
+  {
+   "company": "Crédit Mutuel",
+   "ticker": "FI19",
+   "why": "no fund reports a holding with the ticker FI19"
+  },
+  {
+   "company": "Grupo SBF",
+   "ticker": "FL 4451",
+   "why": "no fund reports a holding with the ticker FL 4451"
+  },
+  {
+   "company": "Frisa Frigorifico Rio Doce SA",
+   "ticker": "FL 4436",
+   "why": "no fund reports a holding with the ticker FL 4436"
+  },
+  {
+   "company": "Cherkizovo Group",
+   "ticker": "CO5718",
+   "why": "no fund reports a holding with the ticker CO5718"
+  },
+  {
+   "company": "US Bancorp",
+   "ticker": "INVI142",
+   "why": "no fund reports a holding with the ticker INVI142"
+  },
+  {
+   "company": "Aceitera General Deheza SA",
+   "ticker": "ACEIT",
+   "why": "no fund reports a holding with the ticker ACEIT"
+  },
+  {
+   "company": "Pictet",
+   "ticker": "INVI74",
+   "why": "no fund reports a holding with the ticker INVI74"
+  },
+  {
+   "company": "Bata Corp",
+   "ticker": "PRIV 94",
+   "why": "no fund reports a holding with the ticker PRIV 94"
+  },
+  {
+   "company": "China Forestry Group Corporation",
+   "ticker": "SPOTT892",
+   "why": "no fund reports a holding with the ticker SPOTT892"
+  },
+  {
+   "company": "Henan Shuanghui",
+   "ticker": "CDP 8233",
+   "why": "no fund reports a holding with the ticker CDP 8233"
+  },
+  {
+   "company": "Idilia Foods SL",
+   "ticker": "CO4338",
+   "why": "no fund reports a holding with the ticker CO4338"
+  },
+  {
+   "company": "La Sociedad Exportadora de Café de las Cooperativas de Caficultores S.A. (Expocafé)",
+   "ticker": "CO4344",
+   "why": "no fund reports a holding with the ticker CO4344"
+  },
+  {
+   "company": "Luckin Coffee",
+   "ticker": "CO1674",
+   "why": "no fund reports a holding with the ticker CO1674"
+  },
+  {
+   "company": "S 3 C",
+   "ticker": "CO4367",
+   "why": "no fund reports a holding with the ticker CO4367"
+  },
+  {
+   "company": "Sihl II Holding AG",
+   "ticker": "CO4374",
+   "why": "no fund reports a holding with the ticker CO4374"
+  },
+  {
+   "company": "Wuhan Xinyatai Paper Products Co.,Ltd.",
+   "ticker": "CO4388",
+   "why": "no fund reports a holding with the ticker CO4388"
+  },
+  {
+   "company": "Çalık Holding",
+   "ticker": "FL 4411",
+   "why": "no fund reports a holding with the ticker FL 4411"
+  },
+  {
+   "company": "KB Financial Group",
+   "ticker": "DAT4563",
+   "why": "no fund reports a holding with the ticker DAT4563"
+  },
+  {
+   "company": "State Bank of India",
+   "ticker": "FI168",
+   "why": "no fund reports a holding with the ticker FI168"
+  },
+  {
+   "company": "Cooperativa Agroindustrial Lar",
+   "ticker": "FL 4418",
+   "why": "no fund reports a holding with the ticker FL 4418"
+  },
+  {
+   "company": "Hunland Trade Kft",
+   "ticker": "CO 4502",
+   "why": "no fund reports a holding with the ticker CO 4502"
+  },
+  {
+   "company": "Corpovex - Corporacion Venezolana De Com. Exterior",
+   "ticker": "CO2683",
+   "why": "no fund reports a holding with the ticker CO2683"
+  },
+  {
+   "company": "China Everbright",
+   "ticker": "FI4538",
+   "why": "no fund reports a holding with the ticker FI4538"
+  },
+  {
+   "company": "CIA CAFETERA LA MESETA S A",
+   "ticker": "CO4322",
+   "why": "no fund reports a holding with the ticker CO4322"
+  },
+  {
+   "company": "NIPPI, INCORPORATED",
+   "ticker": "CO4356",
+   "why": "no fund reports a holding with the ticker CO4356"
+  },
+  {
+   "company": "BlackRock",
+   "ticker": "INVI1",
+   "why": "no fund reports a holding with the ticker INVI1"
+  },
+  {
+   "company": "Dutch Bros. Inc",
+   "ticker": "CO1665",
+   "why": "no fund reports a holding with the ticker CO1665"
+  },
+  {
+   "company": "Weltra",
+   "ticker": "CO2621",
+   "why": "no fund reports a holding with the ticker CO2621"
+  },
+  {
+   "company": "Frigorifico Gorina S.A.",
+   "ticker": "NA 281",
+   "why": "no fund reports a holding with the ticker NA 281"
+  },
+  {
+   "company": "Sinochem Holdings",
+   "ticker": "CDP 21602",
+   "why": "no fund reports a holding with the ticker CDP 21602"
+  },
+  {
+   "company": "SPX",
+   "ticker": "FI4535",
+   "why": "no fund reports a holding with the ticker FI4535"
+  },
+  {
+   "company": "Granja Tres Arroyos S.A.",
+   "ticker": "CO1036",
+   "why": "no fund reports a holding with the ticker CO1036"
+  },
+  {
+   "company": "Sodrugestvo Group S.A",
+   "ticker": "NA 311",
+   "why": "no fund reports a holding with the ticker NA 311"
+  },
+  {
+   "company": "SAIC Motor",
+   "ticker": "CDP 29826",
+   "why": "no fund reports a holding with the ticker CDP 29826"
+  },
+  {
+   "company": "Wellington Management",
+   "ticker": "INVI17",
+   "why": "no fund reports a holding with the ticker INVI17"
+  },
+  {
+   "company": "Pátria's Plurix",
+   "ticker": "FL 4480",
+   "why": "no fund reports a holding with the ticker FL 4480"
+  },
+  {
+   "company": "Daodaoquan Grain and Oil Co., Ltd.",
+   "ticker": "CDP 864859",
+   "why": "no fund reports a holding with the ticker CDP 864859"
+  },
+  {
+   "company": "Grupo Nutresa",
+   "ticker": "CO4332",
+   "why": "no fund reports a holding with the ticker CO4332"
+  },
+  {
+   "company": "Mizkan Holdings",
+   "ticker": "NA 301",
+   "why": "no fund reports a holding with the ticker NA 301"
+  },
+  {
+   "company": "Fisher Investments",
+   "ticker": "INVI114",
+   "why": "no fund reports a holding with the ticker INVI114"
+  },
+  {
+   "company": "Sarimakmur Tunggalmandiri",
+   "ticker": "CO4370",
+   "why": "no fund reports a holding with the ticker CO4370"
+  },
+  {
+   "company": "TENDA ATACADO SA",
+   "ticker": "FL 4491",
+   "why": "no fund reports a holding with the ticker FL 4491"
+  },
+  {
+   "company": "Ping An Insurance Group",
+   "ticker": "FI4537",
+   "why": "no fund reports a holding with the ticker FI4537"
+  },
+  {
+   "company": "China State Construction Engineering Corp.",
+   "ticker": "STAT 4",
+   "why": "no fund reports a holding with the ticker STAT 4"
+  },
+  {
+   "company": "Parker-Migliorini International",
+   "ticker": "PRIV 61",
+   "why": "no fund reports a holding with the ticker PRIV 61"
+  },
+  {
+   "company": "Chengshan Group Co.,Ltd.",
+   "ticker": "CO4320",
+   "why": "no fund reports a holding with the ticker CO4320"
+  },
+  {
+   "company": "Pension Fund Association for Local Government Officials",
+   "ticker": "INVP20",
+   "why": "no fund reports a holding with the ticker INVP20"
+  },
+  {
+   "company": "Grupo Viz",
+   "ticker": "NA 289",
+   "why": "no fund reports a holding with the ticker NA 289"
+  },
+  {
+   "company": "Feihe International Inc.",
+   "ticker": "CO1118",
+   "why": "no fund reports a holding with the ticker CO1118"
+  },
+  {
+   "company": "Power Corporation of Canada",
+   "ticker": "FI43",
+   "why": "no fund reports a holding with the ticker FI43"
+  },
+  {
+   "company": "F.R.I.A.R. S.A.",
+   "ticker": "NA 279",
+   "why": "no fund reports a holding with the ticker NA 279"
+  },
+  {
+   "company": "Premium International Freight Agency",
+   "ticker": "FL 4482",
+   "why": "no fund reports a holding with the ticker FL 4482"
+  },
+  {
+   "company": "AFA (Agric. Federados Args.)",
+   "ticker": "CO2619",
+   "why": "no fund reports a holding with the ticker CO2619"
+  },
+  {
+   "company": "American Century Investments",
+   "ticker": "INVI47",
+   "why": "no fund reports a holding with the ticker INVI47"
+  },
+  {
+   "company": "Haid Group",
+   "ticker": "002311.SZ",
+   "why": "no fund reports a holding with the ticker 002311.SZ"
+  },
+  {
+   "company": "Cencoprod Ltda",
+   "ticker": "NA 267",
+   "why": "no fund reports a holding with the ticker NA 267"
+  },
+  {
+   "company": "Allanasons Pvt Ltd.",
+   "ticker": "NA 252",
+   "why": "no fund reports a holding with the ticker NA 252"
+  },
+  {
+   "company": "Affiliated Managers Group",
+   "ticker": "FI2",
+   "why": "no fund reports a holding with the ticker FI2"
+  },
+  {
+   "company": "JC DISTRIBUIÇÃO",
+   "ticker": "FL 4462",
+   "why": "no fund reports a holding with the ticker FL 4462"
+  },
+  {
+   "company": "JC Maranhão Ltda",
+   "ticker": "FL 4463",
+   "why": "no fund reports a holding with the ticker FL 4463"
+  },
+  {
+   "company": "Niche Cocoa Industry Limited",
+   "ticker": "CO4355",
+   "why": "no fund reports a holding with the ticker CO4355"
+  },
+  {
+   "company": "LetterOne Holdings S.A.",
+   "ticker": "FL 4467",
+   "why": "no fund reports a holding with the ticker FL 4467"
+  },
+  {
+   "company": "Nice Group",
+   "ticker": "PRIV 12",
+   "why": "no fund reports a holding with the ticker PRIV 12"
+  },
+  {
+   "company": "Mart Minas",
+   "ticker": "FL 4470",
+   "why": "no fund reports a holding with the ticker FL 4470"
+  },
+  {
+   "company": "New Hope Group",
+   "ticker": "000876 CH",
+   "why": "no fund reports a holding with the ticker 000876 CH"
+  },
+  {
+   "company": "Matadouro Planalto",
+   "ticker": "FL 4473",
+   "why": "no fund reports a holding with the ticker FL 4473"
+  },
+  {
+   "company": "MJ Novaes De Lima E Cia Ltda",
+   "ticker": "FL 4474",
+   "why": "no fund reports a holding with the ticker FL 4474"
+  },
+  {
+   "company": "NEW BANK INVESTIMENTOS E EXPORTACAO SA",
+   "ticker": "FL 4477",
+   "why": "no fund reports a holding with the ticker FL 4477"
+  },
+  {
+   "company": "Supermercados BH",
+   "ticker": "FL 4490",
+   "why": "no fund reports a holding with the ticker FL 4490"
+  },
+  {
+   "company": "Treze Til Empreendimentos Participações e Agropecuária Ltda",
+   "ticker": "FL 4492",
+   "why": "no fund reports a holding with the ticker FL 4492"
+  },
+  {
+   "company": "Vibra Agroindustrial S.A",
+   "ticker": "FL 4496",
+   "why": "no fund reports a holding with the ticker FL 4496"
+  },
+  {
+   "company": "Wellard Limited",
+   "ticker": "FL 4498",
+   "why": "no fund reports a holding with the ticker FL 4498"
+  },
+  {
+   "company": "WM PARTICIPACOES LTDA",
+   "ticker": "FL 4499",
+   "why": "no fund reports a holding with the ticker FL 4499"
+  },
+  {
+   "company": "Xinguara Comércio",
+   "ticker": "FL 4500",
+   "why": "no fund reports a holding with the ticker FL 4500"
+  },
+  {
+   "company": "Agropecuaria Bordel,C.A",
+   "ticker": "FL 4396",
+   "why": "no fund reports a holding with the ticker FL 4396"
+  },
+  {
+   "company": "Al-Ahli Leather Factory Co",
+   "ticker": "FL 4401",
+   "why": "no fund reports a holding with the ticker FL 4401"
+  },
+  {
+   "company": "AL FAHED TRADING AND MARINE AGENCY",
+   "ticker": "FL 4399",
+   "why": "no fund reports a holding with the ticker FL 4399"
+  },
+  {
+   "company": "AL MAHMOUD INTERNATIONAL GENERAL TRADING LLC",
+   "ticker": "FL 4400",
+   "why": "no fund reports a holding with the ticker FL 4400"
+  },
+  {
+   "company": "Nehe Shenglei Soybean Plantation Farmer Specialty Cooperative",
+   "ticker": "CO4354",
+   "why": "no fund reports a holding with the ticker CO4354"
+  },
+  {
+   "company": "Aydinli Hazir Giyim San ve Tic AS",
+   "ticker": "FL 4406",
+   "why": "no fund reports a holding with the ticker FL 4406"
+  },
+  {
+   "company": "PineStone Asset Management",
+   "ticker": "FI5572",
+   "why": "no fund reports a holding with the ticker FI5572"
+  },
+  {
+   "company": "Cedars Trading Limited",
+   "ticker": "FL 4413",
+   "why": "no fund reports a holding with the ticker FL 4413"
+  },
+  {
+   "company": "China Resources Company Limited",
+   "ticker": "STAT 8",
+   "why": "no fund reports a holding with the ticker STAT 8"
+  },
+  {
+   "company": "flourish thrive developments limited taiwan branch",
+   "ticker": "FL 4427",
+   "why": "no fund reports a holding with the ticker FL 4427"
+  },
+  {
+   "company": "Fratelli Bartoli - International Shipping Firm",
+   "ticker": "FL 4430",
+   "why": "no fund reports a holding with the ticker FL 4430"
+  },
+  {
+   "company": "GALLEGO GONZALEZ JOSE REINALDO",
+   "ticker": "FL 4439",
+   "why": "no fund reports a holding with the ticker FL 4439"
+  },
+  {
+   "company": "Mercúrio Alimentos S/A",
+   "ticker": "CO1099",
+   "why": "no fund reports a holding with the ticker CO1099"
+  },
+  {
+   "company": "Highland Foods Co., Ltd.",
+   "ticker": "FL 4456",
+   "why": "no fund reports a holding with the ticker FL 4456"
+  },
+  {
+   "company": "JM Holdings Co Ltd",
+   "ticker": "FL 4464",
+   "why": "no fund reports a holding with the ticker FL 4464"
+  },
+  {
+   "company": "Lebanese Company For General Trading, Nabulsi Bros",
+   "ticker": "FL 4466",
+   "why": "no fund reports a holding with the ticker FL 4466"
+  },
+  {
+   "company": "Man Wah (Macao Commercial Offshore) Limited",
+   "ticker": "FL 4469",
+   "why": "no fund reports a holding with the ticker FL 4469"
+  },
+  {
+   "company": "Namet Gida Sanayi ve Ticareti",
+   "ticker": "FL 4475",
+   "why": "no fund reports a holding with the ticker FL 4475"
+  },
+  {
+   "company": "Nola S.r.l.",
+   "ticker": "FL 4478",
+   "why": "no fund reports a holding with the ticker FL 4478"
+  },
+  {
+   "company": "RASSEM TRADING CO",
+   "ticker": "FL 4484",
+   "why": "no fund reports a holding with the ticker FL 4484"
+  },
+  {
+   "company": "Riyadh Modern Factory",
+   "ticker": "FL 4485",
+   "why": "no fund reports a holding with the ticker FL 4485"
+  },
+  {
+   "company": "SONDA SUPERMERCADOS EXPORTAÇÃO E IMPORTAÇÃO S.A.",
+   "ticker": "FL 4487",
+   "why": "no fund reports a holding with the ticker FL 4487"
+  },
+  {
+   "company": "MAR.VI SPED SRL",
+   "ticker": "CO2786",
+   "why": "no fund reports a holding with the ticker CO2786"
+  },
+  {
+   "company": "Unicon Logistics",
+   "ticker": "FL 4493",
+   "why": "no fund reports a holding with the ticker FL 4493"
+  },
+  {
+   "company": "Wave Logistics Group",
+   "ticker": "FL 4497",
+   "why": "no fund reports a holding with the ticker FL 4497"
+  },
+  {
+   "company": "ZouYou",
+   "ticker": "FL 4501",
+   "why": "no fund reports a holding with the ticker FL 4501"
+  },
+  {
+   "company": "Atmos Capital",
+   "ticker": "FI3071",
+   "why": "no fund reports a holding with the ticker FI3071"
+  },
+  {
+   "company": "Makin Group",
+   "ticker": "NA 300",
+   "why": "no fund reports a holding with the ticker NA 300"
+  },
+  {
+   "company": "Luna Plc",
+   "ticker": "CO4347",
+   "why": "no fund reports a holding with the ticker CO4347"
+  },
+  {
+   "company": "Lord Indonesia",
+   "ticker": "CO4346",
+   "why": "no fund reports a holding with the ticker CO4346"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "ticker": "INVI36",
+   "why": "no fund reports a holding with the ticker INVI36"
+  },
+  {
+   "company": "Kampala Domestic Store Ltd",
+   "ticker": "CO4343",
+   "why": "no fund reports a holding with the ticker CO4343"
+  },
+  {
+   "company": "Industrias Frigorificos Recreo SAIC",
+   "ticker": "CO2773",
+   "why": "no fund reports a holding with the ticker CO2773"
+  },
+  {
+   "company": "Hebei Yangyuan Zhihui Beverage Co Ltd",
+   "ticker": "CO4337",
+   "why": "no fund reports a holding with the ticker CO4337"
+  },
+  {
+   "company": "Haoyue Group",
+   "ticker": "CO1097",
+   "why": "no fund reports a holding with the ticker CO1097"
+  },
+  {
+   "company": "Canvas Capital",
+   "ticker": "FI4530",
+   "why": "no fund reports a holding with the ticker FI4530"
+  },
+  {
+   "company": "Charles Schwab",
+   "ticker": "INVI66",
+   "why": "no fund reports a holding with the ticker INVI66"
+  },
+  {
+   "company": "HAGL Group",
+   "ticker": "SPOTT956",
+   "why": "no fund reports a holding with the ticker SPOTT956"
+  },
+  {
+   "company": "Guilin Liyuan",
+   "ticker": "CO4335",
+   "why": "no fund reports a holding with the ticker CO4335"
+  },
+  {
+   "company": "CITIC",
+   "ticker": "FI17",
+   "why": "no fund reports a holding with the ticker FI17"
+  },
+  {
+   "company": "Guangzhou Liby Enterprise Group Co Ltd",
+   "ticker": "NA 291",
+   "why": "no fund reports a holding with the ticker NA 291"
+  },
+  {
+   "company": "Guangzhou Highest Industrial Co. Ltd.",
+   "ticker": "XX 141",
+   "why": "no fund reports a holding with the ticker XX 141"
+  },
+  {
+   "company": "Cohen & Steers",
+   "ticker": "FI4536",
+   "why": "no fund reports a holding with the ticker FI4536"
+  },
+  {
+   "company": "Guangdong Wens Foodstuff Group Co., Ltd",
+   "ticker": "PRIV 97",
+   "why": "no fund reports a holding with the ticker PRIV 97"
+  },
+  {
+   "company": "Guangdong Agribusiness Group Corporation",
+   "ticker": "CO4334",
+   "why": "no fund reports a holding with the ticker CO4334"
+  },
+  {
+   "company": "Grupo Sabira",
+   "ticker": "CO4333",
+   "why": "no fund reports a holding with the ticker CO4333"
+  },
+  {
+   "company": "GRUPO PILAR S A",
+   "ticker": "CO2748",
+   "why": "no fund reports a holding with the ticker CO2748"
+  },
+  {
+   "company": "Dodge & Cox",
+   "ticker": "INVI119",
+   "why": "no fund reports a holding with the ticker INVI119"
+  },
+  {
+   "company": "Grupo Jari",
+   "ticker": "PRIV 74",
+   "why": "no fund reports a holding with the ticker PRIV 74"
+  },
+  {
+   "company": "Franklin Resources",
+   "ticker": "INVI18",
+   "why": "no fund reports a holding with the ticker INVI18"
+  },
+  {
+   "company": "Grupo Bom Retiro",
+   "ticker": "NA 287",
+   "why": "no fund reports a holding with the ticker NA 287"
+  },
+  {
+   "company": "Groupe Blattner Elwyn",
+   "ticker": "PRIV 79",
+   "why": "no fund reports a holding with the ticker PRIV 79"
+  },
+  {
+   "company": "Gravetal Bolivia",
+   "ticker": "CO4331",
+   "why": "no fund reports a holding with the ticker CO4331"
+  },
+  {
+   "company": "Gold Coast Cocoa Company",
+   "ticker": "CO4330",
+   "why": "no fund reports a holding with the ticker CO4330"
+  },
+  {
+   "company": "Gardingo Trade Importacao e Exportacao Ltda",
+   "ticker": "CO4283",
+   "why": "no fund reports a holding with the ticker CO4283"
+  },
+  {
+   "company": "FAW Group",
+   "ticker": "CDP 21585",
+   "why": "no fund reports a holding with the ticker CDP 21585"
+  },
+  {
+   "company": "Evershining Ingredient",
+   "ticker": "NA 278",
+   "why": "no fund reports a holding with the ticker NA 278"
+  },
+  {
+   "company": "Ever Alliance International Ltd",
+   "ticker": "CO4304",
+   "why": "no fund reports a holding with the ticker CO4304"
+  },
+  {
+   "company": "EURO AMERICA",
+   "ticker": "NA 277",
+   "why": "no fund reports a holding with the ticker NA 277"
+  },
+  {
+   "company": "Engelhart",
+   "ticker": "CO491",
+   "why": "no fund reports a holding with the ticker CO491"
+  },
+  {
+   "company": "Kapitalo Investimentos",
+   "ticker": "FI1049",
+   "why": "no fund reports a holding with the ticker FI1049"
+  },
+  {
+   "company": "Donto",
+   "ticker": "NA 276",
+   "why": "no fund reports a holding with the ticker NA 276"
+  },
+  {
+   "company": "Directa Line",
+   "ticker": "NA 275",
+   "why": "no fund reports a holding with the ticker NA 275"
+  },
+  {
+   "company": "Darmex Agro",
+   "ticker": "PRIV 36",
+   "why": "no fund reports a holding with the ticker PRIV 36"
+  },
+  {
+   "company": "Dalian Huafeng Furniture Co. Ltd.",
+   "ticker": "PRIV 96",
+   "why": "no fund reports a holding with the ticker PRIV 96"
+  },
+  {
+   "company": "Cutrale Trading Brasil Ltda.",
+   "ticker": "CO1092",
+   "why": "no fund reports a holding with the ticker CO1092"
+  },
+  {
+   "company": "Crowne Group, LLC",
+   "ticker": "CO4295",
+   "why": "no fund reports a holding with the ticker CO4295"
+  },
+  {
+   "company": "Nefele Investments",
+   "ticker": "FI4534",
+   "why": "no fund reports a holding with the ticker FI4534"
+  },
+  {
+   "company": "COOP FREIGHT LOGISTICS LTD",
+   "ticker": "NA 273",
+   "why": "no fund reports a holding with the ticker NA 273"
+  },
+  {
+   "company": "Compañía Bernal S.A",
+   "ticker": "CO2812",
+   "why": "no fund reports a holding with the ticker CO2812"
+  },
+  {
+   "company": "Cocoa Processing Company Limited",
+   "ticker": "CO4324",
+   "why": "no fund reports a holding with the ticker CO4324"
+  },
+  {
+   "company": "Cocoa Marketing Company",
+   "ticker": "CO4323",
+   "why": "no fund reports a holding with the ticker CO4323"
+  },
+  {
+   "company": "Pentagono",
+   "ticker": "FI4528",
+   "why": "no fund reports a holding with the ticker FI4528"
+  },
+  {
+   "company": "Cheng Shin Rubber Industry Co Ltd",
+   "ticker": "SPOTT1514",
+   "why": "no fund reports a holding with the ticker SPOTT1514"
+  },
+  {
+   "company": "CATTER MEAT SA",
+   "ticker": "NA 266",
+   "why": "no fund reports a holding with the ticker NA 266"
+  },
+  {
+   "company": "Squadra Investimentos",
+   "ticker": "FI4531",
+   "why": "no fund reports a holding with the ticker FI4531"
+  },
+  {
+   "company": "Camera Agroalimentos S.A.",
+   "ticker": "NA 264",
+   "why": "no fund reports a holding with the ticker NA 264"
+  },
+  {
+   "company": "Cafenorte Agricola Ltda",
+   "ticker": "CO4279",
+   "why": "no fund reports a holding with the ticker CO4279"
+  },
+  {
+   "company": "TIAA",
+   "ticker": "INVI131",
+   "why": "no fund reports a holding with the ticker INVI131"
+  },
+  {
+   "company": "Bright Food (Group) Co. Ltd.",
+   "ticker": "PRIV 113",
+   "why": "no fund reports a holding with the ticker PRIV 113"
+  },
+  {
+   "company": "Bhartiya International Ltd",
+   "ticker": "NSE: BIL",
+   "why": "no fund reports a holding with the ticker NSE: BIL"
+  },
+  {
+   "company": "BF Logistics",
+   "ticker": "CO2653",
+   "why": "no fund reports a holding with the ticker CO2653"
+  },
+  {
+   "company": "Best Group",
+   "ticker": "NA 257",
+   "why": "no fund reports a holding with the ticker NA 257"
+  },
+  {
+   "company": "Belle International Holdings Ltd.",
+   "ticker": "1880 HK",
+   "why": "holdings with the ticker 1880 HK give no issuer LEI"
+  },
+  {
+   "company": "Beidahuang Group",
+   "ticker": "PRIV 48",
+   "why": "no fund reports a holding with the ticker PRIV 48"
+  },
+  {
+   "company": "Vanguard",
+   "ticker": "INVI3",
+   "why": "no fund reports a holding with the ticker INVI3"
+  },
+  {
+   "company": "Ashley Furniture Industries Inc.",
+   "ticker": "PRIV 89",
+   "why": "no fund reports a holding with the ticker PRIV 89"
+  },
+  {
+   "company": "Aokang Group Co. Ltd.",
+   "ticker": "PRIV 99",
+   "why": "no fund reports a holding with the ticker PRIV 99"
+  },
+  {
+   "company": "Lazard",
+   "ticker": "INVI122",
+   "why": "no fund reports a holding with the ticker INVI122"
+  },
+  {
+   "company": "Anhui Bolian Fiber Co., Ltd.",
+   "ticker": "CO4313",
+   "why": "no fund reports a holding with the ticker CO4313"
+  },
+  {
+   "company": "Amul",
+   "ticker": "COOP 1",
+   "why": "no fund reports a holding with the ticker COOP 1"
+  },
+  {
+   "company": "Alto Parana Sociedad Anonima X",
+   "ticker": "CO4312",
+   "why": "no fund reports a holding with the ticker CO4312"
+  },
+  {
+   "company": "Altınmarka Group",
+   "ticker": "CO4128020",
+   "why": "no fund reports a holding with the ticker CO4128020"
+  },
+  {
+   "company": "Almaz Seyoum Beyene",
+   "ticker": "CO4311",
+   "why": "no fund reports a holding with the ticker CO4311"
+  },
+  {
+   "company": "ALGRAFIYAPRESS, UP",
+   "ticker": "CO4393",
+   "why": "no fund reports a holding with the ticker CO4393"
+  },
+  {
+   "company": "A LA ORDEN",
+   "ticker": "CO4306",
+   "why": "no fund reports a holding with the ticker CO4306"
+  },
+  {
+   "company": "Bank of China",
+   "ticker": "INVB5",
+   "why": "no fund reports a holding with the ticker INVB5"
+  },
+  {
+   "company": "China Development Bank",
+   "ticker": "INVR6",
+   "why": "no fund reports a holding with the ticker INVR6"
+  },
+  {
+   "company": "China Merchants Bank",
+   "ticker": "FI4540",
+   "why": "no fund reports a holding with the ticker FI4540"
+  },
+  {
+   "company": "China Minsheng Banking",
+   "ticker": "FI4541",
+   "why": "no fund reports a holding with the ticker FI4541"
+  },
+  {
+   "company": "Equitable Holdings",
+   "ticker": "INVI82",
+   "why": "no fund reports a holding with the ticker INVI82"
+  },
+  {
+   "company": "GQG Partners",
+   "ticker": "FI4544",
+   "why": "no fund reports a holding with the ticker FI4544"
+  },
+  {
+   "company": "Alamir Group",
+   "ticker": "CO4309",
+   "why": "no fund reports a holding with the ticker CO4309"
+  },
+  {
+   "company": "Grupo Financiero Galicia",
+   "ticker": "FI4546",
+   "why": "no fund reports a holding with the ticker FI4546"
+  },
+  {
+   "company": "Industrial Bank Company",
+   "ticker": "FI4547",
+   "why": "no fund reports a holding with the ticker FI4547"
+  },
+  {
+   "company": "Raymond James Financial",
+   "ticker": "FI1107",
+   "why": "no fund reports a holding with the ticker FI1107"
+  },
+  {
+   "company": "Life Insurance Corporation of India",
+   "ticker": "FI3086",
+   "why": "no fund reports a holding with the ticker FI3086"
+  },
+  {
+   "company": "Mawer Investment Management",
+   "ticker": "FI4548",
+   "why": "no fund reports a holding with the ticker FI4548"
+  },
+  {
+   "company": "Qatar Investment Authority",
+   "ticker": "FI1069",
+   "why": "no fund reports a holding with the ticker FI1069"
+  },
+  {
+   "company": "Bank of Communications",
+   "ticker": "FI3099",
+   "why": "no fund reports a holding with the ticker FI3099"
+  },
+  {
+   "company": "Canada Pension Plan Investment Board",
+   "ticker": "INVP9",
+   "why": "no fund reports a holding with the ticker INVP9"
+  },
+  {
+   "company": "China Guangfa Bank",
+   "ticker": "FI4539",
+   "why": "no fund reports a holding with the ticker FI4539"
+  },
+  {
+   "company": "Farm Credit Services Commercial Finance Group",
+   "ticker": "FI22",
+   "why": "no fund reports a holding with the ticker FI22"
+  },
+  {
+   "company": "Flossbach & von Storch",
+   "ticker": "FI1110",
+   "why": "no fund reports a holding with the ticker FI1110"
+  },
+  {
+   "company": "Mirae Asset Financial Group",
+   "ticker": "FI1607",
+   "why": "no fund reports a holding with the ticker FI1607"
+  },
+  {
+   "company": "National Pension Service",
+   "ticker": "INVP4",
+   "why": "no fund reports a holding with the ticker INVP4"
+  },
+  {
+   "company": "Toyota Financial Services Securities",
+   "ticker": "FI4550",
+   "why": "no fund reports a holding with the ticker FI4550"
+  },
+  {
+   "company": "CSC Financial",
+   "ticker": "FI4543",
+   "why": "no fund reports a holding with the ticker FI4543"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "ticker": "INVB1",
+   "why": "no fund reports a holding with the ticker INVB1"
+  },
+  {
+   "company": "National Bank of Canada",
+   "ticker": "DAT4636",
+   "why": "no fund reports a holding with the ticker DAT4636"
+  },
+  {
+   "company": "PNC Financial Services",
+   "ticker": "INVI38",
+   "why": "no fund reports a holding with the ticker INVI38"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "ticker": "FI 4642",
+   "why": "no fund reports a holding with the ticker FI 4642"
+  },
+  {
+   "company": "Principal Financial Group",
+   "ticker": "INVI110",
+   "why": "no fund reports a holding with the ticker INVI110"
+  },
+  {
+   "company": "Prudential Financial (US)",
+   "ticker": "INVI98",
+   "why": "no fund reports a holding with the ticker INVI98"
+  },
+  {
+   "company": "Schweizerische Nationalbank",
+   "ticker": "INVI137",
+   "why": "no fund reports a holding with the ticker INVI137"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "ticker": "FI4549",
+   "why": "no fund reports a holding with the ticker FI4549"
+  },
+  {
+   "company": "State Farm",
+   "ticker": "INVI29",
+   "why": "no fund reports a holding with the ticker INVI29"
+  },
+  {
+   "company": "Vera Cruz Agro Pecuaria Ltda",
+   "ticker": "CO4291",
+   "why": "no fund reports a holding with the ticker CO4291"
+  },
+  {
+   "company": "Vicwood Group",
+   "ticker": "VICWOZ HK",
+   "why": "no fund reports a holding with the ticker VICWOZ HK"
+  },
+  {
+   "company": "Unifood Industrial Group",
+   "ticker": "CO1102",
+   "why": "no fund reports a holding with the ticker CO1102"
+  },
+  {
+   "company": "Total Enterprise Limited",
+   "ticker": "NA 316",
+   "why": "no fund reports a holding with the ticker NA 316"
+  },
+  {
+   "company": "Tong Hong Tannery",
+   "ticker": "CO1101",
+   "why": "no fund reports a holding with the ticker CO1101"
+  },
+  {
+   "company": "Ting Hsin International Group",
+   "ticker": "PRIV 104",
+   "why": "no fund reports a holding with the ticker PRIV 104"
+  },
+  {
+   "company": "Tangrenshen Group (TRS)",
+   "ticker": "SHE: 002567",
+   "why": "no fund reports a holding with the ticker SHE: 002567"
+  },
+  {
+   "company": "Suguna Foods",
+   "ticker": "NA 315",
+   "why": "no fund reports a holding with the ticker NA 315"
+  },
+  {
+   "company": "Sinograin",
+   "ticker": "CO2902",
+   "why": "no fund reports a holding with the ticker CO2902"
+  },
+  {
+   "company": "Xiangfen County Sanxiao Wood Industry Co., Ltd.",
+   "ticker": "CO4389",
+   "why": "no fund reports a holding with the ticker CO4389"
+  },
+  {
+   "company": "Xiayi County Dongsheng Breeding Specialty Cooperative",
+   "ticker": "CO4390",
+   "why": "no fund reports a holding with the ticker CO4390"
+  },
+  {
+   "company": "Xingye Leather Technology Co., Ltd.",
+   "ticker": "CDP 864360",
+   "why": "no fund reports a holding with the ticker CDP 864360"
+  },
+  {
+   "company": "YABITO S.A.",
+   "ticker": "CO4391",
+   "why": "no fund reports a holding with the ticker CO4391"
+  },
+  {
+   "company": "Yihua Group",
+   "ticker": "HWATY:OTC US",
+   "why": "no fund reports a holding with the ticker HWATY:OTC US"
+  },
+  {
+   "company": "Shuangbaotai Group (Twins Group)",
+   "ticker": "NA 310",
+   "why": "no fund reports a holding with the ticker NA 310"
+  },
+  {
+   "company": "Yomiuri Group, The",
+   "ticker": "NA 320",
+   "why": "no fund reports a holding with the ticker NA 320"
+  },
+  {
+   "company": "Yunnan Natural Rubber Industry Group Co., Ltd.",
+   "ticker": "CO4392",
+   "why": "no fund reports a holding with the ticker CO4392"
+  },
+  {
+   "company": "Zhejiang Tongtianxing Group Joint-Stock Co Ltd",
+   "ticker": "NA 321",
+   "why": "no fund reports a holding with the ticker NA 321"
+  },
+  {
+   "company": "Zhongce Rubber Group Co Ltd",
+   "ticker": "SPOTT1531",
+   "why": "no fund reports a holding with the ticker SPOTT1531"
+  },
+  {
+   "company": "Gruppo Marseglia",
+   "ticker": "CO4015711",
+   "why": "no fund reports a holding with the ticker CO4015711"
+  },
+  {
+   "company": "Agroexport Trading e Agronegocios S/A",
+   "ticker": "FL 4394",
+   "why": "no fund reports a holding with the ticker FL 4394"
+  },
+  {
+   "company": "Agropecuária Chapada dos Guimarães",
+   "ticker": "FL 4397",
+   "why": "no fund reports a holding with the ticker FL 4397"
+  },
+  {
+   "company": "Agropecuária Maratá",
+   "ticker": "FL 4398",
+   "why": "no fund reports a holding with the ticker FL 4398"
+  },
+  {
+   "company": "Alvo Consultoria E Agronegocios Ltda",
+   "ticker": "FL 4402",
+   "why": "no fund reports a holding with the ticker FL 4402"
+  },
+  {
+   "company": "ANGUS INTERNATIONAL EXPORTACAO DE ANIMAIS",
+   "ticker": "FL 4403",
+   "why": "no fund reports a holding with the ticker FL 4403"
+  },
+  {
+   "company": "Shanghai Construction Group",
+   "ticker": "STAT 5",
+   "why": "no fund reports a holding with the ticker STAT 5"
+  },
+  {
+   "company": "BRASIL BEEF IMPORTACAO E EXPORTACAO LTDA EPP",
+   "ticker": "FL 4408",
+   "why": "no fund reports a holding with the ticker FL 4408"
+  },
+  {
+   "company": "Sanquan Food Co Ltd",
+   "ticker": "CDP 841675",
+   "why": "no fund reports a holding with the ticker CDP 841675"
+  },
+  {
+   "company": "BULL LOG TRADING IMPORTACAO E EXPORTACAO LTDA EPP",
+   "ticker": "FL 4410",
+   "why": "no fund reports a holding with the ticker FL 4410"
+  },
+  {
+   "company": "Comodoro Rivadavia S.A PCR",
+   "ticker": "FL 4416",
+   "why": "no fund reports a holding with the ticker FL 4416"
+  },
+  {
+   "company": "Cooperativa Central Aurora Alimentos",
+   "ticker": "FL 4419",
+   "why": "no fund reports a holding with the ticker FL 4419"
+  },
+  {
+   "company": "Curtume Bage Ltda",
+   "ticker": "FL 4420",
+   "why": "no fund reports a holding with the ticker FL 4420"
+  },
+  {
+   "company": "Sadesa",
+   "ticker": "NA 307",
+   "why": "no fund reports a holding with the ticker NA 307"
+  },
+  {
+   "company": "ESTANCIA DEL SUR AGROPECUARIA LTDA - ME",
+   "ticker": "FL 4423",
+   "why": "no fund reports a holding with the ticker FL 4423"
+  },
+  {
+   "company": "Euro-América - International Freight Forwarders",
+   "ticker": "FL 4425",
+   "why": "no fund reports a holding with the ticker FL 4425"
+  },
+  {
+   "company": "EURO LIVESTOCK BRASIL IMPORTACAO E EXPORTACAO",
+   "ticker": "FL 4424",
+   "why": "no fund reports a holding with the ticker FL 4424"
+  },
+  {
+   "company": "FOOD PRODUCTS ORLÂNDIA",
+   "ticker": "FL 4428",
+   "why": "no fund reports a holding with the ticker FL 4428"
+  },
+  {
+   "company": "Rioverde OOO",
+   "ticker": "NA 306",
+   "why": "no fund reports a holding with the ticker NA 306"
+  },
+  {
+   "company": "Frigorífico Aliança",
+   "ticker": "FL 4433",
+   "why": "no fund reports a holding with the ticker FL 4433"
+  },
+  {
+   "company": "PT. Tor Ganda",
+   "ticker": "CO4363",
+   "why": "no fund reports a holding with the ticker CO4363"
+  },
+  {
+   "company": "Poonphol Group",
+   "ticker": "CO4360",
+   "why": "no fund reports a holding with the ticker CO4360"
+  },
+  {
+   "company": "Frizelo Frigoríficos",
+   "ticker": "FL 4437",
+   "why": "no fund reports a holding with the ticker FL 4437"
+  },
+  {
+   "company": "Gestao",
+   "ticker": "FL 4440",
+   "why": "no fund reports a holding with the ticker FL 4440"
+  },
+  {
+   "company": "G.M. Leather S.p.A.",
+   "ticker": "FL 4438",
+   "why": "no fund reports a holding with the ticker FL 4438"
+  },
+  {
+   "company": "Golden Imex",
+   "ticker": "FL 4441",
+   "why": "no fund reports a holding with the ticker FL 4441"
+  },
+  {
+   "company": "Grupo JC",
+   "ticker": "FL 4446",
+   "why": "no fund reports a holding with the ticker FL 4446"
+  },
+  {
+   "company": "Patanjali Ayurved",
+   "ticker": "RSI IN2",
+   "why": "no fund reports a holding with the ticker RSI IN2"
+  },
+  {
+   "company": "Grupo Otávio Lage",
+   "ticker": "FL 4449",
+   "why": "no fund reports a holding with the ticker FL 4449"
+  },
+  {
+   "company": "Optimize Integration Group",
+   "ticker": "CO4357",
+   "why": "no fund reports a holding with the ticker CO4357"
+  },
+  {
+   "company": "Grupo Pereira S.A.",
+   "ticker": "FL 4450",
+   "why": "no fund reports a holding with the ticker FL 4450"
+  },
+  {
+   "company": "Grupo Zaffari",
+   "ticker": "FL 4453",
+   "why": "no fund reports a holding with the ticker FL 4453"
+  },
+  {
+   "company": "Offal Exp S.A.",
+   "ticker": "NA 302",
+   "why": "no fund reports a holding with the ticker NA 302"
+  },
+  {
+   "company": "Halipar",
+   "ticker": "FL 4455",
+   "why": "no fund reports a holding with the ticker FL 4455"
+  },
+  {
+   "company": "INDUSTRIA E COMERCIO DE CARNES E DERIVADOS BOI BRASIL",
+   "ticker": "FL 4457",
+   "why": "no fund reports a holding with the ticker FL 4457"
+  },
+  {
+   "company": "Jaguafrangos",
+   "ticker": "FL 4460",
+   "why": "no fund reports a holding with the ticker FL 4460"
+  },
+  {
+   "company": "JATOBA - AGRICULTURA E PECUARIA SA",
+   "ticker": "FL 4461",
+   "why": "no fund reports a holding with the ticker FL 4461"
+  }
+ ]
+}

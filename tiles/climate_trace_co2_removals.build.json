@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_removals.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 81852314
+  },
+  {
+   "file": "climate_trace_co2_removals_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 63708410
+  },
+  {
+   "file": "climate_trace_co2_removals_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 38550446
+  }
+ ],
+ "zoom": 12
+}

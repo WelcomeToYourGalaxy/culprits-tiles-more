@@ -1,0 +1,17 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_co2_crop_residues.pmtiles",
+   "from": 0,
+   "to": 10,
+   "bytes": 91525535
+  },
+  {
+   "file": "climate_trace_co2_crop_residues_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "bytes": 65504381
+  }
+ ],
+ "zoom": 12
+}

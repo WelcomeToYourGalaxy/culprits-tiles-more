@@ -1,0 +1,265 @@
+{
+ "site": "https://theyrule.net/",
+ "requests": [
+  {
+   "url": "https://theyrule.net/",
+   "status": 200,
+   "type": "text/html",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/static/css/main.c9ee6035.css",
+   "status": 200,
+   "type": "text/css",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/config.js",
+   "status": 200,
+   "type": "application/javascript",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300;400;600&display=swap",
+   "status": 200,
+   "type": "text/css; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/static/js/main.6ef84500.js",
+   "status": 200,
+   "type": "application/javascript",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/models/chair003.glb",
+   "status": 200,
+   "type": "application/octet-stream",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/models/directors.glb",
+   "status": 200,
+   "type": "application/octet-stream",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/models/tables.glb",
+   "status": 200,
+   "type": "application/octet-stream",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/b8062f20-12ad-4c04-92fd-9ae167221b23",
+   "status": 200,
+   "type": "image/png",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/dc1dc774-b57f-4d00-bd3c-9458a54c4bab",
+   "status": 200,
+   "type": "image/png",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llDB6g4.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/static/media/play_button.4e9c8615948ff98d1db983e1336a04b1.svg",
+   "status": 200,
+   "type": "image/svg+xml",
+   "method": "GET",
+   "bytes": 380,
+   "start": "<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"12.5\" cy=\"12.5\" r=\"12\" stroke=\"#B3B3B3\"/>\n<path d=\"M17.0881 12.2342C17.564 12.6338 17.564 13.3662 17.0881 13.7658L11.3931 18.5484C10.7425 19.0947 9.75 18.6322 9.75 17.7826L9.75 8.21742C9.75 7.36781 10.7425 6.90526 11.3931 7.45164L17.0881 12.2342Z\" fill=\"#B3B3B3\"/>\n</svg>\n"
+  },
+  {
+   "url": "https://www.gstatic.com/draco/versioned/decoders/1.4.3/draco_wasm_wrapper.js",
+   "status": 200,
+   "type": "text/javascript",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.gstatic.com/draco/versioned/decoders/1.4.3/draco_decoder.wasm",
+   "status": 200,
+   "type": "application/wasm",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "status": 200,
+   "type": "",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "status": 200,
+   "type": "",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "status": 200,
+   "type": "",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "status": 200,
+   "type": "",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/static/media/DMXL.d0ecace0fd0f6e3e653c29e942be6581.svg",
+   "status": 200,
+   "type": "image/svg+xml",
+   "method": "GET",
+   "bytes": 5159,
+   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M46.3997 90.5501C46.4663 90.6834 46.5997 90.8501 46.7997 91.0501L48.9997 93.0001C49.4663 93.4001 49.8997 93.4834 50.2997 93.2501L50.7997 93.2001C51.2997 93.1668 51.5497 92.9001 51.5497 92.4001V92.0501L49.4997 92.3501L46.3497 89.6001V89.9501C46.3163 90.0834 46.333 90.2834 46.3997 90.5501Z\" fill=\"#959595\"/>\n<path d=\"M37.6498 57.5C37.6165 57.5667 37.5831 57.6167 37.5498 57.6501V57.7001C37.5498 57.7667 37.5998 57.7834 37.6998 57.75C38.0665 57.7167 38.3665 57.6667 38.5998 57.6C38.7998 57.5 38.9331 57.4 38.9998 57.3L37.6498 57.5Z\" fill=\"#D5D5D5\"/>\n<path d=\"M37.0496 57.2C36.8829 57.1 36.7329 56.9667 36.5996 56.8L36.9996 59.2L37.0996 59.6L38.0496 60.45C38.1496 60.55 38.2829 60.6 38.4496 60."
+  },
+  {
+   "url": "https://theyrule.net/static/media/TL.6b9ad4a268326a2d790679b3197d5fcc.svg",
+   "status": 200,
+   "type": "image/svg+xml",
+   "method": "GET",
+   "bytes": 1455,
+   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"71.8518\" height=\"30.8689\" transform=\"matrix(0.866041 -0.499972 0.866041 0.499972 5 51.9238)\" fill=\"#908F90\"/>\n<rect width=\"30.8738\" height=\"2.87435\" transform=\"matrix(0.86601 0.500028 3.18907e-05 1 5 51.9294)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.866009 0.500028 3.18907e-05 1 33.8041 66.2166)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.86601 -0.500028 -3.18907e-05 1 35.0262 66.9353)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.866009 0.500028 3.18907e-05 1 89.2299 34.2166)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.86601 -0.500028 -3.18907e-05 1 9"
+  },
+  {
+   "url": "https://theyrule.net/static/media/DML.893a13c07502cf9be2d616270fadbb73.svg",
+   "status": 200,
+   "type": "image/svg+xml",
+   "method": "GET",
+   "bytes": 4939,
+   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M47.4502 89.3999C47.5169 89.4999 47.5169 89.5999 47.4502 89.6999C47.4502 89.9999 47.4835 90.2166 47.5502 90.3499C47.6502 90.5499 47.8002 90.6999 48.0002 90.7999L50.4502 92.9999C50.5169 93.0666 50.6502 93.0999 50.8502 93.0999L52.3502 92.7999C52.4835 92.7999 52.5669 92.7666 52.6002 92.6999C52.6335 92.6666 52.6502 92.4499 52.6502 92.0499V91.7499L51.1002 92.0499H50.6002L47.4502 89.3999Z\" fill=\"#959595\"/>\n<path d=\"M40.8502 56.9001C40.9038 56.8642 40.9538 56.8309 41.0002 56.8L39.4502 57L39.6502 57.2001C40.0502 57.1667 40.3835 57.1 40.6502 57C40.7217 56.9642 40.7883 56.9309 40.8502 56.9001Z\" fill=\"#D5D5D5\"/>\n<path d=\"M41.0004 56.8C40.954 56.8309 40.904 56.8642 40.8504 56.9C40.7885 56.9309 "
+  },
+  {
+   "url": "https://theyrule.net/static/media/DFXL.2d4fe6ef790739faaa67567f7f85a177.svg",
+   "status": 200,
+   "type": "image/svg+xml",
+   "method": "GET",
+   "bytes": 8087,
+   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M41.4498 56.2499L41.4998 55.8999L41.3498 55.9499L39.7998 56.0999L40.0498 56.2999C40.1831 56.3666 40.2998 56.3666 40.3998 56.2999L40.9498 56.1499L41.2498 56.0999L41.4498 56.2499Z\" fill=\"#D7D7D7\"/>\n<path d=\"M39.05 55.4501L39 55.4001L39.25 57.9001C39.25 58.0334 39.2833 58.1167 39.35 58.1501C39.45 58.2834 39.8 58.6001 40.4 59.1001C40.6667 59.2667 40.8667 59.3001 41 59.2001C41.1667 59.1001 41.25 58.9001 41.25 58.6001C41.2167 58.0001 41.25 57.6001 41.35 57.4001C41.4833 57.0667 41.5167 56.6834 41.45 56.2501L41.25 56.1001L40.95 56.1501L40.4 56.3001C40.3 56.3667 40.1833 56.3667 40.05 56.3001L39.8 56.1001L39.05 55.4501ZM63.3 66.5501L63.25 66.6001L59.05 67.5001C58.2167 67.6667 57.4333 67.8667 "
+  }
+ ],
+ "links": [],
+ "text": "They sit on the boards of the largest U.S. corporations\nThey make decisions that affect our lives\nThey Rule\nPlay automatically",
+ "bundled_data": [
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/constants.js",
+   "bytes": 1368,
+   "start": "export const Entities = {\n    DIR: \"director\",\n    ORG: \"organization\"\n}\n\nexport const ViewModes = {\n    INTRO: \"intro\",\n    SEARCH: \"search\",\n    ACTIVE_SEARCH: \"active_search\",\n    MENU: \"menu\",\n    FILTERS: \"filters\",\n    MAP: \"map\",\n    MAP_LOADING: \"map_loading\",\n    INFO: \"info\",\n    PERSON_INFO_PAGE: \"person_info_page\",\n    ORG_INFO_PAGE: \"org_info_page\",\n    MENU_CLOSING: \"menu_closing\",\n}\n\nexport const AutoPlayStates = {\n    PLAYING: \"playing\",\n    PAUSED: \"paused\",\n    OFF: \"off\"\n}\n\nexport const Regions = {\n    US: \"us\"\n}\n\nexport const DataSetType = {\n    COMPANIES: \"companies\",\n    "
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/dialog_store.js",
+   "bytes": 1980,
+   "start": "import create from 'zustand';\nimport { subscribeWithSelector } from \"zustand/middleware\";\nimport { immer } from \"zustand/middleware/immer\";\n\nconst dialogStore = (set, get) => ({\n\n    show_dialog: false,\n    title: \"default title\",\n    body: \"Default body\",\n    tertiary: null,\n    tertiary_action: null,\n    secondary: null,\n    secondary_action: null,\n    primary: null,\n    primary_action: null,\n    actions: {\n        clearDialog(){\n            set(state => {\n                    state.title = null;\n                    state.body = null;\n                    state.tertiary = null;\n               "
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/index.js",
+   "bytes": 3357,
+   "start": "import {Criteria, DataSetSource, DataSetStatus, DataSetType, Regions, AddOns} from \"./constants\";\nimport {strings} from \"./strings\";\n\n// const us_companies_revenue_2020_12_31_1 = React.lazy(() => import('./us/companies/revenue/2020/12/31/1/'));\n\nexport const DataSets = [\n    {\n        notes: strings.tr2001Notes,\n        region: Regions.US,\n        year: 2001,\n        month: 12,\n        day: 31,\n        version: 1,\n        org_type: DataSetType.COMPANIES,\n        criteria: Criteria.REVENUE,\n        total_orgs: 100,\n        max_rev: 210392,\n        min_rev: 20087,\n        percent_women: 13.47,\n "
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/map_store.js",
+   "bytes": 52840,
+   "start": "import create from 'zustand';\nimport { subscribeWithSelector } from \"zustand/middleware\";\nimport { immer } from \"zustand/middleware/immer\";\nimport {\n    AutoPlayStates,\n    DataSetStatus,\n    DataSetType,\n    Entities,\n    ControlModes\n} from \"./constants\";\nimport {clamp} from \"three/src/math/MathUtils\";\nimport * as THREE from \"three\";\nimport {DataSets} from \"./index\";\nimport {isMobile} from \"react-device-detect\";\n\nconst mapStore = (set, get) => ({\n    config: {},\n    betaPassword: \"4now\",\n    passwordEntered: false,\n    datasetInfo: [],\n    dataset: {\n        Orgs: {},\n        TopComs: [],\n  "
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/strings.js",
+   "bytes": 11639,
+   "start": "import LocalizedStrings from 'react-localization';\n\nexport const strings = new LocalizedStrings({\n    en:{\n        searchPlaceholder:\"Find a company or director\",\n        introText1:\"They sit on the boards of the largest U.S. corporations\",\n        introText2:\"They make decisions that affect our lives\",\n        theyRule:\"They Rule\",\n        playAutomatically:\"Play automatically\",\n        resumePlay: \"Resume Play\",\n        explore:\"Explore\",\n        playAgain: \"Play again\",\n        summary:\"This path includes *num_comps* companies connected by *num_dirs* *dirs* between *comp1* and *comp2*. To f"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/us/administrations/wikidata/index.js",
+   "bytes": 9298,
+   "start": "import {OrgType} from \"../../../constants\";\n\nexport const administrations = {\n    Orgs: {\n        Q28464532: {\n            n : \"George W. Bush Administration\",\n            t: OrgType.US_PRES_ADMIN,\n            d : [\"Q47216\",\"Q150851\",\"Q184650\",\"Q202350\",\"Q212979\",\"Q262554\",\"Q263322\",\"Q271717\",\"Q283396\",\"Q292936\",\"Q311025\",\"Q311141\",\"Q324505\",\"Q376530\",\"Q435010\",\"Q448880\",\"Q449689\",\"Q456921\",\"Q469483\",\"Q540275\",\"Q553502\",\"Q559822\",\"Q573825\",\"Q732804\",\"Q733612\",\"Q737493\",\"Q741648\",\"Q879432\",\"Q1240095\",\"Q1276376\",\"Q1285613\",\"Q1288295\",\"Q1534214\",\"Q207\"],\n            p : \"2001 - 2009\"\n\n        },\n"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/us/companies/revenue/2001/12/31/1/index.js",
+   "bytes": 75570,
+   "start": "export const us_companies_revenue_2001_12_31_1 = {    \n    Orgs: { \"C1\":{\"n\":\"Exxon-Mobil\",\"r\":210392,\"d\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\"]},\"C2\":{\"n\":\"Wal-Mart Stores\",\"r\":193295,\"d\":[\"17\",\"18\",\"19\",\"20\",\"21\",\"22\",\"23\",\"24\",\"25\",\"26\",\"27\",\"28\",\"29\",\"30\",\"31\"]},\"C3\":{\"n\":\"General Motors\",\"r\":184632,\"d\":[\"32\",\"33\",\"34\",\"35\",\"36\",\"37\",\"38\",\"39\",\"40\",\"41\",\"42\",\"43\"]},\"C4\":{\"n\":\"Ford Motor\",\"r\":180598,\"d\":[\"44\",\"45\",\"46\",\"47\",\"48\",\"49\",\"50\",\"51\",\"52\",\"53\",\"54\",\"55\",\"56\",\"57\"]},\"C5\":{\"n\":\"General Electric\",\"r\":129853,\"d\":[\"58\",\"59\",\"60\",\"61\",\"62\",\"63\",\"64\",\"65"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/us/companies/revenue/2020/12/31/1/index.js",
+   "bytes": 42743,
+   "start": "export const us_companies_revenue_2020_12_31_1 = { Orgs: {\"Q483551\":{\"n\":\"Walmart\",\"r\":523964,\"d\":[\"Q24524594\",\"Q16196595\",\"Q979750\",\"Q107434318\",\"Q7794754\",\"Q7615193\",\"Q108001876\",\"Q93592590\",\"Q14086\",\"Q5065434\",\"Q736477\",\"Q20177269\"]},\"Q3884\":{\"n\":\"Amazon\",\"r\":386064,\"d\":[\"Q109497888\",\"Q1360488\",\"Q1571715\",\"Q376800\",\"Q41812531\",\"Q7148734\",\"Q869322\",\"Q20685374\",\"Q1162007\",\"Q36697638\",\"Q312556\",\"Q264913\"]},\"Q312\":{\"n\":\"Apple Inc.\",\"r\":274515,\"d\":[\"Q17388808\",\"Q265852\",\"Q1557228\",\"Q6128032\",\"Q709063\",\"Q19673\",\"Q7365310\",\"Q271117\"]},\"Q624375\":{\"n\":\"CVS Health\",\"r\":268706,\"d\":[\"Q3870086\",\"Q107994"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/us/companies/revenue/2021/12/31/1/index.js",
+   "bytes": 87081,
+   "start": "export const us_companies_revenue_2021_12_31_1 = { Orgs: {\"Q483551\":{\"n\":\"Walmart\",\"r\":559151,\"d\":[\"Q14086\",\"Q24524594\",\"Q16196595\",\"Q979750\",\"Q107434318\",\"Q7794754\",\"Q108001876\",\"Q93592590\",\"Q5065434\",\"Q736477\",\"Q20177269\"]},\"Q3884\":{\"n\":\"Amazon\",\"r\":469822,\"d\":[\"Q109497888\",\"Q1162007\",\"Q36697638\",\"Q1360488\",\"Q312556\",\"Q1571715\",\"Q264913\",\"Q376800\",\"Q41812531\",\"Q7148734\",\"Q869322\"]},\"Q312\":{\"n\":\"Apple\",\"r\":365817,\"d\":[\"Q16193601\",\"Q19673\",\"Q17388808\",\"Q265852\",\"Q1557228\",\"Q6128032\",\"Q709063\",\"Q7365310\",\"Q271117\"]},\"Q624375\":{\"n\":\"CVS Health\",\"r\":292111,\"d\":[\"Q3870086\",\"Q107994030\",\"Q107993911"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/us/thinktanks/revenue/2020/12/31/1/index.js",
+   "bytes": 25073,
+   "start": "export const us_thinktanks_revenue_2020_12_31_1 = { Orgs: {\"Q861141\":{\"n\":\"RAND Corporation\",\"r\":349,\"d\":[\"Q7159672\",\"Q6213604\",\"Q1407715\",\"Q2349845\",\"Q52922\",\"Q7702240\",\"Q381670\",\"Q16735177\",\"Q7299308\",\"Q111907733\",\"Q6390095\",\"Q53563551\",\"Q381610\",\"Q7183940\",\"Q6832190\",\"Q111906621\",\"Q5552967\",\"Q318429\",\"Q229032\",\"Q5295059\",\"Q6830706\",\"Q14927550\",\"Q186123\"]},\"Q457528\":{\"n\":\"Aspen Institute\",\"r\":151,\"d\":[\"Q24248203\",\"Q7346235\",\"Q111991705\",\"Q107071509\",\"Q111991246\",\"Q111991395\",\"Q732850\",\"Q387675\",\"Q88350\",\"Q349922\",\"Q4897452\",\"Q1380459\",\"Q18619144\",\"Q6503966\",\"Q111975052\",\"Q5549051\",\"Q17518811"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data/view_store.js",
+   "bytes": 4993,
+   "start": "import create from 'zustand';\nimport { subscribeWithSelector } from \"zustand/middleware\";\nimport { immer } from \"zustand/middleware/immer\";\nimport {ViewModes} from \"./constants\";\n\n\nconst viewStore = (set, get) => ({\n\n    query: \"\",\n    time_search_last_closed: 0,\n    view_mode: ViewModes.INTRO,\n    view: {\n        show_intro: true,\n        show_top_search: false,\n        show_search_results: false,\n        show_menu: false,\n        show_map: false,\n        show_map_loading: false,\n        filters: false,\n        show_info: false,\n        show_person_info_page:false,\n        show_org_info_page:"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data|eager|/^/.//.*$/|groupOptions: {}|namespace object",
+   "bytes": 1970,
+   "start": "var map = {\n\t\"./\": 6612,\n\t\"./constants\": 9230,\n\t\"./constants.js\": 9230,\n\t\"./dialog_store\": 7527,\n\t\"./dialog_store.js\": 7527,\n\t\"./index\": 6612,\n\t\"./index.js\": 6612,\n\t\"./map_store\": 4245,\n\t\"./map_store.js\": 4245,\n\t\"./strings\": 9152,\n\t\"./strings.js\": 9152,\n\t\"./us/administrations/wikidata\": 8078,\n\t\"./us/administrations/wikidata/\": 8078,\n\t\"./us/administrations/wikidata/index\": 8078,\n\t\"./us/administrations/wikidata/index.js\": 8078,\n\t\"./us/companies/revenue/2001/12/31/1\": 8773,\n\t\"./us/companies/revenue/2001/12/31/1/\": 8773,\n\t\"./us/companies/revenue/2001/12/31/1/index\": 8773,\n\t\"./us/companies/revenue/"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "data|lazy|/^/.//.*$/|groupOptions: {}|namespace object",
+   "bytes": 1712,
+   "start": "var map = {\n\t\"./\": 6612,\n\t\"./constants\": 9230,\n\t\"./constants.js\": 9230,\n\t\"./dialog_store\": 7527,\n\t\"./dialog_store.js\": 7527,\n\t\"./index\": 6612,\n\t\"./index.js\": 6612,\n\t\"./map_store\": 4245,\n\t\"./map_store.js\": 4245,\n\t\"./strings\": 9152,\n\t\"./strings.js\": 9152,\n\t\"./us/administrations/wikidata\": 8078,\n\t\"./us/administrations/wikidata/\": 8078,\n\t\"./us/administrations/wikidata/index\": 8078,\n\t\"./us/administrations/wikidata/index.js\": 8078,\n\t\"./us/companies/revenue/2001/12/31/1\": 8773,\n\t\"./us/companies/revenue/2001/12/31/1/\": 8773,\n\t\"./us/companies/revenue/2001/12/31/1/index\": 8773,\n\t\"./us/companies/revenue/"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "../webpack/runtime/jsonp chunk loading",
+   "bytes": 3182,
+   "start": "// no baseURI\n\n// object to store loaded and loading chunks\n// undefined = chunk not loaded, null = chunk preloaded/prefetched\n// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded\nvar installedChunks = {\n\t179: 0\n};\n\n__webpack_require__.f.j = function(chunkId, promises) {\n\t\t// JSONP chunk loading for javascript\n\t\tvar installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;\n\t\tif(installedChunkData !== 0) { // 0 means \"already installed\".\n\n\t\t\t// a Promise means \"currently loading\".\n\t\t\tif(installedChunkData) {\n\t\t\t\tpromises.push(install"
+  },
+  {
+   "map": "/static/js/main.6ef84500.js.map",
+   "source": "components/Menu/MenuDataSection.jsx",
+   "bytes": 11958,
+   "start": "import React, {useLayoutEffect, useState} from \"react\";\nimport useMapStore from \"../../data/map_store\";\nimport useDialogStore from \"../../data/dialog_store\";\nimport {strings} from \"../../data/strings\";\nimport Toggle from \"../UI/Toggle\";\nimport {DataSetSource} from \"../../data/constants\";\nimport Icon from \"../Icons\";\nimport {Icons} from \"../Icons/Icon\";\n\n\nfunction DataDetails({dataSet, detailsString, isForAddOn}) {\n    const [showDetails, setShowDetails] = useState(false);\n    return (\n        <div className={\"data-details\"}>\n            <div className={\"details-link\" + (showDetails ? \" open\" :"
+  },
+  {
+   "map": "/static/js/SlideHarvard.7f677bee.10bcb059.js.map",
+   "source": "data/strings.js",
+   "bytes": 11639,
+   "start": "import LocalizedStrings from 'react-localization';\n\nexport const strings = new LocalizedStrings({\n    en:{\n        searchPlaceholder:\"Find a company or director\",\n        introText1:\"They sit on the boards of the largest U.S. corporations\",\n        introText2:\"They make decisions that affect our lives\",\n        theyRule:\"They Rule\",\n        playAutomatically:\"Play automatically\",\n        resumePlay: \"Resume Play\",\n        explore:\"Explore\",\n        playAgain: \"Play again\",\n        summary:\"This path includes *num_comps* companies connected by *num_dirs* *dirs* between *comp1* and *comp2*. To f"
+  },
+  {
+   "map": "/static/js/SlideWealth.c4378b86.663798d0.js.map",
+   "source": "data/strings.js",
+   "bytes": 11639,
+   "start": "import LocalizedStrings from 'react-localization';\n\nexport const strings = new LocalizedStrings({\n    en:{\n        searchPlaceholder:\"Find a company or director\",\n        introText1:\"They sit on the boards of the largest U.S. corporations\",\n        introText2:\"They make decisions that affect our lives\",\n        theyRule:\"They Rule\",\n        playAutomatically:\"Play automatically\",\n        resumePlay: \"Resume Play\",\n        explore:\"Explore\",\n        playAgain: \"Play again\",\n        summary:\"This path includes *num_comps* companies connected by *num_dirs* *dirs* between *comp1* and *comp2*. To f"
+  },
+  {
+   "map": "/static/js/SlideProfit.53eb9b88.dd936da5.js.map",
+   "source": "data/strings.js",
+   "bytes": 11639,
+   "start": "import LocalizedStrings from 'react-localization';\n\nexport const strings = new LocalizedStrings({\n    en:{\n        searchPlaceholder:\"Find a company or director\",\n        introText1:\"They sit on the boards of the largest U.S. corporations\",\n        introText2:\"They make decisions that affect our lives\",\n        theyRule:\"They Rule\",\n        playAutomatically:\"Play automatically\",\n        resumePlay: \"Resume Play\",\n        explore:\"Explore\",\n        playAgain: \"Play again\",\n        summary:\"This path includes *num_comps* companies connected by *num_dirs* *dirs* between *comp1* and *comp2*. To f"
+  }
+ ]
+}
