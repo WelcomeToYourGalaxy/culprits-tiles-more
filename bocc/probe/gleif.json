@@ -4234,8 +4234,8 @@
    }
   },
   {
-   "lei": "636700P3Y9I9KCGUWH64",
-   "legal_name": "Bourso France",
+   "lei": "6367007ISLF5V6ZEJP88",
+   "legal_name": "Bourso Europe",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -4267,8 +4267,8 @@
    }
   },
   {
-   "lei": "6367007ISLF5V6ZEJP88",
-   "legal_name": "Bourso Europe",
+   "lei": "636700P3Y9I9KCGUWH64",
+   "legal_name": "Bourso France",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -6063,41 +6063,8 @@
    }
   },
   {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6162,8 +6129,41 @@
    }
   },
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7031,8 +7031,8 @@
    }
   },
   {
-   "lei": "213800SJ9EDGYZ296T83",
-   "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7130,8 +7130,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800SJ9EDGYZ296T83",
+   "legal_name": "RBS AMERICAS PROPERTY CORP.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
