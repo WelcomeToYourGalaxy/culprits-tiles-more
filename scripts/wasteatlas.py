@@ -46,10 +46,28 @@ def main():
         return
     req = urllib.request.Request(SRC, headers={"User-Agent": "Mozilla/5.0 (Culprits atlas weekly copy)"})
     raw = urllib.request.urlopen(req, timeout=180).read()
-    root = ET.fromstring(raw)
+    # Round 97b (28 September): on 28 September the file would not parse as
+    # XML ("mismatched tag", line 93). Each marker is then read on its own, so
+    # one broken marker, or a page wrapped round the file, does not stop the
+    # rest; what could not be read is counted and shown.
+    try:
+        markers = [dict(m.attrib) for m in ET.fromstring(raw).iter("marker")]
+    except ET.ParseError as e:
+        text = raw.decode("utf-8", "replace")
+        found = re.findall(r"""<marker\b((?:\s+[\w:-]+\s*=\s*(?:"[^"]*"|'[^']*'))*)\s*/?>""", text, re.I)
+        markers = []
+        for body in found:
+            a = {k: html.unescape(v1 if v1 is not None and q == '"' else v2)
+                 for k, q, v1, v2 in ((m.group(1), m.group(2), m.group(3), m.group(4))
+                                      for m in re.finditer(r'([\w:-]+)\s*=\s*(?:(")([^"]*)"|\'([^\']*)\')', body))}
+            if a:
+                markers.append(a)
+        print(f"wasteatlas: the file is not well-formed XML ({e}); {len(markers):,} markers read one by one "
+              f"from {len(found):,} marker tags", flush=True)
+        if not markers:
+            print(f"wasteatlas: what came back ({len(raw):,} bytes) begins: {text[:400]!r}", flush=True)
     feats, nowhere, attrs, values = [], 0, {}, {}
-    for m in root.iter("marker"):
-        a = dict(m.attrib)
+    for a in markers:
         for k in a:
             attrs[k] = attrs.get(k, 0) + 1
         lat = next((a[k] for k in a if k.lower() in LAT), None)

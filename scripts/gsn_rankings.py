@@ -53,7 +53,10 @@ def main():
         return
     with urllib.request.urlopen(urllib.request.Request(URL, headers={"User-Agent": "Culprits atlas build (WelcomeToYourGalaxy)"}), timeout=120) as r:
         data = r.read()
-    wb = openpyxl.load_workbook(io.BytesIO(data), data_only=True, read_only=True)
+    # Round 97b (28 September): read in full, not read_only. In read_only mode
+    # openpyxl trusts each sheet's stated size, and a sheet that states it
+    # wrongly gives back almost nothing (every sheet here was "skipped").
+    wb = openpyxl.load_workbook(io.BytesIO(data), data_only=True)
 
     def iso_of(name):
         k = re.sub(r"\s+", " ", str(name or "")).strip().strip("*").strip()
@@ -73,18 +76,54 @@ def main():
     out, unmatched, sheets = {}, {}, {}
     for ws in wb.worksheets:
         rows = [list(r) for r in ws.iter_rows(values_only=True)]
+        rows = [r for r in rows if any(c not in (None, "") for c in r)]
+        print(f"gsn_rankings: sheet {ws.title!r}, {len(rows)} rows; the first rows:", flush=True)
+        for r in rows[:6]:
+            print(f"    {[c for c in r if c not in (None, '')][:14]}", flush=True)
+        us_sheet = bool(re.search(r"\b(usa|us|united states)\b", ws.title, re.I))
         # The header row: the first with a column naming the country or place.
-        head_i = next((i for i, r in enumerate(rows[:30]) if any(isinstance(c, str) and re.search(r"\b(country|nation|state|name)\b", c, re.I) for c in r)), None)
-        if head_i is None:
-            sheets[ws.title] = {"skipped": "no header row naming the country"}
+        head_word = r"\b(countr(y|ies)|nations?|states?|names?|place|jurisdiction|territory)\b"
+        def is_head(c):
+            # A header cell names the column; a place's own name ("United
+            # States") is a row of figures, not the header.
+            return isinstance(c, str) and bool(re.search(head_word, c, re.I)) and not iso_of(c)
+        head_i = next((i for i, r in enumerate(rows[:30]) if any(is_head(c) for c in r)), None)
+        name_c = None
+        if head_i is not None:
+            head = [str(c).strip() if c is not None else "" for c in rows[head_i]]
+            name_c = next(i for i, c in enumerate(rows[head_i]) if is_head(c))
+        else:
+            # No header names the column: the column the names are in is the
+            # one whose cells are most often a country (or, on the US sheet,
+            # most often words); the header is the row above its first name.
+            width = max((len(r) for r in rows), default=0)
+            def words(c):
+                return [i for i, r in enumerate(rows) if c < len(r) and isinstance(r[c], str) and re.search(r"[A-Za-z]{3}", r[c])]
+            if us_sheet:
+                best = max(range(width), key=lambda c: len(words(c)), default=None)
+                hits = words(best) if best is not None else []
+            else:
+                scored_cols = {c: [i for i in words(c) if iso_of(rows[i][c])] for c in range(width)}
+                best = max(scored_cols, key=lambda c: len(scored_cols[c]), default=None)
+                hits = scored_cols.get(best, []) if best is not None else []
+            if len(hits) >= 3:
+                name_c = best
+                head_i = max(hits[0] - 1, 0) if hits[0] > 0 else None
+                if head_i is None:
+                    rows.insert(0, [None] * width)
+                    head_i = 0
+                head = [str(c).strip() if c is not None else "" for c in rows[head_i]]
+                head += [""] * (width - len(head))
+                head = [h or (f"column {i + 1}" if i != name_c else "place") for i, h in enumerate(head)]
+        if name_c is None:
+            sheets[ws.title] = {"skipped": "no column of country names found"}
             continue
-        head = [str(c).strip() if c is not None else "" for c in rows[head_i]]
-        name_c = next(i for i, h in enumerate(head) if re.search(r"\b(country|nation|state|name)\b", h, re.I))
         score_c = next((i for i, h in enumerate(head) if re.search(r"protection\s*level", h, re.I)), None)
         if score_c is None:
-            score_c = next((i for i, h in enumerate(head) if re.search(r"\bscore\b", h, re.I)), None)
+            score_c = next((i for i, h in enumerate(head) if re.search(r"\b(score|level)\b", h, re.I)), None)
         # A sheet of US states: "Georgia" there is the state, not the country.
-        states = bool(re.search(r"\bstates?\b", ws.title + " " + head[name_c], re.I)) and not re.search(r"united states", head[name_c], re.I)
+        states = us_sheet or (bool(re.search(r"\bstates?\b", ws.title + " " + head[name_c], re.I))
+                              and not re.search(r"united states|member", ws.title + " " + head[name_c], re.I))
         sheets[ws.title] = {"columns": head, "name_column": head[name_c], "score_column": head[score_c] if score_c is not None else None,
                             **({"not countries": "US states"} if states else {})}
         for r in rows[head_i + 1:]:

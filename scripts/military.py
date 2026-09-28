@@ -48,7 +48,7 @@ keeps its last copy, and says so in the log.
                             lists; the version and date are those the catalogue
                             gives.
 """
-import csv, gzip, io, json, pathlib, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request, zipfile
+import csv, gzip, io, json, pathlib, re, shutil, subprocess, sys, tempfile, time, urllib.parse, urllib.request, zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
@@ -540,6 +540,136 @@ def mirta():
             last = e
             print(f"    MIRTA item {item}: {e}", flush=True)
     raise RuntimeError(f"no MIRTA copy could be read ({last})")
+
+
+# ---------------------------------------------------------------------- UCDP
+# Round 97b (28 September): main() named ucdp but the function had gone
+# missing from this file, so the whole script stopped with a NameError before
+# any part ran. Written again here from the docstring's description.
+UCDP_PAGE = "https://ucdp.uu.se/downloads/"
+UCDP_KINDS = {"1": "state-based conflict", "2": "non-state conflict", "3": "one-sided violence against civilians"}
+
+
+def piece_of(key):
+    """The map's pieceOf(): FNV-1a of the id, 256 pieces."""
+    h = 0x811C9DC5
+    for b in str(key).encode():
+        h = ((h ^ b) * 0x01000193) & 0xFFFFFFFF
+    return f"{h % 256:02x}"
+
+
+def ucdp_links():
+    """The GED global release (newest) and this release's monthly candidate files, as the downloads page lists them."""
+    try:
+        page = get(UCDP_PAGE, timeout=120).decode("utf-8", "replace")
+    except Exception as e:  # noqa: BLE001
+        print(f"    UCDP downloads page: {e}", flush=True)
+        page = ""
+    hrefs = {urllib.parse.urljoin(UCDP_PAGE, h) for h in re.findall(r'href="([^"]+)"', page, re.I)}
+    ged = sorted((h for h in hrefs if re.search(r"/ged/ged(\d+)-csv\.zip$", h, re.I)),
+                 key=lambda h: int(re.search(r"ged(\d+)-csv", h, re.I).group(1)))
+    cands = [h for h in hrefs if re.search(r"candidate.*\.csv$", h, re.I)]
+    if not ged:
+        # The page could not be read: the release names UCDP uses (ged251,
+        # ged261 ...), newest first.
+        yy = time.gmtime().tm_year % 100
+        ged = [f"{UCDP_PAGE}ged/ged{y}1-csv.zip" for y in (yy - 2, yy - 1, yy)]
+    return ged, sorted(cands)
+
+
+def ucdp_rows(raw):
+    if raw[:2] == b"PK":
+        z = zipfile.ZipFile(io.BytesIO(raw))
+        name = max((n for n in z.namelist() if n.lower().endswith(".csv")), key=lambda n: z.getinfo(n).file_size)
+        raw = z.read(name)
+    return csv.DictReader(io.StringIO(raw.decode("utf-8-sig", "replace")))
+
+
+def ucdp():
+    import mines  # noqa: E402  sh() and tools()
+    ged, cands = ucdp_links()
+    raw, release_url = None, None
+    for u in reversed(ged):
+        try:
+            raw = get(u, timeout=900)
+            release_url = u
+            break
+        except Exception as e:  # noqa: BLE001
+            print(f"    {u}: {e}", flush=True)
+    if raw is None:
+        raise RuntimeError("no UCDP GED global release could be fetched")
+    ver = re.search(r"ged(\d)(\d+)-csv", release_url, re.I)
+    release = f"GED {ver.group(1)}{ver.group(2)[:-1]}.{ver.group(2)[-1]}" if ver else "GED"
+    print(f"    {release} from {release_url}: {len(raw) / 1e6:.0f} MB", flush=True)
+    work = pathlib.Path(tempfile.mkdtemp())
+    parts = {}          # piece -> open file of JSON lines
+    lines = open(work / "mil_conflicts.geojsonl", "w", encoding="utf-8")
+    seen, counts = set(), {"global": 0, "candidate": 0, "no position": 0}
+
+    def add(r, source):
+        eid = str(r.get("id") or "").strip()
+        if not eid or eid in seen:
+            return
+        try:
+            lon, lat = float(r["longitude"]), float(r["latitude"])
+        except (KeyError, TypeError, ValueError):
+            counts["no position"] += 1
+            return
+        seen.add(eid)
+        props = {k: v_ for k, v_ in r.items() if k and v_ not in (None, "")}
+        props["release"] = source
+        props["kind"] = UCDP_KINDS.get(str(r.get("type_of_violence")), str(r.get("type_of_violence") or ""))
+        props["title"] = r.get("conflict_name") or r.get("dyad_name") or ""
+        hh = piece_of(eid)
+        if hh not in parts:
+            parts[hh] = open(work / f"{hh}.jsonl", "w", encoding="utf-8")
+        parts[hh].write(json.dumps([eid, {"properties": props}], ensure_ascii=False, separators=(",", ":")) + "\n")
+        try:
+            deaths = int(float(r.get("best") or 0))
+        except ValueError:
+            deaths = 0
+        lines.write(json.dumps({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(lon, 5), round(lat, 5)]},
+                                "properties": {"id": eid, "x_date": (r.get("date_start") or "")[:10], "x_kind": props["kind"],
+                                               "x_deaths": deaths}}, separators=(",", ":")) + "\n")
+        counts["global" if source == release else "candidate"] += 1
+
+    for r in ucdp_rows(raw):
+        add(r, release)
+    del raw
+    # The candidate events: monthly files of the year after the release, the
+    # newest first, so a later month's correction of an event is the one kept.
+    for u in sorted(cands, key=lambda h: [int(x) for x in re.findall(r"\d+", h.rsplit("/", 1)[-1])], reverse=True):
+        try:
+            for r in ucdp_rows(get(u, timeout=600)):
+                add(r, "candidate " + u.rsplit("/", 1)[-1].rsplit(".", 1)[0])
+        except Exception as e:  # noqa: BLE001
+            print(f"    candidate file {u}: {e}; left out this time", flush=True)
+    lines.close()
+    for f in parts.values():
+        f.close()
+    print(f"    UCDP: {counts['global']:,} events from {release}, {counts['candidate']:,} candidate events, "
+          f"{counts['no position']:,} without a position", flush=True)
+    if counts["global"] == 0:
+        raise RuntimeError("no events read from the release")
+    mines.tools()
+    tile = work / "mil_conflicts.pmtiles"
+    mines.sh("tippecanoe", "-o", str(tile), "--force", "-q", "-l", "mil_conflicts", "-Z0", "-z10", "-r1",
+             "--no-feature-limit", "--no-tile-size-limit", str(work / "mil_conflicts.geojsonl"))
+    if tile.stat().st_size > 95 * 1024 * 1024:
+        raise RuntimeError(f"mil_conflicts: {tile.stat().st_size / 1e6:.0f} MB is over GitHub's limit")
+    base = OUT / "ucdp"
+    base.mkdir(parents=True, exist_ok=True)
+    for hh in parts:
+        d = {}
+        with open(work / f"{hh}.jsonl", encoding="utf-8") as f:
+            for line in f:
+                k, val = json.loads(line)
+                d[k] = val
+        (base / f"{hh}.json.gz").write_bytes(gzip.compress(json.dumps(d, ensure_ascii=False, separators=(",", ":")).encode()))
+    TILES.mkdir(exist_ok=True)
+    shutil.move(str(tile), TILES / "mil_conflicts.pmtiles")
+    (base / "build.json").write_text(json.dumps({"release": release, "from": release_url, "candidates": cands, **counts,
+                                                 "run": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())}, indent=1))
 
 
 def main():

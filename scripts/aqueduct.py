@@ -25,13 +25,19 @@ colours each basin by its own figures.
 
 Built once; AQUEDUCT_REBUILD=1 builds again.
 """
-import gzip, json, os, pathlib, shutil, subprocess, sys, tempfile, urllib.request, zipfile
+import csv, gzip, json, os, pathlib, shutil, subprocess, sys, tempfile, urllib.parse, urllib.request, zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 PROJ_URL = "https://files.wri.org/d8/s3fs-public/aqueduct_projections_20150309_shp.zip"
+GFW_KEY = "2d60cd88-8348-4c0f-a6d5-bd9adb585a8c"
+CROP_DS = "https://data-api.globalforestwatch.org/dataset/aqueduct_crop_baseline_2020/v1.12"
+# Round 97b (28 September): the data lake copy answers 403 and the Data API
+# has no geojson download (404). The Data API's csv download of the table
+# (every field, the shape as the gfw_geojson text column) is read instead;
+# the data lake stays first in case it opens again.
 CROP_URLS = ["https://gfw-data-lake.s3.amazonaws.com/aqueduct_crop_baseline_2020/v1.12/vector/epsg-4326/default.ndjson",
-             "https://data-api.globalforestwatch.org/dataset/aqueduct_crop_baseline_2020/v1.12/download/geojson?x-api-key=2d60cd88-8348-4c0f-a6d5-bd9adb585a8c"]
+             CROP_DS + "/download/csv?sql=" + urllib.parse.quote("SELECT * FROM data") + "&x-api-key=" + GFW_KEY]
 TILES = pathlib.Path("tiles")
 OUT = pathlib.Path("aqueduct")
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
@@ -40,7 +46,8 @@ DROP = {"geom", "geom_wm", "gfw_geojson", "gfw_bbox", "gfw_geostore_id", "create
 
 
 def fetch(url, to):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=1800) as r, open(to, "wb") as f:
+    head = dict(UA, **({"x-api-key": GFW_KEY} if "globalforestwatch.org" in url else {}))
+    with urllib.request.urlopen(urllib.request.Request(url, headers=head), timeout=1800) as r, open(to, "wb") as f:
         shutil.copyfileobj(r, f)
     print(f"aqueduct: {url.split('?')[0]}: {to.stat().st_size / 1e6:.1f} MB", flush=True)
 
@@ -81,6 +88,24 @@ def crops(work, stamp):
             print(f"aqueduct: {u.split('?')[0]} did not answer ({e})", flush=True)
     else:
         sys.exit("aqueduct: no copy of the crop data could be fetched")
+    used = u.split("?")[0]
+    if "/download/csv" in u:
+        # The csv's rows as the data lake's rows: figures as numbers, the shape
+        # in gfw_geojson.
+        csv.field_size_limit(1 << 30)
+        rows = raw.with_suffix(".rows.ndjson")
+        with open(raw, newline="", encoding="utf-8") as f, rows.open("w") as w:
+            for r in csv.DictReader(f):
+                for k, v in list(r.items()):
+                    if v in ("", None):
+                        r[k] = None
+                    elif k not in ("gfw_geojson", "geom", "geom_wm", "gfw_geostore_id", "gfw_bbox", "created_on", "updated_on"):
+                        try:
+                            r[k] = float(v) if not v.lstrip("-").isdigit() else int(v)
+                        except ValueError:
+                            pass
+                w.write(json.dumps(r) + "\n")
+        raw = rows
     # One GeoJSON feature per line, whatever the source's own shape: a row of
     # the data lake carries its geometry as geojson text (gfw_geojson) or as a
     # geometry member.
@@ -122,7 +147,7 @@ def crops(work, stamp):
     if not n:
         sys.exit("aqueduct: no crop areas read")
     top = tile(out, TILES / "aqueduct_crop.pmtiles", "areas", 8)
-    stamp["crops"] = {"from": CROP_URLS[0], "areas": n, "ranges": ranges, "to_zoom": top,
+    stamp["crops"] = {"from": used, "areas": n, "ranges": ranges, "to_zoom": top,
                       "bytes": (TILES / "aqueduct_crop.pmtiles").stat().st_size}
 
 

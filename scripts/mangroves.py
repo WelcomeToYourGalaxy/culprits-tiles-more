@@ -38,6 +38,8 @@ def main():
     import numpy as np
     import rasterio
     from rasterio.enums import Resampling
+    from rasterio.transform import from_origin
+    from rasterio.vrt import WarpedVRT
     z = pyramid.download(URL, pathlib.Path(tempfile.gettempdir()) / "gmw2020.zip", ROW)
     tifs = [n for n in zipfile.ZipFile(z).namelist() if n.lower().endswith((".tif", ".tiff"))]
     print(f"{ROW}: {len(tifs)} squares in the zip", flush=True)
@@ -53,7 +55,12 @@ def main():
             r1, c1 = min(H, r1), min(W, c1)
             if r1 <= r0 or c1 <= c0:
                 continue
-            a = src.read(1, out_shape=(r1 - r0, c1 - c0), resampling=Resampling.max)
+            # Round 97b: rasterio allows "max" only when warping, not on a
+            # plain read, so the square is warped onto its part of the grid.
+            to = from_origin(WEST + c0 * RES, NORTH - r0 * RES, RES, RES)
+            with WarpedVRT(src, crs="EPSG:4326", transform=to, width=c1 - c0, height=r1 - r0,
+                           resampling=Resampling.max) as vrt:
+                a = vrt.read(1)
             nod = src.nodata
             hit = (a > 0) if nod is None else ((a > 0) & (a != nod))
             grid[r0:r1, c0:c1] |= hit.astype(np.uint8)
