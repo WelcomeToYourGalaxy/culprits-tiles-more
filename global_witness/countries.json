@@ -1,0 +1,506 @@
+{
+ "COL": {
+  "value": 478.1949224105498,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "548",
+  "x_8Hdke — LAT": "3.362224688948406",
+  "x_8Hdke — LON": "-73.16730227839861",
+  "x_country": "Colombia"
+ },
+ "BRA": {
+  "value": 377.1388029130019,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "439",
+  "x_8Hdke — LAT": "-12.291949731815706",
+  "x_8Hdke — LON": "-49.56924735518242",
+  "x_country": "Brazil"
+ },
+ "PHL": {
+  "value": 456.28095712390194,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "318",
+  "x_8Hdke — LAT": "16.907288998435444",
+  "x_8Hdke — LON": "121.3736681254665",
+  "x_country": "Philippines"
+ },
+ "MEX": {
+  "value": 152.2920994785101,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "230",
+  "x_8Hdke — LAT": "24.577370820962038",
+  "x_8Hdke — LON": "-102.28527134245194",
+  "x_country": "Mexico"
+ },
+ "HND": {
+  "value": 94.90274245339289,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "167",
+  "x_8Hdke — LAT": "14.789894903031328",
+  "x_8Hdke — LON": "-86.88715244963844",
+  "x_country": "Honduras"
+ },
+ "GTM": {
+  "value": 38.48637035778469,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "114",
+  "x_8Hdke — LAT": "14.988821224334842",
+  "x_8Hdke — LON": "-90.50245086655015",
+  "x_country": "Guatemala"
+ },
+ "IND": {
+  "value": 189.68021306312963,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "88",
+  "x_8Hdke — LAT": "22.94061516947247",
+  "x_8Hdke — LON": "78.73959789365715",
+  "x_country": "India"
+ },
+ "NIC": {
+  "value": 4.61920084697414,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "77",
+  "x_8Hdke — LAT": "12.688671260192367",
+  "x_8Hdke — LON": "-85.06947041321823",
+  "x_country": "Nicaragua"
+ },
+ "PER": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "66",
+  "x_8Hdke — LAT": "-12.974682355977151",
+  "x_8Hdke — LON": "-72.89046449877992",
+  "x_country": "Peru"
+ },
+ "IDN": {
+  "value": 126.94004703968064,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "26",
+  "x_8Hdke — LAT": "-0.9510335107018435",
+  "x_8Hdke — LON": "101.89108055038248",
+  "x_country": "Indonesia"
+ },
+ "VEN": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "23",
+  "x_8Hdke — LAT": "7.211150182899747",
+  "x_8Hdke — LON": "-64.59784282328121",
+  "x_country": "Venezuela"
+ },
+ "PRY": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "18",
+  "x_8Hdke — LAT": "-21.668360057438903",
+  "x_8Hdke — LON": "-60.14766566456209",
+  "x_country": "Paraguay"
+ },
+ "THA": {
+  "value": 129.53694836371815,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "13",
+  "x_8Hdke — LAT": "15.46536372815341",
+  "x_8Hdke — LON": "101.07158463556473",
+  "x_country": "Thailand"
+ },
+ "ECU": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "12",
+  "x_8Hdke — LAT": "-1.1888897125825997",
+  "x_8Hdke — LON": "-78.1797072262736",
+  "x_country": "Ecuador"
+ },
+ "KHM": {
+  "value": 127.98792555698508,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "11",
+  "x_8Hdke — LAT": "12.558366385498541",
+  "x_8Hdke — LON": "104.42955917148653",
+  "x_country": "Cambodia"
+ },
+ "IRN": {
+  "value": 96.15094991920986,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "9",
+  "x_8Hdke — LAT": "31.928510153278083",
+  "x_8Hdke — LON": "55.22243976593178",
+  "x_country": "Iran"
+ },
+ "ARG": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "8",
+  "x_8Hdke — LAT": "-33.51741836828759",
+  "x_8Hdke — LON": "-64.17915323928062",
+  "x_country": "Argentina"
+ },
+ "MMR": {
+  "value": 125.63855552742879,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "8",
+  "x_8Hdke — LAT": "21.587975863527078",
+  "x_8Hdke — LON": "96.05057966390171",
+  "x_country": "Myanmar"
+ },
+ "BGD": {
+  "value": 121.16814255514103,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "7",
+  "x_8Hdke — LAT": "24.318130077061483",
+  "x_8Hdke — LON": "89.85001247807955",
+  "x_country": "Bangladesh"
+ },
+ "KEN": {
+  "value": 44.349371818363835,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "6",
+  "x_8Hdke — LAT": "0.5144640820904715",
+  "x_8Hdke — LON": "37.834907736273365",
+  "x_country": "Kenya"
+ },
+ "LBR": {
+  "value": 3.036766322594402,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "6",
+  "x_8Hdke — LAT": "6.498483110188885",
+  "x_8Hdke — LON": "-9.461716787594483",
+  "x_country": "Liberia"
+ },
+ "ZAF": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "6",
+  "x_8Hdke — LAT": "-30.04847846361744",
+  "x_8Hdke — LON": "23.238063052990906",
+  "x_country": "South Africa"
+ },
+ "TCD": {
+  "value": 38.90618716397,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "5",
+  "x_8Hdke — LAT": "15.16196486911489",
+  "x_8Hdke — LON": "18.744222294855117",
+  "x_country": "Chad"
+ },
+ "CHL": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "5",
+  "x_8Hdke — LAT": "-38.21035712484548",
+  "x_8Hdke — LON": "-72.31533958956507",
+  "x_country": "Chile"
+ },
+ "PAK": {
+  "value": 103.3267735546134,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "5",
+  "x_8Hdke — LAT": "29.52839171117492",
+  "x_8Hdke — LON": "68.79838184343848",
+  "x_country": "Pakistan"
+ },
+ "PAN": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "5",
+  "x_8Hdke — LAT": "8.727189740867377",
+  "x_8Hdke — LON": "-80.31227333511853",
+  "x_country": "Panama"
+ },
+ "RUS": {
+  "value": 166.4605039556081,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "5",
+  "x_8Hdke — LAT": "63.578665612242034",
+  "x_8Hdke — LON": "97.88183834336606",
+  "x_country": "Russia"
+ },
+ "UGA": {
+  "value": 38.317892125439265,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "5",
+  "x_8Hdke — LAT": "0.8971614052405874",
+  "x_8Hdke — LON": "32.42073072019868",
+  "x_country": "Uganda"
+ },
+ "CRI": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "4",
+  "x_8Hdke — LAT": "10.06490861076373",
+  "x_8Hdke — LON": "-84.07411693557657",
+  "x_country": "Costa Rica"
+ },
+ "DOM": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "4",
+  "x_8Hdke — LAT": "19.10834396215388",
+  "x_8Hdke — LON": "-70.81862452573577",
+  "x_country": "Dominican Republic"
+ },
+ "PNG": {
+  "value": 141.7310737000448,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "4",
+  "x_8Hdke — LAT": "-5.601008325316188",
+  "x_8Hdke — LON": "143.332082025361",
+  "x_country": "Papua New Guinea"
+ },
+ "TZA": {
+  "value": 32.91924485346638,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "4",
+  "x_8Hdke — LAT": "-5.871956751528421",
+  "x_8Hdke — LON": "34.791201604994804",
+  "x_country": "Tanzania"
+ },
+ "TUR": {
+  "value": 78.5257391,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "4",
+  "x_8Hdke — LAT": "39.294076",
+  "x_8Hdke — LON": "35.2316631",
+  "x_country": "Türkiye"
+ },
+ "UKR": {
+  "value": 84.89723561685707,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "4",
+  "x_8Hdke — LAT": "49.38350655597077",
+  "x_8Hdke — LON": "31.513729060886313",
+  "x_country": "Ukraine"
+ },
+ "KAZ": {
+  "value": 120.29483469181363,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "3",
+  "x_8Hdke — LAT": "48.30122108456058",
+  "x_8Hdke — LON": "68.99361360725305",
+  "x_country": "Kazakhstan"
+ },
+ "MDG": {
+  "value": 31.07101717554336,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "3",
+  "x_8Hdke — LAT": "-18.625265013598153",
+  "x_8Hdke — LON": "46.69628218914151",
+  "x_country": "Madagascar"
+ },
+ "BOL": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "-16.62212219859906",
+  "x_8Hdke — LON": "-64.68657022746034",
+  "x_country": "Bolivia"
+ },
+ "BFA": {
+  "value": 13.555567550680546,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "12.711318855498977",
+  "x_8Hdke — LON": "-1.1557513048184296",
+  "x_country": "Burkina Faso"
+ },
+ "CMR": {
+  "value": 19.060516724632585,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "4.579966667591986",
+  "x_8Hdke — LON": "12.4805500570406",
+  "x_country": "Cameroon"
+ },
+ "FRA": {
+  "value": 51.17856261584288,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "46.72043895581163",
+  "x_8Hdke — LON": "2.458123660031249",
+  "x_country": "France"
+ },
+ "GMB": {
+  "value": 0.639062413116191,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "13.657122655482594",
+  "x_8Hdke — LON": "-15.018060242366403",
+  "x_country": "Gambia"
+ },
+ "GHA": {
+  "value": 8.685908781195252,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "7.724311516500682",
+  "x_8Hdke — LON": "-1.0384027353054306",
+  "x_country": "Ghana"
+ },
+ "ROU": {
+  "value": 72.78472762636477,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "45.72193853584362",
+  "x_8Hdke — LON": "25.062789090521157",
+  "x_country": "Romania"
+ },
+ "ESP": {
+  "value": 38.61382071677048,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "40.07962355644325",
+  "x_8Hdke — LON": "-3.4658028396727656",
+  "x_country": "Spain"
+ },
+ "USA": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "2",
+  "x_8Hdke — LAT": "39.522268826151375",
+  "x_8Hdke — LON": "-97.51736137243053",
+  "x_country": "United States of America"
+ },
+ "AUS": {
+  "value": 111.04715820828872,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-23.998961513666075",
+  "x_8Hdke — LON": "134.0461197219548",
+  "x_country": "Australia"
+ },
+ "CAN": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "58.33465496528049",
+  "x_8Hdke — LON": "-112.56495652397572",
+  "x_country": "Canada"
+ },
+ "GAB": {
+  "value": 11.83456854584651,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-0.6290613027997594",
+  "x_8Hdke — LON": "11.463629848646269",
+  "x_country": "Gabon"
+ },
+ "IRQ": {
+  "value": 77.36411539464564,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "33.10281026239823",
+  "x_8Hdke — LON": "43.261305132247415",
+  "x_country": "Iraq"
+ },
+ "IRL": {
+  "value": 46.28962156864384,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "53.08074686975256",
+  "x_8Hdke — LON": "-7.791125301108725",
+  "x_country": "Ireland"
+ },
+ "KIR": {
+  "value": 0,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "1.8348417897491727",
+  "x_8Hdke — LON": "-157.38823256110237",
+  "x_country": "Kiribati"
+ },
+ "LAO": {
+  "value": 123.14989002716081,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "19.604975580220085",
+  "x_8Hdke — LON": "102.54491444694072",
+  "x_country": "Laos"
+ },
+ "MWI": {
+  "value": 21.266508889173323,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-13.380568743857447",
+  "x_8Hdke — LON": "33.64707763303077",
+  "x_country": "Malawi"
+ },
+ "MYS": {
+  "value": 117.36308071678778,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "2.5328058254129857",
+  "x_8Hdke — LON": "113.8302748913748",
+  "x_country": "Malaysia"
+ },
+ "MOZ": {
+  "value": 24.863981806579357,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-13.961095310634594",
+  "x_8Hdke — LON": "37.82507711721395",
+  "x_country": "Mozambique"
+ },
+ "NPL": {
+  "value": 112.89726872524763,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "28.31730041616788",
+  "x_8Hdke — LON": "83.57996830907975",
+  "x_country": "Nepal"
+ },
+ "RWA": {
+  "value": 29.09152944270265,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-1.897183390821588",
+  "x_8Hdke — LON": "29.98871283352424",
+  "x_country": "Rwanda"
+ },
+ "SAU": {
+  "value": 69.53452473307313,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "23.27419064207044",
+  "x_8Hdke — LON": "45.26033409100269",
+  "x_country": "Saudi Arabia"
+ },
+ "SEN": {
+  "value": 1.3024829090831034,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "15.223190869074784",
+  "x_8Hdke — LON": "-14.920707959991681",
+  "x_country": "Senegal"
+ },
+ "LKA": {
+  "value": 89.2585401455959,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "7.551515004886275",
+  "x_8Hdke — LON": "80.70702514070963",
+  "x_country": "Sri Lanka"
+ },
+ "VNM": {
+  "value": 128.1073278706004,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "21.7259625960617",
+  "x_8Hdke — LON": "105.38136527453868",
+  "x_country": "Vietnam"
+ },
+ "ZMB": {
+  "value": 12.974826485314887,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-14.740816505462343",
+  "x_8Hdke — LON": "26.71564299077723",
+  "x_country": "Zambia"
+ },
+ "ZWE": {
+  "value": 12.007538771789726,
+  "unit": "defenders killed or disappeared",
+  "x_8Hdke — Count": "1",
+  "x_8Hdke — LAT": "-18.918604255405064",
+  "x_8Hdke — LON": "29.92614302719479",
+  "x_country": "Zimbabwe"
+ }
+}
