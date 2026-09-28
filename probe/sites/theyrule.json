@@ -8,6 +8,12 @@
    "method": "GET"
   },
   {
+   "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300;400;600&display=swap",
+   "status": 200,
+   "type": "text/css; charset=utf-8",
+   "method": "GET"
+  },
+  {
    "url": "https://theyrule.net/static/css/main.c9ee6035.css",
    "status": 200,
    "type": "text/css",
@@ -17,12 +23,6 @@
    "url": "https://theyrule.net/config.js",
    "status": 200,
    "type": "application/javascript",
-   "method": "GET"
-  },
-  {
-   "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300;400;600&display=swap",
-   "status": 200,
-   "type": "text/css; charset=utf-8",
    "method": "GET"
   },
   {
@@ -38,33 +38,15 @@
    "method": "GET"
   },
   {
-   "url": "https://theyrule.net/models/directors.glb",
-   "status": 200,
-   "type": "application/octet-stream",
-   "method": "GET"
-  },
-  {
    "url": "https://theyrule.net/models/tables.glb",
    "status": 200,
    "type": "application/octet-stream",
    "method": "GET"
   },
   {
-   "url": "blob:https://theyrule.net/b8062f20-12ad-4c04-92fd-9ae167221b23",
+   "url": "https://theyrule.net/models/directors.glb",
    "status": 200,
-   "type": "image/png",
-   "method": "GET"
-  },
-  {
-   "url": "blob:https://theyrule.net/dc1dc774-b57f-4d00-bd3c-9458a54c4bab",
-   "status": 200,
-   "type": "image/png",
-   "method": "GET"
-  },
-  {
-   "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llDB6g4.woff2",
-   "status": 200,
-   "type": "font/woff2",
+   "type": "application/octet-stream",
    "method": "GET"
   },
   {
@@ -74,12 +56,16 @@
    "method": "GET"
   },
   {
-   "url": "https://theyrule.net/static/media/play_button.4e9c8615948ff98d1db983e1336a04b1.svg",
+   "url": "blob:https://theyrule.net/58b3f8d0-6fbf-480d-b38f-3d47c55e4fc7",
    "status": 200,
-   "type": "image/svg+xml",
-   "method": "GET",
-   "bytes": 380,
-   "start": "<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"12.5\" cy=\"12.5\" r=\"12\" stroke=\"#B3B3B3\"/>\n<path d=\"M17.0881 12.2342C17.564 12.6338 17.564 13.3662 17.0881 13.7658L11.3931 18.5484C10.7425 19.0947 9.75 18.6322 9.75 17.7826L9.75 8.21742C9.75 7.36781 10.7425 6.90526 11.3931 7.45164L17.0881 12.2342Z\" fill=\"#B3B3B3\"/>\n</svg>\n"
+   "type": "image/png",
+   "method": "GET"
+  },
+  {
+   "url": "blob:https://theyrule.net/af3e5f4a-c993-4687-b012-f127115fcac9",
+   "status": 200,
+   "type": "image/png",
+   "method": "GET"
   },
   {
    "url": "https://www.gstatic.com/draco/versioned/decoders/1.4.3/draco_wasm_wrapper.js",
@@ -94,25 +80,33 @@
    "method": "GET"
   },
   {
-   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llDB6g4.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://theyrule.net/static/media/play_button.4e9c8615948ff98d1db983e1336a04b1.svg",
+   "status": 200,
+   "type": "image/svg+xml",
+   "method": "GET",
+   "bytes": 380,
+   "start": "<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"12.5\" cy=\"12.5\" r=\"12\" stroke=\"#B3B3B3\"/>\n<path d=\"M17.0881 12.2342C17.564 12.6338 17.564 13.3662 17.0881 13.7658L11.3931 18.5484C10.7425 19.0947 9.75 18.6322 9.75 17.7826L9.75 8.21742C9.75 7.36781 10.7425 6.90526 11.3931 7.45164L17.0881 12.2342Z\" fill=\"#B3B3B3\"/>\n</svg>\n"
+  },
+  {
+   "url": "blob:https://theyrule.net/124eac6b-67d4-4daf-8de2-6479acffdf67",
    "status": 200,
    "type": "",
    "method": "GET"
   },
   {
-   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "url": "blob:https://theyrule.net/124eac6b-67d4-4daf-8de2-6479acffdf67",
    "status": 200,
    "type": "",
    "method": "GET"
   },
   {
-   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
-   "status": 200,
-   "type": "",
-   "method": "GET"
-  },
-  {
-   "url": "blob:https://theyrule.net/08343e0c-c097-4e0f-832d-a0fc0f5f199c",
+   "url": "blob:https://theyrule.net/124eac6b-67d4-4daf-8de2-6479acffdf67",
    "status": 200,
    "type": "",
    "method": "GET"
@@ -126,12 +120,12 @@
    "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M46.3997 90.5501C46.4663 90.6834 46.5997 90.8501 46.7997 91.0501L48.9997 93.0001C49.4663 93.4001 49.8997 93.4834 50.2997 93.2501L50.7997 93.2001C51.2997 93.1668 51.5497 92.9001 51.5497 92.4001V92.0501L49.4997 92.3501L46.3497 89.6001V89.9501C46.3163 90.0834 46.333 90.2834 46.3997 90.5501Z\" fill=\"#959595\"/>\n<path d=\"M37.6498 57.5C37.6165 57.5667 37.5831 57.6167 37.5498 57.6501V57.7001C37.5498 57.7667 37.5998 57.7834 37.6998 57.75C38.0665 57.7167 38.3665 57.6667 38.5998 57.6C38.7998 57.5 38.9331 57.4 38.9998 57.3L37.6498 57.5Z\" fill=\"#D5D5D5\"/>\n<path d=\"M37.0496 57.2C36.8829 57.1 36.7329 56.9667 36.5996 56.8L36.9996 59.2L37.0996 59.6L38.0496 60.45C38.1496 60.55 38.2829 60.6 38.4496 60."
   },
   {
-   "url": "https://theyrule.net/static/media/TL.6b9ad4a268326a2d790679b3197d5fcc.svg",
+   "url": "https://theyrule.net/static/media/DFXL.2d4fe6ef790739faaa67567f7f85a177.svg",
    "status": 200,
    "type": "image/svg+xml",
    "method": "GET",
-   "bytes": 1455,
-   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"71.8518\" height=\"30.8689\" transform=\"matrix(0.866041 -0.499972 0.866041 0.499972 5 51.9238)\" fill=\"#908F90\"/>\n<rect width=\"30.8738\" height=\"2.87435\" transform=\"matrix(0.86601 0.500028 3.18907e-05 1 5 51.9294)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.866009 0.500028 3.18907e-05 1 33.8041 66.2166)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.86601 -0.500028 -3.18907e-05 1 35.0262 66.9353)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.866009 0.500028 3.18907e-05 1 89.2299 34.2166)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.86601 -0.500028 -3.18907e-05 1 9"
+   "bytes": 8087,
+   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M41.4498 56.2499L41.4998 55.8999L41.3498 55.9499L39.7998 56.0999L40.0498 56.2999C40.1831 56.3666 40.2998 56.3666 40.3998 56.2999L40.9498 56.1499L41.2498 56.0999L41.4498 56.2499Z\" fill=\"#D7D7D7\"/>\n<path d=\"M39.05 55.4501L39 55.4001L39.25 57.9001C39.25 58.0334 39.2833 58.1167 39.35 58.1501C39.45 58.2834 39.8 58.6001 40.4 59.1001C40.6667 59.2667 40.8667 59.3001 41 59.2001C41.1667 59.1001 41.25 58.9001 41.25 58.6001C41.2167 58.0001 41.25 57.6001 41.35 57.4001C41.4833 57.0667 41.5167 56.6834 41.45 56.2501L41.25 56.1001L40.95 56.1501L40.4 56.3001C40.3 56.3667 40.1833 56.3667 40.05 56.3001L39.8 56.1001L39.05 55.4501ZM63.3 66.5501L63.25 66.6001L59.05 67.5001C58.2167 67.6667 57.4333 67.8667 "
   },
   {
    "url": "https://theyrule.net/static/media/DML.893a13c07502cf9be2d616270fadbb73.svg",
@@ -142,12 +136,18 @@
    "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M47.4502 89.3999C47.5169 89.4999 47.5169 89.5999 47.4502 89.6999C47.4502 89.9999 47.4835 90.2166 47.5502 90.3499C47.6502 90.5499 47.8002 90.6999 48.0002 90.7999L50.4502 92.9999C50.5169 93.0666 50.6502 93.0999 50.8502 93.0999L52.3502 92.7999C52.4835 92.7999 52.5669 92.7666 52.6002 92.6999C52.6335 92.6666 52.6502 92.4499 52.6502 92.0499V91.7499L51.1002 92.0499H50.6002L47.4502 89.3999Z\" fill=\"#959595\"/>\n<path d=\"M40.8502 56.9001C40.9038 56.8642 40.9538 56.8309 41.0002 56.8L39.4502 57L39.6502 57.2001C40.0502 57.1667 40.3835 57.1 40.6502 57C40.7217 56.9642 40.7883 56.9309 40.8502 56.9001Z\" fill=\"#D5D5D5\"/>\n<path d=\"M41.0004 56.8C40.954 56.8309 40.904 56.8642 40.8504 56.9C40.7885 56.9309 "
   },
   {
-   "url": "https://theyrule.net/static/media/DFXL.2d4fe6ef790739faaa67567f7f85a177.svg",
+   "url": "https://theyrule.net/static/media/TL.6b9ad4a268326a2d790679b3197d5fcc.svg",
    "status": 200,
    "type": "image/svg+xml",
    "method": "GET",
-   "bytes": 8087,
-   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M41.4498 56.2499L41.4998 55.8999L41.3498 55.9499L39.7998 56.0999L40.0498 56.2999C40.1831 56.3666 40.2998 56.3666 40.3998 56.2999L40.9498 56.1499L41.2498 56.0999L41.4498 56.2499Z\" fill=\"#D7D7D7\"/>\n<path d=\"M39.05 55.4501L39 55.4001L39.25 57.9001C39.25 58.0334 39.2833 58.1167 39.35 58.1501C39.45 58.2834 39.8 58.6001 40.4 59.1001C40.6667 59.2667 40.8667 59.3001 41 59.2001C41.1667 59.1001 41.25 58.9001 41.25 58.6001C41.2167 58.0001 41.25 57.6001 41.35 57.4001C41.4833 57.0667 41.5167 56.6834 41.45 56.2501L41.25 56.1001L40.95 56.1501L40.4 56.3001C40.3 56.3667 40.1833 56.3667 40.05 56.3001L39.8 56.1001L39.05 55.4501ZM63.3 66.5501L63.25 66.6001L59.05 67.5001C58.2167 67.6667 57.4333 67.8667 "
+   "bytes": 1455,
+   "start": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"71.8518\" height=\"30.8689\" transform=\"matrix(0.866041 -0.499972 0.866041 0.499972 5 51.9238)\" fill=\"#908F90\"/>\n<rect width=\"30.8738\" height=\"2.87435\" transform=\"matrix(0.86601 0.500028 3.18907e-05 1 5 51.9294)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.866009 0.500028 3.18907e-05 1 33.8041 66.2166)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.86601 -0.500028 -3.18907e-05 1 35.0262 66.9353)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.866009 0.500028 3.18907e-05 1 89.2299 34.2166)\" fill=\"#908F90\"/>\n<rect width=\"1.43704\" height=\"17.963\" transform=\"matrix(0.86601 -0.500028 -3.18907e-05 1 9"
+  },
+  {
+   "url": "blob:https://theyrule.net/124eac6b-67d4-4daf-8de2-6479acffdf67",
+   "status": 200,
+   "type": "",
+   "method": "GET"
   }
  ],
  "links": [],
