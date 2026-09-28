@@ -43,8 +43,9 @@ SIZE = 256
 # cyan to neon green and pale mint where hundreds share a pixel (round 82b: the
 # owner's 80s neon greens and blues; was indigo to cyan).
 STEPS = [1, 3, 10, 30, 100, 300]
-RAMP = [(20, 90, 255, 190), (0, 150, 255, 205), (0, 210, 240, 220), (0, 255, 190, 232), (90, 255, 120, 242), (215, 255, 225, 250)]
-PALETTE = "neon-1"
+# Round 85b (asked 27 September): teal to blue, no green (was neon green at the top).
+RAMP = [(11, 46, 107, 190), (23, 71, 184, 205), (47, 107, 255, 220), (26, 159, 214, 232), (20, 168, 160, 242), (207, 239, 242, 250)]
+PALETTE = "teal-blue-1"
 
 
 def source_path():
