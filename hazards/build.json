@@ -1,0 +1,38 @@
+{
+ "gdacs.geojson": {
+  "from": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
+  "features": 76539,
+  "bytes": 29761264,
+  "read": "2026-09-28"
+ },
+ "ncei_tsunamis.geojson": {
+  "from": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/tsunamis/events",
+  "features": 2669,
+  "bytes": 1452853,
+  "read": "2026-09-28"
+ },
+ "ncei_earthquakes.geojson": {
+  "from": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes",
+  "features": 6634,
+  "bytes": 3674853,
+  "read": "2026-09-28"
+ },
+ "ncei_eruptions.geojson": {
+  "from": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes",
+  "features": 903,
+  "bytes": 545674,
+  "read": "2026-09-28"
+ },
+ "usgs_quakes": {
+  "from": "https://earthquake.usgs.gov/fdsnws/event/1/query (minmagnitude=5, 1900 on)",
+  "earthquakes": 107338,
+  "bytes": 42095169,
+  "read": "2026-09-28"
+ },
+ "ibtracs": {
+  "from": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/shapefile/IBTrACS.since1980.list.v04r01.lines.zip",
+  "bytes": 50215571,
+  "to_zoom": 8,
+  "read": "2026-09-28"
+ }
+}
