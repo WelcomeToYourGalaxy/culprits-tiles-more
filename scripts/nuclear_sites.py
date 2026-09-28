@@ -81,8 +81,7 @@ def main():
                 continue
             props["position"] = f"Wikidata's coordinates for {label} ({qid}); the Notebook gives none"
             props["wikidata"] = f"https://www.wikidata.org/wiki/{qid}"
-        # Round 80: MISSILEMAP (Alex Wellerstein) with this site as the launch point.
-        props["ranges from here (MISSILEMAP)"] = f"https://nuclearsecrecy.com/missilemap/?s={at[0]:.4f},{at[1]:.4f}&mc={at[0]:.4f},{at[1]:.4f}&z=4"
+        # Round 85b: no link to MISSILEMAP (another site), at the owner's word.
         props["group"] = {"stored": "weapons stored (estimated)", "uncertain": "weapons possibly shipped, status uncertain",
                           "likely": "most likely storage site"}[status]
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [at[1], at[0]]}, "properties": props})

@@ -153,6 +153,9 @@ def year(s):
 
 
 # --------------------------------------------------------------------- sites
+NOT_MILITARY = {"observation tower", "lookout tower", "belfry"}
+
+
 def sites():
     base = []
     for label in ("military base", "air base", "naval base", "military installation", "military airfield", "barracks",
@@ -169,9 +172,17 @@ def sites():
   OPTIONAL { ?x wdt:P571 ?opened } OPTIONAL { ?x wdt:P576 ?closed } OPTIONAL { ?x wdt:P3999 ?closedOfficially }"""
     got = instances(classes, extra, ["countryName", "countryIso", "operator", "operatorIso", "opened", "closed", "closedOfficially"])
     feats = []
+    left_out = 0
     for d in got.values():
         c = point(d["coord"])
         if not c:
+            continue
+        # Round 85b (asked 27 September): Wikidata files fire lookout towers,
+        # observation towers and belfries under fortifications; they are not
+        # military installations. A tower also filed as a military kind stays.
+        kinds = {k.lower() for k in d["kinds"]}
+        if any("fire lookout" in k for k in kinds) or (kinds and kinds <= NOT_MILITARY):
+            left_out += 1
             continue
         shut = d.get("closed") or d.get("closedOfficially")
         foreign = bool(d.get("operatorIso") and d.get("countryIso") and d["operatorIso"] != d["countryIso"])
@@ -180,6 +191,7 @@ def sites():
             "foreign": "run by another state" if foreign else None, "opened": year(d.get("opened")), "closed": year(shut),
             "group": ("closed" if shut else "in use or no closing recorded") + (", run by another state" if foreign else ""),
             "wikidata": d["wikidata"]}})
+    print(f"    {left_out:,} fire lookout towers, observation towers and belfries left out", flush=True)
     write_geojson(OUT / "sites.geojson", feats, {"source": "Wikidata (CC0)", "classes": classes})
 
 

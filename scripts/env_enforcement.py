@@ -220,7 +220,27 @@ PROBES = {
     "england_ea_enforcement": ["https://environment.data.gov.uk/public-register/downloads/enforcement-action"],
     "us_epa_echo_downloads": ["https://echo.epa.gov/tools/data-downloads"],
     "peru_oefa_sanctioned": ["https://www.datosabiertos.gob.pe/api/3/action/package_search?q=infractores%20ambientales%20sancionados"],
+    # Round 85b (asked 27 September: "is that all you could find?"): more
+    # countries' own registers, probed first like the others.
+    "us_epa_echo_cases": ["https://echo.epa.gov/files/echodownloads/case_downloads.zip"],
+    "chile_sma_sanctions": ["https://drive.google.com/embeddedfolderview?id=1q6MG4sfGxLisRuusnYKpUxmi9jgkSU4F",
+                            "https://drive.google.com/embeddedfolderview?id=1O7o60LzQ-qH8xiK_-Ofqw_mZzti_gbEr"],
+    "mexico_profepa": ["https://www.datos.gob.mx/api/3/action/package_search?q=profepa&rows=50",
+                       "https://datos.gob.mx/busca/api/3/action/package_search?q=profepa&rows=50"],
+    "colombia_sanctions": ["https://www.datos.gov.co/api/catalog/v1?q=sanciones%20ambientales&limit=50",
+                           "https://www.datos.gov.co/api/catalog/v1?q=infractores%20ambientales&limit=50"],
+    "ireland_epa": ["https://data.epa.ie/api/v1/"],
+    "scotland_sepa_enforcement": ["https://www.sepa.org.uk/regulations/enforcement/enforcement-action-register/"],
+    "australia_nsw_epa": ["https://apps.epa.nsw.gov.au/prpoeoapp/"],
+    "iuu_vessel_list": ["https://www.iuu-vessels.org/Home/Search"],
 }
+
+
+def head_bytes(url, n):
+    """The first n bytes of a file: a probe needs to see what it is, not all of it."""
+    req = urllib.request.Request(url, headers=dict(UA, Range=f"bytes=0-{n - 1}"))
+    with urllib.request.urlopen(req, timeout=180) as r:
+        return r.read(n)
 
 
 def probes(status):
@@ -229,8 +249,10 @@ def probes(status):
         got = []
         for u in urls:
             try:
-                raw = get(u, 180)
-                got.append({"url": u, "bytes": len(raw), "start": raw[:6000].decode("utf-8", "replace"),
+                raw = head_bytes(u, 2_000_000)
+                text = "" if raw[:2] == b"PK" else raw.decode("utf-8", "replace")
+                got.append({"url": u, "bytes": len(raw), "zip": raw[:2] == b"PK", "start": text[:6000],
+                            "drive_files": sorted(set(re.findall(r"/file/d/([A-Za-z0-9_-]{20,})", text)))[:200],
                             "links": sorted(set(re.findall(r'https?://[^"\'<> ]+\.(?:csv|zip|xlsx|json)', raw.decode("utf-8", "replace"))))[:200]})
             except Exception as e:  # noqa: BLE001
                 got.append({"url": u, "error": str(e)[:300]})
