@@ -1,0 +1,29 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_n2o_manure_applied_to_soils.pmtiles",
+   "from": 0,
+   "to": 8,
+   "bytes": 76641381
+  },
+  {
+   "file": "climate_trace_n2o_manure_applied_to_soils_2.pmtiles",
+   "from": 9,
+   "to": 10,
+   "bytes": 91482609
+  },
+  {
+   "file": "climate_trace_n2o_manure_applied_to_soils_3.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 55779597
+  },
+  {
+   "file": "climate_trace_n2o_manure_applied_to_soils_4.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 59788786
+  }
+ ],
+ "zoom": 12
+}

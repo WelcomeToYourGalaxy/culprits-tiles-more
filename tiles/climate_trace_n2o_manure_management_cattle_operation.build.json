@@ -1,0 +1,43 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_n2o_manure_management_cattle_operation.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 93662249
+  },
+  {
+   "file": "climate_trace_n2o_manure_management_cattle_operation_2.pmtiles",
+   "from": 10,
+   "to": 10,
+   "bytes": 75367925
+  },
+  {
+   "file": "climate_trace_n2o_manure_management_cattle_operation_3.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 91015714
+  },
+  {
+   "file": "climate_trace_n2o_manure_management_cattle_operation_4.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 59208727,
+   "columns": [
+    253,
+    2034
+   ]
+  },
+  {
+   "file": "climate_trace_n2o_manure_management_cattle_operation_5.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 59000162,
+   "columns": [
+    2035,
+    4058
+   ]
+  }
+ ],
+ "zoom": 12
+}

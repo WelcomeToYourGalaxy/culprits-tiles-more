@@ -9,6 +9,30 @@
     "sector": "agriculture",
     "bytes": 260002543,
     "files": 4
+   },
+   {
+    "id": "climate_trace_n2o_manure_applied_to_soils",
+    "subsector": "manure_applied_to_soils",
+    "label": "manure applied to soils",
+    "sector": "agriculture",
+    "bytes": 283692373,
+    "files": 4
+   },
+   {
+    "id": "climate_trace_n2o_manure_left_on_pasture_cattle",
+    "subsector": "manure_left_on_pasture_cattle",
+    "label": "manure left on pasture cattle",
+    "sector": "agriculture",
+    "bytes": 185917882,
+    "files": 3
+   },
+   {
+    "id": "climate_trace_n2o_manure_management_cattle_operation",
+    "subsector": "manure_management_cattle_operation",
+    "label": "manure management cattle operation",
+    "sector": "agriculture",
+    "bytes": 378254777,
+    "files": 5
    }
   ],
   "units": {
@@ -31,8 +55,42 @@
    "agriculture/enteric_fermentation_cattle_operation": {
     "built": 1790519958,
     "archives": []
+   },
+   "agriculture/enteric_fermentation_cattle_pasture": {
+    "built": 1790606678,
+    "archives": []
+   },
+   "agriculture/enteric_fermentation_cattle_pasture_raster": {
+    "checked": 1790606681
+   },
+   "agriculture/enteric_fermentation_other": {
+    "checked": 1790606685
+   },
+   "agriculture/manure_applied_to_soils": {
+    "built": 1790608025,
+    "archives": [
+     "climate_trace_n2o_manure_applied_to_soils"
+    ]
+   },
+   "agriculture/manure_applied_to_soils_raster": {
+    "checked": 1790608029
+   },
+   "agriculture/manure_left_on_pasture_cattle": {
+    "built": 1790609185,
+    "archives": [
+     "climate_trace_n2o_manure_left_on_pasture_cattle"
+    ]
+   },
+   "agriculture/manure_left_on_pasture_cattle_raster": {
+    "checked": 1790609189
+   },
+   "agriculture/manure_management_cattle_operation": {
+    "built": 1790614772,
+    "archives": [
+     "climate_trace_n2o_manure_management_cattle_operation"
+    ]
    }
   },
-  "built": 1790519958
+  "built": 1790614772
  }
 }
