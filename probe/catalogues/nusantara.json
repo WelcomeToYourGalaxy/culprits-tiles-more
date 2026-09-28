@@ -1,0 +1,1138 @@
+{
+ "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms": [
+  {
+   "name": "FCHS_2020_ECJRCV2",
+   "title": "FCHS_2020_ECJRCV2",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "Global_FC-FNF-HS_Latest_TTM",
+   "title": "Global_FC-FNF-HS_Latest_TTM",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "Global_LCHS_2024",
+   "title": "Global_LCHS_2024",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "IDNMYSBorneo_LCHSRiver",
+   "title": "IDNMYSBorneo_LCHSRiver",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "LC1970HS",
+   "title": "LC1970HS",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "REGBRNIDNMYS_FC-FNF-HS_Latest_TTM",
+   "title": "REGBRNIDNMYS_FC-FNF_Latest_TTM",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "REGBRNMYSIDN_FCHS_2020_ECJRC",
+   "title": "REGBRNMYSIDN_FCHS_2020_ECJRC",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "alertfire_combine",
+   "title": "alertfire_combine",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "protectedareaoutline",
+   "title": "protectedareaoutline",
+   "styles": [
+    ""
+   ]
+  },
+  {
+   "name": "AlertDFCOMBINERGB",
+   "title": "AlertDFCOMBINERGB",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "AlertGLADRGB",
+   "title": "AlertGLADRGB",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "AlertRADDRGB",
+   "title": "AlertRADDRGB",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "BALI_19650531",
+   "title": "BALI_19650531",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "BALI_19650531_Composite1",
+   "title": "BALI_19650531_Composite1",
+   "styles": [
+    "generic"
+   ]
+  },
+  {
+   "name": "ECJRCV2",
+   "title": "ECJRCV2",
+   "styles": [
+    "atlas-workspace-v3:RasterForestLandArea"
+   ]
+  },
+  {
+   "name": "Global_AllExpansionRGB_2000to2024",
+   "title": "Global_AllExpansionRGB_2000to2024",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "Global_AllExpansionRGB_2000to2025",
+   "title": "Global_AllExpansionRGB_2000to2025",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "Global_AllExpansion_2000to2025",
+   "title": "Global_AllExpansion_2000to2025",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "Global_FC-FNF_2024_TTM",
+   "title": "Global_FC-FNF_2024_TTM",
+   "styles": [
+    "atlas-workspace-v3:ForestCoverFNF"
+   ]
+  },
+  {
+   "name": "Global_FC-FNF_2025_TTM",
+   "title": "Global_FC-FNF_2025_TTM",
+   "styles": [
+    "atlas-workspace-v3:ForestCoverFNF"
+   ]
+  },
+  {
+   "name": "Global_FC_2025_TTM",
+   "title": "Global_FC_2025_TTM",
+   "styles": [
+    "atlas-workspace-v3:ForestCover"
+   ]
+  },
+  {
+   "name": "Global_PlantationAll_2024",
+   "title": "Global_PlantationAll_2024",
+   "styles": [
+    "atlas-workspace-v3:PlantationAll"
+   ]
+  },
+  {
+   "name": "Global_PlantationAll_2025",
+   "title": "Global_PlantationAll_2025",
+   "styles": [
+    "atlas-workspace-v3:PlantationAll"
+   ]
+  },
+  {
+   "name": "Global_PlantationIOP_2024",
+   "title": "Global_PlantationIOP_2024",
+   "styles": [
+    "atlas-workspace-v3:PlantationIOP"
+   ]
+  },
+  {
+   "name": "Global_PlantationIOP_2025",
+   "title": "Global_PlantationIOP_2025",
+   "styles": [
+    "atlas-workspace-v3:PlantationIOP"
+   ]
+  },
+  {
+   "name": "Global_PlantationITP_2024",
+   "title": "Global_PlantationITP_2024",
+   "styles": [
+    "atlas-workspace-v3:PlantationITP"
+   ]
+  },
+  {
+   "name": "Global_PlantationITP_2025",
+   "title": "Global_PlantationITP_2025",
+   "styles": [
+    "atlas-workspace-v3:PlantationITP"
+   ]
+  },
+  {
+   "name": "Global_PlantationSmallholder_2024",
+   "title": "Global_PlantationSmallholder_2024",
+   "styles": [
+    "atlas-workspace-v3:PlantationSmallholder"
+   ]
+  },
+  {
+   "name": "Global_PlantationSmallholder_2025",
+   "title": "Global_PlantationSmallholder_2025",
+   "styles": [
+    "atlas-workspace-v3:PlantationSmallholder"
+   ]
+  },
+  {
+   "name": "Global_WaterChange_1984to2021",
+   "title": "global",
+   "styles": [
+    "atlas-workspace-v3:RasterWaterBase"
+   ]
+  },
+  {
+   "name": "IDNMYSBorneo_LCIndustrial_1970",
+   "title": "IDNMYSBorneo_LCIndustrial_1970",
+   "styles": [
+    "atlas-workspace-v3:RasterIndustrial"
+   ]
+  },
+  {
+   "name": "IDNMYSBorneo_SRTMHS30WGS_2000",
+   "title": "IDNMYSBorneo_SRTMHS30WGS_2000",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "IDNMYSBorneo_Transmigration_2021_wms",
+   "title": "IDNMYSBorneo_Transmigration_2021",
+   "styles": [
+    "atlas-workspace-v3:RasterSingleColorRampWhite"
+   ]
+  },
+  {
+   "name": "IDNMYSBorneo_WaterChangeRGB_1984to2020_JRC",
+   "title": "REGBRNIDNMYS_WaterChange_1984to2021_JRC",
+   "styles": [
+    "atlas-workspace-v3:RasterWaterRGB"
+   ]
+  },
+  {
+   "name": "IDN_FC2020_KLHK",
+   "title": "IDN_FC2020_KLHK",
+   "styles": [
+    "atlas-workspace-v3:LandCoverKLHK"
+   ]
+  },
+  {
+   "name": "IDN_Mining_2023",
+   "title": "IDN_Mining_2023",
+   "styles": [
+    "raster",
+    "atlas-workspace-v3:RasterMining"
+   ]
+  },
+  {
+   "name": "LC1970",
+   "title": "LC1970",
+   "styles": [
+    "atlas-workspace-v3:RasterLandCover_New"
+   ]
+  },
+  {
+   "name": "REGBRNIDNMYS_Coconut_2020_Descal",
+   "title": "REGBRNIDNMYS_Coconut_2020_Descal",
+   "styles": [
+    "atlas-workspace-v3:RasterCoconut"
+   ]
+  },
+  {
+   "name": "REGBRNMYSIDN_FCLandArea_2020_ECJRC",
+   "title": "REGBRNMYSIDN_FCLandArea_2020_ECJRC",
+   "styles": [
+    "atlas-workspace-v3:RasterForestLandArea"
+   ]
+  },
+  {
+   "name": "REGBRNMYSIDN_FC_2020_ECJRC",
+   "title": "REGBRNMYSIDN_FC_2020_ECJRC",
+   "styles": [
+    "atlas-workspace-v3:RasterForest"
+   ]
+  },
+  {
+   "name": "REGIDNMYS_TreeHeight_2020_ETHZurich",
+   "title": "REGIDNMYS_TreeHeight_2020_ETHZurich",
+   "styles": [
+    "atlas-workspace-v3:RasterTreeHeight"
+   ]
+  },
+  {
+   "name": "RGBProbabilityDF",
+   "title": "RGBProbabilityDF",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "admincountry_spv",
+   "title": "admincountry_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "admindistrict_spv",
+   "title": "admindistrict_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "adminprovince_spv",
+   "title": "adminprovince_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "adminsubdistrict_spv",
+   "title": "adminsubdistrict_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "adminvillage_spv",
+   "title": "adminvillage_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "alertfire_modis",
+   "title": "alertfire_modis",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "alertfire_viirs",
+   "title": "alertfire_viirs",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "article_spv",
+   "title": "article_spv",
+   "styles": [
+    "atlas-workspace-v3:PointArticle",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "base_ikn",
+   "title": "base_ikn",
+   "styles": [
+    "atlas-workspace-v3:PolyAdminIKN"
+   ]
+  },
+  {
+   "name": "base_peatland",
+   "title": "base_peatland",
+   "styles": [
+    "atlas-workspace-v3:PolyFillPurple_transparentOutlinePurple_solid"
+   ]
+  },
+  {
+   "name": "base_populatedplace",
+   "title": "base_populatedplace",
+   "styles": [
+    "atlas-workspace-v3:PointBasePopulatedPlace"
+   ]
+  },
+  {
+   "name": "base_road",
+   "title": "base_road",
+   "styles": [
+    "atlas-workspace-v3:LineRoadBase"
+   ]
+  },
+  {
+   "name": "base_roadRGB",
+   "title": "base_roadRGB",
+   "styles": [
+    "atlas-workspace-v3:LineRoadRGB2021"
+   ]
+  },
+  {
+   "name": "base_road_edited",
+   "title": "base_road",
+   "styles": [
+    "atlas-workspace-v3:LineRoadBaseEdited"
+   ]
+  },
+  {
+   "name": "base_roadtrans",
+   "title": "base_roadtrans",
+   "styles": [
+    "atlas-workspace-v3:LineRoadTrans"
+   ]
+  },
+  {
+   "name": "base_sagoindicative",
+   "title": "base_sagoindicative",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlueDark_transparentOutlineBlueDark_solid"
+   ]
+  },
+  {
+   "name": "benthic_allencorral_global",
+   "title": "benthic_allencorral_global",
+   "styles": [
+    "atlas-workspace-v3:BenthicAllenCoralStyle"
+   ]
+  },
+  {
+   "name": "burned_area_annual",
+   "title": "burned_area_annual",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burned_area_biennial",
+   "title": "burned_area_biennial",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burned_area_biennial_del",
+   "title": "burned_area_biennial",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burned_area_biennial_test",
+   "title": "burned_area_biennial_test",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burned_area_monthly",
+   "title": "burned_area_monthly",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burned_area_rgb_crop",
+   "title": "burned_area_rgb_crop",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burnedarea_rgb",
+   "title": "burnedarea_rgb",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "burnedareanrt",
+   "title": "burnedareanrt",
+   "styles": [
+    "atlas-workspace-v3:burnedareanrt"
+   ]
+  },
+  {
+   "name": "concessioncma_spv",
+   "title": "concessioncma_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillOrange_transparentOutlineBlue_Solid"
+   ]
+  },
+  {
+   "name": "concessionfca_spv",
+   "title": "concessionfca_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlue_Solid"
+   ]
+  },
+  {
+   "name": "concessionhgu_spv",
+   "title": "concessionhgu_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "concessioniop_finance_credit",
+   "title": "concessioniop_finance_credit",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "concessioniop_finance_invest",
+   "title": "concessioniop_finance_invest",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "concessioniop_spv",
+   "title": "concessioniop_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "concessionitp_spv",
+   "title": "concessionitp_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_dash"
+   ]
+  },
+  {
+   "name": "concessionlogging_spv",
+   "title": "concessionlogging_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_dashlong",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid"
+   ]
+  },
+  {
+   "name": "concessionmining_spv",
+   "title": "concessionmining_spv",
+   "styles": [
+    "atlas-workspace-v2:PolyFillBlack_transparentOutlineRed_solid"
+   ]
+  },
+  {
+   "name": "concessionother_finance_credit",
+   "title": "concessionother_finance_credit",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "concessionother_finance_invest",
+   "title": "concessionother_finance_invest",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "concessionother_spv",
+   "title": "concessionother_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+   ]
+  },
+  {
+   "name": "concessionpbph_spv",
+   "title": "concessionpbph_spv",
+   "styles": [
+    "atlas-workspace-v3:PBPHConcession-style"
+   ]
+  },
+  {
+   "name": "concessionpsnmerauke_spv",
+   "title": "concessionpsnmerauke_spv",
+   "styles": [
+    "atlas-workspace-v3:PSNMeraukeStyle"
+   ]
+  },
+  {
+   "name": "concessiontimber_spv",
+   "title": "concessiontimber_spv",
+   "styles": [
+    "atlas-workspace-v3:TimberConcession-Style",
+    "atlas-workspace-v2:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "geotag",
+   "title": "geotag",
+   "styles": [
+    "atlas-workspace-v3:PointGeotag"
+   ]
+  },
+  {
+   "name": "hillshade",
+   "title": "hillshade",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "hires",
+   "title": "hires",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "merauke_concessionother_sugarcane",
+   "title": "merauke_concessionother_sugarcane",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineWhite"
+   ]
+  },
+  {
+   "name": "merauke_road_plan",
+   "title": "merauke_road_plan",
+   "styles": [
+    "atlas-workspace-v3:PolygonTransparentOutlineWhite"
+   ]
+  },
+  {
+   "name": "millop_finance_credit",
+   "title": "millop_finance_credit",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "millop_finance_invest",
+   "title": "millop_finance_invest",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "millop_spv",
+   "title": "millop_spv",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed",
+    "atlas-workspace-v3:PointFillRed_OutlineCyan"
+   ]
+  },
+  {
+   "name": "millopbuffer10km_spv",
+   "title": "millopbuffer10km_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "millopbuffer1hr_spv",
+   "title": "millopbuffer1hr_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+   ]
+  },
+  {
+   "name": "millopbuffer2hr_spv",
+   "title": "millopbuffer2hr_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+   ]
+  },
+  {
+   "name": "millopbuffer_spv",
+   "title": "millopbuffer_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "millopbufferol50km_spv",
+   "title": "millopbufferol50km_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+   ]
+  },
+  {
+   "name": "millopbufferol_spv",
+   "title": "millopbufferol_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+   ]
+  },
+  {
+   "name": "millopbufferpolyloreal_spv",
+   "title": "millopbufferpolyloreal_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "milloprefineries_sp",
+   "title": "milloprefineries_sp",
+   "styles": [
+    "atlas-workspace-v3:PointRefineries"
+   ]
+  },
+  {
+   "name": "papua_concessioniop_edited",
+   "title": "papua_concessioniop_edited",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_thin_solid"
+   ]
+  },
+  {
+   "name": "papua_expansion_2025",
+   "title": "papua_expansion_2025",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineLightBlue2_solid"
+   ]
+  },
+  {
+   "name": "papua_location12_sentinel2_true",
+   "title": "papua_location12_sentinel2_true",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "papua_location13_sentinel2_true",
+   "title": "papua_location13_sentinel2_true",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "papua_location1_sentinel2_true",
+   "title": "papua_location1_sentinel2_true",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "papua_location2_sentinel2_true",
+   "title": "papua_location2_sentinel2_true",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "papua_location6_sentinel2_true",
+   "title": "papua_location6_sentinel2_true",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "plantation_established_merauke",
+   "title": "plantation_established_merauke",
+   "styles": [
+    "atlas-workspace-v3:PolyFillNeonOrange_WhiteOutline"
+   ]
+  },
+  {
+   "name": "protectedarea_spv",
+   "title": "protectedarea_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineGreen_solid"
+   ]
+  },
+  {
+   "name": "protectedarea_spv_withlabel",
+   "title": "protectedarea_spv_withlabel",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlck_OutlineGreen_WithLabel"
+   ]
+  },
+  {
+   "name": "protectedareadissolve_sp",
+   "title": "protectedareadissolve_sp",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineGreen_solid"
+   ]
+  },
+  {
+   "name": "protectedareareaconservationlandscape_spv",
+   "title": "protectedareareaconservationlandscape_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineGreen_solid"
+   ]
+  },
+  {
+   "name": "protectedareareaecosystemrestoration_spv",
+   "title": "protectedareareaecosystemrestoration_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineGreen_solid"
+   ]
+  },
+  {
+   "name": "protectedareareaforestreserve_spv",
+   "title": "protectedareareaforestreserve_spv",
+   "styles": [
+    "atlas-workspace-v3:ForestReserve-Style"
+   ]
+  },
+  {
+   "name": "protectedareareahydrologicalreserve_spv",
+   "title": "protectedareareahydrologicalreserve_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineGreen_solid"
+   ]
+  },
+  {
+   "name": "rawasingkil_10_canal",
+   "title": "Kanal_CA_RawaSingkil_10TopList",
+   "styles": [
+    "atlas-workspace-v3:Canal_line_yellow"
+   ]
+  },
+  {
+   "name": "rawasingkil_canal",
+   "title": "Kanal_CA_RawaSingkil_v24042025",
+   "styles": [
+    "atlas-workspace-v3:Canal_line"
+   ]
+  },
+  {
+   "name": "rawasingkil_illegal_oilpalm",
+   "title": "rawasingkil_illegal_oilpalm",
+   "styles": [
+    "atlas-workspace-v3:PolyFillTransparentOutlineLightBlue_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineOrange_solid"
+   ]
+  },
+  {
+   "name": "rdtr_badung_2023",
+   "title": "rdtr_badung_2023",
+   "styles": [
+    "atlas-workspace-v3:RDTR_WhiteOutlined_WithLabel"
+   ]
+  },
+  {
+   "name": "roadsegmentbuffer_spv",
+   "title": "roadsegmentbuffer_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "rtrw_badung_2024",
+   "title": "rtrw_badung_2024",
+   "styles": [
+    "polygon"
+   ]
+  },
+  {
+   "name": "rtrw_badung_2025",
+   "title": "rtrw_badung_2025",
+   "styles": [
+    "polygon"
+   ]
+  },
+  {
+   "name": "rtrw_tabanan_2023",
+   "title": "rtrw_tabanan_2023",
+   "styles": [
+    "polygon"
+   ]
+  },
+  {
+   "name": "rubber_kalimantan_2020",
+   "title": "rubber_kalimantan_2020",
+   "styles": [
+    "atlas-workspace-v3:RubberMapStyle"
+   ]
+  },
+  {
+   "name": "socialforestryhadat_spv",
+   "title": "socialforestryhadat_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+   ]
+  },
+  {
+   "name": "socialforestryhd_spv",
+   "title": "socialforestryhd_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+   ]
+  },
+  {
+   "name": "socialforestryhk_spv",
+   "title": "socialforestryhk_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+   ]
+  },
+  {
+   "name": "socialforestryht_spv",
+   "title": "socialforestryht_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+   ]
+  },
+  {
+   "name": "socialforestrywiladat_spv",
+   "title": "socialforestrywiladat_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+   ]
+  },
+  {
+   "name": "spatialplanforestland_spv",
+   "title": "spatialplanforestland_spv",
+   "styles": [
+    "atlas-workspace-v3:PolySpatialPlanForestLand",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "spatialplanmoratorium_spv",
+   "title": "spatialplanmoratorium_spv",
+   "styles": [
+    "atlas-workspace-v3:PolySpatialPlanMoratorium",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "spatialplanrtrwn_spv",
+   "title": "spatialplanrtrwn_spv",
+   "styles": [
+    "atlas-workspace-v3:PolySpatialPlanRTRWN",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "spatialplanrtrwp_papua_spv",
+   "title": "spatialplanrtrwp_papua_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "spatialplanrtrwp_papuawest_spv",
+   "title": "spatialplanrtrwp_papuawest_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+    "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+   ]
+  },
+  {
+   "name": "v3p2_AlertDFCOMBINERGB",
+   "title": "v3p2_AlertDFCOMBINERGB",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "v3p2_GLADRGB",
+   "title": "v3p2_GLADRGB",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "v3p2_RADDRGB",
+   "title": "v3p2_RADDRGB",
+   "styles": [
+    "raster"
+   ]
+  },
+  {
+   "name": "v3p2_alertfire_combine",
+   "title": "v3p2_alertfire_combine",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "v3p2_alertfire_modis",
+   "title": "v3p2_alertfire_modis",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "v3p2_alertfire_viirs",
+   "title": "v3p2_alertfire_viirs",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "v3p2_protectedarea_spv",
+   "title": "protectedarea_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineGreen_solid"
+   ]
+  },
+  {
+   "name": "v3p3_admincountry_spv",
+   "title": "admincountry_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "v3p3_admindistrict_spv",
+   "title": "admindistrict_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "v3p3_adminprovince_spv",
+   "title": "adminprovince_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "v3p3_adminsubdistrict_spv",
+   "title": "adminsubdistrict_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "v3p3_adminvillage_spv",
+   "title": "adminvillage_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "v3p3_alertfire_combine",
+   "title": "v3p3_alertfire_combine",
+   "styles": [
+    "atlas-workspace-v3:PointFill_SatelliteBased_meter"
+   ]
+  },
+  {
+   "name": "v3p3_alertfire_modis",
+   "title": "v3p3_alertfire_modis",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "v3p3_alertfire_viirs",
+   "title": "v3p3_alertfire_viirs",
+   "styles": [
+    "atlas-workspace-v3:PointFillRed_squarescaled"
+   ]
+  },
+  {
+   "name": "v3p3_concessioniop_spv",
+   "title": "concessioniop_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+   ]
+  },
+  {
+   "name": "v3p3_concessionother_spv",
+   "title": "concessionother_spv",
+   "styles": [
+    "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+   ]
+  },
+  {
+   "name": "v3p3_roadsegmentbuffer_spv",
+   "title": "roadsegmentbuffer_spv",
+   "styles": [
+    "polygon"
+   ]
+  },
+  {
+   "name": "v3p3_spatialplanforestland_spv",
+   "title": "spatialplanforestland_spv",
+   "styles": [
+    "polygon"
+   ]
+  },
+  {
+   "name": "v3p3_spatialplanmoratorium_spv",
+   "title": "spatialplanmoratorium_spv",
+   "styles": [
+    "polygon"
+   ]
+  },
+  {
+   "name": "varticle",
+   "title": "varticle",
+   "styles": [
+    "atlas-workspace-v3:PointArticle"
+   ]
+  }
+ ],
+ "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v2/wms": [
+  {
+   "name": "IDNMYSBorneo_Settlement_2017_GHS",
+   "title": "IDNMYSBorneo_Settlement_2017_GHS",
+   "styles": [
+    "atlas-workspace-v2:RasterSettlement"
+   ]
+  },
+  {
+   "name": "IDNMYSBorneo_Transmigration_2021",
+   "title": "IDNMYSBorneo_Transmigration_2021",
+   "styles": [
+    "atlas-workspace-v3:RasterSingleColorRamp"
+   ]
+  },
+  {
+   "name": "IDN_BurnedArea_2019_TheTreeMap",
+   "title": "IDN_BurnedArea_2019_TheTreeMap",
+   "styles": [
+    "atlas-workspace-v2:RasterBurnedArea"
+   ]
+  },
+  {
+   "name": "IDN_BurnedArea_2020_TheTreeMap",
+   "title": "IDN_BurnedArea_2020_TheTreeMap",
+   "styles": [
+    "atlas-workspace-v2:RasterBurnedArea"
+   ]
+  },
+  {
+   "name": "IDN_BurnedArea_2021_TheTreeMap",
+   "title": "IDN_BurnedArea_2021_TheTreeMap",
+   "styles": [
+    "atlas-workspace-v2:RasterBurnedArea"
+   ]
+  }
+ ]
+}
