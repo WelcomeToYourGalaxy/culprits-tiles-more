@@ -1,13 +1,13 @@
 {
  "read": "2026-09-28",
- "features": 215,
+ "features": 216,
  "by_company": {
   "The Coca-Cola Company": {
    "Wikidata": 27,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Nestlé": {
-   "Wikidata": 34,
+   "Wikidata": 35,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Unilever": {
