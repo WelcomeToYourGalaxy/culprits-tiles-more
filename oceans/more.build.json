@@ -1,0 +1,24 @@
+{
+ "heat": {
+  "error": "URLError: <urlopen error [Errno 110] Connection timed out>"
+ },
+ "acid": {
+  "error": "RuntimeError: no NetCDF file listed in the accession's folders"
+ },
+ "impacts": {
+  "from": "https://cn.dataone.org/cn/v2/resolve/urn:uuid:4b023df7-abaf-4d47-8f31-39c5c96db811",
+  "edges": [
+   1.4862783359603782e-07,
+   0.415161681175232,
+   0.6657415628433228,
+   0.8158398270606995,
+   0.9350088238716125,
+   1.055202841758728,
+   1.1914188861846924,
+   1.3260494470596313,
+   1.5489338159561168,
+   1.8919826745986938,
+   10.651144981384277
+  ]
+ }
+}
