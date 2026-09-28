@@ -1,0 +1,18 @@
+{
+ "choices": [
+  {
+   "label": "land and sea",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_critical_habitat.pmtiles",
+   "key": [
+    [
+     "#1E6FA8",
+     "class 1 in the file (no name given)"
+    ],
+    [
+     "#0E2F66",
+     "class 10 in the file (no name given)"
+    ]
+   ]
+  }
+ ]
+}
