@@ -32,6 +32,7 @@ import csv, datetime, html, io, json, math, os, pathlib, re, sys, time, urllib.p
 OUT = pathlib.Path("fur")
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
 FUR = re.compile(r"\b(minks?|fox(es)?|chinchillas?|rabbits?|raccoon[ -]?dogs?|sables?|fur|pelts?|nutria|coypu|polecats?|ferrets?)\b", re.I)
+SKINS = []          # round 95b: crocodile, alligator and ostrich farms, their own layer
 NOT_FUR = re.compile(r"\b(crocodiles?|alligators?|ostrich(es)?|caimans?)\b", re.I)
 
 
@@ -81,6 +82,10 @@ def farm_transparency(status):
         words = f"{name} {species}"
         if NOT_FUR.search(species) and not FUR.search(species):
             skins += 1
+            if m:
+                SKINS.append({"lon": float(m.group(2)), "lat": float(m.group(1)), "name": name, "species": species,
+                              "status": st.group(1).strip() if st else "", "address": addr.group(1).strip() if addr else "",
+                              "source": "Farm Transparency Project", "link": f"https://www.farmtransparency.org/map?location={fid}"})
             continue
         if not FUR.search(words) and species:
             skins += 1
@@ -121,6 +126,33 @@ def osm(status):
                     "address": ", ".join(tg[k] for k in ("addr:street", "addr:city", "addr:country") if tg.get(k)), "source": "OpenStreetMap",
                     "link": f"https://www.openstreetmap.org/{e['type']}/{e['id']}"})
     status["OpenStreetMap"] = f"{len(out)} places"
+    return out
+
+
+SKIN_OVERPASS = """[out:json][timeout:900];
+(
+  nwr["animal_keeping"~"crocodile|alligator|caiman|ostrich|emu",i];
+  nwr["animal"~"crocodile|alligator|caiman|ostrich|emu",i];
+  nwr["name"~"crocodile farm|croc farm|alligator farm|gator farm|caiman farm|ostrich farm|emu farm|straussenfarm|strau(ss|ß)enfarm|ferme aux autruches|autrucherie|granja de avestruces|struisvogelboerderij|krokodilfarm|ferme aux crocodiles|crocodile ranch|alligator ranch",i];
+);
+out center tags;"""
+
+
+def osm_skins(status):
+    j = json.loads(get("https://overpass-api.de/api/interpreter", timeout=1000, data=urllib.parse.urlencode({"data": SKIN_OVERPASS}).encode()))
+    out = []
+    for e in j.get("elements", []):
+        c = e.get("center") or e
+        if "lat" not in c:
+            continue
+        tg = e.get("tags", {})
+        # A zoo or a show park named for crocodiles is not a farm.
+        if tg.get("tourism") in ("zoo", "theme_park", "aquarium") or tg.get("zoo"):
+            continue
+        out.append({"lon": c["lon"], "lat": c["lat"], "name": tg.get("name", ""), "species": tg.get("animal_keeping") or tg.get("animal") or "",
+                    "address": ", ".join(tg[k] for k in ("addr:street", "addr:city", "addr:country") if tg.get(k)), "source": "OpenStreetMap",
+                    "link": f"https://www.openstreetmap.org/{e['type']}/{e['id']}"})
+    status["OpenStreetMap (skin farms)"] = f"{len(out)} places"
     return out
 
 
@@ -193,6 +225,27 @@ def main():
         countries(status)
     except Exception as e:  # noqa: BLE001
         status["Our World in Data (Fur Free Alliance)"] = f"did not answer ({e})"
+    feats = merge(farms)
+    if not feats:
+        sys.exit("fur_farms: no farm from any source; nothing written")
+    (OUT / "farms.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
+    skin = list(SKINS)
+    try:
+        skin += osm_skins(status)
+    except Exception as e:  # noqa: BLE001
+        status["OpenStreetMap (skin farms)"] = f"did not answer ({type(e).__name__}: {e})"
+    skin_feats = merge(skin)
+    for f in skin_feats:
+        sp = f["properties"]["species"].lower()
+        f["properties"]["group"] = ("Crocodiles and alligators" if re.search(r"croc|allig|caiman", sp + " " + f["properties"]["name"].lower())
+                                    else "Ostriches and emus" if re.search(r"ostrich|emu|strau|autruch|avestruz|struis", sp + " " + f["properties"]["name"].lower())
+                                    else "Not stated")
+    (OUT / "skin_farms.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": skin_feats}, ensure_ascii=False))
+    stamp.write_text(json.dumps({"read": datetime.date.today().isoformat(), "farms": len(feats), "skin_farms": len(skin_feats), "by_source": status}, indent=1, ensure_ascii=False))
+    print(f"fur_farms: {len(feats)} fur farms, {len(skin_feats)} skin farms")
+
+
+def merge(farms):
     merged = []
     grid = {}
     for f in farms:
@@ -214,15 +267,10 @@ def main():
         g = dict(f, sources=[f["source"]], links=[f.get("link", "")])
         merged.append(g)
         grid.setdefault(cell, []).append(g)
-    feats = [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(g["lon"], 6), round(g["lat"], 6)]},
-              "properties": {"name": g.get("name") or "Fur farm", "group": g["sources"][0], "sources": ", ".join(g["sources"]),
-                             "species": g.get("species", ""), "status": g.get("status", ""), "address": g.get("address", ""),
-                             "about": g.get("about", ""), "links": " ".join(l for l in g["links"] if l)}} for g in merged]
-    if not feats:
-        sys.exit("fur_farms: no farm from any source; nothing written")
-    (OUT / "farms.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
-    stamp.write_text(json.dumps({"read": datetime.date.today().isoformat(), "farms": len(feats), "by_source": status}, indent=1, ensure_ascii=False))
-    print(f"fur_farms: {len(feats)} farms from {len(farms)} records")
+    return [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(g["lon"], 6), round(g["lat"], 6)]},
+             "properties": {"name": g.get("name") or "Farm", "group": g["sources"][0], "sources": ", ".join(g["sources"]),
+                            "species": g.get("species", ""), "status": g.get("status", ""), "address": g.get("address", ""),
+                            "about": g.get("about", ""), "links": " ".join(l for l in g["links"] if l)}} for g in merged]
 
 
 if __name__ == "__main__":
