@@ -1,0 +1,13 @@
+{
+ "read": "2026-09-28",
+ "farms": 549,
+ "skin_farms": 38,
+ "by_source": {
+  "Final Nail": "270 farms",
+  "Farm Transparency Project": "849 facilities listed; 335 fur farms placed; 514 skin farms of other animals left out; 0 with no position",
+  "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)",
+  "antyfutro (Poland)": "did not answer (HTTPError: HTTP Error 500: Internal Server Error)",
+  "Our World in Data (Fur Free Alliance)": "245 countries; column Fur farming status",
+  "OpenStreetMap (skin farms)": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+ }
+}

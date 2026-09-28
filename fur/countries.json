@@ -1,0 +1,1227 @@
+{
+ "AFG": {
+  "name": "Afghanistan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ALA": {
+  "name": "Aland Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ALB": {
+  "name": "Albania",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "DZA": {
+  "name": "Algeria",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ASM": {
+  "name": "American Samoa",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "AND": {
+  "name": "Andorra",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "AGO": {
+  "name": "Angola",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "AIA": {
+  "name": "Anguilla",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ATG": {
+  "name": "Antigua and Barbuda",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ARM": {
+  "name": "Armenia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ABW": {
+  "name": "Aruba",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "AUS": {
+  "name": "Australia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "AUT": {
+  "name": "Austria",
+  "status": "Banned",
+  "year": 2026
+ },
+ "AZE": {
+  "name": "Azerbaijan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BHS": {
+  "name": "Bahamas",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BHR": {
+  "name": "Bahrain",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BGD": {
+  "name": "Bangladesh",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BRB": {
+  "name": "Barbados",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BLR": {
+  "name": "Belarus",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "BEL": {
+  "name": "Belgium",
+  "status": "Banned",
+  "year": 2026
+ },
+ "BLZ": {
+  "name": "Belize",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BEN": {
+  "name": "Benin",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BMU": {
+  "name": "Bermuda",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BTN": {
+  "name": "Bhutan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BOL": {
+  "name": "Bolivia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BES": {
+  "name": "Bonaire Sint Eustatius and Saba",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BIH": {
+  "name": "Bosnia and Herzegovina",
+  "status": "Banned but not yet in effect",
+  "year": 2026
+ },
+ "BWA": {
+  "name": "Botswana",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BVT": {
+  "name": "Bouvet Island",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "IOT": {
+  "name": "British Indian Ocean Territory",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "VGB": {
+  "name": "British Virgin Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BRN": {
+  "name": "Brunei",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BGR": {
+  "name": "Bulgaria",
+  "status": "Banned",
+  "year": 2026
+ },
+ "BFA": {
+  "name": "Burkina Faso",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BDI": {
+  "name": "Burundi",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KHM": {
+  "name": "Cambodia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CMR": {
+  "name": "Cameroon",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CAN": {
+  "name": "Canada",
+  "status": "Partially banned",
+  "year": 2026
+ },
+ "CPV": {
+  "name": "Cape Verde",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CYM": {
+  "name": "Cayman Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CAF": {
+  "name": "Central African Republic",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TCD": {
+  "name": "Chad",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CHL": {
+  "name": "Chile",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CHN": {
+  "name": "China",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "CXR": {
+  "name": "Christmas Island",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CCK": {
+  "name": "Cocos Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "COL": {
+  "name": "Colombia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "COM": {
+  "name": "Comoros",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "COG": {
+  "name": "Congo",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "COK": {
+  "name": "Cook Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CRI": {
+  "name": "Costa Rica",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CIV": {
+  "name": "Cote d'Ivoire",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "HRV": {
+  "name": "Croatia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "CUB": {
+  "name": "Cuba",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CUW": {
+  "name": "Curacao",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CYP": {
+  "name": "Cyprus",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "CZE": {
+  "name": "Czechia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "COD": {
+  "name": "Democratic Republic of Congo",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "DNK": {
+  "name": "Denmark",
+  "status": "Partially banned",
+  "year": 2026
+ },
+ "DJI": {
+  "name": "Djibouti",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "DMA": {
+  "name": "Dominica",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "DOM": {
+  "name": "Dominican Republic",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TLS": {
+  "name": "East Timor",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ECU": {
+  "name": "Ecuador",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "EGY": {
+  "name": "Egypt",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SLV": {
+  "name": "El Salvador",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GNQ": {
+  "name": "Equatorial Guinea",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ERI": {
+  "name": "Eritrea",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "EST": {
+  "name": "Estonia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "SWZ": {
+  "name": "Eswatini",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ETH": {
+  "name": "Ethiopia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "FLK": {
+  "name": "Falkland Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "FRO": {
+  "name": "Faroe Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "FJI": {
+  "name": "Fiji",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "FIN": {
+  "name": "Finland",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "FRA": {
+  "name": "France",
+  "status": "Banned",
+  "year": 2026
+ },
+ "GUF": {
+  "name": "French Guiana",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PYF": {
+  "name": "French Polynesia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ATF": {
+  "name": "French Southern Territories",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GAB": {
+  "name": "Gabon",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GMB": {
+  "name": "Gambia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GEO": {
+  "name": "Georgia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "DEU": {
+  "name": "Germany",
+  "status": "Phased out due to stricter regulations",
+  "year": 2026
+ },
+ "GHA": {
+  "name": "Ghana",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GIB": {
+  "name": "Gibraltar",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GRC": {
+  "name": "Greece",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "GRL": {
+  "name": "Greenland",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GRD": {
+  "name": "Grenada",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GLP": {
+  "name": "Guadeloupe",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GUM": {
+  "name": "Guam",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GTM": {
+  "name": "Guatemala",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GGY": {
+  "name": "Guernsey",
+  "status": "Banned",
+  "year": 2026
+ },
+ "GIN": {
+  "name": "Guinea",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GNB": {
+  "name": "Guinea-Bissau",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GUY": {
+  "name": "Guyana",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "HTI": {
+  "name": "Haiti",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "HMD": {
+  "name": "Heard Island and McDonald Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "HND": {
+  "name": "Honduras",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "HKG": {
+  "name": "Hong Kong",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "HUN": {
+  "name": "Hungary",
+  "status": "Partially banned",
+  "year": 2026
+ },
+ "ISL": {
+  "name": "Iceland",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "IND": {
+  "name": "India",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "IDN": {
+  "name": "Indonesia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "IRN": {
+  "name": "Iran",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "IRQ": {
+  "name": "Iraq",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "IRL": {
+  "name": "Ireland",
+  "status": "Banned",
+  "year": 2026
+ },
+ "IMN": {
+  "name": "Isle of Man",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ISR": {
+  "name": "Israel",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ITA": {
+  "name": "Italy",
+  "status": "Banned",
+  "year": 2026
+ },
+ "JAM": {
+  "name": "Jamaica",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "JPN": {
+  "name": "Japan",
+  "status": "Partially banned",
+  "year": 2026
+ },
+ "JEY": {
+  "name": "Jersey",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "JOR": {
+  "name": "Jordan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KAZ": {
+  "name": "Kazakhstan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KEN": {
+  "name": "Kenya",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KIR": {
+  "name": "Kiribati",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KWT": {
+  "name": "Kuwait",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KGZ": {
+  "name": "Kyrgyzstan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LAO": {
+  "name": "Laos",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LVA": {
+  "name": "Latvia",
+  "status": "Banned but not yet in effect",
+  "year": 2026
+ },
+ "LBN": {
+  "name": "Lebanon",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LSO": {
+  "name": "Lesotho",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LBR": {
+  "name": "Liberia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LBY": {
+  "name": "Libya",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LIE": {
+  "name": "Liechtenstein",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LTU": {
+  "name": "Lithuania",
+  "status": "Banned but not yet in effect",
+  "year": 2026
+ },
+ "LUX": {
+  "name": "Luxembourg",
+  "status": "Banned",
+  "year": 2026
+ },
+ "MAC": {
+  "name": "Macao",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MDG": {
+  "name": "Madagascar",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MWI": {
+  "name": "Malawi",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MYS": {
+  "name": "Malaysia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MDV": {
+  "name": "Maldives",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MLI": {
+  "name": "Mali",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MLT": {
+  "name": "Malta",
+  "status": "Banned",
+  "year": 2026
+ },
+ "MHL": {
+  "name": "Marshall Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MTQ": {
+  "name": "Martinique",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MRT": {
+  "name": "Mauritania",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MUS": {
+  "name": "Mauritius",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MYT": {
+  "name": "Mayotte",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MEX": {
+  "name": "Mexico",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "FSM": {
+  "name": "Micronesia (country)",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MDA": {
+  "name": "Moldova",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MCO": {
+  "name": "Monaco",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MNG": {
+  "name": "Mongolia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MNE": {
+  "name": "Montenegro",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MSR": {
+  "name": "Montserrat",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MAR": {
+  "name": "Morocco",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MOZ": {
+  "name": "Mozambique",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MMR": {
+  "name": "Myanmar",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NAM": {
+  "name": "Namibia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NRU": {
+  "name": "Nauru",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NPL": {
+  "name": "Nepal",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NLD": {
+  "name": "Netherlands",
+  "status": "Banned",
+  "year": 2026
+ },
+ "ANT": {
+  "name": "Netherlands Antilles",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NCL": {
+  "name": "New Caledonia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NZL": {
+  "name": "New Zealand",
+  "status": "Partially banned",
+  "year": 2026
+ },
+ "NIC": {
+  "name": "Nicaragua",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NER": {
+  "name": "Niger",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NGA": {
+  "name": "Nigeria",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NIU": {
+  "name": "Niue",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NFK": {
+  "name": "Norfolk Island",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PRK": {
+  "name": "North Korea",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MKD": {
+  "name": "North Macedonia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "MNP": {
+  "name": "Northern Mariana Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "NOR": {
+  "name": "Norway",
+  "status": "Banned",
+  "year": 2026
+ },
+ "OMN": {
+  "name": "Oman",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PAK": {
+  "name": "Pakistan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PLW": {
+  "name": "Palau",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PSE": {
+  "name": "Palestine",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PAN": {
+  "name": "Panama",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PNG": {
+  "name": "Papua New Guinea",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PRY": {
+  "name": "Paraguay",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PER": {
+  "name": "Peru",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PHL": {
+  "name": "Philippines",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PCN": {
+  "name": "Pitcairn",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "POL": {
+  "name": "Poland",
+  "status": "Banned",
+  "year": 2026
+ },
+ "PRT": {
+  "name": "Portugal",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "PRI": {
+  "name": "Puerto Rico",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "QAT": {
+  "name": "Qatar",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "REU": {
+  "name": "Reunion",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ROU": {
+  "name": "Romania",
+  "status": "Banned but not yet in effect",
+  "year": 2026
+ },
+ "RUS": {
+  "name": "Russia",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "RWA": {
+  "name": "Rwanda",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "BLM": {
+  "name": "Saint Barthelemy",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SHN": {
+  "name": "Saint Helena",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KNA": {
+  "name": "Saint Kitts and Nevis",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "LCA": {
+  "name": "Saint Lucia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "MAF": {
+  "name": "Saint Martin (French part)",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SPM": {
+  "name": "Saint Pierre and Miquelon",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "VCT": {
+  "name": "Saint Vincent and the Grenadines",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "WSM": {
+  "name": "Samoa",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SMR": {
+  "name": "San Marino",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "STP": {
+  "name": "Sao Tome and Principe",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SAU": {
+  "name": "Saudi Arabia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SEN": {
+  "name": "Senegal",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SRB": {
+  "name": "Serbia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "SYC": {
+  "name": "Seychelles",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SLE": {
+  "name": "Sierra Leone",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SGP": {
+  "name": "Singapore",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SXM": {
+  "name": "Sint Maarten (Dutch part)",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SVK": {
+  "name": "Slovakia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "SVN": {
+  "name": "Slovenia",
+  "status": "Banned",
+  "year": 2026
+ },
+ "SLB": {
+  "name": "Solomon Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SOM": {
+  "name": "Somalia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ZAF": {
+  "name": "South Africa",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SGS": {
+  "name": "South Georgia and the South Sandwich Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "KOR": {
+  "name": "South Korea",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SSD": {
+  "name": "South Sudan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ESP": {
+  "name": "Spain",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "LKA": {
+  "name": "Sri Lanka",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SDN": {
+  "name": "Sudan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SUR": {
+  "name": "Suriname",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "SWE": {
+  "name": "Sweden",
+  "status": "Partially banned",
+  "year": 2026
+ },
+ "CHE": {
+  "name": "Switzerland",
+  "status": "Phased out due to stricter regulations",
+  "year": 2026
+ },
+ "SYR": {
+  "name": "Syria",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TWN": {
+  "name": "Taiwan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TJK": {
+  "name": "Tajikistan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TZA": {
+  "name": "Tanzania",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "THA": {
+  "name": "Thailand",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TGO": {
+  "name": "Togo",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TKL": {
+  "name": "Tokelau",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TON": {
+  "name": "Tonga",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TTO": {
+  "name": "Trinidad and Tobago",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TUN": {
+  "name": "Tunisia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TUR": {
+  "name": "Turkey",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TKM": {
+  "name": "Turkmenistan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TCA": {
+  "name": "Turks and Caicos Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "TUV": {
+  "name": "Tuvalu",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "UGA": {
+  "name": "Uganda",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "UKR": {
+  "name": "Ukraine",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "ARE": {
+  "name": "United Arab Emirates",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "GBR": {
+  "name": "United Kingdom",
+  "status": "Banned",
+  "year": 2026
+ },
+ "USA": {
+  "name": "United States",
+  "status": "Not banned",
+  "year": 2026
+ },
+ "VIR": {
+  "name": "United States Virgin Islands",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "URY": {
+  "name": "Uruguay",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "UZB": {
+  "name": "Uzbekistan",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "VUT": {
+  "name": "Vanuatu",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "VAT": {
+  "name": "Vatican",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "VEN": {
+  "name": "Venezuela",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "VNM": {
+  "name": "Vietnam",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "WLF": {
+  "name": "Wallis and Futuna",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ESH": {
+  "name": "Western Sahara",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "YEM": {
+  "name": "Yemen",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ZMB": {
+  "name": "Zambia",
+  "status": "No active farms reported",
+  "year": 2026
+ },
+ "ZWE": {
+  "name": "Zimbabwe",
+  "status": "No active farms reported",
+  "year": 2026
+ }
+}
