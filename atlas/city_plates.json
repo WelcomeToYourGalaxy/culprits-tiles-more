@@ -1,477 +1,123 @@
 {
  "antananarivo": {
-  "kept": true,
-  "error_km": 0.28,
-  "width_km": 21.2,
-  "names": [
-   "Hay",
-   "Kal",
-   "Let",
-   "Pan"
-  ],
-  "corners": [
-   [
-    47.424845,
-    -18.882638
-   ],
-   [
-    47.459323,
-    -18.694583
-   ],
-   [
-    47.570637,
-    -18.89194
-   ],
-   [
-    47.536159,
-    -19.079774
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 28,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/antananarivo.webp"
+  "v": 3
  },
  "auckland": {
-  "kept": true,
-  "error_km": 9.72,
-  "width_km": 428.8,
-  "names": [
-   "Grey a",
-   "J A *",
-   "Rag |",
-   "Ts |",
-   "Vi«"
-  ],
-  "corners": [
-   [
-    175.246253,
-    -37.975556
-   ],
-   [
-    173.417582,
-    -34.412148
-   ],
-   [
-    173.960026,
-    -35.037857
-   ],
-   [
-    175.788697,
-    -38.573216
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale; its scale bar could not be read",
   "read": 24,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/auckland.webp"
+  "v": 3
  },
  "baku": {
   "kept": false,
-  "reason": "only 2 names read off the picture were found near the city",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 11,
-  "v": 2
+  "v": 3
  },
  "bogota": {
-  "kept": true,
-  "error_km": 0.19,
-  "width_km": 74.7,
-  "names": [
-   "Cf: |",
-   "Patt",
-   "S ; |",
-   "S > i |"
-  ],
-  "corners": [
-   [
-    -74.067613,
-    4.602318
-   ],
-   [
-    -73.731086,
-    4.020479
-   ],
-   [
-    -74.190893,
-    4.831867
-   ],
-   [
-    -74.527421,
-    5.413027
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 27,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/bogota.webp"
+  "v": 3
  },
  "brasilia": {
   "kept": false,
-  "reason": "only 2 names read off the picture were found near the city",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale; its scale bar could not be read",
   "read": 18,
-  "v": 2
+  "v": 3
  },
  "cape_town": {
-  "kept": true,
-  "error_km": 5.0,
-  "width_km": 316.8,
-  "names": [
-   "J (",
-   "Ss re =a",
-   "Toto",
-   "Was"
-  ],
-  "corners": [
-   [
-    21.156563,
-    -32.518735
-   ],
-   [
-    18.32921,
-    -34.111882
-   ],
-   [
-    18.028061,
-    -34.275236
-   ],
-   [
-    20.855415,
-    -32.685109
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 28,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/cape_town.webp"
+  "v": 3
  },
  "chengdu": {
-  "kept": true,
-  "error_km": 11.14,
-  "width_km": 597.9,
-  "names": [
-   "My wh",
-   "Ne \\ X",
-   "Re |",
-   "Vas",
-   "X Re \\"
-  ],
-  "corners": [
-   [
-    102.052456,
-    26.928753
-   ],
-   [
-    104.499239,
-    31.865792
-   ],
-   [
-    106.478652,
-    34.681496
-   ],
-   [
-    104.031868,
-    29.891013
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 29,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/chengdu.webp"
+  "v": 3
  },
  "colombo": {
-  "kept": true,
-  "error_km": 0.78,
-  "width_km": 109.4,
-  "names": [
-   "KG ms",
-   "Las",
-   "Las",
-   "Tan"
-  ],
-  "corners": [
-   [
-    79.787386,
-    7.145022
-   ],
-   [
-    78.810687,
-    6.976999
-   ],
-   [
-    83.045888,
-    6.578386
-   ],
-   [
-    84.022588,
-    6.746549
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 19,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/colombo.webp"
+  "v": 3
  },
  "dar_es_salaam": {
-  "kept": true,
-  "error_km": 11.13,
-  "width_km": 662.8,
-  "names": [
-   "A =",
-   "Ns ! ! !",
-   "Von",
-   "WA i"
-  ],
-  "corners": [
-   [
-    39.066934,
-    -3.782351
-   ],
-   [
-    39.505543,
-    -9.727213
-   ],
-   [
-    39.497951,
-    -9.965469
-   ],
-   [
-    39.059343,
-    -4.023608
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 27,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/dar_es_salaam.webp"
+  "v": 3
  },
  "davao": {
-  "kept": true,
-  "error_km": 8.83,
-  "width_km": 488.5,
-  "names": [
-   "J \\ N",
-   "Lee",
-   "NG ‘ Ne",
-   "Pen",
-   "Wes"
-  ],
-  "corners": [
-   [
-    125.821409,
-    8.122432
-   ],
-   [
-    124.611488,
-    3.89692
-   ],
-   [
-    124.637108,
-    4.500343
-   ],
-   [
-    125.847029,
-    8.720955
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale; its scale bar could not be read",
   "read": 29,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/davao.webp"
+  "v": 3
  },
  "durban": {
   "kept": false,
-  "reason": "only 2 names read off the picture were found near the city",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 17,
-  "v": 2
+  "v": 3
  },
  "esfahan": {
   "kept": false,
-  "reason": "only 3 names agree on a placement (at least 4 needed)",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale; its scale bar could not be read",
   "read": 10,
-  "v": 2
+  "v": 3
  },
  "guadalajara": {
-  "kept": true,
-  "error_km": 0.68,
-  "width_km": 32.8,
-  "names": [
-   "A > j",
-   "A pe a",
-   "G \\",
-   "Ng, >",
-   "Pe >",
-   "Z \\"
-  ],
-  "corners": [
-   [
-    -103.480895,
-    20.764269
-   ],
-   [
-    -103.243513,
-    20.569629
-   ],
-   [
-    -103.142686,
-    20.517878
-   ],
-   [
-    -103.380067,
-    20.712584
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 18,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/guadalajara.webp"
+  "v": 3
  },
  "guayaquil": {
-  "kept": true,
-  "error_km": 14.41,
-  "width_km": 715.4,
-  "names": [
-   "A ‘",
-   "Ee ‘",
-   "L |",
-   "Lan . >",
-   "T's",
-   "We >"
-  ],
-  "corners": [
-   [
-    -77.472555,
-    -4.241375
-   ],
-   [
-    -82.287228,
-    0.031037
-   ],
-   [
-    -80.810192,
-    -1.384894
-   ],
-   [
-    -75.995519,
-    -5.652131
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale; its scale bar could not be read",
   "read": 27,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/guayaquil.webp"
+  "v": 3
  },
  "hongknog_shenzhen_quangzhou": {
   "kept": false,
-  "reason": "the picture could not be read (HTTP Error 404: Not Found)"
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
+  "read": 13,
+  "v": 3
  },
  "honolulu": {
   "kept": false,
-  "reason": "only 2 names read off the picture were found near the city",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 12,
-  "v": 2
+  "v": 3
  },
  "houston": {
   "kept": false,
-  "error_km": 22.26,
-  "width_km": 698.8,
-  "names": [
-   "A. \\",
-   "Kal",
-   "Pat ; Ce",
-   "Sas",
-   "Sire",
-   "Va *"
-  ],
-  "corners": [
-   [
-    -95.675911,
-    29.548922
-   ],
-   [
-    -88.554202,
-    30.816286
-   ],
-   [
-    -89.795236,
-    31.12009
-   ],
-   [
-    -96.916945,
-    29.856678
-   ]
-  ],
-  "reason": "typical error 22.3 km is over 3% of the 699 km picture",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 27,
-  "v": 2
+  "v": 3
  },
  "jakarta": {
-  "kept": true,
-  "error_km": 6.73,
-  "width_km": 299.8,
-  "names": [
-   "A Y",
-   "Ar, = = s",
-   "BS a ¥",
-   "Cat x |",
-   "Ce a",
-   "De io",
-   "Vans"
-  ],
-  "corners": [
-   [
-    107.349883,
-    -6.505568
-   ],
-   [
-    105.295555,
-    -4.747591
-   ],
-   [
-    107.294,
-    -6.682208
-   ],
-   [
-    109.348328,
-    -8.43335
-   ]
-  ],
+  "kept": false,
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 25,
-  "v": 2,
-  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/jakarta.webp"
+  "v": 3
  },
  "lagos": {
   "kept": false,
-  "reason": "only 3 names agree on a placement (at least 4 needed)",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 14,
-  "v": 2
+  "v": 3
  },
  "los_angeles": {
   "kept": false,
-  "error_km": 17.14,
-  "width_km": 558.1,
-  "names": [
-   "A = | (",
-   "A Sd r \\",
-   "Ales",
-   "E- + |",
-   "J a }",
-   "Kat",
-   "Ls >",
-   "Net",
-   "Ss \\",
-   "Ssn"
-  ],
-  "corners": [
-   [
-    -117.188994,
-    33.264499
-   ],
-   [
-    -122.589793,
-    35.577594
-   ],
-   [
-    -119.430559,
-    34.661897
-   ],
-   [
-    -114.02976,
-    32.32342
-   ]
-  ],
-  "reason": "typical error 17.1 km is over 3% of the 558 km picture",
+  "reason": "fewer than 3 names read off the picture agree on where it lies at its printed scale",
   "read": 33,
-  "v": 2
+  "v": 3
  },
  "makassar": {
   "kept": false,
