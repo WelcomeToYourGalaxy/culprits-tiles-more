@@ -23,6 +23,18 @@ SLUGS = ["atlantic_forests", "california_floristic_province", "cape_floristic_re
          "madrean_woodlands", "maputaland_pondoland_albany", "mediterranean_basin", "mesoamerica", "mountains_of_central_asia",
          "mountains_of_southwest_china", "new_caledonia", "new_zealand", "philippines", "north_american_coastal_plain",
          "southwest_australia", "succulent_karoo", "sundaland", "tropical_andes", "wallacea", "western_ghats_sri_lanka"]
+# Round 98b (asked 28 September): four of Conservation International's 36
+# hotspots have no PDF in the list above (Indo-Burma, Polynesia-Micronesia,
+# Irano-Anatolian, Tumbes-Choco-Magdalena). Each spelling the Atlas might use
+# is asked for; what answers, and what does not, is written to
+# atlas/pdfs_looked_for.json. Nothing is copied from these until the map
+# lists them.
+LOOK_FOR = {
+    "Indo-Burma": ["indo_burma", "indo-burma", "indoburma"],
+    "Polynesia-Micronesia": ["polynesia_micronesia", "polynesia-micronesia", "polynesia"],
+    "Irano-Anatolian": ["irano_anatolian", "irano-anatolian"],
+    "Tumbes-Choco-Magdalena": ["tumbes_choco_magdalena", "tumbes-choco-magdalena", "tumbes_choco"],
+}
 OUT = pathlib.Path("atlas/pdfs")
 LIMIT = 95 * 1024 * 1024
 
@@ -84,6 +96,18 @@ def main():
         print(f"  {slug}: {len(b) / 1e6:.1f} MB, {index[slug]['pages']} pages", flush=True)
         index_path.write_text(json.dumps(index, indent=1))
     index_path.write_text(json.dumps(index, indent=1))
+    looked = {}
+    for title, slugs in LOOK_FOR.items():
+        looked[title] = {}
+        for slug in slugs:
+            try:
+                size, modified = head(PDF_BASE + slug + ".pdf")
+                looked[title][slug] = {"answers": True, "bytes": size, "last_modified": modified}
+            except Exception as e:  # noqa: BLE001
+                looked[title][slug] = {"answers": False, "why": str(e)[:120]}
+        found = [k for k, v in looked[title].items() if v["answers"]]
+        print(f"  {title}: " + (f"a PDF at {', '.join(found)}" if found else "no PDF at any spelling tried"), flush=True)
+    (OUT.parent / "pdfs_looked_for.json").write_text(json.dumps({"base": PDF_BASE, "asked": time.strftime("%Y-%m-%d"), "hotspots": looked}, indent=1))
 
 
 if __name__ == "__main__":

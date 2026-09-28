@@ -21,8 +21,8 @@ For each PDF copied to atlas/pdfs/ (scripts/atlas_pdfs.py):
     cities agree, and the typical error is under 2% of the map's width.
   * Each city's inset is cut from its page as a round picture, with its title
     and population projections as printed, and set at the city's position.
-Nothing is placed from a guess: a city OpenStreetMap does not find is listed,
-not placed; the insets have no scale bar, so they are shown as pictures on
+Nothing is placed from a guess: a city neither OpenStreetMap nor Natural
+Earth's populated places finds is listed, not placed; the insets have no scale bar, so they are shown as pictures on
 the city, not stretched over the ground.
 
 Writes atlas/insets.json and atlas/insets/<slug>_conflicts.webp and
@@ -36,7 +36,17 @@ OUT = pathlib.Path("atlas/insets")
 INDEX = pathlib.Path("atlas/insets.json")
 BASE = "https://welcometoyourgalaxy.github.io/culprits-tiles-more/"
 UA = {"User-Agent": "Culprits atlas build (github.com/WelcomeToYourGalaxy)"}
-METHOD = 1
+# Round 98b (28 September): 2. Most PDFs print their conflicts page's title
+# as "| Conflicts", not "| CONFLICTS", and the search for it minded the case,
+# so Madagascar, the Western Ghats, the Philippines, the Caribbean and five
+# more were read as having none. And a look-up that failed (OpenStreetMap
+# busy) was kept as "not found" for good: Addis Ababa, Nairobi, Sydney and
+# Dar es Salaam were never placed. Everything is done again.
+METHOD = 2
+# Natural Earth's populated places (1:10m, public domain), asked only when
+# OpenStreetMap finds nothing for the name as printed.
+NE_PLACES = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson"
+_ne_places = None
 R = 6378137.0
 
 
@@ -44,23 +54,94 @@ def deps():
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pymupdf", "pillow"], check=True)
 
 
-def geocode(name, cache):
-    if name in cache:
-        return cache[name]
-    q = urllib.parse.urlencode({"q": name, "format": "jsonv2", "limit": 1})
-    got = None
-    for i in range(3):
+def ask_osm(q):
+    """OpenStreetMap's first answer for q, None when it has none, or an
+    exception when it could not be asked (then nothing is kept)."""
+    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"q": q, "format": "jsonv2", "limit": 1})
+    last = None
+    for i in range(4):
         try:
-            with urllib.request.urlopen(urllib.request.Request("https://nominatim.openstreetmap.org/search?" + q, headers=UA), timeout=60) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
                 rows = json.loads(r.read())
+            time.sleep(1.2)
             if rows and rows[0].get("category", rows[0].get("class")) in ("place", "boundary"):
-                got = {"lon": float(rows[0]["lon"]), "lat": float(rows[0]["lat"]), "found": rows[0].get("display_name")}
-            break
+                return {"lon": float(rows[0]["lon"]), "lat": float(rows[0]["lat"]), "found": rows[0].get("display_name"),
+                        "source": "OpenStreetMap"}
+            return None
         except Exception as e:  # noqa: BLE001
-            print(f"    OpenStreetMap {name}: {e}", flush=True)
-            time.sleep(5)
-    time.sleep(1.2)
-    cache[name] = got
+            last = e
+            print(f"    OpenStreetMap {q}: {e}", flush=True)
+            time.sleep(10 * (i + 1))
+    raise RuntimeError(f"OpenStreetMap did not answer ({last})")
+
+
+def ne_places():
+    global _ne_places
+    if _ne_places is None:
+        try:
+            with urllib.request.urlopen(urllib.request.Request(NE_PLACES, headers=UA), timeout=180) as r:
+                _ne_places = [f["properties"] | {"_xy": f["geometry"]["coordinates"]} for f in json.loads(r.read())["features"]]
+        except Exception as e:  # noqa: BLE001
+            print(f"    Natural Earth's places could not be read ({e})", flush=True)
+            _ne_places = []
+    return _ne_places
+
+
+def fold(s):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z]+", " ", s).strip()
+
+
+def ask_ne(city, country):
+    """Natural Earth's place of that name (and, where given, that country)."""
+    want, land = fold(city), fold(country)
+    hits = []
+    for p in ne_places():
+        names = {fold(p.get(k)) for k in ("name", "nameascii", "namealt", "namepar") if p.get(k)}
+        names |= {fold(x) for x in str(p.get("namealt") or "").split("|")}
+        if want in names:
+            same = not land or any(land and land in fold(p.get(k)) or fold(p.get(k)) in land
+                                   for k in ("adm0name", "sov0name") if p.get(k))
+            if same:
+                hits.append(p)
+    if not hits:
+        return None
+    p = max(hits, key=lambda p: p.get("pop_max") or 0)
+    return {"lon": float(p["_xy"][0]), "lat": float(p["_xy"][1]), "found": f"{p.get('name')}, {p.get('adm0name')}",
+            "source": "Natural Earth populated places"}
+
+
+def geocode(name, cache):
+    """The place for a title as printed ("ADDIS ABABA, ETHIOPIA"). A name the
+    look-ups could not be asked about is not kept, so a later run asks again."""
+    if cache.get(name):
+        return cache[name]
+    # The Atlas's own misspellings, asked as the place is spelt; the title
+    # stays as printed.
+    q0 = re.sub(r"\bJaimaca\b", "Jamaica", name, flags=re.I)
+    city, _, country = q0.partition(",")
+    tries = [q0]
+    if re.search(r"\s+city\s*$", city, re.I):     # "ILOILO CITY": also "ILOILO"
+        tries.append(re.sub(r"\s+city\s*$", "", city, flags=re.I) + "," + country)
+    if "/" in city:                                   # "MECCA / JEDDAH, SAUDI ARABIA": the first
+        tries.append(f"{city.split('/')[0].strip()},{country}")
+    got, asked = None, True
+    for q in tries:
+        try:
+            got = ask_osm(q)
+        except RuntimeError:
+            asked = False
+        if got:
+            break
+    if not got:
+        for q in tries:
+            c, _, k = q.partition(",")
+            got = ask_ne(c.strip(), k.strip())
+            if got:
+                break
+    if got or asked:
+        cache[name] = got
     return got
 
 
@@ -138,7 +219,7 @@ def round_picture(page, rect, px=420):
 def do_one(slug, pdf, cache):
     import pymupdf
     doc = pymupdf.open(pdf)
-    conf = next((i for i in range(1, doc.page_count) if re.search(r"\|\s*CONFLICTS", doc[i].get_text())), None)
+    conf = next((i for i in range(1, doc.page_count) if re.search(r"\|\s*CONFLICTS", doc[i].get_text(), re.I)), None)
     if conf is None:
         return {"v": METHOD, "kept": False, "reason": "no conflicts page in the PDF"}
     cities = {}
@@ -173,12 +254,12 @@ def do_one(slug, pdf, cache):
         g = geocode(c["title"], cache)
         row = {k: v for k, v in c.items() if not k.startswith("_")}
         if g:
-            row.update({"lon": g["lon"], "lat": g["lat"], "openstreetmap": g["found"]})
+            row.update({"lon": g["lon"], "lat": g["lat"], "openstreetmap" if g.get("source", "OpenStreetMap") == "OpenStreetMap" else "natural_earth": g["found"]})
             if n in labels:
                 X, Y = merc(g["lon"], g["lat"])
                 pts.append((labels[n][0], labels[n][1], X, Y, n))
         else:
-            row["not_placed"] = "OpenStreetMap did not find the name as printed"
+            row["not_placed"] = "neither OpenStreetMap nor Natural Earth found the name as printed"
         if c["_pic"] is not None:
             im = round_picture(c["_page"], c["_pic"])
             name = f"{slug}_{n}.webp"
