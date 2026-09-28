@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_pasture.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 70052013
+  },
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_pasture_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 65410016
+  },
+  {
+   "file": "climate_trace_ch4_enteric_fermentation_cattle_pasture_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 39568898
+  }
+ ],
+ "zoom": 12
+}

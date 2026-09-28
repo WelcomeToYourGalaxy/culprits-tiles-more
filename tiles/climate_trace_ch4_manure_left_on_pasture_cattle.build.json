@@ -1,0 +1,23 @@
+{
+ "parts": [
+  {
+   "file": "climate_trace_ch4_manure_left_on_pasture_cattle.pmtiles",
+   "from": 0,
+   "to": 9,
+   "bytes": 81546931
+  },
+  {
+   "file": "climate_trace_ch4_manure_left_on_pasture_cattle_2.pmtiles",
+   "from": 10,
+   "to": 11,
+   "bytes": 64931590
+  },
+  {
+   "file": "climate_trace_ch4_manure_left_on_pasture_cattle_3.pmtiles",
+   "from": 12,
+   "to": 12,
+   "bytes": 39288053
+  }
+ ],
+ "zoom": 12
+}
