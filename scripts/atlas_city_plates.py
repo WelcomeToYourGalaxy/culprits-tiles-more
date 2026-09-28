@@ -25,6 +25,7 @@ import io, json, math, os, pathlib, random, re, subprocess, sys, time, urllib.pa
 
 CITIES = [["antananarivo", "Antananarivo, Madagascar"], ["auckland", "Auckland, New Zealand"], ["baku", "Baku, Azerbaijan"], ["bogota", "Bogotá, Colombia"], ["brasilia", "Brasília, Brazil"], ["cape_town", "Cape Town, South Africa"], ["chengdu", "Chengdu, China"], ["colombo", "Colombo, Sri Lanka"], ["dar_es_salaam", "Dar es Salaam, Tanzania"], ["davao", "Davao, Philippines"], ["durban", "Durban, South Africa"], ["esfahan", "Esfahan, Iran"], ["guadalajara", "Guadalajara, Mexico"], ["guayaquil", "Guayaquil, Ecuador"], ["hongknog_shenzhen_quangzhou", "Hongkong-Shenzhen-Guangzhou, China"], ["honolulu", "Honolulu, United States"], ["houston", "Houston, United States"], ["jakarta", "Jakarta, Indonesia"], ["lagos", "Lagos, Nigeria"], ["los_angeles", "Los Angeles, United States"], ["makassar", "Makassar, Indonesia"], ["mecca", "Mecca, Saudi Arabia"], ["mexico_city", "Mexico City, Mexico"], ["nairobi", "Nairobi, Kenya"], ["osaka", "Osaka, Japan"], ["perth", "Perth, Australia"], ["port-au-prince", "Port-au-Prince, Haiti"], ["rawalpindi", "Rawalpindi, Pakistan"], ["santiago", "Santiago, Chile"], ["sao_paulo", "São Paulo, Brazil"], ["sydney", "Sydney, Australia"], ["tashkent", "Tashkent, Uzbekistan"], ["tel_aviv", "Tel Aviv, Israel"]]
 IMG = "https://atlas-for-the-end-of-the-world.com/images/hotspot_cities/{slug}.png"
+IMG_NAME = {"hongknog_shenzhen_quangzhou": "hongkong_shenzhen_guangzhou"}
 POS = pathlib.Path("atlas/cities.json")          # the weekly look-up of each city's own position
 OUT = pathlib.Path("atlas")
 UA = {"User-Agent": "Culprits atlas (WelcomeToYourGalaxy) placing the Atlas for the End of the World's city maps"}
@@ -35,7 +36,20 @@ NOT_PLACES = {"kilometers", "km", "miles", "legend", "urban", "growth", "project
               "atlas", "end", "world", "city", "cities", "scale", "north", "source", "data", "map"}
 R = 6378137.0
 # Results made by an earlier way of placing are done again; bump when it changes.
-METHOD = 2
+# Round 90b: 3. Every city map carries a printed scale bar, and reading it
+# showed the earlier fits were mostly wrong in size (Bogota fitted as 75 km
+# across where its bar makes it 238 km), because a free fit let a few misread
+# words agree by chance. Now the scale is read off the bar, the map is north
+# up, so only its position is left to find: each name read off the picture,
+# looked up near the city, proposes one position, and the position most names
+# agree on (within 2% of the picture's width) is kept.
+METHOD = 3
+# The two scales the Atlas's city maps are printed at (pixels per km on their
+# 2160-pixel pictures), read off every bar that could be read: 0-40 km bars
+# (about 238 km across) and 10-80 km bars (about 313 km across). Tried in turn
+# only where a picture's own bar cannot be read.
+KNOWN_SCALES = (9.1, 6.9)
+AGREE_SHARE = 0.02
 
 
 def merc(lon, lat):
@@ -195,6 +209,85 @@ def place_north(lbls, w, h, seed=1):
             "names": sorted(n for _, _, n in best[1]), "corners": [[round(a, 6), round(b, 6)] for a, b in corners]}
 
 
+def scale_bar(img):
+    """Pixels per km read off the printed scale bar: its numbers (0 5 10 20 40,
+    or 10 20 40 60 80) on one line in the bottom of the picture, a straight
+    line fitted through each number's middle against its value. None if no
+    line of at least three increasing numbers fits within 6 pixels."""
+    import pytesseract
+    from PIL import Image, ImageOps
+    w, h = img.size
+    y0 = int(h * 0.86)
+    g = ImageOps.grayscale(img.crop((0, y0, w, h)))
+    g = g.resize((g.width * 4, g.height * 4), Image.LANCZOS).point(lambda v: 255 if v > 150 else 0)
+    best = None
+    for cfg in ("--psm 11 -c tessedit_char_whitelist=0123456789", "--psm 11"):
+        d = pytesseract.image_to_data(g, output_type=pytesseract.Output.DICT, config=cfg)
+        rows = {}
+        for i, t in enumerate(d["text"]):
+            t = (t or "").strip()
+            try:
+                conf = float(d["conf"][i])
+            except ValueError:
+                conf = -1
+            if re.fullmatch(r"\d{1,3}", t) and conf > 30:
+                y = (d["top"][i] + d["height"][i] / 2) / 4 + y0
+                rows.setdefault(round(y / 6), []).append((int(t), round((d["left"][i] + d["width"][i] / 2) / 4, 1)))
+        for r in rows.values():
+            r = sorted(set(r), key=lambda q: q[1])
+            vals = [v for v, _ in r]
+            if len(r) < 3 or vals != sorted(vals) or len(set(vals)) != len(vals):
+                continue
+            n = len(r)
+            mv = sum(v for v, _ in r) / n
+            mx = sum(x for _, x in r) / n
+            svv = sum((v - mv) ** 2 for v, _ in r)
+            if not svv:
+                continue
+            k = sum((v - mv) * (x - mx) for v, x in r) / svv
+            worst = max(abs(mx + k * (v - mv) - x) for v, x in r)
+            if k > 0 and worst < 6 and (not best or n > best[1]):
+                best = (k, n, vals)
+    return best
+
+
+def place_scaled(lbls, w, h, ppk, lat):
+    """North up at a known scale (ppk pixels per km): only the position is
+    unknown. Each name's look-up proposes one; the proposal most other names
+    agree with is kept, refined as the mean of those that agree."""
+    usable = [l for l in lbls if l[3]]
+    if len(usable) < 2:
+        return None
+    s_ = 1000.0 / ppk / math.cos(math.radians(lat))        # mercator metres per picture pixel
+    width_km = w / ppk
+    reach = width_km * AGREE_SHARE
+    best = None
+    for name, x, y, cands in usable:
+        for c in cands:
+            X, Y = merc(*c)
+            a, b = X - s_ * x, Y + s_ * y                     # X = s*x + a, Y = -s*y + b
+            agree = []
+            for n2, x2, y2, c2 in usable:
+                P = (s_ * x2 + a, -s_ * y2 + b)
+                d, cc = min((km(P, merc(*q)), q) for q in c2)
+                if d <= reach:
+                    agree.append((n2, x2, y2, merc(*cc)))
+            names = {n for n, *_ in agree}
+            if not best or len(names) > len(best[0]):
+                best = (names, agree)
+    if not best or len(best[0]) < 3:
+        return None
+    agree = best[1]
+    a = sum(X - s_ * x for _, x, _, (X, _) in agree) / len(agree)
+    b = sum(Y + s_ * y for _, _, y, (_, Y) in agree) / len(agree)
+    T = ((s_, 0.0, a), (0.0, -s_, b))
+    errs = [km(ap(T, x, y), c) for _, x, y, c in agree]
+    rms = math.sqrt(sum(e * e for e in errs) / len(errs))
+    corners = [unmerc(*ap(T, x, y)) for x, y in ((0, 0), (w, 0), (w, h), (0, h))]
+    return {"kept": rms <= reach, "fit": "north up, scale from the bar", "error_km": round(rms, 2), "width_km": round(width_km, 1),
+            "names": sorted(best[0]), "corners": [[round(p, 6), round(q, 6)] for p, q in corners]}
+
+
 def place(lbls, w, h, seed=0):
     usable = [l for l in lbls if l[3]]
     if len(usable) < 3:
@@ -257,16 +350,28 @@ def main():
             result[slug] = {"kept": False, "reason": "the city's own position has not been looked up yet"}
             continue
         try:
-            with urllib.request.urlopen(urllib.request.Request(IMG.format(slug=slug), headers=UA), timeout=120) as r:
+            # The page's slug is misspelt; its picture is not (round 90b: the 404).
+            with urllib.request.urlopen(urllib.request.Request(IMG.format(slug=IMG_NAME.get(slug, slug)), headers=UA), timeout=120) as r:
                 img = Image.open(io.BytesIO(r.read())).convert("RGB")
         except Exception as e:  # noqa: BLE001
             result[slug] = {"kept": False, "reason": f"the picture could not be read ({e})"}
             continue
         try:
             lbls = [(t, x, y, lookup(t, centre, cache)) for t, x, y in labels(img)]
-            got = place(lbls, img.width, img.height)
-            if not got.get("kept"):
-                got = place_north(lbls, img.width, img.height) or got
+            bar = scale_bar(img)
+            if bar:
+                got = place_scaled(lbls, img.width, img.height, bar[0], centre[1])
+                if got:
+                    got["scale"] = f"read off the scale bar ({', '.join(map(str, bar[2]))} km)"
+            else:
+                tries = [place_scaled(lbls, img.width, img.height, k, centre[1]) for k in KNOWN_SCALES]
+                tries = [t for t in tries if t and t.get("kept")]
+                got = min(tries, key=lambda t: t["error_km"] / t["width_km"]) if tries else None
+                if got:
+                    got["scale"] = "the bar could not be read; the one of the Atlas's two printed scales the names agree with"
+            if not got or not got.get("kept"):
+                got = {"kept": False, "reason": (f"fewer than 3 names read off the picture agree on where it lies at its printed scale"
+                                                 + ("" if bar else "; its scale bar could not be read"))}
         except Exception as e:  # noqa: BLE001
             lbls, got = [], {"kept": False, "reason": f"placing failed ({type(e).__name__}: {e})"}
         got["read"] = len(lbls)
@@ -275,7 +380,7 @@ def main():
             img.save(OUT / "city_plates" / f"{slug}.webp", "WEBP", quality=82)
             got["image"] = f"https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/city_plates/{slug}.webp"
         result[slug] = got
-        print(f"atlas_city_plates: {name}: " + (f"placed, {len(got['names'])} names agree, typical error {got['error_km']} km on a {got['width_km']} km picture"
+        print(f"atlas_city_plates: {name}: " + (f"placed ({got.get('scale')}), {len(got['names'])} names agree, typical error {got['error_km']} km on a {got['width_km']} km picture"
                                                 if got.get("kept") else got.get("reason", "not placed")) + f" ({len(lbls)} names read)", flush=True)
         cache_path.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
         out_path.write_text(json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")
