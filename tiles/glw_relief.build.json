@@ -1,0 +1,44 @@
+{
+ "CTL": {
+  "from": "https://storage.googleapis.com/fao-gismgr-glw4-2020-data/DATA/GLW4-2020/MAPSET/D-DA/GLW4-2020.D-DA.CTL.tif",
+  "squares": 498,
+  "bytes": 5063691,
+  "p99": 126.28558349609375,
+  "max": 3654.19775390625
+ },
+ "BFL": {
+  "from": "https://storage.googleapis.com/fao-gismgr-glw4-2020-data/DATA/GLW4-2020/MAPSET/D-DA/GLW4-2020.D-DA.BFL.tif",
+  "squares": 299,
+  "bytes": 707014,
+  "p99": 72.05030059814453,
+  "max": 1729.4107666015625
+ },
+ "SHP": {
+  "from": "https://storage.googleapis.com/fao-gismgr-glw4-2020-data/DATA/GLW4-2020/MAPSET/D-DA/GLW4-2020.D-DA.SHP.tif",
+  "squares": 496,
+  "bytes": 4099473,
+  "p99": 137.4832763671875,
+  "max": 3002.599853515625
+ },
+ "GTS": {
+  "from": "https://storage.googleapis.com/fao-gismgr-glw4-2020-data/DATA/GLW4-2020/MAPSET/D-DA/GLW4-2020.D-DA.GTS.tif",
+  "squares": 486,
+  "bytes": 3405832,
+  "p99": 129.1800994873047,
+  "max": 2608.393798828125
+ },
+ "PGS": {
+  "from": "https://storage.googleapis.com/fao-gismgr-glw4-2020-data/DATA/GLW4-2020/MAPSET/D-DA/GLW4-2020.D-DA.PGS.tif",
+  "squares": 481,
+  "bytes": 3434678,
+  "p99": 177.39898681640625,
+  "max": 4124.51220703125
+ },
+ "CHK": {
+  "from": "https://storage.googleapis.com/fao-gismgr-glw4-2020-data/DATA/GLW4-2020/MAPSET/D-DA/GLW4-2020.D-DA.CHK.tif",
+  "squares": 498,
+  "bytes": 6347605,
+  "p99": 3794.893310546875,
+  "max": 101552.078125
+ }
+}
