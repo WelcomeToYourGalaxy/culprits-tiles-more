@@ -1,0 +1,47 @@
+{
+ "read": "2026-09-28",
+ "features": 215,
+ "by_company": {
+  "The Coca-Cola Company": {
+   "Wikidata": 27,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Nestlé": {
+   "Wikidata": 34,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Unilever": {
+   "Wikidata": 42,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "PepsiCo": {
+   "Wikidata": 20,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Mondelēz International": {
+   "Wikidata": 21,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Mars, Inc.": {
+   "Wikidata": 13,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Procter & Gamble": {
+   "Wikidata": 16,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Danone": {
+   "Wikidata": 20,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "Altria": {
+   "Wikidata": 3,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  },
+  "British American Tobacco": {
+   "Wikidata": 19,
+   "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
+  }
+ },
+ "audit": "https://brandaudit.breakfreefromplastic.org/brand-audit-2023/"
+}
