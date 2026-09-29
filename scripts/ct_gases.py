@@ -170,6 +170,13 @@ def build_unit(gas, sector, sub, src, work, index, index_path):
 
 
 def main():
+    # Round 110b (29 September): the gas archives are built and served by
+    # culprits-tiles-gases now; this site went over what GitHub Pages will
+    # publish (10 GB). That repo runs this same script (gases/run.sh sets
+    # CT_GASES_HERE); here it does nothing.
+    if not os.environ.get("CT_GASES_HERE"):
+        print("ct_gases: built in culprits-tiles-gases now (gases/run.sh); nothing to do here")
+        return
     started = time.time()
     mines.tools()
     work = pathlib.Path(tempfile.mkdtemp())
