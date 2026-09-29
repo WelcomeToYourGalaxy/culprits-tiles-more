@@ -24,7 +24,7 @@ it. Coloured in the paper's three classes.
 
 Built once; FISH_REBUILD=1 builds it again.
 """
-import json, os, pathlib, subprocess, sys, tempfile, zipfile
+import json, os, pathlib, re, subprocess, sys, tempfile, zipfile
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "lib"))
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import pyramid  # noqa: E402
@@ -58,8 +58,19 @@ def main():
     src = next(p for p in work.rglob("*.gdb") if p.is_dir())
     info = subprocess.run(["ogrinfo", "-ro", "-so", str(src)], capture_output=True, text=True).stdout
     print(info, flush=True)
-    layers = [l.split(":", 1)[1].split("(")[0].strip() for l in info.splitlines() if l.strip()[:1].isdigit() and ":" in l]
-    layer = next((l for l in layers if "river" in l.lower() and "network" in l.lower()), None) or next(l for l in layers if "river" in l.lower())
+    # ogrinfo lists layers as "1: name (type)", or, in a geodatabase with
+    # groups, as "Layer: name (type)" (round 111b: GDAL 3.8 printed
+    # "Layer: FFR_river_network_v1 (Multi Line String)" and none were found).
+    layers = [l.split(":", 1)[1].split("(")[0].strip() for l in info.splitlines()
+              if ":" in l and (l.strip()[:1].isdigit() or l.strip().lower().startswith("layer:"))]
+    if not layers:
+        layers = [l.strip() for l in subprocess.run(["ogrinfo", "-ro", "-q", "-so", str(src)], capture_output=True, text=True).stdout.splitlines() if l.strip()]
+        layers = [re.sub(r"^\d+:\s*|^Layer:\s*", "", l).split(" (")[0].strip() for l in layers]
+    print(f"{ROW}: layers {layers}", flush=True)
+    layer = (next((l for l in layers if "river" in l.lower() and "network" in l.lower()), None)
+             or next((l for l in layers if "river" in l.lower()), None) or (layers[0] if len(layers) == 1 else None))
+    if not layer:
+        raise SystemExit(f"{ROW}: no river layer among {layers}")
     fields = subprocess.run(["ogrinfo", "-ro", "-so", str(src), layer], capture_output=True, text=True).stdout
     print(fields, flush=True)
     names = {l.split(":")[0].strip().upper(): l.split(":")[0].strip() for l in fields.splitlines() if ":" in l and "(" in l.split(":", 1)[1]}

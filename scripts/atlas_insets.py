@@ -320,6 +320,14 @@ def do_one(slug, pdf, cache):
     return res
 
 
+def n_insets(r):
+    """How many city insets a record names. A map not placed because its
+    conflicts page has no picture keeps only the count (an int), not the list;
+    len() of that stopped the run at mediterranean_basin (round 111b)."""
+    c = r.get("cities")
+    return c if isinstance(c, int) else len(c or [])
+
+
 def main():
     deps()
     index = json.loads(INDEX.read_text()) if INDEX.exists() else {}
@@ -335,12 +343,12 @@ def main():
         except Exception as e:  # noqa: BLE001
             index[slug] = {"v": METHOD, "kept": False, "reason": f"could not be read ({e})"}
         r = index[slug]
-        print(f"    {'placed' if r.get('kept') else 'not placed: ' + r.get('reason', '')}; {len(r.get('cities', []) or [])} insets", flush=True)
+        print(f"    {'placed' if r.get('kept') else 'not placed: ' + r.get('reason', '')}; {n_insets(r)} insets", flush=True)
         OUT.mkdir(parents=True, exist_ok=True)
         cache_p.write_text(json.dumps(cache, ensure_ascii=False))
         INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1))
     print(f"atlas_insets: {sum(1 for v in index.values() if v.get('kept'))} conflict maps placed, "
-          f"{sum(len(v.get('cities') or []) for v in index.values())} city insets")
+          f"{sum(n_insets(v) for v in index.values())} city insets")
 
 
 if __name__ == "__main__":

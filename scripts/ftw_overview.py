@@ -43,33 +43,44 @@ def get(url, headers=None, timeout=120):
 
 
 def listing():
-    """Every download tile: key -> size."""
-    keys, marker = {}, ""
+    """Every download tile: key -> size.
+
+    Round 111b (29 September): source.coop answers the S3 list call of the
+    second kind only: it ignored "marker" and gave the same first 1,000 keys
+    again and again (998 tiles, until the job was stopped at 160 minutes).
+    Now asks with list-type=2 and follows NextContinuationToken, and stops if
+    a page brings nothing new."""
+    keys, token, seen = {}, None, set()
     while True:
-        q = "?" + urllib.parse.urlencode({"marker": marker}) if marker else ""
-        root = ET.fromstring(get(BASE + q))
+        q = {"list-type": "2"}
+        if token:
+            q["continuation-token"] = token
+        root = ET.fromstring(get(BASE + "?" + urllib.parse.urlencode(q)))
         ns = {"s": root.tag.split("}")[0].strip("{")} if root.tag.startswith("{") else {}
         find = (lambda e, t: e.findall(f"s:{t}", ns)) if ns else (lambda e, t: e.findall(t))
         text = (lambda e, t: (e.find(f"s:{t}", ns) if ns else e.find(t)))
-        got = 0
+        got, new = 0, 0
         for c in find(root, "Contents"):
             k, size = text(c, "Key").text, int(text(c, "Size").text)
             got += 1
+            if k not in seen:
+                seen.add(k)
+                new += 1
             if re.search(r"(\d{4})_[NS]\d{2}[EW]\d{3}\.parquet$", k):
                 keys[k] = size
-            marker = k
         trunc = text(root, "IsTruncated")
-        nm = text(root, "NextMarker")
-        if nm is not None and nm.text:
-            marker = nm.text
+        nt = text(root, "NextContinuationToken")
         print(f"  listing: {len(keys):,} tiles so far", flush=True)
-        if not got or trunc is None or trunc.text.strip().lower() != "true":
+        if not got or not new or trunc is None or trunc.text.strip().lower() != "true" or nt is None or not nt.text or nt.text == token:
             break
+        token = nt.text
     return keys
 
 
 def url_of(key):
-    k = re.sub(r"^ftw/global-field-boundaries/", "", key)
+    # Keys come back as "global-field-boundaries/download-tiles/..." (the
+    # bucket is "ftw"); BASE already ends in global-field-boundaries/.
+    k = re.sub(r"^(ftw/)?global-field-boundaries/", "", key)
     return BASE + k
 
 

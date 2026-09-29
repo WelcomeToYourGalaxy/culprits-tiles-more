@@ -23,6 +23,9 @@ colours each basin by its own figures.
        tiles/aqueduct_crop.pmtiles          layer "areas", every field kept
    aqueduct/build.json records each file's fields and each crop's range.
 
+   Round 111b: if both copies above refuse (29 September: 403 and 500), the
+   table is read through the Data API's query a page at a time.
+
 Built once; AQUEDUCT_REBUILD=1 builds again.
 """
 import csv, gzip, json, os, pathlib, shutil, subprocess, sys, tempfile, urllib.parse, urllib.request, zipfile
@@ -78,17 +81,61 @@ def projections(work, stamp):
                             "bytes": (TILES / "aqueduct_projections.pmtiles").stat().st_size}
 
 
+def paged(to):
+    """Round 111b (29 September): the whole-table csv download answered 500
+    and the data lake 403. The table is read through the Data API's query, a
+    thousand rows at a time in the order of gfw_fid, every column, each row
+    written as one line of JSON (the shape comes in gfw_geojson or geom)."""
+    last, n = None, 0
+    with open(to, "w", encoding="utf-8") as w:
+        while True:
+            where = f" WHERE gfw_fid > {last}" if last is not None else ""
+            sql = f"SELECT * FROM data{where} ORDER BY gfw_fid LIMIT 1000"
+            url = CROP_DS + "/query/json?" + urllib.parse.urlencode({"sql": sql})
+            body = None
+            for i in range(4):
+                try:
+                    req = urllib.request.Request(url, headers=dict(UA, **{"x-api-key": GFW_KEY}))
+                    with urllib.request.urlopen(req, timeout=600) as r:
+                        body = json.loads(r.read())
+                    break
+                except Exception as e:  # noqa: BLE001
+                    print(f"aqueduct: page after {last}: {e}; again", flush=True)
+                    __import__("time").sleep(10 * (i + 1))
+            if body is None:
+                raise RuntimeError(f"the query stopped answering after {n} rows")
+            rows = body.get("data") or []
+            if not rows:
+                break
+            for r in rows:
+                w.write(json.dumps(r) + "\n")
+            n += len(rows)
+            last = rows[-1].get("gfw_fid")
+            if last is None:
+                raise RuntimeError("rows have no gfw_fid to page by")
+            if n % 10000 < 1000:
+                print(f"aqueduct: {n:,} rows read", flush=True)
+            if len(rows) < 1000:
+                break
+    if not n:
+        raise RuntimeError("the query gave no rows")
+    print(f"aqueduct: {n:,} rows read through the query", flush=True)
+
+
 def crops(work, stamp):
     raw = work / "crop.ndjson"
-    for u in CROP_URLS:
+    for u in CROP_URLS + ["paged"]:
         try:
-            fetch(u, raw)
+            if u == "paged":
+                paged(raw)
+            else:
+                fetch(u, raw)
             break
         except Exception as e:  # noqa: BLE001
             print(f"aqueduct: {u.split('?')[0]} did not answer ({e})", flush=True)
     else:
         sys.exit("aqueduct: no copy of the crop data could be fetched")
-    used = u.split("?")[0]
+    used = CROP_DS + "/query/json (a page at a time)" if u == "paged" else u.split("?")[0]
     if "/download/csv" in u:
         # The csv's rows as the data lake's rows: figures as numbers, the shape
         # in gfw_geojson.

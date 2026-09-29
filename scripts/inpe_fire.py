@@ -9,6 +9,14 @@ the map to read as one file, so it is cut into tiles here.
 
   tiles/inpe_fire_2023.pmtiles   layer "inpe_fire_2023"
 
+Round 111b (29 September): every fire at every zoom with every field came to
+155 MB, over GitHub's 100 MB limit. Every fire is still in the tiles at every
+zoom; what changes is which fields ride along wide out:
+  zooms 0 to 5: every fire, with its time, country, biome, group and name
+  zooms 6 to 10: every fire with every field (the map zooms on past 10 by
+                 enlarging zoom 10)
+The two are joined into the one archive (about 80 MB).
+
 Built once; again only if the source file changes or INPE_REBUILD=1.
 """
 import gzip, json, os, pathlib, sys, tempfile
@@ -34,8 +42,12 @@ def main():
             fo.write(json.dumps(ft, ensure_ascii=False, separators=(",", ":")) + "\n")
             n += 1
     out = work / "inpe_fire_2023.pmtiles"
-    mines.sh("tippecanoe", "-o", str(out), "--force", "-q", "-l", "inpe_fire_2023", "-Z0", "-z11", "-r1",
-             "--no-feature-limit", "--no-tile-size-limit", str(lines))
+    lo, hi = work / "lo.pmtiles", work / "hi.pmtiles"
+    common = ["--force", "-q", "-l", "inpe_fire_2023", "-r1", "--no-feature-limit", "--no-tile-size-limit"]
+    mines.sh("tippecanoe", "-o", str(lo), *common, "-Z0", "-z5", "-y", "date_time", "-y", "country", "-y", "biome",
+             "-y", "group", "-y", "name", str(lines))
+    mines.sh("tippecanoe", "-o", str(hi), *common, "-Z6", "-z10", str(lines))
+    mines.sh("tile-join", "-o", str(out), "--force", "-q", "--no-tile-size-limit", str(lo), str(hi))
     if out.stat().st_size > 95 * 1024 * 1024:
         sys.exit(f"inpe_fire: {out.stat().st_size / 1e6:.0f} MB is over GitHub's limit")
     OUT.parent.mkdir(exist_ok=True)

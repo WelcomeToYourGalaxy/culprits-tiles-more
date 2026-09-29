@@ -13,6 +13,13 @@ gfw_geojson column. The data are Potapov et al.'s Intact Forest Landscapes
   tiles/ifl_<year>.pmtiles   layer "ifl", zooms 0 to 10 (fewer if over 95 MB)
   ifl/build.json             for each year: version read, shapes, fields, size
 
+Round 111b (29 September): the refresh of 29 September built none. GFW's
+"latest" address answers 404 for these datasets (none is tagged latest) and
+the big csv downloads timed out (502/504). Each year is now read first from
+the authors' own GeoPackage at intactforests.org (IFL_<year>.gpkg, CC BY 4.0,
+every field kept), and only if that fails from GFW, at the newest version its
+dataset lists.
+
 Built once; IFL_REBUILD=1 builds them again.
 """
 import csv, json, os, pathlib, sys, tempfile, urllib.parse, urllib.request
@@ -43,9 +50,35 @@ def get(url, to=None, timeout=1800):
     return to
 
 
+AUTHORS = "https://intactforests.org/shp/IFL_{year}.gpkg"
+
+
 def latest(ds):
-    j = json.loads(get(f"{API}/dataset/{ds}/latest", timeout=120))
-    return j["data"]["version"]
+    """The newest version the dataset lists (its "latest" tag is not set)."""
+    j = json.loads(get(f"{API}/dataset/{ds}", timeout=120))
+    vers = (j.get("data") or {}).get("versions") or []
+    if not vers:
+        raise RuntimeError(f"{ds} lists no versions")
+    return sorted(vers, key=lambda v: [int(x) if x.isdigit() else x for x in __import__("re").split(r"(\d+)", v)])[-1]
+
+
+def from_authors(year, work):
+    """The authors' GeoPackage as one GeoJSON feature per line, every field kept."""
+    import mines
+    gp = get(AUTHORS.format(year=year), work / f"{year}.gpkg", timeout=3600)
+    print(f"ifl {year}: intactforests.org IFL_{year}.gpkg, {gp.stat().st_size / 1e6:.0f} MB", flush=True)
+    lines = work / f"{year}.geojsons"
+    mines.sh("ogr2ogr", "-f", "GeoJSONSeq", "-t_srs", "EPSG:4326", "-lco", "RS=NO", str(lines), str(gp))
+    n, fields = 0, None
+    out = work / f"{year}.y.geojsons"
+    with lines.open() as f, out.open("w") as w:
+        for line in f:
+            ft = json.loads(line)
+            ft["properties"] = dict(ft.get("properties") or {}, year=int(year))
+            fields = fields or [k for k in ft["properties"] if k != "year"]
+            w.write(json.dumps(ft) + "\n")
+            n += 1
+    return out, n, fields or []
 
 
 def tile(src, out, top):
@@ -60,6 +93,17 @@ def tile(src, out, top):
 
 
 def one(year, work, stamp):
+    try:
+        lines, n, fields = from_authors(year, work)
+        if not n:
+            raise RuntimeError("no shapes in the GeoPackage")
+        top = tile(lines, TILES / f"ifl_{year}.pmtiles", 10)
+        stamp[year] = {"from": AUTHORS.format(year=year), "shapes": n, "fields": fields, "to_zoom": top,
+                       "bytes": (TILES / f"ifl_{year}.pmtiles").stat().st_size}
+        print(f"ifl {year}: {n} landscapes, zooms 0 to {top}", flush=True)
+        return
+    except Exception as e:  # noqa: BLE001
+        print(f"ifl {year}: authors' copy not used ({e}); trying Global Forest Watch", flush=True)
     ds = f"ifl_intact_forest_landscapes_{year}"
     ver = latest(ds)
     url = f"{API}/dataset/{ds}/{ver}/download/csv?" + urllib.parse.urlencode({"sql": "SELECT * FROM data", "x-api-key": KEY})

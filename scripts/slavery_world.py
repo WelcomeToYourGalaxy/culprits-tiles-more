@@ -24,15 +24,24 @@ possible).
   slavery_world/build.json: what was read, the file's columns, what could not
   be placed.
 
+Round 111b (29 September): UNODC moved its data portal to data.unodc.org;
+the file is now at .../files/<year-month>/data_glotip.xlsx, linked from the
+page datareport/tip-victims, which is read for the link each time (the old
+address answered with a web page, not the file). CBP's site refused the
+build's plain request (403); it is now asked the way a browser asks, and if it
+still refuses, the last copy is kept and the run does not fail on CBP alone
+(slavery_world/build.json says so).
+
 Weekly (Mondays) or by hand.
 """
 import datetime, html, io, json, os, pathlib, re, subprocess, sys, urllib.parse, urllib.request
 
 OUT = pathlib.Path("slavery_world")
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
-UNODC_FILES = ["https://dataunodc.un.org/sites/dataunodc.un.org/files/data_glotip.xlsx",
+UNODC_FILES = ["https://data.unodc.org/sites/dataportal.unodc.org/files/2025-11/data_glotip.xlsx",
+               "https://dataunodc.un.org/sites/dataunodc.un.org/files/data_glotip.xlsx",
                "https://data.unodc.org/sites/data.unodc.org/files/data_glotip.xlsx"]
-UNODC_PAGES = ["https://dataunodc.un.org/dp-trafficking-persons", "https://data.unodc.org/dp-trafficking-persons",
+UNODC_PAGES = ["https://data.unodc.org/datareport/tip-victims", "https://dataunodc.un.org/dp-trafficking-persons", "https://data.unodc.org/dp-trafficking-persons",
                "https://www.unodc.org/unodc/en/data-and-analysis/glotip.html"]
 CBP = "https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings"
 NE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
@@ -67,27 +76,42 @@ def unodc(status):
     for page in UNODC_PAGES:
         try:
             body = get(page, 120).decode("utf-8", "replace")
-            urls += [urllib.parse.urljoin(page, h) for h in re.findall(r'href="([^"]+\.xlsx?)"', body, re.I)]
+            found = [urllib.parse.urljoin(page, h) for h in re.findall(r'href="([^"]+\.xlsx?)"', body, re.I)]
+            # The trafficking file first (the page also links a regions table).
+            urls[:0] = [u for u in found if "glotip" in u.lower()]
+            urls += [u for u in found if "glotip" not in u.lower()]
         except Exception as e:  # noqa: BLE001
             status.setdefault("pages", {})[page] = str(e)
     wb = None
     for u in dict.fromkeys(urls):
         try:
-            wb = openpyxl.load_workbook(io.BytesIO(get(u)), read_only=True, data_only=True)
+            body = get(u)
+            if body[:2] != b"PK":
+                raise RuntimeError(f"not an xlsx file (starts {body[:40]!r})")
+            wb = openpyxl.load_workbook(io.BytesIO(body), read_only=True, data_only=True)
             status["unodc_file"] = u
             break
         except Exception as e:  # noqa: BLE001
             status.setdefault("tried", {})[u] = str(e)
     if not wb:
         raise RuntimeError("no UNODC trafficking file could be read")
-    ws = wb.worksheets[0]
-    rows = [[("" if c is None else str(c).strip()) for c in r] for r in ws.iter_rows(values_only=True)]
-    hi = next(i for i, r in enumerate(rows[:30]) if any(re.search(r"iso", c, re.I) for c in r))
+    # The sheet whose heading row names an ISO code column (the file may open
+    # on a notes sheet).
+    rows, hi = None, None
+    for ws in wb.worksheets:
+        rs = [[("" if c is None else str(c).strip()) for c in r] for r in ws.iter_rows(values_only=True)]
+        h = next((i for i, r in enumerate(rs[:30]) if any(re.search(r"iso", c, re.I) for c in r)), None)
+        status.setdefault("unodc_sheets", {})[ws.title] = rs[h] if h is not None else rs[:3]
+        if h is not None:
+            rows, hi = rs, h
+            break
+    if rows is None:
+        raise RuntimeError("no sheet with an ISO code column; the sheets' first rows are in build.json")
     head = [h.lower() for h in rows[hi]]
     status["unodc_columns"] = rows[hi]
     col = lambda *pats: next((j for j, h in enumerate(head) for p in pats if re.search(p, h)), None)
     ci, ind, dim, cat, sex, age, yr, val = (col(r"iso"), col(r"^indicator"), col(r"^dimension"), col(r"^category"), col(r"^sex"),
-                                             col(r"^age"), col(r"^year"), col(r"^value", r"^obs"))
+                                             col(r"^age"), col(r"^year"), col(r"^value", r"^obs", r"^txtvalue", r"value$"))
     tot = lambda r, j: j is None or r[j].lower() in ("total", "", "all")
     out, seen = {}, {}
     for r in rows[hi + 1:]:
@@ -130,8 +154,20 @@ def unodc(status):
     status["unodc_series"] = dict(sorted(seen.items(), key=lambda kv: -kv[1])[:60])
 
 
+BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9"}
+
+
 def cbp(status, names, labels):
-    page = get(CBP, 120).decode("utf-8", "replace")
+    try:
+        page = urllib.request.urlopen(urllib.request.Request(CBP, headers=BROWSER), timeout=120).read().decode("utf-8", "replace")
+    except Exception as e:  # noqa: BLE001
+        kept = (OUT / "cbp_forced_labor.geojson").exists()
+        status["cbp"] = {"not_read": str(e), "kept_last_copy": kept}
+        print(f"slavery_world: CBP: {e}; " + ("the last copy is kept" if kept else "no copy yet"), flush=True)
+        # A refusal by CBP's site is not a fault in this build: it is
+        # written down and the rest is kept.
+        return
     feats, unplaced = [], []
     # Each table sits under a heading naming the country (and whether WROs or Findings).
     for m in re.finditer(r"<table[\s\S]*?</table>", page, re.I):

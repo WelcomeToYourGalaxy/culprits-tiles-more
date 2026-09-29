@@ -196,9 +196,12 @@ def imf():
         if "_v" not in rec:
             continue
         f = {"value": rec["_v"], "unit": "% of GDP", "year": rec["_y"]}
-        for k, (y, v) in sorted(rec.items()):
+        # Round 111b: "_y" and "_v" are plain values, not (year, value)
+        # pairs; unpacking them before skipping them stopped the IMF build.
+        for k, yv in sorted(rec.items()):
             if k.startswith("_"):
                 continue
+            y, v = yv
             f[f"x_{k}, {y}"] = v
         final[iso] = f
     if not final:
