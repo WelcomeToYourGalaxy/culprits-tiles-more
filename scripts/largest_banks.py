@@ -18,8 +18,11 @@ from.
        - central banks: left out (the map has its own central banks layer);
          listed in the build file;
        - development banks (a kind of "development bank" or "multilateral
-         development bank"): every one with a figure, in
-         banks/development.geojson;
+         development bank"): every one, in banks/development.geojson. Round
+         105b (asked 28 September: only two were on the map): every item
+         Wikidata files under those kinds is taken, not only those with a
+         total assets figure over a billion; one with no figure is kept,
+         unranked, and its box says so;
        - the other banks (a kind of bank, Q22687): the largest TOP, in
          banks/largest.geojson.
      Items that are none of these are listed in the build file. The classes
@@ -28,8 +31,11 @@ from.
      For each, from Wikidata: name, kinds (P31), headquarters (P159) and its
      coordinates (P625, on the headquarters item or on the statement), country
      (P17), employees (P1128), founded (P571), website (P856), stock exchange
-     (P414), parent (P749), owner (P127), chief executive (P169). A bank whose
-     headquarters Wikidata gives no coordinates for is listed, not placed.
+     (P414), parent (P749), owner (P127), chief executive (P169). Placed at
+     its headquarters' coordinates; where Wikidata gives none, at the item's
+     own coordinates (P625); and failing that (round 105b) at its country's
+     capital, and its box says which. One with none of these is listed, not
+     placed.
 
 Writes banks/largest.geojson, banks/development.geojson and banks/largest.build.json. Weekly;
 BANKS_REBUILD=1 builds again.
@@ -47,7 +53,9 @@ BANK = "Q22687"
 
 def main():
     stamp = OUT / "largest.build.json"
-    if stamp.exists() and time.time() - stamp.stat().st_mtime < WEEK and not os.environ.get("BANKS_REBUILD"):
+    # Round 105b: a build from before every development bank was taken is done again at once.
+    older = not stamp.exists() or json.loads(stamp.read_text() or "{}").get("version", 1) < 2
+    if not older and time.time() - stamp.stat().st_mtime < WEEK and not os.environ.get("BANKS_REBUILD"):
         print("largest banks: built less than a week ago")
         return
     print("largest banks: reading total assets statements from Wikidata", flush=True)
@@ -149,6 +157,18 @@ SELECT DISTINCT ?item ?k WHERE {{ VALUES ?item {{ {values} }} VALUES ?k {{ {kind
         time.sleep(2)
     if not top:
         raise SystemExit("largest banks: no bank found; nothing written")
+    # Round 105b: every development bank Wikidata has, figure or not.
+    have = {c["qid"] for c in dev} | {c["qid"] for c in central_out}
+    dkinds = " ".join(f"wd:{q}" for q in sorted(devel))
+    extra = []
+    for b in sparql(f"""
+SELECT DISTINCT ?item WHERE {{ VALUES ?k {{ {dkinds} }} ?item wdt:P31/wdt:P279* ?k . }}"""):
+        q = qid(val(b, "item"))
+        if q and q not in have and re.match(r"^Q\d+$", q):
+            have.add(q)
+            extra.append({"qid": q, "usd": None, "amount": None, "code": None, "year": None, "rate": None, "rate_source": None})
+    print(f"  development banks: {len(dev)} with a figure, {len(extra)} more without one", flush=True)
+    dev += extra
 
     fields = (("kind", "kindLabel"), ("hq", "hqLabel"), ("country", "countryLabel"), ("employees", "employees"),
               ("founded", "founded"), ("website", "site"), ("exchange", "exchangeLabel"), ("parent", "parentLabel"),
@@ -160,11 +180,12 @@ SELECT DISTINCT ?item ?k WHERE {{ VALUES ?item {{ {values} }} VALUES ?k {{ {kind
         chunk = items[i:i + 50]
         values = " ".join(f"wd:{c['qid']}" for c in chunk)
         res = sparql(f"""
-SELECT ?item ?itemLabel ?kindLabel ?hqLabel ?coord ?stcoord ?countryLabel ?employees ?founded ?site ?exchangeLabel ?parentLabel ?ownerLabel ?ceoLabel WHERE {{
+SELECT ?item ?itemLabel ?itemDescription ?kindLabel ?hqLabel ?coord ?stcoord ?own ?capcoord ?capLabel ?countryLabel ?employees ?founded ?site ?exchangeLabel ?parentLabel ?ownerLabel ?ceoLabel WHERE {{
   VALUES ?item {{ {values} }}
   OPTIONAL {{ ?item wdt:P31 ?kind }}
   OPTIONAL {{ ?item p:P159 ?hqs . ?hqs ps:P159 ?hq . OPTIONAL {{ ?hq wdt:P625 ?coord }} OPTIONAL {{ ?hqs pq:P625 ?stcoord }} }}
-  OPTIONAL {{ ?item wdt:P17 ?country }}
+  OPTIONAL {{ ?item wdt:P17 ?country . OPTIONAL {{ ?country wdt:P36 ?cap . ?cap wdt:P625 ?capcoord }} }}
+  OPTIONAL {{ ?item wdt:P625 ?own }}
   OPTIONAL {{ ?item wdt:P1128 ?employees }}
   OPTIONAL {{ ?item wdt:P571 ?founded }}
   OPTIONAL {{ ?item wdt:P856 ?site }}
@@ -176,24 +197,44 @@ SELECT ?item ?itemLabel ?kindLabel ?hqLabel ?coord ?stcoord ?countryLabel ?emplo
 }}""")
         info = {}
         for b in res:
-            d = info.setdefault(qid(val(b, "item")), {"name": val(b, "itemLabel"), "coord": None, **{k: set() for k, _ in fields}})
+            d = info.setdefault(qid(val(b, "item")), {"name": val(b, "itemLabel"), "about": val(b, "itemDescription"), "coord": None, "own": None,
+                                                      "cap": None, "capname": None, **{k: set() for k, _ in fields}})
             for k, f in fields:
                 if val(b, f):
                     d[k].add(val(b, f)[:10] if k == "founded" else val(b, f))
             c = val(b, "stcoord") or val(b, "coord")
             if c and not d["coord"]:
                 d["coord"] = c
+            if val(b, "own") and not d["own"]:
+                d["own"] = val(b, "own")
+            if val(b, "capcoord") and not d["cap"]:
+                d["cap"], d["capname"] = val(b, "capcoord"), val(b, "capLabel")
         for n, c in enumerate(chunk, i + 1):
+            if c["usd"] is None:
+                n = None
             d = info.get(c["qid"], {"name": c["qid"]})
-            props = {"rank": n, "name": d.get("name") or c["qid"],
-                     "total_assets_in_dollars": f"${c['usd'] / 1e9:,.1f} billion", "total_assets_usd": round(c["usd"]),
-                     "total_assets": c["amount"], "total_assets_currency": c["code"], "total_assets_year": c["year"],
-                     "usd_rate": c["rate"], "usd_rate_source": c["rate_source"],
-                     "wikidata": f"https://www.wikidata.org/wiki/{c['qid']}"}
+            if c["usd"] is not None:
+                props = {"rank": n, "name": d.get("name") or c["qid"],
+                         "total_assets_in_dollars": f"${c['usd'] / 1e9:,.1f} billion", "total_assets_usd": round(c["usd"]),
+                         "total_assets": c["amount"], "total_assets_currency": c["code"], "total_assets_year": c["year"],
+                         "usd_rate": c["rate"], "usd_rate_source": c["rate_source"],
+                         "wikidata": f"https://www.wikidata.org/wiki/{c['qid']}"}
+            else:
+                props = {"name": d.get("name") or c["qid"], "total_assets_in_dollars": "no total assets figure in Wikidata",
+                         "wikidata": f"https://www.wikidata.org/wiki/{c['qid']}"}
+            if d.get("about"):
+                props["about"] = d["about"]
             for k, _ in fields:
                 if d.get(k):
                     props[k] = "; ".join(sorted(d[k]))
-            m = d.get("coord") and re.match(r"Point\(([-\d.eE]+) ([-\d.eE]+)\)", d["coord"])
+            pt = lambda s: s and re.match(r"Point\(([-\d.eE]+) ([-\d.eE]+)\)", s)
+            m = pt(d.get("coord"))
+            if m:
+                props["placed_at"] = "its headquarters"
+            elif pt(d.get("own")):
+                m, props["placed_at"] = pt(d.get("own")), "the coordinates Wikidata gives the bank itself"
+            elif pt(d.get("cap")):
+                m, props["placed_at"] = pt(d.get("cap")), f"its country's capital, {d.get('capname') or ''} (Wikidata gives no headquarters position)".replace(",  (", " (")
             if not m:
                 unplaced.append({"rank": n, "name": props["name"], "wikidata": props["wikidata"]})
                 continue
@@ -208,7 +249,7 @@ SELECT ?item ?itemLabel ?kindLabel ?hqLabel ?coord ?stcoord ?countryLabel ?emplo
     OUT.mkdir(exist_ok=True)
     (OUT / "largest.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
     (OUT / "development.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": dfeats}, ensure_ascii=False))
-    stamp.write_text(json.dumps({"ranked": len(ranked), "classes": {k: sorted(v) for k, v in classes.items()},
+    stamp.write_text(json.dumps({"version": 2, "ranked": len(ranked), "classes": {k: sorted(v) for k, v in classes.items()},
                                  "top": len(top), "placed": len(feats), "not_placed": unplaced,
                                  "development_banks": len(dev), "development_placed": len(dfeats), "development_not_placed": dunplaced,
                                  "central_banks_left_out": brief(central_out),

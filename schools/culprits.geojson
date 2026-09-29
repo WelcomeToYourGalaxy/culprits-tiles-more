@@ -342,6 +342,473 @@
     "placed at": "headquarters, Paris",
     "source": "https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.1218,
+     52.2053
+    ]
+   },
+   "properties": {
+    "name": "Cambridge International Education (Cambridge Assessment, University of Cambridge)",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Its exams (Cambridge IGCSE, International AS and A Levels) are taught in over 10,000 schools in more than 160 countries, to nearly two million students a year.",
+    "when": "1858 on",
+    "placed at": "Cambridge, England (the city)",
+    "source": "https://www.cambridgeinternational.org/Images/556861-cambridge-facts-and-figures.pdf",
+    "source 2": "https://en.wikipedia.org/wiki/Cambridge_International_Education"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.1432,
+     46.2044
+    ]
+   },
+   "properties": {
+    "name": "International Baccalaureate",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Its programmes ran in 6,234 schools in more than 160 countries and territories on 1 September 2022; the United States has the most.",
+    "when": "1968 on",
+    "placed at": "Geneva (the city)",
+    "source": "https://en.wikipedia.org/wiki/International_Baccalaureate"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.9988,
+     39.9612
+    ]
+   },
+   "properties": {
+    "name": "McGraw Hill",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "Sold by Apollo's funds to Platinum Equity for $4.5 billion in 2021; listed on the New York Stock Exchange in July 2025, with Platinum still its largest shareholder. Since June 2025 it builds Pearson's PRoPL tests into its K-12 courses (a partnership, not a merger).",
+    "when": "1888 on",
+    "placed at": "Columbus, Ohio (the city)",
+    "source": "https://www.platinumequity.com/news/platinum-equity-completes-acquisition-of-mcgraw-hill-for-4-5-billion/",
+    "source 2": "https://www.platinumequity.com/news/mcgraw-hill-now-trading-on-the-new-york-stock-exchange/",
+    "source 3": "https://www.mheducation.com/about-us/news-insights/press-releases/in-new-collaboration-mcgraw-hill-to-integrate-pearson-assessment-capabilities-into-its-k-12-programs.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.0589,
+     42.3601
+    ]
+   },
+   "properties": {
+    "name": "Houghton Mifflin Harcourt (HMH)",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "Taken private by Veritas Capital for about $2.8 billion in April 2022; bought NWEA, maker of the MAP Growth tests, in May 2023, and says it reaches over 50 million students. In 2007 analysts estimated that Houghton Mifflin, Harcourt, Pearson and McGraw-Hill together made 80 to 85 per cent of US K-12 textbook sales.",
+    "when": "1832 on",
+    "placed at": "Boston (the city)",
+    "source": "https://www.veritascapital.com/houghton-mifflin-harcourt-to-be-acquired-by-veritas-capital/",
+    "source 2": "https://www.veritascapital.com/hmh-completes-acquisition-of-nwea-2/",
+    "source 3": "https://www.edweek.org/teaching-learning/harcourt-sale-would-spawn-big-3-of-texts/2007/07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.057,
+     42.355
+    ]
+   },
+   "properties": {
+    "name": "Cengage Group",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "Textbook and online course publisher, controlled by Apax Partners since Apax and OMERS bought it for $7.75 billion in 2007; Apollo's funds put $500 million into it in 2023.",
+    "when": "2007 on",
+    "placed at": "Boston (the city)",
+    "source": "https://en.wikipedia.org/wiki/Cengage",
+    "source 2": "https://www.cengagegroup.com/news/press-releases/2023/cengage-group-announces-investment-from-apollo-funds/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.9749,
+     40.764
+    ]
+   },
+   "properties": {
+    "name": "Apollo Global Management",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "Bought McGraw-Hill Education for $2.4 billion in 2013 (sold it on in 2021); led the $1.14 billion purchase of Apollo Education Group, owner of the University of Phoenix, in 2017; put $500 million into Cengage in 2023.",
+    "when": "2013 on",
+    "placed at": "head office, 9 West 57th Street, New York",
+    "source": "https://en.wikipedia.org/wiki/McGraw_Hill",
+    "source 2": "https://en.wikipedia.org/wiki/Apollo_Education_Group",
+    "source 3": "https://www.cengagegroup.com/news/press-releases/2023/cengage-group-announces-investment-from-apollo-funds/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.0019,
+     40.7538
+    ]
+   },
+   "properties": {
+    "name": "KKR",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "With Dragoneer, bought Instructure, maker of the Canvas learning system used by schools and universities, in November 2024, valuing it at about $4.8 billion.",
+    "when": "2024 on",
+    "placed at": "head office, 30 Hudson Yards, New York",
+    "source": "https://www.instructure.com/press-release/kkr-and-dragoneer-complete-acquisition-instructure"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.9727,
+     40.7577
+    ]
+   },
+   "properties": {
+    "name": "Blackstone",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "Made a large investment in Renaissance Learning in 2021, a K-12 testing and software company that says it is in more than 40 per cent of US schools.",
+    "when": "2021 on",
+    "placed at": "head office, 345 Park Avenue, New York",
+    "source": "https://www.blackstone.com/news/press/renaissance-announces-significant-growth-investment-from-blackstone/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.006,
+     40.7128
+    ]
+   },
+   "properties": {
+    "name": "Veritas Capital",
+    "group": "Textbook and test publishers and the investment firms that own them",
+    "what they did": "Owns Houghton Mifflin Harcourt (taken private for about $2.8 billion in 2022) and, through it, NWEA's MAP Growth tests (2023).",
+    "when": "2022 on",
+    "placed at": "New York (the city)",
+    "source": "https://www.veritascapital.com/houghton-mifflin-harcourt-to-be-acquired-by-veritas-capital/",
+    "source 2": "https://www.veritascapital.com/hmh-completes-acquisition-of-nwea-2/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.1301,
+     47.6423
+    ]
+   },
+   "properties": {
+    "name": "Microsoft",
+    "group": "Tech and AI companies moving into classrooms",
+    "what they did": "Lead funder ($12.5 million of $23 million) of the American Federation of Teachers' National Academy for AI Instruction (2025); one of the more than 60 first signers of the White House pledge on AI in schools (June 2025).",
+    "when": "2025 on",
+    "placed at": "head office, Redmond, Washington",
+    "source": "https://time.com/7301335/ai-education-microsoft-openai-anthropic/",
+    "source 2": "https://www.aft.org/press-release/aft-launch-national-academy-ai-instruction-microsoft-openai-anthropic-and-united"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.4194,
+     37.7749
+    ]
+   },
+   "properties": {
+    "name": "OpenAI",
+    "group": "Tech and AI companies moving into classrooms",
+    "what they did": "Put $10 million into the American Federation of Teachers' National Academy for AI Instruction (2025), with Microsoft and Anthropic.",
+    "when": "2025 on",
+    "placed at": "San Francisco (the city)",
+    "source": "https://time.com/7301335/ai-education-microsoft-openai-anthropic/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.009,
+     37.3349
+    ]
+   },
+   "properties": {
+    "name": "Apple",
+    "group": "Tech and AI companies moving into classrooms",
+    "what they did": "One of the more than 60 first signers of the White House 'Pledge to America's Youth: Investing in AI Education' (30 June 2025), which commits signers to funding, lessons and training for schools over four years.",
+    "when": "2025 on",
+    "placed at": "head office, Cupertino, California",
+    "source": "https://www.edtechinnovationhub.com/news/white-house-ai-pledge-backed-by-60-organizations-including-big-hitters-amazon-and-google",
+    "source 2": "https://www.whitehouse.gov/releases/2025/06/60-organizations-sign-white-house-pledge-to-support-americas-youth-and-invest-in-ai-education/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.3388,
+     47.6155
+    ]
+   },
+   "properties": {
+    "name": "Amazon",
+    "group": "Tech and AI companies moving into classrooms",
+    "what they did": "One of the more than 60 first signers of the White House 'Pledge to America's Youth: Investing in AI Education' (30 June 2025).",
+    "when": "2025 on",
+    "placed at": "head office, Seattle",
+    "source": "https://www.edtechinnovationhub.com/news/white-house-ai-pledge-backed-by-60-organizations-including-big-hitters-amazon-and-google",
+    "source 2": "https://www.whitehouse.gov/releases/2025/06/60-organizations-sign-white-house-pledge-to-support-americas-youth-and-invest-in-ai-education/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3063,
+     48.8497
+    ]
+   },
+   "properties": {
+    "name": "UNESCO (Global Education Coalition)",
+    "group": "Global bodies opening schooling to business",
+    "what they did": "Set up its Global Education Coalition in March 2020, as schools closed for COVID, with Microsoft, Google, Facebook, Zoom, KPMG, Coursera and others as members supplying technology.",
+    "when": "2020 on",
+    "placed at": "head office, place de Fontenoy, Paris",
+    "source": "https://reliefweb.int/report/world/unesco-rallies-international-organizations-civil-society-and-private-sector-partners"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.0369,
+     38.9072
+    ]
+   },
+   "properties": {
+    "name": "Global Partnership for Education",
+    "group": "Global bodies opening schooling to business",
+    "what they did": "Counts Cisco, Google, Microsoft, Vodacom, Econet Wireless, Ecobank and Standard Bank as partners, with business represented on its board. A 2023 Transnational Institute report argues that such arrangements lead to privatisation and a 'democratic deficit'.",
+    "when": "2002 on",
+    "placed at": "Washington, DC (the city)",
+    "source": "https://www.globalpartnership.org/who-we-are/partners/private-sector",
+    "source 2": "https://www.tni.org/en/publication/multistakeholderism-in-global-education-governance"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.1167,
+     42.377
+    ]
+   },
+   "properties": {
+    "name": "Harvard University",
+    "group": "Elite universities that train the ruling class",
+    "what they did": "Endowment of $56.9 billion (fiscal 2025). Said in 2021 it would make no new direct investments in fossil fuel companies, letting its older holdings run off.",
+    "when": "1636 on",
+    "placed at": "Cambridge, Massachusetts",
+    "source": "https://www.thecrimson.com/article/2025/10/17/harvard-financial-report-2025/",
+    "source 2": "https://www.npr.org/2021/09/10/1035901596/harvard-university-end-investment-fossil-fuel-industry-climate-change-activism"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.9223,
+     41.3163
+    ]
+   },
+   "properties": {
+    "name": "Yale University",
+    "group": "Elite universities that train the ruling class",
+    "what they did": "Endowment of $44.1 billion (30 June 2025). Has not divested from fossil fuels as a whole: it leaves out a list of companies (mostly coal and climate misinformation) and stays invested in others.",
+    "when": "1701 on",
+    "placed at": "New Haven, Connecticut",
+    "source": "https://news.yale.edu/2025/10/24/yale-reports-investment-return-fiscal-2025",
+    "source 2": "https://yaledailynews.com/blog/2021/09/14/harvard-vows-to-pull-investments-from-fossil-fuel-industry-leaving-yale-behind"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.2577,
+     51.752
+    ]
+   },
+   "properties": {
+    "name": "University of Oxford",
+    "group": "Elite universities that train the ruling class",
+    "what they did": "Educated 31 UK prime ministers, 13 of them at Christ Church.",
+    "when": "c. 1096 on",
+    "placed at": "Oxford",
+    "source": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_United_Kingdom_by_education"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.1167,
+     52.2043
+    ]
+   },
+   "properties": {
+    "name": "University of Cambridge",
+    "group": "Elite universities that train the ruling class",
+    "what they did": "Educated 15 UK prime ministers, six of them at Trinity College.",
+    "when": "1209 on",
+    "placed at": "Cambridge, England",
+    "source": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_United_Kingdom_by_education"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3284,
+     48.8541
+    ]
+   },
+   "properties": {
+    "name": "Sciences Po",
+    "group": "Elite universities that train the ruling class",
+    "what they did": "Six presidents of France's Fifth Republic studied there: Pompidou, Mitterrand, Chirac, Sarkozy, Hollande and Macron.",
+    "when": "1872 on",
+    "placed at": "rue Saint-Guillaume, Paris",
+    "source": "https://en.wikipedia.org/wiki/List_of_Sciences_Po_people"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.7521,
+     48.5734
+    ]
+   },
+   "properties": {
+    "name": "ÉNA (École nationale d'administration), now INSP",
+    "group": "Elite universities that train the ruling class",
+    "what they did": "Trained four French presidents (Giscard d'Estaing, Chirac, Hollande, Macron) and eight prime ministers. Abolished at the end of 2021 and replaced on 1 January 2022 by the Institut national du service public.",
+    "when": "1945 to 2021",
+    "placed at": "Strasbourg",
+    "source": "https://en.wikipedia.org/wiki/Institut_national_du_service_public",
+    "source 2": "https://thenationalpolicy.com/macron-to-close-elite-school-that-hothouses-french-leaders/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.8265,
+     33.6846
+    ]
+   },
+   "properties": {
+    "name": "Corinthian Colleges",
+    "group": "Degrees sold, not earned: predatory colleges and diploma mills",
+    "what they did": "For-profit college chain that closed in 2015 after actions over falsified job placement rates; in 2022 the US government cancelled $5.8 billion of its 560,000 former students' loans.",
+    "when": "1995 to 2015",
+    "placed at": "Irvine, California",
+    "source": "https://en.wikipedia.org/wiki/Corinthian_Colleges",
+    "source 2": "https://www.wusf.org/2022-06-02/u-s-will-forgive-5-8-billion-of-loans-to-corinthian-colleges-students"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.074,
+     33.4484
+    ]
+   },
+   "properties": {
+    "name": "University of Phoenix",
+    "group": "Degrees sold, not earned: predatory colleges and diploma mills",
+    "what they did": "Paid a record $191 million FTC settlement in 2019 ($50 million in cash and $141 million of student debt cancelled) over ads falsely claiming job partnerships with Microsoft, AT&T, Twitter and others. Owned from 2017 by a group led by Apollo's funds.",
+    "when": "1976 on",
+    "placed at": "Phoenix, Arizona",
+    "source": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-obtains-record-191-million-settlement-university-phoenix-resolve-ftc-charges-it-used-deceptive"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.009,
+     40.7069
+    ]
+   },
+   "properties": {
+    "name": "Trump University",
+    "group": "Degrees sold, not earned: predatory colleges and diploma mills",
+    "what they did": "Settled the fraud lawsuits brought by its former students for $25 million (agreed 2016, final 2018).",
+    "when": "2005 to 2010",
+    "placed at": "New York (the city)",
+    "source": "https://www.nbcnews.com/politics/white-house/federal-court-approves-25-million-trump-university-settlement-n845181"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.0011,
+     24.8607
+    ]
+   },
+   "properties": {
+    "name": "Axact",
+    "group": "Degrees sold, not earned: predatory colleges and diploma mills",
+    "what they did": "Ran at least 370 websites for fake universities and accreditors, taking money from over 215,000 people in 197 countries (New York Times investigation, 2015).",
+    "when": "to 2015",
+    "placed at": "Karachi",
+    "source": "https://en.wikipedia.org/wiki/Axact"
+   }
   }
  ]
 }

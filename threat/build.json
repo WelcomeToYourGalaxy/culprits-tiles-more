@@ -1,0 +1,17 @@
+{
+ "figures": {
+  "flora crimes (Global Organized Crime Index 2025, 1 to 10)": 190,
+  "fauna crimes (Global Organized Crime Index 2025, 1 to 10)": 190,
+  "non-renewable resource crimes (Global Organized Crime Index 2025, 1 to 10)": 190,
+  "fossil fuel subsidies, % of GDP (IMF)": "not yet copied by public_harm.py",
+  "carbon dioxide per person": "comes with the first daily run (this first copy was made without it)",
+  "liberal democracy index": "comes with the first daily run (this first copy was made without it)",
+  "human trafficking (Global Organized Crime Index 2025, 1 to 10)": 190,
+  "land and environmental defenders killed or disappeared (Global Witness)": 63,
+  "people in modern slavery per 1,000 (Walk Free estimate)": 160,
+  "criminality (Global Organized Crime Index 2025, 1 to 10)": 190,
+  "resilience to organised crime, turned round (Global Organized Crime Index 2025, 1 to 10)": 190
+ },
+ "countries": 190,
+ "date": "2026-09-28"
+}

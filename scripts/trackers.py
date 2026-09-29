@@ -21,7 +21,7 @@ terms do:
 
 Runs daily; each part keeps its last good copy if its source does not answer.
 """
-import csv, io, json, pathlib, re, sys, time, urllib.request, zipfile
+import math, csv, io, json, pathlib, re, sys, time, urllib.request, zipfile
 
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas daily copy; welcometoyourgalaxy@gmail.com)", "Accept-Encoding": "identity"}
 OUT = pathlib.Path("trackers")
@@ -105,6 +105,10 @@ def policy_rates():
             x = float(val)
         except ValueError:
             continue
+        # Round 105b: BIS writes "NaN" for months with no rate; JSON has no NaN,
+        # and a browser refused the whole file ("unexpected token").
+        if not math.isfinite(x):
+            continue
         b = banks.setdefault(code, {"name": nm, "iso3": ISO2TO3.get(code), "rates": {}})
         b["rates"][period] = x
         months.add(period)
@@ -127,7 +131,7 @@ def policy_rates():
     (OUT / "policy_rates.json").write_text(json.dumps({
         "read": time.strftime("%Y-%m-%d", time.gmtime()), "source": src,
         "credit": "Source: Bank for International Settlements, central bank policy rates (WS_CBPOL)",
-        "months": sorted(months), "banks": banks, "countries": shade}, ensure_ascii=False, separators=(",", ":")))
+        "months": sorted(months), "banks": banks, "countries": shade}, ensure_ascii=False, separators=(",", ":"), allow_nan=False))
     print(f"policy_rates: {len(banks)} central banks, {len(months)} months, {len(shade)} countries shaded")
 
 
