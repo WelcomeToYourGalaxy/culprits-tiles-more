@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "TOBA"
+ ],
+ "hectares": 3107450.0,
+ "to_zoom": 5,
+ "squares": 203,
+ "bytes": 418165,
+ "how": "max"
+}

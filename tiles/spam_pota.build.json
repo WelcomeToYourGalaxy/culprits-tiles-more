@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "POTA"
+ ],
+ "hectares": 16842100.0,
+ "to_zoom": 5,
+ "squares": 320,
+ "bytes": 730931,
+ "how": "max"
+}

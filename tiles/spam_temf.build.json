@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "TEMF"
+ ],
+ "hectares": 24858212.0,
+ "to_zoom": 5,
+ "squares": 312,
+ "bytes": 734823,
+ "how": "max"
+}

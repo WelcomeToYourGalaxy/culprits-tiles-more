@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "RICE"
+ ],
+ "hectares": 109475664.0,
+ "to_zoom": 5,
+ "squares": 207,
+ "bytes": 577886,
+ "how": "max"
+}

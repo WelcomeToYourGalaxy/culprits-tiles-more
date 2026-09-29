@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "PMIL"
+ ],
+ "hectares": 22598054.0,
+ "to_zoom": 5,
+ "squares": 98,
+ "bytes": 221410,
+ "how": "max"
+}

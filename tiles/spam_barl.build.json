@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "BARL"
+ ],
+ "hectares": 50146692.0,
+ "to_zoom": 5,
+ "squares": 266,
+ "bytes": 669530,
+ "how": "max"
+}
