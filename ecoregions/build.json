@@ -1,0 +1,7 @@
+{
+ "from": "https://storage.googleapis.com/teow2016/Ecoregions2017.zip",
+ "file": "Ecoregions2017.shp",
+ "ecoregions": 847,
+ "to_zoom": 9,
+ "bytes": 64065813
+}
