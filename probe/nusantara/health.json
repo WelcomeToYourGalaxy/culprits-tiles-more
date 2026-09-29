@@ -1,0 +1,1790 @@
+{
+ "atlas-workspace-v3:Global_AllExpansionRGB_2000to2024": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.84174941678774,
+   "eastBoundLongitude": 157.03800058321227,
+   "southBoundLatitude": -11.65550011339403,
+   "northBoundLatitude": 15.912499886605971
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "raster"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.8,
+    "bytes": 8068,
+    "type": "image/png",
+    "drawn": 0.0018,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 14137,
+    "type": "image/png",
+    "drawn": 0.0084,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 1.1,
+    "bytes": 62200,
+    "type": "image/png",
+    "drawn": 0.1022,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.8,
+    "bytes": 8209,
+    "type": "image/png",
+    "drawn": 0.0045,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_AllExpansionRGB_2000to2025": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.88874941645173,
+   "eastBoundLongitude": 157.0840005835483,
+   "southBoundLatitude": -11.762250113748678,
+   "northBoundLatitude": 15.962249886251321
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "raster"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.7,
+    "bytes": 7975,
+    "type": "image/png",
+    "drawn": 0.0017,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 14225,
+    "type": "image/png",
+    "drawn": 0.0085,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 1.3,
+    "bytes": 62755,
+    "type": "image/png",
+    "drawn": 0.1036,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.8,
+    "bytes": 8670,
+    "type": "image/png",
+    "drawn": 0.0053,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_AllExpansion_2000to2025": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.88874941645204,
+   "eastBoundLongitude": 157.08400058354798,
+   "southBoundLatitude": -11.762250113748614,
+   "northBoundLatitude": 15.962249886251385
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "raster"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 4680,
+    "type": "image/png",
+    "drawn": 0.0017,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 7924,
+    "type": "image/png",
+    "drawn": 0.0079,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.8,
+    "bytes": 32149,
+    "type": "image/png",
+    "drawn": 0.0938,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 5243,
+    "type": "image/png",
+    "drawn": 0.0045,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_PlantationAll_2024": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.84174941678774,
+   "eastBoundLongitude": 157.03800058321227,
+   "southBoundLatitude": -11.65550011339403,
+   "northBoundLatitude": 15.912499886605971
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PlantationAll"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 1504,
+    "type": "image/png",
+    "drawn": 0.0018,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 3268,
+    "type": "image/png",
+    "drawn": 0.0084,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 15894,
+    "type": "image/png",
+    "drawn": 0.1022,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 2100,
+    "type": "image/png",
+    "drawn": 0.0045,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_PlantationAll_2025": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.88874941645204,
+   "eastBoundLongitude": 157.08400058354798,
+   "southBoundLatitude": -11.762250113748614,
+   "northBoundLatitude": 15.962249886251385
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PlantationAll"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 1535,
+    "type": "image/png",
+    "drawn": 0.0017,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 3284,
+    "type": "image/png",
+    "drawn": 0.0086,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 1.0,
+    "bytes": 16211,
+    "type": "image/png",
+    "drawn": 0.1032,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 2161,
+    "type": "image/png",
+    "drawn": 0.0054,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_PlantationIOP_2024": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.84174941678774,
+   "eastBoundLongitude": 157.03800058321227,
+   "southBoundLatitude": -11.65550011339403,
+   "northBoundLatitude": 15.912499886605971
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PlantationIOP"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.7,
+    "bytes": 912,
+    "type": "image/png",
+    "drawn": 0.0011,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 1913,
+    "type": "image/png",
+    "drawn": 0.0062,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 8840,
+    "type": "image/png",
+    "drawn": 0.0706,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 1077,
+    "type": "image/png",
+    "drawn": 0.0044,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_PlantationIOP_2025": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.88874941645204,
+   "eastBoundLongitude": 157.08400058354798,
+   "southBoundLatitude": -11.762250113748614,
+   "northBoundLatitude": 15.962249886251385
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PlantationIOP"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 906,
+    "type": "image/png",
+    "drawn": 0.001,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 1954,
+    "type": "image/png",
+    "drawn": 0.0062,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 8963,
+    "type": "image/png",
+    "drawn": 0.0709,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 1077,
+    "type": "image/png",
+    "drawn": 0.0052,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_PlantationSmallholder_2024": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.84174941678774,
+   "eastBoundLongitude": 157.03800058321227,
+   "southBoundLatitude": -11.65550011339403,
+   "northBoundLatitude": 15.912499886605971
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PlantationSmallholder"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 1046,
+    "type": "image/png",
+    "drawn": 0.0004,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 2369,
+    "type": "image/png",
+    "drawn": 0.0006,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 12610,
+    "type": "image/png",
+    "drawn": 0.008,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 1205,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:Global_PlantationSmallholder_2025": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -81.88874941645204,
+   "eastBoundLongitude": 157.08400058354798,
+   "southBoundLatitude": -11.762250113748614,
+   "northBoundLatitude": 15.962249886251385
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PlantationSmallholder"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 1062,
+    "type": "image/png",
+    "drawn": 0.0005,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 2354,
+    "type": "image/png",
+    "drawn": 0.0007,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 12907,
+    "type": "image/png",
+    "drawn": 0.0083,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 1284,
+    "type": "image/png",
+    "drawn": 0.0001,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:REGBRNIDNMYS_Coconut_2020_Descal": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 94.9718681307397,
+   "eastBoundLongitude": 141.02004858387662,
+   "southBoundLatitude": -11.007775828543817,
+   "northBoundLatitude": 7.087707591702912
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:RasterCoconut"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 432,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 667,
+    "type": "image/png",
+    "drawn": 0.0004,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 369,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 369,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:base_sagoindicative": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 129.30206298828125,
+   "eastBoundLongitude": 140.9837646484375,
+   "southBoundLatitude": -7.999497890472412,
+   "northBoundLatitude": -0.075817808508873
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlueDark_transparentOutlineBlueDark_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:concessionhgu_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 95.39707200357014,
+   "eastBoundLongitude": 140.98583610655112,
+   "southBoundLatitude": -10.14712310234927,
+   "northBoundLatitude": 5.62691666447256
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.8,
+    "bytes": 9661,
+    "type": "image/png",
+    "drawn": 0.004,
+    "faint": 0.0004
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 13312,
+    "type": "image/png",
+    "drawn": 0.0085,
+    "faint": 0.0008
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 37314,
+    "type": "image/png",
+    "drawn": 0.0505,
+    "faint": 0.0021
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 14098,
+    "type": "image/png",
+    "drawn": 0.0173,
+    "faint": 0.0003
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:concessioniop_finance_credit": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 104.63002306311392,
+   "eastBoundLongitude": 109.95345768712264,
+   "southBoundLatitude": -5.060340821871364,
+   "northBoundLatitude": -0.263237188045764
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:concessioniop_finance_invest": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 104.63002306311392,
+   "eastBoundLongitude": 109.95345768712264,
+   "southBoundLatitude": -5.060340821871364,
+   "northBoundLatitude": -0.263237188045764
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:concessioniop_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -94.92382816263955,
+   "eastBoundLongitude": 160.28291399978139,
+   "southBoundLatitude": -18.264576150868606,
+   "northBoundLatitude": 18.984441173621292
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.7,
+    "bytes": 11504,
+    "type": "image/png",
+    "drawn": 0.0072,
+    "faint": 0.0005
+   },
+   "4": {
+    "seconds": 0.8,
+    "bytes": 19531,
+    "type": "image/png",
+    "drawn": 0.0205,
+    "faint": 0.0013
+   },
+   "6": {
+    "seconds": 1.0,
+    "bytes": 83999,
+    "type": "image/png",
+    "drawn": 0.1508,
+    "faint": 0.0048
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 16506,
+    "type": "image/png",
+    "drawn": 0.0339,
+    "faint": 0.0005
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:concessionitp_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 95.4211723370338,
+   "eastBoundLongitude": 140.73345718170367,
+   "southBoundLatitude": -10.026139267113422,
+   "northBoundLatitude": 5.625468091379389
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_dash"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 10268,
+    "type": "image/png",
+    "drawn": 0.0031,
+    "faint": 0.0005
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 18794,
+    "type": "image/png",
+    "drawn": 0.0123,
+    "faint": 0.0016
+   },
+   "6": {
+    "seconds": 0.9,
+    "bytes": 63731,
+    "type": "image/png",
+    "drawn": 0.1232,
+    "faint": 0.0084
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 13447,
+    "type": "image/png",
+    "drawn": 0.0164,
+    "faint": 0.0008
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millop_finance_credit": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 99.93463900028974,
+   "eastBoundLongitude": 109.69300000034985,
+   "southBoundLatitude": -4.864730000389102,
+   "northBoundLatitude": 2.222888999927477
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millop_finance_invest": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 99.93463900028974,
+   "eastBoundLongitude": 109.69300000034985,
+   "southBoundLatitude": -4.864730000389102,
+   "northBoundLatitude": 2.222888999927477
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millop_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -94.91766900002426,
+   "eastBoundLongitude": 160.21870000000513,
+   "southBoundLatitude": -18.233432999833042,
+   "northBoundLatitude": 18.978228000422064
+  },
+  "min_scale": null,
+  "max_scale": "2.0E8",
+  "styles": [
+   "atlas-workspace-v3:PointFillRed",
+   "atlas-workspace-v3:PointFillRed_OutlineCyan"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.9,
+    "bytes": 16345,
+    "type": "image/png",
+    "drawn": 0.012,
+    "faint": 0.0006
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 16809,
+    "type": "image/png",
+    "drawn": 0.0156,
+    "faint": 0.0012
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 15677,
+    "type": "image/png",
+    "drawn": 0.0277,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": [
+   [
+    "MaxScaleDenominator",
+    "2.0E8"
+   ],
+   [
+    "MaxScaleDenominator",
+    "5000000.0"
+   ],
+   [
+    "MinScaleDenominator",
+    "5000000.0"
+   ]
+  ]
+ },
+ "atlas-workspace-v3:millopbuffer10km_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -85.99038125003591,
+   "eastBoundLongitude": 150.7750249999641,
+   "southBoundLatitude": -8.828771660233883,
+   "northBoundLatitude": 17.2224063182818
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid",
+   "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+   "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millopbuffer1hr_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -95.47212502544954,
+   "eastBoundLongitude": 160.4354415377968,
+   "southBoundLatitude": -18.52544660307825,
+   "northBoundLatitude": 19.26488076923215
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 1.5,
+    "bytes": 14617,
+    "type": "image/png",
+    "drawn": 0.0106,
+    "faint": 0.0006
+   },
+   "4": {
+    "seconds": 0.9,
+    "bytes": 28285,
+    "type": "image/png",
+    "drawn": 0.0296,
+    "faint": 0.0014
+   },
+   "6": {
+    "seconds": 1.3,
+    "bytes": 134890,
+    "type": "image/png",
+    "drawn": 0.2123,
+    "faint": 0.006
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millopbuffer2hr_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -96.04165691603379,
+   "eastBoundLongitude": 160.6177995404165,
+   "southBoundLatitude": -18.844348528961405,
+   "northBoundLatitude": 19.683750153846574
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 4.0,
+    "bytes": 15828,
+    "type": "image/png",
+    "drawn": 0.0136,
+    "faint": 0.0005
+   },
+   "4": {
+    "seconds": 1.3,
+    "bytes": 37067,
+    "type": "image/png",
+    "drawn": 0.0495,
+    "faint": 0.0015
+   },
+   "6": {
+    "seconds": 1.9,
+    "bytes": 194315,
+    "type": "image/png",
+    "drawn": 0.3474,
+    "faint": 0.0071
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 24584,
+    "type": "image/png",
+    "drawn": 0.0324,
+    "faint": 0.0006
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millopbuffer_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -180.0,
+   "eastBoundLongitude": 180.0,
+   "southBoundLatitude": -90.0,
+   "northBoundLatitude": 90.0
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+   "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.9,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millopbufferol50km_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -95.38976088119162,
+   "eastBoundLongitude": 160.67401999984952,
+   "southBoundLatitude": -18.685141022156493,
+   "northBoundLatitude": 19.430091660715377
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 3.9,
+    "bytes": 17498,
+    "type": "image/png",
+    "drawn": 0.0147,
+    "faint": 0.0006
+   },
+   "4": {
+    "seconds": 1.7,
+    "bytes": 44467,
+    "type": "image/png",
+    "drawn": 0.062,
+    "faint": 0.0009
+   },
+   "6": {
+    "seconds": 2.0,
+    "bytes": 212786,
+    "type": "image/png",
+    "drawn": 0.5449,
+    "faint": 0.0015
+   },
+   "8": {
+    "seconds": 0.9,
+    "bytes": 8334,
+    "type": "image/png",
+    "drawn": 0.0139,
+    "faint": 0.0001
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millopbufferol_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -95.0120999846796,
+   "eastBoundLongitude": 160.309771314651,
+   "southBoundLatitude": -18.323776403760835,
+   "northBoundLatitude": 19.068602513317312
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 3.9,
+    "bytes": 12888,
+    "type": "image/png",
+    "drawn": 0.0073,
+    "faint": 0.0006
+   },
+   "4": {
+    "seconds": 1.7,
+    "bytes": 20362,
+    "type": "image/png",
+    "drawn": 0.0161,
+    "faint": 0.0013
+   },
+   "6": {
+    "seconds": 1.7,
+    "bytes": 70550,
+    "type": "image/png",
+    "drawn": 0.1262,
+    "faint": 0.0037
+   },
+   "8": {
+    "seconds": 0.9,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:millopbufferpolyloreal_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -180.0,
+   "eastBoundLongitude": 180.0,
+   "southBoundLatitude": -90.0,
+   "northBoundLatitude": 90.0
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid",
+   "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+   "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 9980,
+    "type": "image/png",
+    "drawn": 0.0033,
+    "faint": 0.0004
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 13517,
+    "type": "image/png",
+    "drawn": 0.0071,
+    "faint": 0.0008
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 32601,
+    "type": "image/png",
+    "drawn": 0.0386,
+    "faint": 0.0022
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:milloprefineries_sp": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 98.6693115234375,
+   "eastBoundLongitude": 125.17835235595703,
+   "southBoundLatitude": -7.393189430236816,
+   "northBoundLatitude": 3.785965204238892
+  },
+  "min_scale": null,
+  "max_scale": "2.0E7",
+  "styles": [
+   "atlas-workspace-v3:PointRefineries"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.5,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": [
+   [
+    "MaxScaleDenominator",
+    "2.0E7"
+   ],
+   [
+    "MaxScaleDenominator",
+    "5000000.0"
+   ],
+   [
+    "MinScaleDenominator",
+    "5000000.0"
+   ]
+  ]
+ },
+ "atlas-workspace-v3:papua_concessioniop_edited": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 131.01247573536693,
+   "eastBoundLongitude": 140.98786337359584,
+   "southBoundLatitude": -7.604007566995563,
+   "northBoundLatitude": -0.712857153434842
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillTransparentOutlineYellow_thin_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.9,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:papua_expansion_2025": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 129.86702383678073,
+   "eastBoundLongitude": 140.8885461157109,
+   "southBoundLatitude": -8.406387572628345,
+   "northBoundLatitude": -0.0190090671147338
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillTransparentOutlineLightBlue2_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 1.1,
+    "bytes": 6759,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6750,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:plantation_established_merauke": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 139.05946947273821,
+   "eastBoundLongitude": 140.77165223796044,
+   "southBoundLatitude": -8.324751808149358,
+   "northBoundLatitude": -7.444965525338663
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillNeonOrange_WhiteOutline"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.9,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:rawasingkil_10_canal": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 97.62516088811003,
+   "eastBoundLongitude": 97.77526989481022,
+   "southBoundLatitude": 2.6161422696372334,
+   "northBoundLatitude": 2.8537186635136904
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:Canal_line_yellow"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.9,
+    "bytes": 6820,
+    "type": "image/png",
+    "drawn": 0.0001,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:rawasingkil_canal": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 97.61958810686741,
+   "eastBoundLongitude": 97.8394799785538,
+   "southBoundLatitude": 2.5153047032963993,
+   "northBoundLatitude": 2.8667144166772385
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:Canal_line"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 1.1,
+    "bytes": 6801,
+    "type": "image/png",
+    "drawn": 0.0001,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:rawasingkil_illegal_oilpalm": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 97.62282768543646,
+   "eastBoundLongitude": 97.83505775370418,
+   "southBoundLatitude": 2.4811165010434437,
+   "northBoundLatitude": 2.8540714341002804
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillTransparentOutlineLightBlue_solid",
+   "atlas-workspace-v3:PolyFillTransparentOutlineOrange_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 1.0,
+    "bytes": 6823,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.8,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:socialforestryhadat_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 98.59251693011231,
+   "eastBoundLongitude": 132.71232448039052,
+   "southBoundLatitude": -8.532366999737178,
+   "northBoundLatitude": 2.394975772613861
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 7133,
+    "type": "image/png",
+    "drawn": 0.0003,
+    "faint": 0.0
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 6806,
+    "type": "image/png",
+    "drawn": 0.0001,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 7163,
+    "type": "image/png",
+    "drawn": 0.0005,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 9529,
+    "type": "image/png",
+    "drawn": 0.005,
+    "faint": 0.0001
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:socialforestryhd_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 95.2872338135897,
+   "eastBoundLongitude": 140.86708720710897,
+   "southBoundLatitude": -8.452012674745106,
+   "northBoundLatitude": 5.48794771571454
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 9517,
+    "type": "image/png",
+    "drawn": 0.0024,
+    "faint": 0.0004
+   },
+   "4": {
+    "seconds": 0.6,
+    "bytes": 12042,
+    "type": "image/png",
+    "drawn": 0.005,
+    "faint": 0.0007
+   },
+   "6": {
+    "seconds": 0.7,
+    "bytes": 21355,
+    "type": "image/png",
+    "drawn": 0.0178,
+    "faint": 0.0012
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 20432,
+    "type": "image/png",
+    "drawn": 0.0331,
+    "faint": 0.0008
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:socialforestryhk_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 95.26098218937659,
+   "eastBoundLongitude": 140.4238147979147,
+   "southBoundLatitude": -10.207614223617497,
+   "northBoundLatitude": 5.849857835270939
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 9065,
+    "type": "image/png",
+    "drawn": 0.0019,
+    "faint": 0.0004
+   },
+   "4": {
+    "seconds": 0.8,
+    "bytes": 9048,
+    "type": "image/png",
+    "drawn": 0.0016,
+    "faint": 0.0003
+   },
+   "6": {
+    "seconds": 0.5,
+    "bytes": 8273,
+    "type": "image/png",
+    "drawn": 0.0011,
+    "faint": 0.0001
+   },
+   "8": {
+    "seconds": 0.6,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:socialforestryht_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 99.06002465381476,
+   "eastBoundLongitude": 136.07606086701549,
+   "southBoundLatitude": -10.079902141970251,
+   "northBoundLatitude": 4.208120290618979
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.6,
+    "bytes": 7179,
+    "type": "image/png",
+    "drawn": 0.0002,
+    "faint": 0.0001
+   },
+   "4": {
+    "seconds": 0.7,
+    "bytes": 7170,
+    "type": "image/png",
+    "drawn": 0.0002,
+    "faint": 0.0
+   },
+   "6": {
+    "seconds": 0.6,
+    "bytes": 7692,
+    "type": "image/png",
+    "drawn": 0.0005,
+    "faint": 0.0
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 6727,
+    "type": "image/png",
+    "drawn": 0.0,
+    "faint": 0.0
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:socialforestrywiladat_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": 95.11844184031872,
+   "eastBoundLongitude": 141.28306384951713,
+   "southBoundLatitude": -9.109279636246185,
+   "northBoundLatitude": 5.661670410061447
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlinePurple_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.8,
+    "bytes": 8520,
+    "type": "image/png",
+    "drawn": 0.0015,
+    "faint": 0.0002
+   },
+   "4": {
+    "seconds": 0.5,
+    "bytes": 11958,
+    "type": "image/png",
+    "drawn": 0.0062,
+    "faint": 0.0003
+   },
+   "6": {
+    "seconds": 1.0,
+    "bytes": 27653,
+    "type": "image/png",
+    "drawn": 0.0678,
+    "faint": 0.0009
+   },
+   "8": {
+    "seconds": 0.9,
+    "bytes": 44777,
+    "type": "image/png",
+    "drawn": 0.2697,
+    "faint": 0.0015
+   }
+  },
+  "style_scales": []
+ },
+ "atlas-workspace-v3:v3p3_concessioniop_spv": {
+  "server": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms",
+  "bbox": {
+   "westBoundLongitude": -94.92382816263955,
+   "eastBoundLongitude": 160.28291399978139,
+   "southBoundLatitude": -18.264576150868606,
+   "northBoundLatitude": 18.984441173621292
+  },
+  "min_scale": null,
+  "max_scale": null,
+  "styles": [
+   "atlas-workspace-v3:PolyFillBlack_transparentOutlineWhite_solid"
+  ],
+  "zooms": {
+   "2": {
+    "seconds": 0.7,
+    "bytes": 11504,
+    "type": "image/png",
+    "drawn": 0.0072,
+    "faint": 0.0005
+   },
+   "4": {
+    "seconds": 0.8,
+    "bytes": 19531,
+    "type": "image/png",
+    "drawn": 0.0205,
+    "faint": 0.0013
+   },
+   "6": {
+    "seconds": 0.9,
+    "bytes": 83999,
+    "type": "image/png",
+    "drawn": 0.1508,
+    "faint": 0.0048
+   },
+   "8": {
+    "seconds": 0.7,
+    "bytes": 16506,
+    "type": "image/png",
+    "drawn": 0.0339,
+    "faint": 0.0005
+   }
+  },
+  "style_scales": []
+ }
+}
