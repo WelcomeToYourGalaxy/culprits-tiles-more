@@ -1,0 +1,13 @@
+{
+ "release": "GED 26.1",
+ "from": "https://ucdp.uu.se/downloads/ged/ged261-csv.zip",
+ "candidates": [
+  "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_01_26_06.csv",
+  "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_7.csv",
+  "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_8.csv"
+ ],
+ "global": 417968,
+ "candidate": 13659,
+ "no position": 0,
+ "run": "2026-09-29 09:53 UTC"
+}
