@@ -149,12 +149,12 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 img#wpstats{display:none}
 /*# sourceURL=jetpack-stats-inline-css */
 </style>
-<link rel='stylesheet' id='wporg-global-fonts-css' href='https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/style.css?ver=1781196416' media='all' />
-<link rel='stylesheet' id='wporg-parent-block-styles-css' href='https://developer.wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css?ver=1781196442' media='all' />
-<link rel='stylesheet' id='wporg-parent-2021-style-css' href='https://developer.wordpress.org/wp-content/themes/wporg-parent-2021/build/style.css?ver=1781196442' media='all' />
-<link rel='stylesheet' id='wporg-parent-2021-print-css' href='https://developer.wordpress.org/wp-content/themes/wporg-parent-2021/build/print.css?ver=1781196442' media='print' />
+<link rel='stylesheet' id='wporg-global-fonts-css' href='https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/style.css?ver=1781196525' media='all' />
+<link rel='stylesheet' id='wporg-parent-block-styles-css' href='https://developer.wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css?ver=1781196563' media='all' />
+<link rel='stylesheet' id='wporg-parent-2021-style-css' href='https://developer.wordpress.org/wp-content/themes/wporg-parent-2021/build/style.css?ver=1781196563' media='all' />
+<link rel='stylesheet' id='wporg-parent-2021-print-css' href='https://developer.wordpress.org/wp-content/themes/wporg-parent-2021/build/print.css?ver=1781196563' media='print' />
 <link rel='stylesheet' id='wporg-handbook-css-css' href='https://developer.wordpress.org/wp-content/plugins/handbook/stylesheets/callout-boxes.css?ver=20200121' media='all' />
-<link rel='stylesheet' id='wporg-developer-2023-style-css' href='https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/build/style/style-index.css?ver=1789388829' media='all' />
+<link rel='stylesheet' id='wporg-developer-2023-style-css' href='https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/build/style/style-index.css?ver=1789388828' media='all' />
 <link rel='stylesheet' id='wporg-global-header-footer-css' href='https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/global-header-footer/build/style.css?ver=1789655321' media='all' />
 <script data-wp-strategy="defer" defer id="wporg-local-navigation-bar-view-script-js" src="https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/local-navigation-bar/build/view.js?ver=2ae6cba4cf35f434c642"></script>
 <script data-wp-strategy="defer" defer id="wporg-table-of-contents-view-script-js" src="https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/table-of-contents/build/view.js?ver=f15f873b2ba45df7f9af"></script>
@@ -167,10 +167,10 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script data-wp-strategy="defer" defer id="wporg-chapter-list-view-script-js" src="https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/chapter-list/build/view.js?ver=0b7c2f44970f48f42d13"></script>
 <script id="jquery-core-js" src="https://developer.wordpress.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
-<script id="jquery-migrate-js" src="https://developer.wordpress.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="jquery-migrate-js" src="https://developer.wordpress.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.6.0"></script>
 <script id="wporg-handbook-js" src="https://developer.wordpress.org/wp-content/plugins/handbook/scripts/handbook.js?ver=20150930"></script>
 <link rel="https://api.w.org/" href="https://developer.wordpress.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://developer.wordpress.org/wp-json/wp/v2/rest-api-handbook/22832" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://developer.wordpress.org/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 7.2-alpha-63914" />
+<meta name="generator" content="WordPress 7.2-alpha-63998" />
 <link rel='shortlink' href='https://developer.wordpress.org/?p=22832' />
 <link rel="canonical" href="https://developer.wordpress.org/rest-api/">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Stream WordPress user activity plugin v4.4.0 -->
@@ -773,39 +773,39 @@ The WordPress&reg; trademark is the intellectual property of the WordPress Found
 </script>
 <script data-wp-router-options="{&quot;loadOnClientNavigation&quot;:true}" fetchpriority="low" id="@wordpress/block-library/navigation/view-js-module" src="https://developer.wordpress.org/wp-content/plugins/gutenberg/build/modules/block-library/navigation/view.min.js?ver=1bf28ded04f9f188bdcb-20240308" type="module"></script>
 <script id="wp-script-module-data-@wordpress/interactivity" type="application/json">
-{"state":{"jetpack-search":{"siteId":209306761,"apiRoot":"https://developer.wordpress.org/wp-json/","nonce":"d58ecb02da","isPrivateSite":false,"isWpcom":false,"isPhotonEnabled":true,"disableTracking":false,"isWooCommerceBlocksEnabled":false,"homeUrl":"https://developer.wordpress.org","locale":"en-US","dateFormat":"F j, Y","searchQuery":"","hasSearchParam":false,"searchParamName":"q","sortOrder":"relevance","activeFilters":[],"filterLogic":[],"priceRange":null,"staticFilterSelections":{},"filterConfigs":[],"results":[],"aggregations":{},"retainedFilterOptions":{},"totalResults":0,"pageHandle":null,"isLoading":false,"isLoadingMore":false,"hasError":false,"resultsCountText":"","strings":{"searching":"Searching…","resultsCountSingle":"Found %d result","resultsCountPlural":"Found %d results","removeFilter":"Remove %s","ratingStarsTop":"5 stars","ratingStarsAndUpSingle":"%d star and up","ratingStarsAndUpPlural":"%d stars and up","priceRangeFromTo":"%1$s – %2$s","priceRangeFrom":"%s+","priceRangeUpTo":"Under %s","priceLabel":"Price","suggestionLabelQuery":"Suggestions","suggestionLabelTaxonomy":"Popular Filters","suggestionLabelPost":"Articles","aiErrorMessage":"Sorry, an error occurred while generating an answer.","aiErrorCode":"Error code: %s"},"priceCurrencySymbol":"$","aiExtendedLoadingHints":["Searching harder","Looking deeper into this","Finding a more complete answer","Analyzing additional sources","Gathering more details","Pulling in more context","Expanding the search","Rolling up my virtual sleeves","Digging through the archives","Putting on my reading glasses","Checking under the digital couch cushions","Consulting the oracle","Asking a smarter algorithm","Brewing a fresh batch of insights","Unleashing the full power of search"],"wcStockStatusLabels":{"instock":"In stock"},"highlightPhraseOnly":false,"highlightFilterStopwords":[],"highlightFields":null,"additionalBlogIds":[],"adminQueryFilter":null,"customResults":[]}}}
+{"state":{"jetpack-search":{"siteId":209306761,"apiRoot":"https://developer.wordpress.org/wp-json/","nonce":"190aa70f44","isPrivateSite":false,"isWpcom":false,"isPhotonEnabled":true,"disableTracking":false,"isWooCommerceBlocksEnabled":false,"homeUrl":"https://developer.wordpress.org","locale":"en-US","dateFormat":"F j, Y","searchQuery":"","hasSearchParam":false,"searchParamName":"q","sortOrder":"relevance","activeFilters":[],"filterLogic":[],"priceRange":null,"staticFilterSelections":{},"filterConfigs":[],"results":[],"aggregations":{},"retainedFilterOptions":{},"totalResults":0,"pageHandle":null,"isLoading":false,"isLoadingMore":false,"hasError":false,"resultsCountText":"","strings":{"searching":"Searching…","resultsCountSingle":"Found %d result","resultsCountPlural":"Found %d results","removeFilter":"Remove %s","ratingStarsTop":"5 stars","ratingStarsAndUpSingle":"%d star and up","ratingStarsAndUpPlural":"%d stars and up","priceRangeFromTo":"%1$s – %2$s","priceRangeFrom":"%s+","priceRangeUpTo":"Under %s","priceLabel":"Price","suggestionLabelQuery":"Suggestions","suggestionLabelTaxonomy":"Popular Filters","suggestionLabelPost":"Articles","aiErrorMessage":"Sorry, an error occurred while generating an answer.","aiErrorCode":"Error code: %s"},"priceCurrencySymbol":"$","aiExtendedLoadingHints":["Searching harder","Looking deeper into this","Finding a more complete answer","Analyzing additional sources","Gathering more details","Pulling in more context","Expanding the search","Rolling up my virtual sleeves","Digging through the archives","Putting on my reading glasses","Checking under the digital couch cushions","Consulting the oracle","Asking a smarter algorithm","Brewing a fresh batch of insights","Unleashing the full power of search"],"wcStockStatusLabels":{"instock":"In stock"},"highlightPhraseOnly":false,"highlightFilterStopwords":[],"highlightFields":null,"additionalBlogIds":[],"adminQueryFilter":null,"customResults":[]}}}
 </script>
 <script id="mkaz-code-syntax-prism-js-js-extra">
 var prism_settings = {"pluginUrl":"https://developer.wordpress.org/wp-content/plugins/code-syntax-block/"};
 //# sourceURL=mkaz-code-syntax-prism-js-js-extra
 </script>
-<script id="mkaz-code-syntax-prism-js-js" src="https://developer.wordpress.org/wp-content/plugins/code-syntax-block/assets/prism/prism.js?ver=1781196566"></script>
+<script id="mkaz-code-syntax-prism-js-js" src="https://developer.wordpress.org/wp-content/plugins/code-syntax-block/assets/prism/prism.js?ver=1781196685"></script>
 <script data-wp-strategy="defer" defer id="wporg-time-view-script-js" src="https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/time/build/view.js?ver=385bfe9134bf98c52dda"></script>
-<script id="wporg-developer-code-tabs-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/code-tabs.js?ver=1781196441"></script>
+<script id="wporg-developer-code-tabs-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/code-tabs.js?ver=1781196561"></script>
 <script id="wp-dom-ready-js" src="https://developer.wordpress.org/wp-content/plugins/gutenberg/build/scripts/dom-ready/index.min.js?ver=3fe927cab37bf38d6a23"></script>
 <script id="wp-a11y-js" src="https://developer.wordpress.org/wp-content/plugins/gutenberg/build/scripts/a11y/index.min.js?ver=31c6cec5a4ff7aff483d"></script>
 <script id="wporg-developer-function-reference-js-extra">
 var wporgFunctionReferenceI18n = {"copy":"Copy","copied":"Code copied","expand":"Expand code","collapse":"Collapse code","sourceFile":""};
 //# sourceURL=wporg-developer-function-reference-js-extra
 </script>
-<script id="wporg-developer-function-reference-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/function-reference.js?ver=1781196441"></script>
+<script id="wporg-developer-function-reference-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/function-reference.js?ver=1781196561"></script>
 <script id="quicktags-js-extra">
 var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Switch Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
 //# sourceURL=quicktags-js-extra
 </script>
-<script id="quicktags-js" src="https://developer.wordpress.org/wp-includes/js/quicktags.min.js?ver=7.2-alpha-63914"></script>
-<script id="wporg-developer-user-notes-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/user-notes.js?ver=1781196441"></script>
+<script id="quicktags-js" src="https://developer.wordpress.org/wp-includes/js/quicktags.min.js?ver=7.2-alpha-63998"></script>
+<script id="wporg-developer-user-notes-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/user-notes.js?ver=1781196561"></script>
 <script id="wporg-developer-user-notes-feedback-js-extra">
 var wporg_note_feedback = {"show":"Show feedback","hide":"Hide feedback","hide_feedback":"Hide feedback form","add_feedback":"Add feedback"};
 //# sourceURL=wporg-developer-user-notes-feedback-js-extra
 </script>
-<script id="wporg-developer-user-notes-feedback-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/user-notes-feedback.js?ver=1781196441"></script>
-<script id="wporg-developer-tabs-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/tabs.js?ver=1781196441"></script>
+<script id="wporg-developer-user-notes-feedback-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/user-notes-feedback.js?ver=1781196561"></script>
+<script id="wporg-developer-tabs-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/tabs.js?ver=1781196561"></script>
 <script id="wporg-developer-preview-js-extra">
-var wporg_note_preview = {"ajaxurl":"https://developer.wordpress.org/wp-admin/admin-ajax.php","nonce":"51f8c0362a","preview":"preview note","preview_empty":"Nothing to preview","is_admin":""};
+var wporg_note_preview = {"ajaxurl":"https://developer.wordpress.org/wp-admin/admin-ajax.php","nonce":"c35d963032","preview":"preview note","preview_empty":"Nothing to preview","is_admin":""};
 //# sourceURL=wporg-developer-preview-js-extra
 </script>
-<script id="wporg-developer-preview-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/user-notes-preview.js?ver=1781196441"></script>
+<script id="wporg-developer-preview-js" src="https://developer.wordpress.org/wp-content/themes/wporg-developer-2023/js/user-notes-preview.js?ver=1781196561"></script>
 <script id="jetpack-stats-js-before">
 _stq = window._stq || [];
 _stq.push([ "view", {"v":"ext","blog":"209306761","post":"22832","tz":"0","srv":"developer.wordpress.org","j":"1:16.2"} ]);
@@ -817,9 +817,9 @@ _stq.push([ "clickTrackerInit", "209306761", "22832" ]);
 var wporgGlobalHeaderI18n = {"openSearchLabel":"Open Search","closeSearchLabel":"Close Search","overflowMenuLabel":"More menu"};
 //# sourceURL=wporg-global-header-script-js-extra
 </script>
-<script id="wporg-global-header-script-js" src="https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/global-header-footer/js/view.js?ver=1781196414"></script>
+<script id="wporg-global-header-script-js" src="https://developer.wordpress.org/wp-content/mu-plugins/pub-sync/blocks/global-header-footer/js/view.js?ver=1781196524"></script>
 <script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://developer.wordpress.org/wp-includes/js/wp-emoji-release.min.js?ver=7.2-alpha-63914"}}
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://developer.wordpress.org/wp-includes/js/wp-emoji-release.min.js?ver=7.2-alpha-63998"}}
 </script>
 <script type="module">
 /*! This file is auto-generated */
