@@ -2,687 +2,7 @@
  "record": "https://doi.org/10.5281/zenodo.14871588",
  "choices": [
   {
-   "label": "ecm sampleintensity 5degrees scaled 01",
-   "file": "myc_richness/2_geospatial/data/ecm_sampleintensity_5degrees_scaled_01.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_ecm_sampleintensity_5degrees_scaled_01.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 0.01"
-    ],
-    [
-     "#B3E3EC",
-     "0.01 to 0.01"
-    ],
-    [
-     "#8FD2E4",
-     "0.01 to 0.02"
-    ],
-    [
-     "#6CBFDC",
-     "0.02 to 0.03"
-    ],
-    [
-     "#52A8D6",
-     "0.03 to 0.03"
-    ],
-    [
-     "#4A8FD0",
-     "0.03 to 0.04"
-    ],
-    [
-     "#4A76C8",
-     "0.04 to 0.05"
-    ],
-    [
-     "#4D5EBD",
-     "0.05 to 0.06"
-    ],
-    [
-     "#5249AE",
-     "0.06 to 0.06"
-    ],
-    [
-     "#56389A",
-     "0.06 to 0.07"
-    ],
-    [
-     "#552A84",
-     "0.07 to 0.08"
-    ],
-    [
-     "#4E1F6C",
-     "0.08 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    0.0,
-    0.0838782861828804
-   ],
-   "source": {
-    "size": [
-     3464,
-     1448
-    ],
-    "crs": "EPSG:4326",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "amf sampleintensity 5degrees scaled 01",
-   "file": "myc_richness/2_geospatial/data/amf_sampleintensity_5degrees_scaled_01.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_amf_sampleintensity_5degrees_scaled_01.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 0.01"
-    ],
-    [
-     "#B3E3EC",
-     "0.01 to 0.02"
-    ],
-    [
-     "#8FD2E4",
-     "0.02 to 0.03"
-    ],
-    [
-     "#6CBFDC",
-     "0.03 to 0.04"
-    ],
-    [
-     "#52A8D6",
-     "0.04 to 0.05"
-    ],
-    [
-     "#4A8FD0",
-     "0.05 to 0.06"
-    ],
-    [
-     "#4A76C8",
-     "0.06 to 0.07"
-    ],
-    [
-     "#4D5EBD",
-     "0.07 to 0.09"
-    ],
-    [
-     "#5249AE",
-     "0.09 to 0.10"
-    ],
-    [
-     "#56389A",
-     "0.10 to 0.11"
-    ],
-    [
-     "#552A84",
-     "0.11 to 0.12"
-    ],
-    [
-     "#4E1F6C",
-     "0.12 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.6342099115718156e-05,
-    0.1284557431936264
-   ],
-   "source": {
-    "size": [
-     3562,
-     1477
-    ],
-    "crs": "EPSG:4326",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE VI",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_VI.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_vi.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE V",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_V.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_v.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE II",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_II.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_ii.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE III",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_III.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_iii.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE I",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_I.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_i.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE IV",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_IV.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_iv.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "WDPA EE null",
-   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_null.tif",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_null.pmtiles",
-   "key": [
-    [
-     "#D4F1F4",
-     "up to 1.00"
-    ],
-    [
-     "#B3E3EC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#8FD2E4",
-     "1.00 to 1.00"
-    ],
-    [
-     "#6CBFDC",
-     "1.00 to 1.00"
-    ],
-    [
-     "#52A8D6",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A8FD0",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4A76C8",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4D5EBD",
-     "1.00 to 1.00"
-    ],
-    [
-     "#5249AE",
-     "1.00 to 1.00"
-    ],
-    [
-     "#56389A",
-     "1.00 to 1.00"
-    ],
-    [
-     "#552A84",
-     "1.00 to 1.00"
-    ],
-    [
-     "#4E1F6C",
-     "1.00 and over"
-    ]
-   ],
-   "range_2nd_to_98th_percentile": [
-    1.0,
-    1.000000001
-   ],
-   "source": {
-    "size": [
-     34488,
-     16770
-    ],
-    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
-    "dtype": "float32",
-    "nodata": NaN
-   }
-  },
-  {
-   "label": "EcM fungal rwr hotspots",
+   "label": "Hotspots of ectomycorrhizal fungi (those that sheathe roots): kinds found almost nowhere else (rarity-weighted richness)",
    "file": "myc_richness/3_visualisations/Hotspots/EcM_fungal_rwr_hotspots.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_ecm_fungal_rwr_hotspots.pmtiles",
    "key": [
@@ -746,11 +66,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "AM fungal rwr hotspots",
+   "label": "Hotspots of arbuscular mycorrhizal fungi (those that grow into roots): kinds found almost nowhere else (rarity-weighted richness)",
    "file": "myc_richness/3_visualisations/Hotspots/AM_fungal_rwr_hotspots.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_am_fungal_rwr_hotspots.pmtiles",
    "key": [
@@ -814,11 +134,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "EcM fungal richness hotspots",
+   "label": "Hotspots of ectomycorrhizal fungi (those that sheathe roots): how many kinds live there",
    "file": "myc_richness/3_visualisations/Hotspots/EcM_fungal_richness_hotspots.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_ecm_fungal_richness_hotspots.pmtiles",
    "key": [
@@ -882,11 +202,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "AM fungal richness hotspots",
+   "label": "Hotspots of arbuscular mycorrhizal fungi (those that grow into roots): how many kinds live there",
    "file": "myc_richness/3_visualisations/Hotspots/AM_fungal_richness_hotspots.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_am_fungal_richness_hotspots.pmtiles",
    "key": [
@@ -950,11 +270,691 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome Tundra EE",
+   "label": "How thoroughly each 5-degree square was sampled for ectomycorrhizal fungi (those that sheathe roots), 0 to 1",
+   "file": "myc_richness/2_geospatial/data/ecm_sampleintensity_5degrees_scaled_01.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_ecm_sampleintensity_5degrees_scaled_01.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 0.01"
+    ],
+    [
+     "#B3E3EC",
+     "0.01 to 0.01"
+    ],
+    [
+     "#8FD2E4",
+     "0.01 to 0.02"
+    ],
+    [
+     "#6CBFDC",
+     "0.02 to 0.03"
+    ],
+    [
+     "#52A8D6",
+     "0.03 to 0.03"
+    ],
+    [
+     "#4A8FD0",
+     "0.03 to 0.04"
+    ],
+    [
+     "#4A76C8",
+     "0.04 to 0.05"
+    ],
+    [
+     "#4D5EBD",
+     "0.05 to 0.06"
+    ],
+    [
+     "#5249AE",
+     "0.06 to 0.06"
+    ],
+    [
+     "#56389A",
+     "0.06 to 0.07"
+    ],
+    [
+     "#552A84",
+     "0.07 to 0.08"
+    ],
+    [
+     "#4E1F6C",
+     "0.08 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    0.0,
+    0.0838782861828804
+   ],
+   "source": {
+    "size": [
+     3464,
+     1448
+    ],
+    "crs": "EPSG:4326",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "How thoroughly each 5-degree square was sampled for arbuscular mycorrhizal fungi (those that grow into roots), 0 to 1",
+   "file": "myc_richness/2_geospatial/data/amf_sampleintensity_5degrees_scaled_01.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_amf_sampleintensity_5degrees_scaled_01.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 0.01"
+    ],
+    [
+     "#B3E3EC",
+     "0.01 to 0.02"
+    ],
+    [
+     "#8FD2E4",
+     "0.02 to 0.03"
+    ],
+    [
+     "#6CBFDC",
+     "0.03 to 0.04"
+    ],
+    [
+     "#52A8D6",
+     "0.04 to 0.05"
+    ],
+    [
+     "#4A8FD0",
+     "0.05 to 0.06"
+    ],
+    [
+     "#4A76C8",
+     "0.06 to 0.07"
+    ],
+    [
+     "#4D5EBD",
+     "0.07 to 0.09"
+    ],
+    [
+     "#5249AE",
+     "0.09 to 0.10"
+    ],
+    [
+     "#56389A",
+     "0.10 to 0.11"
+    ],
+    [
+     "#552A84",
+     "0.11 to 0.12"
+    ],
+    [
+     "#4E1F6C",
+     "0.12 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.6342099115718156e-05,
+    0.1284557431936264
+   ],
+   "source": {
+    "size": [
+     3562,
+     1477
+    ],
+    "crs": "EPSG:4326",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, IUCN category VI",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_VI.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_vi.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, IUCN category V",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_V.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_v.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, IUCN category II",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_II.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_ii.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, IUCN category III",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_III.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_iii.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, IUCN category I",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_I.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_i.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, IUCN category IV",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_IV.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_iv.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, all",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Protected areas used in the paper, no IUCN category",
+   "file": "myc_richness/3_visualisations/WDPA/WDPA_EE_null.tif",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_wdpa_ee_null.pmtiles",
+   "key": [
+    [
+     "#D4F1F4",
+     "up to 1.00"
+    ],
+    [
+     "#B3E3EC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#8FD2E4",
+     "1.00 to 1.00"
+    ],
+    [
+     "#6CBFDC",
+     "1.00 to 1.00"
+    ],
+    [
+     "#52A8D6",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A8FD0",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4A76C8",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4D5EBD",
+     "1.00 to 1.00"
+    ],
+    [
+     "#5249AE",
+     "1.00 to 1.00"
+    ],
+    [
+     "#56389A",
+     "1.00 to 1.00"
+    ],
+    [
+     "#552A84",
+     "1.00 to 1.00"
+    ],
+    [
+     "#4E1F6C",
+     "1.00 and over"
+    ]
+   ],
+   "range_2nd_to_98th_percentile": [
+    1.0,
+    1.000000001
+   ],
+   "source": {
+    "size": [
+     34488,
+     16770
+    ],
+    "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
+    "dtype": "float32",
+    "nodata": null
+   }
+  },
+  {
+   "label": "Biome used in the paper: tundra",
    "file": "myc_richness/99_misc/biomes/Biome_Tundra_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tundra_ee.pmtiles",
    "key": [
@@ -1018,11 +1018,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TropCon EE",
+   "label": "Biome used in the paper: tropical and subtropical conifer forests",
    "file": "myc_richness/99_misc/biomes/Biome_TropCon_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tropcon_ee.pmtiles",
    "key": [
@@ -1086,11 +1086,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome Boreal EE",
+   "label": "Biome used in the paper: boreal forests",
    "file": "myc_richness/99_misc/biomes/Biome_Boreal_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_boreal_ee.pmtiles",
    "key": [
@@ -1154,11 +1154,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome FloodGrass EE",
+   "label": "Biome used in the paper: flooded grasslands",
    "file": "myc_richness/99_misc/biomes/Biome_FloodGrass_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_floodgrass_ee.pmtiles",
    "key": [
@@ -1222,11 +1222,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TempBroad EE",
+   "label": "Biome used in the paper: temperate broadleaf and mixed forests",
    "file": "myc_richness/99_misc/biomes/Biome_TempBroad_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tempbroad_ee.pmtiles",
    "key": [
@@ -1290,11 +1290,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome Mediterranean EE",
+   "label": "Biome used in the paper: Mediterranean forests and scrub",
    "file": "myc_richness/99_misc/biomes/Biome_Mediterranean_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_mediterranean_ee.pmtiles",
    "key": [
@@ -1358,11 +1358,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TropBroad EE",
+   "label": "Biome used in the paper: tropical and subtropical dry broadleaf forests",
    "file": "myc_richness/99_misc/biomes/Biome_TropBroad_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tropbroad_ee.pmtiles",
    "key": [
@@ -1426,11 +1426,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome Mangroves EE",
+   "label": "Biome used in the paper: mangroves",
    "file": "myc_richness/99_misc/biomes/Biome_Mangroves_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_mangroves_ee.pmtiles",
    "key": [
@@ -1494,11 +1494,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TempGrass EE",
+   "label": "Biome used in the paper: temperate grasslands",
    "file": "myc_richness/99_misc/biomes/Biome_TempGrass_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tempgrass_ee.pmtiles",
    "key": [
@@ -1562,11 +1562,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome Montane EE",
+   "label": "Biome used in the paper: montane grasslands",
    "file": "myc_richness/99_misc/biomes/Biome_Montane_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_montane_ee.pmtiles",
    "key": [
@@ -1630,11 +1630,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TropGrass EE",
+   "label": "Biome used in the paper: tropical and subtropical grasslands and savannas",
    "file": "myc_richness/99_misc/biomes/Biome_TropGrass_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tropgrass_ee.pmtiles",
    "key": [
@@ -1698,11 +1698,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TropMoistBroad EE",
+   "label": "Biome used in the paper: tropical and subtropical moist broadleaf forests",
    "file": "myc_richness/99_misc/biomes/Biome_TropMoistBroad_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tropmoistbroad_ee.pmtiles",
    "key": [
@@ -1766,11 +1766,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome Desert EE",
+   "label": "Biome used in the paper: deserts and xeric shrublands",
    "file": "myc_richness/99_misc/biomes/Biome_Desert_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_desert_ee.pmtiles",
    "key": [
@@ -1834,11 +1834,11 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   },
   {
-   "label": "Biome TempCon EE",
+   "label": "Biome used in the paper: temperate conifer forests",
    "file": "myc_richness/99_misc/biomes/Biome_TempCon_EE.tif",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/soil_spun_biome_tempcon_ee.pmtiles",
    "key": [
@@ -1902,7 +1902,7 @@
     ],
     "crs": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Equal Earth\",ID[\"EPSG\",1078]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"kilometre\",1000],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"kilometre\",1000]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"kilometre\",1000]]]",
     "dtype": "float32",
-    "nodata": NaN
+    "nodata": null
    }
   }
  ],

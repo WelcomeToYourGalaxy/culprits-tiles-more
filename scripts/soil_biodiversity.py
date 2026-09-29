@@ -19,7 +19,7 @@ soil/spun_contents.json, the choices to soil/spun_choices.json.
 
 Built once; SOIL_REBUILD=1 builds again.
 """
-import io, json, os, pathlib, re, subprocess, sys, tempfile, time, urllib.request, zipfile
+import io, json, math, os, pathlib, re, subprocess, sys, tempfile, time, urllib.request, zipfile
 
 URL = "https://zenodo.org/records/14871588/files/myc_richness.zip?download=1"
 BASE = "https://welcometoyourgalaxy.github.io/culprits-tiles-more/"
@@ -56,6 +56,55 @@ def download(to):
                 raise
             print(f"    download stopped ({e}); resuming in {30 * (i + 1)}s", flush=True)
             time.sleep(30 * (i + 1))
+
+
+# Round 99b (asked 28 September: "not built yet"): the file this wrote held
+# NaN (the files' "no value" mark), which is not JSON, so the map could not
+# read it. No value is now written as null. Each map is also named in plain
+# words and the hotspot maps come first; none is left out.
+BIOMES = {"Tundra": "tundra", "TropCon": "tropical and subtropical conifer forests", "Boreal": "boreal forests",
+          "FloodGrass": "flooded grasslands", "TempBroad": "temperate broadleaf and mixed forests",
+          "Mediterranean": "Mediterranean forests and scrub", "TropBroad": "tropical and subtropical dry broadleaf forests",
+          "Mangroves": "mangroves", "TempGrass": "temperate grasslands", "Montane": "montane grasslands",
+          "TropGrass": "tropical and subtropical grasslands and savannas", "TropMoistBroad": "tropical and subtropical moist broadleaf forests",
+          "Desert": "deserts and xeric shrublands", "TempCon": "temperate conifer forests"}
+KIND = {"am": "arbuscular mycorrhizal fungi (those that grow into roots)", "amf": "arbuscular mycorrhizal fungi (those that grow into roots)",
+        "ecm": "ectomycorrhizal fungi (those that sheathe roots)"}
+
+
+def plain(name):
+    stem = pathlib.Path(name).stem
+    m = re.match(r"(?i)^(am|ecm)_fungal_(richness|rwr)_hotspots$", stem)
+    if m:
+        what = "how many kinds live there" if m.group(2).lower() == "richness" else "kinds found almost nowhere else (rarity-weighted richness)"
+        return f"Hotspots of {KIND[m.group(1).lower()]}: {what}"
+    m = re.match(r"(?i)^(amf|ecm)_sampleintensity_5degrees_scaled_01$", stem)
+    if m:
+        return f"How thoroughly each 5-degree square was sampled for {KIND[m.group(1).lower()]}, 0 to 1"
+    m = re.match(r"(?i)^WDPA_EE(?:_(.+))?$", stem)
+    if m:
+        cat = m.group(1)
+        return ("Protected areas used in the paper, all" if not cat else "Protected areas used in the paper, no IUCN category"
+                if cat.lower() == "null" else f"Protected areas used in the paper, IUCN category {cat}")
+    m = re.match(r"(?i)^Biome_(.+)_EE$", stem)
+    if m:
+        return f"Biome used in the paper: {BIOMES.get(m.group(1), m.group(1))}"
+    return label(name)
+
+
+def no_nan(x):
+    if isinstance(x, float) and math.isnan(x):
+        return None
+    if isinstance(x, dict):
+        return {k: no_nan(v) for k, v in x.items()}
+    if isinstance(x, list):
+        return [no_nan(v) for v in x]
+    return x
+
+
+def order(choices):
+    rank = lambda c: (0 if "hotspots" in c["file"].lower() else 1 if "sampleintensity" in c["file"].lower() else 2)
+    return sorted(choices, key=rank)
 
 
 def tile_bounds(z, x, y):
@@ -212,16 +261,32 @@ def main():
         path.unlink(missing_ok=True)
         if not got:
             continue
-        ch = {"label": label(name), "file": name, "archive": BASE + "tiles/" + got["files"][0]["file"], "key": got["key"],
+        ch = {"label": plain(name), "file": name, "archive": BASE + "tiles/" + got["files"][0]["file"], "key": got["key"],
               "range_2nd_to_98th_percentile": [got["p2"], got["p98"]], "source": got["info"]}
         if len(got["files"]) > 1:
             ch["parts"] = got["files"]
         choices.append(ch)
     if not choices:
         sys.exit("soil biodiversity: nothing drawn")
-    stamp.write_text(json.dumps({"record": "https://doi.org/10.5281/zenodo.14871588", "choices": choices, "not_drawn": skipped}, ensure_ascii=False, indent=1))
+    stamp.write_text(json.dumps(no_nan({"record": "https://doi.org/10.5281/zenodo.14871588", "choices": order(choices), "not_drawn": skipped}),
+                                ensure_ascii=False, indent=1, allow_nan=False))
     print(f"soil biodiversity: {len(choices)} maps drawn, {len(skipped)} not drawn")
 
 
+def repair():
+    """The file already written, made readable and named plainly, without building again."""
+    stamp = OUT / "spun_choices.json"
+    if not stamp.exists():
+        return
+    raw = stamp.read_text(encoding="utf-8")
+    d = json.loads(raw)
+    d["choices"] = order([dict(c, label=plain(c["file"])) for c in d.get("choices", [])])
+    new = json.dumps(no_nan(d), ensure_ascii=False, indent=1, allow_nan=False)
+    if new != raw:
+        stamp.write_text(new, encoding="utf-8")
+        print("soil biodiversity: spun_choices.json made readable (NaN written as null) and named plainly", flush=True)
+
+
 if __name__ == "__main__":
+    repair()
     main()

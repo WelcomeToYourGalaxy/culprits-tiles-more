@@ -29,6 +29,7 @@ SERVICE = "https://data-gis.unep-wcmc.org/server/rest/services/GlobalCH_2023_Bas
 ROW = "own_critical_habitat"
 OUT = pathlib.Path("tiles") / f"{ROW}.pmtiles"
 RES = 1 / 120
+PAPER_NAMES = {1: "Potential critical habitat", 10: "Likely critical habitat"}
 
 
 def names_from_service():
@@ -85,6 +86,13 @@ def main():
             print(f"{ROW}: the attribute table could not be read ({e})", flush=True)
     if not names:
         names = names_from_service()
+    # Round 99b (asked 28 September: "class 1" and "class 10" with no names):
+    # the paper's own Data Records give the values: 0 unclassified, 1 potential
+    # critical habitat, 10 likely critical habitat (Dunnett et al. 2025,
+    # Scientific Data, doi 10.1038/s41597-025-06117-y). Used where the file
+    # carries no names of its own.
+    for v, t in PAPER_NAMES.items():
+        names.setdefault(v, t)
     a, west, north = pyramid.read_grid(path, RES, bounds=(-180, -85, 180, 85), resampling="max")
     vals = sorted(int(v) for v in np.unique(a[~np.isnan(a)]) if v > 0)
     print(f"{ROW}: classes in the file {vals}; names {names}", flush=True)
