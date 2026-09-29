@@ -1,0 +1,347 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.405,
+     52.52
+    ]
+   },
+   "properties": {
+    "name": "Kingdom of Prussia (Frederick the Great)",
+    "group": "Built schooling for obedience and uniformity",
+    "what they did": "Its 1763 General School Regulation (Generallandschulreglement) required all children, girls and boys, to be schooled from 5 to 13 or 14; critics argue the system was built for obedience, social control and loyalty to the state.",
+    "when": "1763",
+    "placed at": "Berlin, Prussia's capital",
+    "source": "https://en.wikipedia.org/wiki/Prussian_education_system"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.0637,
+     42.3587
+    ]
+   },
+   "properties": {
+    "name": "Horace Mann (Massachusetts Board of Education)",
+    "group": "Built schooling for obedience and uniformity",
+    "what they did": "Travelled to Prussia in 1843 to study its schools and on his return championed tax-supported common schools and teacher training in Massachusetts, a model copied across the United States (he warned against Prussia's obedience to the authorities).",
+    "when": "1837-1848",
+    "placed at": "Massachusetts State House, Boston",
+    "source": "https://en.wikipedia.org/wiki/Prussian_education_system"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.006,
+     40.7128
+    ]
+   },
+   "properties": {
+    "name": "General Education Board (Rockefeller)",
+    "group": "Private money steering what schools teach",
+    "what they did": "Rockefeller's board, incorporated by Congress in 1903, shaped schooling across the American South; its Occasional Papers No. 1 (1913) by Frederick T. Gates: \"In our dream, we have limitless resources and the people yield themselves with perfect docility to our molding hand.\"",
+    "when": "1902-1964",
+    "placed at": "New York City",
+    "source": "https://en.wikipedia.org/wiki/General_Education_Board"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.006,
+     40.7128
+    ]
+   },
+   "properties": {
+    "name": "Carnegie Foundation for the Advancement of Teaching",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Made the Carnegie Unit - 120 hours of class time per course - the standard for American high schools, by offering professors' pensions only to colleges that adopted it; near-universal by 1910.",
+    "when": "1906",
+    "placed at": "New York City, where it was founded",
+    "source": "https://en.wikipedia.org/wiki/Carnegie_Unit_and_Student_Hour"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.1771,
+     40.2096
+    ]
+   },
+   "properties": {
+    "name": "Carlisle Indian Industrial School (Richard Henry Pratt)",
+    "group": "Used schooling to erase peoples' cultures",
+    "what they did": "Founded 1879 by Pratt, whose motto was \"Kill the Indian, save the man\": over 7,800 children from 140 Native nations had their hair cut, languages banned and names changed, 1879-1918. The model for US Indian boarding schools.",
+    "when": "1879-1918",
+    "placed at": "Carlisle, Pennsylvania",
+    "source": "https://en.wikipedia.org/wiki/Carlisle_Indian_Industrial_School"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.7009,
+     45.4236
+    ]
+   },
+   "properties": {
+    "name": "Government of Canada (Department of Indian Affairs) and the churches",
+    "group": "Used schooling to erase peoples' cultures",
+    "what they did": "Funded and ran, with Christian churches, the residential schools about 150,000 Indigenous children were made to attend; the Truth and Reconciliation Commission found they amounted to cultural genocide.",
+    "when": "19th century to 1990s",
+    "placed at": "Parliament Hill, Ottawa",
+    "source": "https://en.wikipedia.org/wiki/Canadian_Indian_residential_school_system"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.0158,
+     40.7146
+    ]
+   },
+   "properties": {
+    "name": "College Board (the SAT)",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Owns, develops and publishes the SAT, the admissions test first given in 1926.",
+    "when": "1926 on",
+    "placed at": "headquarters, New York City",
+    "source": "https://en.wikipedia.org/wiki/SAT"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.696,
+     40.3465
+    ]
+   },
+   "properties": {
+    "name": "Educational Testing Service",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Administers the SAT; in 2015 took over most of Texas's state testing from Pearson.",
+    "when": "1947 on",
+    "placed at": "headquarters, Princeton, New Jersey",
+    "source": "https://en.wikipedia.org/wiki/SAT"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1225,
+     51.5101
+    ]
+   },
+   "properties": {
+    "name": "Pearson",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Held Texas's state testing contract for 2010-2015, nearly half a billion dollars ($88.3 million for 2012-13 alone); also helped fund the Common Core standards.",
+    "when": "2010-2015",
+    "placed at": "headquarters, London",
+    "source": "https://en.wikipedia.org/wiki/Common_Core"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.3474,
+     47.6232
+    ]
+   },
+   "properties": {
+    "name": "Bill & Melinda Gates Foundation",
+    "group": "Private money steering what schools teach",
+    "what they did": "Spent more than $200 million to develop and promote the Common Core standards, funding policy groups, unions, the US Chamber of Commerce and messaging firms (Washington Post, 2014); also an investor in Bridge International Academies.",
+    "when": "2008 on",
+    "placed at": "headquarters, Seattle",
+    "source": "https://en.wikipedia.org/wiki/Common_Core"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.0364,
+     38.8951
+    ]
+   },
+   "properties": {
+    "name": "National Governors Association and Council of Chief State School Officers",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Created the Common Core State Standards, convening their writers in late 2008.",
+    "when": "2008-2010",
+    "placed at": "Washington, D.C.",
+    "source": "https://en.wikipedia.org/wiki/Common_Core"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.2088,
+     36.3729
+    ]
+   },
+   "properties": {
+    "name": "Walton Family Foundation",
+    "group": "Private money steering what schools teach",
+    "what they did": "Pledged $1 billion over five years from 2016 for schools, and $250 million for charter school buildings (the Building Equity Initiative).",
+    "when": "2016 on",
+    "placed at": "headquarters, Bentonville, Arkansas",
+    "source": "https://en.wikipedia.org/wiki/Walton_Family_Foundation"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -83.9207,
+     35.9606
+    ]
+   },
+   "properties": {
+    "name": "Whittle Communications (Channel One News)",
+    "group": "Selling to children through schools",
+    "what they did": "From 1989 gave schools televisions and satellite dishes in exchange for showing its daily news, with two minutes of advertising, to students; about eight million American teenagers watched in 1997-2000.",
+    "when": "1989 on",
+    "placed at": "Knoxville, Tennessee",
+    "source": "https://en.wikipedia.org/wiki/Channel_One_News"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.3963,
+     33.771
+    ]
+   },
+   "properties": {
+    "name": "The Coca-Cola Company",
+    "group": "Selling to children through schools",
+    "what they did": "Signed exclusive school drink contracts; Colorado Springs' district got $8 million over 10 years with its 53 schools expected to sell 70,000 cases a year (Education Week, 1998).",
+    "when": "1990s",
+    "placed at": "headquarters, Atlanta",
+    "source": "https://www.edweek.org/education/schools-are-latest-front-in-cola-wars/1998/04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.7115,
+     41.0395
+    ]
+   },
+   "properties": {
+    "name": "PepsiCo",
+    "group": "Selling to children through schools",
+    "what they did": "Signed exclusive school drink contracts, among them $2.1 million over 7 years with Jefferson County, Colorado, and $1.95 million over 5 years with Hurst-Euless-Bedford, Texas (Education Week, 1998).",
+    "when": "1990s",
+    "placed at": "headquarters, Purchase, New York",
+    "source": "https://www.edweek.org/education/schools-are-latest-front-in-cola-wars/1998/04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.0841,
+     37.422
+    ]
+   },
+   "properties": {
+    "name": "Google (Google for Education)",
+    "group": "Selling to children through schools",
+    "what they did": "The Electronic Frontier Foundation's complaint to the US Federal Trade Commission (1 December 2015) said school Chromebooks let Google collect every site students visit, every search, the videos they watch and their saved passwords, without asking students or parents.",
+    "when": "2015",
+    "placed at": "headquarters, Mountain View, California",
+    "source": "https://www.eff.org/press/releases/google-deceptively-tracks-students-internet-browsing-eff-says-complaint-federal-trade"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.0589,
+     42.3601
+    ]
+   },
+   "properties": {
+    "name": "Junior Achievement",
+    "group": "Selling to children through schools",
+    "what they did": "Founded 1919 by Horace A. Moses, AT&T's Theodore Vail and Winthrop M. Crane; brings business, work-readiness and entrepreneurship lessons into schools, about ten million students a year.",
+    "when": "1919 on",
+    "placed at": "Boston, as its record gives",
+    "source": "https://en.wikipedia.org/wiki/Junior_Achievement"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.8219,
+     -1.2921
+    ]
+   },
+   "properties": {
+    "name": "Bridge International Academies",
+    "group": "Private money steering what schools teach",
+    "what they did": "Runs for-profit primary schools in Kenya, Uganda, Nigeria, India and Liberia (about 750,000 pupils in 2022) where teachers read scripted lessons from tablets; backed by the Gates Foundation, the Chan Zuckerberg Initiative and the World Bank's IFC; Uganda's High Court ruled in 2016 that its schools ran without proper licences.",
+    "when": "2008 on",
+    "placed at": "Nairobi",
+    "source": "https://en.wikipedia.org/wiki/Bridge_International_Academies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.2681,
+     48.8619
+    ]
+   },
+   "properties": {
+    "name": "OECD (PISA)",
+    "group": "Tests and standards that rank and sort children",
+    "what they did": "Tests 15-year-olds in 91 countries and ranks them; Germany's \"PISA shock\" led every German state to adopt common national standards; scholars question whether the data can bear the policy decisions built on them.",
+    "when": "2000 on",
+    "placed at": "headquarters, Paris",
+    "source": "https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment"
+   }
+  }
+ ]
+}
