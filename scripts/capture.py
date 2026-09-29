@@ -44,6 +44,14 @@ Two sources, merged into one file:
      later round. Also every case on the US Justice Department's yearly lists of
      FCPA and related enforcement actions (1977 on), placed at the court
      district's city.
+  5. Round 111c: secret-police collaborator categories on the lt, lv, et, hu,
+     sq, ru, uk, hr, sl and sr Wikipedias too; development banks' debarment
+     lists (World Bank and others, OpenSanctions copies, CC BY-NC 4.0); every
+     foreign principal registered under the US Foreign Agents Registration Act
+     (DOJ bulk data), at the principal's country's capital; and
+     capture/by_country.json: cases per country (by the Natural Earth shape the
+     point falls in), by tier and branch, with the legislature's seats today
+     (Wikidata) and lawmakers found per 100 seats today.
      If a part gives nothing one week, last week's copy of it is kept.
 
   capture/cases.geojson   group = what proves it (TIERS); branch; captor
@@ -254,7 +262,7 @@ CASES = [
      ["https://colombiareports.com/parapolitics/", "https://www.hrw.org/world-report/2014/country-chapters/colombia",
       "https://insightcrime.org/news/brief/colombia-election-results-show-persisting-criminal-influence-in-politics/",
       "https://www.publimetro.co/noticias/2024/05/01/la-parapolitica-fue-un-hecho-unico-en-el-mundo-la-mitad-del-congreso-fue-investigado-leon-valencia/"],
-     {"years": "2002–2014 (elections of 2002 and 2006 mainly)", "count": "86 convicted, 136 investigated (Valencia, 2024); earlier counts 55 to 61"}),
+     {"years": "2002–2014 (elections of 2002 and 2006 mainly)", "count": "86 convicted, 136 investigated (Valencia, 2024); earlier counts 55 to 61", "people in this case": 86}),
     (-74.0776, 4.5981, "Colombia's Congress after parapolitics: candidates with ties to illegal groups elected", "ties", "lawmaking",
      "Paramilitary and criminal groups",
      "Of 131 candidates questioned for criminal ties by the Peace and Reconciliation Foundation, 69 won seats (33 Senate, 36 Chamber): investigated for direct ties with criminal groups, or connected to politicians accused or convicted of parapolitics.",
@@ -264,7 +272,7 @@ CASES = [
      "The Liberal Democratic Party's own survey (September 2022): 179 of its 379 national lawmakers had ties with the church and related groups, from attending events to receiving election help; 17 received election help. The party named 121 with substantial ties. The survey did not cover local assembly members.",
      ["https://www.japantimes.co.jp/news/2022/09/08/national/ldp-unification-church-survey/",
       "https://www.marketscreener.com/news/latest/Japan-ruling-party-says-179-of-379-lawmakers-had-interactions-with-Unification-Church-41720694/"],
-     {"years": "surveyed 2022", "count": "179 of 379", "share of the body": "47%"}),
+     {"years": "surveyed 2022", "count": "179 of 379", "share of the body": "47%", "people in this case": 179}),
     (4.3752, 50.8386, "Qatargate: Antonio Panzeri and Francesco Giorgi (European Parliament)", "admitted", "lawmaking",
      "Qatar and Morocco",
      "Former MEP Panzeri took a plea deal; parliamentary assistant Giorgi admitted to accepting bribes from Qatari officials in exchange for influencing the European Parliament's decisions. About €1.5 million in cash was seized in the December 2022 raids.",
@@ -531,24 +539,36 @@ SEC_ALIASES = {"UAE": "United Arab Emirates", "U.A.E.": "United Arab Emirates", 
                "Ivory Coast": "Côte d'Ivoire", "Czech Republic": "Czech Republic", "Macao": "China", "Macau": "China", "Hong Kong": "China"}
 
 
+COUNTRY_TABLE = None
+
+
 def countries(found):
-    rows = sparql("""SELECT ?c ?l ?alt ?coord WHERE {
+    """English names and aliases of today's countries -> (name, capital coordinates, ISO2, ISO3), from Wikidata."""
+    global COUNTRY_TABLE
+    if COUNTRY_TABLE:
+        return COUNTRY_TABLE
+    rows = sparql("""SELECT ?c ?l ?alt ?coord ?i2 ?i3 WHERE {
       ?c wdt:P31 wd:Q6256; wdt:P36 ?cap. ?cap wdt:P625 ?coord. ?c rdfs:label ?l FILTER(LANG(?l) = "en")
+      OPTIONAL { ?c wdt:P297 ?i2 } OPTIONAL { ?c wdt:P298 ?i3 }
       OPTIONAL { ?c skos:altLabel ?alt FILTER(LANG(?alt) = "en") } }""")
     names = {}
     for b in rows:
         m = re.match(r"Point\(([-\d.eE]+) ([-\d.eE]+)\)", v(b, "coord"))
         if not m:
             continue
-        ll = (round(float(m.group(1)), 5), round(float(m.group(2)), 5))
-        names.setdefault(v(b, "l"), (v(b, "l"), ll))
+        rec = (v(b, "l"), (round(float(m.group(1)), 5), round(float(m.group(2)), 5)), v(b, "i2"), v(b, "i3"))
+        names.setdefault(v(b, "l"), rec)
         a = v(b, "alt")
         if a and len(a) > 3 and a[0].isupper():
-            names.setdefault(a, (v(b, "l"), ll))
+            names.setdefault(a, rec)
+        for code in (v(b, "i2"), v(b, "i3")):
+            if code:
+                names.setdefault("ISO:" + code, rec)
     for a, to in SEC_ALIASES.items():
         if to in names:
             names[a] = names[to]
     found["country names"] = len(names)
+    COUNTRY_TABLE = names
     return names
 
 
@@ -560,7 +580,7 @@ def sec_fcpa(found, errors):
         errors.append(f"sec: {type(e).__name__}: {e}")
         return []
     body = page.split("listed by calendar year", 1)[-1]
-    rx = sorted(names, key=len, reverse=True)
+    rx = sorted((n for n in names if not n.startswith("ISO:")), key=len, reverse=True)
     pat = re.compile(r"(?<![A-Za-z])(" + "|".join(re.escape(n) for n in rx) + r")(?![A-Za-z])")
     feats, year = [], ""
     for part in re.split(r"(<h2[^>]*>.*?</h2>|<li[^>]*>.*?</li>|<p[^>]*>\s*\d{4}\s*</p>)", body, flags=re.S):
@@ -583,7 +603,7 @@ def sec_fcpa(found, errors):
             else "settled" if re.search(r"agreed|settle|ordered to pay|to pay|disgorge|penalty|non-prosecution|deferred prosecution", low) else "alleged"
         found_c = []
         for m in pat.finditer(text.replace(who, " ")):
-            c = names[m.group(1)]
+            c = names[m.group(1)][:2]
             if c[0] != "United States of America" and c not in found_c:
                 found_c.append(c)
         base = {"group": TIERS[tier], "branch": "company", "working for or tied to": who, "what the SEC says": text, "date": date, "year": year,
@@ -677,6 +697,17 @@ CATEGORY_WIKIS = [
     ("de", ["Inoffizieller Mitarbeiter des Ministeriums für Staatssicherheit"], r"inoffizielle[rn]? mitarbeiter", (13.4050, 52.5200), "Stasi (East German secret police)"),
     ("ro", ["informatori ai Securității", "colaboratori ai Securității"], r"(informatori|colaboratori|agenți).*securit", (26.1025, 44.4268), "Securitate (Romanian secret police)"),
     ("bg", ["агенти на Държавна сигурност", "сътрудници на Държавна сигурност"], r"(агент|сътрудни).*(държавна сигурност|дс)", (23.3219, 42.6977), "Committee for State Security (Bulgaria)"),
+    # Round 111c: the other former Soviet-bloc states.
+    ("lt", ["KGB agentai", "KGB bendradarbiai"], r"(kgb|saugum).*(agent|bendradarb|informator)|(agent|bendradarb|informator).*(kgb|saugum)", (25.2797, 54.6872), "KGB (Soviet secret police, Lithuania)"),
+    ("lv", ["VDK aģenti", "čekas aģenti"], r"(vdk|kgb|čeka).*(aģent|ziņotāj)|(aģent|ziņotāj).*(vdk|kgb|čeka)", (24.1052, 56.9496), "KGB (Soviet secret police, Latvia)"),
+    ("et", ["KGB agendid"], r"(kgb|julgeolek).*(agent|informaator)|(agent|informaator).*(kgb|julgeolek)", (24.7536, 59.437), "KGB (Soviet secret police, Estonia)"),
+    ("hu", ["ügynökei", "III/III ügynök", "hálózati személyek"], r"ügynök|besúgó|hálózati személy", (19.0402, 47.4979), "Hungarian communist-era state security (III/III and others)"),
+    ("sq", ["bashkëpunëtorë të Sigurimit", "agjentë të Sigurimit"], r"sigurim", (19.8187, 41.3275), "Sigurimi (Albanian secret police)"),
+    ("ru", ["Агенты КГБ", "Агенты НКВД", "Осведомители"], r"(агент|осведомител|сексот).*(кгб|нквд|огпу|мгб|чк)|(кгб|нквд|огпу|мгб).*(агент|осведомител)", (37.6173, 55.7558), "Soviet secret police (Cheka, OGPU, NKVD, KGB)"),
+    ("uk", ["Агенти КДБ", "Агенти НКВС"], r"(агент|інформатор|сексот).*(кдб|нквс|нквд|чк)|(кдб|нквс|нквд).*(агент|інформатор)", (30.5234, 50.4501), "Soviet secret police (Cheka, NKVD, KGB)"),
+    ("hr", ["suradnici UDBA", "agenti UDBA"], r"(udb|kos).*(surad|agent|doušni)|(surad|agent|doušni).*(udb|kos)", (15.9819, 45.815), "UDBA (Yugoslav secret police)"),
+    ("sl", ["sodelavci UDBE", "agenti UDBE"], r"(udb|sdv).*(sodelav|agent)|(sodelav|agent).*(udb|sdv)", (14.5058, 46.0569), "UDBA / SDV (Yugoslav secret police)"),
+    ("sr", ["сарадници УДБЕ", "агенти УДБЕ"], r"(удб|кос).*(сарадни|агент|доушни)|(сарадни|агент|доушни).*(удб|кос)", (20.4489, 44.7866), "UDBA (Yugoslav secret police)"),
 ]
 
 
@@ -738,6 +769,165 @@ def ipn(found, errors):
     return got
 
 
+# ---- development banks' debarments, via OpenSanctions (round 111c) ---------
+OS_INDEX = "https://data.opensanctions.org/datasets/latest/index.json"
+
+
+def mdb_debarments(found, errors):
+    import csv, io
+    names = countries(found)
+    idx = json.loads(urllib.request.urlopen(urllib.request.Request(OS_INDEX, headers={"User-Agent": UA["User-Agent"]}), timeout=120).read())
+    sets = []
+    for d in idx.get("datasets", []):
+        title = (d.get("title") or "") + " " + ((d.get("publisher") or {}).get("name") or "")
+        if re.search(r"debar|ineligib|sanctioned (firms|entities|parties)|sanctions? (list|system)", title, re.I) and re.search(r"bank|development|world bank", title, re.I):
+            res = [r for r in d.get("resources", []) if r.get("name") == "targets.simple.csv"]
+            if res:
+                sets.append((d.get("name"), d.get("title"), (d.get("publisher") or {}).get("name", ""), res[0]["url"]))
+    found["development bank debarment lists"] = [f"{n}: {t}" for n, t, _, _ in sets]
+    feats = []
+    for name, title, pub, url in sets:
+        try:
+            text = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA["User-Agent"]}), timeout=300).read().decode("utf-8", "replace")
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"debarments {name}: {type(e).__name__}: {e}")
+            continue
+        for r in csv.DictReader(io.StringIO(text)):
+            codes = [c.strip().upper() for c in (r.get("countries") or "").split(";") if c.strip()]
+            recs = [names.get("ISO:" + c) for c in codes]
+            recs = [x for x in recs if x] or [None]
+            for rec in recs:
+                props = {"name": r.get("name", ""), "group": TIERS["inquiry"], "branch": "company",
+                         "working for or tied to": "fraud or corruption in projects financed by " + (pub or title),
+                         "list": title, "published by": pub, "country": rec[0] if rec else "",
+                         "note": "Barred from projects financed by this development bank after its own sanctions process found fraud, corruption, collusion or the like; not a court ruling.",
+                         "source": f"OpenSanctions copy of {title} (CC BY-NC 4.0), read " + datetime.date.today().isoformat(),
+                         "placed at": f"the capital of {rec[0]}, the country the list gives" if rec else "the World Bank in Washington: the list gives no country"}
+                props.update({f"list: {k}": v2 for k, v2 in r.items() if k not in ("name",) and v2})
+                ll = rec[1] if rec else (-77.0425, 38.8990)
+                feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": list(ll)}, "properties": props})
+        time.sleep(1)
+    found["debarment points"] = len(feats)
+    return feats
+
+
+# ---- US foreign agents (FARA): who is paid in the US to act for foreign
+# governments, parties and companies (round 111c) --------------------------
+FARA_ZIP = "https://efile.fara.gov/bulk/zip/FARA_All_ForeignPrincipals.csv.zip"
+
+
+def fara(found, errors):
+    import csv, io, zipfile
+    names = countries(found)
+    lower = {k.lower(): v2 for k, v2 in names.items() if not k.startswith("ISO:")}
+    data = urllib.request.urlopen(urllib.request.Request(FARA_ZIP, headers={"User-Agent": UA["User-Agent"]}), timeout=300).read()
+    z = zipfile.ZipFile(io.BytesIO(data))
+    name = [n for n in z.namelist() if n.lower().endswith(".csv")][0]
+    rows = list(csv.DictReader(io.StringIO(z.read(name).decode("iso-8859-1"))))
+    if not rows:
+        return []
+    cols = list(rows[0].keys())
+    ccol = next((c for c in cols if re.search(r"country", c, re.I)), None)
+    pcol = next((c for c in cols if re.fullmatch(r"\s*foreign principal( name)?\s*", c, re.I)), None) or \
+        next((c for c in cols if re.search(r"principal", c, re.I) and not re.search(r"date|number|address|country", c, re.I)), cols[0])
+    rcol = next((c for c in cols if re.search(r"registrant name", c, re.I)), "")
+    found["fara columns"] = cols
+    feats, missed = [], set()
+    for r in rows:
+        country = (r.get(ccol) or "").strip() if ccol else ""
+        rec = lower.get(country.lower()) or lower.get(country.title().lower())
+        if not rec:
+            missed.add(country)
+        ll = rec[1] if rec else (-77.0365, 38.8977)
+        props = {"name": f"{(r.get(pcol) or '').strip()} (represented in the US by {(r.get(rcol) or '').strip()})" if rcol else (r.get(pcol) or "").strip(),
+                 "group": TIERS["ties"], "branch": "foreign influence registered in the US",
+                 "working for or tied to": (r.get(pcol) or "").strip(),
+                 "note": "Registered under the US Foreign Agents Registration Act: a person or firm in the US paid to lobby, advise or do public relations for a foreign government, party or company. Registration is legal and public; it records the tie, not a crime.",
+                 "source": "US Department of Justice, FARA bulk data, all foreign principals (public domain), read " + datetime.date.today().isoformat(),
+                 "placed at": f"the capital of {rec[0]}, the country FARA gives for the foreign principal" if rec else "Washington (FARA's country could not be matched: " + country + ")"}
+        props.update({f"FARA: {k}": v2 for k, v2 in r.items() if v2})
+        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": list(ll)}, "properties": props})
+    found["fara rows"] = len(feats)
+    found["fara countries not matched"] = sorted(missed)[:300]
+    return feats
+
+
+# ---- by country: cases found, and lawmakers found per 100 seats today -----
+NE_COUNTRIES = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
+
+
+def _inside(x, y, ring):
+    c, j = False, len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i][0], ring[i][1]
+        xj, yj = ring[j][0], ring[j][1]
+        if (yi > y) != (yj > y) and x < (xj - xi) * (y - yi) / ((yj - yi) or 1e-12) + xi:
+            c = not c
+        j = i
+    return c
+
+
+def by_country(feats, found, errors):
+    shapes = []
+    try:
+        ne = json.loads(urllib.request.urlopen(urllib.request.Request(NE_COUNTRIES, headers={"User-Agent": UA["User-Agent"]}), timeout=180).read())
+        for f in ne["features"]:
+            p = f["properties"]
+            iso = p.get("ISO_A3") if p.get("ISO_A3") not in (None, "-99") else p.get("ADM0_A3")
+            g = f["geometry"]
+            polys = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]
+            for poly in polys:
+                ring = poly[0]
+                xs, ys = [q[0] for q in ring], [q[1] for q in ring]
+                shapes.append((iso, p.get("NAME", ""), (min(xs), min(ys), max(xs), max(ys)), ring))
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"by_country shapes: {type(e).__name__}: {e}")
+        return {}
+    seats = {}
+    try:
+        rows = sparql("""SELECT ?i3 ?legLabel (MAX(?s) AS ?seats) (SUM(?cs) AS ?chambers) WHERE {
+          ?c wdt:P31 wd:Q6256; wdt:P298 ?i3; wdt:P194 ?leg.
+          OPTIONAL { ?leg wdt:P1342 ?s }
+          OPTIONAL { ?leg wdt:P527 ?ch. ?ch wdt:P1342 ?cs }
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } GROUP BY ?i3 ?legLabel""")
+        for b in rows:
+            n = v(b, "seats") or v(b, "chambers")
+            if n:
+                seats[v(b, "i3")] = (v(b, "legLabel"), int(float(n)))
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"by_country seats: {type(e).__name__}: {e}")
+    out = {}
+    for f in feats:
+        x, y = f["geometry"]["coordinates"]
+        hit = next(((iso, nm) for iso, nm, (a, b2, c, d), ring in shapes if a <= x <= c and b2 <= y <= d and _inside(x, y, ring)), None)
+        if not hit:
+            continue
+        iso, nm = hit
+        r = out.setdefault(iso, {"country": nm, "cases": 0, "lawmakers found": 0, "courts found": 0, "rulers and officials found": 0, "companies found": 0})
+        r["cases"] += 1
+        g = f["properties"].get("group", "")
+        r[g] = r.get(g, 0) + 1
+        br = f["properties"].get("branch", "")
+        key = {"lawmaking": "lawmakers found", "courts": "courts found", "ruling and running": "rulers and officials found", "company": "companies found"}.get(br)
+        if key:
+            r[key] += 1
+        n = f["properties"].get("people in this case")
+        if key == "lawmakers found" and isinstance(n, int):
+            r["largest single count in one case"] = max(r.get("largest single count in one case", 0), n)
+    for iso, r in out.items():
+        # A case that stands for many people (86 Colombian members of Congress
+        # convicted, 179 Japanese lawmakers with ties) counts as that many when
+        # it is larger than the people found one by one.
+        r["lawmakers found, one by one"] = r["lawmakers found"]
+        r["lawmakers found"] = max(r["lawmakers found"], r.get("largest single count in one case", 0))
+        if iso in seats:
+            r["legislature today (Wikidata)"], r["seats today"] = seats[iso]
+            if r["seats today"]:
+                r["lawmakers found per 100 seats today"] = round(100 * r["lawmakers found"] / r["seats today"], 2)
+    found["countries with cases"] = len(out)
+    return out
+
+
 # ---- probes: pages saved for the next round to read ------------------------
 PROBES = {
     "ipn_catalogue_entry_86435.html": "https://katalog.bip.ipn.gov.pl/informacje/86435",
@@ -785,7 +975,7 @@ def main():
     lists = []
     old = OUT / "cases.geojson"
     before = json.loads(old.read_text())["features"] if old.exists() else []
-    for job in (venona, mitrokhin, colombia_wiki, sec_fcpa, doj_fcpa, secret_police_categories, ipn):
+    for job in (venona, mitrokhin, colombia_wiki, sec_fcpa, doj_fcpa, secret_police_categories, ipn, mdb_debarments, fara):
         try:
             got = job(found, errors)
         except Exception as e:  # noqa: BLE001
@@ -811,6 +1001,9 @@ def main():
         feats += prev
         errors.append(f"kept {len(prev)} Wikidata cases from the last build")
     old.write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
+    bc = by_country(feats, found, errors)
+    if bc:
+        (OUT / "by_country.json").write_text(json.dumps(bc, ensure_ascii=False, indent=0))
     counts = {}
     for f in feats:
         k = f"{f['properties']['group']} | {f['properties']['branch']}"
