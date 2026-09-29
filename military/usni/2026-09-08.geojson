@@ -1,0 +1,230 @@
+{
+ "type": "FeatureCollection",
+ "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+ "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+ "week": "2026-09-08",
+ "total": "These are the approximate positions of the U.S. Navy’s deployed carrier strike groups and amphibious ready groups throughout the world as of Sept. 8, 2026, based on Navy and public data. In cases in which a CSG or ARG is conducting disaggregated operations, the chart reflects the location of the capital ship.",
+ "unplaced": [
+  "Carrier Strike Group 3",
+  "Carrier Strike Group 5",
+  "Carrier Strike Group 10"
+ ],
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138,
+     36
+    ]
+   },
+   "properties": {
+    "name": "In Japan",
+    "said": "USS Tripoli (LHA-7) is in port in Sasebo, Japan.",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114,
+     12
+    ]
+   },
+   "properties": {
+    "name": "In the South China Sea",
+    "said": "The Abraham Lincoln Carrier Strike Group arrived Wednesday and departed Sunday from Laem Chabang, Thailand, according to ship spotters .",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.8,
+     1.3
+    ]
+   },
+   "properties": {
+    "name": "In Singapore",
+    "said": "USS Santa Barbara (LCS-32) and USS Tulsa (LCS-16) are in port in Singapore, according to ship spotters.",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -120,
+     -25
+    ]
+   },
+   "properties": {
+    "name": "In the Southern Pacific",
+    "said": "USS San Antonio (LPD-17) and USS Gridley (DDG-101) are underway in the Southern Pacific. Elements of the 24th Marine Expeditionary Unit are embarked.",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75,
+     15
+    ]
+   },
+   "properties": {
+    "name": "In the Caribbean",
+    "said": "Littoral combat ship USS Billings (LCS-15) is operating in the Central Caribbean Sea. The Freedom-class LCS is based at Naval Station Mayport, Fla. The 24th MEU is operating in the region as Littoral Combat Force 24 and is spread throughout the region, including aboard USS San Antonio (LPD-17) in the Southern Pacific.",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11,
+     64
+    ]
+   },
+   "properties": {
+    "name": "In Norway",
+    "said": "Virginia-class fast attack submarine USS Delaware (SSN-791) concluded a routine port visit on Monday in Grøtsund, Norway, the Navy announced .",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18,
+     35
+    ]
+   },
+   "properties": {
+    "name": "In the Mediterranean Sea",
+    "said": "The independently deployed guided-missile destroyers in the Mediterranean Sea include:",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.5,
+     20
+    ]
+   },
+   "properties": {
+    "name": "In the Red Sea",
+    "said": "There is one guided-missile destroyer operating in the Red Sea.",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     63,
+     15
+    ]
+   },
+   "properties": {
+    "name": "In the Arabian Sea",
+    "said": "Aircraft carrier USS George Washington (CVN-73), along with embarked Carrier Air Wing (CVW) 5 and USS Shoup (DDG-86), are operating in the Arabian Sea in support of Operation Epic Fury .",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75,
+     -10
+    ]
+   },
+   "properties": {
+    "name": "In the Indian Ocean",
+    "said": "Warships operating in the Indian Ocean include:",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -120,
+     10
+    ]
+   },
+   "properties": {
+    "name": "In the Eastern Pacific",
+    "said": "Aircraft carrier USS Theodore Roosevelt (CVN-71) departed Saturday from San Diego, Calif., according to ship spotters .\n\nAircraft carrier USS Carl Vinson (CVN-70) returned Friday to San Diego, according to ship spotters .\n\nAircraft carrier USS Ronald Reagan (CVN-76) departed Thursday and returned Monday to Bremerton, Wash., according to ship spotters .\n\nAmphibious assault ship USS Makin Island (LHD-8) returned last Monday to San Diego, according to ship spotters .",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70,
+     32
+    ]
+   },
+   "properties": {
+    "name": "In the Western Atlantic",
+    "said": "Aircraft carrier USS Dwight D. Eisenhower (CVN-69) returned Wednesday to Norfolk, Va., according to ship spotters .\n\nAmphibious assault ship USS Kearsarge (LHD-3) returned Friday to Norfolk, according to ship spotters .\n\nIn addition to these major formations, not shown are others serving in submarines, individual surface ships, aircraft squadrons, SEALs, Special Purpose Marine Air-Ground Task Forces, Seabees, EOD Mobile Units and more throughout the globe.",
+    "week": "2026-09-08",
+    "article": "https://news.usni.org/2026/09/08/usni-news-fleet-and-marine-tracker-sept-8-2026",
+    "title": "USNI News Fleet and Marine Tracker: Sept. 8, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  }
+ ]
+}
