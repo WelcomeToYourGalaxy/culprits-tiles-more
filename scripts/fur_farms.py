@@ -33,11 +33,27 @@ OUT = pathlib.Path("fur")
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
 FUR = re.compile(r"\b(minks?|fox(es)?|chinchillas?|rabbits?|raccoon[ -]?dogs?|sables?|fur|pelts?|nutria|coypu|polecats?|ferrets?)\b", re.I)
 SKINS = []          # round 95b: crocodile, alligator and ostrich farms, their own layer
+SPECIES_SEEN = {}   # round 100b: every species the skin farms name, counted
+# Round 100b: overpass-api.de answered 406; other public instances are tried after it.
+OVERPASS_URLS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
+                 "https://overpass.private.coffee/api/interpreter"]
 NOT_FUR = re.compile(r"\b(crocodiles?|alligators?|ostrich(es)?|caimans?)\b", re.I)
 
 
-def get(url, timeout=120, data=None):
-    req = urllib.request.Request(url, headers=UA, data=data)
+def overpass(query):
+    last = None
+    for u in OVERPASS_URLS:
+        try:
+            return json.loads(get(u, timeout=1000, data=urllib.parse.urlencode({"data": query}).encode(),
+                                  headers={"Accept": "application/json, */*", "Content-Type": "application/x-www-form-urlencoded"}))
+        except Exception as e:  # noqa: BLE001
+            last = e
+            print(f"  {u}: {e}", flush=True)
+    raise RuntimeError(f"no Overpass instance answered ({last})")
+
+
+def get(url, timeout=120, data=None, headers=None):
+    req = urllib.request.Request(url, headers=dict(UA, **(headers or {})), data=data)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
@@ -51,8 +67,13 @@ def final_nail(status):
         except (TypeError, ValueError):
             continue
         desc = re.sub(r"<[^>]+>", " ", html.unescape(str(m.get("description") or ""))).strip()
+        # Round 100b (asked 28 September: the Final Nail row goes once the
+        # worldwide row holds all of it): every field of the marker kept, as
+        # Final Nail's own box shows it, the description whole.
+        extra = {f"Final Nail: {k}": (re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(v))).strip() if isinstance(v, str) else v)
+                 for k, v in m.items() if k not in ("lat", "lng") and v not in (None, "", [], {})}
         out.append({"lon": lng, "lat": lat, "name": m.get("title") or "", "address": m.get("address") or "",
-                    "about": re.sub(r"\s+", " ", desc)[:400], "source": "Final Nail", "link": m.get("link") or "https://finalnail.com/"})
+                    "about": re.sub(r"\s+", " ", desc), "source": "Final Nail", "link": m.get("link") or "https://finalnail.com/", "extra": extra})
     status["Final Nail"] = f"{len(out)} farms"
     return out
 
@@ -80,15 +101,19 @@ def farm_transparency(status):
         st = re.search(r"Last known status:?\s*([A-Za-z ,/-]{3,60}?)(?:\s{2}|\.|$|Species|Address)", text)
         addr = re.search(r"Address:?\s*([^|]{5,160}?)(?:\s{2}|Species|Last known|Status|$)", text)
         words = f"{name} {species}"
-        if NOT_FUR.search(species) and not FUR.search(species):
+        # Round 100b (asked 28 September: are the skin farms complete?): every
+        # facility of the category is kept. A fur species makes it a fur farm;
+        # any other species (crocodiles, ostriches, or anything else the page
+        # names) makes it a skin farm, grouped by that species. None is dropped.
+        if (NOT_FUR.search(species) and not FUR.search(species)) or (species and not FUR.search(words)):
             skins += 1
+            SPECIES_SEEN[species or "not stated"] = SPECIES_SEEN.get(species or "not stated", 0) + 1
             if m:
                 SKINS.append({"lon": float(m.group(2)), "lat": float(m.group(1)), "name": name, "species": species,
                               "status": st.group(1).strip() if st else "", "address": addr.group(1).strip() if addr else "",
                               "source": "Farm Transparency Project", "link": f"https://www.farmtransparency.org/map?location={fid}"})
-            continue
-        if not FUR.search(words) and species:
-            skins += 1
+            else:
+                nowhere += 1
             continue
         if not m:
             nowhere += 1
@@ -100,7 +125,8 @@ def farm_transparency(status):
         if i % 50 == 49:
             print(f"  farm transparency: {i + 1} of {len(ids)} read", flush=True)
         time.sleep(0.4)
-    status["Farm Transparency Project"] = f"{len(ids)} facilities listed; {len(out)} fur farms placed; {skins} skin farms of other animals left out; {nowhere} with no position"
+    status["Farm Transparency Project"] = (f"{len(ids)} facilities listed; {len(out)} fur farms placed; {skins} skin farms of other animals, "
+                                           f"{len(SKINS)} of them placed, into the skin farms file; {nowhere} with no position; skin species {SPECIES_SEEN}")
     return out
 
 
@@ -115,7 +141,7 @@ out center tags;"""
 
 
 def osm(status):
-    j = json.loads(get("https://overpass-api.de/api/interpreter", timeout=1000, data=urllib.parse.urlencode({"data": OVERPASS}).encode()))
+    j = overpass(OVERPASS)
     out = []
     for e in j.get("elements", []):
         c = e.get("center") or e
@@ -139,7 +165,7 @@ out center tags;"""
 
 
 def osm_skins(status):
-    j = json.loads(get("https://overpass-api.de/api/interpreter", timeout=1000, data=urllib.parse.urlencode({"data": SKIN_OVERPASS}).encode()))
+    j = overpass(SKIN_OVERPASS)
     out = []
     for e in j.get("elements", []):
         c = e.get("center") or e
@@ -239,7 +265,7 @@ def main():
         sp = f["properties"]["species"].lower()
         f["properties"]["group"] = ("Crocodiles and alligators" if re.search(r"croc|allig|caiman", sp + " " + f["properties"]["name"].lower())
                                     else "Ostriches and emus" if re.search(r"ostrich|emu|strau|autruch|avestruz|struis", sp + " " + f["properties"]["name"].lower())
-                                    else "Not stated")
+                                    else (f["properties"]["species"].strip().capitalize() or "Not stated"))
     (OUT / "skin_farms.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": skin_feats}, ensure_ascii=False))
     stamp.write_text(json.dumps({"read": datetime.date.today().isoformat(), "farms": len(feats), "skin_farms": len(skin_feats), "by_source": status}, indent=1, ensure_ascii=False))
     print(f"fur_farms: {len(feats)} fur farms, {len(skin_feats)} skin farms")
@@ -263,14 +289,19 @@ def merge(farms):
             for k in ("name", "species", "status", "address", "about"):
                 if not near.get(k) and f.get(k):
                     near[k] = f[k]
+            # Round 100b: what each source says is kept, not only the first.
+            near.setdefault("extra", {}).update(f.get("extra") or {})
+            for k in ("about", "address", "species", "status"):
+                if f.get(k) and near.get(k) and f[k] != near[k]:
+                    near["extra"][f"{f['source']}: {k}"] = f[k]
             continue
-        g = dict(f, sources=[f["source"]], links=[f.get("link", "")])
+        g = dict(f, sources=[f["source"]], links=[f.get("link", "")], extra=dict(f.get("extra") or {}))
         merged.append(g)
         grid.setdefault(cell, []).append(g)
     return [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(g["lon"], 6), round(g["lat"], 6)]},
              "properties": {"name": g.get("name") or "Farm", "group": g["sources"][0], "sources": ", ".join(g["sources"]),
                             "species": g.get("species", ""), "status": g.get("status", ""), "address": g.get("address", ""),
-                            "about": g.get("about", ""), "links": " ".join(l for l in g["links"] if l)}} for g in merged]
+                            "about": g.get("about", ""), "links": " ".join(l for l in g["links"] if l), **(g.get("extra") or {})}} for g in merged]
 
 
 if __name__ == "__main__":

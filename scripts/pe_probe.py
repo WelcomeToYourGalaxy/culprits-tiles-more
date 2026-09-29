@@ -15,6 +15,7 @@ PDFS = {
     "bankrolling_extinction_figure1": "https://portfolio.earth/wp-content/uploads/2020/12/Figure-1.pdf",
     "subsidising_extinction_report": "https://portfolio.earth/wp-content/uploads/2021/11/Portfolio-Earth_Subsidising-Extinction.pdf",
 }
+PAGES = {"bankrolling_extinction": "https://portfolio.earth/campaigns/bankrolling-extinction/"}
 OUT = pathlib.Path("probe/pe")
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; github.com/WelcomeToYourGalaxy)"}
 
@@ -51,6 +52,22 @@ def main():
         (OUT / f"{name}.txt").write_text("\n".join(pages))
         (OUT / f"{name}.words.json").write_text(json.dumps(words))
         print(f"  {name}: {len(pages)} pages read", flush=True)
+    # Round 100b (asked 28 September: may the page row go, now the banks are
+    # mapped?): the campaign page itself, its text and every link on it, so it
+    # can be checked against what the map's banks row holds.
+    import html as _html, re as _re
+    for name, url in PAGES.items():
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r:
+                raw = r.read().decode("utf-8", "replace")
+        except Exception as e:  # noqa: BLE001
+            print(f"  {name}: {e}", flush=True)
+            continue
+        text = _re.sub(r"\s+", " ", _html.unescape(_re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", raw, flags=_re.S))).strip()
+        links = sorted(set(_re.findall(r'href="([^"#]+)"', raw)))
+        (OUT / f"{name}.page.json").write_text(json.dumps({"url": url, "text": text, "links": links,
+                                                            "iframes": _re.findall(r'<iframe[^>]+src="([^"]+)"', raw)}, indent=1, ensure_ascii=False))
+        print(f"  {name}: page read, {len(text):,} characters, {len(links)} links", flush=True)
 
 
 if __name__ == "__main__":
