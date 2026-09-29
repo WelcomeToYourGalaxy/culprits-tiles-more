@@ -1,4 +1,4 @@
-Last Update: 2026-09-28 13:11 UTC
+Last Update: 2026-09-29 13:24 UTC
            Object             |    Diameter    |             VI Max                                   |          VIs                  |
 Num/des.           Name       |   m  |   *=Y   |      Date/Time   |  IP max  | PS max |TS  | Vel km/s | Years     | IP cum   | PS cum |
 AAAAAAAAAAAA AAAAAAAAAAAAAAAA | NNNN |    A    | YYYY-MM-DD HH:MM | EEEEEEEE | NNN.NN | NN |  NNN.NN  | YYYY-YYYY | EEEEEEEE | NNN.NN |
