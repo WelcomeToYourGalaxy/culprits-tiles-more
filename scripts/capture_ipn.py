@@ -42,11 +42,37 @@ TIERS = {"archive": "Named in opened secret-police or spy-service files", "court
 NATIONAL = r"sejm|senat|parlament europejski|minist|rada ministrów|prezes rady|prezydent rzeczypospolitej|prezydent rp|trybunał|sąd najwyższy|naczelny sąd|prokurator krajowy|prokuratura krajowa|najwyższa izba|narodowy bank|instytut pamięci|rzecznik praw"
 
 
+# Round 112c: the first run failed on every page with CERTIFICATE_VERIFY_FAILED
+# (IPN's server does not send the whole certificate chain). Try certifi's
+# bundle first; if the chain still cannot be checked, read these public pages
+# without checking it (noted in ipn_build.json).
+import ssl
+try:
+    import certifi
+    CTX = ssl.create_default_context(cafile=certifi.where())
+except Exception:  # noqa: BLE001
+    CTX = ssl.create_default_context()
+UNCHECKED = {"used": False}
+
+
+def open_url(url):
+    global CTX
+    try:
+        return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX)
+    except urllib.error.URLError as e:
+        if "CERTIFICATE_VERIFY_FAILED" not in str(e) or UNCHECKED["used"]:
+            raise
+        CTX = ssl._create_unverified_context()
+        UNCHECKED["used"] = True
+        print("capture_ipn: IPN's certificate chain could not be checked; reading its public pages without the check", flush=True)
+        return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX)
+
+
 def fetch(n):
     url = BASE + str(n)
     for i in range(3):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+            with open_url(url) as r:
                 return n, r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):
@@ -134,7 +160,7 @@ def geocode(name, cache):
     ll = None
     try:
         q = urllib.parse.urlencode({"q": name, "countrycodes": "pl", "format": "json", "limit": 1})
-        j = json.loads(urllib.request.urlopen(urllib.request.Request("https://nominatim.openstreetmap.org/search?" + q, headers=UA), timeout=60).read())
+        j = json.loads(urllib.request.urlopen(urllib.request.Request("https://nominatim.openstreetmap.org/search?" + q, headers=UA), timeout=60, context=ssl.create_default_context()).read())
         if j:
             ll = (round(float(j[0]["lon"]), 5), round(float(j[0]["lat"]), 5))
         time.sleep(1.1)
@@ -148,6 +174,9 @@ def main():
     OUT.mkdir(exist_ok=True)
     sp = OUT / "ipn_state.json"
     st = json.loads(sp.read_text()) if sp.exists() else {"next": 1, "highest": 0, "entries": {}, "counts": {}, "geo": {}}
+    if not st.get("entries") and st.get("counts", {}).get("no answer") and not st.get("highest"):
+        # Round 112c: nothing was ever read (certificate failure): start again.
+        st = {"next": 1, "highest": 0, "entries": {}, "counts": {}, "geo": {}}
     if st.get("finished"):
         if (datetime.date.today() - datetime.date.fromisoformat(st["finished"])).days < 30 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
             print("capture_ipn: every number read; next pass after 30 days")
@@ -176,6 +205,10 @@ def main():
                     st["entries"][str(num)] = e
             n += 200
             st["next"] = n
+            if st["counts"].get("no answer", 0) >= 1000 and not st["highest"]:
+                print("capture_ipn: IPN gave no answer to 1,000 numbers; stopping for today", flush=True)
+                st["next"] = 1
+                break
             sp.write_text(json.dumps(st, ensure_ascii=False))
             if n - st["highest"] > GIVE_UP_AFTER and st["highest"]:
                 st["finished"] = datetime.date.today().isoformat()
@@ -201,7 +234,7 @@ def main():
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": list(ll)}, "properties": props})
         sp.write_text(json.dumps(st, ensure_ascii=False))
     (OUT / "ipn.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
-    (OUT / "ipn_build.json").write_text(json.dumps({"read": datetime.date.today().isoformat(), "next number": st["next"], "highest entry": st["highest"],
+    (OUT / "ipn_build.json").write_text(json.dumps({"read": datetime.date.today().isoformat(), "certificate check skipped": UNCHECKED["used"], "next number": st["next"], "highest entry": st["highest"],
                                                      "finished": st.get("finished"), "counts": st["counts"], "drawn": len(feats)}, indent=1, ensure_ascii=False))
     print(f"capture_ipn: read to {st['next']}; {len(feats)} entries drawn; counts {st['counts']}", flush=True)
 

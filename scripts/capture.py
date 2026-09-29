@@ -129,7 +129,16 @@ def classes(names, found):
       FILTER NOT EXISTS {{ ?base wdt:P31 wd:Q4167410 }}
       ?c wdt:P279* ?base.
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}""")
-    out = sorted({qid(v(b, "c")) for b in rows})
+    # Round 112c: the kinds found by name include things that are not spy
+    # services or spy roles (police, open-source intelligence as a method, a
+    # skin mole, a sauce, fictional ninjas...). Those are dropped here and
+    # listed in build.json; unnamed kinds are dropped too.
+    bad = re.compile(r"militsiya|^police|open-source|imagery|geospatial|thermal|visual intelligence|digital investigation|sanitary|reconnaissance|"
+                     r"intelligence community|intelligence in the|intelligence services in|nev(us|i)\b|melan|ninja|kunoichi|onmitsu|pipián|heroine|"
+                     r"^director|holder of the rented|^Q\d+$|presidential guard|almocadem", re.I)
+    dropped = sorted({f"{qid(v(b, 'c'))} {v(b, 'cLabel')}" for b in rows if bad.search(v(b, "cLabel") or qid(v(b, "c")))})
+    found.setdefault("kinds dropped as not spying", []).extend(dropped)
+    out = sorted({qid(v(b, "c")) for b in rows if not bad.search(v(b, "cLabel") or qid(v(b, "c")))})
     found[", ".join(names)] = sorted({f"{qid(v(b, 'c'))} {v(b, 'cLabel')}" for b in rows})[:400]
     print(f"  {len(out)} kinds for {names}", flush=True)
     return out
@@ -225,21 +234,31 @@ def wikidata(found, errors):
     except Exception as e:  # noqa: BLE001
         errors.append(f"b: {type(e).__name__}: {e}")
     time.sleep(10)
-    # c. company people convicted of bribery or of spying on companies
+    # c. company people convicted of bribery or of spying on companies. Round
+    # 112c: first the people alone (the one-step query timed out), then their
+    # details in batches.
     try:
         bz = " ".join("wd:" + c for c in biz)
-        rows = sparql(f"""SELECT DISTINCT ?p ?pLabel ?pDesc ?emp ?empLabel ?coord ?citLabel ?art ?crimeLabel WHERE {{
-          ?p wdt:P31 wd:Q5; wdt:P1399 ?crime; wdt:P108 ?emp.
+        ids = sparql(f"""SELECT DISTINCT ?p ?emp WHERE {{
+          ?p wdt:P1399 ?crime; wdt:P108 ?emp. ?crime rdfs:label ?cl.
+          FILTER(LANG(?cl) = "en" && REGEX(?cl, "{CRIME_WORDS}", "i"))
           FILTER NOT EXISTS {{ ?p wdt:P39 ?anyoffice }}
-          ?crime rdfs:label ?cl. FILTER(LANG(?cl) = "en" && REGEX(?cl, "{CRIME_WORDS}", "i"))
-          VALUES ?k {{ {bz} }} ?emp wdt:P31 ?k.
-          OPTIONAL {{ ?emp wdt:P159 ?hq. OPTIONAL {{ ?emp p:P159/pq:P625 ?c1 }} OPTIONAL {{ ?hq wdt:P625 ?c2 }} }}
-          OPTIONAL {{ ?emp wdt:P17/wdt:P36/wdt:P625 ?c3 }}
-          OPTIONAL {{ ?p wdt:P27 ?cit. OPTIONAL {{ ?cit wdt:P36/wdt:P625 ?c5 }} }}
-          BIND(COALESCE(?c1, ?c2, ?c3, ?c5) AS ?coord)
-          OPTIONAL {{ ?art schema:about ?p; schema:isPartOf <https://en.wikipedia.org/> }}
-          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,mul". ?p rdfs:label ?pLabel; schema:description ?pDesc. ?emp rdfs:label ?empLabel. ?cit rdfs:label ?citLabel. ?crime rdfs:label ?crimeLabel. }}
-        }}""")
+          VALUES ?k {{ {bz} }} ?emp wdt:P31 ?k. }}""")
+        pairs = sorted({(qid(v(b, "p")), qid(v(b, "emp"))) for b in ids})
+        rows = []
+        for n in range(0, len(pairs), 80):
+            vals = " ".join(f"(wd:{a} wd:{e})" for a, e in pairs[n:n + 80])
+            rows += sparql(f"""SELECT ?p ?pLabel ?pDesc ?emp ?empLabel ?coord ?citLabel ?art ?crimeLabel WHERE {{
+              VALUES (?p ?emp) {{ {vals} }}
+              ?p wdt:P1399 ?crime. ?crime rdfs:label ?cl. FILTER(LANG(?cl) = "en" && REGEX(?cl, "{CRIME_WORDS}", "i"))
+              OPTIONAL {{ ?emp wdt:P159 ?hq. OPTIONAL {{ ?hq wdt:P625 ?c2 }} }}
+              OPTIONAL {{ ?emp wdt:P17/wdt:P36/wdt:P625 ?c3 }}
+              OPTIONAL {{ ?p wdt:P27 ?cit. OPTIONAL {{ ?cit wdt:P36/wdt:P625 ?c5 }} }}
+              BIND(COALESCE(?c2, ?c3, ?c5) AS ?coord)
+              OPTIONAL {{ ?art schema:about ?p; schema:isPartOf <https://en.wikipedia.org/> }}
+              SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,mul". ?p rdfs:label ?pLabel; schema:description ?pDesc. ?emp rdfs:label ?empLabel. ?cit rdfs:label ?citLabel. ?crime rdfs:label ?crimeLabel. }}
+            }}""")
+            time.sleep(3)
         for b in rows:
             b["posLabel"] = {"value": "worked for " + v(b, "empLabel")}
         people = rows_to_people(rows, ["crimeLabel"])
@@ -516,13 +535,14 @@ def mitrokhin(found, errors):
         return []
     return list_features("en", keep, "archive", "KGB, as recorded in Vasili Mitrokhin's notes",
                          (0.1051, 52.2066), "Churchill Archives Centre, Cambridge, where Mitrokhin's notes are kept; no country found for this person",
-                         f"Wikipedia, {title} (CC BY-SA 4.0). The notes are Mitrokhin's handwritten copies of KGB files; the originals have not been seen by independent historians, and several people named deny it")
+                         f"Wikipedia, {title} (CC BY-SA 4.0). The notes are Mitrokhin's handwritten copies of KGB files; the originals have not been seen by independent historians, and several people named deny it",
+                         lambda it: {"group": TIERS["alleged"]} if re.search(r"unconfirm|accused", it["heading"].lower()) else {})
 
 
 def colombia_wiki(found, errors):
     title, items = wiki_items("es", ["Parapolítica", "Escándalo de la parapolítica"])
     found["colombia es.wikipedia headings"] = sorted({i["heading"] for i in items})
-    keep = [i for i in items if i["link"] and re.search(r"conden|investig|implic|involucr|vincul|congres|senad|represent|gobernad", i["heading"].lower())]
+    keep = [i for i in items if i["link"] and re.search(r"conden|investig|implic|involucr|vincul|congres|senad|represent|gobernad|firmantes|detenci", i["heading"].lower())]
     found["colombia items"] = len(keep)
     if not keep:
         errors.append("colombia: no list sections found on es.wikipedia (see the headings in build.json)")
@@ -530,7 +550,10 @@ def colombia_wiki(found, errors):
     return list_features("es", keep, "court", "Paramilitary groups (AUC and allied blocs)", (-74.0762, 4.5975),
                          "the Capitolio Nacional, Bogotá",
                          f"Spanish Wikipedia, {title} (CC BY-SA 4.0)",
-                         lambda it: {"group": TIERS["court"] if re.search(r"conden", it["heading"].lower()) else TIERS["alleged"]})
+                         lambda it: {"group": TIERS["court"] if re.search(r"conden", it["heading"].lower()) else
+                                     TIERS["ties"] if re.search(r"firmantes", it["heading"].lower()) else TIERS["alleged"],
+                                     "what the heading means": "Signed the 2001 Santa Fe de Ralito pact with paramilitary commanders" if re.search(r"firmantes", it["heading"].lower())
+                                     else "Among the main arrests in the parapolitics cases (an arrest is not a conviction)" if re.search(r"detenci", it["heading"].lower()) else ""})
 
 
 # ---- US Securities and Exchange Commission: every FCPA case it lists ---------
@@ -574,7 +597,15 @@ def countries(found):
 
 def sec_fcpa(found, errors):
     try:
-        page = urllib.request.urlopen(urllib.request.Request(SEC_PAGE, headers={"User-Agent": UA["User-Agent"]}), timeout=120).read().decode("utf-8", "replace")
+        # Round 112c: the SEC answered 403 to the general User-Agent; it asks
+        # for "name email" and accepts compressed replies.
+        import gzip, zlib
+        r = urllib.request.urlopen(urllib.request.Request(SEC_PAGE, headers={"User-Agent": "WelcomeToYourGalaxy welcometoyourgalaxy@gmail.com",
+                                                                              "Accept-Encoding": "gzip, deflate", "Accept": "text/html"}), timeout=120)
+        raw = r.read()
+        enc = (r.headers.get("Content-Encoding") or "").lower()
+        raw = gzip.decompress(raw) if enc == "gzip" else zlib.decompress(raw) if enc == "deflate" else raw
+        page = raw.decode("utf-8", "replace")
         names = countries(found)
     except Exception as e:  # noqa: BLE001
         errors.append(f"sec: {type(e).__name__}: {e}")
@@ -642,14 +673,26 @@ DISTRICTS = {  # court district -> the city its court sits in (the listing names
 
 
 def doj_fcpa(found, errors):
-    feats, years = [], range(1977, datetime.date.today().year + 1)
-    for y in years:
+    feats, links = [], {}
+    # Round 112c: 1987 and 2014 on have other addresses; take every year's
+    # address from the index page's own links, falling back to the pattern.
+    try:
+        idx = urllib.request.urlopen(urllib.request.Request("https://www.justice.gov/criminal/criminal-fraud/related-enforcement-actions",
+                                                            headers={"User-Agent": UA["User-Agent"]}), timeout=90).read().decode("utf-8", "replace")
+        for href, label in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', idx, re.S):
+            y = re.search(r"(19[7-9]\d|20\d\d)", re.sub("<[^>]+>", "", label) + " " + href)
+            if y and re.search(r"chronolog|enforcement|fcpa", href + label, re.I):
+                links.setdefault(int(y.group(1)), urllib.parse.urljoin("https://www.justice.gov/", href))
+    except Exception as e:  # noqa: BLE001
+        found["doj index"] = f"{type(e).__name__}: {e}"
+    found["doj year pages from the index"] = len(links)
+    for y in range(1977, datetime.date.today().year + 1):
         try:
-            page = urllib.request.urlopen(urllib.request.Request(DOJ_YEAR.format(y), headers={"User-Agent": UA["User-Agent"]}), timeout=90).read().decode("utf-8", "replace")
+            page = urllib.request.urlopen(urllib.request.Request(links.get(y) or DOJ_YEAR.format(y), headers={"User-Agent": UA["User-Agent"]}), timeout=90).read().decode("utf-8", "replace")
         except Exception as e:  # noqa: BLE001
             found.setdefault("doj years not read", []).append(f"{y}: {type(e).__name__}")
             continue
-        body = page.split("Chronological List, " + str(y), 1)[-1].split("Report an FCPA", 1)[0]
+        body = page.split(str(y), 1)[-1].split("Report an FCPA", 1)[0] if "Chronological List, " + str(y) not in page else page.split("Chronological List, " + str(y), 1)[-1].split("Report an FCPA", 1)[0]
         lines = [x for x in (re.sub(r"\s+", " ", _html.unescape(l)).strip() for l in re.sub(r"<[^>]+>", "\n", body).split("\n")) if x]
         case = None
         for l in lines + ["United States v. END"]:
@@ -678,7 +721,7 @@ def doj_fcpa(found, errors):
                                    "docket": c["docket"], "court district": c["district"], "filed or announced": c["filed"], "year": c["year"],
                                    "note": ("An 'In re' entry is a resolution the Justice Department announced without charges in court (a non-prosecution agreement, declination or the like)."
                                             if tier == "settled" else "A case filed by the Justice Department; the listing does not give the outcome. Many ended in guilty pleas; the case page has the filings."),
-                                   "DOJ list": DOJ_YEAR.format(c["year"]),
+                                   "DOJ list": links.get(c["year"]) or DOJ_YEAR.format(c["year"]),
                                    "source": "US Department of Justice, FCPA and related enforcement actions, chronological list (public domain), read " + datetime.date.today().isoformat(),
                                    "placed at": (f"{where}, where the court for this district sits; the listing names no country" if d else "Washington, DC (the Justice Department); the listing names no district we could place")}})
     found["doj cases"] = len(out)
@@ -766,6 +809,16 @@ def ipn(found, errors):
         return []
     got = json.loads(p.read_text())["features"]
     found["ipn drawn"] = len(got)
+    return got
+
+
+def stb(found, errors):
+    p = OUT / "stb.geojson"
+    if not p.exists():
+        errors.append("stb: not built yet (scripts/capture_stb.py searches the Slovak register a slice a day)")
+        return []
+    got = json.loads(p.read_text())["features"]
+    found["stb drawn"] = len(got)
     return got
 
 
@@ -931,10 +984,10 @@ def by_country(feats, found, errors):
 # ---- probes: pages saved for the next round to read ------------------------
 PROBES = {
     "ipn_catalogue_entry_86435.html": "https://katalog.bip.ipn.gov.pl/informacje/86435",
-    "abs_registers.html": "https://www.abscr.cz/cs/vyhledavani-archivni-pomucky",
-    "abs_home.html": "https://www.abscr.cz/",
-    "upn_regpro.html": "https://www.upn.gov.sk/regpro/",
-    "upn_home.html": "https://www.upn.gov.sk/",
+    "abs_records_search.html": "https://www.abscr.cz/jmenne-evidence/vyhledavani-evidencni-zaznamy/",
+    "abs_protocols.html": "https://www.abscr.cz/jmenne-evidence/protokoly/",
+    "abs_records_help.html": "https://www.abscr.cz/jmenne-evidence/evidencni-zaznamy-a-archivni-pomucky-vysvetlivky-zkratky/",
+    "upn_sample_search.html": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Novak&meno=&krycie_meno=&datum_narodenia=&kategoria=A",
 }
 
 
@@ -975,7 +1028,7 @@ def main():
     lists = []
     old = OUT / "cases.geojson"
     before = json.loads(old.read_text())["features"] if old.exists() else []
-    for job in (venona, mitrokhin, colombia_wiki, sec_fcpa, doj_fcpa, secret_police_categories, ipn, mdb_debarments, fara):
+    for job in (venona, mitrokhin, colombia_wiki, sec_fcpa, doj_fcpa, secret_police_categories, ipn, stb, mdb_debarments, fara):
         try:
             got = job(found, errors)
         except Exception as e:  # noqa: BLE001
