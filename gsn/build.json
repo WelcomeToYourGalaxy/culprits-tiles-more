@@ -1,0 +1,127 @@
+{
+ "from": "https://assets.takeshape.io/237b7856-239f-4c62-9f9e-0b9ce73fa864/dev/52d9cc52-0ebf-4bfe-8382-9fcb8aea01b0/Nature%20Wealth%20Rankings%20(GSN1).xlsx",
+ "read": "2026-09-29",
+ "bytes": 201002,
+ "sheets": {
+  "Large Countries": {
+   "columns": [
+    "Rank",
+    "LARGE COUNTRIES                          > 25,000 km2",
+    "TOTAL LAND Area",
+    "SUBTOTAL Importance:",
+    "Biodiversity Lands %",
+    "SUBTOTAL Importance:",
+    "Ecosystem Lands %",
+    "TOTAL GSN Area",
+    "TOTAL GSN Lands %",
+    "Protection Level",
+    ""
+   ],
+   "name_column": "LARGE COUNTRIES                          > 25,000 km2",
+   "score_column": "Protection Level"
+  },
+  "Medium Countries": {
+   "columns": [
+    "Rank",
+    "MEDIUM COUNTRIES                       2,500 km2 - 25,000 km2",
+    "TOTAL LAND Area",
+    "SUBTOTAL Importance:",
+    "Biodiversity Lands %",
+    "SUBTOTAL Importance:",
+    "Ecosystem Lands %",
+    "TOTAL GSN Area",
+    "TOTAL GSN Lands %",
+    "Protection Level",
+    ""
+   ],
+   "name_column": "MEDIUM COUNTRIES                       2,500 km2 - 25,000 km2",
+   "score_column": "Protection Level"
+  },
+  "Small countries": {
+   "columns": [
+    "Rank",
+    "SMALL COUNTRIES                             < 2500 km2",
+    "TOTAL LAND Area",
+    "SUBTOTAL Importance:",
+    "Biodiversity Lands %",
+    "SUBTOTAL Importance:",
+    "Ecosystem Lands %",
+    "TOTAL GSN Area",
+    "TOTAL GSN Lands %",
+    "Protection Level",
+    ""
+   ],
+   "name_column": "SMALL COUNTRIES                             < 2500 km2",
+   "score_column": "Protection Level"
+  },
+  "EU-27": {
+   "columns": [
+    "",
+    "EU-27 COUNTRIES",
+    "TOTAL LAND Area",
+    "SUBTOTAL Importance:",
+    "Biodiversity Lands %",
+    "SUBTOTAL Importance:",
+    "Ecosystem Lands %",
+    "TOTAL GSN Area",
+    "TOTAL GSN Lands %",
+    "Protection Level",
+    "Protected Area",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "name_column": "EU-27 COUNTRIES",
+   "score_column": "Protection Level"
+  },
+  "USA": {
+   "columns": [
+    "",
+    "USA (50 States)",
+    "TOTAL LAND Area",
+    "SUBTOTAL Importance:",
+    "Biodiversity Lands %",
+    "SUBTOTAL Importance:",
+    "Ecosystem Lands %",
+    "TOTAL GSN Area",
+    "TOTAL GSN Lands %",
+    "Protection Level",
+    "Protected Area",
+    "Protection %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "name_column": "USA (50 States)",
+   "score_column": "Protection Level",
+   "not countries": "US states"
+  }
+ },
+ "countries": 221,
+ "scored": 221
+}
