@@ -1,0 +1,10 @@
+{
+ "date": "2026-09-29",
+ "pages": {
+  "https://data.unodc.org/dp-trafficking-persons": "HTTP Error 404: Not Found"
+ },
+ "tried": {
+  "https://dataunodc.un.org/sites/dataunodc.un.org/files/data_glotip.xlsx": "File is not a zip file",
+  "https://data.unodc.org/sites/data.unodc.org/files/data_glotip.xlsx": "HTTP Error 404: Not Found"
+ }
+}
