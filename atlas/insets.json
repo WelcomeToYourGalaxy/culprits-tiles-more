@@ -1,6 +1,6 @@
 {
  "atlantic_forests": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 6,
   "cities": [
    {
@@ -272,7 +272,9 @@
     "page": 10,
     "population_2015": "21,066,000",
     "population_2030": "23,444,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -46.6333824,
+    "lat": -23.5506507,
+    "openstreetmap": "São Paulo, Região Sudeste, Brasil",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/atlantic_forests_26.webp"
    },
    {
@@ -292,7 +294,9 @@
     "page": 10,
     "population_2015": "447,000",
     "population_2030": "517,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -44.1040128,
+    "lat": -22.521856,
+    "openstreetmap": "Volta Redonda, Rio de Janeiro, Região Sudeste, Brasil",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/atlantic_forests_28.webp"
    }
   ],
@@ -322,21 +326,23 @@
    23,
    24,
    25,
-   27
+   26,
+   27,
+   28
   ],
   "left_out_of_fit": [
    {
     "n": 10,
-    "km_off": 2802.0
+    "km_off": 2808.8
    }
   ],
-  "error_km": 55.4,
-  "width_km": 2754.4,
+  "error_km": 55.6,
+  "width_km": 2751.9,
   "kept": false,
-  "reason": "typical error 55.4 km is over 2% of the 2754 km map"
+  "reason": "typical error 55.6 km is over 2% of the 2752 km map"
  },
  "california_floristic_province": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -345,7 +351,9 @@
     "page": 5,
     "population_2015": "314,000",
     "population_2030": "392,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -121.8106925,
+    "lat": 38.0093296,
+    "openstreetmap": "Antioch, Contra Costa County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_1.webp"
    },
    {
@@ -354,7 +362,9 @@
     "page": 5,
     "population_2015": "605,000",
     "population_2030": "756,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -119.019463,
+    "lat": 35.3738712,
+    "openstreetmap": "Bakersfield, Kern County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_2.webp"
    },
    {
@@ -362,7 +372,9 @@
     "title": "CONCORD, U.S.",
     "page": 5,
     "population_2030": "759,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -71.537476,
+    "lat": 43.207178,
+    "openstreetmap": "Concord, Merrimack County, New Hampshire, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_3.webp"
    },
    {
@@ -371,7 +383,9 @@
     "page": 5,
     "population_2015": "712,000",
     "population_2030": "849,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -119.78483,
+    "lat": 36.7394421,
+    "openstreetmap": "Fresno, Fresno County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_4.webp"
    },
    {
@@ -380,7 +394,9 @@
     "page": 5,
     "population_2015": "12,310,000",
     "population_2030": "13,257,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -118.242766,
+    "lat": 34.0536909,
+    "openstreetmap": "Los Angeles, Los Angeles County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_5.webp"
    },
    {
@@ -389,7 +405,7 @@
     "page": 5,
     "population_2015": "385,000",
     "population_2030": "459,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_6.webp"
    },
    {
@@ -397,7 +413,9 @@
     "title": "RIVERSIDE, U.S.",
     "page": 5,
     "population_2030": "2,653,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -117.374238,
+    "lat": 33.9824949,
+    "openstreetmap": "Riverside, Riverside County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_7.webp"
    },
    {
@@ -406,7 +424,9 @@
     "page": 5,
     "population_2015": "1,920,000",
     "population_2030": "2,294,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -121.493895,
+    "lat": 38.5810606,
+    "openstreetmap": "Sacramento, Sacramento County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_8.webp"
    },
    {
@@ -415,7 +435,9 @@
     "page": 6,
     "population_2015": "3,107,000",
     "population_2030": "3,522,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -117.1638284,
+    "lat": 32.7157062,
+    "openstreetmap": "San Diego, San Diego County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_9.webp"
    },
    {
@@ -424,7 +446,9 @@
     "page": 6,
     "population_2015": "3,300,000",
     "population_2030": "3,615,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -122.4075201,
+    "lat": 37.7879363,
+    "openstreetmap": "San Francisco, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_10.webp"
    },
    {
@@ -433,7 +457,9 @@
     "page": 6,
     "population_2015": "1,730,000",
     "population_2030": "1,964,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -121.890591,
+    "lat": 37.3361663,
+    "openstreetmap": "San Jose, Santa Clara County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_11.webp"
    },
    {
@@ -442,7 +468,9 @@
     "page": 6,
     "population_2015": "321,000",
     "population_2030": "428,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -118.5538088,
+    "lat": 34.4127963,
+    "openstreetmap": "Santa Clarita, Los Angeles County, California, United States",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/california_floristic_province_12.webp"
    },
    {
@@ -480,11 +508,34 @@
    }
   ],
   "labels_found": 15,
+  "fit_cities": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "left_out_of_fit": [
+   {
+    "n": 3,
+    "km_off": 3767.7
+   }
+  ],
+  "error_km": 30.0,
+  "width_km": 880.4,
   "kept": false,
-  "reason": "only 3 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
+  "reason": "typical error 30.0 km is over 2% of the 880 km map"
  },
  "cape_floristic_region": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -504,12 +555,135 @@
   "reason": "only 1 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "caribbean_islands": {
-  "v": 1,
-  "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "v": 2,
+  "conflicts_page": 6,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Camaguey, CUBA",
+    "page": 7,
+    "population_2015": "315,000",
+    "population_2030": "331,000",
+    "lon": -77.9183681,
+    "lat": 21.3791765,
+    "openstreetmap": "Camagüey, Cuba",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_1.webp"
+   },
+   {
+    "n": 2,
+    "title": "Kingston, Jaimaca",
+    "page": 7,
+    "population_2015": "588,000",
+    "population_2030": "664,000",
+    "lon": -76.7928128,
+    "lat": 17.9712148,
+    "openstreetmap": "Kingston, Surrey County, Jamaica",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_2.webp"
+   },
+   {
+    "n": 3,
+    "title": "Havana, CUBA",
+    "page": 7,
+    "population_2015": "2,137,000",
+    "population_2030": "2,104,000",
+    "lon": -82.3589631,
+    "lat": 23.135305,
+    "openstreetmap": "La Habana, Habana del Este, 10000, Cuba",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_3.webp"
+   },
+   {
+    "n": 4,
+    "title": "Port-au-Prince, Haiti",
+    "page": 7,
+    "population_2015": "2,440,000",
+    "population_2030": "3,525,000",
+    "lon": -72.3395928,
+    "lat": 18.547327,
+    "openstreetmap": "Arrondissement de Port-au-Prince, Département de l'Ouest, Ayiti",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_4.webp"
+   },
+   {
+    "n": 5,
+    "title": "SAN JUAN, Puerto Rico",
+    "page": 7,
+    "population_2015": "2,463,000",
+    "population_2030": "2,468,000",
+    "lon": -66.05344,
+    "lat": 18.384239,
+    "openstreetmap": "San Juan, Puerto Rico, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_5.webp"
+   },
+   {
+    "n": 6,
+    "title": "Santiago, Dominican Republic",
+    "page": 7,
+    "population_2015": "577,000",
+    "population_2030": "736,000",
+    "lon": -70.6947386,
+    "lat": 19.4508468,
+    "openstreetmap": "Santiago, República Dominicana",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_6.webp"
+   },
+   {
+    "n": 7,
+    "title": "Santiago de Cuba, Cuba",
+    "page": 7,
+    "population_2015": "475,000",
+    "population_2030": "505,000",
+    "lon": -75.8294928,
+    "lat": 20.0214263,
+    "openstreetmap": "Santiago de Cuba, Distrito Antonio Maceo, Santiago de Cuba, Cuba",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_7.webp"
+   },
+   {
+    "n": 8,
+    "title": "Santo Domingo, Dominican Republic",
+    "page": 7,
+    "population_2015": "2,945,000",
+    "population_2030": "3,888,000",
+    "lon": -69.8918436,
+    "lat": 18.4713858,
+    "openstreetmap": "Santo Domingo de Guzmán, Distrito Nacional, 03201, República Dominicana",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_8.webp"
+   }
+  ],
+  "labels_found": 8,
+  "fit_cities": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "left_out_of_fit": [],
+  "error_km": 49.6,
+  "width_km": 2842.1,
+  "kept": true,
+  "corners": [
+   [
+    -85.337099,
+    27.9094
+   ],
+   [
+    -58.274261,
+    27.9094
+   ],
+   [
+    -58.274261,
+    10.83273
+   ],
+   [
+    -85.337099,
+    10.83273
+   ]
+  ],
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/caribbean_islands_conflicts.webp"
  },
  "caucasus": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -639,7 +813,7 @@
   "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "cerrado": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -839,7 +1013,7 @@
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/cerrado_conflicts.webp"
  },
  "chilean_valdivian_forests": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -935,7 +1109,7 @@
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/chilean_valdivian_forests_conflicts.webp"
  },
  "coastal_forests_of_eastern_africa": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -944,7 +1118,9 @@
     "page": 5,
     "population_2015": "5,116,000",
     "population_2030": "10,760,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 39.2803583,
+    "lat": -6.8160837,
+    "openstreetmap": "Dar es Salaam, Coastal Zone, Tanzania",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/coastal_forests_of_eastern_africa_1.webp"
    },
    {
@@ -953,7 +1129,9 @@
     "page": 5,
     "population_2015": "1,104,000",
     "population_2030": "1,973,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 39.667169,
+    "lat": -4.05052,
+    "openstreetmap": "Mombasa, Tononoka ward, Mvita, Mombasa, 80100, Kenya",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/coastal_forests_of_eastern_africa_2.webp"
    },
    {
@@ -962,16 +1140,18 @@
     "page": 5,
     "population_2015": "569,000",
     "population_2030": "1,114,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 39.3209535,
+    "lat": -6.0999709,
+    "openstreetmap": "Zanzibar زنجبار, Tanzania",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/coastal_forests_of_eastern_africa_3.webp"
    }
   ],
   "labels_found": 3,
   "kept": false,
-  "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
+  "reason": "only 3 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "east_melanesian_islands": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [],
   "labels_found": 0,
@@ -979,7 +1159,7 @@
   "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "eastern_afromontane": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 6,
   "cities": [
    {
@@ -988,7 +1168,9 @@
     "page": 7,
     "population_2015": "3,238,000",
     "population_2030": "5,851,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 38.7524315,
+    "lat": 9.0358119,
+    "openstreetmap": "አዲስ አበባ, Arada, አዲስ አበባ, 3578, ኢትዮጵያ",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_1.webp"
    },
    {
@@ -997,7 +1179,9 @@
     "page": 7,
     "population_2015": "444,000",
     "population_2030": "816,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 36.6880794,
+    "lat": -3.3696827,
+    "openstreetmap": "Arusha, Arusha Municipal, Arusha, Northern Zone, 23103, Tanzania",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_2.webp"
    },
    {
@@ -1006,7 +1190,9 @@
     "page": 7,
     "population_2015": "804,000",
     "population_2030": "1,557,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 38.9326763,
+    "lat": 15.3389667,
+    "openstreetmap": "ኣስመራ Asmara أسمرة, ዞባ ማእከል Maekel zone المنطقة المركزية, ኤርትራ Eritrea إرتريا",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_3.webp"
    },
    {
@@ -1015,7 +1201,9 @@
     "page": 7,
     "population_2015": "751,000",
     "population_2030": "1,735,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 29.3675028,
+    "lat": -3.3638125,
+    "openstreetmap": "Bujumbura, Bujumbura Mairie, Burundi",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_4.webp"
    },
    {
@@ -1024,7 +1212,9 @@
     "page": 7,
     "population_2015": "832,000",
     "population_2030": "1,510,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 28.8594885,
+    "lat": -2.5055839,
+    "openstreetmap": "Bukavu, Sud-Kivu, République démocratique du Congo",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_5.webp"
    },
    {
@@ -1033,7 +1223,9 @@
     "page": 7,
     "population_2015": "485,000",
     "population_2030": "940,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 30.2478844,
+    "lat": 1.5620529,
+    "openstreetmap": "Bunia, Ituri, République démocratique du Congo",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_6.webp"
    },
    {
@@ -1042,7 +1234,9 @@
     "page": 7,
     "population_2015": "321,000",
     "population_2030": "598,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 35.2715481,
+    "lat": 0.5198329,
+    "openstreetmap": "Eldoret, Kimumu ward, Moiben, Uasin Gishu, 30100, Kenya",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_7.webp"
    },
    {
@@ -1051,7 +1245,9 @@
     "page": 7,
     "population_2015": "474,000",
     "population_2030": "855,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 29.225652,
+    "lat": -1.6665685,
+    "openstreetmap": "Goma, Nord-Kivu, République démocratique du Congo",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_8.webp"
    },
    {
@@ -1060,7 +1256,9 @@
     "page": 8,
     "population_2015": "452,000",
     "population_2030": "845,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 44.1389849,
+    "lat": 14.1419291,
+    "openstreetmap": "محافظة إب, اليمن",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_9.webp"
    },
    {
@@ -1069,7 +1267,9 @@
     "page": 8,
     "population_2015": "1,771,000",
     "population_2030": "2,146,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 39.826869,
+    "lat": 21.420847,
+    "openstreetmap": "محافظة مكة المكرمة, منطقة مكة المكرمة, السعودية",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_10.webp"
    },
    {
@@ -1078,7 +1278,9 @@
     "page": 8,
     "population_2015": "315,000",
     "population_2030": "633,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 39.4768259,
+    "lat": 13.4966644,
+    "openstreetmap": "Mekelle, ትግራይ تجراى, ኢትዮጵያ",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_11.webp"
    },
    {
@@ -1087,7 +1289,9 @@
     "page": 8,
     "population_2015": "3,915,000",
     "population_2030": "7,140,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 36.8288509,
+    "lat": -1.302398,
+    "openstreetmap": "Nairobi, Kenya",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_12.webp"
    },
    {
@@ -1096,7 +1300,9 @@
     "page": 8,
     "population_2015": "350,000",
     "population_2030": "441,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 45.666667,
+    "lat": 18.0,
+    "openstreetmap": "منطقة نجران, السعودية",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_13.webp"
    },
    {
@@ -1105,7 +1311,9 @@
     "page": 8,
     "population_2015": "2,962,000",
     "population_2030": "5,071,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 44.2,
+    "lat": 15.35,
+    "openstreetmap": "أمانة العاصمة, اليمن",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_14.webp"
    },
    {
@@ -1114,16 +1322,38 @@
     "page": 8,
     "population_2015": "442,000",
     "population_2030": "824,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 29.1375509,
+    "lat": -3.4055866,
+    "openstreetmap": "Uvira, Bavira (chefferie), Uvira, Sud-Kivu, République démocratique du Congo",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/eastern_afromontane_15.webp"
    }
   ],
   "labels_found": 15,
+  "fit_cities": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "left_out_of_fit": [],
+  "error_km": 90.2,
+  "width_km": 2527.3,
   "kept": false,
-  "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
+  "reason": "typical error 90.2 km is over 2% of the 2527 km map"
  },
  "forests_of_east_australia": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -1132,7 +1362,9 @@
     "page": 5,
     "population_2015": "2,202,000",
     "population_2030": "2,721,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 153.0235009,
+    "lat": -27.4689623,
+    "openstreetmap": "Brisbane, Queensland, Australia",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/forests_of_east_australia_1.webp"
    },
    {
@@ -1141,7 +1373,9 @@
     "page": 5,
     "population_2015": "373,000",
     "population_2030": "463,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 151.7795348,
+    "lat": -32.9192953,
+    "openstreetmap": "Newcastle, Newcastle-Maitland, New South Wales, 2300, Australia",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/forests_of_east_australia_2.webp"
    },
    {
@@ -1150,16 +1384,18 @@
     "page": 5,
     "population_2015": "4,505,000",
     "population_2030": "5,301,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 151.2082848,
+    "lat": -33.8698439,
+    "openstreetmap": "Sydney, New South Wales, Australia",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/forests_of_east_australia_3.webp"
    }
   ],
   "labels_found": 3,
   "kept": false,
-  "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
+  "reason": "only 3 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "guinean_forests_of_west_africa": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -1168,7 +1404,9 @@
     "page": 5,
     "population_2015": "944,000",
     "population_2030": "1,675,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 7.3651376,
+    "lat": 5.1128008,
+    "openstreetmap": "Aba, Aba South, Abia, Nigeria",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/guinean_forests_of_west_africa_1.webp"
    },
    {
@@ -1177,7 +1415,9 @@
     "page": 5,
     "population_2015": "495,000",
     "population_2030": "837,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 3.348,
+    "lat": 7.161,
+    "openstreetmap": "Abeokuta, Abeokuta South, Ogun, 111101, Nigeria",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/guinean_forests_of_west_africa_2.webp"
    },
    {
@@ -1186,7 +1426,9 @@
     "page": 5,
     "population_2015": "4,860,000",
     "population_2030": "7,773,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": -4.016107,
+    "lat": 5.320357,
+    "openstreetmap": "Abidjan, Côte d’Ivoire",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/guinean_forests_of_west_africa_3.webp"
    },
    {
@@ -1426,7 +1668,9 @@
     "page": 8,
     "population_2015": "663,000",
     "population_2030": "1,298,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 5.76,
+    "lat": 5.519959,
+    "natural_earth": "Warri, Nigeria",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/guinean_forests_of_west_africa_25.webp"
    },
    {
@@ -1443,6 +1687,9 @@
   ],
   "labels_found": 26,
   "fit_cities": [
+   1,
+   2,
+   3,
    4,
    5,
    6,
@@ -1468,34 +1715,38 @@
   "left_out_of_fit": [
    {
     "n": 26,
-    "km_off": 324.2
+    "km_off": 339.1
+   },
+   {
+    "n": 25,
+    "km_off": 271.4
    }
   ],
-  "error_km": 47.1,
-  "width_km": 3188.9,
+  "error_km": 47.6,
+  "width_km": 3188.8,
   "kept": true,
   "corners": [
    [
-    -13.711888,
-    12.708716
+    -13.698605,
+    12.702945
    ],
    [
-    15.106803,
-    12.708716
+    15.11901,
+    12.702945
    ],
    [
-    15.106803,
-    -0.181561
+    15.11901,
+    -0.186992
    ],
    [
-    -13.711888,
-    -0.181561
+    -13.698605,
+    -0.186992
    ]
   ],
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/guinean_forests_of_west_africa_conflicts.webp"
  },
  "himalaya": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 6,
   "cities": [
    {
@@ -1515,7 +1766,9 @@
     "page": 7,
     "population_2015": "1,365,000",
     "population_2030": "2,275,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 73.0651511,
+    "lat": 33.6938118,
+    "openstreetmap": "اسلام آباد, زون 1, وفاقی دارالحکومت اسلام آباد, 44000, پاکستان",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/himalaya_2.webp"
    },
    {
@@ -1566,19 +1819,20 @@
   "labels_found": 6,
   "fit_cities": [
    1,
+   2,
    3,
    4,
    5,
    6
   ],
   "left_out_of_fit": [],
-  "error_km": 128.1,
-  "width_km": 2960.4,
+  "error_km": 117.5,
+  "width_km": 2933.2,
   "kept": false,
-  "reason": "typical error 128.1 km is over 2% of the 2960 km map"
+  "reason": "typical error 117.5 km is over 2% of the 2933 km map"
  },
  "horn_of_africa": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 6,
   "cities": [
    {
@@ -1664,7 +1918,9 @@
     "page": 7,
     "population_2015": "2,962,000",
     "population_2030": "5,071,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 44.2,
+    "lat": 15.35,
+    "openstreetmap": "أمانة العاصمة, اليمن",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/horn_of_africa_8.webp"
    },
    {
@@ -1688,16 +1944,35 @@
    5,
    6,
    7,
+   8,
    9
   ],
   "left_out_of_fit": [],
-  "error_km": 56.7,
-  "width_km": 2651.1,
-  "kept": false,
-  "reason": "typical error 56.7 km is over 2% of the 2651 km map"
+  "error_km": 39.4,
+  "width_km": 2653.7,
+  "kept": true,
+  "corners": [
+   [
+    34.598924,
+    25.920624
+   ],
+   [
+    58.974664,
+    25.920624
+   ],
+   [
+    58.974664,
+    -1.82764
+   ],
+   [
+    34.598924,
+    -1.82764
+   ]
+  ],
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/horn_of_africa_conflicts.webp"
  },
  "japan": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 6,
   "cities": [
    {
@@ -1849,7 +2124,9 @@
     "page": 8,
     "population_2015": "17,628,000",
     "population_2030": "17,400,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "lon": 135.5014539,
+    "lat": 34.6937569,
+    "openstreetmap": "大阪市, 大阪府, 日本",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/japan_14.webp"
    },
    {
@@ -1923,6 +2200,7 @@
    11,
    12,
    13,
+   14,
    15,
    16,
    17,
@@ -1930,41 +2208,203 @@
    19
   ],
   "left_out_of_fit": [],
-  "error_km": 42.0,
-  "width_km": 2302.3,
+  "error_km": 41.3,
+  "width_km": 2298.6,
   "kept": true,
   "corners": [
    [
-    121.577857,
-    45.49018
+    121.622229,
+    45.487746
    ],
    [
-    146.701877,
-    45.49018
+    146.709919,
+    45.487746
    ],
    [
-    146.701877,
-    23.697466
+    146.709919,
+    23.729758
    ],
    [
-    121.577857,
-    23.697466
+    121.622229,
+    23.729758
    ]
   ],
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/japan_conflicts.webp"
  },
  "madagascar": {
-  "v": 1,
+  "v": 2,
+  "conflicts_page": 6,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Antananarivo, madagascar",
+    "page": 7,
+    "population_2015": "2,610,000",
+    "population_2030": "5,073,000",
+    "lon": 47.5255809,
+    "lat": -18.9100122,
+    "openstreetmap": "Antananarivo, Analamanga, Province d’Antananarivo, 101, Madagasikara / Madagascar",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madagascar_1.webp"
+   }
+  ],
+  "labels_found": 1,
   "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "reason": "only 1 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "madrean_woodlands": {
-  "v": 1,
-  "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "v": 2,
+  "conflicts_page": 4,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Chihuahua, mexico",
+    "page": 5,
+    "population_2015": "941,000",
+    "population_2030": "1,173,000",
+    "lon": -106.0000001,
+    "lat": 28.5000001,
+    "openstreetmap": "Chihuahua, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_1.webp"
+   },
+   {
+    "n": 2,
+    "title": "Cuernavaca, mexico",
+    "page": 5,
+    "population_2015": "993,000",
+    "population_2030": "1,211,000",
+    "lon": -99.2599579,
+    "lat": 18.9331321,
+    "openstreetmap": "Cuernavaca, Morelos, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_2.webp"
+   },
+   {
+    "n": 3,
+    "title": "Guadalajara, mexico",
+    "page": 5,
+    "population_2015": "4,843,000",
+    "population_2030": "5,837,000",
+    "lon": -103.338396,
+    "lat": 20.6720375,
+    "openstreetmap": "Guadalajara, Región Centro, Jalisco, 44450, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_3.webp"
+   },
+   {
+    "n": 4,
+    "title": "Leon de Los Aldama, Mexico",
+    "page": 5,
+    "population_2015": "1,807,000",
+    "population_2030": "2,260,000",
+    "lon": -101.6829766,
+    "lat": 21.121965,
+    "openstreetmap": "León, Guanajuato, 37004, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_4.webp"
+   },
+   {
+    "n": 5,
+    "title": "mexico city, mexico",
+    "page": 5,
+    "population_2015": "20,999,000",
+    "population_2030": "23,865,000",
+    "lon": -99.1514678,
+    "lat": 19.3207722,
+    "openstreetmap": "Ciudad de México, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_5.webp"
+   },
+   {
+    "n": 6,
+    "title": "Monterrey, mexico",
+    "page": 5,
+    "population_2015": "4,513,000",
+    "population_2030": "5,471,000",
+    "lon": -100.315258,
+    "lat": 25.6802019,
+    "openstreetmap": "Monterrey, Nuevo León, 64010, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_6.webp"
+   },
+   {
+    "n": 7,
+    "title": "Pachuca de Soto, mexico",
+    "page": 5,
+    "population_2015": "596,000",
+    "population_2030": "781,000",
+    "lon": -98.7889161,
+    "lat": 20.1044977,
+    "openstreetmap": "Pachuca de Soto, Hidalgo, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_7.webp"
+   },
+   {
+    "n": 8,
+    "title": "Puebla, mexico",
+    "page": 5,
+    "population_2015": "2,984,000",
+    "population_2030": "3,628,000",
+    "lon": -98.0,
+    "lat": 18.833333,
+    "openstreetmap": "Puebla, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_8.webp"
+   },
+   {
+    "n": 9,
+    "title": "Queretaro, mexico",
+    "page": 6,
+    "population_2015": "1,267,000",
+    "population_2030": "1,630,000",
+    "lon": -99.8837376,
+    "lat": 20.8052225,
+    "openstreetmap": "Querétaro, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_9.webp"
+   },
+   {
+    "n": 10,
+    "title": "Saltillo, mexico",
+    "page": 6,
+    "population_2015": "932,000",
+    "population_2030": "1,187,000",
+    "lon": -100.9927509,
+    "lat": 25.4230425,
+    "openstreetmap": "Saltillo, Coahuila, 25000, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_10.webp"
+   }
+  ],
+  "labels_found": 10,
+  "fit_cities": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "left_out_of_fit": [],
+  "error_km": 33.2,
+  "width_km": 2477.7,
+  "kept": true,
+  "corners": [
+   [
+    -117.429784,
+    32.9344
+   ],
+   [
+    -92.992702,
+    32.9344
+   ],
+   [
+    -92.992702,
+    15.82557
+   ],
+   [
+    -117.429784,
+    15.82557
+   ]
+  ],
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/madrean_woodlands_conflicts.webp"
  },
  "maputaland_pondoland_albany": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
