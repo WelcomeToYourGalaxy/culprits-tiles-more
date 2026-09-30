@@ -58,18 +58,42 @@ def get(url, tries=3):
 
 
 def office_holders():
-    q = """SELECT ?p ?pLabel ?given ?family ?birth ?citLabel (GROUP_CONCAT(DISTINCT ?posL; separator="|") AS ?offices) ?art WHERE {
-      VALUES ?cit { wd:Q214 wd:Q213 wd:Q33946 }
-      ?p wdt:P31 wd:Q5; wdt:P27 ?cit; wdt:P39 ?pos; wdt:P569 ?birth. FILTER(YEAR(?birth) < 1975)
+    """Round 114c (29 September): the one query for all three countries timed
+    out at Wikidata (HTTP 504 on the refresh of 29 September). It is now asked
+    country by country, and a country that still times out is asked again in
+    spans of birth years; each is tried three times with a pause."""
+    base = """SELECT ?p ?pLabel ?given ?family ?birth ?citLabel (GROUP_CONCAT(DISTINCT ?posL; separator="|") AS ?offices) ?art WHERE {
+      VALUES ?cit { CIT }
+      ?p wdt:P31 wd:Q5; wdt:P27 ?cit; wdt:P39 ?pos; wdt:P569 ?birth. FILTER(YEAR(?birth) >= LO && YEAR(?birth) < HI)
       OPTIONAL { ?p wdt:P735/rdfs:label ?given FILTER(LANG(?given) IN ("sk", "cs", "mul", "en")) }
       OPTIONAL { ?p wdt:P734/rdfs:label ?family FILTER(LANG(?family) IN ("sk", "cs", "mul", "en")) }
       OPTIONAL { ?pos rdfs:label ?posL FILTER(LANG(?posL) = "en") }
       OPTIONAL { ?art schema:about ?p; schema:isPartOf <https://sk.wikipedia.org/> }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "sk,cs,mul,en". ?p rdfs:label ?pLabel. ?cit rdfs:label ?citLabel. }
     } GROUP BY ?p ?pLabel ?given ?family ?birth ?citLabel ?art"""
-    req = urllib.request.Request(SPARQL, data=urllib.parse.urlencode({"query": q, "format": "json"}).encode(),
-                                 headers=dict(UA, Accept="application/sparql-results+json"))
-    rows = json.loads(urllib.request.urlopen(req, timeout=320).read())["results"]["bindings"]
+
+    def ask(cit, lo, hi):
+        q = base.replace("CIT", cit).replace("LO", str(lo)).replace("HI", str(hi))
+        last = None
+        for i in range(3):
+            try:
+                req = urllib.request.Request(SPARQL, data=urllib.parse.urlencode({"query": q, "format": "json"}).encode(),
+                                             headers=dict(UA, Accept="application/sparql-results+json"))
+                return json.loads(urllib.request.urlopen(req, timeout=320).read())["results"]["bindings"]
+            except Exception as e:  # noqa: BLE001
+                last = e
+                print(f"  office holders {cit} {lo}-{hi}: {e}; try {i + 1} of 3", flush=True)
+                time.sleep(30 * (i + 1))
+        raise last
+
+    rows = []
+    for cit in ("wd:Q214", "wd:Q213", "wd:Q33946"):
+        try:
+            rows += ask(cit, 1000, 1975)
+        except Exception:  # noqa: BLE001
+            for lo in range(1800, 1975, 25):
+                rows += ask(cit, 1000 if lo == 1800 else lo, min(1975, lo + 25))
+        print(f"  office holders: {len(rows):,} rows after {cit}", flush=True)
     people = {}
     for b in rows:
         g = lambda k: b.get(k, {}).get("value", "")
