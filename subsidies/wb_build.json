@@ -1,10 +1,10 @@
 {
  "read": 22729,
  "total_said": 22729,
- "rated": 1310,
- "points": 1224,
- "placed_at_country": 1224,
- "not_placed": 86,
+ "rated": 1311,
+ "points": 1223,
+ "placed_at_country": 1223,
+ "not_placed": 88,
  "fields": [
   "boardapprovaldate",
   "borrower",
@@ -30,5 +30,5 @@
   "totalcommamt",
   "url"
  ],
- "date": "2026-09-29"
+ "date": "2026-09-30"
 }
