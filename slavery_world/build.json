@@ -1,10 +1,18 @@
 {
- "date": "2026-09-29",
+ "date": "2026-09-30",
  "pages": {
   "https://data.unodc.org/dp-trafficking-persons": "HTTP Error 404: Not Found"
  },
- "tried": {
-  "https://dataunodc.un.org/sites/dataunodc.un.org/files/data_glotip.xlsx": "File is not a zip file",
-  "https://data.unodc.org/sites/data.unodc.org/files/data_glotip.xlsx": "HTTP Error 404: Not Found"
+ "unodc_file": "https://data.unodc.org/sites/dataportal.unodc.org/files/2025-11/data_glotip.xlsx",
+ "unodc_sheets": {
+  "data_glotip_1": [
+   [
+    "UNODC"
+   ]
+  ]
+ },
+ "cbp": {
+  "not_read": "HTTP Error 403: Forbidden",
+  "kept_last_copy": false
  }
 }
