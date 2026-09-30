@@ -2500,12 +2500,13 @@
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/maputaland_pondoland_albany_conflicts.webp"
  },
  "mediterranean_basin": {
-  "v": 1,
+  "v": 2,
   "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "reason": "no map picture on the conflicts page",
+  "cities": 66
  },
  "mesoamerica": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 8,
   "cities": [
    {
@@ -2909,7 +2910,7 @@
   "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/mesoamerica_conflicts.webp"
  },
  "mountains_of_central_asia": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 6,
   "cities": [
    {
@@ -3006,7 +3007,7 @@
   "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "mountains_of_southwest_china": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -3026,7 +3027,7 @@
   "reason": "only 1 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "new_caledonia": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [],
   "labels_found": 0,
@@ -3034,7 +3035,7 @@
   "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "new_zealand": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -3065,17 +3066,666 @@
   "reason": "only 2 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "north_american_coastal_plain": {
-  "v": 1,
-  "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "v": 2,
+  "conflicts_page": 6,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Augusta- Richmond County, U.S.",
+    "page": 7,
+    "population_2015": "415,000",
+    "population_2030": "495,000",
+    "lon": -81.9748429,
+    "lat": 33.4709714,
+    "openstreetmap": "Augusta, Richmond County, Georgia, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_1.webp"
+   },
+   {
+    "n": 2,
+    "title": "Austin, U.S.",
+    "page": 7,
+    "population_2015": "1,684,000",
+    "population_2030": "2,182,000",
+    "lon": -97.7436995,
+    "lat": 30.2711286,
+    "openstreetmap": "Austin, Travis County, Texas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_2.webp"
+   },
+   {
+    "n": 3,
+    "title": "Baltimore, U.S.",
+    "page": 7,
+    "population_2015": "2,267,000",
+    "population_2030": "2,543,000",
+    "lon": -76.610759,
+    "lat": 39.2908816,
+    "openstreetmap": "Baltimore, Maryland, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_3.webp"
+   },
+   {
+    "n": 4,
+    "title": "Baton Rouge, U.S.",
+    "page": 7,
+    "population_2030": "808,000",
+    "lon": -91.1869659,
+    "lat": 30.4494155,
+    "openstreetmap": "Baton Rouge, East Baton Rouge Parish, Louisiana, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_4.webp"
+   },
+   {
+    "n": 5,
+    "title": "Bonita Springs-Naples, U.S.",
+    "page": 7,
+    "population_2030": "477,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_5.webp"
+   },
+   {
+    "n": 6,
+    "title": "Cape Coral, U.S.",
+    "page": 7,
+    "population_2015": "677,000",
+    "population_2030": "913,000",
+    "lon": -81.9438802,
+    "lat": 26.5625742,
+    "openstreetmap": "Cape Coral, Lee County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_6.webp"
+   },
+   {
+    "n": 7,
+    "title": "Charleston- North Charleston, U.S.",
+    "page": 7,
+    "population_2030": "776,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_7.webp"
+   },
+   {
+    "n": 8,
+    "title": "Columbia, SC, U.S.",
+    "page": 7,
+    "population_2015": "630,000",
+    "population_2030": "785,000",
+    "lon": -81.0352313,
+    "lat": 34.000754,
+    "openstreetmap": "Columbia, Richland County, South Carolina, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_8.webp"
+   },
+   {
+    "n": 9,
+    "title": "Corpus Christi, U.S.",
+    "page": 8,
+    "population_2030": "391,000",
+    "lon": -97.4033191,
+    "lat": 27.7635302,
+    "openstreetmap": "Corpus Christi, Nueces County, Texas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_9.webp"
+   },
+   {
+    "n": 10,
+    "title": "Dallas-Fort Worth, U.S.",
+    "page": 8,
+    "population_2015": "5,703,000",
+    "population_2030": "6,683,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_10.webp"
+   },
+   {
+    "n": 11,
+    "title": "Daytona Beach- Port Orange, U.S.",
+    "page": 8,
+    "population_2015": "410,000",
+    "population_2030": "523,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_11.webp"
+   },
+   {
+    "n": 12,
+    "title": "Denton-Lewisville, U.S.",
+    "page": 8,
+    "population_2015": "405,000",
+    "population_2030": "495,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_12.webp"
+   },
+   {
+    "n": 13,
+    "title": "Fayetteville, U.S.",
+    "page": 8,
+    "population_2015": "329,000",
+    "population_2030": "390,000",
+    "lon": -94.1574328,
+    "lat": 36.0625843,
+    "openstreetmap": "Fayetteville, Washington County, Arkansas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_13.webp"
+   },
+   {
+    "n": 14,
+    "title": "Houston, U.S.",
+    "page": 8,
+    "population_2030": "6,729,000",
+    "lon": -95.3676974,
+    "lat": 29.7589382,
+    "openstreetmap": "Houston, Harris County, Texas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_14.webp"
+   },
+   {
+    "n": 15,
+    "title": "Jackson, Ms, U.S.",
+    "page": 8,
+    "population_2030": "468,000",
+    "lon": -90.1830408,
+    "lat": 32.2998686,
+    "openstreetmap": "Jackson, Hinds County, Mississippi, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_15.webp"
+   },
+   {
+    "n": 16,
+    "title": "Jacksonville, FL, u.S.",
+    "page": 8,
+    "population_2030": "1,398,000",
+    "lon": -81.6579179,
+    "lat": 30.3262247,
+    "openstreetmap": "Jacksonville, Duval County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_16.webp"
+   },
+   {
+    "n": 17,
+    "title": "Kissimmee, U.S.",
+    "page": 9,
+    "population_2030": "569,000",
+    "lon": -81.4075838,
+    "lat": 28.2918995,
+    "openstreetmap": "Kissimmee, Osceola County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_17.webp"
+   },
+   {
+    "n": 18,
+    "title": "Matamoros, Mexico",
+    "page": 9,
+    "population_2015": "528,000",
+    "population_2030": "653,000",
+    "lon": -97.5064866,
+    "lat": 25.8810158,
+    "openstreetmap": "Matamoros, Tamaulipas, 87300, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_18.webp"
+   },
+   {
+    "n": 19,
+    "title": "McAllen, U.S.",
+    "page": 9,
+    "population_2015": "864,000",
+    "population_2030": "1,096,000",
+    "lon": -98.2300605,
+    "lat": 26.204114,
+    "openstreetmap": "McAllen, Hidalgo County, Texas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_19.webp"
+   },
+   {
+    "n": 20,
+    "title": "Memphis, U.S.",
+    "page": 9,
+    "population_2015": "1,106,000",
+    "population_2030": "1,269,000",
+    "lon": -90.0517786,
+    "lat": 35.146026,
+    "openstreetmap": "Memphis, Shelby County, West Tennessee, Tennessee, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_20.webp"
+   },
+   {
+    "n": 21,
+    "title": "Miami, U.S.",
+    "page": 9,
+    "population_2015": "5,817,000",
+    "population_2030": "6,554,000",
+    "lon": -80.1935973,
+    "lat": 25.7741566,
+    "openstreetmap": "Miami, Miami-Dade County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_21.webp"
+   },
+   {
+    "n": 22,
+    "title": "Mobile, U.S.",
+    "page": 9,
+    "population_2015": "330,000",
+    "population_2030": "378,000",
+    "lon": -88.0437509,
+    "lat": 30.6913462,
+    "openstreetmap": "Mobile, Mobile County, Alabama, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_22.webp"
+   },
+   {
+    "n": 23,
+    "title": "Monterrey, Mexico",
+    "page": 9,
+    "population_2015": "4,513,000",
+    "population_2030": "5,471,000",
+    "lon": -100.315258,
+    "lat": 25.6802019,
+    "openstreetmap": "Monterrey, Nuevo León, 64490, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_23.webp"
+   },
+   {
+    "n": 24,
+    "title": "New Orleans, U.S.",
+    "page": 9,
+    "population_2030": "1,046,000",
+    "lon": -90.0733934,
+    "lat": 29.9561422,
+    "openstreetmap": "New Orleans, Orleans Parish, Louisiana, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_24.webp"
+   },
+   {
+    "n": 25,
+    "title": "New York-Newark, U.S.",
+    "page": 10,
+    "population_2030": "19,885,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_25.webp"
+   },
+   {
+    "n": 26,
+    "title": "Orlando, U.S.",
+    "page": 10,
+    "population_2015": "1,731,000",
+    "population_2030": "2,115,000",
+    "lon": -81.379045,
+    "lat": 28.5421218,
+    "openstreetmap": "Orlando, Orange County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_26.webp"
+   },
+   {
+    "n": 27,
+    "title": "Palm Bay-Melbourne, U.S.",
+    "page": 10,
+    "population_2030": "578,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_27.webp"
+   },
+   {
+    "n": 28,
+    "title": "Pensacola, U.S.",
+    "page": 10,
+    "population_2015": "348,000",
+    "population_2030": "401,000",
+    "lon": -87.2169149,
+    "lat": 30.421309,
+    "openstreetmap": "Pensacola, Escambia County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_28.webp"
+   },
+   {
+    "n": 29,
+    "title": "Philadelphia, U.S.",
+    "page": 10,
+    "population_2015": "5,585,000",
+    "population_2030": "6,158,000",
+    "lon": -75.1635262,
+    "lat": 39.9527237,
+    "openstreetmap": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_29.webp"
+   },
+   {
+    "n": 30,
+    "title": "Port St. Lucie,U.S.",
+    "page": 10,
+    "population_2030": "571,000",
+    "lon": -80.3503283,
+    "lat": 27.2939333,
+    "openstreetmap": "Port Saint Lucie, Saint Lucie County, Florida, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_30.webp"
+   },
+   {
+    "n": 31,
+    "title": "Reynosa, Mexico",
+    "page": 10,
+    "population_2030": "1,117,000",
+    "lon": -98.2779499,
+    "lat": 26.0928368,
+    "openstreetmap": "Reynosa, Tamaulipas, 88500, México",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_31.webp"
+   },
+   {
+    "n": 32,
+    "title": "Richmond, U.S.",
+    "page": 10,
+    "population_2030": "1,214,000",
+    "lon": -77.43428,
+    "lat": 37.5385087,
+    "openstreetmap": "Richmond, Virginia, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_32.webp"
+   },
+   {
+    "n": 33,
+    "title": "San Antonio, U.S.",
+    "page": 11,
+    "population_2030": "2,488,000",
+    "lon": -98.4951405,
+    "lat": 29.4246002,
+    "openstreetmap": "San Antonio, Bexar County, Texas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_33.webp"
+   },
+   {
+    "n": 34,
+    "title": "Sarasota-Bradenton, U.S.",
+    "page": 11,
+    "population_2015": "690,000",
+    "population_2030": "815,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_34.webp"
+   },
+   {
+    "n": 35,
+    "title": "Shreveport, U.S.",
+    "page": 11,
+    "population_2015": "310,000",
+    "population_2030": "363,000",
+    "lon": -93.7477839,
+    "lat": 32.5135356,
+    "openstreetmap": "Shreveport, Caddo Parish, Louisiana, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_35.webp"
+   },
+   {
+    "n": 36,
+    "title": "Tampa-St. Petersburg, U.S.",
+    "page": 11,
+    "population_2015": "2,659,000",
+    "population_2030": "3,105,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_36.webp"
+   },
+   {
+    "n": 37,
+    "title": "The Woodlands, U.S.",
+    "page": 11,
+    "population_2015": "400,000",
+    "population_2030": "666,000",
+    "lon": -95.504686,
+    "lat": 30.1734194,
+    "openstreetmap": "The Woodlands, Montgomery County, Texas, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_37.webp"
+   },
+   {
+    "n": 38,
+    "title": "Trenton, U.S.",
+    "page": 11,
+    "population_2015": "313,000",
+    "population_2030": "370,000",
+    "lon": -74.7659,
+    "lat": 40.2203074,
+    "openstreetmap": "Trenton, Mercer County, New Jersey, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_38.webp"
+   },
+   {
+    "n": 39,
+    "title": "Virginia Beach, U.S.",
+    "page": 11,
+    "population_2015": "1,460,000",
+    "population_2030": "1,632,000",
+    "lon": -75.9760751,
+    "lat": 36.8496579,
+    "openstreetmap": "Virginia Beach, Virginia, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_39.webp"
+   },
+   {
+    "n": 40,
+    "title": "Washington, D.C., U.S.",
+    "page": 11,
+    "population_2030": "5,690,000",
+    "lon": -77.0363849,
+    "lat": 38.8950982,
+    "openstreetmap": "Washington, District of Columbia, United States",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_40.webp"
+   }
+  ],
+  "labels_found": 38,
+  "fit_cities": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   9,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   26,
+   28,
+   30,
+   31,
+   32,
+   33,
+   35,
+   37,
+   39,
+   40
+  ],
+  "left_out_of_fit": [
+   {
+    "n": 13,
+    "km_off": 1271.0
+   }
+  ],
+  "error_km": 51.8,
+  "width_km": 3375.6,
+  "kept": true,
+  "corners": [
+   [
+    -104.340021,
+    41.16954
+   ],
+   [
+    -68.792719,
+    41.16954
+   ],
+   [
+    -68.792719,
+    21.74025
+   ],
+   [
+    -104.340021,
+    21.74025
+   ]
+  ],
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/north_american_coastal_plain_conflicts.webp"
  },
  "philippines": {
-  "v": 1,
-  "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "v": 2,
+  "conflicts_page": 4,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Bacolod, philippines",
+    "page": 5,
+    "population_2015": "559,000",
+    "population_2030": "753,000",
+    "lon": 122.9513786,
+    "lat": 10.6762836,
+    "openstreetmap": "Bacolod, Negros Island Region, 6100, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_1.webp"
+   },
+   {
+    "n": 2,
+    "title": "Baguio City, philippines",
+    "page": 5,
+    "population_2015": "358,000",
+    "population_2030": "497,000",
+    "lon": 120.5933878,
+    "lat": 16.411986,
+    "openstreetmap": "Baguio, Cordillera Administrative Region, 2600, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_2.webp"
+   },
+   {
+    "n": 3,
+    "title": "Batangas City, philippines",
+    "page": 5,
+    "population_2015": "340,000",
+    "population_2030": "467,000",
+    "lon": 121.0590753,
+    "lat": 13.7552594,
+    "openstreetmap": "Batangas City, Batangas, Calabarzon, 4200, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_3.webp"
+   },
+   {
+    "n": 4,
+    "title": "Butuan, philippines",
+    "page": 5,
+    "population_2015": "333,000",
+    "population_2030": "447,000",
+    "lon": 125.5432054,
+    "lat": 8.9477147,
+    "openstreetmap": "Butuan, Caraga, 8600, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_4.webp"
+   },
+   {
+    "n": 5,
+    "title": "Cebu, philippines",
+    "page": 5,
+    "population_2015": "951,000",
+    "population_2030": "1,278,000",
+    "lon": 123.83,
+    "lat": 10.47,
+    "openstreetmap": "Cebu, Central Visayas, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_5.webp"
+   },
+   {
+    "n": 6,
+    "title": "Cotabato, philippines",
+    "page": 5,
+    "population_2015": "351,000",
+    "population_2030": "543,000",
+    "lon": 124.86,
+    "lat": 7.27,
+    "openstreetmap": "Cotabato, Soccsksargen, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_6.webp"
+   },
+   {
+    "n": 7,
+    "title": "Davao, philippines",
+    "page": 5,
+    "population_2015": "1,630,000",
+    "population_2030": "2,216,000",
+    "lon": 125.6080623,
+    "lat": 7.0648306,
+    "openstreetmap": "Davao City, Davao Region, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_7.webp"
+   },
+   {
+    "n": 8,
+    "title": "General Santos City, philippines",
+    "page": 5,
+    "population_2015": "616,000",
+    "population_2030": "859,000",
+    "lon": 125.1721893,
+    "lat": 6.1122217,
+    "openstreetmap": "General Santos, Soccsksargen, 9500, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_8.webp"
+   },
+   {
+    "n": 9,
+    "title": "Iligan, philippines",
+    "page": 6,
+    "population_2015": "343,000",
+    "population_2030": "456,000",
+    "lon": 124.2411508,
+    "lat": 8.2281556,
+    "openstreetmap": "Iligan, Northern Mindanao, 9200, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_9.webp"
+   },
+   {
+    "n": 10,
+    "title": "Iloilo City, philippines",
+    "page": 6,
+    "population_2015": "457,000",
+    "population_2030": "611,000",
+    "lon": 122.5732604,
+    "lat": 10.6932884,
+    "openstreetmap": "Iloilo City, Western Visayas, 5000, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_10.webp"
+   },
+   {
+    "n": 11,
+    "title": "Lipa City, philippines",
+    "page": 6,
+    "population_2015": "323,000",
+    "population_2030": "454,000",
+    "lon": 121.1642826,
+    "lat": 13.941434,
+    "openstreetmap": "Lipa, Batangas, Calabarzon, 4217, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_11.webp"
+   },
+   {
+    "n": 12,
+    "title": "Manila, philippines",
+    "page": 6,
+    "population_2015": "12,946,000",
+    "population_2030": "16,756,000",
+    "lon": 120.9803621,
+    "lat": 14.5904492,
+    "openstreetmap": "Manila, Capital District, Metro Manila, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_12.webp"
+   },
+   {
+    "n": 13,
+    "title": "Zamboanga City, philippines",
+    "page": 6,
+    "population_2015": "936,000",
+    "population_2030": "1,313,000",
+    "lon": 122.0764868,
+    "lat": 6.9046876,
+    "openstreetmap": "Zamboanga City, Zamboanga Peninsula, 7000, Philippines",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_13.webp"
+   }
+  ],
+  "labels_found": 13,
+  "fit_cities": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "left_out_of_fit": [],
+  "error_km": 35.2,
+  "width_km": 1770.9,
+  "kept": true,
+  "corners": [
+   [
+    111.122773,
+    21.810441
+   ],
+   [
+    127.454346,
+    21.810441
+   ],
+   [
+    127.454346,
+    4.32827
+   ],
+   [
+    111.122773,
+    4.32827
+   ]
+  ],
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/philippines_conflicts.webp"
  },
  "southwest_australia": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -3095,17 +3745,375 @@
   "reason": "only 1 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "succulent_karoo": {
-  "v": 1,
+  "v": 2,
+  "conflicts_page": 4,
+  "cities": [
+   {
+    "n": 1,
+    "title": "CAPE TOWN, SOUTH AFRICA",
+    "page": 5,
+    "population_2015": "3,660,000",
+    "population_2030": "4,322,000",
+    "lon": 18.4172197,
+    "lat": -33.9288301,
+    "openstreetmap": "Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/succulent_karoo_1.webp"
+   }
+  ],
+  "labels_found": 1,
   "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "reason": "only 1 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "sundaland": {
-  "v": 1,
+  "v": 2,
+  "conflicts_page": 8,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Balikpapan, indonesia",
+    "page": 9,
+    "population_2015": "655,000",
+    "population_2030": "973,000",
+    "lon": 116.8593379,
+    "lat": -1.2398711,
+    "openstreetmap": "Balikpapan, Kalimantan Timur, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_1.webp"
+   },
+   {
+    "n": 2,
+    "title": "Bandar Lampung, indonesia",
+    "page": 9,
+    "population_2015": "965,000",
+    "population_2030": "1,350,000",
+    "lon": 105.2626169,
+    "lat": -5.4293858,
+    "openstreetmap": "Bandar Lampung, Lampung, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_2.webp"
+   },
+   {
+    "n": 3,
+    "title": "Bandung, indonesia",
+    "page": 9,
+    "population_2015": "2,544,000",
+    "population_2030": "3,433,000",
+    "lon": 107.6070833,
+    "lat": -6.9218457,
+    "openstreetmap": "Kota Bandung, Jawa Barat, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_3.webp"
+   },
+   {
+    "n": 4,
+    "title": "Banjarmasin, indonesia",
+    "page": 9,
+    "population_2015": "682,000",
+    "population_2030": "955,000",
+    "lon": 114.5925828,
+    "lat": -3.3187496,
+    "openstreetmap": "Banjarmasin, Kalimantan Selatan, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_4.webp"
+   },
+   {
+    "n": 5,
+    "title": "Bogor, indonesia",
+    "page": 9,
+    "population_2015": "1,076,000",
+    "population_2030": "1,541,000",
+    "lon": 106.7973188,
+    "lat": -6.5963564,
+    "openstreetmap": "Bogor, Jawa Barat, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_5.webp"
+   },
+   {
+    "n": 6,
+    "title": "Denpasar, indonesia",
+    "page": 9,
+    "population_2015": "1,107,000",
+    "population_2030": "1,870,000",
+    "lon": 115.2176191,
+    "lat": -8.6653349,
+    "openstreetmap": "Denpasar, Bali, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_6.webp"
+   },
+   {
+    "n": 7,
+    "title": "Ipoh, Malaysia",
+    "page": 9,
+    "population_2015": "737,000",
+    "population_2030": "998,000",
+    "lon": 101.0900236,
+    "lat": 4.5986817,
+    "openstreetmap": "Majlis Bandaraya Ipoh, Kinta, Perak, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_7.webp"
+   },
+   {
+    "n": 8,
+    "title": "Jakarta, indonesia",
+    "page": 9,
+    "population_2015": "10,323,000",
+    "population_2030": "13,812,000",
+    "lon": 106.827168,
+    "lat": -6.1754049,
+    "openstreetmap": "Daerah Khusus Ibukota Jakarta, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_8.webp"
+   },
+   {
+    "n": 9,
+    "title": "Jambi, indonesia",
+    "page": 10,
+    "population_2015": "604,000",
+    "population_2030": "874,000",
+    "lon": 102.7140041,
+    "lat": -1.7069965,
+    "openstreetmap": "Jambi, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_9.webp"
+   },
+   {
+    "n": 10,
+    "title": "Kota Bharu, Malaysia",
+    "page": 10,
+    "population_2015": "322,000",
+    "population_2030": "433,000",
+    "lon": 102.2378065,
+    "lat": 6.1247911,
+    "openstreetmap": "Kota Bharu, Kelantan, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_10.webp"
+   },
+   {
+    "n": 11,
+    "title": "Kota Kinabalu, Malaysia",
+    "page": 10,
+    "population_2015": "478,000",
+    "population_2030": "673,000",
+    "lon": 116.0728988,
+    "lat": 5.9780066,
+    "openstreetmap": "Kota Kinabalu, Bahagian Pantai Barat, Sabah, 88000, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_11.webp"
+   },
+   {
+    "n": 12,
+    "title": "Kuala Lumpur / Klang, Malaysia",
+    "page": 10,
+    "population_2015": "6,837,000",
+    "population_2030": "9,423,000",
+    "lon": 101.6942371,
+    "lat": 3.1516964,
+    "openstreetmap": "Kuala Lumpur, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_12.webp"
+   },
+   {
+    "n": 13,
+    "title": "Kuala Terengganu, Malaysia",
+    "page": 10,
+    "population_2015": "349,000",
+    "population_2030": "476,000",
+    "lon": 103.1383265,
+    "lat": 5.3296461,
+    "openstreetmap": "Kuala Terengganu, Terengganu, 20300, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_13.webp"
+   },
+   {
+    "n": 14,
+    "title": "Kuantan, Malaysia",
+    "page": 10,
+    "population_2015": "440,000",
+    "population_2030": "617,000",
+    "lon": 103.3219191,
+    "lat": 3.7974493,
+    "openstreetmap": "Kuantan, Pahang, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_14.webp"
+   },
+   {
+    "n": 15,
+    "title": "Kuching, Malaysia",
+    "page": 10,
+    "population_2015": "560,000",
+    "population_2030": "755,000",
+    "lon": 110.345397,
+    "lat": 1.5597561,
+    "openstreetmap": "Kuching, Bahagian Kuching, Sarawak, 93000, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_15.webp"
+   },
+   {
+    "n": 16,
+    "title": "Malang, indonesia",
+    "page": 10,
+    "population_2015": "856,000",
+    "population_2030": "1,156,000",
+    "lon": 112.6340265,
+    "lat": -7.9771308,
+    "openstreetmap": "Kota Malang, Klojen, Jawa Timur, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_16.webp"
+   },
+   {
+    "n": 17,
+    "title": "Medan, indonesia",
+    "page": 11,
+    "population_2015": "2,204,000",
+    "population_2030": "2,955,000",
+    "lon": 98.6741623,
+    "lat": 3.5894617,
+    "openstreetmap": "Kota Medan, Sumatera Utara, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_17.webp"
+   },
+   {
+    "n": 18,
+    "title": "Padang, indonesia",
+    "page": 11,
+    "population_2015": "903,000",
+    "population_2030": "1,254,000",
+    "lon": 100.3632561,
+    "lat": -0.9247587,
+    "openstreetmap": "Padang, Sumatera Barat, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_18.webp"
+   },
+   {
+    "n": 19,
+    "title": "Palembang, indonesia",
+    "page": 11,
+    "population_2015": "1,455,000",
+    "population_2030": "1,888,000",
+    "lon": 104.7568507,
+    "lat": -2.9888243,
+    "openstreetmap": "Palembang, Sumatera Selatan, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_19.webp"
+   },
+   {
+    "n": 20,
+    "title": "Pekanbaru, indonesia",
+    "page": 11,
+    "population_2015": "1,121,000",
+    "population_2030": "1,731,000",
+    "lon": 101.4515727,
+    "lat": 0.5262455,
+    "openstreetmap": "Pekanbaru, Marpoyan Damai, Riau, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_20.webp"
+   },
+   {
+    "n": 21,
+    "title": "Pontianak, indonesia",
+    "page": 11,
+    "population_2015": "603,000",
+    "population_2030": "844,000",
+    "lon": 109.3447488,
+    "lat": -0.0226903,
+    "openstreetmap": "Pontianak, Kalimantan Barat, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_21.webp"
+   },
+   {
+    "n": 22,
+    "title": "Samarinda, indonesia",
+    "page": 11,
+    "population_2015": "865,000",
+    "population_2030": "1,291,000",
+    "lon": 117.1393089,
+    "lat": -0.5017804,
+    "openstreetmap": "Samarinda, Kalimantan Timur, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_22.webp"
+   },
+   {
+    "n": 23,
+    "title": "Sandakan, Malaysia",
+    "page": 11,
+    "population_2015": "349,000",
+    "population_2030": "467,000",
+    "lon": 118.1158598,
+    "lat": 5.8391274,
+    "openstreetmap": "Sandakan, Sandakan District, Bahagian Sandakan, Sabah, 90008, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_23.webp"
+   },
+   {
+    "n": 24,
+    "title": "Semarang, indonesia",
+    "page": 11,
+    "population_2015": "1,630,000",
+    "population_2030": "2,188,000",
+    "lon": 110.4229104,
+    "lat": -6.9903988,
+    "openstreetmap": "Kota Semarang, Jawa Tengah, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_24.webp"
+   },
+   {
+    "n": 25,
+    "title": "Seremban, Malaysia",
+    "page": 12,
+    "population_2015": "422,000",
+    "population_2030": "585,000",
+    "lon": 101.9400601,
+    "lat": 2.723099,
+    "openstreetmap": "Seremban, Negeri Sembilan, 70000, Malaysia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_25.webp"
+   },
+   {
+    "n": 26,
+    "title": "Singapore / Johor Bahru / Batam, malaysia",
+    "page": 12,
+    "population_2015": "6,531,000",
+    "population_2030": "7,827,000",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_26.webp"
+   },
+   {
+    "n": 27,
+    "title": "Sukabumi, Indonesia",
+    "page": 12,
+    "population_2015": "326,000",
+    "population_2030": "462,000",
+    "lon": 106.7346608,
+    "lat": -7.0764508,
+    "openstreetmap": "Kab Sukabumi, Jawa Barat, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_27.webp"
+   },
+   {
+    "n": 28,
+    "title": "Surabaya, indonesia",
+    "page": 12,
+    "population_2015": "2,853,000",
+    "population_2030": "3,760,000",
+    "lon": 112.7377674,
+    "lat": -7.2462836,
+    "openstreetmap": "Surabaya, Jawa Timur, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_28.webp"
+   },
+   {
+    "n": 29,
+    "title": "Surakarta, indonesia",
+    "page": 12,
+    "population_2015": "504,000",
+    "population_2030": "668,000",
+    "lon": 110.828448,
+    "lat": -7.5692489,
+    "openstreetmap": "Surakarta, Kecamatan Pasar Kliwon, Jawa Tengah, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_29.webp"
+   },
+   {
+    "n": 30,
+    "title": "Tasikmalaya, indonesia",
+    "page": 12,
+    "population_2015": "787,000",
+    "population_2030": "1,305,000",
+    "lon": 108.2201154,
+    "lat": -7.3262484,
+    "openstreetmap": "Tasikmalaya, Jawa Barat, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_30.webp"
+   },
+   {
+    "n": 31,
+    "title": "Yogyakarta, indonesia",
+    "page": 12,
+    "population_2015": "385,000",
+    "population_2030": "503,000",
+    "lon": 110.3672845,
+    "lat": -7.7953473,
+    "openstreetmap": "Daerah Istimewa Yogyakarta, Indonesia",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/sundaland_31.webp"
+   }
+  ],
+  "labels_found": 0,
   "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "reason": "only 0 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "tropical_andes": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 8,
   "cities": [
    {
@@ -3356,7 +4364,7 @@
     "page": 11,
     "population_2015": "371,000",
     "population_2030": "455,000",
-    "not_placed": "OpenStreetMap did not find the name as printed",
+    "not_placed": "neither OpenStreetMap nor Natural Earth found the name as printed",
     "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/tropical_andes_23.webp"
    },
    {
@@ -3464,7 +4472,7 @@
   "reason": "typical error 80.1 km is over 2% of the 2251 km map"
  },
  "wallacea": {
-  "v": 1,
+  "v": 2,
   "conflicts_page": 4,
   "cities": [
    {
@@ -3484,8 +4492,107 @@
   "reason": "only 1 numbered cities found on the map and in OpenStreetMap (at least 4 needed)"
  },
  "western_ghats_sri_lanka": {
-  "v": 1,
-  "kept": false,
-  "reason": "no conflicts page in the PDF"
+  "v": 2,
+  "conflicts_page": 4,
+  "cities": [
+   {
+    "n": 1,
+    "title": "Coimbatore, india",
+    "page": 5,
+    "population_2015": "2,549,000",
+    "population_2030": "3,782,000",
+    "lon": 76.9628425,
+    "lat": 11.0018115,
+    "openstreetmap": "Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_1.webp"
+   },
+   {
+    "n": 2,
+    "title": "Colombo, sri lanka",
+    "page": 5,
+    "population_2015": "707,000",
+    "population_2030": "845,000",
+    "lon": 79.8542005,
+    "lat": 6.9388614,
+    "openstreetmap": "Colombo, Colombo District, Western Province, Sri Lanka",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_2.webp"
+   },
+   {
+    "n": 3,
+    "title": "Mumbai, india",
+    "page": 5,
+    "population_2015": "21,043,000",
+    "population_2030": "27,797,000",
+    "lon": 72.8692035,
+    "lat": 19.054999,
+    "openstreetmap": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_3.webp"
+   },
+   {
+    "n": 4,
+    "title": "Nashik, india",
+    "page": 5,
+    "population_2015": "1,779,000",
+    "population_2030": "2,556,000",
+    "lon": 73.7902364,
+    "lat": 20.0112475,
+    "openstreetmap": "Nashik, Nashik Subdistrict, Nashik, Maharashtra, 422001, India",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_4.webp"
+   },
+   {
+    "n": 5,
+    "title": "Pune, india",
+    "page": 5,
+    "population_2015": "5,728,000",
+    "population_2030": "8,091,000",
+    "lon": 73.8545071,
+    "lat": 18.5213738,
+    "openstreetmap": "Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_5.webp"
+   },
+   {
+    "n": 6,
+    "title": "Surat, india",
+    "page": 5,
+    "population_2015": "5,650,000",
+    "population_2030": "8,616,000",
+    "lon": 72.8317058,
+    "lat": 21.2094892,
+    "openstreetmap": "Surat, Katargam Taluka, Surat, Gujarat, 395008, India",
+    "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_6.webp"
+   }
+  ],
+  "labels_found": 6,
+  "fit_cities": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "left_out_of_fit": [],
+  "error_km": 24.2,
+  "width_km": 1849.5,
+  "kept": true,
+  "corners": [
+   [
+    65.798786,
+    23.196851
+   ],
+   [
+    82.951705,
+    23.196851
+   ],
+   [
+    82.951705,
+    5.596447
+   ],
+   [
+    65.798786,
+    5.596447
+   ]
+  ],
+  "image": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/atlas/insets/western_ghats_sri_lanka_conflicts.webp"
  }
 }
