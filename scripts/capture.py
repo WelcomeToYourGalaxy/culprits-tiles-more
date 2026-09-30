@@ -470,12 +470,13 @@ def people_by_article(lang, titles):
     for i in range(0, len(titles), 60):
         vals = " ".join("<" + wiki_url(lang, t) + ">" for t in titles[i:i + 60])
         try:
-            rows = sparql(f"""SELECT ?art ?p ?d ?coord ?cl (GROUP_CONCAT(DISTINCT ?pl; separator="|") AS ?offices) WHERE {{
+            rows = sparql(f"""SELECT ?art ?p ?d ?coord ?cl ?human (GROUP_CONCAT(DISTINCT ?pl; separator="|") AS ?offices) WHERE {{
               VALUES ?art {{ {vals} }} ?art schema:about ?p.
+              BIND(EXISTS {{ ?p wdt:P31 wd:Q5 }} AS ?human)
               OPTIONAL {{ ?p schema:description ?d FILTER(LANG(?d) = "en") }}
               OPTIONAL {{ ?p wdt:P27 ?cit. ?cit wdt:P36/wdt:P625 ?coord. OPTIONAL {{ ?cit rdfs:label ?cl FILTER(LANG(?cl) = "en") }} }}
               OPTIONAL {{ ?p wdt:P39 ?pos. ?pos rdfs:label ?pl FILTER(LANG(?pl) = "en") }}
-            }} GROUP BY ?art ?p ?d ?coord ?cl""")
+            }} GROUP BY ?art ?p ?d ?coord ?cl ?human""")
         except Exception as e:  # noqa: BLE001
             print(f"  people_by_article: {type(e).__name__}: {e}", flush=True)
             continue
@@ -484,7 +485,7 @@ def people_by_article(lang, titles):
             if t in out and out[t].get("coord"):
                 continue
             m = re.match(r"Point\(([-\d.eE]+) ([-\d.eE]+)\)", v(b, "coord"))
-            out[t] = {"qid": qid(v(b, "p")), "desc": v(b, "d"), "country": v(b, "cl"),
+            out[t] = {"qid": qid(v(b, "p")), "desc": v(b, "d"), "country": v(b, "cl"), "human": v(b, "human") in ("true", "1"),
                       "coord": (round(float(m.group(1)), 5), round(float(m.group(2)), 5)) if m else None,
                       "offices": [o for o in v(b, "offices").split("|") if o]}
         time.sleep(2)
@@ -497,6 +498,10 @@ def list_features(lang, items, tier, captor, fallback, fallback_note, source, ex
     for it in items:
         name = it["link"] or it["text"].split(",")[0][:120]
         w = info.get(it["link"] or "", {})
+        # Round 113c: a list item whose link is a thing, not a person (the
+        # Mitrokhin article's lists of operations linked "HIV"), is left out.
+        if w and not w.get("human"):
+            continue
         lonlat = w.get("coord") or fallback
         br = branch_of(w.get("offices", []) + [it["text"]])
         if br == "other office" and not w.get("offices"):
@@ -527,7 +532,7 @@ def venona(found, errors):
 
 def mitrokhin(found, errors):
     title, items = wiki_items("en", ["Mitrokhin Archive"])
-    keep = [i for i in items if i["link"] and re.search(r"expos|agent|spies|spy|named|revel|alleg|politic|influence|countr|kingdom|italy|india|germany|france|united|japan", i["heading"].lower())]
+    keep = [i for i in items if i["link"] and re.search(r"spies|spy|agents? named|named in|unconfirm|accused|exposed", i["heading"].lower())]
     found["mitrokhin items"] = len(keep)
     found["mitrokhin headings"] = sorted({i["heading"] for i in items})
     if not keep:
@@ -981,6 +986,222 @@ def by_country(feats, found, errors):
     return out
 
 
+# ---- round 113c: truer places, and a plain paragraph for every box ---------
+# The owner found too many cases stacked on capitals. A capital is kept only
+# where the office really sat there. Otherwise each person moves to the most
+# telling place Wikidata records for them, and each organisation to the
+# address its source gives, geocoded with OpenStreetMap. "placed at" says
+# which.
+GEOCACHE = OUT / "geocache.json"
+GEOCODE_PER_RUN = 1500
+
+
+def refine_places(feats, found, errors):
+    by_q = {}
+    for f in feats:
+        q = (f["properties"].get("Wikidata") or "").rsplit("/", 1)[-1]
+        if re.fullmatch(r"Q\d+", q):
+            by_q.setdefault(q, []).append(f)
+    best = {}
+    rank = {"constituency": 1, "jurisdiction": 2, "work": 3, "residence": 4, "birth": 5}
+    qs = sorted(by_q)
+    for n in range(0, len(qs), 100):
+        vals = " ".join("wd:" + q for q in qs[n:n + 100])
+        try:
+            rows = sparql(f"""SELECT ?p ?kind ?place ?placeLabel ?coord WHERE {{
+              VALUES ?p {{ {vals} }}
+              {{ ?p p:P39 ?st. ?st pq:P768 ?place. BIND("constituency" AS ?kind) }}
+              UNION {{ ?p wdt:P39 ?pos. ?pos wdt:P1001 ?place. BIND("jurisdiction" AS ?kind)
+                      FILTER NOT EXISTS {{ ?place wdt:P31 ?t. VALUES ?t {{ wd:Q6256 wd:Q3624078 wd:Q3024240 wd:Q7275 }} }} }}
+              UNION {{ ?p wdt:P937 ?place. BIND("work" AS ?kind) }}
+              UNION {{ ?p wdt:P551 ?place. BIND("residence" AS ?kind) }}
+              UNION {{ ?p wdt:P19 ?place. BIND("birth" AS ?kind) }}
+              ?place wdt:P625|wdt:P131/wdt:P625 ?coord.
+              SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,mul". }} }}""")
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"refine_places: {type(e).__name__}: {e}")
+            continue
+        for b in rows:
+            m = re.match(r"Point\(([-\d.eE]+) ([-\d.eE]+)\)", v(b, "coord"))
+            if not m:
+                continue
+            q, kind = qid(v(b, "p")), v(b, "kind")
+            cand = (rank[kind], kind, v(b, "placeLabel"), [round(float(m.group(1)), 5), round(float(m.group(2)), 5)])
+            best.setdefault(q, {}).setdefault(kind, cand)
+        time.sleep(2)
+    say = {"constituency": "the constituency they were elected for ({})", "jurisdiction": "the place their office covered ({})",
+           "work": "where Wikidata says they worked ({})", "residence": "where Wikidata says they lived ({})",
+           "birth": "where they were born ({}); Wikidata gives no place of office, work or home"}
+    moved = 0
+    for q, fs in by_q.items():
+        for f in fs:
+            p = f["properties"]
+            holds_office = p.get("branch") not in ("no office recorded",) and bool(p.get("offices held") or p.get("offices held (Wikidata)"))
+            allowed = ("constituency", "jurisdiction", "work") if holds_office else ("work", "residence", "birth")
+            opts = sorted(c for k, c in best.get(q, {}).items() if k in allowed)
+            if opts:
+                _, kind, label, ll = opts[0]
+                f["geometry"]["coordinates"] = ll
+                p["placed at"] = say[kind].format(label)
+                moved += 1
+    found["cases moved to a truer place"] = moved
+
+
+def geocode(query, cache, budget):
+    if query in cache:
+        return cache[query]
+    if budget["left"] <= 0:
+        return None
+    budget["left"] -= 1
+    try:
+        u = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"q": query, "format": "json", "limit": 1, "accept-language": "en"})
+        j = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA["User-Agent"]}), timeout=60).read())
+        ll = [round(float(j[0]["lon"]), 5), round(float(j[0]["lat"]), 5), j[0].get("display_name", "")] if j else False
+    except Exception:  # noqa: BLE001
+        return None
+    time.sleep(1.1)
+    cache[query] = ll
+    return ll
+
+
+def place_addresses(feats, found, errors):
+    cache = json.loads(GEOCACHE.read_text()) if GEOCACHE.exists() else {}
+    budget, moved, waiting = {"left": GEOCODE_PER_RUN}, 0, 0
+    for f in feats:
+        p = f["properties"]
+        part = p.get("part")
+        q, country = "", ""
+        if part == "fara":
+            city = next((v2 for k, v2 in p.items() if re.search(r"^FARA: .*city", k, re.I) and v2), "")
+            state = next((v2 for k, v2 in p.items() if re.search(r"^FARA: .*state", k, re.I) and v2), "")
+            country = next((v2 for k, v2 in p.items() if re.search(r"^FARA: .*country", k, re.I) and v2), "")
+            q = ", ".join(x for x in (city, state, country) if x) if city else ""
+        elif part == "mdb_debarments":
+            q = (p.get("list: addresses") or "").split(";")[0].strip()
+        if not q:
+            continue
+        got = geocode(q, cache, budget)
+        # FARA's address may be the US agent's, not the foreign principal's: a
+        # place is used only if it lies in the country FARA says is represented.
+        if got and part == "fara" and country and country.lower() not in str(got[2]).lower():
+            continue
+        if got:
+            f["geometry"]["coordinates"] = got[:2]
+            p["placed at"] = f"the address its source gives ({q}), found with OpenStreetMap"
+            moved += 1
+        elif got is None:
+            waiting += 1
+    GEOCACHE.write_text(json.dumps(cache, ensure_ascii=False))
+    found["organisations placed at their address"] = moved
+    found["addresses still to look up (next runs)"] = waiting
+
+
+def resolve_compiled(feats, found, errors):
+    """Colombian members of Congress compiled by name: their Wikidata record,
+    only where exactly one person of that name is a Colombian citizen."""
+    names = {}
+    for f in feats:
+        n = f["properties"]["name"]
+        if n.endswith(" (Congress of Colombia)"):
+            names.setdefault(n[:-len(" (Congress of Colombia)")], []).append(f)
+    if not names:
+        return
+    vals = " ".join(json.dumps(n) + "@es" for n in names)
+    try:
+        rows = sparql(f"""SELECT ?l ?p WHERE {{ VALUES ?l {{ {vals} }} ?p rdfs:label|skos:altLabel ?l; wdt:P27 wd:Q739; wdt:P31 wd:Q5. }}""")
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"resolve_compiled: {type(e).__name__}: {e}")
+        return
+    hits = {}
+    for b in rows:
+        hits.setdefault(v(b, "l"), set()).add(qid(v(b, "p")))
+    n = 0
+    for name, fs in names.items():
+        qs = hits.get(name, set())
+        if len(qs) == 1:
+            q = next(iter(qs))
+            for f in fs:
+                f["properties"]["Wikidata"] = f"https://www.wikidata.org/wiki/{q}"
+                f["properties"]["offices held"] = "member of the Congress of Colombia"
+            n += 1
+    found["compiled names matched to Wikidata"] = n
+
+
+def _short(x, n=400):
+    x = re.sub(r"\s+", " ", str(x or "")).strip()
+    return x if len(x) <= n else x[:n].rsplit(" ", 1)[0] + "…"
+
+
+def _join(xs):
+    xs = [x for x in xs if x]
+    return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1] if xs else ""
+
+
+def summarize(f):
+    p = f["properties"]
+    part, g = p.get("part", ""), p.get("group", "")
+    name, desc = p.get("name", ""), p.get("who they are", "")
+    who = f"{name} ({desc})" if desc else name
+    offices = (p.get("offices held") or p.get("offices held (Wikidata)") or "").replace("|", "; ")
+    held = f" held office as {offices}" if offices else ""
+    if part == "" and p.get("what the record says"):
+        return p["what the record says"]
+    if g == TIERS["served"]:
+        return (f"{who}{held or ' held office'}. Wikidata also records them working for or belonging to {p.get('spy service or role', 'a spy service or secret police')}. "
+                "This marks where public office and spy work met; it does not say the service was secret or that they acted for another country.")
+    if part == "" and p.get("convicted of"):
+        return (f"{who}{held}, and was convicted of {p['convicted of']}, according to Wikidata." if offices
+                else f"{who} was convicted of {p['convicted of']}, according to Wikidata.")
+    if part == "venona":
+        return (f"{who}. The Venona project decoded Soviet intelligence cables from the 1940s; researchers Haynes and Klehr list this person as named in them"
+                f"{', though the identity is their inference' if 'inferred' in p.get('identity', '') else ''}."
+                f"{' Their list says: ' + _short(p.get('what the list says')) + '.' if len(p.get('what the list says', '')) > len(name) + 4 else ''} "
+                "How far some of the people named took part is disputed.")
+    if part == "mitrokhin":
+        return (f"{who}. Named in the notes KGB archivist Vasili Mitrokhin copied from KGB files ({p.get('section', '')}). "
+                f"{'Wikipedia lists this as accused but unconfirmed. ' if g == TIERS['alleged'] else ''}"
+                "Independent historians have not seen the original files, and several people named deny it.")
+    if part == "colombia_wiki":
+        return f"{name}: listed in Spanish Wikipedia's article on the parapolitics scandal under '{p.get('section', '')}'. {p.get('what the heading means', '')}".strip()
+    if part == "secret_police_categories":
+        return (f"{who} is listed in Wikipedia's category '{p.get('category', '').split(':', 1)[-1]}', which rests on the secret-police records cited in their article."
+                f"{' They held office as ' + offices + '.' if offices else ''}")
+    if part == "sec_fcpa":
+        c = p.get("country")
+        return (f"{_short(p.get('what the SEC says'), 700)} The US Securities and Exchange Commission lists this among its foreign bribery cases"
+                f"{'; this point marks ' + c + ', where it says the bribes or improper payments went' if c else ''}.")
+    if part == "doj_fcpa":
+        extra = ", ".join(x for x in (p.get("docket") and "docket " + p["docket"], p.get("court district"), p.get("filed or announced")) if x)
+        return (f"The US Justice Department brought {name} under its foreign bribery laws{' (' + extra + ')' if extra else ''}. " + p.get("note", ""))
+    if part == "ipn":
+        rul = p.get("rulings and prosecutors' decisions (IPN)", "")
+        return (f"{name}, who held {_short(p.get('offices held (IPN)'), 250)}. Poland's Institute of National Remembrance records: {_short(p.get('what the records say (IPN)'), 900)}"
+                f"{' Rulings: ' + _short(rul, 400) if rul and rul.lower() not in ('brak', 'treść brak') else ''} {p.get('note', '')}")
+    if part == "stb":
+        return f"{name}{held}. {p.get('note', '')}"
+    if part == "mdb_debarments":
+        return (f"{name} was barred by {p.get('published by') or p.get('list')} from the projects it finances, after the bank's own sanctions process found fraud, "
+                f"corruption, collusion or similar misconduct. This is the bank's finding, not a court ruling.")
+    if part == "fara":
+        who2 = p.get("working for or tied to", "")
+        reg = next((v2 for k, v2 in p.items() if re.search(r"registrant name", k, re.I)), "")
+        start = next((v2 for k, v2 in p.items() if re.search(r"principal registration date", k, re.I)), "")
+        end = next((v2 for k, v2 in p.items() if re.search(r"principal termination date", k, re.I)), "")
+        return (f"{who2} has been represented in the United States by {reg or 'a registered agent'} under the Foreign Agents Registration Act"
+                f"{', from ' + start if start else ''}{' to ' + end if end else ''}. Registration is legal and public: it records that the tie exists, not a crime.")
+    return p.get("what the record says") or p.get("note") or ""
+
+
+def add_summaries(feats):
+    for f in feats:
+        try:
+            s = summarize(f)
+        except Exception:  # noqa: BLE001
+            s = ""
+        if s:
+            f["properties"]["summary"] = re.sub(r"\s+", " ", s).strip()
+
+
 # ---- probes: pages saved for the next round to read ------------------------
 PROBES = {
     "ipn_catalogue_entry_86435.html": "https://katalog.bip.ipn.gov.pl/informacje/86435",
@@ -1053,6 +1274,12 @@ def main():
         prev = [f for f in before if f["properties"].get("source", "").startswith("Wikidata (CC0)")]
         feats += prev
         errors.append(f"kept {len(prev)} Wikidata cases from the last build")
+    for step in (resolve_compiled, refine_places, place_addresses):
+        try:
+            step(feats, found, errors)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{step.__name__}: {type(e).__name__}: {e}")
+    add_summaries(feats)
     old.write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
     bc = by_country(feats, found, errors)
     if bc:
