@@ -71,7 +71,12 @@ def data_row(r, head):
 
 def main():
     stamp = OUT / "build.json"
-    if stamp.exists() and datetime.date.today().weekday() != 0 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
+    # Round 116b: a build that found nothing tries again the next day, not only on Mondays.
+    try:
+        found = json.loads(stamp.read_text()).get("found") if stamp.exists() else None
+    except Exception:  # noqa: BLE001
+        found = None
+    if found and datetime.date.today().weekday() != 0 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
         print("fertility_policy: weekly; not Monday")
         return
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "openpyxl"], check=False)
