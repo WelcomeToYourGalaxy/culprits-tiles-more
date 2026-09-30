@@ -19,6 +19,14 @@ under 40 m apart, same kind) are one kiln.
 The artisanal mining sites (IPIS, eastern DR Congo) are taken from the
 anti-slavery map's points.json as they are, every field.
 
+Round 117b (asked 30 September: colour the kilns by size, the mining sites by
+the people working there): each kiln also carries the length and width of its
+box in the picture (10 m a pixel) and their product, the area the box covers,
+as the dataset draws it; a kiln the dataset gives only a centre for has no
+size. The kilns kept from an earlier read have no sizes, so the dataset is
+read once more. Each mining site also carries the figures IPIS's text gives
+(workers reported, the mineral, armed interference) as fields of their own.
+
 Writes tiles/slavery_sites.pmtiles (layer slavery_sites) and
 tiles/slavery_sites.build.json. The kilns read from the dataset are kept in
 slavery_sites/kilns.json.gz and read again only when the dataset changes.
@@ -115,7 +123,8 @@ def label_lines(v):
 
 
 def boxes(row):
-    """Every kiln box in a row as (x, y) of its centre in pixels, and its kind.
+    """Every kiln box in a row as (x, y) of its centre in pixels, its kind, and
+    its length and width in pixels (None when the labels give no corners).
     DOTA ("x1 y1 ... x4 y4 kind difficult") is read first, then YOLO OBB
     ("kind x1 y1 ... y4") and YOLO axis-aligned ("kind xc yc w h"); coordinates
     that are all 1 or less are fractions of the picture."""
@@ -131,6 +140,7 @@ def boxes(row):
                     nums.append(float(x))
                 except ValueError:
                     words.append(x)
+            wh = None
             if kind == "dota" and len(nums) >= 8:
                 xs, ys = nums[0:8:2], nums[1:8:2]
                 cls = words[0] if words else (str(int(nums[8])) if len(nums) > 8 else "")
@@ -141,18 +151,39 @@ def boxes(row):
             elif kind == "aa" and len(nums) >= 5:
                 cls = words[0] if words else str(int(nums[0]))
                 xc, yc = (nums[1], nums[2]) if not words else (nums[0], nums[1])
+                bw, bh = (nums[3], nums[4]) if not words else (nums[2], nums[3])
                 xs, ys = [xc], [yc]
+                wh = (bw, bh)
             else:
                 continue
-            found.append((sum(xs) / len(xs), sum(ys) / len(ys), cls))
+            if wh is None and len(xs) == 4:
+                # The two sides of the box: corner 1 to 2, and 2 to 3.
+                wh = (math.hypot(xs[1] - xs[0], ys[1] - ys[0]), math.hypot(xs[2] - xs[1], ys[2] - ys[1]))
+            found.append((sum(xs) / len(xs), sum(ys) / len(ys), cls, wh))
         if found:
-            if all(x <= 1.0 and y <= 1.0 for x, y, _ in found):
-                found = [(x * PX, y * PX, c) for x, y, c in found]
+            if all(x <= 1.0 and y <= 1.0 for x, y, _, _ in found):
+                found = [(x * PX, y * PX, c, (wh[0] * PX, wh[1] * PX) if wh else None) for x, y, c, wh in found]
             return found, key
     return [], None
 
 
 CLASS_NAMES = {"0": "CFCBK", "1": "FCBK", "2": "Zigzag"}   # METAINFO in the dataset's plt_ann_on_img.py
+KIND_WORDS = {"CFCBK": "Circular fixed-chimney Bull's trench kiln", "FCBK": "Fixed-chimney Bull's trench kiln (oval)",
+              "Zigzag": "Zigzag kiln"}
+
+
+def ipis_figures(desc):
+    """The figures IPIS's text gives for a site, as fields of their own."""
+    out = {}
+    m = re.search(r"Reported workers: (\d[\d,]*)", desc)
+    if m:
+        out["workers"] = int(m.group(1).replace(",", ""))
+    m = re.search(r"Mineral: ([^.]+)\.", desc)
+    if m:
+        out["mineral"] = m.group(1).strip()
+    m = re.search(r"Armed interference recorded: ([^.]+)\.", desc)
+    out["armed_interference"] = m.group(1).strip() if m else "none recorded"
+    return out
 
 
 PARQUET_URL = "https://huggingface.co/api/datasets/{d}/parquet"
@@ -168,15 +199,24 @@ def kilns_in_row(r, split, kilns, how):
     lat0, lon0, name = c
     found, key = boxes(r)
     how[key] = how.get(key, 0) + 1
-    for x, y, cls in found:
+    for x, y, cls, wh in found:
         dy_m = (PX / 2 - y) * M_PER_PX
         dx_m = (x - PX / 2) * M_PER_PX
         lat = lat0 + dy_m / 111320.0
         lon = lon0 + dx_m / (111320.0 * max(0.05, math.cos(math.radians(lat0))))
-        kilns.append({"lat": round(lat, 6), "lon": round(lon, 6), "kind": CLASS_NAMES.get(cls, cls),
-                      "picture": os.path.basename(str(name)), "split": split,
-                      "box_x": round(x, 1), "box_y": round(y, 1)})
+        kilns.append(kiln_record(lat, lon, cls, name, split, x, y, wh))
     return True
+
+
+def kiln_record(lat, lon, cls, name, split, x, y, wh):
+    k = {"lat": round(lat, 6), "lon": round(lon, 6), "kind": CLASS_NAMES.get(cls, cls),
+         "picture": os.path.basename(str(name)), "split": split,
+         "box_x": round(x, 1), "box_y": round(y, 1), "sized": 1}
+    if wh:
+        a, b = sorted(wh, reverse=True)
+        k["len_m"] = round(a * M_PER_PX, 1)
+        k["wid_m"] = round(b * M_PER_PX, 1)
+    return k
 
 
 def read_parquet(version):
@@ -196,11 +236,11 @@ def read_parquet(version):
     if not files:
         raise RuntimeError(f"no Parquet files listed: {str(listing)[:300]}")
     print(f"  {len(files)} Parquet files", flush=True)
-    state = {"version": version, "done": [], "kilns": [], "pictures": 0, "how": {}}
+    state = {"version": version, "done": [], "kilns": [], "pictures": 0, "how": {}, "sized": 1}
     if PARTIAL.exists():
         try:
             old = json.loads(gzip.decompress(PARTIAL.read_bytes()))
-            if old.get("version") == version:
+            if old.get("version") == version and old.get("sized"):
                 state = old
                 print(f"  carrying on: {len(state['done'])} files already read, {len(state['kilns']):,} kiln boxes", flush=True)
         except Exception as e:
@@ -255,14 +295,12 @@ def read_dataset():
                 lat0, lon0, name = c
                 found, key = boxes(r)
                 how[key] = how.get(key, 0) + 1
-                for x, y, cls in found:
+                for x, y, cls, wh in found:
                     dy_m = (PX / 2 - y) * M_PER_PX
                     dx_m = (x - PX / 2) * M_PER_PX
                     lat = lat0 + dy_m / 111320.0
                     lon = lon0 + dx_m / (111320.0 * max(0.05, math.cos(math.radians(lat0))))
-                    kilns.append({"lat": round(lat, 6), "lon": round(lon, 6), "kind": CLASS_NAMES.get(cls, cls),
-                                  "picture": os.path.basename(str(name)), "split": split,
-                                  "box_x": round(x, 1), "box_y": round(y, 1)})
+                    kilns.append(kiln_record(lat, lon, cls, name, split, x, y, wh))
             offset += len(rows)
             if offset % 5000 < 100:
                 print(f"    {split}: {offset} rows, {len(kilns)} kilns so far", flush=True)
@@ -318,7 +356,8 @@ def main():
     if CACHE.exists():
         try:
             c = json.loads(gzip.decompress(CACHE.read_bytes()))
-            if version and c.get("version") == version:
+            # Round 117b: kilns kept from before sizes were read are read again.
+            if version and c.get("version") == version and all(k.get("sized") for k in c["kilns"][:50]):
                 kilns = c["kilns"]
                 print(f"  {len(kilns):,} kilns kept from the last read (dataset unchanged, {version})")
         except Exception as e:
@@ -346,17 +385,27 @@ def main():
         extra = {k: v for k, v in r.items() if k not in ("lat", "lng", "name", "url")}
         if r.get("precise") is False:
             extra["precision"] = "admin"
+        extra.update(ipis_figures(r.get("desc") or ""))
         feats.append(feature(f"{r.get('source')}:{r.get('name')}:{r['lat']},{r['lng']}", r.get("name") or r.get("type"),
                              float(r["lng"]), float(r["lat"]), r.get("url"), "IPIS open data (via the anti-slavery map)", extra))
+    sized = 0
     for i, k in enumerate(kilns):
+        size = {}
+        if k.get("len_m") is not None:
+            sized += 1
+            size = {"kiln_length_m": k["len_m"], "kiln_width_m": k["wid_m"],
+                    "kiln_area_m2": round(k["len_m"] * k["wid_m"]),
+                    "kiln_size_from": "The box the dataset draws round the kiln in its satellite picture, 10 m a pixel: "
+                                      "the kiln's outline as seen from above, to within a pixel or so on each side."}
         feats.append(feature(f"kiln:{k['picture']}:{i}", "Brick kiln", k["lon"], k["lat"], DATASET_URL, LICENCE_KILNS, {
-            "type": "Brick kiln", "kiln_kind": k["kind"], "dataset": "SentinelKilnDB",
+            **size,
+            "type": "Brick kiln", "kiln_kind": k["kind"], "kiln_kind_in_words": KIND_WORDS.get(k["kind"], k["kind"]), "dataset": "SentinelKilnDB",
             "picture": k["picture"], "split": k["split"], "box_centre_px": f"{k['box_x']}, {k['box_y']}",
             "also_in_pictures": k.get("also_in"),
             "position": "The centre of the kiln's box in its satellite picture (128 x 128 pixels, 10 m a pixel); "
                         "within about 60 m. Sector infrastructure, not confirmed exploitation.",
         }))
-    print(f"  {len(mining):,} mining sites, {len(kilns):,} kilns")
+    print(f"  {len(mining):,} mining sites, {len(kilns):,} kilns ({sized:,} with a size)")
     tools()
     work = pathlib.Path(tempfile.mkdtemp())
     src = work / "in.geojsonl"
@@ -370,7 +419,9 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     shutil.move(str(tmp), OUT)
     STAMP.write_text(json.dumps({"built": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "kilns": len(kilns),
-                                 "mining_sites": len(mining), "dataset_version": version}, indent=1))
+                                 "kilns_with_size": sized, "mining_sites": len(mining),
+                                 "mining_sites_with_workers": sum(1 for f in feats if f["properties"].get("x_workers") is not None),
+                                 "dataset_version": version}, indent=1))
     print(f"  wrote {OUT} ({OUT.stat().st_size / 1e6:.1f} MB)")
 
 
