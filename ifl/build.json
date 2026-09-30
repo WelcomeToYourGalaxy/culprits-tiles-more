@@ -1,1 +1,52 @@
-{}
+{
+ "2000": {
+  "from": "https://intactforests.org/shp/IFL_2000.gpkg",
+  "shapes": 2221,
+  "fields": [
+   "IFL_ID",
+   "Area2000"
+  ],
+  "to_zoom": 10,
+  "bytes": 27061704
+ },
+ "2013": {
+  "from": "https://intactforests.org/shp/IFL_2013.gpkg",
+  "shapes": 2138,
+  "fields": [
+   "IFL_ID",
+   "Area2013"
+  ],
+  "to_zoom": 10,
+  "bytes": 26631600
+ },
+ "2016": {
+  "from": "https://intactforests.org/shp/IFL_2016.gpkg",
+  "shapes": 2097,
+  "fields": [
+   "IFL_ID",
+   "Area2016"
+  ],
+  "to_zoom": 10,
+  "bytes": 27053197
+ },
+ "2020": {
+  "from": "https://intactforests.org/shp/IFL_2020.gpkg",
+  "shapes": 2053,
+  "fields": [
+   "IFL_ID",
+   "Area2020"
+  ],
+  "to_zoom": 10,
+  "bytes": 27030583
+ },
+ "2025": {
+  "from": "https://intactforests.org/shp/IFL_2025.gpkg",
+  "shapes": 2014,
+  "fields": [
+   "IFL_ID",
+   "Area2025"
+  ],
+  "to_zoom": 10,
+  "bytes": 27207766
+ }
+}
