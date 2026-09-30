@@ -1,38 +1,39 @@
 {
- "read": "2026-09-29",
- "features": 31691,
- "wikidata": 933,
- "lists": 30697,
+ "read": "2026-09-30",
+ "features": 32399,
+ "wikidata": 935,
+ "lists": 31403,
  "compiled": 61,
  "by_tier_and_branch": {
   "Admitted by the person, or by the side that paid or ran them | company": 13,
   "Admitted by the person, or by the side that paid or ran them | lawmaking": 2,
   "Admitted by the person, or by the side that paid or ran them | ruling and running": 1,
   "Charged or alleged, not proven | company": 343,
+  "Charged or alleged, not proven | courts": 1,
   "Charged or alleged, not proven | lawmaking": 14,
-  "Charged or alleged, not proven | no office recorded": 10,
-  "Charged or alleged, not proven | ruling and running": 3,
+  "Charged or alleged, not proven | no office recorded": 7,
+  "Charged or alleged, not proven | ruling and running": 129,
   "Convicted, or found by a court | company": 7,
   "Convicted, or found by a court | courts": 12,
   "Convicted, or found by a court | lawmaking": 125,
   "Convicted, or found by a court | other office": 41,
-  "Convicted, or found by a court | ruling and running": 77,
+  "Convicted, or found by a court | ruling and running": 85,
   "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17760,
   "Documented ties, funding, or laws written for them | lawmaking": 3,
   "Documented ties, funding, or laws written for them | no office recorded": 3,
-  "Found by an official inquiry | company": 10754,
+  "Found by an official inquiry | company": 10799,
   "Found by an official inquiry | lawmaking": 2,
   "Held office and worked for a spy service or secret police (Wikidata) | company": 20,
-  "Held office and worked for a spy service or secret police (Wikidata) | courts": 25,
+  "Held office and worked for a spy service or secret police (Wikidata) | courts": 26,
   "Held office and worked for a spy service or secret police (Wikidata) | lawmaking": 210,
-  "Held office and worked for a spy service or secret police (Wikidata) | other office": 163,
+  "Held office and worked for a spy service or secret police (Wikidata) | other office": 164,
   "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 287,
   "Named in opened secret-police or spy-service files | company": 2,
-  "Named in opened secret-police or spy-service files | courts": 11,
-  "Named in opened secret-police or spy-service files | lawmaking": 192,
-  "Named in opened secret-police or spy-service files | no office recorded": 1155,
+  "Named in opened secret-police or spy-service files | courts": 12,
+  "Named in opened secret-police or spy-service files | lawmaking": 194,
+  "Named in opened secret-police or spy-service files | no office recorded": 1122,
   "Named in opened secret-police or spy-service files | other office": 143,
-  "Named in opened secret-police or spy-service files | ruling and running": 84,
+  "Named in opened secret-police or spy-service files | ruling and running": 643,
   "Settled bribery charges with a regulator (often without admitting or denying) | company": 229
  },
  "found": {
@@ -4062,7 +4063,7 @@
    "Q1072166 tea house",
    "Q10727386 open preschool"
   ],
-  "a. office holders who served a spy service": 726,
+  "a. office holders who served a spy service": 728,
   "b. office holders convicted": 232,
   "crimes matched": [
    "Espionage Act of 1917",
@@ -4077,8 +4078,8 @@
    "treason"
   ],
   "venona items": 127,
-  "venona features": 127,
-  "mitrokhin items": 20,
+  "venona features": 125,
+  "mitrokhin items": 8,
   "mitrokhin headings": [
    "Accused but unconfirmed",
    "Alleged KGB operations revealed in the files",
@@ -4089,7 +4090,7 @@
    "Prominent KGB spies named in the files",
    "Support of militant organizations and terrorists"
   ],
-  "mitrokhin features": 20,
+  "mitrokhin features": 8,
   "colombia es.wikipedia headings": [
    "Firmantes",
    "Noticias",
@@ -4098,7 +4099,7 @@
    "Principales detenciones"
   ],
   "colombia items": 29,
-  "colombia_wiki features": 29,
+  "colombia_wiki features": 24,
   "country names": 1268,
   "sec cases": 266,
   "sec points": 326,
@@ -4172,18 +4173,18 @@
   "hr categories": {},
   "sl categories": {},
   "sr categories": {},
-  "secret_police_categories features": 1435,
-  "ipn drawn": 0,
-  "ipn features": 0,
+  "secret_police_categories features": 1411,
+  "ipn drawn": 704,
+  "ipn features": 704,
   "stb features": 0,
   "development bank debarment lists": [
-   "gb_fcdo_sanctions: UK FCDO Sanctions List",
-   "ebrd_ineligible: EBRD Ineligible Entities",
    "worldbank_debarred: WorldBank Debarred Providers",
-   "afdb_sanctions: African Development Bank Debarred Entities"
+   "ebrd_ineligible: EBRD Ineligible Entities",
+   "afdb_sanctions: African Development Bank Debarred Entities",
+   "gb_fcdo_sanctions: UK FCDO Sanctions List"
   ],
-  "debarment points": 10754,
-  "mdb_debarments features": 10754,
+  "debarment points": 10799,
+  "mdb_debarments features": 10799,
   "fara columns": [
    "Foreign Principal Termination Date",
    "Foreign Principal",
@@ -4314,7 +4315,11 @@
     "bytes": 50106
    }
   },
-  "countries with cases": 178
+  "compiled names matched to Wikidata": 13,
+  "cases moved to a truer place": 1495,
+  "organisations placed at their address": 289,
+  "addresses still to look up (next runs)": 6257,
+  "countries with cases": 181
  },
  "errors": [
   "c: HTTPError: HTTP Error 504: Gateway Timeout",
