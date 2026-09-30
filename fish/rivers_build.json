@@ -1,0 +1,20 @@
+{
+ "file": {
+  "id": 15090536,
+  "name": "Mapping the worlds free-flowing rivers_Data_Geodatabase.zip",
+  "size": 954710486,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/15090536",
+  "supplied_md5": "2df6c603904f61f5dc482d3f9873900f",
+  "computed_md5": "2df6c603904f61f5dc482d3f9873900f",
+  "mimetype": "application/zip"
+ },
+ "layer": "FFR_river_network_v1",
+ "csi": "CSI",
+ "free_flowing_field": "CSI_FF1",
+ "cells_by_class": {
+  "1": 22423210,
+  "2": 534092,
+  "3": 917833
+ }
+}
