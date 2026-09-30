@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-30",
+ "settlements": {
+  "rows": 22,
+  "columns": [
+   "Company",
+   "Laws violated (if applicable)",
+   "Product(s)",
+   "Settlement",
+   "Violation(s)",
+   "Year"
+  ]
+ },
+ "compiled_left_out": [
+  "Allergan (not found in Opioid epidemic in the United States)",
+  "Armour (not found in Contaminated haemophilia blood products)"
+ ],
+ "placed": 34,
+ "not_placed": [
+  "Kytril , Bactroban , Paxil CR , Avandamet",
+  "Temodar , Intron A , K-Dur , Claritin RediTabs",
+  "Neurontin",
+  "Zoladex",
+  "Claritin",
+  "Alpha Therapeutic Corporation"
+ ]
+}
