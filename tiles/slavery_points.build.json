@@ -1,5 +1,5 @@
 {
- "built": "2026-09-30 05:39 UTC",
+ "built": "2026-10-01 17:41 UTC",
  "rows": {
   "slavery_ports": {
    "file": "slavery_points_ports.pmtiles",
@@ -41,7 +41,7 @@
   },
   "slavery_determinations": {
    "file": "slavery_points_determinations.pmtiles",
-   "records": 294,
+   "records": 296,
    "placed": 18,
    "figures_read": {}
   }
