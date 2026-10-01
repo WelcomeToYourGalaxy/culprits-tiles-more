@@ -1,15 +1,15 @@
 {
- "read": "2026-09-30",
+ "read": "2026-10-01",
  "people": 8101,
- "searched": 6255,
- "finished": null,
+ "searched": 8101,
+ "finished": "2026-10-01",
  "matched by name and birth date": {
-  "no category read": 538,
-  "I": 111,
+  "no category read": 673,
+  "I": 146,
   "K": 2,
-  "TS": 2
+  "TS": 3
  },
- "drawn": 86,
+ "drawn": 116,
  "searches whose results gave no birth date": [
   {
    "person": "Ladislav Hučko",
