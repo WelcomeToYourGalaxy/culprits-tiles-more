@@ -1,16 +1,16 @@
 {
- "read": "2026-09-30",
+ "read": "2026-10-01",
  "certificate check skipped": true,
- "next number": 140601,
- "highest entry": 140600,
- "finished": null,
+ "next number": 194401,
+ "highest entry": 164215,
+ "finished": "2026-10-01",
  "counts": {
   "no answer": 144,
-  "records show no collaboration": 122453,
-  "missing": 15085,
-  "archive": 2442,
-  "alleged": 432,
-  "court": 44
+  "records show no collaboration": 143785,
+  "missing": 47113,
+  "archive": 2845,
+  "alleged": 447,
+  "court": 66
  },
- "drawn": 2918
+ "drawn": 3358
 }
