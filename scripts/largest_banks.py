@@ -39,16 +39,53 @@ from.
 
 Writes banks/largest.geojson, banks/development.geojson and banks/largest.build.json. Weekly;
 BANKS_REBUILD=1 builds again.
+
+Round 121b (asked 1 October 2026: the refresh failed with Wikidata's "504
+Gateway Timeout"). Wikidata's query service stops any question that takes
+over a minute and answers 504; asking the same question again does not help.
+So a question that times out is now asked in smaller pieces (a list of items
+is halved until each half answers; the total assets statements are asked one
+currency at a time and then in bands of size), the search through every
+subclass of development bank is asked in two short steps, and if Wikidata
+still cannot answer, the last good copy is kept, the reason is written to
+banks/largest.failed.json, and the refresh goes on (the next day's refresh
+tries again).
 """
 import json, os, pathlib, re, sys, time
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from largest_companies import sparql, val, qid, ecb_rates, wb_rates  # noqa: E402
+from largest_companies import sparql as _sparql_slow, get, WDQS, val, qid, ecb_rates, wb_rates  # noqa: E402,F401
+import urllib.parse  # noqa: E402
 
 OUT = pathlib.Path("banks")
 TOP = 250
 WEEK = 7 * 24 * 3600
 BANK = "Q22687"
+BANDS = [(1e9, 1e10), (1e10, 1e11), (1e11, 1e12), (1e12, 1e30)]
+
+
+def sparql(q, tries=3):
+    """One question to Wikidata, tried a few times only: a timeout (504) is
+    answered by asking smaller questions, not the same one again."""
+    body = urllib.parse.urlencode({"query": q, "format": "json"}).encode()
+    return json.loads(get(WDQS, data=body, tries=tries, timeout=120))["results"]["bindings"]
+
+
+def chunked(fmt, ids, size):
+    """fmt's question asked for ids, size at a time; a piece that does not
+    answer is halved until it does (one item that still does not is reported)."""
+    out = []
+    for i in range(0, len(ids), size):
+        part = ids[i:i + size]
+        try:
+            out += sparql(fmt.format(values=" ".join(f"wd:{q}" for q in part)))
+        except Exception as e:  # noqa: BLE001
+            if len(part) == 1:
+                raise
+            print(f"    {len(part)} at once did not answer ({e}); halving", flush=True)
+            out += chunked(fmt, part, max(1, len(part) // 2))
+        time.sleep(1)
+    return out
 
 
 def main():
@@ -70,15 +107,27 @@ SELECT ?item ?amount ?cur ?code ?date ?rank WHERE {{
   OPTIONAL {{ ?st pq:P585 ?date }}
 }}"""
     try:
-        rows = sparql(one.format(values=""))
+        rows = sparql(one.format(values=""), tries=2)
     except Exception as e:  # noqa: BLE001
         print(f"  all at once failed ({e}); one currency at a time", flush=True)
-        curs = [qid(val(b, "cur")) for b in sparql("""
-SELECT DISTINCT ?cur WHERE { ?item p:P2403/psv:P2403/wikibase:quantityUnit ?cur . }""")]
+        try:
+            curs = [qid(val(b, "cur")) for b in sparql("""
+SELECT DISTINCT ?cur WHERE { ?item p:P2403/psv:P2403/wikibase:quantityUnit ?cur . }""", tries=2)]
+        except Exception as e2:  # noqa: BLE001
+            # Round 121b: every currency with an ISO 4217 code instead (only
+            # those can be turned into dollars in any case).
+            print(f"  the list of currencies did not answer ({e2}); every currency with an ISO code", flush=True)
+            curs = [qid(val(b, "cur")) for b in sparql("SELECT DISTINCT ?cur WHERE { ?cur wdt:P498 ?code . }")]
         rows = []
         for cur in curs:
             if cur and re.match(r"^Q\d+$", cur):
-                rows += sparql(one.format(values=f"VALUES ?cur {{ wd:{cur} }}"))
+                try:
+                    rows += sparql(one.format(values=f"VALUES ?cur {{ wd:{cur} }}"), tries=2)
+                except Exception as e3:  # noqa: BLE001
+                    print(f"  {cur} at once did not answer ({e3}); in bands of size", flush=True)
+                    for lo, hi in BANDS:
+                        rows += sparql(one.format(values=f"VALUES ?cur {{ wd:{cur} }}").replace(
+                            "FILTER(?amount > 1000000000)", f"FILTER(?amount > {lo:.0f} && ?amount <= {hi:.0f})"))
                 time.sleep(1)
     print(f"  {len(rows):,} statements", flush=True)
     cur_items = sorted({qid(val(b, "cur")) for b in rows if val(b, "code") and re.match(r"^Q\d+$", qid(val(b, "cur")) or "")})
@@ -138,10 +187,10 @@ SELECT ?c ?l WHERE { VALUES ?l { "central bank"@en "development bank"@en "multil
     top, dev, central_out, not_bank = [], [], [], []
     for i in range(0, len(ranked), 200):
         chunk = ranked[i:i + 200]
-        values = " ".join(f"wd:{c['qid']}" for c in chunk)
         is_ = {}
-        for b in sparql(f"""
-SELECT DISTINCT ?item ?k WHERE {{ VALUES ?item {{ {values} }} VALUES ?k {{ {kinds} }} ?item wdt:P31/wdt:P279* ?k . }}"""):
+        for b in chunked(f"""
+SELECT DISTINCT ?item ?k WHERE {{{{ VALUES ?item {{{{ {{values}} }}}} VALUES ?k {{{{ {kinds} }}}} ?item wdt:P31/wdt:P279* ?k . }}}}""",
+                         [c["qid"] for c in chunk], 100):
             is_.setdefault(qid(val(b, "item")), set()).add(qid(val(b, "k")))
         for c in chunk:
             k = is_.get(c["qid"], set())
@@ -161,8 +210,12 @@ SELECT DISTINCT ?item ?k WHERE {{ VALUES ?item {{ {values} }} VALUES ?k {{ {kind
     have = {c["qid"] for c in dev} | {c["qid"] for c in central_out}
     dkinds = " ".join(f"wd:{q}" for q in sorted(devel))
     extra = []
-    for b in sparql(f"""
-SELECT DISTINCT ?item WHERE {{ VALUES ?k {{ {dkinds} }} ?item wdt:P31/wdt:P279* ?k . }}"""):
+    # Round 121b: in two short steps (every subclass, then what is an instance
+    # of each), not one long search that Wikidata may stop.
+    subs = sorted({qid(val(b, "k")) for b in sparql(f"""
+SELECT DISTINCT ?k WHERE {{ VALUES ?d {{ {dkinds} }} ?k wdt:P279* ?d . }}""")} | devel)
+    for b in chunked("""
+SELECT DISTINCT ?item WHERE {{ VALUES ?k {{ {values} }} ?item wdt:P31 ?k . }}""", subs, 40):
         q = qid(val(b, "item"))
         if q and q not in have and re.match(r"^Q\d+$", q):
             have.add(q)
@@ -178,8 +231,7 @@ SELECT DISTINCT ?item WHERE {{ VALUES ?k {{ {dkinds} }} ?item wdt:P31/wdt:P279* 
       feats, unplaced = [], []
       for i in range(0, len(items), 50):
         chunk = items[i:i + 50]
-        values = " ".join(f"wd:{c['qid']}" for c in chunk)
-        res = sparql(f"""
+        res = chunked("""
 SELECT ?item ?itemLabel ?itemDescription ?kindLabel ?hqLabel ?coord ?stcoord ?own ?capcoord ?capLabel ?countryLabel ?employees ?founded ?site ?exchangeLabel ?parentLabel ?ownerLabel ?ceoLabel WHERE {{
   VALUES ?item {{ {values} }}
   OPTIONAL {{ ?item wdt:P31 ?kind }}
@@ -194,7 +246,7 @@ SELECT ?item ?itemLabel ?itemDescription ?kindLabel ?hqLabel ?coord ?stcoord ?ow
   OPTIONAL {{ ?item wdt:P127 ?owner }}
   OPTIONAL {{ ?item wdt:P169 ?ceo }}
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,mul". }}
-}}""")
+}}""", [c["qid"] for c in chunk], 50)
         info = {}
         for b in res:
             d = info.setdefault(qid(val(b, "item")), {"name": val(b, "itemLabel"), "about": val(b, "itemDescription"), "coord": None, "own": None,
@@ -268,6 +320,12 @@ if __name__ == "__main__":
         raise
     except Exception as e:  # noqa: BLE001
         OUT.mkdir(exist_ok=True)
+        kept = (OUT / "largest.geojson").exists()
         (OUT / "largest.failed.json").write_text(json.dumps({"when": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()),
-                                                             "error": repr(e)[:2000]}, indent=1))
-        raise
+                                                             "error": repr(e)[:2000],
+                                                             "kept": "the last good copy" if kept else "nothing: no copy yet"}, indent=1))
+        if not kept:
+            raise
+        # Round 121b: Wikidata not answering is not this build's fault; the
+        # last good copy stays on the map and tomorrow's refresh tries again.
+        print(f"::warning::largest banks: Wikidata did not answer ({e!r:.300}); the last good copy is kept")

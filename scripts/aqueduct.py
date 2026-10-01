@@ -208,6 +208,17 @@ def main():
     stamp = json.loads(stamp_path.read_text()) if stamp_path.exists() else {}
     want_p = os.environ.get("AQUEDUCT_REBUILD") or not (TILES / "aqueduct_projections.pmtiles").exists()
     want_c = os.environ.get("AQUEDUCT_REBUILD") or not (TILES / "aqueduct_crop.pmtiles").exists()
+    # Round 121b (asked 1 October 2026: the refresh failed on aqueduct again).
+    # Global Forest Watch has refused every copy of the crop table since 28
+    # September (403 and 500). The projections are built; the crop table is
+    # now tried once a week (Mondays, or AQUEDUCT_REBUILD=1, or by hand), and
+    # its refusal is written to aqueduct/build.json as a warning rather than
+    # failing the whole refresh each day.
+    import datetime
+    by_hand = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" or os.environ.get("AQUEDUCT_REBUILD")
+    if want_c and stamp.get("crops_failed") and datetime.date.today().weekday() != 0 and not by_hand:
+        print(f"aqueduct: the crop table was refused on {stamp['crops_failed'].get('when')}; tried again on Monday")
+        want_c = False
     if not (want_p or want_c):
         print("aqueduct: already built")
         return
@@ -219,12 +230,22 @@ def main():
     for want, job in ((want_p, projections), (want_c, crops)):
         if not want:
             continue
+        why = None
         try:
             job(work, stamp)
+            if job is crops:
+                stamp.pop("crops_failed", None)
         except SystemExit as e:
-            failed.append(str(e))
+            why = str(e)
         except Exception as e:  # noqa: BLE001
-            failed.append(f"{job.__name__}: {type(e).__name__}: {e}")
+            why = f"{job.__name__}: {type(e).__name__}: {e}"
+        if why and job is crops:
+            import time
+            stamp["crops_failed"] = {"when": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "why": why[:1000],
+                                     "tried": CROP_URLS + [CROP_DS + "/query/json"]}
+            print(f"::warning::aqueduct: the crop table could not be fetched ({why[:300]}); tried again next Monday")
+        elif why:
+            failed.append(why)
         stamp_path.write_text(json.dumps(stamp, indent=1, default=str))
     if failed:
         sys.exit("; ".join(failed))
