@@ -1,0 +1,39 @@
+{
+ "built": "2026-10-01 13:51 UTC",
+ "files": {
+  "gw_killings": 1910,
+  "cpt_massacres": 56,
+  "caci_indigenous": 40,
+  "frontline_cases": 258,
+  "cpt_violence_tables": 2357,
+  "cpt_threatened_2000_2011": 3223,
+  "cpt_water_conflicts": 2144,
+  "cpt_overexploitation": 507,
+  "cpt_slave_labour_cases": 510,
+  "cpt_slave_labour_by_state": 27,
+  "public_agencies_conflicts": 772,
+  "cpt_areas_of_conflict": 8149,
+  "cpt_land_conflicts": 7063,
+  "land_of_resistance": 2461,
+  "cimi_indigenous_violence": 9202,
+  "cpt_areas_municipal": 4083
+ },
+ "frontline tags not in the table": {},
+ "areas not placed": [
+  "APA de Cairuçu"
+ ],
+ "areas matched": {
+  "by name and position": 6151,
+  "by name, nearest of its namesakes": 568,
+  "by position only": 1374,
+  "state only": 55,
+  "not placed": 1
+ },
+ "translations": {
+  "kept": 1338,
+  "made this run": 1338,
+  "not made yet (time budget or no model)": 43895,
+  "engine": "Argos Translate (open-source, run on the build machine)",
+  "trouble": null
+ }
+}
