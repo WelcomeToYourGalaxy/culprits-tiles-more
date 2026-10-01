@@ -123,7 +123,15 @@ def main():
             prev = sc[-2]
             rec["previous_edition"] = prev[0]
             rec["change_since_previous"] = round(last[2] - prev[2], 4)
+        # Round 119b: each edition's score on its own, so any one edition can
+        # be drawn (the owner's attached map is the 2022 edition's).
+        for e, y, v in sc:
+            rec[f"score_{y}"] = v
         out[iso] = rec
+    for y in sorted({k[6:] for r in out.values() for k in r if k.startswith("score_") and k[6:].isdigit()}):
+        ranked = sorted(((r[f"score_{y}"], iso) for iso, r in out.items() if f"score_{y}" in r), reverse=True)
+        for i, (_, iso) in enumerate(ranked, 1):
+            out[iso][f"rank_{y}"] = f"{i} of {len(ranked)} (1 = least discrimination)"
     (OUT / "wjp.json").write_text(json.dumps(out, indent=0, ensure_ascii=False))
     worse = sum(1 for r in out.values() if r.get("change_since_2015", 0) < 0)
     both = sum(1 for r in out.values() if "change_since_2015" in r)

@@ -40,7 +40,9 @@ def num(s):
 
 def main():
     stamp = OUT / "charts.json"
-    if stamp.exists() and time.time() - stamp.stat().st_mtime < 6 * 24 * 3600 and not os.environ.get("GW_REBUILD"):
+    # Round 119b: built again once with the fixed totals (countries.json carries "fixed").
+    fixed = (OUT / "countries.json").exists() and '"x_country"' in (OUT / "countries.json").read_text() and "— LAT" not in (OUT / "countries.json").read_text()
+    if fixed and stamp.exists() and time.time() - stamp.stat().st_mtime < 6 * 24 * 3600 and not os.environ.get("GW_REBUILD"):
         print("global_witness: copied less than a week ago")
         return
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pycountry"], check=True)
@@ -86,11 +88,17 @@ def main():
                 except LookupError:
                     continue
             rec = countries.setdefault(iso, {"value": 0, "unit": "defenders killed or disappeared"})
-            vals = [num(x) for i, x in enumerate(r) if i != cc]
-            for i, x in enumerate(r):
-                if i != cc and x.strip():
-                    rec[f"x_{title[:40]} — {head[i]}"] = x
-            total = next((num(r[i]) for i, h in enumerate(head) if re.search(r"total", h, re.I) and i < len(r)), None)
+            # Round 119b: a chart's map position (LAT, LON) is not a figure: it
+            # was added into the total (Colombia read 478.19, not 548), and its
+            # columns were labelled with the chart's code ("8Hdke - Count").
+            figure_cols = [i for i, h in enumerate(head) if i != cc and not re.fullmatch(r"\s*(lat|lon|lng|latitude|longitude)\s*", h, re.I)]
+            named = title if title and title != cid and not re.fullmatch(r"[A-Za-z0-9]{5}", title) else "Global Witness chart"
+            for i in figure_cols:
+                if i < len(r) and r[i].strip():
+                    col = "killed or disappeared, 2012 to the latest year" if re.fullmatch(r"\s*count\s*", head[i], re.I) else head[i]
+                    rec[f"x_{col} ({named[:60]})"] = r[i]
+            total = next((num(r[i]) for i in figure_cols if i < len(r) and re.search(r"total|count", head[i], re.I)), None)
+            vals = [num(r[i]) for i in figure_cols if i < len(r)]
             rec["value"] = max(rec["value"], total if total is not None else sum(v for v in vals if v) or 0)
             rec["x_country"] = r[cc]
     stamp.write_text(json.dumps(charts, indent=1, ensure_ascii=False))
