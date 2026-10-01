@@ -46,7 +46,14 @@ SPLITS_URL = "https://datasets-server.huggingface.co/splits?dataset={d}"
 POINTS = "https://raw.githubusercontent.com/WelcomeToYourGalaxy/anti-slavery-map/main/points.json"
 PX = 128            # picture size, pixels
 M_PER_PX = 10.0     # metres a pixel
-SAME_KILN_M = 40.0
+# Round 118b: two copies of one kiln in overlapping pictures can sit up to
+# about 60 m apart (see above), and two kilns cannot stand closer than about
+# 70 m centre to centre (each is roughly 100 m or more long), so any two boxes
+# under 70 m apart are one kiln, whatever kind each picture calls it. At 40 m
+# and the same kind only, 71,208 kilns were kept where the dataset's makers
+# count 62,671.
+SAME_KILN_M = 70.0
+DATASET_COUNT = 62671   # the dataset's own count of kilns (its documentation)
 UA = {"User-Agent": "Culprits atlas build (github.com/WelcomeToYourGalaxy)"}
 LICENCE_KILNS = "SentinelKilnDB, Sustainability Lab IIT Gandhinagar (CC BY-NC 4.0)"
 
@@ -322,8 +329,6 @@ def one_per_kiln(kilns):
         for dx in (-1, 0, 1):
             for dy in (-1, 0, 1):
                 for o in grid.get((gx + dx, gy + dy), []):
-                    if o["kind"] != k["kind"]:
-                        continue
                     dm = math.hypot((o["lat"] - k["lat"]) * 111320.0,
                                     (o["lon"] - k["lon"]) * 111320.0 * math.cos(math.radians(k["lat"])))
                     if dm < SAME_KILN_M:
@@ -357,7 +362,7 @@ def main():
         try:
             c = json.loads(gzip.decompress(CACHE.read_bytes()))
             # Round 117b: kilns kept from before sizes were read are read again.
-            if version and c.get("version") == version and all(k.get("sized") for k in c["kilns"][:50]):
+            if version and c.get("version") == version and all(k.get("sized") for k in c["kilns"][:50]) and c.get("same_kiln_m") == SAME_KILN_M:
                 kilns = c["kilns"]
                 print(f"  {len(kilns):,} kilns kept from the last read (dataset unchanged, {version})")
         except Exception as e:
@@ -375,7 +380,7 @@ def main():
         if not kilns:
             sys.exit("No kilns were read; the dataset's rows are described in probe/kilns/sample.json. Nothing changed.")
         CACHE.parent.mkdir(parents=True, exist_ok=True)
-        CACHE.write_bytes(gzip.compress(json.dumps({"version": version, "kilns": kilns}, separators=(",", ":")).encode()))
+        CACHE.write_bytes(gzip.compress(json.dumps({"version": version, "kilns": kilns, "same_kiln_m": SAME_KILN_M}, separators=(",", ":")).encode()))
         PARTIAL.unlink(missing_ok=True)
 
     points = get_json(POINTS)
@@ -419,7 +424,7 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     shutil.move(str(tmp), OUT)
     STAMP.write_text(json.dumps({"built": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "kilns": len(kilns),
-                                 "kilns_with_size": sized, "mining_sites": len(mining),
+                                 "kilns_with_size": sized, "kilns_the_dataset_counts": DATASET_COUNT, "mining_sites": len(mining),
                                  "mining_sites_with_workers": sum(1 for f in feats if f["properties"].get("x_workers") is not None),
                                  "dataset_version": version}, indent=1))
     print(f"  wrote {OUT} ({OUT.stat().st_size / 1e6:.1f} MB)")

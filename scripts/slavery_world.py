@@ -99,6 +99,13 @@ def unodc(status):
     # on a notes sheet).
     rows, hi = None, None
     for ws in wb.worksheets:
+        # Round 118b: the 2025 file says its sheet is one cell (A1) in its own
+        # heading, so a read-only read stopped there ("no sheet with an ISO
+        # code column", 30 September). The sheet's size is measured afresh.
+        try:
+            ws.reset_dimensions()
+        except AttributeError:
+            pass
         rs = [[("" if c is None else str(c).strip()) for c in r] for r in ws.iter_rows(values_only=True)]
         h = next((i for i, r in enumerate(rs[:30]) if any(re.search(r"iso", c, re.I) for c in r)), None)
         status.setdefault("unodc_sheets", {})[ws.title] = rs[h] if h is not None else rs[:3]
@@ -162,11 +169,19 @@ def cbp(status, names, labels):
     try:
         page = urllib.request.urlopen(urllib.request.Request(CBP, headers=BROWSER), timeout=120).read().decode("utf-8", "replace")
     except Exception as e:  # noqa: BLE001
-        kept = (OUT / "cbp_forced_labor.geojson").exists()
-        status["cbp"] = {"not_read": str(e), "kept_last_copy": kept}
-        print(f"slavery_world: CBP: {e}; " + ("the last copy is kept" if kept else "no copy yet"), flush=True)
+        status["cbp"] = {"not_read": str(e)}
+        print(f"slavery_world: CBP: {e}; reading the anti-slavery map's copy of the orders instead", flush=True)
         # A refusal by CBP's site is not a fault in this build: it is
-        # written down and the rest is kept.
+        # written down and the rest is kept. Round 118b: CBP's site refuses
+        # GitHub's machines every time (403), so the orders are read from the
+        # anti-slavery map's projects.json, which holds CBP's Withhold Release
+        # Orders and Findings with their companies, dates and texts.
+        try:
+            cbp_from_antislavery(status, labels)
+        except Exception as e2:  # noqa: BLE001
+            kept = (OUT / "cbp_forced_labor.geojson").exists()
+            status["cbp"]["anti_slavery_map"] = str(e2)
+            status["cbp"]["kept_last_copy"] = kept
         return
     feats, unplaced = [], []
     # Each table sits under a heading naming the country (and whether WROs or Findings).
@@ -197,6 +212,36 @@ def cbp(status, names, labels):
     OUT.mkdir(exist_ok=True)
     (OUT / "cbp_forced_labor.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
     status["cbp"] = {"placed": len(feats), "not_placed": unplaced}
+
+
+ASM_PROJECTS = "https://raw.githubusercontent.com/WelcomeToYourGalaxy/anti-slavery-map/main/projects.json"
+
+
+def cbp_from_antislavery(status, labels):
+    rows = json.loads(get(ASM_PROJECTS))["projects"]
+    feats, unplaced = [], []
+    for r in rows:
+        if not str(r.get("source") or "").endswith("cbp"):
+            continue
+        kind = "Finding" if re.search(r"finding", f"{r.get('type')} {r.get('status')} {r.get('desc')}"[:400], re.I) else "Withhold Release Order"
+        props = {k: v for k, v in r.items() if k not in ("lat", "lng") and v not in (None, "")}
+        props.update({"name": r.get("company") or r.get("name"), "kind": kind, "group": f"{kind}s",
+                      "source": "US CBP, as kept by the anti-slavery map (projects.json); CBP's own page refused this build"})
+        if r.get("lat") is not None and r.get("lng") is not None:
+            at = (r["lng"], r["lat"])
+            props["position"] = "the place the anti-slavery map gives"
+        else:
+            at = labels.get(r.get("iso"))
+            props["position"] = "the middle of its country: CBP gives no place"
+        if at:
+            feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(at[0], 4), round(at[1], 4)]}, "properties": props})
+        else:
+            unplaced.append(props.get("name"))
+    if not feats:
+        raise RuntimeError("no CBP orders in the anti-slavery map's projects.json")
+    OUT.mkdir(exist_ok=True)
+    (OUT / "cbp_forced_labor.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
+    status["cbp"].update({"from": ASM_PROJECTS, "placed": len(feats), "not_placed": unplaced})
 
 
 def main():

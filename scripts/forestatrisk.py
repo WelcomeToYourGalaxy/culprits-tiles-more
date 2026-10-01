@@ -129,17 +129,31 @@ def main():
     for _, c, _ in CLASSES:
         pal += [int(c[1:3], 16), int(c[3:5], 16), int(c[5:7], 16)]
     counts = np.zeros(11, dtype=np.int64)
-    by_zoom = {z: {} for z in range(MAXZOOM + 1)}
+    # Round 118b (30 September: the run was stopped by the runner partway
+    # through zoom 9): the whole continent was read at once (America is about
+    # 49,000 by 41,000 web pixels, several gigabytes with its working copies)
+    # and every square was held unpacked until the end. Now each file is read
+    # one row of squares at a time and each square is packed as a PNG at once;
+    # a square two continents both reach is unpacked, joined and packed again.
+    enc = {z: {} for z in range(MAXZOOM + 1)}
+
+    def pack(codes):
+        buf = io.BytesIO()
+        im = Image.fromarray(codes, "P")
+        im.putpalette(pal)
+        im.save(buf, "PNG", optimize=True, transparency=0)
+        return buf.getvalue()
 
     def put(z, x, y, codes):
         # A square two continents both reach (their files overlap at the
         # edges) keeps whichever has forest in each pixel.
         k = (x, y)
-        if k in by_zoom[z]:
-            old = by_zoom[z][k]
-            codes = np.where(old > 0, old, codes)
-        by_zoom[z][k] = codes
+        if k in enc[z]:
+            old = np.array(Image.open(io.BytesIO(enc[z][k])))
+            codes = np.where(old > 0, old, codes).astype(np.uint8)
+        enc[z][k] = pack(codes)
 
+    from rasterio.windows import Window
     for tif in local:
         with rasterio.open(tif) as ds:
             ox = round((ds.bounds.left + WORLD) / res)
@@ -147,39 +161,36 @@ def main():
             for z in range(MAXZOOM + 1):
                 f = 2 ** (MAXZOOM - z)
                 h, w = math.ceil(ds.height / f), math.ceil(ds.width / f)
-                # The whole file at this zoom (its overviews serve the wide ones).
-                arr = ds.read(1, out_shape=(h, w), resampling=Resampling.nearest)
-                codes_all = np.where(arr > 0, np.searchsorted(lut_edges, arr, side="right") + 1, 0).astype(np.uint8)
-                del arr
-                if z == MAXZOOM:
-                    counts += np.bincount(codes_all.ravel(), minlength=11)
                 px0, py0 = ox // f, oy // f  # the file's corner in this zoom's pixels (whole: see the -te above)
                 for ty in range(py0 // 256, (py0 + h - 1) // 256 + 1):
+                    r0 = ty * 256 - py0
+                    rs, re_ = max(0, r0), min(h, r0 + 256)
+                    if rs >= re_:
+                        continue
+                    # This row of squares only, read at this zoom (the overviews serve the wide ones).
+                    win = Window(0, rs * f, ds.width, min(ds.height, re_ * f) - rs * f)
+                    arr = ds.read(1, window=win, out_shape=(re_ - rs, w), resampling=Resampling.nearest)
+                    codes_row = np.zeros(arr.shape, np.uint8)
+                    m = arr > 0
+                    codes_row[m] = (np.searchsorted(lut_edges, arr[m], side="right") + 1).astype(np.uint8)
+                    del arr, m
+                    if z == MAXZOOM:
+                        counts += np.bincount(codes_row.ravel(), minlength=11)
                     for tx in range(px0 // 256, (px0 + w - 1) // 256 + 1):
-                        r0, c0 = ty * 256 - py0, tx * 256 - px0
-                        block = np.zeros((256, 256), np.uint8)
-                        rs, cs = max(0, r0), max(0, c0)
-                        re_, ce = min(h, r0 + 256), min(w, c0 + 256)
-                        if rs >= re_ or cs >= ce:
+                        c0 = tx * 256 - px0
+                        cs, ce = max(0, c0), min(w, c0 + 256)
+                        if cs >= ce:
                             continue
-                        sub = codes_all[rs:re_, cs:ce]
+                        sub = codes_row[:, cs:ce]
                         if not sub.any():
                             continue
+                        block = np.zeros((256, 256), np.uint8)
                         block[rs - r0:re_ - r0, cs - c0:ce - c0] = sub
                         put(z, tx, ty, block)
-                print(f"  {tif.stem} zoom {z}: {len(by_zoom[z]):,} squares so far, {time.time() - t0:.0f} s", flush=True)
-                del codes_all
-    # Squares to PNG, zoom by zoom.
-    enc = {}
+                    del codes_row
+                print(f"  {tif.stem} zoom {z}: {len(enc[z]):,} squares so far, {time.time() - t0:.0f} s", flush=True)
     for z in range(MAXZOOM + 1):
-        enc[z] = []
-        for (x, y), codes in by_zoom[z].items():
-            buf = io.BytesIO()
-            im = Image.fromarray(codes, "P")
-            im.putpalette(pal)
-            im.save(buf, "PNG", optimize=True, transparency=0)
-            enc[z].append((zxy_to_tileid(z, x, y), buf.getvalue(), x))
-        by_zoom[z] = None
+        enc[z] = [(zxy_to_tileid(z, x, y), png, x) for (x, y), png in enc[z].items()]
         print(f"  zoom {z}: {len(enc[z]):,} squares, {sum(len(t[1]) for t in enc[z]) / 1e6:.1f} MB, {time.time() - t0:.0f} s", flush=True)
     by_zoom = enc
 

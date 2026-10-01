@@ -44,12 +44,17 @@ CROP_URLS = ["https://gfw-data-lake.s3.amazonaws.com/aqueduct_crop_baseline_2020
 TILES = pathlib.Path("tiles")
 OUT = pathlib.Path("aqueduct")
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
+# Round 118b (30 September: every query answered 403): Global Forest Watch's
+# public key is tied to its own website, and its Data API refuses a request
+# that does not come from there; the request says it does, as the GFW map's
+# own requests do.
+GFW_FROM = {"Origin": "https://www.globalforestwatch.org", "Referer": "https://www.globalforestwatch.org/"}
 LIMIT = 95 * 1024 * 1024
 DROP = {"geom", "geom_wm", "gfw_geojson", "gfw_bbox", "gfw_geostore_id", "created_on", "updated_on"}
 
 
 def fetch(url, to):
-    head = dict(UA, **({"x-api-key": GFW_KEY} if "globalforestwatch.org" in url else {}))
+    head = dict(UA, **({"x-api-key": GFW_KEY, **GFW_FROM} if "globalforestwatch.org" in url else {}))
     with urllib.request.urlopen(urllib.request.Request(url, headers=head), timeout=1800) as r, open(to, "wb") as f:
         shutil.copyfileobj(r, f)
     print(f"aqueduct: {url.split('?')[0]}: {to.stat().st_size / 1e6:.1f} MB", flush=True)
@@ -95,7 +100,7 @@ def paged(to):
             body = None
             for i in range(4):
                 try:
-                    req = urllib.request.Request(url, headers=dict(UA, **{"x-api-key": GFW_KEY}))
+                    req = urllib.request.Request(url, headers=dict(UA, **{"x-api-key": GFW_KEY}, **GFW_FROM))
                     with urllib.request.urlopen(req, timeout=600) as r:
                         body = json.loads(r.read())
                     break
