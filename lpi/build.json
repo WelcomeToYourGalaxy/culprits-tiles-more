@@ -1,0 +1,18 @@
+{
+ "populations": 35996,
+ "no_position": 0,
+ "classes": {
+  "Aves": 17834,
+  "Mammalia": 5910,
+  "Reptilia": 828,
+  "Amphibia": 699,
+  "Actinopteri": 10081,
+  "Elasmobranchii": 591,
+  "Coelacanthi": 1,
+  "Petromyzonti": 9,
+  "Dipneusti": 3,
+  "Holocephali": 12,
+  "Myxini": 28
+ },
+ "download_time": 3202319
+}
