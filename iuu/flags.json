@@ -1,1 +1,92 @@
-{}
+{
+ "LKA": {
+  "value": 9,
+  "x_flag as the list writes it": "Sri Lanka",
+  "x_vessels": "DEWLI FISHING KUDAWELLA; GOD BLESS; HAMBAN TOTA EXPRESS; MANGALA; NINKI 1; SAMPATH; SANJANA PUTHA; SEYARA; SUBA PATHUM 03"
+ },
+ "CHN": {
+  "value": 27,
+  "x_flag as the list writes it": "China",
+  "x_vessels": "LU RONG SHUI 158, 鲁荣水158; LU RONG YU 612; LU RONG YU SHUI 189; LU RONG YUAN YU 101; LU RONG YUAN YU 102; LU RONG YUAN YU 103; LU RONG YUAN YU 103, LURONGYUANYU103; LU RONG YUAN YU 105; LU RONG YUAN YU 106; LU RONG YUAN YU 108; LU RONG YUAN YU 108; LU RONG YUAN YU 109; LU RONG YUAN YU 787; LU RONG YUAN YU 797; LU RONG YUAN YU 810, LURONGYUANYU810; LU RONG YUAN YU 811; LU RONG YUAN YU 813; LU RONG YUAN YU 815; LU RONG YUAN YU 817; LU RONG YUAN YU YUN 958; SHUN CHANG NO. 3, SHUN CHANG 3, 顺昌3号; YUANDA 6; YUANDA 8; ZHEXIANG YU 23029; ZHOU YU 657; ZHOU YU 808, 舟漁 808; ZHOU YU 809, 舟漁 809"
+ },
+ "NGA": {
+  "value": 1,
+  "x_flag as the list writes it": "Nigeria",
+  "x_vessels": "GOOD HOPE"
+ },
+ "IND": {
+  "value": 23,
+  "x_flag as the list writes it": "India",
+  "x_vessels": "AKASH; ANNAI VELAMKANNI; ARARAT/RESHMITHA; ARPUTHA MATHA; AVE MARIA; BENEDICTA; EASRON; EL SHADAI; GIFT OF GOD; GODS GIFT; LITTLESHA; MANJU MATHA; MARIYAL; MOTHER OF JESUS; NOVA; SEA ANGEL 2; SHARJI AMMA; ST ANNES; ST ANTONY; ST MARYS; STAR OF THE SEA; YAHOVA NICY; YONA"
+ },
+ "KNA": {
+  "value": 1,
+  "x_flag as the list writes it": "St. Kitts and Nevis",
+  "x_vessels": "HAN"
+ },
+ "LBY": {
+  "value": 1,
+  "x_flag as the list writes it": "Libya",
+  "x_vessels": "NAJEM AL SHAMAL, ORIENTE NO. 7"
+ },
+ "COM": {
+  "value": 1,
+  "x_flag as the list writes it": "Comoros",
+  "x_vessels": "AN TON"
+ },
+ "IRN": {
+  "value": 1,
+  "x_flag as the list writes it": "Iran",
+  "x_vessels": "KOOSHA 4"
+ },
+ "STP": {
+  "value": 1,
+  "x_flag as the list writes it": "Sao Tome and Principe",
+  "x_vessels": "XING FA"
+ },
+ "PHL": {
+  "value": 1,
+  "x_flag as the list writes it": "Philippines",
+  "x_vessels": "FB KUDA LAUT 03"
+ },
+ "PLW": {
+  "value": 1,
+  "x_flag as the list writes it": "Palau",
+  "x_vessels": "BRAVO"
+ },
+ "EGY": {
+  "value": 1,
+  "x_flag as the list writes it": "Egypt",
+  "x_vessels": "AL'AMIR MUHAMMAD"
+ },
+ "SLE": {
+  "value": 1,
+  "x_flag as the list writes it": "Sierra Leone",
+  "x_vessels": "BIGEYE, BIG EYE"
+ },
+ "HND": {
+  "value": 2,
+  "x_flag as the list writes it": "Honduras",
+  "x_vessels": "ACROS NO. 2; VEDRA"
+ },
+ "IDN": {
+  "value": 1,
+  "x_flag as the list writes it": "Indonesia",
+  "x_vessels": "SAMUDERA PASIFIC NO.18"
+ },
+ "AGO": {
+  "value": 1,
+  "x_flag as the list writes it": "Angola",
+  "x_vessels": "NORTHERN WARRIOR"
+ },
+ "LBR": {
+  "value": 1,
+  "x_flag as the list writes it": "Liberia",
+  "x_vessels": "LABIKO 2, MV LABIKO 2, M/V LABIKO II, LABIKO II"
+ },
+ "KOR": {
+  "value": 1,
+  "x_flag as the list writes it": "South Korea",
+  "x_vessels": "DONG WON NO. 629"
+ }
+}
