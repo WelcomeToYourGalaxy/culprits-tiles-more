@@ -1,0 +1,5111 @@
+{
+ "read": "2026-10-02",
+ "version": "v4.66",
+ "file": "RAMLDB v4.66/Excel/RAMLDB v4.66 (assessment data only).xlsx",
+ "sheets": [
+  "area",
+  "assessment",
+  "assessmethod",
+  "assessor",
+  "biometrics",
+  "bioparams",
+  "bioparams_assessments_views",
+  "bioparams_ids_views",
+  "bioparams_notes_views",
+  "bioparams_sources_views",
+  "bioparams_units_views",
+  "bioparams_values_views",
+  "management",
+  "stock",
+  "taxonomy",
+  "timeseries.1",
+  "timeseries.2",
+  "timeseries.3",
+  "timeseries_assessments_views",
+  "timeseries_ids_views",
+  "timeseries_notes_views",
+  "timeseries_sources_views",
+  "timeseries_units_views",
+  "timeseries_values_views",
+  "timeseries_years_views",
+  "tsmetrics"
+ ],
+ "countries": 12,
+ "countries_with_no_B_figure": [
+  "IRN"
+ ],
+ "not_one_country": {
+  "multinational": [
+   {
+    "stock": "Alfonsino Chile",
+    "species": "Beryx splendens",
+    "common name": "Alfonsino",
+    "area": "Chile",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Albacore tuna Indian Ocean",
+    "species": "Thunnus alalunga",
+    "common name": "Albacore tuna",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.28,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 1.346,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Albacore tuna Mediterranean Sea",
+    "species": "Thunnus alalunga",
+    "common name": "Albacore tuna",
+    "area": "Mediterranean Sea",
+    "B/Bmsy": 0.57,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 1.186,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Albacore tuna Northern Atlantic",
+    "species": "Thunnus alalunga",
+    "common name": "Albacore tuna",
+    "area": "Northern Atlantic",
+    "B/Bmsy": 1.34,
+    "B/Bmsy year": 2014,
+    "U/Umsy": 0.538,
+    "U/Umsy year": 2014
+   },
+   {
+    "stock": "Albacore tuna North Pacific Ocean",
+    "species": "Thunnus alalunga",
+    "common name": "Albacore tuna",
+    "area": "North Pacific Ocean",
+    "B/Bmsy": 2.746,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.61,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Albacore tuna South Atlantic",
+    "species": "Thunnus alalunga",
+    "common name": "Albacore tuna",
+    "area": "South Atlantic",
+    "B/Bmsy": 1.12,
+    "B/Bmsy year": 2014,
+    "U/Umsy": 0.488,
+    "U/Umsy year": 2014
+   },
+   {
+    "stock": "Albacore tuna South Pacific Ocean",
+    "species": "Thunnus alalunga",
+    "common name": "Albacore tuna",
+    "area": "South Pacific Ocean",
+    "B/Bmsy": 2.46,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.32,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "American plaice Grand Banks",
+    "species": "Hippoglossoides platessoides",
+    "common name": "American plaice",
+    "area": "Grand Banks",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "American plaice Flemish Cap",
+    "species": "Hippoglossoides platessoides",
+    "common name": "American plaice",
+    "area": "Flemish Cap",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Portugese Waters -East",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Portugese Waters -East",
+    "B/Bmsy": 1.338,
+    "B/Bmsy year": 2021,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Northern Alboran Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.324,
+    "U/Umsy year": 2009
+   },
+   {
+    "stock": "Anchovy South of Sicily",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "South of Sicily",
+    "B/Bmsy": 0.669,
+    "B/Bmsy year": 2011,
+    "U/Umsy": 0.937,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Anchovy Northern Adriatic Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Northern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Adriatic Sea (GSA 17,18)",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Adriatic Sea (GSA 17,18)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.238,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Anchovy Western Ionian Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Western Ionian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Eastern Ionian Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Eastern Ionian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Aegean Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Aegean Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Aegean Sea and Crete Island (GSA 22,23)",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Aegean Sea and Crete Island (GSA 22,23)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.986,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Anchovy Black Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.289,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Anchovy Northern Spain",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Northern Spain",
+    "B/Bmsy": 1.361,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.517,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Anchovy Gulf of Lions",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.016,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Anchovy Ligurian and North Tyrrhenian Sea",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Geographical Sub-Areas 9-11",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Geographical Sub-Areas 9-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.527,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Anchovy Bay of Biscay",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Bay of Biscay",
+    "B/Bmsy": 1.955,
+    "B/Bmsy year": 2020,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Central West Africa Cote Divoire-Benin",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy Central West Africa Gabon-Angola",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anchovy North West Africa",
+    "species": "Engraulis encrasicolus",
+    "common name": "Anchovy",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Black bellied angler Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Lophius budegassa",
+    "common name": "Black bellied angler",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.194,
+    "U/Umsy year": 2010
+   },
+   {
+    "stock": "Black bellied angler Balearic Island",
+    "species": "Lophius budegassa",
+    "common name": "Black bellied angler",
+    "area": "Balearic Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 7.638,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Black bellied angler Northern Spain",
+    "species": "Lophius budegassa",
+    "common name": "Black bellied angler",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 6.493,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Black bellied angler Gulf of Lions",
+    "species": "Lophius budegassa",
+    "common name": "Black bellied angler",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Anglerfish spp ICES 3a-4-6",
+    "species": "Lophius spp",
+    "common name": "Anglerfish spp",
+    "area": "ICES 3a-4-6",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.216,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Black bellied angler ICES 8c-9a",
+    "species": "Lophius budegassa",
+    "common name": "Black bellied angler",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": 1.67,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.219,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Black bellied angler ICES 7-8abd",
+    "species": "Lophius budegassa",
+    "common name": "Black bellied angler",
+    "area": "ICES 7-8abd",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.511,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Angel shark Northeast Atlantic",
+    "species": "Squatina squatina",
+    "common name": "Angel shark",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic bluefin tuna Eastern Atlantic",
+    "species": "Thunnus thynnus",
+    "common name": "Atlantic bluefin tuna",
+    "area": "Eastern Atlantic",
+    "B/Bmsy": 1.73,
+    "B/Bmsy year": 2012,
+    "U/Umsy": 0.34,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Atlantic bluefin tuna Western Atlantic",
+    "species": "Thunnus thynnus",
+    "common name": "Atlantic bluefin tuna",
+    "area": "Western Atlantic",
+    "B/Bmsy": 0.479,
+    "B/Bmsy year": 2012,
+    "U/Umsy": 0.9,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Antarctic toothfish Ross Sea",
+    "species": "Dissostichus mawsoni",
+    "common name": "Antarctic toothfish",
+    "area": "Ross Sea",
+    "B/Bmsy": 4.031,
+    "B/Bmsy year": 2007,
+    "U/Umsy": 0.246,
+    "U/Umsy year": 2007
+   },
+   {
+    "stock": "Axillary seabream North West Africa",
+    "species": "Pagellus acarne",
+    "common name": "Axillary seabream",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Bobo croaker Central West Africa Guinea-Liberia",
+    "species": "Pseudotolithus elongatus",
+    "common name": "Bobo croaker",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Beryx spp Northeast Atlantic",
+    "species": "Beryx spp",
+    "common name": "Beryx spp",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Baltic flounder Subdivisions 27 and 29-32",
+    "species": "Platichthys solemdali",
+    "common name": "Baltic flounder",
+    "area": "Subdivisions 27 and 29-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Bigeye grunt Central West Africa Cote Divoire-Benin",
+    "species": "Brachydeuterus auritus",
+    "common name": "Bigeye grunt",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Bigeye grunt Central West Africa Congo_Angola",
+    "species": "Brachydeuterus auritus",
+    "common name": "Bigeye grunt",
+    "area": "Central West Africa Congo_Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Benguela hake Central West Africa Angola",
+    "species": "Merluccius polli",
+    "common name": "Benguela hake",
+    "area": "Central West Africa Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Bigeye tuna Atlantic Ocean",
+    "species": "Thunnus obesus",
+    "common name": "Bigeye tuna",
+    "area": "Atlantic Ocean",
+    "B/Bmsy": 0.59,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 1.63,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Bigeye tuna Central Western Pacific Ocean",
+    "species": "Thunnus obesus",
+    "common name": "Bigeye tuna",
+    "area": "Central Western Pacific Ocean",
+    "B/Bmsy": 1.7,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.74,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Bigeye tuna Eastern Pacific",
+    "species": "Thunnus obesus",
+    "common name": "Bigeye tuna",
+    "area": "Eastern Pacific",
+    "B/Bmsy": 1.015,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 1.129,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Bigeye tuna Indian Ocean",
+    "species": "Thunnus obesus",
+    "common name": "Bigeye tuna",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.29,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 1.32,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Blue jack mackerel Azores",
+    "species": "Trachurus picturatus",
+    "common name": "Blue jack mackerel",
+    "area": "Azores",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Black scabbardfish Northeast Atlantic",
+    "species": "Aphanopus carbo",
+    "common name": "Black scabbardfish",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blue ling ICES 1-2-3a-4a-8-9-12",
+    "species": "Molva dypterygia",
+    "common name": "Blue ling",
+    "area": "ICES 1-2-3a-4a-8-9-12",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blue ling ICES 5a-14",
+    "species": "Molva dypterygia",
+    "common name": "Blue ling",
+    "area": "ICES 5a-14",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blue ling ICES 5b-6-7",
+    "species": "Molva dypterygia",
+    "common name": "Blue ling",
+    "area": "ICES 5b-6-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.301,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Black marlin Indian Ocean",
+    "species": "Istiompax indica",
+    "common name": "Black marlin",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.98,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.512,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Blonde ray ICES 4a-6",
+    "species": "Raja brachyura",
+    "common name": "Blonde ray",
+    "area": "ICES 4a-6",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blonde ray ICES 4c-7d",
+    "species": "Raja brachyura",
+    "common name": "Blonde ray",
+    "area": "ICES 4c-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blonde ray Portugese Waters -East",
+    "species": "Raja brachyura",
+    "common name": "Blonde ray",
+    "area": "Portugese Waters -East",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blonde ray ICES 7afg",
+    "species": "Raja brachyura",
+    "common name": "Blonde ray",
+    "area": "ICES 7afg",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blonde ray Western English Channel",
+    "species": "Raja brachyura",
+    "common name": "Blonde ray",
+    "area": "Western English Channel",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blue shark Indian Ocean",
+    "species": "Prionace glauca",
+    "common name": "Blue shark",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.39,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.64,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Blue shark Northern Atlantic",
+    "species": "Prionace glauca",
+    "common name": "Blue shark",
+    "area": "Northern Atlantic",
+    "B/Bmsy": 1.887,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.114,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Blue shark North Pacific",
+    "species": "Prionace glauca",
+    "common name": "Blue shark",
+    "area": "North Pacific",
+    "B/Bmsy": 1.69,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.28,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Blue shark South Atlantic",
+    "species": "Prionace glauca",
+    "common name": "Blue shark",
+    "area": "South Atlantic",
+    "B/Bmsy": 1.986,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.022,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Blue marlin Atlantic Ocean",
+    "species": "Makaira nigricans",
+    "common name": "Blue marlin",
+    "area": "Atlantic Ocean",
+    "B/Bmsy": 0.646,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 0.947,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Indo Pacific blue marlin Indian Ocean",
+    "species": "Makaira mazara",
+    "common name": "Indo Pacific blue marlin",
+    "area": "Indian Ocean",
+    "B/Bmsy": 0.82,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 1.193,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Blue marlin Pacific Ocean",
+    "species": "Makaira nigricans",
+    "common name": "Blue marlin",
+    "area": "Pacific Ocean",
+    "B/Bmsy": 1.22,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.5,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Blackmouth dogfish ICES 8-9a",
+    "species": "Galeus melastomus",
+    "common name": "Blackmouth dogfish",
+    "area": "ICES 8-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blackmouth dogfish ICES 6-7",
+    "species": "Galeus melastomus",
+    "common name": "Blackmouth dogfish",
+    "area": "ICES 6-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Boarfish ICES 6-8",
+    "species": "Capros aper",
+    "common name": "Boarfish",
+    "area": "ICES 6-8",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.609,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Bonga Central West Africa Gabon-Congo DR",
+    "species": "Ethmalosa fimbriata",
+    "common name": "Bonga",
+    "area": "Central West Africa Gabon-Congo DR",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Bonga North West Africa",
+    "species": "Ethmalosa fimbriata",
+    "common name": "Bonga",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Brill Baltic Areas 22-32",
+    "species": "Scophthalmus rhombus",
+    "common name": "Brill",
+    "area": "Baltic Areas 22-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Brill ICES 3a-4-7de",
+    "species": "Scophthalmus rhombus",
+    "common name": "Brill",
+    "area": "ICES 3a-4-7de",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Seabream Central West Africa Cote Divoire-Benin",
+    "species": "Dentex spp",
+    "common name": "Seabream",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Seabream Central West Africa Gabon-Angola",
+    "species": "Dentex spp",
+    "common name": "Seabream",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Seabream Central West Africa Guinea-Liberia",
+    "species": "Dentex spp",
+    "common name": "Seabream",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Bluespotted seabream North West Africa Mauritania-Senegal",
+    "species": "Pagrus caeruleostictus",
+    "common name": "Bluespotted seabream",
+    "area": "North West Africa Mauritania-Senegal",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Basking shark Northeast Atlantic",
+    "species": "Cetorhinus maximus",
+    "common name": "Basking shark",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Blue whiting Northern Alboran Sea",
+    "species": "Micromesistius poutassou",
+    "common name": "Blue whiting",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.5,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Blue whiting Northern Spain",
+    "species": "Micromesistius poutassou",
+    "common name": "Blue whiting",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 7.903,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Blue whiting Ligurian and North Tyrrhenian Sea",
+    "species": "Micromesistius poutassou",
+    "common name": "Blue whiting",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.151,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Blue whiting Northeast Atlantic",
+    "species": "Micromesistius poutassou",
+    "common name": "Blue whiting",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": 2.167,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 1.587,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Capelin ICES 2a-5-14",
+    "species": "Mallotus villosus",
+    "common name": "Capelin",
+    "area": "ICES 2a-5-14",
+    "B/Bmsy": 3.067,
+    "B/Bmsy year": 2014,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Capelin Barents Sea",
+    "species": "Mallotus villosus",
+    "common name": "Capelin",
+    "area": "Barents Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Catfish Central West Africa Gabon",
+    "species": "Arius spp",
+    "common name": "Catfish",
+    "area": "Central West Africa Gabon",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Catfish Central West Africa Guinea-Liberia",
+    "species": "Arius spp",
+    "common name": "Catfish",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Catfish North West Africa Senegal_The Gambia",
+    "species": "Arius spp",
+    "common name": "Catfish",
+    "area": "North West Africa Senegal_The Gambia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cunene horse mackerel Central West Africa Gabon-Angola",
+    "species": "Trachurus trecae",
+    "common name": "Cunene horse mackerel",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cunene horse mackerel Central West Africa Guinea Bissau-Liberia",
+    "species": "Trachurus trecae",
+    "common name": "Cunene horse mackerel",
+    "area": "Central West Africa Guinea Bissau-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cunene horse mackerel North West Africa",
+    "species": "Trachurus trecae",
+    "common name": "Cunene horse mackerel",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Chilean jack mackerel Chilean EEZ and offshore",
+    "species": "Trachurus murphyi",
+    "common name": "Chilean jack mackerel",
+    "area": "Chilean EEZ and offshore",
+    "B/Bmsy": 1.917,
+    "B/Bmsy year": 2022,
+    "U/Umsy": 0.278,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Cuckoo ray ICES 3a-4",
+    "species": "Leucoraja naevus",
+    "common name": "Cuckoo ray",
+    "area": "ICES 3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuckoo ray Portugese Waters -East",
+    "species": "Leucoraja naevus",
+    "common name": "Cuckoo ray",
+    "area": "Portugese Waters -East",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuckoo ray Bay of Biscay -South",
+    "species": "Leucoraja naevus",
+    "common name": "Cuckoo ray",
+    "area": "Bay of Biscay -South",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuckoo ray ICES 6-7",
+    "species": "Leucoraja naevus",
+    "common name": "Cuckoo ray",
+    "area": "ICES 6-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic chub mackerel North West Africa",
+    "species": "Scomber colias",
+    "common name": "Atlantic chub mackerel",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod NAFO 1ABCDE",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "NAFO 1ABCDE",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod NAFO 1F and ICES 14",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "NAFO 1F and ICES 14",
+    "B/Bmsy": 2.743,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 1.272,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Atlantic cod NAFO Subarea 1 (inshore)",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "NAFO Subarea 1 (inshore)",
+    "B/Bmsy": 5.649,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 2.726,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Atlantic cod Flemish Cap",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Flemish Cap",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod Southern Grand Banks",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Southern Grand Banks",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod NAFO 5Zjm",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "NAFO 5Zjm",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.482,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Atlantic cod Western Baltic",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Western Baltic",
+    "B/Bmsy": 0.914,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 3.392,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Atlantic cod Eastern Baltic",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Eastern Baltic",
+    "B/Bmsy": 0.521,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 1.243,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Atlantic cod Faroe Bank",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Faroe Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod Faroe Plateau",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Faroe Plateau",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.568,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Atlantic cod Iceland Grounds",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Iceland Grounds",
+    "B/Bmsy": 2.805,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.94,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Atlantic cod ICES 3a(west)-4-7d",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "ICES 3a(west)-4-7d",
+    "B/Bmsy": 0.787,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.882,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Atlantic cod Irish Sea",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Irish Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.141,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Atlantic cod Kattegat",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Kattegat",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod North-East Arctic",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "North-East Arctic",
+    "B/Bmsy": 1.961,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.88,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Atlantic cod North-East Arctic (Norwegian coastal waters)",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "North-East Arctic (Norwegian coastal waters)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.31,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Atlantic cod West of Scotland",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "West of Scotland",
+    "B/Bmsy": 0.153,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 2.49,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Atlantic cod Rockall Bank",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Rockall Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Atlantic cod Celtic Sea",
+    "species": "Gadus morhua",
+    "common name": "Atlantic cod",
+    "area": "Celtic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.966,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Common pandora Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Pagellus erythrinus",
+    "common name": "Common pandora",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.4,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Common pandora Ligurian and North Tyrrhenian Sea",
+    "species": "Pagellus erythrinus",
+    "common name": "Common pandora",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Croaker Central West Africa Cote Divoire-Benin",
+    "species": "Pseudotolithus spp",
+    "common name": "Croaker",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Croaker Central West Africa Gabon-Angola",
+    "species": "Pseudotolithus spp",
+    "common name": "Croaker",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Croaker Central West Africa Guinea-Liberia",
+    "species": "Pseudotolithus spp",
+    "common name": "Croaker",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Croaker North West Africa Senegal_The Gambia",
+    "species": "Pseudotolithus spp",
+    "common name": "Croaker",
+    "area": "North West Africa Senegal_The Gambia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Coastal shrimp Central West Africa",
+    "species": "Penaeus spp",
+    "common name": "Coastal shrimp",
+    "area": "Central West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Tusk North-East Arctic",
+    "species": "Brosme brosme",
+    "common name": "Tusk",
+    "area": "North-East Arctic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Tusk Northeast Atlantic",
+    "species": "Brosme brosme",
+    "common name": "Tusk",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Tusk ICES 5a-14",
+    "species": "Brosme brosme",
+    "common name": "Tusk",
+    "area": "ICES 5a-14",
+    "B/Bmsy": 2.267,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.795,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Tusk Rockall Bank",
+    "species": "Brosme brosme",
+    "common name": "Tusk",
+    "area": "Rockall Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Tusk North of Azores",
+    "species": "Brosme brosme",
+    "common name": "Tusk",
+    "area": "North of Azores",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuttlefish Central West Africa Ghana",
+    "species": "Sepia spp",
+    "common name": "Cuttlefish",
+    "area": "Central West Africa Ghana",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuttlefish North West Africa Cape Blanc",
+    "species": "Sepia spp",
+    "common name": "Cuttlefish",
+    "area": "North West Africa Cape Blanc",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuttlefish North West Africa Dakhla",
+    "species": "Sepia spp",
+    "common name": "Cuttlefish",
+    "area": "North West Africa Dakhla",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Cuttlefish North West Africa Senegal_The Gambia",
+    "species": "Sepia spp",
+    "common name": "Cuttlefish",
+    "area": "North West Africa Senegal_The Gambia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Dab Baltic Areas 22-32",
+    "species": "Limanda limanda",
+    "common name": "Dab",
+    "area": "Baltic Areas 22-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Dab ICES 3a-4",
+    "species": "Limanda limanda",
+    "common name": "Dab",
+    "area": "ICES 3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Central West Africa",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Central West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European seabass Gulf of Lions",
+    "species": "Dicentrarchus labrax",
+    "common name": "European seabass",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.941,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "European seabass ICES 4bc-7",
+    "species": "Dicentrarchus labrax",
+    "common name": "European seabass",
+    "area": "ICES 4bc-7",
+    "B/Bmsy": 0.762,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.634,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "European seabass ICES 6a-7b-j",
+    "species": "Dicentrarchus labrax",
+    "common name": "European seabass",
+    "area": "ICES 6a-7b-j",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European seabass ICES 8ab",
+    "species": "Dicentrarchus labrax",
+    "common name": "European seabass",
+    "area": "ICES 8ab",
+    "B/Bmsy": 1.097,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.803,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "European seabass ICES 8c-9a",
+    "species": "Dicentrarchus labrax",
+    "common name": "European seabass",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European flounder Subdivisions 22-23",
+    "species": "Platichthys flesus",
+    "common name": "European flounder",
+    "area": "Subdivisions 22-23",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European flounder Subdivisions 24-25",
+    "species": "Platichthys flesus",
+    "common name": "European flounder",
+    "area": "Subdivisions 24-25",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European flounder Subdivisions 26-28",
+    "species": "Platichthys flesus",
+    "common name": "European flounder",
+    "area": "Subdivisions 26-28",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European flounder Subdivisions 27 and 29-32",
+    "species": "Platichthys flesus",
+    "common name": "European flounder",
+    "area": "Subdivisions 27 and 29-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European flounder ICES 3a-4",
+    "species": "Platichthys flesus",
+    "common name": "European flounder",
+    "area": "ICES 3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European pollack ICES 3a-4",
+    "species": "Pollachius pollachius",
+    "common name": "European pollack",
+    "area": "ICES 3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European pollack ICES 8-9a",
+    "species": "Pollachius pollachius",
+    "common name": "European pollack",
+    "area": "ICES 8-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European squid North West Africa Cape Blanc",
+    "species": "Loligo vulgaris",
+    "common name": "European squid",
+    "area": "North West Africa Cape Blanc",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European squid North West Africa Dakhla",
+    "species": "Loligo vulgaris",
+    "common name": "European squid",
+    "area": "North West Africa Dakhla",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European squid North West Africa Senegal_The Gambia",
+    "species": "Loligo vulgaris",
+    "common name": "European squid",
+    "area": "North West Africa Senegal_The Gambia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Fourspotted megrim ICES 8c-9a",
+    "species": "Lepidorhombus boscii",
+    "common name": "Fourspotted megrim",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": 1.663,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.56,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Fourspotted megrim ICES 7b-k_8abd",
+    "species": "Lepidorhombus boscii",
+    "common name": "Fourspotted megrim",
+    "area": "ICES 7b-k_8abd",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "False scad North West Africa",
+    "species": "Caranx rhonchus",
+    "common name": "False scad",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greater forkbeard Ligurian and North Tyrrhenian Sea",
+    "species": "Phycis blennoides",
+    "common name": "Greater forkbeard",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greater forkbeard Northeast Atlantic",
+    "species": "Phycis blennoides",
+    "common name": "Greater forkbeard",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Grey grunt Central West Africa Gabon-Angola",
+    "species": "Pomadasys spp",
+    "common name": "Grey grunt",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Grey grunt Central West Africa Guinea-Liberia",
+    "species": "Pomadasys spp",
+    "common name": "Grey grunt",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Grey gurnard ICES 3a-4-7d",
+    "species": "Eutrigla gurnardus",
+    "common name": "Grey gurnard",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greenland halibut NAFO divisions 01ABCDEF",
+    "species": "Reinhardtius hippoglossoides",
+    "common name": "Greenland halibut",
+    "area": "NAFO divisions 01ABCDEF",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greenland halibut Labrador Shelf - Grand Banks",
+    "species": "Reinhardtius hippoglossoides",
+    "common name": "Greenland halibut",
+    "area": "Labrador Shelf - Grand Banks",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greenland halibut North-East Arctic",
+    "species": "Reinhardtius hippoglossoides",
+    "common name": "Greenland halibut",
+    "area": "North-East Arctic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greenland halibut ICES 5-6-12-14",
+    "species": "Reinhardtius hippoglossoides",
+    "common name": "Greenland halibut",
+    "area": "ICES 5-6-12-14",
+    "B/Bmsy": 0.803,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.901,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Gilthead seabream Gulf of Lions",
+    "species": "Sparus aurata",
+    "common name": "Gilthead seabream",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.368,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Golden redfish North-East Arctic",
+    "species": "Sebastes norvegicus",
+    "common name": "Golden redfish",
+    "area": "North-East Arctic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 8.805,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Golden redfish ICES 5-6-12-14",
+    "species": "Sebastes norvegicus",
+    "common name": "Golden redfish",
+    "area": "ICES 5-6-12-14",
+    "B/Bmsy": 1.1,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.216,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Giant red shrimp South Tyrrhenian Sea",
+    "species": "Aristaeomorpha foliacea",
+    "common name": "Giant red shrimp",
+    "area": "South Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Giant red shrimp Sardinia",
+    "species": "Aristaeomorpha foliacea",
+    "common name": "Giant red shrimp",
+    "area": "Sardinia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Giant red shrimp Geographical Sub-Areas 12-16",
+    "species": "Aristaeomorpha foliacea",
+    "common name": "Giant red shrimp",
+    "area": "Geographical Sub-Areas 12-16",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 5.567,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Giant red shrimp South Adriatic Sea and West Ionian Sea (GSA 18,19)",
+    "species": "Aristaeomorpha foliacea",
+    "common name": "Giant red shrimp",
+    "area": "South Adriatic Sea and West Ionian Sea (GSA 18,19)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.102,
+    "U/Umsy year": 2014
+   },
+   {
+    "stock": "Giant red shrimp Ligurian and North Tyrrhenian Sea",
+    "species": "Aristaeomorpha foliacea",
+    "common name": "Giant red shrimp",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Giant red shrimp Geographical Sub-Areas 9-11",
+    "species": "Aristaeomorpha foliacea",
+    "common name": "Giant red shrimp",
+    "area": "Geographical Sub-Areas 9-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.541,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Greater silver smelt ICES 1-2-3a-4",
+    "species": "Argentina silus",
+    "common name": "Greater silver smelt",
+    "area": "ICES 1-2-3a-4",
+    "B/Bmsy": 1.16,
+    "B/Bmsy year": 2020,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Greater silver smelt ICES 5a-14",
+    "species": "Argentina silus",
+    "common name": "Greater silver smelt",
+    "area": "ICES 5a-14",
+    "B/Bmsy": 2.22,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.486,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Greater silver smelt ICES 5b-6a",
+    "species": "Argentina silus",
+    "common name": "Greater silver smelt",
+    "area": "ICES 5b-6a",
+    "B/Bmsy": 1.076,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.358,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Greater silver smelt ICES 6b-7-8-9-10-12",
+    "species": "Argentina silus",
+    "common name": "Greater silver smelt",
+    "area": "ICES 6b-7-8-9-10-12",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Haddock Grand Banks",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "Grand Banks",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Haddock Faroe Plateau",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "Faroe Plateau",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.752,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Haddock Iceland Grounds",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "Iceland Grounds",
+    "B/Bmsy": 2.299,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 1.238,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Haddock Irish Sea",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "Irish Sea",
+    "B/Bmsy": 3.971,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.235,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Haddock North-East Arctic",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "North-East Arctic",
+    "B/Bmsy": 2.493,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 1.251,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Haddock ICES 3a-4",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "ICES 3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Haddock ICES 3a-4-6a",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "ICES 3a-4-6a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.496,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Haddock Rockall Bank",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "Rockall Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.125,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Haddock West of Scotland",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "West of Scotland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Haddock ICES 7b-k",
+    "species": "Melanogrammus aeglefinus",
+    "common name": "Haddock",
+    "area": "ICES 7b-k",
+    "B/Bmsy": 5.163,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.181,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Hake Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 7.467,
+    "U/Umsy year": 2009
+   },
+   {
+    "stock": "Hake Geographical Sub-Areas 1-7",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Geographical Sub-Areas 1-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 4.085,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Hake Adriatic Sea (GSA 17,18)",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Adriatic Sea (GSA 17,18)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.291,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Hake Western Ionian Sea",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Western Ionian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.405,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Hake Eastern Ionian Sea",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Eastern Ionian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.082,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Hake Aegean Sea and Crete Island (GSA 22,23)",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Aegean Sea and Crete Island (GSA 22,23)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.458,
+    "U/Umsy year": 2006
+   },
+   {
+    "stock": "Hake Gulf of Lions",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 16.727,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Hake Geographical Sub-Areas 8-11",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Geographical Sub-Areas 8-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.391,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Hake Geographical Sub-Areas 9-11",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "Geographical Sub-Areas 9-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Hake ICES 3a-4-6-7-8abd",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "ICES 3a-4-6-7-8abd",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.797,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Hake North West Africa Morocco",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "North West Africa Morocco",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Hake ICES 8c-9a",
+    "species": "Merluccius merluccius",
+    "common name": "Hake",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": 1.57,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 2.384,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Hake spp North West Africa",
+    "species": "Merluccius spp",
+    "common name": "Hake spp",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Herring ICES 22-24-3a",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "ICES 22-24-3a",
+    "B/Bmsy": 0.886,
+    "B/Bmsy year": 2011,
+    "U/Umsy": 0.623,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Herring Subdivisions 25-29 and 32",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Subdivisions 25-29 and 32",
+    "B/Bmsy": 0.793,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 2.19,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Herring Eastern Baltic",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Eastern Baltic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Herring Bothnian Sea",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Bothnian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Herring Subdivisions 30-31",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Subdivisions 30-31",
+    "B/Bmsy": 0.843,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 0.796,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Herring Bothnian Bay",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Bothnian Bay",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Herring Iceland (Summer spawners)",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Iceland (Summer spawners)",
+    "B/Bmsy": 2.777,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 0.968,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Herring Irish Sea",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Irish Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.894,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Herring ICES 1-2-4a-5-14a (Norwegian Spring Spawners)",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "ICES 1-2-4a-5-14a (Norwegian Spring Spawners)",
+    "B/Bmsy": 1.151,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 1.3,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Herring ICES 3a-4-7d",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": 1.48,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.734,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Herring Gulf of Riga East of Gotland",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "Gulf of Riga East of Gotland",
+    "B/Bmsy": 1.918,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 0.952,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Herring ICES 7a-g-h-j-k",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "ICES 7a-g-h-j-k",
+    "B/Bmsy": 0.561,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.087,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Herring West of Scotland",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "West of Scotland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Herring ICES 6a7bc",
+    "species": "Clupea harengus",
+    "common name": "Herring",
+    "area": "ICES 5a-7bc",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.381,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Horse mackerel ICES 2a-4a-5b-6a-7-8",
+    "species": "Trachurus trachurus",
+    "common name": "Horse mackerel",
+    "area": "ICES 2a-4a-5b-6a-7-8",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.473,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Horse mackerel ICES 3a-4bc-7d",
+    "species": "Trachurus trachurus",
+    "common name": "Horse mackerel",
+    "area": "ICES 3a-4bc-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Horse mackerel Portugese Waters -East",
+    "species": "Trachurus trachurus",
+    "common name": "Horse mackerel",
+    "area": "Portugese Waters -East",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.162,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Horse mackerel Geographical Sub-Areas 9-11",
+    "species": "Trachurus trachurus",
+    "common name": "Horse mackerel",
+    "area": "Geographical Sub-Areas 9-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.435,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Horse mackerel North West Africa",
+    "species": "Trachurus trachurus",
+    "common name": "Horse mackerel",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Indo-Pacific sailfish Indian Ocean",
+    "species": "Istiophorus platypterus",
+    "common name": "Indo-Pacific sailfish",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.14,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 1.22,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Kitefin shark Northeast Atlantic",
+    "species": "Dalatias licha",
+    "common name": "Kitefin shark",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Large eye dentex Central West Africa Angola",
+    "species": "Dentex macrophthalmus",
+    "common name": "Large eye dentex",
+    "area": "Central West Africa Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Large eye dentex North West Africa",
+    "species": "Dentex macrophthalmus",
+    "common name": "Large eye dentex",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Leafscale gulper shark Northeast Atlantic",
+    "species": "Centrophorus squamosus",
+    "common name": "Leafscale gulper shark",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Ling North-East Arctic",
+    "species": "Molva molva",
+    "common name": "Ling",
+    "area": "North-East Arctic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Ling Northeast Atlantic",
+    "species": "Molva molva",
+    "common name": "Ling",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Ling Iceland Grounds",
+    "species": "Molva molva",
+    "common name": "Ling",
+    "area": "Iceland Grounds",
+    "B/Bmsy": 3.671,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 1.167,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Ling Faroe Grounds",
+    "species": "Molva molva",
+    "common name": "Ling",
+    "area": "Faroe Grounds",
+    "B/Bmsy": 2.397,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.578,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Lesser spotted dogfish ICES 3a-4-7d",
+    "species": "Scyliorhinus canicula",
+    "common name": "Lesser spotted dogfish",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Lesser spotted dogfish ICES 8abd",
+    "species": "Scyliorhinus canicula",
+    "common name": "Lesser spotted dogfish",
+    "area": "ICES 8abd",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Lesser spotted dogfish ICES 8c-9a",
+    "species": "Scyliorhinus canicula",
+    "common name": "Lesser spotted dogfish",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Lesser spotted dogfish ICES 6-7abcefghij",
+    "species": "Scyliorhinus canicula",
+    "common name": "Lesser spotted dogfish",
+    "area": "ICES 6-7abcefghij",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Lemon sole ICES 3a-4-7d",
+    "species": "Microstomus kitt",
+    "common name": "Lemon sole",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.193,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Mackerel ICES Northeast Atlantic",
+    "species": "Scomber scombrus",
+    "common name": "Mackerel",
+    "area": "ICES Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.169,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Megrim ICES 8c-9a",
+    "species": "Lepidorhombus whiffiagonis",
+    "common name": "Megrim",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": 2.48,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.607,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Megrim spp ICES 4a-6a",
+    "species": "Lepidorhombus spp",
+    "common name": "Megrim spp",
+    "area": "ICES 4a-6a",
+    "B/Bmsy": 1.47,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.475,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Megrim spp Rockall Bank",
+    "species": "Lepidorhombus spp",
+    "common name": "Megrim spp",
+    "area": "Rockall Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.932,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Megrim ICES 7-8abd",
+    "species": "Lepidorhombus whiffiagonis",
+    "common name": "Megrim",
+    "area": "ICES 7-8abd",
+    "B/Bmsy": 2.584,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.717,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Mediterranean horse mackerel Black Sea",
+    "species": "Trachurus mediterraneus",
+    "common name": "Mediterranean horse mackerel",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.663,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Madeiran sardinella Central West Africa Cote Divoire-Benin",
+    "species": "Sardinella maderensis",
+    "common name": "Madeiran sardinella",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Madeiran sardinella North West Africa",
+    "species": "Sardinella maderensis",
+    "common name": "Madeiran sardinella",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Noup (FU 10)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Noup (FU 10)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster North Minch (FU 11)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "North Minch (FU 11)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.593,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster South Minch (FU 12)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "South Minch (FU 12)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.41,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Firth of Clyde and Sound of Jura (FU 13)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Firth of Clyde and Sound of Jura (FU 13)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.922,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Irish Sea East (FU 14)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Irish Sea East (FU 14)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.232,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Irish Sea West (FU 15)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Irish Sea West (FU 15)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.55,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Porcupine Bank (FU 16)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Porcupine Bank (FU 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.956,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Aran Grounds (FU 17)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Aran Grounds (FU 17)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.635,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster South East and West of IRL (FU 19)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "South East and West of IRL (FU 19)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.665,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Labadie, Jones and Cockburn (FU 20-21)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Labadie, Jones and Cockburn (FU 20-21)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.5,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Smalls (FU 22)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Smalls (FU 22)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.081,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster North Galicia (FU 25)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "North Galicia (FU 25)",
+    "B/Bmsy": 0.097,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.171,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Norway lobster West Galicia and North Portugal (FU 26-27)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "West Galicia and North Portugal (FU 26-27)",
+    "B/Bmsy": 0.021,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.426,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Norway lobster South-West and South Portugal (FU 28-29)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "South-West and South Portugal (FU 28-29)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.449,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Norway lobster Gulf of Cadiz (FU 30)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Gulf of Cadiz (FU 30)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Cantabrian Sea (FU 31)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Cantabrian Sea (FU 31)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Norwegian Deeps (FU 32)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Norwegian Deeps (FU 32)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Off Horn Reef (FU 33)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Off Horn Reef (FU 33)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Devils Hole (FU 34)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Devils Hole (FU 34)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Skagerak Kattegat (FU 3-4)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Skagerak Kattegat (FU 3-4)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.488,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Norway lobster Botney Cut - Silver Pit (FU 5)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Botney Cut - Silver Pit (FU 5)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Farn Deeps (FU 6)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Farn Deeps (FU 6)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.983,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Norway lobster Fladen Ground (FU 7)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Fladen Ground (FU 7)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.373,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Firth of Forth (FU 8)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Firth of Forth (FU 8)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.791,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster Moray Firth (FU 9)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Moray Firth (FU 9)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.992,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Norway lobster North Sea",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "North Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Northern Alboran Sea",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.65,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Norway lobster Sardinia",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Sardinia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.068,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Norway lobster Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.0,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Norway lobster Northern Adriatic Sea",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Northern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Adriatic Sea (GSA 17,18)",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Adriatic Sea (GSA 17,18)",
+    "B/Bmsy": 0.382,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 1.102,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Norway lobster Southern Adriatic Sea",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Southern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster Balearic Island",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Balearic Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.688,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Norway lobster Northern Spain",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 5.644,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Norway lobster Ligurian and North Tyrrhenian Sea",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.969,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Norway lobster West of Scotland",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "West of Scotland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster ICES 7",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "ICES 7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway lobster ICES 8ab",
+    "species": "Nephrops norvegicus",
+    "common name": "Norway lobster",
+    "area": "ICES 8ab",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.399,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Norway pout ICES 3a-4",
+    "species": "Trisopterus esmarkii",
+    "common name": "Norway pout",
+    "area": "ICES 3a-4",
+    "B/Bmsy": 2.338,
+    "B/Bmsy year": 2017,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Norway pout West of Scotland",
+    "species": "Trisopterus esmarkii",
+    "common name": "Norway pout",
+    "area": "West of Scotland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Octopus Central West Africa Guinea Bissau",
+    "species": "Octopus vulgaris",
+    "common name": "Octopus",
+    "area": "Central West Africa Guinea Bissau",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Octopus North West Africa Cape Blanc",
+    "species": "Octopus vulgaris",
+    "common name": "Octopus",
+    "area": "North West Africa Cape Blanc",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Octopus North West Africa Dakhla",
+    "species": "Octopus vulgaris",
+    "common name": "Octopus",
+    "area": "North West Africa Dakhla",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Octopus North West Africa Senegal_The Gambia",
+    "species": "Octopus vulgaris",
+    "common name": "Octopus",
+    "area": "North West Africa Senegal_The Gambia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Orange roughy Chile",
+    "species": "Hoplostethus atlanticus",
+    "common name": "Orange roughy",
+    "area": "Chile",
+    "B/Bmsy": 1.999,
+    "B/Bmsy year": 2011,
+    "U/Umsy": 0.0,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Orange roughy Northeast Atlantic",
+    "species": "Hoplostethus atlanticus",
+    "common name": "Orange roughy",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Oceanic whitetip shark Central Western Pacific Ocean",
+    "species": "Carcharhinus longimanus",
+    "common name": "Oceanic whitetip shark",
+    "area": "Central Western Pacific Ocean",
+    "B/Bmsy": 1.69,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.28,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Pacific bluefin tuna Pacific Ocean",
+    "species": "Thunnus orientalis",
+    "common name": "Pacific bluefin tuna",
+    "area": "Pacific Ocean",
+    "B/Bmsy": 0.167,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 0.067,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Northern shrimp North-East Arctic",
+    "species": "Pandalus borealis",
+    "common name": "Northern shrimp",
+    "area": "North-East Arctic",
+    "B/Bmsy": 1.86,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.137,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Northern shrimp ICES 3a(west)-4a(east)",
+    "species": "Pandalus borealis",
+    "common name": "Northern shrimp",
+    "area": "ICES 3a(west)-4a(east)",
+    "B/Bmsy": 0.766,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.995,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Northern shrimp Northern North Sea",
+    "species": "Pandalus borealis",
+    "common name": "Northern shrimp",
+    "area": "Northern North Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Pandora spp North West Africa",
+    "species": "Pagellus spp",
+    "common name": "Pandora spp",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Pacific halibut North Pacific",
+    "species": "Hippoglossus stenolepis",
+    "common name": "Pacific halibut",
+    "area": "North Pacific",
+    "B/Bmsy": 1.252,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.28,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Picarel Cyprus Island",
+    "species": "Spicara smaris",
+    "common name": "Picarel",
+    "area": "Cyprus Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.258,
+    "U/Umsy year": 2010
+   },
+   {
+    "stock": "European plaice Subdivisions 21-23",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Subdivisions 21-23",
+    "B/Bmsy": 3.996,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.359,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "European plaice Subdivisions 24-32",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Subdivisions 24-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European plaice Eastern English Channel",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Eastern English Channel",
+    "B/Bmsy": 1.502,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.867,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "European plaice Celtic Sea",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Celtic Sea",
+    "B/Bmsy": 1.52,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.287,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "European plaice Western English Channel",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Western English Channel",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.142,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "European plaice Kattegat and Skagerrak",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Kattegat and Skagerrak",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European plaice Irish Sea",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "Irish Sea",
+    "B/Bmsy": 2.987,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.109,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "European plaice North Sea",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "North Sea",
+    "B/Bmsy": 3.922,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.558,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "European plaice ICES 7bc",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "ICES 7bc",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European plaice ICES 7h-k",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "ICES 7h-k",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European plaice ICES 8-9a",
+    "species": "Pleuronectes platessa",
+    "common name": "European plaice",
+    "area": "ICES 8-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Saithe Faroe Plateau",
+    "species": "Pollachius virens",
+    "common name": "Saithe",
+    "area": "Faroe Plateau",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.555,
+    "U/Umsy year": 2023
+   },
+   {
+    "stock": "Saithe Iceland Grounds",
+    "species": "Pollachius virens",
+    "common name": "Saithe",
+    "area": "Iceland Grounds",
+    "B/Bmsy": 2.334,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 0.89,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Saithe North-East Arctic",
+    "species": "Pollachius virens",
+    "common name": "Saithe",
+    "area": "North-East Arctic",
+    "B/Bmsy": 2.586,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.684,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Saithe ICES 3a-4-6",
+    "species": "Pollachius virens",
+    "common name": "Saithe",
+    "area": "ICES 3a-4-6",
+    "B/Bmsy": 0.995,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 1.248,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Porbeagle shark Northeast Atlantic",
+    "species": "Lamna nasus",
+    "common name": "Porbeagle shark",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Poor cod Ligurian and North Tyrrhenian Sea",
+    "species": "Trisopterus minutus",
+    "common name": "Poor cod",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.216,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Deep water rose shrimp Northern Spain",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 5.481,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Patagonian toothfish South Chile Argentina",
+    "species": "Dissostichus eleginoides",
+    "common name": "Patagonian toothfish",
+    "area": "South Chile Argentina",
+    "B/Bmsy": 0.761,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.874,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Red seabream ICES 9",
+    "species": "Pagellus bogaraveo",
+    "common name": "Red seabream",
+    "area": "ICES 9",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red seabream Alboran Island Sea (GSA 1,3)",
+    "species": "Pagellus bogaraveo",
+    "common name": "Red seabream",
+    "area": "Alboran Island Sea (GSA 1,3)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red seabream ICES 6-7-8",
+    "species": "Pagellus bogaraveo",
+    "common name": "Red seabream",
+    "area": "ICES 6-7-8",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red seabream Azores Grounds",
+    "species": "Pagellus bogaraveo",
+    "common name": "Red seabream",
+    "area": "Azores Grounds",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red shrimp Northern Alboran Sea",
+    "species": "Aristeus antennatus",
+    "common name": "Red shrimp",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.775,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Red shrimp South Tyrrhenian Sea",
+    "species": "Aristeus antennatus",
+    "common name": "Red shrimp",
+    "area": "South Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red shrimp Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Aristeus antennatus",
+    "common name": "Red shrimp",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red shrimp Northern Spain",
+    "species": "Aristeus antennatus",
+    "common name": "Red shrimp",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red shrimp Geographical Sub-Areas 6-7",
+    "species": "Aristeus antennatus",
+    "common name": "Red shrimp",
+    "area": "Geographical Sub-Areas 6-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 4.538,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Red shrimp Geographical Sub-Areas 9-11",
+    "species": "Aristeus antennatus",
+    "common name": "Red shrimp",
+    "area": "Geographical Sub-Areas 9-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 5.418,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Beaked redfish ICES 5-12-14 and NAFO Subareas 1-2 (deep)",
+    "species": "Sebastes mentella",
+    "common name": "Beaked redfish",
+    "area": "ICES 5-12-14 and NAFO Subareas 1-2 (deep)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deepwater redfish North-East Arctic",
+    "species": "Sebastes mentella",
+    "common name": "Deepwater redfish",
+    "area": "North-East Arctic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Beaked redfish ICES 5-12-14 and NAFO Subareas 1-2 (shallow)",
+    "species": "Sebastes mentella",
+    "common name": "Beaked redfish",
+    "area": "ICES 5-12-14 and NAFO Subareas 1-2 (shallow)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Beaked redfish ICES 5a-14",
+    "species": "Sebastes mentella",
+    "common name": "Beaked redfish",
+    "area": "ICES 5a-14",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Beaked redfish Southeast Greenland",
+    "species": "Sebastes mentella",
+    "common name": "Beaked redfish",
+    "area": "Southeast Greenland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Redfish species West Greenland",
+    "species": "Sebastes spp",
+    "common name": "Redfish species",
+    "area": "West Greenland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Redfish species N and SW Grand Banks",
+    "species": "Sebastes spp",
+    "common name": "Redfish species",
+    "area": "N and SW Grand Banks",
+    "B/Bmsy": 1.31,
+    "B/Bmsy year": 2013,
+    "U/Umsy": 0.214,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Redfish species Flemish Cap",
+    "species": "Sebastes spp",
+    "common name": "Redfish species",
+    "area": "Flemish Cap",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Rubberlip grunt North West Africa",
+    "species": "Plectorhinchus mediterraneus",
+    "common name": "Rubberlip grunt",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red gurnard Northeast Atlantic",
+    "species": "Chelidonichthys cuculus",
+    "common name": "Red gurnard",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Roughhead grenadier Northeast Atlantic",
+    "species": "Macrourus berglax",
+    "common name": "Roughhead grenadier",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red mullet Northern Alboran Sea",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.463,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Red mullet South Tyrrhenian Sea",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "South Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.207,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Red mullet Sardinia",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Sardinia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 9.545,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Red mullet Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.889,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Red mullet Adriatic Sea (GSA 17,18)",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Adriatic Sea (GSA 17,18)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.02,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Red mullet Western Ionian Sea",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Western Ionian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.556,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Red mullet Aegean Sea",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Aegean Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.299,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Red mullet Cyprus Island",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Cyprus Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.818,
+    "U/Umsy year": 2008
+   },
+   {
+    "stock": "Red mullet Black Sea",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.775,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Red mullet Balearic Island",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Balearic Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 7.643,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Red mullet Northern Spain",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 5.396,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Red mullet Gulf of Lions",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Gulf of Lions",
+    "B/Bmsy": 1.139,
+    "B/Bmsy year": 2022,
+    "U/Umsy": 0.913,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Red mullet Ligurian and North Tyrrhenian Sea",
+    "species": "Mullus barbatus",
+    "common name": "Red mullet",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.67,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Roundnose grenadier ICES 1-2-4-5a2-8-9-14ab2",
+    "species": "Coryphaenoides rupestris",
+    "common name": "Roundnose grenadier",
+    "area": "ICES 1-2-4-5a2-8-9-14ab2",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Roundnose grenadier Mid-Atlantic Ridge",
+    "species": "Coryphaenoides rupestris",
+    "common name": "Roundnose grenadier",
+    "area": "Mid-Atlantic Ridge",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Roundnose grenadier ICES 5b-6-7-12b",
+    "species": "Coryphaenoides rupestris",
+    "common name": "Roundnose grenadier",
+    "area": "ICES 5b-6-7-12b",
+    "B/Bmsy": 0.581,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.253,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Roundnose grenadier Kattegat and Skagerrak",
+    "species": "Coryphaenoides rupestris",
+    "common name": "Roundnose grenadier",
+    "area": "Kattegat and Skagerrak",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red pandora Central West Africa Cote Divoire-Benin",
+    "species": "Pagellus bellottii",
+    "common name": "Red pandora",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Red pandora North West Africa",
+    "species": "Pagellus bellottii",
+    "common name": "Red pandora",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Round sardinella Central West Africa Cote Divoire-Benin",
+    "species": "Sardinella aurita",
+    "common name": "Round sardinella",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Round sardinella North West Africa",
+    "species": "Sardinella aurita",
+    "common name": "Round sardinella",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Northern Alboran Sea",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.242,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Deep water rose shrimp South Tyrrhenian Sea",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "South Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Sardinia",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Sardinia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Geographical Sub-Areas 12-16",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Geographical Sub-Areas 12-16",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.4,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Deep water rose shrimp Geographical Sub-Areas 17-19",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Geographical Sub-Areas 17-19",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.949,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Deep water rose shrimp Southern Adriatic Sea",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Southern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Aegean Sea and Crete Island (GSA 22,23)",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Aegean Sea and Crete Island (GSA 22,23)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Balearic Island",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Balearic Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.097,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Deep water rose shrimp Ligurian and North Tyrrhenian Sea",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deep water rose shrimp Geographical Sub-Areas 9-11",
+    "species": "Parapenaeus longirostris",
+    "common name": "Deep water rose shrimp",
+    "area": "Geographical Sub-Areas 9-11",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.941,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Sailfish Eastern Atlantic",
+    "species": "Istiophorus albicans",
+    "common name": "Sailfish",
+    "area": "Eastern Atlantic",
+    "B/Bmsy": 0.88,
+    "B/Bmsy year": 2014,
+    "U/Umsy": 7.431,
+    "U/Umsy year": 2007
+   },
+   {
+    "stock": "Sailfish Western Atlantic",
+    "species": "Istiophorus albicans",
+    "common name": "Sailfish",
+    "area": "Western Atlantic",
+    "B/Bmsy": 0.382,
+    "B/Bmsy year": 2014,
+    "U/Umsy": 2.266,
+    "U/Umsy year": 2007
+   },
+   {
+    "stock": "Sardinella Central West Africa Gabon-Angola",
+    "species": "Sardinella spp",
+    "common name": "Sardinella",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardinella Central West Africa Guinea Bissau-Liberia",
+    "species": "Sardinella spp",
+    "common name": "Sardinella",
+    "area": "Central West Africa Guinea Bissau-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardinella North West Africa",
+    "species": "Sardinella spp",
+    "common name": "Sardinella",
+    "area": "North West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European pilchard Northern Alboran Sea",
+    "species": "Sardina pilchardus",
+    "common name": "European pilchard",
+    "area": "Northern Alboran Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardine South of Sicily",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "South of Sicily",
+    "B/Bmsy": 0.47,
+    "B/Bmsy year": 2011,
+    "U/Umsy": 3.502,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Sardine Northern Adriatic Sea",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "Northern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardine Adriatic Sea (GSA 17,18)",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "Adriatic Sea (GSA 17,18)",
+    "B/Bmsy": 0.675,
+    "B/Bmsy year": 2022,
+    "U/Umsy": 1.45,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "European pilchard Eastern Ionian Sea",
+    "species": "Sardina pilchardus",
+    "common name": "European pilchard",
+    "area": "Eastern Ionian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European pilchard Aegean Sea",
+    "species": "Sardina pilchardus",
+    "common name": "European pilchard",
+    "area": "Aegean Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "European pilchard Aegean Sea and Crete Island (GSA 22,23)",
+    "species": "Sardina pilchardus",
+    "common name": "European pilchard",
+    "area": "Aegean Sea and Crete Island (GSA 22,23)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.062,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "European pilchard Northern Spain",
+    "species": "Sardina pilchardus",
+    "common name": "European pilchard",
+    "area": "Northern Spain",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.989,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Sardine Gulf of Lions",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.003,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "European pilchard Ligurian and North Tyrrhenian Sea",
+    "species": "Sardina pilchardus",
+    "common name": "European pilchard",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardine North West Africa Zone A+B",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "North West Africa Zone A+B",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardine North West Africa Zone C",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "North West Africa Zone C",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardine ICES 8c-9a",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": 0.54,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 0.658,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Sardine ICES 7",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "ICES 7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sardine ICES 8abd",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "ICES 8abd",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.837,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Sardine ICES 7-8abd",
+    "species": "Sardina pilchardus",
+    "common name": "Sardine",
+    "area": "ICES 7-8abd",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Pacific saury Northwest Pacific",
+    "species": "Cololabis saira",
+    "common name": "Pacific saury",
+    "area": "Northwest Pacific",
+    "B/Bmsy": 0.985,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.908,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Seabreams spp North West Africa Morocco",
+    "species": "Sparus spp",
+    "common name": "Seabreams spp",
+    "area": "North West Africa Morocco",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Deepwater cardinalfish Chile",
+    "species": "Epigonus crassicaudus",
+    "common name": "Deepwater cardinalfish",
+    "area": "Chile",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Southern bluefin tuna Southern Oceans",
+    "species": "Thunnus maccoyii",
+    "common name": "Southern bluefin tuna",
+    "area": "Southern Oceans",
+    "B/Bmsy": 0.69,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.52,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Scad spp Central West Africa Guinea Bissau-Liberia",
+    "species": "Decapterus spp",
+    "common name": "Scad spp",
+    "area": "Central West Africa Guinea Bissau-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spiny dogfish Black Sea",
+    "species": "Squalus acanthias",
+    "common name": "Spiny dogfish",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 11.735,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Sandy ray ICES 6-7",
+    "species": "Leucoraja circularis",
+    "common name": "Sandy ray",
+    "area": "ICES 6-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 1",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 1",
+    "B/Bmsy": 1.917,
+    "B/Bmsy year": 2018,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 2",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 2",
+    "B/Bmsy": 1.274,
+    "B/Bmsy year": 2018,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 3",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 3",
+    "B/Bmsy": 2.636,
+    "B/Bmsy year": 2018,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 4",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 4",
+    "B/Bmsy": 1.912,
+    "B/Bmsy year": 2018,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 5",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 5",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 6",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 6",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel Sandeel Area 7",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "Sandeel Area 7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sand eel West of Scotland",
+    "species": "Ammodytes spp",
+    "common name": "Sand eel",
+    "area": "West of Scotland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Smalleyed ray ICES 7de",
+    "species": "Raja microocellata",
+    "common name": "Smalleyed ray",
+    "area": "ICES 7de",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Smalleyed ray Celtic Sea",
+    "species": "Raja microocellata",
+    "common name": "Smalleyed ray",
+    "area": "Celtic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Shortfin mako Northern Atlantic",
+    "species": "Isurus oxyrinchus",
+    "common name": "Shortfin mako",
+    "area": "Northern Atlantic",
+    "B/Bmsy": 0.952,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 4.379,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Shortfin mako North Pacific",
+    "species": "Isurus oxyrinchus",
+    "common name": "Shortfin mako",
+    "area": "North Pacific",
+    "B/Bmsy": 1.36,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 0.603,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Shortfin mako Nothwest Pacific Ocean",
+    "species": "Isurus oxyrinchus",
+    "common name": "Shortfin mako",
+    "area": "Nothwest Pacific Ocean",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Shortfin mako South Atlantic",
+    "species": "Isurus oxyrinchus",
+    "common name": "Shortfin mako",
+    "area": "South Atlantic",
+    "B/Bmsy": 1.729,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.988,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Shagreen ray ICES 6-7",
+    "species": "Leucoraja fullonica",
+    "common name": "Shagreen ray",
+    "area": "ICES 6-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Smooth hound Northeast Atlantic",
+    "species": "Mustelus spp",
+    "common name": "Smooth hound",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Skipjack tuna Indian Ocean",
+    "species": "Katsuwonus pelamis",
+    "common name": "Skipjack tuna",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.13,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.98,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Skipjack tuna Central Western Pacific Ocean",
+    "species": "Katsuwonus pelamis",
+    "common name": "Skipjack tuna",
+    "area": "Central Western Pacific Ocean",
+    "B/Bmsy": 2.471,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.46,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Skipjack tuna Eastern Atlantic",
+    "species": "Katsuwonus pelamis",
+    "common name": "Skipjack tuna",
+    "area": "Eastern Atlantic",
+    "B/Bmsy": 2.017,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.317,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Skipjack tuna Eastern Pacific",
+    "species": "Katsuwonus pelamis",
+    "common name": "Skipjack tuna",
+    "area": "Eastern Pacific",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Skipjack tuna Western Atlantic",
+    "species": "Katsuwonus pelamis",
+    "common name": "Skipjack tuna",
+    "area": "Western Atlantic",
+    "B/Bmsy": 1.27,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.459,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Silky shark Central Western Pacific Ocean",
+    "species": "Carcharhinus falciformis",
+    "common name": "Silky shark",
+    "area": "Central Western Pacific Ocean",
+    "B/Bmsy": 1.178,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 1.607,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Spottail mantis shrimp South Tyrrhenian Sea",
+    "species": "Squilla mantis",
+    "common name": "Spottail mantis shrimp",
+    "area": "South Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.634,
+    "U/Umsy year": 2011
+   },
+   {
+    "stock": "Spottail mantis shrimp Northern Adriatic Sea",
+    "species": "Squilla mantis",
+    "common name": "Spottail mantis shrimp",
+    "area": "Northern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spottail mantis shrimp Adriatic Sea (GSA 17,18)",
+    "species": "Squilla mantis",
+    "common name": "Spottail mantis shrimp",
+    "area": "Adriatic Sea (GSA 17,18)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.526,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Spottail mantis shrimp Ligurian and North Tyrrhenian Sea",
+    "species": "Squilla mantis",
+    "common name": "Spottail mantis shrimp",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.222,
+    "U/Umsy year": 2010
+   },
+   {
+    "stock": "Surmullet Malta Island and South of Sicily (GSA 15, 16)",
+    "species": "Mullus surmuletus",
+    "common name": "Surmullet",
+    "area": "Malta Island and South of Sicily (GSA 15, 16)",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 4.105,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Surmullet Balearic Island",
+    "species": "Mullus surmuletus",
+    "common name": "Surmullet",
+    "area": "Balearic Island",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.18,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Surmullet Ligurian and North Tyrrhenian Sea",
+    "species": "Mullus surmuletus",
+    "common name": "Surmullet",
+    "area": "Ligurian and North Tyrrhenian Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.946,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Common sole Celtic Sea",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "Celtic Sea",
+    "B/Bmsy": 2.058,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.071,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Sole Central West Africa Angola",
+    "species": "Cynoglossus spp",
+    "common name": "Sole",
+    "area": "Central West Africa Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sole Central West Africa Gabon-Congo DR",
+    "species": "Cynoglossus spp",
+    "common name": "Sole",
+    "area": "Central West Africa Gabon-Congo DR",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sole Central West Africa Guinea-Liberia",
+    "species": "Cynoglossus spp",
+    "common name": "Sole",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sole Central West Africa Guinea Bissau-Guinea",
+    "species": "Cynoglossus spp",
+    "common name": "Sole",
+    "area": "Central West Africa Guinea Bissau-Guinea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Common sole ICES 22-24-3a",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "ICES 22-24-3a",
+    "B/Bmsy": 1.208,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.883,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Common sole Irish Sea",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "Irish Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.65,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Common sole North Sea",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "North Sea",
+    "B/Bmsy": 0.808,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.124,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Common sole ICES 7bc",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "ICES 7bc",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Common sole Eastern English Channel",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "Eastern English Channel",
+    "B/Bmsy": 0.96,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.986,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Common sole Western English Channel",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "Western English Channel",
+    "B/Bmsy": 2.183,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.889,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Common sole ICES 7h-k",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "ICES 7h-k",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Common sole ICES 8ab",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "ICES 8ab",
+    "B/Bmsy": 1.113,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.103,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "Common sole ICES 8c-9a",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Common sole Northern Adriatic Sea",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "Northern Adriatic Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.957,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Common sole Gulf of Lions",
+    "species": "Solea solea",
+    "common name": "Common sole",
+    "area": "Gulf of Lions",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 7.412,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Sprat Baltic Areas 22-32",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "Baltic Areas 22-32",
+    "B/Bmsy": 1.671,
+    "B/Bmsy year": 2023,
+    "U/Umsy": 1.053,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Sprat Kattegat and Skagerrak",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "Kattegat and Skagerrak",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sprat ICES 3a-4",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "ICES 3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sprat North Sea",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "North Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sprat ICES 7de",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "ICES 7de",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sprat ICES 6-7abcfghijk",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "ICES 6-7abcfghijk",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spotted ray ICES 3a-4-7d",
+    "species": "Raja montagui",
+    "common name": "Spotted ray",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spotted ray Portugese Waters -East",
+    "species": "Raja montagui",
+    "common name": "Spotted ray",
+    "area": "Portugese Waters -East",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spotted ray ICES 7aefgh",
+    "species": "Raja montagui",
+    "common name": "Spotted ray",
+    "area": "ICES 7aefgh",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spotted ray Bay of Biscay",
+    "species": "Raja montagui",
+    "common name": "Spotted ray",
+    "area": "Bay of Biscay",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spotted ray ICES 6-7bj",
+    "species": "Raja montagui",
+    "common name": "Spotted ray",
+    "area": "ICES 6-7bj",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sprat Black Sea",
+    "species": "Sprattus sprattus",
+    "common name": "Sprat",
+    "area": "Black Sea",
+    "B/Bmsy": 1.497,
+    "B/Bmsy year": 2022,
+    "U/Umsy": 0.097,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Southern pink shrimp Central West Africa",
+    "species": "Farfantepenaeus notialis",
+    "common name": "Southern pink shrimp",
+    "area": "Central West Africa",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Southern pink shrimp North West Africa Mauritania",
+    "species": "Farfantepenaeus notialis",
+    "common name": "Southern pink shrimp",
+    "area": "North West Africa Mauritania",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Southern pink shrimp North West Africa Senegal_The Gambia",
+    "species": "Farfantepenaeus notialis",
+    "common name": "Southern pink shrimp",
+    "area": "North West Africa Senegal_The Gambia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Spurdog Northeast Atlantic",
+    "species": "Squalus acanthias",
+    "common name": "Spurdog",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.466,
+    "U/Umsy year": 2013
+   },
+   {
+    "stock": "Striped marlin Indian Ocean",
+    "species": "Kajikia audax",
+    "common name": "Striped marlin",
+    "area": "Indian Ocean",
+    "B/Bmsy": 0.33,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 1.884,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Striped marlin Northeast Pacific",
+    "species": "Kajikia audax",
+    "common name": "Striped marlin",
+    "area": "Northeast Pacific",
+    "B/Bmsy": 1.52,
+    "B/Bmsy year": 2009,
+    "U/Umsy": 0.075,
+    "U/Umsy year": 2009
+   },
+   {
+    "stock": "Striped marlin Western Pacific Ocean",
+    "species": "Kajikia audax",
+    "common name": "Striped marlin",
+    "area": "Western Pacific Ocean",
+    "B/Bmsy": 1.062,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 0.612,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Striped marlin Western and Central North Pacific",
+    "species": "Kajikia audax",
+    "common name": "Striped marlin",
+    "area": "Western and Central North Pacific",
+    "B/Bmsy": 0.377,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 1.761,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Starry ray ICES 2-3a-4",
+    "species": "Amblyraja radiata",
+    "common name": "Starry ray",
+    "area": "ICES 2-3a-4",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Striped red mullet ICES 3a-4-7d",
+    "species": "Mullus surmuletus",
+    "common name": "Striped red mullet",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Striped red mullet ICES 6-7abcefghijk-8-9a",
+    "species": "Mullus surmuletus",
+    "common name": "Striped red mullet",
+    "area": "ICES 6-7abcefghijk-8-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Sea trout Baltic Areas 22-32",
+    "species": "Salmo trutta",
+    "common name": "Sea trout",
+    "area": "Baltic Areas 22-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Swordfish Eastern Pacific",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "Eastern Pacific",
+    "B/Bmsy": 1.88,
+    "B/Bmsy year": 2012,
+    "U/Umsy": 1.06,
+    "U/Umsy year": 2012
+   },
+   {
+    "stock": "Swordfish Indian Ocean",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "Indian Ocean",
+    "B/Bmsy": 1.75,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.6,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Swordfish Mediterranean Sea",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "Mediterranean Sea",
+    "B/Bmsy": 0.163,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 1.956,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Swordfish Northern Atlantic",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "Northern Atlantic",
+    "B/Bmsy": 1.057,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.592,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Swordfish North Pacific Ocean",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "North Pacific Ocean",
+    "B/Bmsy": 1.873,
+    "B/Bmsy year": 2016,
+    "U/Umsy": 0.412,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Swordfish South Atlantic",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "South Atlantic",
+    "B/Bmsy": 0.592,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 1.006,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Swordfish South Pacific Ocean",
+    "species": "Xiphias gladius",
+    "common name": "Swordfish",
+    "area": "South Pacific Ocean",
+    "B/Bmsy": 1.859,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.948,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Thornback skate ICES 3a-4-7d",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Thornback skate Portugese Waters -East",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "Portugese Waters -East",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Thornback skate Black Sea",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 1.312,
+    "U/Umsy year": 2014
+   },
+   {
+    "stock": "Thornback skate ICES 6",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "ICES 6",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Thornback skate ICES 7afg",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "ICES 7afg",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Thornback skate Western English Channel",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "Western English Channel",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Thornback skate Bay of Biscay",
+    "species": "Raja clavata",
+    "common name": "Thornback skate",
+    "area": "Bay of Biscay",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Threadfin Central West Africa Cote Divoire-Benin",
+    "species": "Galeoides decadactylus",
+    "common name": "Threadfin",
+    "area": "Central West Africa Cote Divoire-Benin",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Threadfin Central West Africa Gabon-Angola",
+    "species": "Galeoides decadactylus",
+    "common name": "Threadfin",
+    "area": "Central West Africa Gabon-Angola",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Threadfin Central West Africa Guinea-Liberia",
+    "species": "Galeoides decadactylus",
+    "common name": "Threadfin",
+    "area": "Central West Africa Guinea-Liberia",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Tope shark Northeast Atlantic",
+    "species": "Galeorhinus galeus",
+    "common name": "Tope shark",
+    "area": "Northeast Atlantic",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Thorny skate Grand Bank and St Pierre Bank",
+    "species": "Amblyraja radiata",
+    "common name": "Thorny skate",
+    "area": "Grand Bank and St Pierre Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Turbot Baltic Areas 22-32",
+    "species": "Scophthalmus maximus",
+    "common name": "Turbot",
+    "area": "Baltic Areas 22-32",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Turbot Black Sea",
+    "species": "Psetta maxima",
+    "common name": "Turbot",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.744,
+    "U/Umsy year": 2016
+   },
+   {
+    "stock": "Turbot Kattegat and Skagerrak",
+    "species": "Scophthalmus maximus",
+    "common name": "Turbot",
+    "area": "Kattegat and Skagerrak",
+    "B/Bmsy": 1.11,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.88,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Turbot North Sea",
+    "species": "Scophthalmus maximus",
+    "common name": "Turbot",
+    "area": "North Sea",
+    "B/Bmsy": 2.135,
+    "B/Bmsy year": 2021,
+    "U/Umsy": 0.407,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Undulate ray ICES 7de",
+    "species": "Raja undulata",
+    "common name": "Undulate ray",
+    "area": "ICES 7de",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Undulate ray ICES 8ab",
+    "species": "Raja undulata",
+    "common name": "Undulate ray",
+    "area": "ICES 8ab",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "White anglerfish Geographical Sub-Areas 1-7",
+    "species": "Lophius piscatorius",
+    "common name": "White anglerfish",
+    "area": "Geographical Sub-Areas 1-7",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 2.045,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "White anglerfish ICES 8c-9a",
+    "species": "Lophius piscatorius",
+    "common name": "White anglerfish",
+    "area": "ICES 8c-9a",
+    "B/Bmsy": 1.989,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 0.346,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "White anglerfish ICES 7-8abd",
+    "species": "Lophius piscatorius",
+    "common name": "White anglerfish",
+    "area": "ICES 7-8abd",
+    "B/Bmsy": 3.27,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 0.833,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "White grouper North West Africa Mauritania-Senegal",
+    "species": "Epinephelus aeneus",
+    "common name": "White grouper",
+    "area": "North West Africa Mauritania-Senegal",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "White hake Grand Bank and St. Pierre Bank",
+    "species": "Urophycis tenuis",
+    "common name": "White hake",
+    "area": "Grand Bank and St. Pierre Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "White hake St. Pierre Bank",
+    "species": "Urophycis tenuis",
+    "common name": "White hake",
+    "area": "St. Pierre Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Whiting Kattegat and Skagerrak",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "Kattegat and Skagerrak",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Whiting Black Sea",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "Black Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 11.234,
+    "U/Umsy year": 2021
+   },
+   {
+    "stock": "Whiting ICES 4-7d",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "ICES 4-7d",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.257,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Whiting West of Scotland",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "West of Scotland",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 0.31,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Whiting Rockall Bank",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "Rockall Bank",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Whiting Irish Sea",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "Irish Sea",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": 3.468,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Whiting Celtic Sea",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "Celtic Sea",
+    "B/Bmsy": 0.646,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.757,
+    "U/Umsy year": 2022
+   },
+   {
+    "stock": "Whiting ICES 8-9a",
+    "species": "Merlangius merlangus",
+    "common name": "Whiting",
+    "area": "ICES 8-9a",
+    "B/Bmsy": null,
+    "B/Bmsy year": null,
+    "U/Umsy": null,
+    "U/Umsy year": null
+   },
+   {
+    "stock": "Witch flounder ICES 3a-4-7d",
+    "species": "Glyptocephalus cynoglossus",
+    "common name": "Witch flounder",
+    "area": "ICES 3a-4-7d",
+    "B/Bmsy": 1.179,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.01,
+    "U/Umsy year": 2019
+   },
+   {
+    "stock": "White marlin Atlantic Ocean",
+    "species": "Tetrapturus albidus",
+    "common name": "White marlin",
+    "area": "Atlantic Ocean",
+    "B/Bmsy": 0.6,
+    "B/Bmsy year": 2017,
+    "U/Umsy": 0.581,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Yellowtail flounder Grand Banks",
+    "species": "Limanda ferruginea",
+    "common name": "Yellowtail flounder",
+    "area": "Grand Banks",
+    "B/Bmsy": 1.76,
+    "B/Bmsy year": 2015,
+    "U/Umsy": 0.22,
+    "U/Umsy year": 2015
+   },
+   {
+    "stock": "Yellowfin tuna Atlantic Ocean",
+    "species": "Thunnus albacares",
+    "common name": "Yellowfin tuna",
+    "area": "Atlantic Ocean",
+    "B/Bmsy": 1.258,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.916,
+    "U/Umsy year": 2018
+   },
+   {
+    "stock": "Yellowfin tuna Central Western Pacific Ocean",
+    "species": "Thunnus albacares",
+    "common name": "Yellowfin tuna",
+    "area": "Central Western Pacific Ocean",
+    "B/Bmsy": 2.43,
+    "B/Bmsy year": 2018,
+    "U/Umsy": 0.37,
+    "U/Umsy year": 2017
+   },
+   {
+    "stock": "Yellowfin tuna Indian Ocean",
+    "species": "Thunnus albacares",
+    "common name": "Yellowfin tuna",
+    "area": "Indian Ocean",
+    "B/Bmsy": 0.78,
+    "B/Bmsy year": 2020,
+    "U/Umsy": 1.27,
+    "U/Umsy year": 2020
+   },
+   {
+    "stock": "Yellowfin tuna Eastern Pacific",
+    "species": "Thunnus albacares",
+    "common name": "Yellowfin tuna",
+    "area": "Eastern Pacific",
+    "B/Bmsy": 0.76,
+    "B/Bmsy year": 2019,
+    "U/Umsy": 1.267,
+    "U/Umsy year": 2018
+   }
+  ]
+ }
+}
