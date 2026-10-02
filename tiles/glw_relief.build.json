@@ -40,5 +40,12 @@
   "bytes": 6347605,
   "p99": 3794.893310546875,
   "max": 101552.078125
+ },
+ "ALL": {
+  "squares": 500,
+  "bytes": 7622806,
+  "p99": 3924.099609375,
+  "max": 101987.015625,
+  "from": "the six grids above, added (each animal counted as one)"
  }
 }
