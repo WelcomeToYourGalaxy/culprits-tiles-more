@@ -1,5 +1,6 @@
 {
- "ranked": 3203,
+ "version": 2,
+ "ranked": 2851,
  "classes": {
   "central bank": [
    "Q126890826",
@@ -12,38 +13,108 @@
    "Q105758271"
   ]
  },
- "top": 162,
- "placed": 157,
- "not_placed": [
+ "top": 153,
+ "placed": 153,
+ "not_placed": [],
+ "development_banks": 135,
+ "development_placed": 116,
+ "development_not_placed": [
   {
-   "rank": 42,
-   "name": "La Caixa",
-   "wikidata": "https://www.wikidata.org/wiki/Q287753"
+   "rank": null,
+   "name": "Bangladesh Development Bank",
+   "wikidata": "https://www.wikidata.org/wiki/Q4855294"
   },
   {
-   "rank": 68,
-   "name": "Q2307618",
-   "wikidata": "https://www.wikidata.org/wiki/Q2307618"
+   "rank": null,
+   "name": "Caja Rural de Granada",
+   "wikidata": "https://www.wikidata.org/wiki/Q5739400"
   },
   {
-   "rank": 112,
-   "name": "Selco Community Credit Union",
-   "wikidata": "https://www.wikidata.org/wiki/Q131346448"
+   "rank": null,
+   "name": "Qatar Development Bank",
+   "wikidata": "https://www.wikidata.org/wiki/Q7267099"
   },
   {
-   "rank": 135,
-   "name": "Rivermark Community Credit Union",
-   "wikidata": "https://www.wikidata.org/wiki/Q131346443"
+   "rank": null,
+   "name": "Trade and Development Bank",
+   "wikidata": "https://www.wikidata.org/wiki/Q13657031"
   },
   {
-   "rank": 138,
-   "name": "Orient Finans Bank",
-   "wikidata": "https://www.wikidata.org/wiki/Q125490253"
+   "rank": null,
+   "name": "Turkey Development Bank",
+   "wikidata": "https://www.wikidata.org/wiki/Q61073759"
+  },
+  {
+   "rank": null,
+   "name": "Q136384635",
+   "wikidata": "https://www.wikidata.org/wiki/Q136384635"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural de Soria",
+   "wikidata": "https://www.wikidata.org/wiki/Q118719955"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural de Villamalea",
+   "wikidata": "https://www.wikidata.org/wiki/Q118719986"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural de Zamora",
+   "wikidata": "https://www.wikidata.org/wiki/Q118719984"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural del Sur",
+   "wikidata": "https://www.wikidata.org/wiki/Q118719995"
+  },
+  {
+   "rank": null,
+   "name": "Caixa Vinarós",
+   "wikidata": "https://www.wikidata.org/wiki/Q118719993"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural Nuestra Señora de la Esperanza de Onda",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720002"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural Regional San Agustín",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720001"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural de Gijón",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720010"
+  },
+  {
+   "rank": null,
+   "name": "Caixa Rural de l´Alcúdia",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720009"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural de Extremadura",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720015"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural Central",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720020"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural de Algemesí",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720032"
+  },
+  {
+   "rank": null,
+   "name": "Caja Rural San José de Alcora",
+   "wikidata": "https://www.wikidata.org/wiki/Q118720036"
   }
  ],
- "development_banks": 2,
- "development_placed": 2,
- "development_not_placed": [],
  "central_banks_left_out": [
   {
    "wikidata": "Q806700",
@@ -51,7 +122,7 @@
    "year": "2022"
   }
  ],
- "no_rate": 523,
+ "no_rate": 886,
  "no_year": 26,
  "not_a_bank": [
   {
@@ -66,7 +137,7 @@
   },
   {
    "wikidata": "Q1196231",
-   "total_assets_usd": 2302991925870,
+   "total_assets_usd": 2302748867077,
    "year": "2026"
   },
   {
@@ -1350,11 +1421,6 @@
    "year": "2022"
   },
   {
-   "wikidata": "Q11878398",
-   "total_assets_usd": 31974810513,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q137910",
    "total_assets_usd": 31741278813,
    "year": "2024"
@@ -2245,6 +2311,11 @@
    "year": "2020"
   },
   {
+   "wikidata": "Q902769",
+   "total_assets_usd": 10668367857,
+   "year": "2025"
+  },
+  {
    "wikidata": "Q63327",
    "total_assets_usd": 10491499000,
    "year": "2020"
@@ -2401,7 +2472,7 @@
   },
   {
    "wikidata": "Q53227",
-   "total_assets_usd": 9007725673,
+   "total_assets_usd": 9009532174,
    "year": "2026"
   },
   {
@@ -2443,11 +2514,6 @@
    "wikidata": "Q1049080",
    "total_assets_usd": 8837000000,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q5374450",
-   "total_assets_usd": 8768855259,
-   "year": "2024"
   },
   {
    "wikidata": "Q3070474",
@@ -2695,6 +2761,11 @@
    "year": "2015"
   },
   {
+   "wikidata": "Q28471437",
+   "total_assets_usd": 7506420364,
+   "year": "2021"
+  },
+  {
    "wikidata": "Q5221859",
    "total_assets_usd": 7479794400,
    "year": "2019"
@@ -2733,11 +2804,6 @@
    "wikidata": "Q131345615",
    "total_assets_usd": 7237302464,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q28471437",
-   "total_assets_usd": 7182503561,
-   "year": "2021"
   },
   {
    "wikidata": "Q190080",
@@ -2901,7 +2967,7 @@
   },
   {
    "wikidata": "Q319347",
-   "total_assets_usd": 6342440891,
+   "total_assets_usd": 6338223468,
    "year": "2026"
   },
   {
@@ -2963,11 +3029,6 @@
    "wikidata": "Q12218586",
    "total_assets_usd": 6117199733,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q304944",
-   "total_assets_usd": 6114724212,
-   "year": "2024"
   },
   {
    "wikidata": "Q115167314",
@@ -3205,11 +3266,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q11283119",
-   "total_assets_usd": 5328219890,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q4376955",
    "total_assets_usd": 5291000000,
    "year": "2021"
@@ -3223,11 +3279,6 @@
    "wikidata": "Q20182134",
    "total_assets_usd": 5252523549,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q1593113",
-   "total_assets_usd": 5244742950,
-   "year": "2024"
   },
   {
    "wikidata": "Q1054216",
@@ -3506,7 +3557,7 @@
   },
   {
    "wikidata": "Q2678288",
-   "total_assets_usd": 4345567225,
+   "total_assets_usd": 4342677628,
    "year": "2026"
   },
   {
@@ -3765,11 +3816,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q12038439",
-   "total_assets_usd": 3824852066,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q30271396",
    "total_assets_usd": 3824770952,
    "year": "2023"
@@ -3850,6 +3896,11 @@
    "year": "2023"
   },
   {
+   "wikidata": "Q115167480",
+   "total_assets_usd": 3678741820,
+   "year": "2025"
+  },
+  {
    "wikidata": "Q127990",
    "total_assets_usd": 3664299830,
    "year": "2024"
@@ -3858,11 +3909,6 @@
    "wikidata": "Q1067471",
    "total_assets_usd": 3662920928,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q12048738",
-   "total_assets_usd": 3655885598,
-   "year": "2023"
   },
   {
    "wikidata": "Q2532301",
@@ -4038,11 +4084,6 @@
    "wikidata": "Q2105992",
    "total_assets_usd": 3326357000,
    "year": "2021"
-  },
-  {
-   "wikidata": "Q26884311",
-   "total_assets_usd": 3322782951,
-   "year": "2018"
   },
   {
    "wikidata": "Q131346275",
@@ -4335,11 +4376,6 @@
    "year": "2021"
   },
   {
-   "wikidata": "Q20937928",
-   "total_assets_usd": 2848982895,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q1193547",
    "total_assets_usd": 2839325000,
    "year": "2020"
@@ -4363,11 +4399,6 @@
    "wikidata": "Q131346494",
    "total_assets_usd": 2816591144,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q12006431",
-   "total_assets_usd": 2815986554,
-   "year": "2020"
   },
   {
    "wikidata": "Q131346121",
@@ -4495,11 +4526,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q20088582",
-   "total_assets_usd": 2706056956,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q131345715",
    "total_assets_usd": 2699246110,
    "year": "2023"
@@ -4523,11 +4549,6 @@
    "wikidata": "Q131345642",
    "total_assets_usd": 2685695558,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q15123994",
-   "total_assets_usd": 2678467894,
-   "year": "2018"
   },
   {
    "wikidata": "Q131345489",
@@ -4855,11 +4876,6 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q11872931",
-   "total_assets_usd": 2334322062,
-   "year": "2025"
-  },
-  {
    "wikidata": "Q4348924",
    "total_assets_usd": 2327352223,
    "year": "2017"
@@ -4908,11 +4924,6 @@
    "wikidata": "Q54828890",
    "total_assets_usd": 2282585813,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q1848025",
-   "total_assets_usd": 2282404931,
-   "year": "2024"
   },
   {
    "wikidata": "Q1672939",
@@ -5028,11 +5039,6 @@
    "wikidata": "Q136717680",
    "total_assets_usd": 2209504193,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q29477065",
-   "total_assets_usd": 2208435362,
-   "year": "2025"
   },
   {
    "wikidata": "Q12239121",
@@ -5450,11 +5456,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q15870812",
-   "total_assets_usd": 1883882479,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q1466001",
    "total_assets_usd": 1880806380,
    "year": "2020"
@@ -5478,11 +5479,6 @@
    "wikidata": "Q131345570",
    "total_assets_usd": 1860250872,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q28201164",
-   "total_assets_usd": 1855980472,
-   "year": "2025"
   },
   {
    "wikidata": "Q7401068",
@@ -5533,11 +5529,6 @@
    "wikidata": "Q901440",
    "total_assets_usd": 1846792903,
    "year": "2022"
-  },
-  {
-   "wikidata": "Q2405791",
-   "total_assets_usd": 1845828499,
-   "year": "2021"
   },
   {
    "wikidata": "Q7865163",
@@ -5720,11 +5711,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q10854950",
-   "total_assets_usd": 1753657717,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q131346551",
    "total_assets_usd": 1751272254,
    "year": "2023"
@@ -5875,11 +5861,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q83867670",
-   "total_assets_usd": 1675841490,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q188370",
    "total_assets_usd": 1675810000,
    "year": "2020"
@@ -5893,21 +5874,6 @@
    "wikidata": "Q846859",
    "total_assets_usd": 1671901831,
    "year": "2020"
-  },
-  {
-   "wikidata": "Q2247432",
-   "total_assets_usd": 1670334252,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q28325357",
-   "total_assets_usd": 1669336457,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q12036484",
-   "total_assets_usd": 1669053948,
-   "year": "2021"
   },
   {
    "wikidata": "Q131345593",
@@ -6080,11 +6046,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q5201737",
-   "total_assets_usd": 1593277523,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q17081612",
    "total_assets_usd": 1589422000,
    "year": "2019"
@@ -6093,11 +6054,6 @@
    "wikidata": "Q1030044",
    "total_assets_usd": 1587314312,
    "year": "2020"
-  },
-  {
-   "wikidata": "Q12051564",
-   "total_assets_usd": 1586447536,
-   "year": "2018"
   },
   {
    "wikidata": "Q131346107",
@@ -6128,11 +6084,6 @@
    "wikidata": "Q130894827",
    "total_assets_usd": 1571696915,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q28549001",
-   "total_assets_usd": 1570027389,
-   "year": "2020"
   },
   {
    "wikidata": "Q131345621",
@@ -6168,11 +6119,6 @@
    "wikidata": "Q54833389",
    "total_assets_usd": 1554597163,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q20058040",
-   "total_assets_usd": 1553665278,
-   "year": "2019"
   },
   {
    "wikidata": "Q54857778",
@@ -6372,11 +6318,6 @@
   {
    "wikidata": "Q1623314",
    "total_assets_usd": 1469859304,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q933787",
-   "total_assets_usd": 1469138923,
    "year": "2023"
   },
   {
@@ -6650,11 +6591,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q26492961",
-   "total_assets_usd": 1360012174,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q131346118",
    "total_assets_usd": 1359468416,
    "year": "2023"
@@ -6830,14 +6766,14 @@
    "year": "2016"
   },
   {
+   "wikidata": "Q11448737",
+   "total_assets_usd": 1289585088,
+   "year": "2026"
+  },
+  {
    "wikidata": "Q130314578",
    "total_assets_usd": 1289483686,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q11448737",
-   "total_assets_usd": 1289326513,
-   "year": "2026"
   },
   {
    "wikidata": "Q18412260",
@@ -6910,11 +6846,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q12046128",
-   "total_assets_usd": 1267672317,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q2331913",
    "total_assets_usd": 1265715539,
    "year": "2018"
@@ -6926,7 +6857,7 @@
   },
   {
    "wikidata": "Q58196677",
-   "total_assets_usd": 1263790783,
+   "total_assets_usd": 1261807033,
    "year": "2025"
   },
   {
@@ -7065,11 +6996,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q28654836",
-   "total_assets_usd": 1217549644,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q995265",
    "total_assets_usd": 1216445000,
    "year": "2020"
@@ -7195,11 +7121,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q98703020",
-   "total_assets_usd": 1175874402,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q130894905",
    "total_assets_usd": 1175258857,
    "year": "2022"
@@ -7315,11 +7236,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q28920338",
-   "total_assets_usd": 1140799158,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q131345936",
    "total_assets_usd": 1139334649,
    "year": "2015"
@@ -7360,11 +7276,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q58218859",
-   "total_assets_usd": 1131485308,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q131346569",
    "total_assets_usd": 1131010157,
    "year": "2023"
@@ -7390,11 +7301,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q10380001",
-   "total_assets_usd": 1125699452,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q104429321",
    "total_assets_usd": 1125543561,
    "year": "2023"
@@ -7408,11 +7314,6 @@
    "wikidata": "Q131346032",
    "total_assets_usd": 1123672620,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q12045462",
-   "total_assets_usd": 1122763795,
-   "year": "2019"
   },
   {
    "wikidata": "Q137365305",
@@ -7785,11 +7686,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q20851639",
-   "total_assets_usd": 1053077343,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q131345732",
    "total_assets_usd": 1052783876,
    "year": "2013"
@@ -8060,11 +7956,6 @@
    "year": "2021"
   },
   {
-   "wikidata": "Q9144241",
-   "total_assets_usd": 1001114956,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q54675942",
    "total_assets_usd": 1000436937,
    "year": "2024"
@@ -8075,24 +7966,9 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q51905400",
-   "total_assets_usd": 994814355,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q51906440",
-   "total_assets_usd": 992576717,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q7709930",
    "total_assets_usd": 989198328,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q130557687",
-   "total_assets_usd": 987854728,
-   "year": "2023"
   },
   {
    "wikidata": "Q12218566",
@@ -8148,11 +8024,6 @@
    "wikidata": "Q6973045",
    "total_assets_usd": 956674445,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q58172283",
-   "total_assets_usd": 956260856,
-   "year": "2022"
   },
   {
    "wikidata": "Q4652322",
@@ -8238,11 +8109,6 @@
    "wikidata": "Q7023716",
    "total_assets_usd": 884733597,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q26225483",
-   "total_assets_usd": 881556432,
-   "year": "2021"
   },
   {
    "wikidata": "Q28715288",
@@ -8525,11 +8391,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q11707119",
-   "total_assets_usd": 748373467,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q658242",
    "total_assets_usd": 745446085,
    "year": "2017"
@@ -8555,24 +8416,9 @@
    "year": "2020"
   },
   {
-   "wikidata": "Q67814371",
-   "total_assets_usd": 730491479,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q1814435",
    "total_assets_usd": 726809817,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q341090",
-   "total_assets_usd": 726665015,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q19602804",
-   "total_assets_usd": 726140533,
-   "year": "2020"
   },
   {
    "wikidata": "Q12188889",
@@ -8593,11 +8439,6 @@
    "wikidata": "Q20401447",
    "total_assets_usd": 702667200,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q25857926",
-   "total_assets_usd": 701473249,
-   "year": "2022"
   },
   {
    "wikidata": "Q137457146",
@@ -8675,29 +8516,14 @@
    "year": "2016"
   },
   {
-   "wikidata": "Q26678627",
-   "total_assets_usd": 659682113,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q17182",
    "total_assets_usd": 656359987,
    "year": "2024"
   },
   {
-   "wikidata": "Q12043771",
-   "total_assets_usd": 656251328,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q12188891",
    "total_assets_usd": 656241867,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q30258506",
-   "total_assets_usd": 656155858,
-   "year": "2023"
   },
   {
    "wikidata": "Q4832862",
@@ -8712,11 +8538,6 @@
   {
    "wikidata": "Q1473",
    "total_assets_usd": 650256889,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q114949208",
-   "total_assets_usd": 647486010,
    "year": "2024"
   },
   {
@@ -8741,7 +8562,7 @@
   },
   {
    "wikidata": "Q136756066",
-   "total_assets_usd": 628522938,
+   "total_assets_usd": 627905563,
    "year": "2026"
   },
   {
@@ -8758,11 +8579,6 @@
    "wikidata": "Q1889017",
    "total_assets_usd": 624426926,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q12055286",
-   "total_assets_usd": 623030569,
-   "year": "2023"
   },
   {
    "wikidata": "Q12188885",
@@ -8850,11 +8666,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q16974076",
-   "total_assets_usd": 582512086,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q1478",
    "total_assets_usd": 581907796,
    "year": "2024"
@@ -8863,11 +8674,6 @@
    "wikidata": "Q13767",
    "total_assets_usd": 579925210,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58221921",
-   "total_assets_usd": 573564482,
-   "year": "2020"
   },
   {
    "wikidata": "Q63124809",
@@ -8940,11 +8746,6 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q58196086",
-   "total_assets_usd": 531928889,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q12218580",
    "total_assets_usd": 524195733,
    "year": "2019"
@@ -8970,34 +8771,14 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q28605885",
-   "total_assets_usd": 509444848,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q108441392",
-   "total_assets_usd": 507533492,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q96472502",
    "total_assets_usd": 504904384,
    "year": "2024"
   },
   {
-   "wikidata": "Q58604177",
-   "total_assets_usd": 501780377,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q2299928",
    "total_assets_usd": 497547719,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q98930883",
-   "total_assets_usd": 496705203,
-   "year": "2008"
   },
   {
    "wikidata": "Q4504137",
@@ -9013,11 +8794,6 @@
    "wikidata": "Q12218563",
    "total_assets_usd": 483712800,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q58195754",
-   "total_assets_usd": 482631936,
-   "year": "2018"
   },
   {
    "wikidata": "Q1507207",
@@ -9075,23 +8851,8 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q11989409",
-   "total_assets_usd": 468418282,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q13785",
    "total_assets_usd": 467208897,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q40867831",
-   "total_assets_usd": 465062708,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q30258601",
-   "total_assets_usd": 461587909,
    "year": "2024"
   },
   {
@@ -9125,11 +8886,6 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q41567768",
-   "total_assets_usd": 441016073,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q136504592",
    "total_assets_usd": 439263839,
    "year": "2024"
@@ -9143,16 +8899,6 @@
    "wikidata": "Q114556736",
    "total_assets_usd": 430219105,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q30258587",
-   "total_assets_usd": 428741297,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q30225597",
-   "total_assets_usd": 423049211,
-   "year": "2021"
   },
   {
    "wikidata": "Q11885509",
@@ -9175,11 +8921,6 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q58218426",
-   "total_assets_usd": 410524588,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q12110155",
    "total_assets_usd": 408722266,
    "year": "2025"
@@ -9198,11 +8939,6 @@
    "wikidata": "Q137456405",
    "total_assets_usd": 398947986,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q30258467",
-   "total_assets_usd": 398922812,
-   "year": "2017"
   },
   {
    "wikidata": "Q12119088",
@@ -9230,11 +8966,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q45464",
-   "total_assets_usd": 394892294,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q20403318",
    "total_assets_usd": 391272267,
    "year": "2019"
@@ -9243,11 +8974,6 @@
    "wikidata": "Q13825",
    "total_assets_usd": 389747589,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q11942669",
-   "total_assets_usd": 388544424,
-   "year": "2019"
   },
   {
    "wikidata": "Q12188922",
@@ -9270,24 +8996,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58195898",
-   "total_assets_usd": 385520779,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q26678585",
-   "total_assets_usd": 384637467,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q13753",
    "total_assets_usd": 382709306,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q82250864",
-   "total_assets_usd": 375365381,
-   "year": "2018"
   },
   {
    "wikidata": "Q39738",
@@ -9310,34 +9021,14 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q58172313",
-   "total_assets_usd": 368291117,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q12218694",
    "total_assets_usd": 368054933,
    "year": "2019"
   },
   {
-   "wikidata": "Q26258840",
-   "total_assets_usd": 367244214,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q3787525",
    "total_assets_usd": 367125894,
    "year": "2016"
-  },
-  {
-   "wikidata": "Q8079748",
-   "total_assets_usd": 363986593,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q61957954",
-   "total_assets_usd": 362299793,
-   "year": "2018"
   },
   {
    "wikidata": "Q20401488",
@@ -9348,11 +9039,6 @@
    "wikidata": "Q13869",
    "total_assets_usd": 360288834,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q8183600",
-   "total_assets_usd": 359844189,
-   "year": "2018"
   },
   {
    "wikidata": "Q12518092",
@@ -9390,16 +9076,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q16765283",
-   "total_assets_usd": 351596767,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q20058079",
-   "total_assets_usd": 350515297,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q20403120",
    "total_assets_usd": 350361333,
    "year": "2019"
@@ -9418,11 +9094,6 @@
    "wikidata": "Q12218700",
    "total_assets_usd": 347360533,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q42969493",
-   "total_assets_usd": 346432527,
-   "year": "2021"
   },
   {
    "wikidata": "Q13844",
@@ -9445,11 +9116,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q10859460",
-   "total_assets_usd": 341229034,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q10688511",
    "total_assets_usd": 340064131,
    "year": "2023"
@@ -9465,11 +9131,6 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q27058642",
-   "total_assets_usd": 336019334,
-   "year": "2015"
-  },
-  {
    "wikidata": "Q7427495",
    "total_assets_usd": 335910286,
    "year": "2016"
@@ -9483,11 +9144,6 @@
    "wikidata": "Q137458008",
    "total_assets_usd": 333915207,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q20755384",
-   "total_assets_usd": 333521456,
-   "year": "2020"
   },
   {
    "wikidata": "Q5062906",
@@ -9515,24 +9171,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q26492922",
-   "total_assets_usd": 328799001,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q58219572",
-   "total_assets_usd": 327217620,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q13892",
    "total_assets_usd": 326620843,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q100148340",
-   "total_assets_usd": 322639759,
-   "year": "2019"
   },
   {
    "wikidata": "Q16692603",
@@ -9550,16 +9191,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q112603158",
-   "total_assets_usd": 317145700,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q19305480",
-   "total_assets_usd": 316020864,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q13900",
    "total_assets_usd": 314062607,
    "year": "2024"
@@ -9570,19 +9201,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58170669",
-   "total_assets_usd": 311176659,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q21095035",
    "total_assets_usd": 311067756,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q30258448",
-   "total_assets_usd": 310528778,
-   "year": "2019"
   },
   {
    "wikidata": "Q20078290",
@@ -9605,11 +9226,6 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q341134",
-   "total_assets_usd": 302248617,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q117451066",
    "total_assets_usd": 299833251,
    "year": "2025"
@@ -9630,11 +9246,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q12038229",
-   "total_assets_usd": 296617846,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q137456379",
    "total_assets_usd": 294201075,
    "year": "2025"
@@ -9647,11 +9258,6 @@
   {
    "wikidata": "Q1645",
    "total_assets_usd": 293473677,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q54935468",
-   "total_assets_usd": 293298701,
    "year": "2024"
   },
   {
@@ -9670,19 +9276,9 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q58205887",
-   "total_assets_usd": 290275993,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q20403488",
    "total_assets_usd": 290121600,
    "year": "2019"
-  },
-  {
-   "wikidata": "Q58197019",
-   "total_assets_usd": 290046876,
-   "year": "2017"
   },
   {
    "wikidata": "Q12218616",
@@ -9710,21 +9306,6 @@
    "year": "2019"
   },
   {
-   "wikidata": "Q52852600",
-   "total_assets_usd": 286527658,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q58196698",
-   "total_assets_usd": 286308130,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q90141438",
-   "total_assets_usd": 285505847,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q20097236",
    "total_assets_usd": 284501056,
    "year": "2025"
@@ -9745,11 +9326,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q47541700",
-   "total_assets_usd": 282092415,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q13889",
    "total_assets_usd": 280880173,
    "year": "2024"
@@ -9760,19 +9336,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58169173",
-   "total_assets_usd": 278297870,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q12218609",
    "total_assets_usd": 277728267,
    "year": "2016"
-  },
-  {
-   "wikidata": "Q67815278",
-   "total_assets_usd": 277051425,
-   "year": "2021"
   },
   {
    "wikidata": "Q2470783",
@@ -9810,34 +9376,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58218819",
-   "total_assets_usd": 270057961,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q113030657",
-   "total_assets_usd": 269313949,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q2631260",
    "total_assets_usd": 268888942,
    "year": "2017"
-  },
-  {
-   "wikidata": "Q51374033",
-   "total_assets_usd": 268426495,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q113030611",
-   "total_assets_usd": 267555182,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q12046604",
-   "total_assets_usd": 265567469,
-   "year": "2021"
   },
   {
    "wikidata": "Q63139",
@@ -9855,29 +9396,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q30258599",
-   "total_assets_usd": 262996312,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q19602019",
-   "total_assets_usd": 260589622,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q240656",
    "total_assets_usd": 259508733,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q58196319",
-   "total_assets_usd": 258894351,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q22914851",
-   "total_assets_usd": 258828041,
-   "year": "2024"
   },
   {
    "wikidata": "Q13721",
@@ -9885,39 +9406,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58197026",
-   "total_assets_usd": 256518050,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q487164",
    "total_assets_usd": 255463893,
    "year": "2024"
   },
   {
-   "wikidata": "Q67806761",
-   "total_assets_usd": 255273526,
-   "year": "2015"
-  },
-  {
    "wikidata": "Q12101390",
    "total_assets_usd": 254793126,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q60161033",
-   "total_assets_usd": 254504507,
-   "year": "2006"
-  },
-  {
-   "wikidata": "Q67807738",
-   "total_assets_usd": 253189186,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q28971706",
-   "total_assets_usd": 251981394,
-   "year": "2018"
   },
   {
    "wikidata": "Q4040469",
@@ -9928,16 +9424,6 @@
    "wikidata": "Q137456394",
    "total_assets_usd": 250965997,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q11985300",
-   "total_assets_usd": 250330748,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q67811791",
-   "total_assets_usd": 250242897,
-   "year": "2018"
   },
   {
    "wikidata": "Q13840",
@@ -9963,16 +9449,6 @@
    "wikidata": "Q1623",
    "total_assets_usd": 247759838,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58218127",
-   "total_assets_usd": 246913775,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q58196997",
-   "total_assets_usd": 244249422,
-   "year": "2021"
   },
   {
    "wikidata": "Q1017833",
@@ -10010,29 +9486,14 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q30258617",
-   "total_assets_usd": 236999363,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q137456476",
    "total_assets_usd": 236042271,
    "year": "2025"
   },
   {
-   "wikidata": "Q54983387",
-   "total_assets_usd": 235984614,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q13739",
    "total_assets_usd": 235315467,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q130605652",
-   "total_assets_usd": 234689913,
-   "year": "2022"
   },
   {
    "wikidata": "Q137456416",
@@ -10050,24 +9511,9 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q58219551",
-   "total_assets_usd": 232275903,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q1001644",
-   "total_assets_usd": 227960868,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q131189050",
    "total_assets_usd": 227589651,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q58219764",
-   "total_assets_usd": 227182592,
-   "year": "2020"
   },
   {
    "wikidata": "Q1723",
@@ -10090,29 +9536,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58172255",
-   "total_assets_usd": 221571767,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q97487584",
-   "total_assets_usd": 221049948,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q113654455",
-   "total_assets_usd": 221047782,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q249717",
    "total_assets_usd": 219966843,
    "year": "2017"
-  },
-  {
-   "wikidata": "Q116894779",
-   "total_assets_usd": 219950699,
-   "year": "2024"
   },
   {
    "wikidata": "Q75875",
@@ -10140,29 +9566,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58196857",
-   "total_assets_usd": 218553414,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q58195185",
-   "total_assets_usd": 217975838,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q42171547",
-   "total_assets_usd": 217430915,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q30956394",
    "total_assets_usd": 217021837,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q58195069",
-   "total_assets_usd": 216850152,
-   "year": "2020"
   },
   {
    "wikidata": "Q2340211",
@@ -10190,11 +9596,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q41568083",
-   "total_assets_usd": 209516973,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q75961",
    "total_assets_usd": 208886160,
    "year": "2024"
@@ -10215,21 +9616,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q41567201",
-   "total_assets_usd": 206260857,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q30258590",
-   "total_assets_usd": 205966781,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q54969063",
-   "total_assets_usd": 205681473,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q574903",
    "total_assets_usd": 205264717,
    "year": "2024"
@@ -10240,11 +9626,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q14545884",
-   "total_assets_usd": 204412001,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q4452646",
    "total_assets_usd": 204039413,
    "year": "2022"
@@ -10253,21 +9634,6 @@
    "wikidata": "Q13806",
    "total_assets_usd": 202679185,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58218079",
-   "total_assets_usd": 199261549,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q84984052",
-   "total_assets_usd": 198978713,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q136289410",
-   "total_assets_usd": 197654460,
-   "year": "2023"
   },
   {
    "wikidata": "Q13829",
@@ -10285,11 +9651,6 @@
    "year": "2021"
   },
   {
-   "wikidata": "Q58218091",
-   "total_assets_usd": 194989454,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q13868",
    "total_assets_usd": 194348560,
    "year": "2024"
@@ -10305,38 +9666,8 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q67814560",
-   "total_assets_usd": 192520254,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q58197106",
-   "total_assets_usd": 192517208,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q12019464",
-   "total_assets_usd": 191879896,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q58196385",
-   "total_assets_usd": 191651454,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q132776618",
    "total_assets_usd": 191163718,
-   "year": "2025"
-  },
-  {
-   "wikidata": "Q58219544",
-   "total_assets_usd": 190050565,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q12016781",
-   "total_assets_usd": 189915526,
    "year": "2025"
   },
   {
@@ -10348,11 +9679,6 @@
    "wikidata": "Q495014",
    "total_assets_usd": 189558619,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q71068760",
-   "total_assets_usd": 189020896,
-   "year": "2018"
   },
   {
    "wikidata": "Q20076955",
@@ -10385,11 +9711,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q69360179",
-   "total_assets_usd": 183246326,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q25927159",
    "total_assets_usd": 183156897,
    "year": "2017"
@@ -10400,29 +9721,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58169716",
-   "total_assets_usd": 182945610,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q55543",
    "total_assets_usd": 181557647,
    "year": "2023"
   },
   {
-   "wikidata": "Q52852506",
-   "total_assets_usd": 181358723,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q16253487",
    "total_assets_usd": 181307283,
    "year": "2017"
-  },
-  {
-   "wikidata": "Q61726996",
-   "total_assets_usd": 181084601,
-   "year": "2024"
   },
   {
    "wikidata": "Q61374216",
@@ -10450,19 +9756,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58169825",
-   "total_assets_usd": 178896165,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q96099932",
    "total_assets_usd": 177405235,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58171779",
-   "total_assets_usd": 177039800,
-   "year": "2018"
   },
   {
    "wikidata": "Q131188507",
@@ -10485,34 +9781,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58195887",
-   "total_assets_usd": 173838452,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q67809099",
-   "total_assets_usd": 173835216,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q20086508",
    "total_assets_usd": 173694506,
    "year": "2024"
   },
   {
-   "wikidata": "Q67811450",
-   "total_assets_usd": 172112671,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q2187",
    "total_assets_usd": 171626149,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q67810049",
-   "total_assets_usd": 171158996,
-   "year": "2019"
   },
   {
    "wikidata": "Q4043856",
@@ -10530,24 +9806,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q26678616",
-   "total_assets_usd": 167359591,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q80817118",
-   "total_assets_usd": 167217102,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q921442",
    "total_assets_usd": 167063726,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q101064063",
-   "total_assets_usd": 166452629,
-   "year": "2021"
   },
   {
    "wikidata": "Q55741",
@@ -10565,39 +9826,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q132863350",
-   "total_assets_usd": 164093002,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q14339924",
-   "total_assets_usd": 163266323,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q58219506",
-   "total_assets_usd": 163237778,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q4045581",
-   "total_assets_usd": 162670453,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q58195153",
-   "total_assets_usd": 162587049,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q106016969",
-   "total_assets_usd": 160662267,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q63129",
    "total_assets_usd": 160467256,
    "year": "2024"
+  },
+  {
+   "wikidata": "Q131189574",
+   "total_assets_usd": 160016730,
+   "year": "2025"
   },
   {
    "wikidata": "Q4235147",
@@ -10655,24 +9891,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q67805876",
-   "total_assets_usd": 154369732,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q7689159",
    "total_assets_usd": 154260762,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q67814601",
-   "total_assets_usd": 153689359,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q66715834",
-   "total_assets_usd": 153681896,
-   "year": "2018"
   },
   {
    "wikidata": "Q486737",
@@ -10695,19 +9916,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q42307372",
-   "total_assets_usd": 151515814,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q13882",
    "total_assets_usd": 151323080,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58524608",
-   "total_assets_usd": 151270307,
-   "year": "2018"
   },
   {
    "wikidata": "Q7894306",
@@ -10725,16 +9936,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q3490485",
-   "total_assets_usd": 148431564,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q56695751",
-   "total_assets_usd": 148034321,
-   "year": "2025"
-  },
-  {
    "wikidata": "Q97805189",
    "total_assets_usd": 147895424,
    "year": "2025"
@@ -10745,29 +9946,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q12051566",
-   "total_assets_usd": 146600464,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q58218756",
-   "total_assets_usd": 146439217,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q60986632",
    "total_assets_usd": 146434898,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q48451697",
-   "total_assets_usd": 146385947,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q65790247",
-   "total_assets_usd": 146357870,
-   "year": "2017"
   },
   {
    "wikidata": "Q9364596",
@@ -10795,24 +9976,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q41567864",
-   "total_assets_usd": 145139698,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q183529",
    "total_assets_usd": 144682472,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q50319052",
-   "total_assets_usd": 144481798,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q67807557",
-   "total_assets_usd": 143883342,
-   "year": "2020"
   },
   {
    "wikidata": "Q13881",
@@ -10820,19 +9986,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q67805057",
-   "total_assets_usd": 143625049,
-   "year": "1994"
-  },
-  {
    "wikidata": "Q30332",
    "total_assets_usd": 143411511,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q67810798",
-   "total_assets_usd": 143409246,
-   "year": "2019"
   },
   {
    "wikidata": "Q4744924",
@@ -10855,11 +10011,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58196054",
-   "total_assets_usd": 141871692,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q137456399",
    "total_assets_usd": 141578823,
    "year": "2025"
@@ -10868,16 +10019,6 @@
    "wikidata": "Q131188540",
    "total_assets_usd": 141071776,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q26678630",
-   "total_assets_usd": 140395180,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q140442955",
-   "total_assets_usd": 140286977,
-   "year": "2024"
   },
   {
    "wikidata": "Q75933",
@@ -10890,34 +10031,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q11878474",
-   "total_assets_usd": 140137220,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q67812676",
-   "total_assets_usd": 139902882,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q5285",
    "total_assets_usd": 139852961,
    "year": "2024"
   },
   {
-   "wikidata": "Q58218371",
-   "total_assets_usd": 139686800,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q4231576",
    "total_assets_usd": 138642711,
    "year": "2015"
-  },
-  {
-   "wikidata": "Q116895542",
-   "total_assets_usd": 138024621,
-   "year": "2024"
   },
   {
    "wikidata": "Q13866",
@@ -10940,26 +10061,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q8550700",
-   "total_assets_usd": 136391945,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q21180783",
-   "total_assets_usd": 135875750,
-   "year": "2015"
-  },
-  {
-   "wikidata": "Q88959995",
-   "total_assets_usd": 135627677,
-   "year": "1996"
-  },
-  {
-   "wikidata": "Q58194962",
-   "total_assets_usd": 135238182,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q131189292",
    "total_assets_usd": 134920601,
    "year": "2025"
@@ -10980,11 +10081,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58196916",
-   "total_assets_usd": 133836845,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q115761088",
    "total_assets_usd": 133748474,
    "year": "2025"
@@ -10993,31 +10089,6 @@
    "wikidata": "Q62611",
    "total_assets_usd": 133422009,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q28970253",
-   "total_assets_usd": 133421508,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q302544",
-   "total_assets_usd": 132286323,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q58196690",
-   "total_assets_usd": 131490212,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q4053691",
-   "total_assets_usd": 130202804,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q58502936",
-   "total_assets_usd": 129423572,
-   "year": "2017"
   },
   {
    "wikidata": "Q137456462",
@@ -11045,19 +10116,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q12021343",
-   "total_assets_usd": 128447520,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q7499501",
    "total_assets_usd": 128116091,
    "year": "2021"
-  },
-  {
-   "wikidata": "Q12017970",
-   "total_assets_usd": 128087386,
-   "year": "2020"
   },
   {
    "wikidata": "Q316527",
@@ -11068,11 +10129,6 @@
    "wikidata": "Q4128552",
    "total_assets_usd": 127582234,
    "year": "2017"
-  },
-  {
-   "wikidata": "Q3498908",
-   "total_assets_usd": 127473575,
-   "year": "2016"
   },
   {
    "wikidata": "Q137456523",
@@ -11095,24 +10151,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q194393",
-   "total_assets_usd": 126889718,
+   "wikidata": "Q131188857",
+   "total_assets_usd": 125921328,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q134305926",
-   "total_assets_usd": 126279357,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q58218442",
-   "total_assets_usd": 125991640,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q135404530",
-   "total_assets_usd": 125559369,
-   "year": "2024"
   },
   {
    "wikidata": "Q12072279",
@@ -11125,29 +10166,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q63080390",
-   "total_assets_usd": 125052781,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q4243191",
    "total_assets_usd": 124376047,
    "year": "2025"
   },
   {
-   "wikidata": "Q196868",
-   "total_assets_usd": 124308839,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q25096",
    "total_assets_usd": 124221951,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58602062",
-   "total_assets_usd": 123756318,
-   "year": "2021"
   },
   {
    "wikidata": "Q13772",
@@ -11165,24 +10191,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q81063275",
-   "total_assets_usd": 122028021,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q130573332",
    "total_assets_usd": 120763628,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q12050085",
-   "total_assets_usd": 120184430,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q63210607",
-   "total_assets_usd": 120135618,
-   "year": "2018"
   },
   {
    "wikidata": "Q61116901",
@@ -11195,19 +10206,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q66258849",
-   "total_assets_usd": 118255108,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q13885",
    "total_assets_usd": 116736660,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q3073139",
-   "total_assets_usd": 116300032,
-   "year": "2020"
   },
   {
    "wikidata": "Q12105877",
@@ -11225,24 +10226,14 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q137456408",
-   "total_assets_usd": 115643088,
+   "wikidata": "Q131189244",
+   "total_assets_usd": 115697352,
    "year": "2025"
   },
   {
-   "wikidata": "Q58194969",
-   "total_assets_usd": 115607434,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q58196374",
-   "total_assets_usd": 115490231,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q67807749",
-   "total_assets_usd": 115243957,
-   "year": "2018"
+   "wikidata": "Q137456408",
+   "total_assets_usd": 115643088,
+   "year": "2025"
   },
   {
    "wikidata": "Q137456395",
@@ -11265,19 +10256,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58196409",
-   "total_assets_usd": 113692931,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q137456790",
    "total_assets_usd": 113340397,
    "year": "2022"
-  },
-  {
-   "wikidata": "Q63208656",
-   "total_assets_usd": 112980466,
-   "year": "2017"
   },
   {
    "wikidata": "Q5361952",
@@ -11285,19 +10266,9 @@
    "year": "2022"
   },
   {
-   "wikidata": "Q124774174",
-   "total_assets_usd": 112905200,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q13728",
    "total_assets_usd": 112795235,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q10364647",
-   "total_assets_usd": 112677703,
-   "year": "2023"
   },
   {
    "wikidata": "Q11634601",
@@ -11315,39 +10286,9 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q26982043",
-   "total_assets_usd": 111792749,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q58219047",
-   "total_assets_usd": 111493230,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q58219722",
-   "total_assets_usd": 111256076,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q11226865",
-   "total_assets_usd": 111192880,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q137456400",
    "total_assets_usd": 110876164,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q58490222",
-   "total_assets_usd": 110737822,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q63085951",
-   "total_assets_usd": 110127661,
-   "year": "2017"
   },
   {
    "wikidata": "Q577336",
@@ -11375,11 +10316,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q52270985",
-   "total_assets_usd": 108840021,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q13877",
    "total_assets_usd": 108345212,
    "year": "2024"
@@ -11390,21 +10326,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q4150666",
-   "total_assets_usd": 107413385,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q19800576",
-   "total_assets_usd": 107137088,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q28971521",
-   "total_assets_usd": 107079874,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q56377324",
    "total_assets_usd": 106189260,
    "year": "2025"
@@ -11413,16 +10334,6 @@
    "wikidata": "Q8861",
    "total_assets_usd": 105801107,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q67809684",
-   "total_assets_usd": 105479582,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q14458214",
-   "total_assets_usd": 105375089,
-   "year": "2018"
   },
   {
    "wikidata": "Q3083189",
@@ -11438,11 +10349,6 @@
    "wikidata": "Q131189337",
    "total_assets_usd": 104820926,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q30258495",
-   "total_assets_usd": 104474610,
-   "year": "2016"
   },
   {
    "wikidata": "Q137456453",
@@ -11465,29 +10371,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q67812359",
-   "total_assets_usd": 102943217,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q13714",
    "total_assets_usd": 102351900,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q30255856",
-   "total_assets_usd": 101875121,
-   "year": "2022"
-  },
-  {
-   "wikidata": "Q58219641",
-   "total_assets_usd": 101764258,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q67806707",
-   "total_assets_usd": 101456660,
-   "year": "2020"
   },
   {
    "wikidata": "Q60986649",
@@ -11498,11 +10384,6 @@
    "wikidata": "Q1856",
    "total_assets_usd": 101309170,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q66384936",
-   "total_assets_usd": 101235764,
-   "year": "2018"
   },
   {
    "wikidata": "Q2193",
@@ -11535,11 +10416,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q58196291",
-   "total_assets_usd": 99294756,
-   "year": "2016"
-  },
-  {
    "wikidata": "Q16712082",
    "total_assets_usd": 99053992,
    "year": "2025"
@@ -11550,29 +10426,14 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q58169397",
-   "total_assets_usd": 98413236,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q1020688",
    "total_assets_usd": 98299947,
    "year": "2024"
   },
   {
-   "wikidata": "Q106595826",
-   "total_assets_usd": 98254172,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q122762419",
    "total_assets_usd": 98190096,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q58219620",
-   "total_assets_usd": 98110820,
-   "year": "2021"
   },
   {
    "wikidata": "Q273928",
@@ -11590,24 +10451,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q67805339",
-   "total_assets_usd": 97230464,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q67811432",
-   "total_assets_usd": 96892210,
-   "year": "2021"
-  },
-  {
    "wikidata": "Q967367",
    "total_assets_usd": 96735754,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q105810218",
-   "total_assets_usd": 96691832,
-   "year": "2012"
   },
   {
    "wikidata": "Q137456436",
@@ -11628,11 +10474,6 @@
    "wikidata": "Q174269",
    "total_assets_usd": 95922509,
    "year": "2012"
-  },
-  {
-   "wikidata": "Q12054892",
-   "total_assets_usd": 95789192,
-   "year": "2023"
   },
   {
    "wikidata": "Q4207808",
@@ -11660,11 +10501,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q19601775",
-   "total_assets_usd": 94460823,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q137456661",
    "total_assets_usd": 94431614,
    "year": "2025"
@@ -11673,11 +10509,6 @@
    "wikidata": "Q4183112",
    "total_assets_usd": 94286122,
    "year": "2017"
-  },
-  {
-   "wikidata": "Q67806731",
-   "total_assets_usd": 94229729,
-   "year": "2020"
   },
   {
    "wikidata": "Q137456417",
@@ -11690,19 +10521,9 @@
    "year": "2022"
   },
   {
-   "wikidata": "Q341139",
-   "total_assets_usd": 92674446,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q592338",
    "total_assets_usd": 92597512,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q106671960",
-   "total_assets_usd": 92493929,
-   "year": "2018"
   },
   {
    "wikidata": "Q13867",
@@ -11723,21 +10544,6 @@
    "wikidata": "Q57243865",
    "total_assets_usd": 91556060,
    "year": "2018"
-  },
-  {
-   "wikidata": "Q30258421",
-   "total_assets_usd": 91444806,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q91813960",
-   "total_assets_usd": 91068277,
-   "year": "2014"
-  },
-  {
-   "wikidata": "Q58557176",
-   "total_assets_usd": 90897521,
-   "year": "2023"
   },
   {
    "wikidata": "Q112845159",
@@ -11775,9 +10581,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q60161154",
-   "total_assets_usd": 88719114,
-   "year": "2017"
+   "wikidata": "Q56583309",
+   "total_assets_usd": 89087860,
+   "year": "2025"
   },
   {
    "wikidata": "Q12174040",
@@ -11805,11 +10611,6 @@
    "year": "2020"
   },
   {
-   "wikidata": "Q19602117",
-   "total_assets_usd": 86813136,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q1025387",
    "total_assets_usd": 86811817,
    "year": "2024"
@@ -11825,11 +10626,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58218786",
-   "total_assets_usd": 85493924,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q35925",
    "total_assets_usd": 85474855,
    "year": "2024"
@@ -11838,11 +10634,6 @@
    "wikidata": "Q1525029",
    "total_assets_usd": 85440685,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q97487574",
-   "total_assets_usd": 85169286,
-   "year": "2019"
   },
   {
    "wikidata": "Q131188912",
@@ -11855,11 +10646,6 @@
    "year": "2021"
   },
   {
-   "wikidata": "Q41567262",
-   "total_assets_usd": 84131547,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q1665236",
    "total_assets_usd": 83860483,
    "year": "2025"
@@ -11870,39 +10656,19 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q30258626",
-   "total_assets_usd": 83442018,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q63110",
    "total_assets_usd": 83394416,
    "year": "2024"
   },
   {
-   "wikidata": "Q131188479",
-   "total_assets_usd": 83315881,
+   "wikidata": "Q131188437",
+   "total_assets_usd": 83335766,
    "year": "2025"
   },
   {
-   "wikidata": "Q3494875",
-   "total_assets_usd": 83304955,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q60169382",
-   "total_assets_usd": 83213832,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q56452817",
-   "total_assets_usd": 83155593,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q58507572",
-   "total_assets_usd": 83087691,
-   "year": "2022"
+   "wikidata": "Q131188479",
+   "total_assets_usd": 83315881,
+   "year": "2025"
   },
   {
    "wikidata": "Q13875",
@@ -11920,29 +10686,14 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q41567829",
-   "total_assets_usd": 81511343,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q13846",
    "total_assets_usd": 80929975,
    "year": "2024"
   },
   {
-   "wikidata": "Q60050588",
-   "total_assets_usd": 80734855,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q131188433",
    "total_assets_usd": 80479701,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q10859497",
-   "total_assets_usd": 80200566,
-   "year": "2019"
   },
   {
    "wikidata": "Q4058442",
@@ -11960,19 +10711,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q41568124",
-   "total_assets_usd": 79224639,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q4281137",
    "total_assets_usd": 79220761,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q106595818",
-   "total_assets_usd": 79011333,
-   "year": "2020"
   },
   {
    "wikidata": "Q39711",
@@ -12000,19 +10741,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q28975869",
-   "total_assets_usd": 78582182,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q55599",
    "total_assets_usd": 78224815,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58221560",
-   "total_assets_usd": 78164834,
-   "year": "2021"
   },
   {
    "wikidata": "Q12850",
@@ -12020,19 +10751,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58169644",
-   "total_assets_usd": 77710541,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q131187979",
    "total_assets_usd": 77630859,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q66313452",
-   "total_assets_usd": 77591315,
-   "year": "2017"
   },
   {
    "wikidata": "Q2158",
@@ -12060,11 +10781,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q414221",
-   "total_assets_usd": 77095375,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q13810",
    "total_assets_usd": 76734064,
    "year": "2024"
@@ -12073,11 +10789,6 @@
    "wikidata": "Q106783",
    "total_assets_usd": 76721612,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58196213",
-   "total_assets_usd": 76569226,
-   "year": "2017"
   },
   {
    "wikidata": "Q1701",
@@ -12095,11 +10806,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58218696",
-   "total_assets_usd": 76072399,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q12845",
    "total_assets_usd": 75978460,
    "year": "2024"
@@ -12115,21 +10821,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58197091",
-   "total_assets_usd": 75756296,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q16477323",
-   "total_assets_usd": 75735228,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q67803204",
-   "total_assets_usd": 75669417,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q875070",
    "total_assets_usd": 75584528,
    "year": "2024"
@@ -12138,11 +10829,6 @@
    "wikidata": "Q96100604",
    "total_assets_usd": 75504267,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58170481",
-   "total_assets_usd": 75494620,
-   "year": "2022"
   },
   {
    "wikidata": "Q260542",
@@ -12170,24 +10856,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q97498053",
-   "total_assets_usd": 74459322,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q698032",
-   "total_assets_usd": 74399383,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q59276",
    "total_assets_usd": 73925429,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58218896",
-   "total_assets_usd": 73800157,
-   "year": "2023"
   },
   {
    "wikidata": "Q13769",
@@ -12195,19 +10866,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q65492355",
-   "total_assets_usd": 72974372,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q56368225",
    "total_assets_usd": 72836378,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q58171005",
-   "total_assets_usd": 72808808,
-   "year": "2020"
   },
   {
    "wikidata": "Q137456501",
@@ -12230,16 +10891,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q524049",
-   "total_assets_usd": 71964521,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q66385502",
-   "total_assets_usd": 71904650,
-   "year": "2016"
-  },
-  {
    "wikidata": "Q12832",
    "total_assets_usd": 71823125,
    "year": "2024"
@@ -12250,19 +10901,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q19601902",
-   "total_assets_usd": 71538963,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q106790",
    "total_assets_usd": 71446596,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q90259154",
-   "total_assets_usd": 71283622,
-   "year": "2018"
   },
   {
    "wikidata": "Q137456407",
@@ -12280,24 +10921,9 @@
    "year": "2020"
   },
   {
-   "wikidata": "Q98546169",
-   "total_assets_usd": 70792427,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q28402134",
-   "total_assets_usd": 70569338,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q5254612",
    "total_assets_usd": 70525849,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q11903450",
-   "total_assets_usd": 70451535,
-   "year": "2018"
   },
   {
    "wikidata": "Q12159060",
@@ -12315,18 +10941,8 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q193481",
-   "total_assets_usd": 69451552,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q54460",
    "total_assets_usd": 69404729,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q133042386",
-   "total_assets_usd": 69241092,
    "year": "2024"
   },
   {
@@ -12338,16 +10954,6 @@
    "wikidata": "Q137456493",
    "total_assets_usd": 69192178,
    "year": "2023"
-  },
-  {
-   "wikidata": "Q12043470",
-   "total_assets_usd": 69057077,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q58196019",
-   "total_assets_usd": 68958451,
-   "year": "2018"
   },
   {
    "wikidata": "Q137456592",
@@ -12383,21 +10989,6 @@
    "wikidata": "Q25386604",
    "total_assets_usd": 67611939,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q18718613",
-   "total_assets_usd": 67485551,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q38306257",
-   "total_assets_usd": 67481056,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q58196668",
-   "total_assets_usd": 67411072,
-   "year": "2017"
   },
   {
    "wikidata": "Q104125",
@@ -12440,11 +11031,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q110026546",
-   "total_assets_usd": 66419848,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q6156792",
    "total_assets_usd": 66343026,
    "year": "2023"
@@ -12453,11 +11039,6 @@
    "wikidata": "Q60986619",
    "total_assets_usd": 66230474,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q8239871",
-   "total_assets_usd": 65690760,
-   "year": "2015"
   },
   {
    "wikidata": "Q1692",
@@ -12473,11 +11054,6 @@
    "wikidata": "Q894059",
    "total_assets_usd": 65150923,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58169128",
-   "total_assets_usd": 65057949,
-   "year": "2019"
   },
   {
    "wikidata": "Q2005647",
@@ -12530,11 +11106,6 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q58170509",
-   "total_assets_usd": 62926096,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q1826",
    "total_assets_usd": 62918642,
    "year": "2024"
@@ -12570,11 +11141,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q86699491",
-   "total_assets_usd": 61947433,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q141201393",
    "total_assets_usd": 61897359,
    "year": "2025"
@@ -12605,24 +11171,14 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q12043871",
-   "total_assets_usd": 60479034,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q77736919",
-   "total_assets_usd": 60465421,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q12891",
    "total_assets_usd": 60290173,
    "year": "2023"
   },
   {
-   "wikidata": "Q58222486",
-   "total_assets_usd": 60020824,
-   "year": "2024"
+   "wikidata": "Q131189210",
+   "total_assets_usd": 59730200,
+   "year": "2025"
   },
   {
    "wikidata": "Q40584",
@@ -12647,11 +11203,6 @@
   {
    "wikidata": "Q1020705",
    "total_assets_usd": 59490069,
-   "year": "2024"
-  },
-  {
-   "wikidata": "Q54982530",
-   "total_assets_usd": 59317637,
    "year": "2024"
   },
   {
@@ -12695,11 +11246,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q58218995",
-   "total_assets_usd": 57849761,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q6665196",
    "total_assets_usd": 57823858,
    "year": "2025"
@@ -12725,11 +11271,6 @@
    "year": "2023"
   },
   {
-   "wikidata": "Q67815436",
-   "total_assets_usd": 56793933,
-   "year": "2024"
-  },
-  {
    "wikidata": "Q1027120",
    "total_assets_usd": 56788660,
    "year": "2024"
@@ -12738,11 +11279,6 @@
    "wikidata": "Q4314964",
    "total_assets_usd": 56619274,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q101251505",
-   "total_assets_usd": 56564669,
-   "year": "2018"
   },
   {
    "wikidata": "Q1020674",
@@ -12795,34 +11331,14 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58194803",
-   "total_assets_usd": 54954509,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q41567267",
-   "total_assets_usd": 54946487,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q16710186",
    "total_assets_usd": 54843749,
    "year": "2025"
   },
   {
-   "wikidata": "Q4049569",
-   "total_assets_usd": 54842114,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q106526415",
-   "total_assets_usd": 54473186,
-   "year": "2019"
-  },
-  {
-   "wikidata": "Q12056889",
-   "total_assets_usd": 54243706,
-   "year": "2019"
+   "wikidata": "Q131189485",
+   "total_assets_usd": 54642951,
+   "year": "2025"
   },
   {
    "wikidata": "Q4273688",
@@ -12833,11 +11349,6 @@
    "wikidata": "Q1665247",
    "total_assets_usd": 53960231,
    "year": "2025"
-  },
-  {
-   "wikidata": "Q59753377",
-   "total_assets_usd": 53957245,
-   "year": "2018"
   },
   {
    "wikidata": "Q137456623",
@@ -12853,11 +11364,6 @@
    "wikidata": "Q43145",
    "total_assets_usd": 53750432,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q12054668",
-   "total_assets_usd": 53714223,
-   "year": "2018"
   },
   {
    "wikidata": "Q137456726",
@@ -12878,11 +11384,6 @@
    "wikidata": "Q55597",
    "total_assets_usd": 53307589,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q63079543",
-   "total_assets_usd": 53267603,
-   "year": "2023"
   },
   {
    "wikidata": "Q104487583",
@@ -12910,11 +11411,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q60686660",
-   "total_assets_usd": 52904834,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q4303367",
    "total_assets_usd": 52787169,
    "year": "2017"
@@ -12935,19 +11431,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q67807765",
-   "total_assets_usd": 52267775,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q315945",
    "total_assets_usd": 52265640,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q67811516",
-   "total_assets_usd": 52238939,
-   "year": "2018"
   },
   {
    "wikidata": "Q121073989",
@@ -12955,24 +11441,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58218749",
-   "total_assets_usd": 52117586,
-   "year": "2020"
-  },
-  {
-   "wikidata": "Q58603317",
-   "total_assets_usd": 52108919,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q25303534",
    "total_assets_usd": 52043433,
    "year": "2022"
-  },
-  {
-   "wikidata": "Q67803427",
-   "total_assets_usd": 52013107,
-   "year": "2021"
   },
   {
    "wikidata": "Q55596",
@@ -12985,21 +11456,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58219499",
-   "total_assets_usd": 51808573,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q192653",
-   "total_assets_usd": 51486177,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q58568069",
-   "total_assets_usd": 51475758,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q131189413",
    "total_assets_usd": 51412391,
    "year": "2025"
@@ -13008,11 +11464,6 @@
    "wikidata": "Q106832",
    "total_assets_usd": 51156445,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q221186",
-   "total_assets_usd": 50966810,
-   "year": "2017"
   },
   {
    "wikidata": "Q131188701",
@@ -13025,24 +11476,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58196204",
-   "total_assets_usd": 50713207,
-   "year": "2021"
-  },
-  {
-   "wikidata": "Q67805132",
-   "total_assets_usd": 50643523,
-   "year": "2018"
-  },
-  {
-   "wikidata": "Q700802",
-   "total_assets_usd": 50356080,
-   "year": "2023"
-  },
-  {
-   "wikidata": "Q113290811",
-   "total_assets_usd": 50207808,
-   "year": "2021"
+   "wikidata": "Q131187991",
+   "total_assets_usd": 50705451,
+   "year": "2025"
   },
   {
    "wikidata": "Q235004",
@@ -13070,16 +11506,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q851963",
-   "total_assets_usd": 49626473,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q135298110",
-   "total_assets_usd": 49503199,
-   "year": "2022"
-  },
-  {
    "wikidata": "Q55737",
    "total_assets_usd": 49364068,
    "year": "2024"
@@ -13095,19 +11521,9 @@
    "year": "2020"
   },
   {
-   "wikidata": "Q790756",
-   "total_assets_usd": 49235874,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q1026277",
    "total_assets_usd": 49214485,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q86698860",
-   "total_assets_usd": 49212758,
-   "year": "2018"
   },
   {
    "wikidata": "Q56572",
@@ -13145,19 +11561,9 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q58490282",
-   "total_assets_usd": 48009740,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q111378",
    "total_assets_usd": 48001539,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58219051",
-   "total_assets_usd": 47965271,
-   "year": "2018"
   },
   {
    "wikidata": "Q43515",
@@ -13215,16 +11621,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q61412379",
-   "total_assets_usd": 46543861,
-   "year": "2017"
-  },
-  {
-   "wikidata": "Q58218879",
-   "total_assets_usd": 46427036,
-   "year": "2023"
-  },
-  {
    "wikidata": "Q173944",
    "total_assets_usd": 46380974,
    "year": "2024"
@@ -13255,11 +11651,6 @@
    "year": "2025"
   },
   {
-   "wikidata": "Q12024390",
-   "total_assets_usd": 46088844,
-   "year": "2018"
-  },
-  {
    "wikidata": "Q315283",
    "total_assets_usd": 45518116,
    "year": "2024"
@@ -13268,16 +11659,6 @@
    "wikidata": "Q30351",
    "total_assets_usd": 45392201,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q50413700",
-   "total_assets_usd": 45331780,
-   "year": "2016"
-  },
-  {
-   "wikidata": "Q106512566",
-   "total_assets_usd": 45289327,
-   "year": "2019"
   },
   {
    "wikidata": "Q890623",
@@ -13290,11 +11671,6 @@
    "year": "2017"
   },
   {
-   "wikidata": "Q58170643",
-   "total_assets_usd": 45012486,
-   "year": "2020"
-  },
-  {
    "wikidata": "Q54768",
    "total_assets_usd": 44892088,
    "year": "2024"
@@ -13303,11 +11679,6 @@
    "wikidata": "Q314686",
    "total_assets_usd": 44662275,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q890779",
-   "total_assets_usd": 44503344,
-   "year": "2020"
   },
   {
    "wikidata": "Q627190",
@@ -13335,19 +11706,9 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q41567362",
-   "total_assets_usd": 44139791,
-   "year": "2019"
-  },
-  {
    "wikidata": "Q12884",
    "total_assets_usd": 44138730,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q65925138",
-   "total_assets_usd": 44082684,
-   "year": "2017"
   },
   {
    "wikidata": "Q61116952",
@@ -13390,11 +11751,6 @@
    "year": "2024"
   },
   {
-   "wikidata": "Q67811242",
-   "total_assets_usd": 42863434,
-   "year": "2017"
-  },
-  {
    "wikidata": "Q122931994",
    "total_assets_usd": 42838588,
    "year": "2025"
@@ -13418,11 +11774,6 @@
    "wikidata": "Q1159273",
    "total_assets_usd": 42305229,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q58218284",
-   "total_assets_usd": 42234490,
-   "year": "2015"
   },
   {
    "wikidata": "Q59731",
@@ -13715,6 +12066,11 @@
    "year": "2024"
   },
   {
+   "wikidata": "Q131188136",
+   "total_assets_usd": 34667234,
+   "year": "2025"
+  },
+  {
    "wikidata": "Q314965",
    "total_assets_usd": 34556547,
    "year": "2024"
@@ -13918,11 +12274,6 @@
    "wikidata": "Q111535",
    "total_assets_usd": 30362996,
    "year": "2024"
-  },
-  {
-   "wikidata": "Q69359148",
-   "total_assets_usd": 30342944,
-   "year": "2001"
   },
   {
    "wikidata": "Q274077",
@@ -14348,6 +12699,11 @@
    "wikidata": "Q49435",
    "total_assets_usd": 24609670,
    "year": "2024"
+  },
+  {
+   "wikidata": "Q131188214",
+   "total_assets_usd": 24593955,
+   "year": "2025"
   },
   {
    "wikidata": "Q12840",
