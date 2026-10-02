@@ -5,12 +5,16 @@
    "places": 1
   },
   {
+   "month": "2016-10",
+   "places": 1
+  },
+  {
    "month": "2025-09",
    "places": 72
   },
   {
    "month": "2025-10",
-   "places": 15
+   "places": 36
   },
   {
    "month": "2026-08",
@@ -18,11 +22,11 @@
   },
   {
    "month": "2026-09",
-   "places": 3270
+   "places": 3276
   },
   {
    "month": "2026-10",
-   "places": 1076
+   "places": 1975
   }
  ]
 }
