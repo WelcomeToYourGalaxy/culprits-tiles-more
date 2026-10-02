@@ -22,6 +22,11 @@ own; one that fails leaves the others and says why.
                 file's pH variable at its first, present-day and last time
                 steps. tiles/ocean_ph_<year>.pmtiles
 
+  Round 132b: shipping is built by scripts/ocean_shipping.py, its own job (it
+  never got its turn within this one's time); heat falls back to Coral Reef
+  Watch's own file server when ERDDAP does not answer; acid looks through the
+  accession's sub-folders for its NetCDF files.
+
   Each writes tiles/<row>.choices.json for the map's row, and
   oceans/more.build.json records what each read.
 
@@ -43,6 +48,9 @@ SHIPS = [("all", "All ships", "https://datacatalogfiles.worldbank.org/ddh-publis
          ("leisure", "Leisure boats", "https://datacatalogfiles.worldbank.org/ddh-published/0037580/5/DR0045401/ShipDensity_Leisure.zip")]
 IMPACTS = "https://cn.dataone.org/cn/v2/resolve/urn:uuid:4b023df7-abaf-4d47-8f31-39c5c96db811"
 ERDDAP = "https://coastwatch.pfeg.noaa.gov/erddap/griddap/NOAA_DHW"
+STAR = "https://www.star.nesdis.noaa.gov/pub/sod/mecb/crw/data/5km/v3.1_op/nc/v1.0/daily/"
+STAR_PARTS = {"CRW_SSTANOMALY": "ssta", "CRW_BAA": "baa", "CRW_DHW": "dhw"}
+STAR_VARS = {"CRW_SSTANOMALY": r"sea_surface_temperature_anomaly|ssta", "CRW_BAA": r"bleaching_alert_area|baa", "CRW_DHW": r"degree_heating_week|dhw"}
 ACID_ROOTS = ["https://www.ncei.noaa.gov/data/oceans/ncei/ocads/data/0259391/", "https://www.ncei.noaa.gov/archive/accession/0259391/data/0-data/"]
 
 
@@ -65,32 +73,6 @@ def log_codes(a, np, steps=10):
 
 def fmt(x):
     return f"{x:,.0f}" if x >= 10 else f"{x:.2g}"
-
-
-def shipping(stamp):
-    import numpy as np
-    work = pathlib.Path(tempfile.gettempdir())
-    choices = []
-    for kind, label, url in SHIPS:
-        out = T / f"ship_{kind}.pmtiles"
-        if out.exists() and not os.environ.get("OCEANS_REBUILD"):
-            choices.append({"label": label, "archive": f"tiles/{out.name}", "key": json.loads((T / f"ship_{kind}.key.json").read_text())})
-            continue
-        z = fetch(url, work / f"ship_{kind}.zip", "shipping")
-        tif = next(n for n in zipfile.ZipFile(z).namelist() if n.lower().endswith((".tif", ".tiff")))
-        a, west, north = pyramid.read_grid(f"/vsizip/{z}/{tif}", 0.02, bounds=(-180, -80, 180, 84), resampling="average")
-        codes, edges = log_codes(a, np)
-        z.unlink()
-        if codes is None:
-            continue
-        pal = {i + 1: pyramid.rgba(c, 240) for i, c in enumerate(pyramid.RAMP10)}
-        pyramid.build(codes, west, north, 0.02, pal, out, 7, how="max", attribution="World Bank / IMF Global Shipping Traffic Density (CC BY 4.0)", name=out.stem,
-                      meta={"from": url, "file": tif})
-        key = [[c, f"{fmt(edges[i])} to {fmt(edges[i + 1])}"] for i, c in enumerate(pyramid.RAMP10)]
-        (T / f"ship_{kind}.key.json").write_text(json.dumps(key))
-        choices.append({"label": label, "archive": f"tiles/{out.name}", "key": key})
-    pyramid.write_choices("ocean_shipping", choices)
-    stamp["shipping"] = {"kinds": [c["label"] for c in choices]}
 
 
 def impacts(stamp):
@@ -131,14 +113,28 @@ def heat(stamp):
     for var, label, bins in specs:
         url = f"{ERDDAP}.nc?{var}%5B(last)%5D%5B(89.975):2:(-89.975)%5D%5B(-179.975):2:(179.975)%5D"
         p = work / f"{var}.nc"
-        p.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=900).read())
+        name = var
+        try:
+            p.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=300).read())
+        except Exception as e:  # noqa: BLE001
+            print(f"  heat: ERDDAP {var}: {e}; trying Coral Reef Watch's file server", flush=True)
+            url = star_newest(var)
+            fetch(url, p, "heat")
         ds = netCDF4.Dataset(p)
-        v = ds.variables[var]
-        a = np.array(v[0, :, :], dtype=np.float32)
-        if np.ma.isMaskedArray(v[0, :, :]):
-            a[np.ma.getmaskarray(v[0, :, :])] = np.nan
-        lat = np.array(ds.variables["latitude"][:])
-        lon = np.array(ds.variables["longitude"][:])
+        if var not in ds.variables:
+            name = next(k for k in ds.variables if re.search(STAR_VARS[var], k, re.I) and len(ds.variables[k].dimensions) >= 2)
+        v = ds.variables[name]
+        sl = (0, slice(None), slice(None)) if len(v.dimensions) == 3 else (slice(None), slice(None))
+        raw = v[sl]
+        a = np.array(raw, dtype=np.float32)
+        if np.ma.isMaskedArray(raw):
+            a[np.ma.getmaskarray(raw)] = np.nan
+        latn = "latitude" if "latitude" in ds.variables else "lat"
+        lonn = "longitude" if "longitude" in ds.variables else "lon"
+        lat = np.array(ds.variables[latn][:])
+        lon = np.array(ds.variables[lonn][:])
+        if a.shape[0] > 1800:
+            a, lat, lon = a[::2, ::2], lat[::2], lon[::2]
         t = ds.variables["time"]
         day = str(netCDF4.num2date(t[-1], t.units))[:10]
         ds.close()
@@ -158,6 +154,45 @@ def heat(stamp):
     stamp["heat"] = {"layers": [c["label"] for c in choices]}
 
 
+def star_newest(var):
+    """The newest daily file of one Coral Reef Watch product on its own server."""
+    part = STAR_PARTS[var]
+    year = datetime.date.today().year
+    for y in (year, year - 1):
+        root = f"{STAR}{part}/{y}/"
+        try:
+            page = urllib.request.urlopen(urllib.request.Request(root, headers=UA), timeout=120).read().decode("utf-8", "ignore")
+        except Exception as e:  # noqa: BLE001
+            print(f"  heat: {root}: {e}", flush=True)
+            continue
+        files = sorted(set(re.findall(r'href="(ct5km_[a-z0-9]+_v3\.1_\d{8}\.nc)"', page)))
+        if files:
+            return root + files[-1]
+    raise RuntimeError(f"no {part} file found on {STAR}")
+
+
+def list_nc(root, depth=3, seen=None):
+    """Every .nc file under a folder listing, sub-folders too."""
+    seen = seen if seen is not None else set()
+    if root in seen or depth < 0:
+        return []
+    seen.add(root)
+    try:
+        page = urllib.request.urlopen(urllib.request.Request(root, headers=UA), timeout=120).read().decode("utf-8", "ignore")
+    except Exception as e:  # noqa: BLE001
+        print(f"  acid: {root}: {e}", flush=True)
+        return []
+    out = []
+    for h in re.findall(r'href="([^"?#]+)"', page):
+        if h.startswith(("/", "http", "..", "mailto")):
+            continue
+        if h.lower().endswith(".nc"):
+            out.append(root + h)
+        elif h.endswith("/"):
+            out += list_nc(root + h, depth - 1, seen)
+    return out
+
+
 def acid(stamp):
     import numpy as np
     pyramid.need("netCDF4")
@@ -166,17 +201,16 @@ def acid(stamp):
         return
     files = []
     for root in ACID_ROOTS:
-        try:
-            page = urllib.request.urlopen(urllib.request.Request(root, headers=UA), timeout=120).read().decode("utf-8", "ignore")
-        except Exception as e:  # noqa: BLE001
-            print(f"  acid: {root}: {e}", flush=True)
-            continue
-        files += [root + h for h in re.findall(r'href="([^"/?]+\.nc)"', page)]
+        files = list_nc(root)
         if files:
             break
+    print(f"  acid: {len(files)} NetCDF files listed: {[f.rsplit('/', 1)[-1] for f in files][:40]}", flush=True)
+    stamp["acid_files"] = [f.rsplit("/", 1)[-1] for f in files]
     ph = [f for f in files if re.search(r"ph", f.rsplit("/", 1)[-1], re.I)] or files
+    # Middle-of-the-road future (SSP2-4.5) first where the files are split by pathway.
+    ph.sort(key=lambda f: (not re.search(r"ssp2.?45|245", f, re.I), f))
     if not ph:
-        raise RuntimeError("no NetCDF file listed in the accession's folders")
+        raise RuntimeError("no NetCDF file listed in the accession's folders or their sub-folders")
     p = fetch(ph[0], pathlib.Path(tempfile.gettempdir()) / ph[0].rsplit("/", 1)[-1], "acid")
     ds = netCDF4.Dataset(p)
     name = next((k for k in ds.variables if re.fullmatch(r"ph[_a-z]*", k, re.I)), None)
@@ -229,7 +263,7 @@ def main():
     pyramid.need("rasterio")
     STAMP.parent.mkdir(exist_ok=True)
     failed = []
-    for name, job in (("heat", heat), ("acid", acid), ("impacts", impacts), ("shipping", shipping)):
+    for name, job in (("heat", heat), ("acid", acid), ("impacts", impacts)):
         try:
             job(stamp)
         except Exception as e:  # noqa: BLE001
@@ -237,7 +271,7 @@ def main():
             stamp[name] = {"error": f"{type(e).__name__}: {e}"}
             print(f"oceans_more: {name} failed ({e})", flush=True)
         STAMP.write_text(json.dumps(stamp, indent=1, default=str))
-    if len(failed) == 4:
+    if len(failed) == 3:
         sys.exit(1)
 
 
