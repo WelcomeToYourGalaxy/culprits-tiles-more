@@ -120,50 +120,75 @@ def places(items, countries):
     return out
 
 
+def grid(table_html):
+    """The table's rows as full grids: a cell spanning rows or columns
+    (rowspan / colspan) is repeated in every row and column it covers, as a
+    reader sees it. Round 129b: rows are no longer guessed by shifting cells
+    to the left (a drug name was taken for the company when a middle column,
+    not the company, spanned rows)."""
+    out, pending = [], {}            # column -> [rows left, cell html]
+    for tr in re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", table_html):
+        row, col = [], 0
+        cells = re.findall(r"(?is)<(t[dh])([^>]*)>(.*?)</\1>", tr)
+        k = 0
+        while k < len(cells) or col in pending:
+            if col in pending:
+                left, c = pending[col]
+                row.append(c)
+                if left <= 1:
+                    del pending[col]
+                else:
+                    pending[col] = [left - 1, c]
+                col += 1
+                continue
+            tag, attrs, body = cells[k]
+            k += 1
+            rs = re.search(r'rowspan\s*=\s*"?(\d+)', attrs)
+            cs = re.search(r'colspan\s*=\s*"?(\d+)', attrs)
+            for _ in range(int(cs.group(1)) if cs else 1):
+                if rs and int(rs.group(1)) > 1:
+                    pending[col] = [int(rs.group(1)) - 1, (tag, body)]
+                row.append((tag, body))
+                col += 1
+        if row:
+            out.append(row)
+    return out
+
+
+def cell_text(body):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<sup.*?</sup>", "", body)))).strip()
+
+
+def cell_link(body):
+    m = re.search(r'href="/wiki/([^"#]+)"', body)
+    return urllib.parse.unquote(m.group(1)).replace("_", " ") if m else None
+
+
 def settlement_rows():
     j = api(action="parse", page=SETTLEMENTS, prop="text", redirects=1)
-    page = j["parse"]["text"]
+    return table_rows(j["parse"]["text"])
+
+
+def table_rows(page):
     rows = []
     for t in re.findall(r"(?is)<table[^>]*wikitable[^>]*>(.*?)</table>", page):
-        head = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", c))).strip()
-                for c in re.findall(r"(?is)<th[^>]*>(.*?)</th>", t.split("</tr>")[0])]
-        last, prev = None, []
-        for tr in t.split("</tr>")[1:]:
-            cells = re.findall(r"(?is)<t[dh][^>]*>(.*?)</t[dh]>", tr)
-            if not cells:
-                continue
-            text = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<sup.*?</sup>", "", c)))).strip() for c in cells]
-            links = [urllib.parse.unquote(h.split("#")[0]).replace("_", " ") for c in cells for h in re.findall(r'href="/wiki/([^"]+)"', c)]
-            # Round 123b: the company is read from the table's own Company
-            # column (the first linked cell was often a drug: "Neurontin",
-            # "Zoladex"). A row with fewer cells than headings sits under a
-            # company cell that spans several rows: it is that company's.
-            comp_col = next((i for i, h in enumerate(head) if re.search(r"compan|defendant|firm|manufacturer|corporation", h, re.I)), None)
+        g = grid(t)
+        if not g:
+            continue
+        head = [cell_text(b) for _, b in g[0]]
+        comp_col = next((i for i, h in enumerate(head) if re.search(r"compan|defendant|firm|manufacturer|corporation", h, re.I)), None)
+        for r in g[1:]:
+            if all(tag == "th" for tag, _ in r) and len(r) == len(head):
+                continue                                  # a repeated heading row
+            text = [cell_text(b) for _, b in r]
+            links = [urllib.parse.unquote(h.split("#")[0]).replace("_", " ") for _, b in r for h in re.findall(r'href="/wiki/([^"]+)"', b)]
             company = comp_link = None
-            if comp_col is not None and len(text) == len(head):
-                company = text[comp_col]
-                m = re.search(r'href="/wiki/([^"#]+)"', cells[comp_col])
-                comp_link = urllib.parse.unquote(m.group(1)).replace("_", " ") if m else None
-                last = (company, comp_link)
-            elif comp_col is not None and len(text) < len(head):
-                # Cells spanning rows are the leftmost ones: this row's cells
-                # are the right-hand headings; the missing ones are carried down.
-                shift = len(head) - len(text)
-                if comp_col >= shift:
-                    company = text[comp_col - shift]
-                    m = re.search(r'href="/wiki/([^"#]+)"', cells[comp_col - shift])
-                    comp_link = urllib.parse.unquote(m.group(1)).replace("_", " ") if m else None
-                    last = (company, comp_link)
-                elif last:
-                    company, comp_link = last
-                text = (prev[:shift] if len(prev) >= shift else [""] * shift) + text
+            if comp_col is not None and comp_col < len(r):
+                company, comp_link = text[comp_col], cell_link(r[comp_col][1])
             elif comp_col is None:
-                comp_i = next((i for i, c in enumerate(cells) if re.search(r'href="/wiki/', c)), None)
+                comp_i = next((i for i, (_, b) in enumerate(r) if 'href="/wiki/' in b), None)
                 if comp_i is not None:
-                    company = text[comp_i]
-                    m = re.search(r'href="/wiki/([^"#]+)"', cells[comp_i])
-                    comp_link = urllib.parse.unquote(m.group(1)).replace("_", " ") if m else None
-            prev = text
+                    company, comp_link = text[comp_i], cell_link(r[comp_i][1])
             rec = dict(zip(head, text)) if len(head) == len(text) else {f"column {i + 1}": c for i, c in enumerate(text)}
             rows.append({"rec": rec, "company": company or "", "article": comp_link, "links": links})
     return rows

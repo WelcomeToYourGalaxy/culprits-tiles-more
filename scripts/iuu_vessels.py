@@ -22,10 +22,11 @@ on it kept:
 
 Weekly (Mondays) or by hand.
 """
-import subprocess, datetime, html, json, os, pathlib, re, sys, time, urllib.request
+import subprocess, datetime, html, json, os, pathlib, re, sys, time, urllib.parse, urllib.request
 
 BASE = "https://iuu-vessels.org"
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
+NOMI = {"User-Agent": "Culprits atlas build (WelcomeToYourGalaxy; welcometoyourgalaxy@gmail.com)"}
 OUT = pathlib.Path("iuu")
 NE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
 # Flags as the list may write them, where Natural Earth names the country otherwise.
@@ -80,7 +81,7 @@ def vessel(page):
     if not any(k in rec for k in ("Current Flag", "Flag")):
         for a, b in re.findall(r"<tr[^>]*>\s*<t[hd][^>]*>(.*?)</t[hd]>\s*<td[^>]*>(.*?)</td>\s*</tr>", page, re.S | re.I):
             k, v = text(a).rstrip(":"), text(b)
-            if k and len(k) < 60 and k not in rec:
+            if k and len(k) < 60 and k not in rec and not JUNK.match(k):
                 rec[k] = v
         for a, b in re.findall(r"<(?:label|span|strong|b|div)[^>]*>\s*([A-Z][A-Za-z /()]{1,40}):?\s*</(?:label|span|strong|b|div)>\s*<(?:span|div|p)[^>]*>(.*?)</(?:span|div|p)>", page, re.S):
             k, v = text(a).rstrip(":"), text(b)
@@ -139,6 +140,35 @@ def position(s):
     (a, ha), (b, hb) = vals[0], vals[1]
     lat, lon = (b, a) if ha in "EW" and ha else (a, b)
     return (lon, lat) if -90 <= lat <= 90 and -180 <= lon <= 180 else None
+
+
+# Round 129b: rows of the history tables were read as labels ("2014-11",
+# "From To Name 2021-05-07"), giving hundreds of junk fields; they are dropped
+# (the histories are kept whole under their own headings).
+JUNK = re.compile(r"^(\d{4}(-\d\d){0,2}|From To\b.*)$")
+
+
+def place_named(s, cache):
+    """A last known position written as a place ("Yantai, China / Bohai Sea"):
+    the port first, else the sea, by OpenStreetMap's Nominatim. Not a reported
+    coordinate; the box says so."""
+    for part in [p.strip() for p in s.split("/") if p.strip()]:
+        if part in cache:
+            if cache[part]:
+                return cache[part], part
+            continue
+        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"q": part, "format": "json", "limit": 1})
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=NOMI), timeout=60) as r:
+                j = json.loads(r.read())
+            cache[part] = [float(j[0]["lon"]), float(j[0]["lat"])] if j else None
+        except Exception as e:  # noqa: BLE001
+            print(f"  Nominatim {part}: {e}", flush=True)
+            continue
+        time.sleep(1.2)
+        if cache[part]:
+            return cache[part], part
+    return None, None
 
 
 def main():
@@ -204,17 +234,31 @@ def finish(vessels, fields, stamp):
     for r in flags.values():
         r["x_vessels"] = "; ".join(sorted(r["x_vessels"]))
     (OUT / "flags.json").write_text(json.dumps(flags, indent=1, ensure_ascii=False))
+    for v in vessels:
+        for k in [k for k in v if JUNK.match(str(k))]:
+            del v[k]
+    cache_f = OUT / "places.json"
+    try:
+        cache = json.loads(cache_f.read_text())
+    except Exception:  # noqa: BLE001
+        cache = {}
     pts, unread = [], []
     for v in vessels:
-        at = position(v.get("Last known position"))
+        lkp = (v.get("Last known position") or "").strip()
+        at, how = position(lkp), "the coordinates the list gives"
+        if not at and lkp:
+            at, part = place_named(lkp, cache)
+            how = f"the place the list names, {part}, by OpenStreetMap's Nominatim (not a reported coordinate)" if at else how
         if at:
-            pts.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(at[0], 4), round(at[1], 4)]},
-                        "properties": {k: (json.dumps(x, ensure_ascii=False) if isinstance(x, (list, dict)) else x) for k, x in v.items()}})
-        elif (v.get("Last known position") or "").strip():
-            unread.append(v["Last known position"])
+            props = {k: (json.dumps(x, ensure_ascii=False) if isinstance(x, (list, dict)) else x) for k, x in v.items()}
+            props["placed at"] = how
+            pts.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(at[0], 4), round(at[1], 4)]}, "properties": props})
+        elif lkp:
+            unread.append(lkp)
+    cache_f.write_text(json.dumps(cache, ensure_ascii=False))
     (OUT / "positions.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": pts}, ensure_ascii=False))
     stamp.write_text(json.dumps({"vessels": len(vessels), "flags": len(flags), "flag_unknown": unknown, "flags_not_matched": unmatched,
-                                 "positions": len(pts), "positions_not_read": unread[:50], "fields": sorted(fields),
+                                 "positions": len(pts), "positions_not_read": unread[:50], "fields": sorted({k for v in vessels for k in v}),
                                  "date": datetime.date.today().isoformat()}, indent=1, ensure_ascii=False))
     print(f"iuu_vessels: {len(vessels)} vessels, {len(flags)} flags, {unknown} with no known flag, {len(pts)} positions; not matched {unmatched}")
 

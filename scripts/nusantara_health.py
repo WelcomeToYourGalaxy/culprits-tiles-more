@@ -14,6 +14,16 @@ layer can draw only close in.
 
   probe/nusantara/health.json
 
+Round 129b: the first run asked every layer for the same square over
+Kalimantan, so a layer whose data lies elsewhere (Rawa Singkil in Aceh,
+Merauke and Papua in New Guinea) read as drawing nothing even if it draws.
+Now each layer is also asked:
+  "here"    the same four zooms centred on where its own data is: the first
+            feature its WFS returns, else the middle of its stated area;
+  "styles"  at zoom 8 there, with each style the server lists for it;
+  "wfs"     how many features it holds and its first one's position (a
+            layer with no features has nothing to draw anywhere).
+
 Only the layers named below by default (the palm oil and plantation rows);
 NUS_ALL=1 tries every layer.
 """
@@ -44,6 +54,52 @@ def bbox3857(z, lon=113.0, lat=0.5):
     R = 20037508.342789244
     size = 2 * R / n
     return (-R + x * size, R - (y + 1) * size, -R + (x + 1) * size, R - y * size)
+
+
+def first_feature(base, name):
+    """How many features the layer holds, and where its first one is."""
+    wfs = base[:-3] + "wfs" if base.endswith("/wms") else base
+    url = (f"{wfs}?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeNames={urllib.parse.quote(name)}"
+           f"&count=1&outputFormat=application/json&srsName=EPSG:4326")
+    body, ctype, dt, err = get(url, 120)
+    if err:
+        return {"error": err}
+    try:
+        j = json.loads(body)
+    except Exception:  # noqa: BLE001
+        return {"said": body.decode("utf-8", "replace")[:300]}
+    rec = {"matched": j.get("numberMatched", j.get("totalFeatures")), "returned": len(j.get("features") or [])}
+    f = (j.get("features") or [None])[0]
+    pts = []
+    def walk(c):
+        if isinstance(c, (list, tuple)) and c and isinstance(c[0], (int, float)):
+            pts.append(c[:2])
+        elif isinstance(c, (list, tuple)):
+            for x in c:
+                walk(x)
+    if f and f.get("geometry"):
+        walk(f["geometry"].get("coordinates"))
+    if pts:
+        xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+        lon, lat = sum(xs) / len(xs), sum(ys) / len(ys)
+        if abs(lon) <= 90 and abs(lat) > 90:   # written lat, lon
+            lon, lat = lat, lon
+        rec["at"] = [round(lon, 4), round(lat, 4)]
+    return rec
+
+
+def ask(base, layer, b, style=""):
+    url = (f"{base}?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS={urllib.parse.quote(layer)}&STYLES={urllib.parse.quote(style)}&SRS=EPSG:3857"
+           f"&BBOX={','.join(f'{v:.2f}' for v in b)}&WIDTH=512&HEIGHT=512&FORMAT=image/png&TRANSPARENT=true")
+    body, ctype, dt, err = get(url, 90)
+    r = {"seconds": round(dt, 1), "bytes": len(body), "type": ctype}
+    if err:
+        r["error"] = err
+    elif "image" in ctype:
+        r.update(drawn_share(body))
+    else:
+        r["said"] = body.decode("utf-8", "replace")[:400]
+    return r
 
 
 def drawn_share(png):
@@ -102,6 +158,14 @@ def main():
                 else:
                     r["said"] = body.decode("utf-8", "replace")[:400]
                 rec["zooms"][z] = r
+            rec["wfs"] = first_feature(base, nm.text)
+            here = rec["wfs"].get("at")
+            if not here and box and (box["eastBoundLongitude"] - box["westBoundLongitude"]) < 300:
+                here = [(box["westBoundLongitude"] + box["eastBoundLongitude"]) / 2, (box["southBoundLatitude"] + box["northBoundLatitude"]) / 2]
+            if here:
+                rec["here_at"] = here
+                rec["here"] = {z: ask(base, nm.text, bbox3857(z, here[0], max(-85, min(85, here[1])))) for z in (2, 4, 6, 8)}
+                rec["styles_here"] = {st: ask(base, nm.text, bbox3857(8, here[0], max(-85, min(85, here[1]))), st).get("drawn") for st in rec["styles"]}
             out[f"{base.split('/')[-2]}:{name}"] = rec
             print(f"  {name}: " + "; ".join(f"z{z} {v.get('seconds')}s {v.get('drawn', v.get('error', v.get('said', '')[:40]))}" for z, v in rec["zooms"].items()), flush=True)
     (OUT / "health.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
