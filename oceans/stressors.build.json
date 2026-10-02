@@ -1,0 +1,118 @@
+{
+ "read": "2026-10-02",
+ "files_found": [],
+ "rows": {
+  "ocean_slr": [
+   {
+    "label": "Sea level rise",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Sea level rise",
+    "year": "2003",
+    "file": null
+   }
+  ],
+  "ocean_light": [
+   {
+    "label": "Light at night",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Light at night",
+    "year": "2003",
+    "file": null
+   }
+  ],
+  "ocean_trawling": [
+   {
+    "label": "Bottom trawling and dredging",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Bottom trawling and dredging",
+    "year": "2003",
+    "file": null
+   }
+  ],
+  "ocean_bycatch": [
+   {
+    "label": "Demersal, high bycatch",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Demersal, high bycatch",
+    "year": "2003",
+    "file": null
+   },
+   {
+    "label": "Demersal, low bycatch",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Demersal, low bycatch",
+    "year": "2003",
+    "file": null
+   },
+   {
+    "label": "Pelagic, high bycatch",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Pelagic, high bycatch",
+    "year": "2003",
+    "file": null
+   },
+   {
+    "label": "Pelagic, low bycatch",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Pelagic, low bycatch",
+    "year": "2003",
+    "file": null
+   }
+  ],
+  "ocean_coastal_people": [
+   {
+    "label": "People on the coast",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "People on the coast",
+    "year": "2003",
+    "file": null
+   }
+  ],
+  "ocean_runoff": [
+   {
+    "label": "Nutrients (fertiliser)",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Nutrients (fertiliser)",
+    "year": "2003",
+    "file": null
+   },
+   {
+    "label": "Organic chemicals (pesticides)",
+    "year": "2013",
+    "file": null
+   },
+   {
+    "label": "Organic chemicals (pesticides)",
+    "year": "2003",
+    "file": null
+   }
+  ]
+ }
+}
