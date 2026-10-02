@@ -12,9 +12,13 @@ CTL cattle, BFL buffaloes, SHP sheep, GTS goats, PGS pigs, CHK chickens.
   tiles/glw_<code>.pmtiles   zooms 0 to 5, 256-pixel squares, each pixel the
                              animals per square km coded as a height tile
                              (Mapbox's code: -10000 + (R*65536 + G*256 + B)/10)
+  tiles/glw_all.pmtiles      round 134b (asked 2 October): every animal
+                             together, the six grids added, each animal
+                             counted as one (head or bird)
   tiles/glw_relief.build.json  each animal's file and its 99th percentile
 
-Built once; GLW_REBUILD=1 builds again.
+Built once; GLW_REBUILD=1 builds again. Anything missing (glw_all after round
+134b) is built on the next run.
 """
 import io, json, math, os, pathlib, sys, tempfile, urllib.request
 
@@ -31,7 +35,8 @@ def lat_of(ty, z):
 
 
 def main():
-    if STAMP.exists() and not os.environ.get("GLW_REBUILD"):
+    stamp = json.loads(STAMP.read_text()) if STAMP.exists() and not os.environ.get("GLW_REBUILD") else {}
+    if all(k in stamp for k in KINDS + ["ALL"]):
         print("glw_relief: already built")
         return
     import subprocess
@@ -41,20 +46,10 @@ def main():
     from PIL import Image
     from pmtiles.tile import Compression, TileType, zxy_to_tileid
     from pmtiles.writer import Writer
-    stamp = {}
-    for code in KINDS:
-        url = BASE.format(code)
-        tmp = pathlib.Path(tempfile.gettempdir()) / f"glw_{code}.tif"
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Culprits atlas build"}), timeout=900) as r:
-            tmp.write_bytes(r.read())
-        with rasterio.open(tmp) as src:
-            a = src.read(1).astype(np.float32)
-            nod = src.nodata
-            t = src.transform
-        if nod is not None:
-            a[a == nod] = 0
-        a[~np.isfinite(a) | (a < 0)] = 0
-        west, north, res_x, res_y = t.c, t.f, t.a, -t.e
+    total = None
+    grid = None
+
+    def write(code, a, west, north, res_x, res_y):
         H, W = a.shape
         tiles = {}
         for z in range(TOP + 1):
@@ -85,9 +80,35 @@ def main():
                         "center_zoom": 1, "center_lon_e7": 0, "center_lat_e7": 0},
                        {"attribution": "FAO GLW4 2020 (CC BY 4.0)", "name": out.stem, "encoding": "mapbox"})
         pos = a[a > 0]
-        stamp[code] = {"from": url, "squares": len(tiles), "bytes": out.stat().st_size,
-                       "p99": float(np.percentile(pos, 99)) if pos.size else 0, "max": float(pos.max()) if pos.size else 0}
-        print(f"glw_relief: {code}: {len(tiles)} squares, 99th percentile {stamp[code]['p99']:.0f} per km2", flush=True)
+        return {"squares": len(tiles), "bytes": out.stat().st_size,
+                "p99": float(np.percentile(pos, 99)) if pos.size else 0, "max": float(pos.max()) if pos.size else 0}
+
+    for code in KINDS:
+        url = BASE.format(code)
+        tmp = pathlib.Path(tempfile.gettempdir()) / f"glw_{code}.tif"
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Culprits atlas build"}), timeout=900) as r:
+            tmp.write_bytes(r.read())
+        with rasterio.open(tmp) as src:
+            a = src.read(1).astype(np.float32)
+            nod = src.nodata
+            t = src.transform
+        if nod is not None:
+            a[a == nod] = 0
+        a[~np.isfinite(a) | (a < 0)] = 0
+        west, north, res_x, res_y = t.c, t.f, t.a, -t.e
+        if grid is None:
+            grid = (a.shape, west, north, res_x, res_y)
+        elif grid != (a.shape, west, north, res_x, res_y):
+            raise SystemExit(f"glw_relief: {code} is on another grid than the first animal; cannot add them up")
+        total = a.copy() if total is None else total + a
+        if code not in stamp:
+            stamp[code] = dict(write(code, a, west, north, res_x, res_y), **{"from": url})
+            print(f"glw_relief: {code}: {stamp[code]['squares']} squares, 99th percentile {stamp[code]['p99']:.0f} per km2", flush=True)
+        STAMP.write_text(json.dumps(stamp, indent=1))
+    if total is not None and "ALL" not in stamp:
+        shape, west, north, res_x, res_y = grid
+        stamp["ALL"] = dict(write("ALL", total, west, north, res_x, res_y), **{"from": "the six grids above, added (each animal counted as one)"})
+        print(f"glw_relief: ALL: {stamp['ALL']['squares']} squares", flush=True)
     STAMP.write_text(json.dumps(stamp, indent=1))
 
 
