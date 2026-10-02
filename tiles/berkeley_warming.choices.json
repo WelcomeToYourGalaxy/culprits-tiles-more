@@ -1,0 +1,954 @@
+{
+ "choices": [
+  {
+   "label": "2024",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2024.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2023",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2023.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2022",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2022.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2021",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2021.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2020",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2020.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2019",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2019.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2018",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2018.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2017",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2017.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2016",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2016.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2015",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2015.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2014",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2014.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2013",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2013.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2012",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2012.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2011",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2011.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2010",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2010.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2009",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2009.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2008",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2008.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2007",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2007.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2006",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2006.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2005",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2005.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2004",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2004.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2003",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2003.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2002",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2002.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2001",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2001.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  },
+  {
+   "label": "2000",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/berkeley_warming_2000.pmtiles",
+   "key": [
+    [
+     "#3C6E9E",
+     "cooler by more than 0.5 °C"
+    ],
+    [
+     "#8FB8D0",
+     "cooler by up to 0.5 °C"
+    ],
+    [
+     "#D9C9C4",
+     "warmer by up to 0.5 °C"
+    ],
+    [
+     "#C9A3A0",
+     "0.5 to 1 °C warmer"
+    ],
+    [
+     "#B07C7C",
+     "1 to 1.5 °C warmer"
+    ],
+    [
+     "#955A62",
+     "1.5 to 2 °C warmer"
+    ],
+    [
+     "#7A3D4C",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#5A2338",
+     "more than 3 °C warmer"
+    ]
+   ]
+  }
+ ]
+}
