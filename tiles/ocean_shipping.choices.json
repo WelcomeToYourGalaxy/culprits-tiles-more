@@ -1,0 +1,280 @@
+{
+ "choices": [
+  {
+   "label": "All ships",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ship_all.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "259,347 to 424,789"
+    ],
+    [
+     "#C6E7F0",
+     "424,789 to 695,768"
+    ],
+    [
+     "#9CD6E6",
+     "695,768 to 1,139,609"
+    ],
+    [
+     "#6FC2DA",
+     "1,139,609 to 1,866,584"
+    ],
+    [
+     "#46AACB",
+     "1,866,584 to 3,057,306"
+    ],
+    [
+     "#2E8FBA",
+     "3,057,306 to 5,007,611"
+    ],
+    [
+     "#2275A8",
+     "5,007,611 to 8,202,043"
+    ],
+    [
+     "#1A5C92",
+     "8,202,043 to 13,434,257"
+    ],
+    [
+     "#13447A",
+     "13,434,257 to 22,004,176"
+    ],
+    [
+     "#0C2E5E",
+     "22,004,176 to 36,040,988"
+    ]
+   ]
+  },
+  {
+   "label": "Commercial ships",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ship_commercial.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "322,554 to 517,023"
+    ],
+    [
+     "#C6E7F0",
+     "517,023 to 828,740"
+    ],
+    [
+     "#9CD6E6",
+     "828,740 to 1,328,391"
+    ],
+    [
+     "#6FC2DA",
+     "1,328,391 to 2,129,284"
+    ],
+    [
+     "#46AACB",
+     "2,129,284 to 3,413,040"
+    ],
+    [
+     "#2E8FBA",
+     "3,413,040 to 5,470,780"
+    ],
+    [
+     "#2275A8",
+     "5,470,780 to 8,769,140"
+    ],
+    [
+     "#1A5C92",
+     "8,769,140 to 14,056,100"
+    ],
+    [
+     "#13447A",
+     "14,056,100 to 22,530,590"
+    ],
+    [
+     "#0C2E5E",
+     "22,530,590 to 36,114,404"
+    ]
+   ]
+  },
+  {
+   "label": "Fishing vessels",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ship_fishing.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "2 to 6.9"
+    ],
+    [
+     "#C6E7F0",
+     "6.9 to 24"
+    ],
+    [
+     "#9CD6E6",
+     "24 to 84"
+    ],
+    [
+     "#6FC2DA",
+     "84 to 290"
+    ],
+    [
+     "#46AACB",
+     "290 to 1,008"
+    ],
+    [
+     "#2E8FBA",
+     "1,008 to 3,499"
+    ],
+    [
+     "#2275A8",
+     "3,499 to 12,148"
+    ],
+    [
+     "#1A5C92",
+     "12,148 to 42,169"
+    ],
+    [
+     "#13447A",
+     "42,169 to 146,382"
+    ],
+    [
+     "#0C2E5E",
+     "146,382 to 508,140"
+    ]
+   ]
+  },
+  {
+   "label": "Oil and gas vessels",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ship_oilgas.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "8,445 to 13,066"
+    ],
+    [
+     "#C6E7F0",
+     "13,066 to 20,217"
+    ],
+    [
+     "#9CD6E6",
+     "20,217 to 31,281"
+    ],
+    [
+     "#6FC2DA",
+     "31,281 to 48,399"
+    ],
+    [
+     "#46AACB",
+     "48,399 to 74,885"
+    ],
+    [
+     "#2E8FBA",
+     "74,885 to 115,865"
+    ],
+    [
+     "#2275A8",
+     "115,865 to 179,272"
+    ],
+    [
+     "#1A5C92",
+     "179,272 to 277,377"
+    ],
+    [
+     "#13447A",
+     "277,377 to 429,170"
+    ],
+    [
+     "#0C2E5E",
+     "429,170 to 664,030"
+    ]
+   ]
+  },
+  {
+   "label": "Passenger ships",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ship_passenger.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to 2"
+    ],
+    [
+     "#C6E7F0",
+     "2 to 3.9"
+    ],
+    [
+     "#9CD6E6",
+     "3.9 to 7.7"
+    ],
+    [
+     "#6FC2DA",
+     "7.7 to 15"
+    ],
+    [
+     "#46AACB",
+     "15 to 30"
+    ],
+    [
+     "#2E8FBA",
+     "30 to 59"
+    ],
+    [
+     "#2275A8",
+     "59 to 115"
+    ],
+    [
+     "#1A5C92",
+     "115 to 227"
+    ],
+    [
+     "#13447A",
+     "227 to 448"
+    ],
+    [
+     "#0C2E5E",
+     "448 to 882"
+    ]
+   ]
+  },
+  {
+   "label": "Leisure boats",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ship_leisure.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "25,375 to 39,018"
+    ],
+    [
+     "#C6E7F0",
+     "39,018 to 59,996"
+    ],
+    [
+     "#9CD6E6",
+     "59,996 to 92,253"
+    ],
+    [
+     "#6FC2DA",
+     "92,253 to 141,854"
+    ],
+    [
+     "#46AACB",
+     "141,854 to 218,122"
+    ],
+    [
+     "#2E8FBA",
+     "218,122 to 335,397"
+    ],
+    [
+     "#2275A8",
+     "335,397 to 515,725"
+    ],
+    [
+     "#1A5C92",
+     "515,725 to 793,007"
+    ],
+    [
+     "#13447A",
+     "793,007 to 1,219,371"
+    ],
+    [
+     "#0C2E5E",
+     "1,219,371 to 1,874,972"
+    ]
+   ]
+  }
+ ]
+}
