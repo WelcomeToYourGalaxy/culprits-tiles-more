@@ -1,8 +1,4 @@
 {
- "errors": {
-  "ibama_embargos": "HTTP Error 404: The specified blob does not exist.",
-  "ibama_infractions": "Command '('tippecanoe', '-o', '/tmp/tmpaaazhw6k/ibama_infractions.pmtiles', '--force', '-q', '-l', 'ibama_infractions', '-Z0', '-z12', '-r1', '--no-feature-limit', '--no-tile-size-limit', '/tmp/tmpaaazhw6k/ibama_infractions.geojsonl')' returned non-zero exit status 110."
- },
  "probes": {
   "canada_offenders_registry": [
    219841
@@ -24,15 +20,15 @@
    2000000
   ],
   "chile_sma_sanctions": [
-   3961,
-   3978
+   3964,
+   3984
   ],
   "mexico_profepa": [
    "HTTP Error 403: Forbidden",
    "HTTP Error 403: Forbidden"
   ],
   "colombia_sanctions": [
-   18397,
+   18427,
    129
   ],
   "ireland_epa": [
@@ -48,6 +44,19 @@
    69724
   ]
  },
- "at": 1790582126.6644263,
- "when": "2026-09-28"
+ "at": 1790901397.8066885,
+ "when": "2026-10-02",
+ "ibama_embargos": {
+  "rows": 113878,
+  "placed": 92021,
+  "no_position": 21857,
+  "from": "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.csv"
+ },
+ "ibama_infractions": {
+  "rows": 16262,
+  "placed": 16117,
+  "no_position": 145,
+  "from": "https://dadosabertos.ibama.gov.br/dados/SIFISC/auto_infracao/auto_infracao/auto_infracao_csv.zip",
+  "coordinates": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/SIFISC/auto_infracao/coordenada/coordenada.csv"
+ }
 }
