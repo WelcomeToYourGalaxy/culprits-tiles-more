@@ -1,0 +1,1139 @@
+{
+ "year": 2025,
+ "boxes_not_answered": [
+  {
+   "box": [
+    -180,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    -90
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    -70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    -50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    -30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    -10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    10
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    30
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    50
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -180,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -160,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -140,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -120,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -100,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -80,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -60,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -40,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    -20,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    0,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    20,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    40,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    60,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    80,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    100,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    120,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    140,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "box": [
+    160,
+    70
+   ],
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+ ]
+}
