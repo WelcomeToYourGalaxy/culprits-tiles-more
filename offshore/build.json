@@ -1,0 +1,29 @@
+{
+ "read": "2026-10-02",
+ "platforms": 5598,
+ "kinds": {
+  "gas": 87,
+  "oil": 1085,
+  "not stated": 3033,
+  "oil and gas": 1385,
+  "wind": 8
+ },
+ "slices_not_answered": [
+  {
+   "slice": "-30,-150,0,-120",
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+  },
+  {
+   "slice": "30,-60,60,-30",
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+  },
+  {
+   "slice": "30,0,60,30",
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+  },
+  {
+   "slice": "60,-120,90,-90",
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+  }
+ ]
+}
