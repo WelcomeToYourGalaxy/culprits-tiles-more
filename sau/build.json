@@ -1,0 +1,6 @@
+{
+ "read": "2026-10-02",
+ "files": 5,
+ "built": false,
+ "why": "no CSV in the bucket has a year, a fishing country and tonnes outside the RFMO tables; see sau/listing.json"
+}
