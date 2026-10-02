@@ -11,10 +11,12 @@ scientific analysis or research; credit the database and each record's own
 source; anything passed on goes with the same terms; a copy of products made
 with it is to be sent to LivingPlanetIndex@ioz.ac.uk.
 
-  lpi/populations.geojson   one point per population at its latitude and
-                            longitude, every field kept, the counts as one
-                            line of "year: value", plus its first and last
-                            counted years and the change between them
+  tiles/lpi_populations.pmtiles  one point per population at its latitude
+                            and longitude, with its class, system, name,
+                            change and last counted year
+  lpi/lpi_populations/<hh>.json.gz  each population's whole record (every
+                            field, the counts as one line of "year: value",
+                            first and last counted years, the change)
   lpi/build.json            counts, and populations with no position
 
 Nothing is left out: every class and system (freshwater, marine,
@@ -32,10 +34,11 @@ def rows():
         if p.suffix.lower() == ".zip":
             z = zipfile.ZipFile(p)
             for n in z.namelist():
-                if n.lower().endswith(".csv"):
-                    yield from csv.DictReader(io.TextIOWrapper(z.open(n), encoding="utf-8", errors="replace"))
+                # Skip the Mac copies the zip carries (__MACOSX/._name.csv): not data.
+                if n.lower().endswith(".csv") and "__MACOSX" not in n and not n.rsplit("/", 1)[-1].startswith("._"):
+                    yield from csv.DictReader(io.TextIOWrapper(z.open(n), encoding="utf-8-sig", errors="replace"))
         elif p.suffix.lower() == ".csv":
-            with open(p, encoding="utf-8", errors="replace") as f:
+            with open(p, encoding="utf-8-sig", errors="replace") as f:
                 yield from csv.DictReader(f)
 
 
@@ -74,7 +77,26 @@ def main():
             continue
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]}, "properties": p})
     OUT.mkdir(exist_ok=True)
-    (OUT / "populations.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
+    # 36,000 populations with their citations make a 46 MB file, too heavy for
+    # a browser to read whole: the points go to map tiles with the fields the
+    # map colours and filters by, and each one's whole record to its box
+    # files (as the IBAMA layers do; env_enforcement.write_layer).
+    import sys
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import env_enforcement
+    env_enforcement.OUT = OUT
+    slim, boxes = [], {}
+    for f in feats:
+        p = f["properties"]
+        key = str(p.get("ID") or len(slim))
+        boxes[key] = p
+        keep = {"id": key, "x_class": p.get("Class", ""), "x_system": p.get("System", ""), "x_name": p.get("Common_name") or p.get("Binomial", "")}
+        if "change, first to last count (%)" in p:
+            keep["x_change"] = p["change, first to last count (%)"]
+        if "last counted" in p:
+            keep["x_last"] = p["last counted"]
+        slim.append({"type": "Feature", "geometry": f["geometry"], "properties": keep})
+    env_enforcement.write_layer("lpi_populations", slim, boxes)
     classes = {}
     for f in feats:
         k = f["properties"].get("Class", "not given")
