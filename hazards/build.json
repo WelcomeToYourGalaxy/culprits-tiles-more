@@ -1,8 +1,8 @@
 {
  "gdacs.geojson": {
   "from": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
-  "features": 76815,
-  "bytes": 35321014,
+  "features": 76820,
+  "bytes": 35323371,
   "read": "2026-10-02"
  },
  "ncei_tsunamis.geojson": {
@@ -25,13 +25,13 @@
  },
  "usgs_quakes": {
   "from": "https://earthquake.usgs.gov/fdsnws/event/1/query (minmagnitude=5, 1900 on)",
-  "earthquakes": 107361,
-  "bytes": 42105042,
+  "earthquakes": 107363,
+  "bytes": 42106081,
   "read": "2026-10-02"
  },
  "ibtracs": {
   "from": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/shapefile/IBTrACS.since1980.list.v04r01.lines.zip",
-  "bytes": 50186777,
+  "bytes": 50186778,
   "to_zoom": 8,
   "read": "2026-10-02"
  },
