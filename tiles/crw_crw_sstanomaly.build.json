@@ -1,0 +1,8 @@
+{
+ "from": "https://www.star.nesdis.noaa.gov/pub/sod/mecb/crw/data/5km/v3.1_op/nc/v1.0/daily/ssta/2026/ct5km_ssta_v3.1_20260930.nc",
+ "day": "2026-09-30",
+ "to_zoom": 6,
+ "squares": 2769,
+ "bytes": 4866300,
+ "how": "max"
+}
