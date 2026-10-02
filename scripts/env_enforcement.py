@@ -108,7 +108,11 @@ def wkt_point(w):
 
 
 def resources(pkg):
-    j = json.loads(get(CKAN + urllib.parse.quote(pkg), 120))
+    try:
+        j = json.loads(get(CKAN + urllib.parse.quote(pkg), 120))
+    except Exception as e:  # noqa: BLE001
+        print(f"    {pkg}: IBAMA's catalogue did not answer ({e}); known addresses tried", flush=True)
+        return []
     res = (j.get("result") or {}).get("resources") or []
     for r in res:
         print(f"    {pkg}: {r.get('name')} -> {r.get('url')}", flush=True)
@@ -141,8 +145,16 @@ def write_layer(name, feats, pieces_of):
         for f in feats:
             fo.write(json.dumps(f, ensure_ascii=False, separators=(",", ":")) + "\n")
     out = work / f"{name}.pmtiles"
-    mines.sh("tippecanoe", "-o", str(out), "--force", "-q", "-l", name, "-Z0", "-z12", "-r1",
-             "--no-feature-limit", "--no-tile-size-limit", str(lines))
+    # Round 123b: the infraction notices failed here (exit 110, 28 September).
+    # A second try lets tippecanoe thin the busiest squares wide out (every
+    # notice still shows close in) and prints its own complaint to the log.
+    try:
+        mines.sh("tippecanoe", "-o", str(out), "--force", "-q", "-l", name, "-Z0", "-z12", "-r1",
+                 "--no-feature-limit", "--no-tile-size-limit", str(lines))
+    except Exception as e:  # noqa: BLE001
+        print(f"  {name}: tippecanoe failed ({e}); trying again, thinning only the busiest squares wide out", flush=True)
+        mines.sh("tippecanoe", "-o", str(out), "--force", "-l", name, "-Z0", "-z12", "-r1",
+                 "--drop-densest-as-needed", "--extend-zooms-if-still-dropping", str(lines))
     if out.stat().st_size > 95 * 1024 * 1024:
         raise RuntimeError(f"{name}: {out.stat().st_size / 1e6:.0f} MB is over GitHub's limit")
     TILES.mkdir(exist_ok=True)
@@ -152,12 +164,27 @@ def write_layer(name, feats, pieces_of):
 def ibama_embargos(status):
     res = resources("fiscalizacao-termo-de-embargo")
     main = pick(res, r"termo_de_embargo\.(csv|json)|termos de embargo$", r"coorden|itens|anexo|decis|enquadr|hist")
-    main = main or "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/TERMOS/TERMO_EMBARGO/termo_de_embargo.csv"
-    rows = table(get(main))
+    # Round 123b: the old blob address answers 404 (28 September); IBAMA's
+    # files now sit under dadosabertos.ibama.gov.br/dados/SIFISC/.
+    tried = [main] if main else []
+    tried += ["https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.csv",
+              "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.json",
+              "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.zip",
+              "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/TERMOS/TERMO_EMBARGO/termo_de_embargo.csv"]
+    rows, errs = None, []
+    for u in tried:
+        try:
+            rows = table(get(u))
+            main = u
+            break
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{u}: {e}")
+    if rows is None:
+        raise RuntimeError("no embargo file answered: " + " | ".join(errs))
     print(f"  embargos: {len(rows):,} rows from {main}; columns {list(rows[0])[:40] if rows else []}", flush=True)
     idk = next((k for k in (rows[0] if rows else {}) if re.fullmatch(r"(seq_tad|num_tad|seq_termo.*|id)", str(k), re.I)), None)
     coords = {}
-    cu = pick(res, r"coorden")
+    cu = pick(res, r"coorden") or "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/coordenada/coordenada.json"
     if cu:
         try:
             for r in table(get(cu)):
@@ -187,7 +214,8 @@ def ibama_embargos(status):
 def ibama_infractions(status):
     res = resources("fiscalizacao-auto-de-infracao")
     main = pick(res, r"auto.?de.?infra", r"coorden|itens|anexo|decis|enquadr|hist|mob|amostr")
-    rows = table(get(main)) if main else []
+    main = main or "https://dadosabertos.ibama.gov.br/dados/SIFISC/auto_infracao/auto_infracao/auto_infracao_csv.zip"
+    rows = table(get(main))
     print(f"  infractions: {len(rows):,} rows from {main}; columns {list(rows[0])[:40] if rows else []}", flush=True)
     cu = pick(res, r"coorden") or "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/SIFISC/auto_infracao/coordenada/coordenada.json"
     coords = {}
@@ -267,9 +295,12 @@ def main():
         status = json.loads(stamp.read_text())
     except Exception:  # noqa: BLE001
         status = {}
-    if time.time() - status.get("at", 0) < WEEK and not os.environ.get("ENFORCEMENT_REBUILD"):
+    # Round 123b: a layer that has never been built is tried every day.
+    unbuilt = any(not (TILES / f"{n}.pmtiles").exists() for n in ("ibama_embargos", "ibama_infractions"))
+    if time.time() - status.get("at", 0) < WEEK and not unbuilt and not os.environ.get("ENFORCEMENT_REBUILD"):
         print("enforcement: copied less than a week ago")
         return
+    status.pop("errors", None)
     for name, fn in (("ibama_embargos", ibama_embargos), ("ibama_infractions", ibama_infractions), ("probes", probes)):
         print(f"enforcement: {name}", flush=True)
         try:

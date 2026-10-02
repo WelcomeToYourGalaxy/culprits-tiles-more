@@ -22,7 +22,7 @@ on it kept:
 
 Weekly (Mondays) or by hand.
 """
-import datetime, html, json, os, pathlib, re, sys, time, urllib.request
+import subprocess, datetime, html, json, os, pathlib, re, sys, time, urllib.request
 
 BASE = "https://iuu-vessels.org"
 UA = {"User-Agent": "Mozilla/5.0 (Culprits atlas build; welcometoyourgalaxy@gmail.com)"}
@@ -66,14 +66,60 @@ def vessel(page):
         if k:
             rec[k] = v
     # Each history: a heading, then a table.
-    for head, table in re.findall(r"<h\d[^>]*>(.*?)</h\d>\s*(?:<[^t][^>]*>\s*)*<table[^>]*>(.*?)</table>", page, re.S | re.I):
+    # Round 123b: a heading closes with its own level (the page's h1 ran on to
+    # a later h4 and swallowed the whole page as one "heading").
+    for _lv, head, table in re.findall(r"<h(\d)[^>]*>((?:(?!<h\d).)*?)</h\1>\s*(?:<[^t][^>]*>\s*)*<table[^>]*>(.*?)</table>", page, re.S | re.I):
         rows = re.findall(r"<tr[^>]*>(.*?)</tr>", table, re.S | re.I)
         if not rows:
             continue
         cols = [text(c) for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", rows[0], re.S | re.I)]
         body = [[text(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", r, re.S | re.I)] for r in rows[1:]]
         rec[text(head)] = [dict(zip(cols, b)) for b in body if any(b)]
+    # Round 123b: label/value pairs written as rows of two cells or as
+    # "Label: value" lines, when the page has no definition list.
+    if not any(k in rec for k in ("Current Flag", "Flag")):
+        for a, b in re.findall(r"<tr[^>]*>\s*<t[hd][^>]*>(.*?)</t[hd]>\s*<td[^>]*>(.*?)</td>\s*</tr>", page, re.S | re.I):
+            k, v = text(a).rstrip(":"), text(b)
+            if k and len(k) < 60 and k not in rec:
+                rec[k] = v
+        for a, b in re.findall(r"<(?:label|span|strong|b|div)[^>]*>\s*([A-Z][A-Za-z /()]{1,40}):?\s*</(?:label|span|strong|b|div)>\s*<(?:span|div|p)[^>]*>(.*?)</(?:span|div|p)>", page, re.S):
+            k, v = text(a).rstrip(":"), text(b)
+            if k and k not in rec and v:
+                rec[k] = v
     return rec
+
+
+def from_download():
+    """Round 123b: TMT's own spreadsheet of every vessel, if the owner has
+    downloaded it (iuu-vessels.org/Home/Download asks a reason first) and put
+    it in iuu/download/. Every column kept."""
+    files = sorted(OUT.glob("download/*.xls*"))
+    if not files:
+        return None
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "openpyxl"], check=True)
+    import openpyxl
+    wb = openpyxl.load_workbook(files[-1], data_only=True)
+    ws = max(wb.worksheets, key=lambda w: w.max_row)
+    rows = list(ws.iter_rows(values_only=True))
+    hi = next(i for i, r in enumerate(rows[:20]) if sum(1 for c in r if c not in (None, "")) >= 4)
+    head = [str(c or f"column {k + 1}").strip() for k, c in enumerate(rows[hi])]
+    out = []
+    for r in rows[hi + 1:]:
+        rec = {head[k]: (v.isoformat() if hasattr(v, "isoformat") else v) for k, v in enumerate(r) if k < len(head) and v not in (None, "")}
+        if rec:
+            fk = next((h for h in head if re.search(r"current flag|^flag", h, re.I)), None)
+            if fk and rec.get(fk) and "Current Flag" not in rec:
+                rec["Current Flag"] = str(rec[fk])
+            nk = next((h for h in head if re.search(r"^(vessel )?name", h, re.I)), None)
+            if nk and rec.get(nk) and "Name" not in rec:
+                rec["Name"] = str(rec[nk])
+            pk = next((h for h in head if re.search(r"position", h, re.I)), None)
+            if pk and rec.get(pk):
+                rec["Last known position"] = str(rec[pk])
+            rec["page"] = files[-1].name
+            out.append(rec)
+    print(f"iuu_vessels: {len(out)} vessels from {files[-1]}", flush=True)
+    return out
 
 
 def position(s):
@@ -101,6 +147,9 @@ def main():
         print("iuu_vessels: weekly; not Monday")
         return
     OUT.mkdir(exist_ok=True)
+    vessels = from_download()
+    if vessels is not None:
+        return finish(vessels, set(k for v in vessels for k in v), stamp)
     search = get(f"{BASE}/Home/Search")
     links = sorted(set(re.findall(r'href="((?:https?://(?:www\.)?iuu-vessels\.org)?/Vessel/GetVessel/[0-9a-f-]+)"', search, re.I)))
     print(f"iuu_vessels: {len(links)} vessels listed", flush=True)
@@ -111,7 +160,10 @@ def main():
     for i, href in enumerate(links):
         url = href if href.startswith("http") else BASE + href
         try:
-            rec = vessel(get(url))
+            page = get(url)
+            if i == 0:
+                (OUT / "sample_page.html").write_text(page)
+            rec = vessel(page)
         except Exception as e:  # noqa: BLE001
             rec = {"error": str(e)}
         rec["page"] = url
@@ -120,6 +172,10 @@ def main():
         if i % 50 == 49:
             print(f"  {i + 1} of {len(links)} read", flush=True)
         time.sleep(0.4)
+    finish(vessels, fields, stamp)
+
+
+def finish(vessels, fields, stamp):
     (OUT / "vessels.json").write_text(json.dumps(vessels, indent=1, ensure_ascii=False))
     names = {}
     try:
