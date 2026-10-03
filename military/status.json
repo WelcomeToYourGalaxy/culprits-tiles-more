@@ -1,11 +1,11 @@
 {
- "run": "2026-10-02 15:32 UTC",
+ "run": "2026-10-03 14:30 UTC",
  "parts": {
   "news": true,
   "alliances": true,
   "test_sites": true,
   "attacks": true,
-  "sites": true,
+  "sites": false,
   "units": true,
   "minefields": true,
   "osm_military": true,
