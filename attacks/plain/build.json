@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02 13:00 UTC",
+ "built": "2026-10-03 12:03 UTC",
  "files": {
   "gw_killings": 1910,
   "cpt_massacres": 56,
@@ -30,9 +30,9 @@
   "not placed": 1
  },
  "translations": {
-  "kept": 10661,
-  "made this run": 9323,
-  "not made yet (time budget or no model)": 12457,
+  "kept": 16725,
+  "made this run": 6064,
+  "not made yet (time budget or no model)": 0,
   "engine": "Argos Translate (open-source, run on the build machine)",
   "trouble": null
  }
