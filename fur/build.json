@@ -1,0 +1,13 @@
+{
+ "read": "2026-09-29",
+ "farms": 778,
+ "skin_farms": 479,
+ "by_source": {
+  "Final Nail": "270 farms",
+  "Farm Transparency Project": "849 facilities listed; 335 fur farms placed; 514 skin farms of other animals, 511 of them placed, into the skin farms file; 3 with no position; skin species {'Suburb State Country Last Known': 3, 'Unknown': 466, 'Crocodiles': 39, 'Buffalo Cows/cattle Goats Alpacas Donkeys Camels': 1, 'Buffalo': 1, 'Cows/cattle Horses': 2, 'Alpacas': 1, 'Sheep': 1}",
+  "OpenStreetMap": "265 places",
+  "antyfutro (Poland)": "did not answer (HTTPError: HTTP Error 500: Internal Server Error)",
+  "Our World in Data (Fur Free Alliance)": "245 countries; column Fur farming status",
+  "OpenStreetMap (skin farms)": "did not answer (RuntimeError: no Overpass instance answered (Remote end closed connection without response))"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "built": "2026-10-04 16:08 UTC",
+ "rows": {
+  "slavery_ports": {
+   "file": "slavery_points_ports.pmtiles",
+   "records": 3424,
+   "placed": 3424,
+   "figures_read": {
+    "high_risk_share_pct": 3424,
+    "high_risk_share_is": 3424,
+    "harbour_size": 3424,
+    "port_of_entry": 3424
+   }
+  },
+  "slavery_fishing": {
+   "file": "slavery_points_fishing.pmtiles",
+   "records": 2316,
+   "placed": 2316,
+   "figures_read": {
+    "precision": 2316,
+    "grid_cell": 2316,
+    "at_risk_effort_kw_hours": 2316,
+    "share_of_effort_high_risk_pct": 2316,
+    "share_of_effort_is": 2316,
+    "gear": 2316,
+    "rank": 2316
+   }
+  },
+  "slavery_enforcement": {
+   "file": "slavery_points_enforcement.pmtiles",
+   "records": 519,
+   "placed": 519,
+   "figures_read": {
+    "workers": 519,
+    "inspection_year": 519,
+    "added_to_register": 519,
+    "year_added": 519,
+    "establishment": 519,
+    "activity_code": 519
+   }
+  },
+  "slavery_determinations": {
+   "file": "slavery_points_determinations.pmtiles",
+   "records": 296,
+   "placed": 18,
+   "figures_read": {}
+  }
+ }
+}

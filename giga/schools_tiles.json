@@ -1,0 +1,9 @@
+{
+ "tiles": "https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z={z}&x={x}&y={y}.mvt",
+ "layer": "default",
+ "base": "https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/",
+ "tried": {
+  "https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/": "1514773 bytes, application/vnd.mapbox-vector-tile"
+ },
+ "date": "2026-10-04"
+}

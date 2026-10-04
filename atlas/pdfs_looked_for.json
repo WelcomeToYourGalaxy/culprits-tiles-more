@@ -1,0 +1,62 @@
+{
+ "base": "https://atlas-for-the-end-of-the-world.com/hotspots/",
+ "asked": "2026-10-04",
+ "hotspots": {
+  "Indo-Burma": {
+   "indo_burma": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   },
+   "indo-burma": {
+    "answers": true,
+    "bytes": "15514513",
+    "last_modified": "Sun, 28 Jan 2018 18:02:22 GMT"
+   },
+   "indoburma": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   }
+  },
+  "Polynesia-Micronesia": {
+   "polynesia_micronesia": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   },
+   "polynesia-micronesia": {
+    "answers": true,
+    "bytes": "3982440",
+    "last_modified": "Sun, 28 Jan 2018 18:05:06 GMT"
+   },
+   "polynesia": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   }
+  },
+  "Irano-Anatolian": {
+   "irano_anatolian": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   },
+   "irano-anatolian": {
+    "answers": true,
+    "bytes": "5793887",
+    "last_modified": "Sun, 28 Jan 2018 18:01:59 GMT"
+   }
+  },
+  "Tumbes-Choco-Magdalena": {
+   "tumbes_choco_magdalena": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   },
+   "tumbes-choco-magdalena": {
+    "answers": true,
+    "bytes": "4589562",
+    "last_modified": "Sun, 28 Jan 2018 18:06:14 GMT"
+   },
+   "tumbes_choco": {
+    "answers": false,
+    "why": "HTTP Error 404: Not Found"
+   }
+  }
+ }
+}

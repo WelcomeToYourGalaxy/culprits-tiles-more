@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "LENT"
+ ],
+ "hectares": 5043739.5,
+ "to_zoom": 5,
+ "squares": 181,
+ "bytes": 339122,
+ "how": "max"
+}

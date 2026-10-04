@@ -1,0 +1,11 @@
+{
+ "read": "2026-10-04",
+ "kinds": [
+  "All ships",
+  "Commercial ships",
+  "Fishing vessels",
+  "Oil and gas vessels",
+  "Passenger ships",
+  "Leisure boats"
+ ]
+}

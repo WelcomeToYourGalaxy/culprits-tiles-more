@@ -1,0 +1,12 @@
+{
+ "from": "World Bank API (FAO AQUASTAT)",
+ "indicators": {
+  "ER.H2O.FWST.ZS": "water_stress_pct",
+  "ER.H2O.FWAG.ZS": "farming_share_pct",
+  "ER.H2O.FWIN.ZS": "industry_share_pct",
+  "ER.H2O.FWDM.ZS": "homes_share_pct",
+  "ER.H2O.FWTL.K3": "withdrawn_bn_m3"
+ },
+ "countries": 224,
+ "read": "2026-10-02"
+}

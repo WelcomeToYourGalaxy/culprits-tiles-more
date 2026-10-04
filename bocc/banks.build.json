@@ -1,0 +1,989 @@
+{
+ "report": "https://www.ran.org/wp-content/uploads/2026/06/BOCC_2026_vFINAL-1.pdf",
+ "banks": 65,
+ "placed": 58,
+ "pairing": [
+  {
+   "bank": "JPMorgan Chase",
+   "how_paired": "LEI approved 25 September",
+   "lei": "8I5DZWZKVSZI1NUHU748",
+   "legal_name": "JPMORGAN CHASE & CO.",
+   "headquarters": "383 MADISON AVENUE, NEW YORK, US-NY, 10179, US",
+   "placed": "street",
+   "openstreetmap_match": "383 Madison Avenue, 383, Madison Avenue, Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10017, United States"
+  },
+  {
+   "bank": "Bank of America",
+   "how_paired": "LEI approved 25 September",
+   "lei": "9DJT3UXIJIZJI4WXO774",
+   "legal_name": "BANK OF AMERICA CORPORATION",
+   "headquarters": "Bank of America Corporate Center, 100 North Tryon Street, Charlotte, US-NC, 28202, US",
+   "placed": "street",
+   "openstreetmap_match": "Bank of America, 100, North Tryon Street, Uptown, Charlotte, Mecklenburg County, North Carolina, 28202, United States"
+  },
+  {
+   "bank": "Mitsubishi UFJ Financial",
+   "how_paired": "LEI approved 25 September",
+   "lei": "353800V2V8PUY9TK3E06",
+   "legal_name": "株式会社三菱ＵＦＪフィナンシャル・グループ",
+   "headquarters": "丸の内一丁目4番5号, 東京都 千代田区, 100-8330, JP",
+   "placed": false
+  },
+  {
+   "bank": "Mizuho Financial",
+   "how_paired": "LEI approved 25 September",
+   "lei": "353800CI5L6DDAN5XZ33",
+   "legal_name": "株式会社みずほフィナンシャルグループ",
+   "headquarters": "大手町一丁目５番５号, 東京都 千代田区, 100-8176, JP",
+   "placed": false
+  },
+  {
+   "bank": "Citigroup",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "6SHGI4ZSSLCXXQSBB395",
+     "legal_name": "CITIGROUP INC.",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "6SHGI4ZSSLCXXQSBB395",
+   "legal_name": "CITIGROUP INC.",
+   "headquarters": "388 GREENWICH STREET, NEW YORK, US-NY, 10013, US",
+   "placed": "street",
+   "openstreetmap_match": "388, Greenwich Street, Lower Manhattan, Manhattan, New York County, New York, 10013, United States"
+  },
+  {
+   "bank": "Wells Fargo",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "54930004W6Z9H2LPE588",
+     "legal_name": "WELLS FARGO & COMPANY",
+     "country": "US",
+     "status": "NULL",
+     "category": "GENERAL"
+    },
+    {
+     "lei": "PBLD0EJDB5FWOLXP3B76",
+     "legal_name": "WELLS FARGO & COMPANY",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "PBLD0EJDB5FWOLXP3B76",
+   "legal_name": "WELLS FARGO & COMPANY",
+   "headquarters": "333 Market Street, San Francisco, US-CA, 94105, US",
+   "placed": "street",
+   "openstreetmap_match": "333 Market, 333, Market Street, Financial District, San Francisco, California, 94105, United States"
+  },
+  {
+   "bank": "Royal Bank of Canada",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "ES7IP3U3RHIGC71XBU11",
+     "legal_name": "Royal Bank of Canada",
+     "country": "CA",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "ES7IP3U3RHIGC71XBU11",
+   "legal_name": "Royal Bank of Canada",
+   "headquarters": "1 place Ville-Marie, Montreal, CA-QC, H3B 3A9, CA",
+   "placed": "street",
+   "openstreetmap_match": "Le Cathcart, 1, Esplanade Place Ville Marie, Galerie Place Ville-Marie, Ville-Marie, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H3B 0E9, Canada"
+  },
+  {
+   "bank": "Barclays",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "213800LBQA1Y9L22JB70",
+     "legal_name": "BARCLAYS PLC",
+     "country": "GB",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "213800LBQA1Y9L22JB70",
+   "legal_name": "BARCLAYS PLC",
+   "headquarters": "1 CHURCHILL PLACE, LONDON, GB-LND, E14 5HP, GB",
+   "placed": "street",
+   "openstreetmap_match": "Barclays, 1, Churchill Place, Canary Wharf, London Borough of Tower Hamlets, Greater London, England, E14 5HP, United Kingdom"
+  },
+  {
+   "bank": "SMBC Group",
+   "how_paired": "LEI approved 25 September",
+   "lei": "35380028MYWPB6AUO129",
+   "legal_name": "株式会社三井住友フィナンシャルグループ",
+   "headquarters": "丸の内一丁目1番2号, 東京都 千代田区, 100-0005, JP",
+   "placed": false
+  },
+  {
+   "bank": "Morgan Stanley",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "IGJSJL3JD5P30I6NJZ34",
+     "legal_name": "MORGAN STANLEY",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "IGJSJL3JD5P30I6NJZ34",
+   "legal_name": "MORGAN STANLEY",
+   "headquarters": "1585 Broadway, New York, US-NY, 10036, US",
+   "placed": "street",
+   "openstreetmap_match": "Morgan Stanley Building, 1585, Broadway, Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States"
+  },
+  {
+   "bank": "Goldman Sachs",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "784F5XWPLTWKTBV3E584",
+     "legal_name": "THE GOLDMAN SACHS GROUP, INC.",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "784F5XWPLTWKTBV3E584",
+   "legal_name": "THE GOLDMAN SACHS GROUP, INC.",
+   "headquarters": "200 WEST STREET, NEW YORK, US-NY, 10282, US",
+   "placed": "street",
+   "openstreetmap_match": "Goldman Sachs Tower, 200, West Street, Battery Park City, Lower Manhattan, Manhattan, New York County, New York, 10282, United States"
+  },
+  {
+   "bank": "Toronto-Dominion Bank",
+   "how_paired": "LEI approved 25 September",
+   "lei": "PT3QB789TSUIDF371261",
+   "legal_name": "THE TORONTO-DOMINION BANK",
+   "headquarters": "15FLR-66 ST Wellington W, Toronto, CA-ON, M5K 1A2, CA",
+   "placed": "city",
+   "openstreetmap_match": "Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  {
+   "bank": "Scotiabank",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "L3I9ZG2KFGXZ61BMYR72",
+     "legal_name": "THE BANK OF NOVA SCOTIA",
+     "country": "CA",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "L3I9ZG2KFGXZ61BMYR72",
+   "legal_name": "THE BANK OF NOVA SCOTIA",
+   "headquarters": "40 Temperance Street, Toronto, CA-ON, M5H 0B4, CA",
+   "placed": "street",
+   "openstreetmap_match": "Scotiabank Tower at Bay Adelaide Centre, 40, Temperance Street, Financial District, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5H 2R2, Canada"
+  },
+  {
+   "bank": "Truist Financial",
+   "how_paired": "LEI approved 25 September",
+   "lei": "549300DRQQI75D2JP341",
+   "legal_name": "Truist Financial Corporation",
+   "headquarters": "214 North Tryon Street, Charlotte, US-NC, 28202, US",
+   "placed": "street",
+   "openstreetmap_match": "Truist Center, 214, North Tryon Street, Uptown, Charlotte, Mecklenburg County, North Carolina, 28202, United States"
+  },
+  {
+   "bank": "CIBC",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "549300H8L46OOZOFHU82",
+     "legal_name": "Canadian Imperial Bank Of Commerce",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "2IGI19DL77OX0HC3ZE78",
+     "legal_name": "Canadian Imperial Bank of Commerce",
+     "country": "CA",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "2IGI19DL77OX0HC3ZE78",
+   "legal_name": "Canadian Imperial Bank of Commerce",
+   "headquarters": "81 BAY ST, Toronto, CA-ON, M5J 0E7, CA",
+   "placed": "street",
+   "openstreetmap_match": "Aloette Go, 81, Bay Street, St Lawrence-East Bayfront-The Islands, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5J 0E7, Canada"
+  },
+  {
+   "bank": "CITIC",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "300300NIFA1100057377",
+     "legal_name": "中国中信集团有限公司",
+     "country": "CN",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "300300NIFA1100057377",
+   "legal_name": "中国中信集团有限公司",
+   "headquarters": "北京市朝阳区新源南路6号, 朝阳区, CN-BJ, 100000, CN",
+   "placed": "city",
+   "openstreetmap_match": "朝阳区, 北京市, 中国"
+  },
+  {
+   "bank": "Bank of China",
+   "how_paired": "exact legal name; 4 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "25490064D4J0UOZ7XS89",
+     "legal_name": "Bank of China Limited",
+     "country": "AU",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "254900DOHD6ZQSF7GZ43",
+     "legal_name": "BANK OF CHINA LIMITED",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "984500BDB0DE6F1AF647",
+     "legal_name": "BANK OF CHINA LIMITED",
+     "country": "PA",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "54930053HGCFWVHYZX42",
+     "legal_name": "中国银行股份有限公司",
+     "country": "CN",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "54930053HGCFWVHYZX42",
+   "legal_name": "中国银行股份有限公司",
+   "headquarters": "复兴门内大街1号, 西城区, CN-BJ, 100818, CN",
+   "placed": "city",
+   "openstreetmap_match": "西城区, 北京市, 100032, 中国"
+  },
+  {
+   "bank": "PNC Financial Services",
+   "how_paired": "LEI approved 25 September",
+   "lei": "CFGNEKW0P8842LEUIA51",
+   "legal_name": "THE PNC FINANCIAL SERVICES GROUP, INC.",
+   "headquarters": "300 FIFTH AVENUE, PITTSBURGH, US-PA, 15222, US",
+   "placed": "street",
+   "openstreetmap_match": "300, Fifth Avenue, Fifth & Forbes, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States"
+  },
+  {
+   "bank": "US Bancorp",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "N1GZ7BBF3NP8GI976H15",
+     "legal_name": "U.S. BANCORP",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "N1GZ7BBF3NP8GI976H15",
+   "legal_name": "U.S. BANCORP",
+   "headquarters": "200 S 6TH ST, MINNEAPOLIS, US-MN, 55402, US",
+   "placed": "street",
+   "openstreetmap_match": "US Bank Plaza, 200, South 6th Street, Downtown West, Gateway District, Central, Minneapolis, Hennepin County, Minnesota, 55402, United States"
+  },
+  {
+   "bank": "Deutsche Bank",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "529900IH9V4I3VHQVO92",
+     "legal_name": "Deutsche Bank Aktiengesellschaft",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "7LTWFZYICNSX8D621K86",
+     "legal_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+     "country": "DE",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "7LTWFZYICNSX8D621K86",
+   "legal_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+   "headquarters": "Taunusanlage 12, Frankfurt am Main, DE-HE, 60325, DE",
+   "placed": "street",
+   "openstreetmap_match": "Moriki, 12, Taunusanlage, Westend Süd, Innenstadt 2, Frankfurt am Main, Hessen, 60325, Deutschland"
+  },
+  {
+   "bank": "Santander",
+   "how_paired": "exact legal name; 3 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "7245000NHIQTPK869X55",
+     "legal_name": "Banco Santander S.A.",
+     "country": "NL",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "894500NTXK2L5DK8ST13",
+     "legal_name": "Banco Santander S.A",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "5493006QMFDDMYWIAM13",
+     "legal_name": "BANCO SANTANDER S.A.",
+     "country": "ES",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "5493006QMFDDMYWIAM13",
+   "legal_name": "BANCO SANTANDER S.A.",
+   "headquarters": "PASEO DE PEREDA 9-12, SANTANDER, ES-S, 39004, ES",
+   "placed": "street",
+   "openstreetmap_match": "Paseo de Pereda, Ensanche, Tetuán, Santander, Cantabria, 39004, España"
+  },
+  {
+   "bank": "HSBC",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "MLU0ZO3ML4LN2LL2TL39",
+     "legal_name": "HSBC HOLDINGS PLC",
+     "country": "GB",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "MLU0ZO3ML4LN2LL2TL39",
+   "legal_name": "HSBC HOLDINGS PLC",
+   "headquarters": "8 CANADA SQUARE, LONDON, GB-LND, E14 5HQ, GB",
+   "placed": "street",
+   "openstreetmap_match": "HSBC UK, 8, Canada Square, Canary Wharf, London Borough of Tower Hamlets, Greater London, England, E14 5HQ, United Kingdom"
+  },
+  {
+   "bank": "BMO Financial Group",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "NQQ6HPCNCCU6TUTQYE16",
+     "legal_name": "Bank of Montréal",
+     "country": "CA",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "NQQ6HPCNCCU6TUTQYE16",
+   "legal_name": "Bank of Montréal",
+   "headquarters": "100 King ST W, 21St Fl, Toronto, CA-ON, M5X 1A1, CA",
+   "placed": "city",
+   "openstreetmap_match": "Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  {
+   "bank": "Industrial and Commercial Bank of China",
+   "how_paired": "LEI approved 25 September",
+   "lei": "2549005QXSCD8MSHQU78",
+   "legal_name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA LIMITED",
+   "headquarters": "55 Fuxingmennei Avenue, Xicheng District, Beijing, CN-BJ, 100140, CN",
+   "placed": "city",
+   "openstreetmap_match": "北京市, 中国"
+  },
+  {
+   "bank": "Standard Chartered",
+   "how_paired": "LEI approved 25 September",
+   "lei": "U4LOSYZ7YG4W3S5F2G91",
+   "legal_name": "STANDARD CHARTERED PLC",
+   "headquarters": "1 BASINGHALL AVENUE, LONDON, GB-LND, EC2V 5DD, GB",
+   "placed": "street",
+   "openstreetmap_match": "OBA Coffee, 1, Basinghall Avenue, Leadenhall Market, Moorgate, City of London, Greater London, England, EC2V 5DD, United Kingdom"
+  },
+  {
+   "bank": "China Merchants Bank",
+   "how_paired": "LEI approved 25 September",
+   "lei": "254900SEWBR5POA0TF02",
+   "legal_name": "CHINA MERCHANTS BANK CO., LTD.",
+   "headquarters": "China Merchants Bank Tower No.7088, Shennan Boulevard, Shenzhen, 518040, CN",
+   "placed": "city",
+   "openstreetmap_match": "深圳市, 广东省, 中国"
+  },
+  {
+   "bank": "China Construction Bank",
+   "how_paired": "LEI approved 25 September",
+   "lei": "2549006EHFY98CQJZN84",
+   "legal_name": "China Construction Bank Corporation",
+   "headquarters": "25 Financial Street, Xicheng District, Xicheng Qu, CN-BJ, 100033, CN",
+   "placed": "address",
+   "openstreetmap_match": "北京金融街, 金融街街道, 首都功能核心区, 西城区, 北京市, 100032, 中国"
+  },
+  {
+   "bank": "ING Group",
+   "how_paired": "LEI approved 25 September",
+   "lei": "549300NYKK9MWM7GGW15",
+   "legal_name": "ING GROEP N.V.",
+   "headquarters": "BIJLMERDREEF 106, AMSTERDAM, NL-NH, 1102 CT, NL",
+   "placed": "street",
+   "openstreetmap_match": "ING Bank Cedar gebouw A, 106, Bijlmerdreef, H-Buurt, Bijlmer, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1102 CT, Nederland"
+  },
+  {
+   "bank": "Société Générale",
+   "how_paired": "exact legal name; 3 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "254900N8T2BRBQ9GMT85",
+     "legal_name": "Société Générale",
+     "country": "MC",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "213800O66553ESU7RD35",
+     "legal_name": "SOCIETE GENERALE",
+     "country": "GB",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "O2RNE8IBXP4R0TD8PU41",
+     "legal_name": "SOCIETE GENERALE",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "O2RNE8IBXP4R0TD8PU41",
+   "legal_name": "SOCIETE GENERALE",
+   "headquarters": "29 BOULEVARD HAUSSMANN, PARIS, FR-75C, 75009, FR",
+   "placed": "street",
+   "openstreetmap_match": "29, Boulevard Haussmann, Quartier de la Chaussée-d'Antin, Paris 9e Arrondissement, Paris, Île-de-France, France métropolitaine, 75009, France"
+  },
+  {
+   "bank": "Crédit Agricole",
+   "how_paired": "no register entry named Crédit Agricole S.A. in FR",
+   "register_entries_found": [],
+   "placed": false
+  },
+  {
+   "bank": "Banco Bilbao Vizcaya Argentaria (BBVA)",
+   "how_paired": "no register entry named Banco Bilbao Vizcaya Argentaria, S.A. in ES",
+   "register_entries_found": [],
+   "placed": false
+  },
+  {
+   "bank": "Industrial Bank Company",
+   "how_paired": "LEI approved 25 September",
+   "lei": "300300C1030935001303",
+   "legal_name": "兴业银行股份有限公司",
+   "headquarters": "银城路167号3楼, 上海市, CN-SH, 200120, CN",
+   "placed": "city",
+   "openstreetmap_match": "上海市, 黄浦区, 上海市, 200001, 中国"
+  },
+  {
+   "bank": "BNP Paribas",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "2763TSAJ0VP4CVMFM028",
+     "legal_name": "BNP PARIBAS",
+     "country": "QA",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "R0MUWSFPU8MPRO8K5P83",
+     "legal_name": "BNP PARIBAS",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "R0MUWSFPU8MPRO8K5P83",
+   "legal_name": "BNP PARIBAS",
+   "headquarters": "16 BOULEVARD DES ITALIENS, PARIS, FR-75C, 75009, FR",
+   "placed": "street",
+   "openstreetmap_match": "16, Boulevard des Italiens, Quartier du Faubourg-Montmartre, Paris 9e Arrondissement, Paris, Île-de-France, France métropolitaine, 75002, France"
+  },
+  {
+   "bank": "Agricultural Bank of China",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "549300E7TSGLCOVSY746",
+     "legal_name": "中国农业银行股份有限公司",
+     "country": "CN",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "549300E7TSGLCOVSY746",
+   "legal_name": "中国农业银行股份有限公司",
+   "headquarters": "东城区建国门内大街69号, 东城区, CN-BJ, 100005, CN",
+   "placed": "city",
+   "openstreetmap_match": "东城区, 北京市, 100010, 中国"
+  },
+  {
+   "bank": "Shanghai Pudong Development Bank",
+   "how_paired": "LEI approved 25 September",
+   "lei": "300300C1031031001330",
+   "legal_name": "上海浦东发展银行股份有限公司",
+   "headquarters": "博成路1388号, 上海市, CN-SH, 200126, CN",
+   "placed": "city",
+   "openstreetmap_match": "上海市, 黄浦区, 上海市, 200001, 中国"
+  },
+  {
+   "bank": "Groupe BPCE",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "9695005MSX1OYEMGDF46",
+     "legal_name": "BPCE",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    },
+    {
+     "lei": "54930039KUBJI660KI09",
+     "legal_name": "BPCE LIFE",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    }
+   ],
+   "lei": "9695005MSX1OYEMGDF46",
+   "legal_name": "BPCE",
+   "headquarters": "7 PRO GERMAINE SABLON, PARIS 13, FR-75C, 75013, FR",
+   "placed": "city",
+   "openstreetmap_match": "Paris 13e Arrondissement, Paris, Île-de-France, France métropolitaine, 75013, France"
+  },
+  {
+   "bank": "China Everbright",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "300300211RYM7W932M17",
+     "legal_name": "中国光大集团股份公司",
+     "country": "CN",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "300300211RYM7W932M17",
+   "legal_name": "中国光大集团股份公司",
+   "headquarters": "北京市西城区太平桥大街25号, 西城区, CN-BJ, 100000, CN",
+   "placed": "city",
+   "openstreetmap_match": "西城区, 北京市, 100032, 中国"
+  },
+  {
+   "bank": "Capital One Financial",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "ZUE8T73ROZOF6FLBAR73",
+     "legal_name": "CAPITAL ONE FINANCIAL CORPORATION",
+     "country": "US",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "ZUE8T73ROZOF6FLBAR73",
+   "legal_name": "CAPITAL ONE FINANCIAL CORPORATION",
+   "headquarters": "1680 Capital One Drive, McLean, Fairfax, US-VA, 22102, US",
+   "placed": "street",
+   "openstreetmap_match": "Capital One: Center 2, 1680, Capital One Drive, McLean, Fairfax County, Virginia, 22102, United States"
+  },
+  {
+   "bank": "State Bank of India",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "549300P3DIW86LCFS227",
+     "legal_name": "STATE BANK OF INDIA",
+     "country": "BE",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "5493001JZ37UBBZF6L49",
+     "legal_name": "STATE BANK OF INDIA",
+     "country": "IN",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "5493001JZ37UBBZF6L49",
+   "legal_name": "STATE BANK OF INDIA",
+   "headquarters": "C/O STATE BANK BHAVAN MADAME CAMA ROAD NARIMAN POINT, MUMBAI, IN-MH, 400021, IN",
+   "placed": "city",
+   "openstreetmap_match": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+  },
+  {
+   "bank": "Intesa Sanpaolo",
+   "how_paired": "no register entry named Intesa Sanpaolo S.p.A. / Intesa Sanpaolo Società per Azioni in IT",
+   "register_entries_found": [
+    {
+     "lei": "724500ZM62VN7JH6K383",
+     "legal_name": "Intesa Sanpaolo S.p.A.",
+     "country": "NL",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    }
+   ],
+   "placed": false
+  },
+  {
+   "bank": "Bank of Beijing",
+   "how_paired": "LEI approved 25 September",
+   "lei": "300300C1080211000042",
+   "legal_name": "北京银行股份有限公司",
+   "headquarters": "西城区金融大街甲17号首层, 北京市, CN-BJ, 100033, CN",
+   "placed": "city",
+   "openstreetmap_match": "北京市, 中国"
+  },
+  {
+   "bank": "UniCredit",
+   "how_paired": "no register entry named UniCredit S.p.A. / UniCredit, Società per Azioni in IT",
+   "register_entries_found": [
+    {
+     "lei": "5299009WCZQ5210QDL73",
+     "legal_name": "UniCredit S.p.A. Branch Vienna",
+     "country": "AT",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    }
+   ],
+   "placed": false
+  },
+  {
+   "bank": "China Minsheng Banking",
+   "how_paired": "LEI approved 25 September",
+   "lei": "549300HBUGSQD1VCXG94",
+   "legal_name": "中国民生银行股份有限公司",
+   "headquarters": "复兴门内大街2号, 西城区, CN-BJ, 100031, CN",
+   "placed": "city",
+   "openstreetmap_match": "西城区, 北京市, 100032, 中国"
+  },
+  {
+   "bank": "DBS",
+   "how_paired": "LEI approved 25 September",
+   "lei": "5493007FKT78NKPM5V55",
+   "legal_name": "DBS GROUP HOLDINGS LTD",
+   "headquarters": "12 MARINA BOULEVARD, MARINA BAY FINANCIAL CENTRE, SINGAPORE, SG-01, 018982, SG",
+   "placed": "city",
+   "openstreetmap_match": "Singapore"
+  },
+  {
+   "bank": "Ping An Insurance Group",
+   "how_paired": "LEI approved 25 September",
+   "lei": "529900M9MC28JLN35U89",
+   "legal_name": "中国平安保险（集团）股份有限公司",
+   "headquarters": "47th, 48th, 108th,109th, 110th, 111th and 112th Floors, Ping An Finance Center, No. 5033 Yitian Road, Shenzhen, CN-GD, 518033, CN",
+   "placed": "city",
+   "openstreetmap_match": "深圳市, 广东省, 中国"
+  },
+  {
+   "bank": "UBS",
+   "how_paired": "LEI approved 25 September",
+   "lei": "549300SZJ9VS8SGXAN81",
+   "legal_name": "UBS Group AG",
+   "headquarters": "Bahnhofstrasse 45, Zurich, CH-ZH, 8001, CH",
+   "placed": "street",
+   "openstreetmap_match": "UBS, 45, Bahnhofstrasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  {
+   "bank": "Bank of Jiangsu",
+   "how_paired": "LEI approved 25 September",
+   "lei": "300300C1086832000046",
+   "legal_name": "江苏银行股份有限公司",
+   "headquarters": "中华路26号, 南京市, CN-JS, 210000, CN",
+   "placed": "city",
+   "openstreetmap_match": "南京市, 江苏省, 中国"
+  },
+  {
+   "bank": "Rabobank",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "DG3RU1DBUFHT4ZF9WN62",
+     "legal_name": "Coöperatieve Rabobank U.A.",
+     "country": "NL",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "DG3RU1DBUFHT4ZF9WN62",
+   "legal_name": "Coöperatieve Rabobank U.A.",
+   "headquarters": "Croeselaan 18, Utrecht, NL-UT, 3521 CB, NL",
+   "placed": "street",
+   "openstreetmap_match": "Rabobank, 18, Croeselaan, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Nederland, 3521 CB, Nederland"
+  },
+  {
+   "bank": "NatWest",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "2138005O9XJIJN4JPN90",
+     "legal_name": "NATWEST GROUP PLC",
+     "country": "GB",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "2138005O9XJIJN4JPN90",
+   "legal_name": "NATWEST GROUP PLC",
+   "headquarters": "36 ST ANDREW SQUARE, EDINBURGH, GB-EDH, EH2 2YB, GB",
+   "placed": "street",
+   "openstreetmap_match": "36, St Andrew Square, Gayfield, Broughton, New Town/Broughton, City of Edinburgh, Alba / Scotland, EH2 2AD, United Kingdom"
+  },
+  {
+   "bank": "Commerzbank",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "851WYGNLUQLFZBSYGB56",
+     "legal_name": "COMMERZBANK Aktiengesellschaft",
+     "country": "DE",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    },
+    {
+     "lei": "5299000SAWQZ3FCO7056",
+     "legal_name": "COMMERZBANK Aktiengesellschaft, Paris Branch",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    }
+   ],
+   "lei": "851WYGNLUQLFZBSYGB56",
+   "legal_name": "COMMERZBANK Aktiengesellschaft",
+   "headquarters": "Kaiserstraße 16, Frankfurt am Main, DE-HE, 60311, DE",
+   "placed": "street",
+   "openstreetmap_match": "Commerzbank Tower, 16, Kaiserstraße, Innenstadt, Innenstadt 1, Frankfurt am Main, Hessen, 60311, Deutschland"
+  },
+  {
+   "bank": "ANZ",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "894500UPOAKVAFI0LP62",
+     "legal_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "JHE42UYNWWTJB8YTTU19",
+     "legal_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+     "country": "AU",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "JHE42UYNWWTJB8YTTU19",
+   "legal_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+   "headquarters": "c/o ANZ CENTRE MELBOURNE, Level 9, 833 Collins Street, Docklands, Melbourne, AU-VIC, 3008, AU",
+   "placed": "city",
+   "openstreetmap_match": "Melbourne, Victoria, Australia"
+  },
+  {
+   "bank": "Bank of Communications",
+   "how_paired": "LEI approved 25 September",
+   "lei": "984500C4F39MFEE54196",
+   "legal_name": "Bank of Communications Co., Ltd.",
+   "headquarters": "银城中路188号, 上海市, CN-SH, 200120, CN",
+   "placed": "city",
+   "openstreetmap_match": "上海市, 黄浦区, 上海市, 200001, 中国"
+  },
+  {
+   "bank": "KB Financial Group",
+   "how_paired": "LEI approved 25 September",
+   "lei": "529900TKE4MXG3Q6GW86",
+   "legal_name": "주식회사 케이비금융지주",
+   "headquarters": "서울특별시 영등포구 국제금융로8길 26 (여의도동), 케이비금융지주, Seoul, KR-11, 07331, KR",
+   "placed": "city",
+   "openstreetmap_match": "서울특별시, 대한민국"
+  },
+  {
+   "bank": "Lloyds Banking Group",
+   "how_paired": "LEI approved 25 September",
+   "lei": "549300PPXHEU2JF0AM85",
+   "legal_name": "LLOYDS BANKING GROUP PLC",
+   "headquarters": "33 OLD BROAD STREET, LONDON, GB-LND, EC2N 1HZ, GB",
+   "placed": "street",
+   "openstreetmap_match": "Lloyds Banking Group, 33, Old Broad Street, Leadenhall Market, Bishopsgate, City of London, Greater London, England, EC2N 1HZ, United Kingdom"
+  },
+  {
+   "bank": "DZ Bank",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "529900HNOAA1KXQJUQ27",
+     "legal_name": "DZ BANK AG Deutsche Zentral-Genossenschaftsbank, Frankfurt am Main",
+     "country": "DE",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "529900HNOAA1KXQJUQ27",
+   "legal_name": "DZ BANK AG Deutsche Zentral-Genossenschaftsbank, Frankfurt am Main",
+   "headquarters": "Platz der Republik, Frankfurt am Main, DE-HE, 60265, DE",
+   "placed": "street",
+   "openstreetmap_match": "Platz der Republik, Bahnhofsviertel, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland"
+  },
+  {
+   "bank": "Postal Savings Bank of China",
+   "how_paired": "LEI approved 25 September",
+   "lei": "300300C1040311005298",
+   "legal_name": "中国邮政储蓄银行股份有限公司",
+   "headquarters": "金融大街3号, 北京市, CN-BJ, 100808, CN",
+   "placed": "city",
+   "openstreetmap_match": "北京市, 中国"
+  },
+  {
+   "bank": "Danske Bank",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "MAES062Z21O4RZ2U7M96",
+     "legal_name": "DANSKE BANK A/S",
+     "country": "DK",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "MAES062Z21O4RZ2U7M96",
+   "legal_name": "DANSKE BANK A/S",
+   "headquarters": "Bernstorffsgade 40, København V, DK-84, 1577, DK",
+   "placed": "street",
+   "openstreetmap_match": "40, Bernstorffsgade, Postbyen, Islands Brygge, Kødbyen, København, Københavns Kommune, Region Hovedstaden, 1577, Danmark"
+  },
+  {
+   "bank": "La Caixa Group",
+   "how_paired": "exact legal name; 4 register entries with that name",
+   "register_entries_found": [
+    {
+     "lei": "815600C05FEE606C6309",
+     "legal_name": "CAIXABANK, S.A.",
+     "country": "IT",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "984500FEA53D6B83E632",
+     "legal_name": "CAIXABANK, S.A.",
+     "country": "GB",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "984500094C69ER3T9436",
+     "legal_name": "CAIXABANK SA",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "BRANCH"
+    },
+    {
+     "lei": "7CUNS533WID6K7DGFI87",
+     "legal_name": "CAIXABANK SA",
+     "country": "ES",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "7CUNS533WID6K7DGFI87",
+   "legal_name": "CAIXABANK SA",
+   "headquarters": "CALLE PINTOR SOROLLA 2 - 4, Valencia, 46002, ES",
+   "placed": "street",
+   "openstreetmap_match": "Carrer Pintor Sorolla, Aldaia, l'Horta Sud, València / Valencia, Comunitat Valenciana, 46970, España"
+  },
+  {
+   "bank": "National Australia Bank",
+   "how_paired": "LEI approved 25 September",
+   "lei": "F8SB4JFBSYQFRQEH3Z21",
+   "legal_name": "NATIONAL AUSTRALIA BANK LIMITED",
+   "headquarters": "LEVEL 28, 395 BOURKE STREET, MELBOURNE, AU-VIC, 3000, AU",
+   "placed": "city",
+   "openstreetmap_match": "Melbourne, Victoria, Australia"
+  },
+  {
+   "bank": "Hua Xia Bank",
+   "how_paired": "LEI approved 25 September",
+   "lei": "300300AKNDEHIGVDZW37",
+   "legal_name": "华夏银行股份有限公司",
+   "headquarters": "建国门内大街22号华夏银行大厦, 东城区, CN-BJ, 100005, CN",
+   "placed": "city",
+   "openstreetmap_match": "东城区, 北京市, 100010, 中国"
+  },
+  {
+   "bank": "Westpac",
+   "how_paired": "LEI approved 25 September",
+   "lei": "EN5TNI6CI43VEPAMHL14",
+   "legal_name": "WESTPAC BANKING CORPORATION",
+   "headquarters": "C/O WESTPAC GROUP, LEVEL 18,WESTPAC PLACE,275 KENT STREET, SYDNEY, AU-NSW, 2000, AU",
+   "placed": "city",
+   "openstreetmap_match": "Sydney, New South Wales, Australia"
+  },
+  {
+   "bank": "Nordea",
+   "how_paired": "LEI approved 25 September",
+   "lei": "529900ODI3047E2LIV03",
+   "legal_name": "Nordea Bank Abp",
+   "headquarters": "Hamnbanegatan 5, Helsinki, FI-18, 00020, FI",
+   "placed": "street",
+   "openstreetmap_match": "5, Satamaradankatu, Puu-Vallila, Vallilan teollisuusalue, Vallila, Keskinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, 00510, Suomi / Finland"
+  },
+  {
+   "bank": "Commonwealth Bank of Australia",
+   "how_paired": "LEI approved 25 September",
+   "lei": "MSFSBD3QN1GSN7Q6C537",
+   "legal_name": "COMMONWEALTH BANK OF AUSTRALIA",
+   "headquarters": "Commonwealth Bank Place South, Level 1,11 Harbour Street, SYDNEY, AU-NSW, 2000, AU",
+   "placed": "city",
+   "openstreetmap_match": "Sydney, New South Wales, Australia"
+  },
+  {
+   "bank": "Crédit Mutuel",
+   "how_paired": "LEI approved 25 September",
+   "lei": "9695000CG7B84NLR5984",
+   "legal_name": "CONFEDERATION NATIONALE CREDIT MUTUEL",
+   "headquarters": "46 RUE DU BASTION, PARIS, FR-75C, 75017, FR",
+   "placed": "street",
+   "openstreetmap_match": "46, Rue du Bastion, Quartier des Batignolles, Paris 17e Arrondissement, Paris, Île-de-France, France métropolitaine, 75017, France"
+  },
+  {
+   "bank": "La Banque Postale",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "register_entries_found": [
+    {
+     "lei": "96950066U5XAAIRCPA78",
+     "legal_name": "LA BANQUE POSTALE",
+     "country": "FR",
+     "status": "ACTIVE",
+     "category": "GENERAL"
+    }
+   ],
+   "lei": "96950066U5XAAIRCPA78",
+   "legal_name": "LA BANQUE POSTALE",
+   "headquarters": "115 RUE DE SEVRES, PARIS, FR-75C, 75006, FR",
+   "placed": "street",
+   "openstreetmap_match": "115, Rue de Sèvres, Quartier de l'École Militaire, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France"
+  }
+ ]
+}

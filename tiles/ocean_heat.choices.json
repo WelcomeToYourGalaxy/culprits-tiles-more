@@ -1,0 +1,82 @@
+{
+ "choices": [
+  {
+   "label": "Sea surface temperature against usual, °C, 2026-10-02",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/crw_crw_sstanomaly.pmtiles",
+   "key": [
+    [
+     "#1A5C92",
+     "1 °C or more colder"
+    ],
+    [
+     "#6FC2DA",
+     "up to 1 °C colder"
+    ],
+    [
+     "#D8C6C6",
+     "up to 1 °C warmer"
+    ],
+    [
+     "#C08A8A",
+     "1 to 2 °C warmer"
+    ],
+    [
+     "#A0525A",
+     "2 to 3 °C warmer"
+    ],
+    [
+     "#6E2A38",
+     "3 °C or more warmer"
+    ]
+   ]
+  },
+  {
+   "label": "Coral bleaching alert, 2026-10-02",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/crw_crw_baa.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "no stress"
+    ],
+    [
+     "#8FD6E8",
+     "bleaching watch"
+    ],
+    [
+     "#C08A8A",
+     "bleaching warning"
+    ],
+    [
+     "#A0525A",
+     "alert level 1: bleaching likely"
+    ],
+    [
+     "#6E2A38",
+     "alert level 2: corals likely to die"
+    ]
+   ]
+  },
+  {
+   "label": "Heat stress built up over 12 weeks (degree heating weeks), 2026-10-02",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/crw_crw_dhw.pmtiles",
+   "key": [
+    [
+     "#8FD6E8",
+     "under 4: little"
+    ],
+    [
+     "#C08A8A",
+     "4 to 8: bleaching likely"
+    ],
+    [
+     "#A0525A",
+     "8 to 12: widespread bleaching, corals dying"
+    ],
+    [
+     "#6E2A38",
+     "12 or more: severe"
+    ]
+   ]
+  }
+ ]
+}

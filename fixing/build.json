@@ -1,0 +1,33 @@
+{
+ "date": "2026-09-30",
+ "kinds": {
+  "Q16844746": "match fixing in association football",
+  "Q747376": "match fixing",
+  "Q23808565": "match fixing related to gambling",
+  "Q7208291": "point shaving",
+  "Q65119406": "Match fixing in tennis"
+ },
+ "items": 60,
+ "placed": 41,
+ "not_placed": [
+  "2009 CPBL game-fixing scandal",
+  "Brandon Walkin",
+  "Counter-Strike match fixing scandal",
+  "Mazhar Majeed",
+  "Q100980604",
+  "Q110547981",
+  "Q115399390",
+  "Q123671632",
+  "Q18088611",
+  "Q27953370",
+  "Q97717557",
+  "Q97725816",
+  "Q97758351",
+  "Q97759192",
+  "Q97766542",
+  "Q98747530",
+  "Q98748748",
+  "Q99732466",
+  "Timur Khabibulin"
+ ]
+}

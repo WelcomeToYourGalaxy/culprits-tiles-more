@@ -1,0 +1,33 @@
+{
+ "points_merged": false,
+ "points_whole": true,
+ "points_at_world_view": true,
+ "tile_bytes": 500000,
+ "points_to": 6,
+ "zoom": 13,
+ "outlines": 74548,
+ "files_in_release": {
+  "74548_projected polygons.shp": "INFO: Open of `/tmp/tmpoll1f1po/74548_projected polygons.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: 74548_projected polygons\nMetadata:\n  DBF_DATE_LAST_UPDATE=2022-05-14\nGeometry: 3D Polygon\nFeature Count: 74548\nExtent: (-15717885.775000, -5853649.008700) - (17363960.608100, 7182312.995600)\nLayer SRS WKT:\nPROJCRS[\"WGS 84 / NSIDC EASE-Grid Global\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ID[\"EPSG\",6326]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"unnamed\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",30,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]]]\nData axis to CRS axis mapping: 1,2\nOBJECTID: Integer64 (10.0)\nName: String (254.0)\nShape_Le_1: Real (19.11)\nShape_Area: Real (19.11)\n"
+ },
+ "parts": [
+  {
+   "file": "mine_features.pmtiles",
+   "from": 7,
+   "to": 13,
+   "points": true,
+   "bytes": 77623832
+  }
+ ],
+ "outlines_by_zoom": {
+  "7": 74349,
+  "8": 74526,
+  "9": 74544,
+  "10": 74547,
+  "11": 74547,
+  "12": 74547,
+  "13": 74547
+ },
+ "no_outline_at_closest_zoom": [
+  "51067"
+ ]
+}

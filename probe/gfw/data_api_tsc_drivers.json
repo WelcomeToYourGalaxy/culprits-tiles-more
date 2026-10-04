@@ -1,0 +1,37 @@
+{
+ "data": {
+  "created_on": "2021-04-09T19:37:22.853769",
+  "updated_on": "2021-04-09T19:37:22.853775",
+  "dataset": "tsc_drivers",
+  "is_downloadable": true,
+  "metadata": {
+   "created_on": "2023-05-04T13:11:58.897505",
+   "updated_on": "2026-08-05T14:43:22.535257",
+   "spatial_resolution": 10000,
+   "resolution_description": null,
+   "geographic_coverage": "Global",
+   "update_frequency": "",
+   "scale": "global",
+   "citation": "Curtis, P.G., C.M. Slay, N.L. Harris, A. Tyukavina, and M.C. Hansen. 2018. 'Classifying Drivers of Global Forest Loss.' *Science.* Accessed through Global Nature Watch on [date]. www.globalnaturewatch.org.",
+   "title": "Tree Cover Loss by Dominant Driver",
+   "subtitle": null,
+   "source": "Curtis, P.G., C.M. Slay, N.L. Harris, A. Tyukavina, and M.C. Hansen. 2018. 'Classifying Drivers of Global Forest Loss.' *Science.* https://science.sciencemag.org/content/361/6407/1108",
+   "license": "",
+   "data_language": "English",
+   "overview": "This data set shows the dominant driver of [tree cover loss](https://earthenginepartners.appspot.com/science-2013-global-forest) from 2001-2018, using the following five categories:* **Commodity-driven deforestation:** Large-scale deforestation linked primarily to commercial agricultural expansion.* **Shifting agriculture:** Temporary loss or permanent deforestation due to small- and medium-scale agriculture.* **Forestry:** Temporary loss from plantation and natural forest harvesting, with some deforestation of primary forests.* **Wildfire:** Temporary loss, does not include fire clearing for agriculture.* **Urbanization:** Deforestation for expansion of urban centers. The commodity-driven deforestation and urbanization categories represent permanent deforestation, while tree cover usually regrows in the other categories. The data were generated using decision tree models to separate each 10 km grid cell into one of the five categories. The decision trees were created using 4,699 sample grid cells, and use metrics derived from the [Hansen tree cover, tree cover gain, and tree cover loss](https://earthenginepartners.appspot.com/science-2013-global-forest), [NASA fires](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data), [global land cover](http://www.earthenv.org/landcover.html), and [population count](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-count-rev10). Separate decision trees were created for each driver and each region (North America, South America, Europe, Africa, Eurasia, Southeast Asia, Oceania), for a total of 35 decision trees. The final outputs were combined into a global map, which is then overlaid with tree cover loss data to indicate the intensity of loss associated with each driver around the world. All model code, reference samples, decision trees, and the final model are available in the Supplementary Materials of the paper.",
+   "function": "Shows the dominant driver of tree cover loss within each 10 km grid cell and the intensity of that loss for the time period 2001-2018. ",
+   "cautions": "This data set is intended for use at the global or regional scale, not for individual pixels. Individual grid cells may have more than one driver of tree cover loss, with variation over space and time.  Aside from the commodity-driven deforestation and urbanization classes, which are assumed to represent permanent conversion from a forest to non-forest state, this data set does not indicate the stability or changing condition of the forest land use after the tree cover loss occurs. The data set also does not distinguish between natural or anthropogenic wildfires. The accuracy of the data was assessed using a validation sample of 1,565 randomly selected grid cells. The overall accuracy of the model was 89%, with individual class accuracies ranging from 55% (urbanization) to 94% (commodity-driven deforestation).",
+   "key_restrictions": "",
+   "tags": [
+    "Forest Change"
+   ],
+   "why_added": "Global picture of the drivers of tree cover loss - allows us to better separate out and understand drivers spatially",
+   "learn_more": "",
+   "id": "9fe4eae8-8a9a-43ab-91e9-d74e101b790c"
+  },
+  "versions": [
+   "v2020"
+  ]
+ },
+ "status": "success"
+}

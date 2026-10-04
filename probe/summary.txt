@@ -1,0 +1,68 @@
+Global Forest Watch
+  Data API wur_integration_alert_drivers_class: record saved; versions ['v20250925', 'v20260630', 'v20260828', 'v20260828.1', 'v20260916']
+  wur_integration_alert_drivers_class v20260916/fields: values_table present 27 time(s) with content
+  Data API wur_integration_alert_drivers_date: record saved; versions ['v20250925']
+  wur_integration_alert_drivers_date v20250925/fields: values_table present 27 time(s) with content
+  Data API tsc_tree_cover_loss_drivers: record saved; versions ['v2020', 'v2021', 'v2021.1', 'v2022', 'v2023']
+  tsc_tree_cover_loss_drivers v2023: Raster tile set band 'driver' carries a values table: 1 = Commodity driven deforestation; 2 = Shifting agriculture; 3 = Forestry; 4 = Wildfire; 5 = Urbanization
+  tsc_tree_cover_loss_drivers v2023/assets: values_table present 1 time(s) with content
+  tsc_tree_cover_loss_drivers v2023/fields: values_table present 31 time(s) with content
+  Data API tsc_drivers: record saved; versions ['v2020']
+  tsc_drivers v2020/fields: values_table present 31 time(s) with content
+  Data API umd_drivers: record saved; versions ['v2020']
+  umd_drivers v2020/fields: values_table present 31 time(s) with content
+  Resource Watch: 4 GFW layer(s) mention the drivers datasets
+    Tree cover loss by dominant driver - 2001-2019 (layer 04774cb7-912c-4612-bbd8-ba982d532c88, dataset f23a1803-ba17-4fe3-a1ad-39abfbfb56c6): legend of 5 item(s)
+      #F41D36  Commodity driven deforestation
+      #F4DB5A  Shifting agriculture
+      #2FBF71  Forestry
+      #ad6824  Wildfire
+      #B235CC  Urbanization
+    Tree cover loss by dominant driver - 2001-2022 (layer 1ef66df5-623e-4953-a11b-5469b030c9b8, dataset a78cf392-8952-4beb-8303-e10f38ca9069): legend of 5 item(s)
+      #F41D36  Commodity driven deforestation
+      #F4DB5A  Shifting agriculture
+      #2FBF71  Forestry
+      #ad6824  Wildfire
+      #B235CC  Urbanization
+    Geographic coverage (layer 3b3d16e1-d445-4133-9a18-c452889bd43c, dataset 956dd0f6-9396-4e6b-88eb-1db52f763c9a): legend of 0 item(s)
+    Tree cover loss by dominant driver - 2001-2023 (layer cc62ec7c-8e3d-47f3-bc1e-24868c1a0cde, dataset c136243e-35cf-4b2d-8510-8e6e380b7d72): legend of 5 item(s)
+      #F41D36  Commodity driven deforestation
+      #F4DB5A  Shifting agriculture
+      #2FBF71  Forestry
+      #ad6824  Wildfire
+      #B235CC  Urbanization
+Nusantara Atlas
+  v2 concessioncma_spv: not listed by this server's map service
+  v2 millopbufferol_spv: not listed by this server's map service
+  v2 millopbufferpolyloreal_spv: not listed by this server's map service
+  v2 millopbufferollor_spv: not listed by this server's map service
+  v2 concessioncma_spv legend: did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 concessioncma_spv columns: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 concessioncma_spv features from 0: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 concessioncma_spv features (WFS 1.0): did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 millopbufferol_spv legend: did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 millopbufferol_spv columns: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 millopbufferol_spv features from 0: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 millopbufferol_spv features (WFS 1.0): did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 millopbufferpolyloreal_spv legend: did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 millopbufferpolyloreal_spv columns: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 millopbufferpolyloreal_spv features from 0: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 millopbufferpolyloreal_spv features (WFS 1.0): did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 millopbufferollor_spv legend: did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v2 millopbufferollor_spv columns: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 millopbufferollor_spv features from 0: did not come (RuntimeError: HTTP 400: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v2 millopbufferollor_spv features (WFS 1.0): did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v3 concessioncma_spv: title 'concessioncma_spv', abstract '', styles ['atlas-workspace-v3:PolyFillOrange_transparentOutlineBlue_Solid']
+  v3 millopbufferol_spv: title 'millopbufferol_spv', abstract '', styles ['atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid']
+  v3 millopbufferpolyloreal_spv: title 'millopbufferpolyloreal_spv', abstract '', styles ['atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid', 'atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid', 'atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid']
+  v3 millopbufferollor_spv: not listed by this server's map service
+  v3 concessioncma_spv: legend rules ['Single symbol']
+  v3 concessioncma_spv: 2039 features; columns ['objectid', 'cid', 'concession', 'commodity', 'name', 'groupcom', 'parentgroup', 'licensestatus', 'license_status', 'license_number', 'license_areaha', 'status', 'district', 'province', 'country', 'region', 'datasource', 'source_publisher', 'url', 'entity', 'name_original', 'uid', 'areaha', 'peatareaha', 'remforestha', 'remforestprop']
+  v3 millopbufferol_spv: legend rules ['Single symbol']
+  v3 millopbufferol_spv: 2475 features; columns ['objectid', 'cid', 'umlid', 'uid', 'name', 'subgroup', 'parentgroup', 'groupcom', 'parentcom', 'license_number', 'license_areaha', 'license_type', 'license_status', 'source_publisher', 'source_provider', 'source_information', 'district', 'province', 'country', 'region', 'peatareaha', 'verified', 'rspostatus', 'rspotype', 'rspocert', 't2019', 'l2019', 'l2020', 'l2021', 'l2021ex', 'lp2022', 'areaha', 'lorex', 'remforestha', 'remforestprop', 'feedstock', 'fsname']
+  v3 millopbufferpolyloreal_spv: legend rules ['Single symbol']
+  v3 millopbufferpolyloreal_spv: 761 features; columns ['ogc_fid', 'millid', 'cid', 'umlid', 'name', 'mill_name', 'groupcom', 'prevgroup', 'acqyear', 'certified', 'method', 'district', 'province', 'country', 'region', 'doclink', 'status', 'locstatus', 'locstatsor', 'lon', 'lat', 'verified', 'rspo', 'ispo', 'spottgroup', 'spotturl', 'url', 'uid', 'areaha', 'shape_length', 'shape_area', 'peatareaha', 'peatareaprop', 'rspostatus', 'rspotype', 'parentcom', 'rspocert', 't2019', 'l2019', 'l2020', 'l2021', 'l2021ex', 'loreal', 'remforestha', 'remforestprop']
+  v3 millopbufferollor_spv legend: did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  v3 millopbufferollor_spv columns: did not come (JSONDecodeError: Expecting ',' delimiter: line 1 column 178 (char 177))
+  v3 millopbufferollor_spv features from 0: did not come (RuntimeError: HTTP 500: <?xml version="1.0" encoding="UTF-8"?><ows:ExceptionReport xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ows="http://www.opengis.net/ows/1.1" xmln)
+  v3 millopbufferollor_spv features (WFS 1.0): did not come (JSONDecodeError: Expecting value: line 1 column 1 (char 0))

@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "CITR"
+ ],
+ "hectares": 9851954.0,
+ "to_zoom": 5,
+ "squares": 213,
+ "bytes": 498888,
+ "how": "max"
+}

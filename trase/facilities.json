@@ -1,0 +1,53 @@
+{
+ "base": "https://resources.trase.earth/data/facilities-data/",
+ "types": [
+  {
+   "id": "brazil-facilities",
+   "label": "Brazil: slaughterhouses and animal-product facilities",
+   "file": "2026-05-07-br_beef_logistics_map_v6.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "brazil-silos",
+   "label": "Brazil: soy silos and storage",
+   "file": "silos_consolidated_capacity_website_brazil_2024_2_post.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "cote-d-ivoire-cocoa-cooperatives",
+   "label": "Côte d'Ivoire: cocoa cooperatives",
+   "file": "IC2B_coopyear_clean.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "indonesia-palm-oil-mills",
+   "label": "Indonesia: palm oil mills",
+   "file": "IDN_PO_mills_clean.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "indonesia-wood-pulp-mills",
+   "label": "Indonesia: wood pulp mills",
+   "file": "id_wood_mills_facilities_v2026_02_10.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "indonesia-wood-pulp-concessions-2015-2019",
+   "label": "Indonesia: wood pulp concessions, 2015–2019",
+   "file": "indonesia_wood_pulp_concessions_2015_2019_v2026_02_20.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "indonesia-wood-pulp-concessions-2020-2022",
+   "label": "Indonesia: wood pulp concessions, 2020–2022",
+   "file": "indonesia_wood_pulp_concessions_2020_2022_v2026_02_20.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "indonesia-wood-pulp-concessions-2023-2024",
+   "label": "Indonesia: wood pulp concessions, 2023–2024",
+   "file": "indonesia_wood_pulp_concessions_2023_2024_v2026_02_20.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  }
+ ]
+}

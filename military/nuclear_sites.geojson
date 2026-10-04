@@ -1,0 +1,297 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.5968,
+     46.0313
+    ]
+   },
+   "properties": {
+    "name": "Aviano Air Base",
+    "country": "Italy",
+    "what the Nuclear Notebook says": "an estimated 20 to 30 US B61-12 nuclear bombs",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "coordinates as the Nuclear Notebook (FAS) states them",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.26766667,
+     45.43216667
+    ]
+   },
+   "properties": {
+    "name": "Ghedi Air Base",
+    "country": "Italy",
+    "what the Nuclear Notebook says": "an estimated 10 to 15 US B61-12 nuclear bombs",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Ghedi Air Base (Q1934972); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1934972",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.425833333333,
+     37.001944444444
+    ]
+   },
+   "properties": {
+    "name": "Incirlik Air Base",
+    "country": "Türkiye",
+    "what the Nuclear Notebook says": "an estimated 20 to 30 US B61-12 nuclear bombs",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Incirlik Air Base (Q1083424); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1083424",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.46667,
+     51.16389
+    ]
+   },
+   "properties": {
+    "name": "Kleine Brogel Air Base",
+    "country": "Belgium",
+    "what the Nuclear Notebook says": "approximately 10 to 15 US B61-12 nuclear bombs; 11 protective aircraft shelters equipped with a Weapons Storage and Security System (WS3), which includes an underground elevator-drive vault; maximum base capacity of 44 weapons",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Kleine Brogel Air Base (Q1857706); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1857706",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.707833,
+     51.657195
+    ]
+   },
+   "properties": {
+    "name": "Volkel Air Base",
+    "country": "Netherlands",
+    "what the Nuclear Notebook says": "an estimated 10 to 15 US B61-12 nuclear bombs",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Volkel Air Base (Q2271372); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q2271372",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.064,
+     50.1762
+    ]
+   },
+   "properties": {
+    "name": "Büchel Air Base",
+    "country": "Germany",
+    "what the Nuclear Notebook says": "an estimated 10 to 15 US B61-12 nuclear bombs",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "coordinates as the Nuclear Notebook (FAS) states them",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.55868,
+     52.40816
+    ]
+   },
+   "properties": {
+    "name": "RAF Lakenheath",
+    "country": "United Kingdom",
+    "what the Nuclear Notebook says": "there are indications that nuclear bombs may have recently been shipped here; the base has undergone a significant upgrade to reactivate a nuclear mission, but the status of weapons at the base remains uncertain because of the unfinished construction",
+    "status": "uncertain",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "coordinates as the Nuclear Notebook (FAS) states them",
+    "group": "weapons possibly shipped, status uncertain"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.633333333333333,
+     53.3
+    ]
+   },
+   "properties": {
+    "name": "Military depot near Asipovichy",
+    "country": "Belarus",
+    "what the Nuclear Notebook says": "a military depot near Asipovichy in central Belarus is currently the most likely candidate for the storage of Russian nuclear weapons (drawn at the town: the depot is near it)",
+    "status": "likely",
+    "source": "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Asipovichy (Q742161); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q742161",
+    "group": "most likely storage site"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.60916667,
+     35.04027778
+    ]
+   },
+   "properties": {
+    "name": "Kirtland Underground Munitions and Maintenance Storage Complex",
+    "country": "United States (New Mexico)",
+    "what the Nuclear Notebook says": "the most nuclear weapons by far; most of the weapons here are retired weapons awaiting dismantlement",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Kirtland Air Force Base (Q577946); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q577946",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.71305555556,
+     47.720555555556
+    ]
+   },
+   "properties": {
+    "name": "Strategic Weapons Facility Pacific, Naval Base Kitsap",
+    "country": "United States (Washington)",
+    "what the Nuclear Notebook says": "named among the US storage locations; ballistic missile submarine base",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Naval Base Kitsap (Q1509410); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1509410",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.864722,
+     41.144167
+    ]
+   },
+   "properties": {
+    "name": "F.E. Warren Air Force Base",
+    "country": "United States (Wyoming)",
+    "what the Nuclear Notebook says": "ICBM base",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Francis E. Warren Air Force Base (Q1956149); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1956149",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.20556,
+     47.50833
+    ]
+   },
+   "properties": {
+    "name": "Malmstrom Air Force Base",
+    "country": "United States (Montana)",
+    "what the Nuclear Notebook says": "ICBM base",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Malmstrom Air Force Base (Q956022); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q956022",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.35766111111,
+     48.415572222222
+    ]
+   },
+   "properties": {
+    "name": "Minot Air Force Base",
+    "country": "United States (North Dakota)",
+    "what the Nuclear Notebook says": "ICBM base",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Minot Air Force Base (Q1114128); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1114128",
+    "group": "weapons stored (estimated)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.547863888889,
+     38.730305555556
+    ]
+   },
+   "properties": {
+    "name": "Whiteman Air Force Base",
+    "country": "United States (Missouri)",
+    "what the Nuclear Notebook says": "bomber base; named by the owner from the Nuclear Notebook",
+    "status": "stored",
+    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "position": "Wikidata's coordinates for Whiteman Air Force Base (Q1940767); the Notebook gives none",
+    "wikidata": "https://www.wikidata.org/wiki/Q1940767",
+    "group": "weapons stored (estimated)"
+   }
+  }
+ ],
+ "source": "Federation of American Scientists, Nuclear Notebook (Bulletin of the Atomic Scientists)"
+}

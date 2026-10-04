@@ -1,0 +1,62 @@
+{
+ "probes": {
+  "canada_offenders_registry": [
+   219841
+  ],
+  "england_ea_prosecutions": [
+   5508,
+   5508
+  ],
+  "england_ea_enforcement": [
+   295875
+  ],
+  "us_epa_echo_downloads": [
+   99202
+  ],
+  "peru_oefa_sanctioned": [
+   "HTTP Error 404: Not Found"
+  ],
+  "us_epa_echo_cases": [
+   2000000
+  ],
+  "chile_sma_sanctions": [
+   3964,
+   3984
+  ],
+  "mexico_profepa": [
+   "HTTP Error 403: Forbidden",
+   "HTTP Error 403: Forbidden"
+  ],
+  "colombia_sanctions": [
+   18427,
+   129
+  ],
+  "ireland_epa": [
+   "HTTP Error 404: Not Found"
+  ],
+  "scotland_sepa_enforcement": [
+   "HTTP Error 404: Not Found"
+  ],
+  "australia_nsw_epa": [
+   103411
+  ],
+  "iuu_vessel_list": [
+   69724
+  ]
+ },
+ "at": 1790901397.8066885,
+ "when": "2026-10-02",
+ "ibama_embargos": {
+  "rows": 113878,
+  "placed": 92021,
+  "no_position": 21857,
+  "from": "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.csv"
+ },
+ "ibama_infractions": {
+  "rows": 16262,
+  "placed": 16117,
+  "no_position": 145,
+  "from": "https://dadosabertos.ibama.gov.br/dados/SIFISC/auto_infracao/auto_infracao/auto_infracao_csv.zip",
+  "coordinates": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/SIFISC/auto_infracao/coordenada/coordenada.csv"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "GROU"
+ ],
+ "hectares": 29665040.0,
+ "to_zoom": 5,
+ "squares": 192,
+ "bytes": 493206,
+ "how": "max"
+}

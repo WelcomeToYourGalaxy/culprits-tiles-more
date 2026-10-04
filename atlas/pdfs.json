@@ -1,0 +1,258 @@
+{
+ "atlantic_forests": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/atlantic_forests.pdf",
+  "bytes": 9466148,
+  "pages": 10,
+  "remote_bytes": "9466148",
+  "last_modified": "Wed, 07 Mar 2018 15:41:21 GMT",
+  "copied": "2026-09-26"
+ },
+ "california_floristic_province": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/california_floristic_province.pdf",
+  "bytes": 6255970,
+  "pages": 6,
+  "remote_bytes": "6255970",
+  "last_modified": "Sun, 28 Jan 2018 17:59:20 GMT",
+  "copied": "2026-09-26"
+ },
+ "cape_floristic_region": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/cape_floristic_region.pdf",
+  "bytes": 4349869,
+  "pages": 5,
+  "remote_bytes": "4349869",
+  "last_modified": "Sun, 28 Jan 2018 17:59:39 GMT",
+  "copied": "2026-09-26"
+ },
+ "caribbean_islands": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/caribbean_islands.pdf",
+  "bytes": 5638266,
+  "pages": 7,
+  "remote_bytes": "5638266",
+  "last_modified": "Sun, 28 Jan 2018 17:59:54 GMT",
+  "copied": "2026-09-26"
+ },
+ "caucasus": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/caucasus.pdf",
+  "bytes": 5721141,
+  "pages": 6,
+  "remote_bytes": "5721141",
+  "last_modified": "Sun, 28 Jan 2018 18:00:01 GMT",
+  "copied": "2026-09-26"
+ },
+ "cerrado": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/cerrado.pdf",
+  "bytes": 9630808,
+  "pages": 6,
+  "remote_bytes": "9630808",
+  "last_modified": "Sun, 28 Jan 2018 18:00:30 GMT",
+  "copied": "2026-09-26"
+ },
+ "chilean_valdivian_forests": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/chilean_valdivian_forests.pdf",
+  "bytes": 3876576,
+  "pages": 5,
+  "remote_bytes": "3876576",
+  "last_modified": "Sun, 28 Jan 2018 18:00:17 GMT",
+  "copied": "2026-09-26"
+ },
+ "coastal_forests_of_eastern_africa": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/coastal_forests_of_eastern_africa.pdf",
+  "bytes": 3113946,
+  "pages": 5,
+  "remote_bytes": "3113946",
+  "last_modified": "Sun, 28 Jan 2018 18:00:44 GMT",
+  "copied": "2026-09-26"
+ },
+ "east_melanesian_islands": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/east_melanesian_islands.pdf",
+  "bytes": 3763584,
+  "pages": 4,
+  "remote_bytes": "3763584",
+  "last_modified": "Sun, 28 Jan 2018 18:00:49 GMT",
+  "copied": "2026-09-26"
+ },
+ "eastern_afromontane": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/eastern_afromontane.pdf",
+  "bytes": 4886968,
+  "pages": 8,
+  "remote_bytes": "4886968",
+  "last_modified": "Sun, 28 Jan 2018 18:01:02 GMT",
+  "copied": "2026-09-26"
+ },
+ "forests_of_east_australia": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/forests_of_east_australia.pdf",
+  "bytes": 1190412,
+  "pages": 5,
+  "remote_bytes": "1190412",
+  "last_modified": "Sun, 28 Jan 2018 18:00:55 GMT",
+  "copied": "2026-09-26"
+ },
+ "guinean_forests_of_west_africa": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/guinean_forests_of_west_africa.pdf",
+  "bytes": 6311742,
+  "pages": 8,
+  "remote_bytes": "6311742",
+  "last_modified": "Sun, 28 Jan 2018 18:01:20 GMT",
+  "copied": "2026-09-26"
+ },
+ "himalaya": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/himalaya.pdf",
+  "bytes": 7329784,
+  "pages": 7,
+  "remote_bytes": "7329784",
+  "last_modified": "Sun, 28 Jan 2018 18:01:28 GMT",
+  "copied": "2026-09-26"
+ },
+ "horn_of_africa": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/horn_of_africa.pdf",
+  "bytes": 4288876,
+  "pages": 8,
+  "remote_bytes": "4288876",
+  "last_modified": "Sun, 28 Jan 2018 18:01:39 GMT",
+  "copied": "2026-09-26"
+ },
+ "japan": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/japan.pdf",
+  "bytes": 6666977,
+  "pages": 9,
+  "remote_bytes": "6666977",
+  "last_modified": "Sun, 28 Jan 2018 18:02:25 GMT",
+  "copied": "2026-09-26"
+ },
+ "madagascar": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/madagascar.pdf",
+  "bytes": 4532674,
+  "pages": 7,
+  "remote_bytes": "4532674",
+  "last_modified": "Sun, 28 Jan 2018 18:02:44 GMT",
+  "copied": "2026-09-26"
+ },
+ "madrean_woodlands": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/madrean_woodlands.pdf",
+  "bytes": 6839251,
+  "pages": 6,
+  "remote_bytes": "6839251",
+  "last_modified": "Sun, 28 Jan 2018 18:02:52 GMT",
+  "copied": "2026-09-26"
+ },
+ "maputaland_pondoland_albany": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/maputaland_pondoland_albany.pdf",
+  "bytes": 4269525,
+  "pages": 5,
+  "remote_bytes": "4269525",
+  "last_modified": "Sun, 28 Jan 2018 18:03:10 GMT",
+  "copied": "2026-09-26"
+ },
+ "mediterranean_basin": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/mediterranean_basin.pdf",
+  "bytes": 10149557,
+  "pages": 16,
+  "remote_bytes": "10149557",
+  "last_modified": "Sun, 28 Jan 2018 18:03:37 GMT",
+  "copied": "2026-09-26"
+ },
+ "mesoamerica": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/mesoamerica.pdf",
+  "bytes": 9558441,
+  "pages": 12,
+  "remote_bytes": "9558441",
+  "last_modified": "Sun, 28 Jan 2018 18:03:44 GMT",
+  "copied": "2026-09-26"
+ },
+ "mountains_of_central_asia": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/mountains_of_central_asia.pdf",
+  "bytes": 5249535,
+  "pages": 7,
+  "remote_bytes": "5249535",
+  "last_modified": "Sun, 28 Jan 2018 18:03:59 GMT",
+  "copied": "2026-09-26"
+ },
+ "mountains_of_southwest_china": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/mountains_of_southwest_china.pdf",
+  "bytes": 3944585,
+  "pages": 5,
+  "remote_bytes": "3944585",
+  "last_modified": "Sun, 28 Jan 2018 18:04:00 GMT",
+  "copied": "2026-09-26"
+ },
+ "new_caledonia": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/new_caledonia.pdf",
+  "bytes": 3038703,
+  "pages": 4,
+  "remote_bytes": "3038703",
+  "last_modified": "Sun, 28 Jan 2018 18:04:27 GMT",
+  "copied": "2026-09-26"
+ },
+ "new_zealand": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/new_zealand.pdf",
+  "bytes": 4548556,
+  "pages": 5,
+  "remote_bytes": "4548556",
+  "last_modified": "Sun, 28 Jan 2018 18:04:34 GMT",
+  "copied": "2026-09-26"
+ },
+ "philippines": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/philippines.pdf",
+  "bytes": 6163032,
+  "pages": 6,
+  "remote_bytes": "6163032",
+  "last_modified": "Sun, 28 Jan 2018 18:05:05 GMT",
+  "copied": "2026-09-26"
+ },
+ "north_american_coastal_plain": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/north_american_coastal_plain.pdf",
+  "bytes": 7598139,
+  "pages": 11,
+  "remote_bytes": "7598139",
+  "last_modified": "Sun, 28 Jan 2018 17:57:38 GMT",
+  "copied": "2026-09-26"
+ },
+ "southwest_australia": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/southwest_australia.pdf",
+  "bytes": 3853135,
+  "pages": 5,
+  "remote_bytes": "3853135",
+  "last_modified": "Sun, 28 Jan 2018 18:05:25 GMT",
+  "copied": "2026-09-26"
+ },
+ "succulent_karoo": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/succulent_karoo.pdf",
+  "bytes": 3209631,
+  "pages": 5,
+  "remote_bytes": "3209631",
+  "last_modified": "Sun, 28 Jan 2018 18:05:24 GMT",
+  "copied": "2026-09-26"
+ },
+ "sundaland": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/sundaland.pdf",
+  "bytes": 11728574,
+  "pages": 12,
+  "remote_bytes": "11728574",
+  "last_modified": "Sun, 28 Jan 2018 18:06:05 GMT",
+  "copied": "2026-09-26"
+ },
+ "tropical_andes": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/tropical_andes.pdf",
+  "bytes": 8202980,
+  "pages": 12,
+  "remote_bytes": "8202980",
+  "last_modified": "Sun, 28 Jan 2018 18:05:54 GMT",
+  "copied": "2026-09-26"
+ },
+ "wallacea": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/wallacea.pdf",
+  "bytes": 5577015,
+  "pages": 5,
+  "remote_bytes": "5577015",
+  "last_modified": "Sun, 28 Jan 2018 18:06:28 GMT",
+  "copied": "2026-09-26"
+ },
+ "western_ghats_sri_lanka": {
+  "source": "https://atlas-for-the-end-of-the-world.com/hotspots/western_ghats_sri_lanka.pdf",
+  "bytes": 3871571,
+  "pages": 5,
+  "remote_bytes": "3871571",
+  "last_modified": "Sun, 28 Jan 2018 18:06:30 GMT",
+  "copied": "2026-09-26"
+ }
+}

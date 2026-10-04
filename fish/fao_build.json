@@ -1,0 +1,19 @@
+{
+ "read": "2026-10-04",
+ "Capture_file": "Capture_2026.1.0.zip",
+ "Capture": {
+  "latest_year": 2024,
+  "countries": 232,
+  "not_one_country": {
+   "Other NEI": 47859
+  }
+ },
+ "Aquaculture_file": "Aquaculture_2026.1.0.zip",
+ "Aquaculture": {
+  "latest_year": 2024,
+  "countries": 209,
+  "not_one_country": {
+   "Sudan [former]": 0
+  }
+ }
+}

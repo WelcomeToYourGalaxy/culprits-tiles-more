@@ -1,0 +1,16 @@
+{
+ "from": "https://raw.githubusercontent.com/WelcomeToYourGalaxy/enviro-atlas/main/atlas_index.json",
+ "jurisdictions": 722,
+ "countries": 228,
+ "instruments": 220035,
+ "not_placed": [
+  {
+   "name": "No jurisdiction / global",
+   "instruments": 7994,
+   "first_year": 1878,
+   "latest_year": 2026,
+   "full_list": "https://raw.githubusercontent.com/WelcomeToYourGalaxy/enviro-atlas/main/atlas_data/_GLOBAL.json"
+  }
+ ],
+ "read": "2026-10-04"
+}

@@ -1,0 +1,22 @@
+{
+ "page": "List of major stock exchanges",
+ "rows": 21,
+ "placed": 21,
+ "not_placed": [],
+ "columns": [
+  "Stock exchange",
+  "MIC",
+  "Region",
+  "City",
+  "Market cap (USD tn)",
+  "Time zone",
+  "Δ",
+  "DST",
+  "Open hours (local time) Open",
+  "Open hours (local time) Close",
+  "Open hours (local time) Lunch",
+  "UTC (without DST) Open",
+  "UTC (without DST) Close"
+ ],
+ "date": "2026-09-29"
+}

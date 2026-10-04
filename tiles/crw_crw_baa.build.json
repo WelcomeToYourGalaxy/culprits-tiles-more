@@ -1,0 +1,8 @@
+{
+ "from": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/NOAA_DHW.nc?CRW_BAA%5B(last)%5D%5B(89.975):2:(-89.975)%5D%5B(-179.975):2:(179.975)%5D",
+ "day": "2026-10-02",
+ "to_zoom": 6,
+ "squares": 2983,
+ "bytes": 3840319,
+ "how": "max"
+}

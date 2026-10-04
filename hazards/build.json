@@ -1,0 +1,64 @@
+{
+ "gdacs.geojson": {
+  "from": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
+  "features": 77196,
+  "bytes": 35501307,
+  "read": "2026-10-04"
+ },
+ "ncei_tsunamis.geojson": {
+  "from": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/tsunamis/events",
+  "features": 2670,
+  "bytes": 1453318,
+  "read": "2026-10-04"
+ },
+ "ncei_earthquakes.geojson": {
+  "from": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes",
+  "features": 6635,
+  "bytes": 3675604,
+  "read": "2026-10-04"
+ },
+ "ncei_eruptions.geojson": {
+  "from": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes",
+  "features": 903,
+  "bytes": 545674,
+  "read": "2026-10-04"
+ },
+ "usgs_quakes": {
+  "from": "https://earthquake.usgs.gov/fdsnws/event/1/query (minmagnitude=5, 1900 on)",
+  "earthquakes": 107377,
+  "bytes": 42110115,
+  "read": "2026-10-04"
+ },
+ "ibtracs": {
+  "from": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/shapefile/IBTrACS.since1980.list.v04r01.lines.zip",
+  "bytes": 50343879,
+  "to_zoom": 8,
+  "read": "2026-10-04"
+ },
+ "eonet.geojson": {
+  "from": "https://eonet.gsfc.nasa.gov/api/v3/events?status=all (year by year)",
+  "years_not_read": [],
+  "features": 23947,
+  "bytes": 9083512,
+  "read": "2026-10-04"
+ },
+ "volcanoes.geojson": {
+  "from": "https://webservices.volcano.si.edu/geoserver/GVP-VOTW/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application%2Fjson&typeName=GVP-VOTW%3AE3WebApp_HoloceneVolcanoes",
+  "cite": "Global Volcanism Program, Volcanoes of the World",
+  "features": 1214,
+  "bytes": 2065962,
+  "read": "2026-10-04"
+ },
+ "landslides.geojson": {
+  "from": "https://data.nasa.gov/docs/legacy/Global_Landslide_Catalog_Export/Global_Landslide_Catalog_Export_rows.csv",
+  "note": "NASA's one-time export of the catalogue (to 2016); its live services did not answer",
+  "tried_first": [
+   "https://maps.nccs.nasa.gov/server/rest/services/global_landslide_catalog/glc_viewer_service/FeatureServer: <urlopen error [Errno 101] Network is unreachable>",
+   "https://maps.nccs.nasa.gov/server/rest/services/global_landslide_catalog/landslide_reporter_service/FeatureServer: <urlopen error [Errno 101] Network is unreachable>"
+  ],
+  "features": 11033,
+  "bytes": 15965322,
+  "read": "2026-10-04"
+ },
+ "failed": {}
+}

@@ -1,0 +1,44 @@
+{
+ "layer": "homicides",
+ "places": 76405,
+ "detail_from": 8,
+ "groups": {
+  "Chicago": 14401,
+  "Los Angeles": 1566,
+  "New York City": 8319,
+  "50 US cities (The Washington Post)": 52119
+ },
+ "parts": [
+  {
+   "file": "homicide_cases.pmtiles",
+   "from": 0,
+   "to": 1,
+   "bytes": 2983
+  },
+  {
+   "file": "homicide_cases_z2.pmtiles",
+   "from": 2,
+   "to": 3,
+   "bytes": 5233
+  },
+  {
+   "file": "homicide_cases_z4.pmtiles",
+   "from": 4,
+   "to": 5,
+   "bytes": 15775
+  },
+  {
+   "file": "homicide_cases_z6.pmtiles",
+   "from": 6,
+   "to": 7,
+   "bytes": 86196
+  },
+  {
+   "file": "homicide_cases_z8.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 2458305
+  }
+ ],
+ "date": "2026-10-01"
+}
