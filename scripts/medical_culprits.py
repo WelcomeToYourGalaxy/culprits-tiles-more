@@ -230,6 +230,20 @@ def main():
         entries.append({"part": part, "name": article, "article": article, "rec": {"what the article says": " ".join(said)},
                         "source": f"https://en.wikipedia.org/wiki/{urllib.parse.quote(cited.replace(' ', '_'))}"})
     status["compiled_left_out"] = dropped
+    # Round 172b: Wikipedia links a company only the first time a table names
+    # it, so its later rows (Pfizer, GlaxoSmithKline, AstraZeneca,
+    # Schering-Plough...) came with no article and were left unplaced. They
+    # take the article linked from the same name's other row; a name never
+    # linked is looked up as a Wikipedia title of its own (redirects followed),
+    # and stays unplaced if there is none.
+    linked = {}
+    for e in entries:
+        if e.get("article"):
+            linked.setdefault(e["name"], e["article"])
+    for e in entries:
+        if not e.get("article"):
+            e["article"] = linked.get(e["name"]) or e["name"]
+            e["article from"] = "the same company's linked row" if e["name"] in linked else "its name, as a Wikipedia title"
     q = qids([e["article"] for e in entries])
     at = places([q[e["article"]] for e in entries if e["article"] in q], countries)
     feats, unplaced = [], []
@@ -242,7 +256,8 @@ def main():
         (lon, lat), how, hq, country = where
         props = dict({"name": e["name"], "group": GROUPS[e["part"]], "headquarters": hq, "country": country, "placed at": how,
                       "Wikipedia": f"https://en.wikipedia.org/wiki/{urllib.parse.quote((e['article'] or '').replace(' ', '_'))}" if e["article"] else "",
-                      "Wikidata": f"https://www.wikidata.org/wiki/{item}", "source": e["source"]}, **e["rec"])
+                      "Wikidata": f"https://www.wikidata.org/wiki/{item}", "source": e["source"],
+                      "Wikipedia article found from": e.get("article from", "")}, **e["rec"])
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]}, "properties": {k: v for k, v in props.items() if v}})
     (OUT / "culprits.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
     status.update({"placed": len(feats), "not_placed": unplaced})

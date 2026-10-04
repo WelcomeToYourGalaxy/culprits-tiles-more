@@ -82,17 +82,21 @@ def capitals():
     # place has none of its own.
     best = {}
     feats = json.loads(get(NE))["features"]
-    for kinds in (("Admin-0 capital",), ("Admin-0 region capital", "Admin-0 capital alt")):
+    # Round 172b: a place Natural Earth gives no capital at all (the British
+    # Virgin Islands: Road Town is listed only as a town) takes its most
+    # populous listed place, and the box says so rather than "capital".
+    for kinds in (("Admin-0 capital",), ("Admin-0 region capital", "Admin-0 capital alt"), None):
         found = {}
         for f in feats:
             p = f["properties"]
-            if p.get("featurecla") not in kinds:
+            if kinds is not None and p.get("featurecla") not in kinds:
                 continue
-            for code in [p.get("adm0_a3")] + ([p.get("sov_a3")] if kinds[0] == "Admin-0 capital" else []):
+            for code in [p.get("adm0_a3")] + ([p.get("sov_a3")] if kinds and kinds[0] == "Admin-0 capital" else []):
                 if code and code not in best and (code not in found or (p.get("pop_max") or 0) > found[code][3]):
-                    found[code] = (p["longitude"], p["latitude"], p["name"], p.get("pop_max") or 0)
+                    found[code] = (p["longitude"], p["latitude"], p["name"], p.get("pop_max") or 0,
+                                   "capital" if kinds is not None else "town")
         best.update(found)
-    return {k: v[:3] for k, v in best.items()}
+    return {k: (v[0], v[1], v[2], v[4]) for k, v in best.items()}
 
 
 def num(v):
@@ -155,7 +159,9 @@ def entities(kind, ranks, details, caps, pycountry):
                 p[f"indicator answers in Forest 500's {dy} file"] = v
             else:
                 p[f"x_{k} ({dy})"] = v
-        p["placed at"] = (f"the capital of its headquarters country ({cap[2]}); Forest 500 gives the country, not the address. "
+        p["placed at"] = ((f"the capital of its headquarters country ({cap[2]})" if cap[3] == "capital" else
+                           f"{cap[2]}, the most populous place Natural Earth lists in its headquarters country (Natural Earth names no capital there)") +
+                          "; Forest 500 gives the country, not the address. "
                           "Spread around the capital so each can be clicked; where in the spread means nothing.")
         p["source"] = CITE.format(y=last)
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(lon, 4), round(lat, 4)]},
