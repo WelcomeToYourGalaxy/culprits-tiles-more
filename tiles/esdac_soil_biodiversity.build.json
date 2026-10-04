@@ -1,0 +1,9 @@
+{
+ "source": "soil_bio_new.tif",
+ "cells": 1492471,
+ "to_zoom": 6,
+ "squares": 1935,
+ "bytes": 2906946,
+ "how": "mean",
+ "note": "Five steps, each a fifth of the map's own places; only coloured pictures are published (ESDAC's terms: display with credit, data not passed on)."
+}

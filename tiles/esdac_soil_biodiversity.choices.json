@@ -1,0 +1,30 @@
+{
+ "choices": [
+  {
+   "label": "Potential soil biodiversity (index)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/esdac_soil_biodiversity.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "Lowest fifth of places on the map (least diverse)"
+    ],
+    [
+     "#8FD6E8",
+     "Second fifth"
+    ],
+    [
+     "#3FA9C2",
+     "Middle fifth"
+    ],
+    [
+     "#1E6FA8",
+     "Fourth fifth"
+    ],
+    [
+     "#0E2F66",
+     "Highest fifth (most diverse)"
+    ]
+   ]
+  }
+ ]
+}

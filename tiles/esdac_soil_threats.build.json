@@ -1,0 +1,9 @@
+{
+ "source": "threat_soil_bio.tif",
+ "cells": 1432125,
+ "to_zoom": 6,
+ "squares": 1784,
+ "bytes": 3489496,
+ "how": "mean",
+ "note": "Five steps, each a fifth of the map's own places; only coloured pictures are published (ESDAC's terms: display with credit, data not passed on)."
+}
