@@ -230,7 +230,7 @@
   "bytes": 83014326
  },
  "crops_failed": {
-  "when": "2026-10-02 12:57 UTC",
+  "when": "2026-10-05 15:07 UTC",
   "why": "aqueduct: no copy of the crop data could be fetched",
   "tried": [
    "https://gfw-data-lake.s3.amazonaws.com/aqueduct_crop_baseline_2020/v1.12/vector/epsg-4326/default.ndjson",
