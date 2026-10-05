@@ -1,7 +1,7 @@
 {
  "choices": [
   {
-   "label": "Sea surface temperature against usual, °C, 2026-10-02",
+   "label": "Sea surface temperature against usual, °C, 2026-10-03",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/crw_crw_sstanomaly.pmtiles",
    "key": [
     [
@@ -31,7 +31,7 @@
    ]
   },
   {
-   "label": "Coral bleaching alert, 2026-10-02",
+   "label": "Coral bleaching alert, 2026-10-03",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/crw_crw_baa.pmtiles",
    "key": [
     [
@@ -57,7 +57,7 @@
    ]
   },
   {
-   "label": "Heat stress built up over 12 weeks (degree heating weeks), 2026-10-02",
+   "label": "Heat stress built up over 12 weeks (degree heating weeks), 2026-10-03",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/crw_crw_dhw.pmtiles",
    "key": [
     [

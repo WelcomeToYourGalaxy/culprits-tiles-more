@@ -1,13 +1,34 @@
 {
  "heat": {
   "layers": [
-   "Sea surface temperature against usual, \u00b0C, 2026-10-02",
-   "Coral bleaching alert, 2026-10-02",
-   "Heat stress built up over 12 weeks (degree heating weeks), 2026-10-02"
+   "Sea surface temperature against usual, \u00b0C, 2026-10-03",
+   "Coral bleaching alert, 2026-10-03",
+   "Heat stress built up over 12 weeks (degree heating weeks), 2026-10-03"
   ]
  },
  "acid": {
-  "error": "AttributeError: 'NoneType' object has no attribute 'max'"
+  "used": [
+   {
+    "file": "pHT_median_historical.nc",
+    "variable": "pHT",
+    "year": 1750
+   },
+   {
+    "file": "pHT_median_historical.nc",
+    "variable": "pHT",
+    "year": 2010
+   },
+   {
+    "file": "pHT_median_ssp245.nc",
+    "variable": "pHT",
+    "year": 2100
+   },
+   {
+    "file": "pHT_median_ssp585.nc",
+    "variable": "pHT",
+    "year": 2100
+   }
+  ]
  },
  "impacts": {
   "from": "https://cn.dataone.org/cn/v2/resolve/urn:uuid:4b023df7-abaf-4d47-8f31-39c5c96db811",

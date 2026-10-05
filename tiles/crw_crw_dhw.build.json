@@ -1,8 +1,8 @@
 {
- "from": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/NOAA_DHW.nc?CRW_DHW%5B(last)%5D%5B(89.975):2:(-89.975)%5D%5B(-179.975):2:(179.975)%5D",
- "day": "2026-10-02",
+ "from": "https://www.star.nesdis.noaa.gov/pub/sod/mecb/crw/data/5km/v3.1_op/nc/v1.0/daily/dhw/2026/ct5km_dhw_v3.1_20261003.nc",
+ "day": "2026-10-03",
  "to_zoom": 6,
- "squares": 1769,
- "bytes": 2853328,
+ "squares": 1768,
+ "bytes": 2850656,
  "how": "max"
 }
