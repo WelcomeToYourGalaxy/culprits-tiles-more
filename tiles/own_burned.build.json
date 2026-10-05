@@ -1,0 +1,442 @@
+{
+ "read_from": "data/MODIS/C61/MCD64CMQ",
+ "folders_looked_in": [
+  "data/MODIS/C61/MCD64CMQ"
+ ],
+ "files_found": 278,
+ "years": {
+  "2001": {
+   "months": 12,
+   "hectares_burned": 429562302,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2002": {
+   "months": 12,
+   "hectares_burned": 463479976,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2003": {
+   "months": 12,
+   "hectares_burned": 438185543,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2004": {
+   "months": 12,
+   "hectares_burned": 460908605,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2005": {
+   "months": 12,
+   "hectares_burned": 457463646,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2006": {
+   "months": 12,
+   "hectares_burned": 431118932,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2007": {
+   "months": 12,
+   "hectares_burned": 464003471,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2008": {
+   "months": 12,
+   "hectares_burned": 423870880,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2009": {
+   "months": 12,
+   "hectares_burned": 381767855,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2010": {
+   "months": 12,
+   "hectares_burned": 416306843,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2011": {
+   "months": 12,
+   "hectares_burned": 459141204,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2012": {
+   "months": 12,
+   "hectares_burned": 454629765,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2013": {
+   "months": 12,
+   "hectares_burned": 356137168,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2014": {
+   "months": 12,
+   "hectares_burned": 381644209,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2015": {
+   "months": 12,
+   "hectares_burned": 384914381,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2016": {
+   "months": 12,
+   "hectares_burned": 365677408,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2017": {
+   "months": 12,
+   "hectares_burned": 387515467,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2018": {
+   "months": 12,
+   "hectares_burned": 354215541,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2019": {
+   "months": 12,
+   "hectares_burned": 345723240,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2020": {
+   "months": 12,
+   "hectares_burned": 351094563,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2021": {
+   "months": 12,
+   "hectares_burned": 353581910,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2022": {
+   "months": 12,
+   "hectares_burned": 331287032,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2023": {
+   "months": 12,
+   "hectares_burned": 384077152,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  },
+  "2024": {
+   "months": 2,
+   "hectares_burned": 58973443,
+   "read": {
+    "data_set": "BurnedArea",
+    "units": "hectares",
+    "scale_factor": 0.009999999776482582,
+    "shape": [
+     720,
+     1440
+    ],
+    "all_data_sets": [
+     "BurnedArea",
+     "QA",
+     "UnmappedFraction"
+    ]
+   }
+  }
+ },
+ "built": true
+}
