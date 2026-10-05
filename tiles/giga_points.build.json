@@ -1,12 +1,12 @@
 {
  "layer": "schools",
- "schools": 2334562,
+ "schools": 2334564,
  "detail_from": 8,
  "fields": {
-  "id": 2334562,
-  "coverage_type": 2334562,
-  "coverage_status": 2334562,
-  "connectivity_status": 2334562
+  "id": 2334564,
+  "coverage_type": 2334564,
+  "coverage_status": 2334564,
+  "connectivity_status": 2334564
  },
  "id_field": "id",
  "squares": [
@@ -48,33 +48,33 @@
    "file": "giga_points.pmtiles",
    "from": 0,
    "to": 1,
-   "bytes": 81135
+   "bytes": 81125
   },
   {
    "file": "giga_points_z2.pmtiles",
    "from": 2,
    "to": 3,
-   "bytes": 508057
+   "bytes": 508059
   },
   {
    "file": "giga_points_z4.pmtiles",
    "from": 4,
    "to": 5,
-   "bytes": 3246380
+   "bytes": 3246467
   },
   {
    "file": "giga_points_z6.pmtiles",
    "from": 6,
    "to": 7,
-   "bytes": 10712173
+   "bytes": 10712224
   },
   {
    "file": "giga_points_z8.pmtiles",
    "from": 8,
    "to": 8,
-   "bytes": 24838165
+   "bytes": 24838257
   }
  ],
- "date": "2026-09-30",
- "seconds": 453
+ "date": "2026-10-05",
+ "seconds": 386
 }
