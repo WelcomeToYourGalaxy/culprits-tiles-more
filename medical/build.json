@@ -1,5 +1,5 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-05",
  "settlements": {
   "rows": 22,
   "columns": [
@@ -15,13 +15,8 @@
   "Allergan (not found in Opioid epidemic in the United States)",
   "Armour (not found in Contaminated haemophilia blood products)"
  ],
- "placed": 34,
+ "placed": 39,
  "not_placed": [
-  "GlaxoSmithKline",
-  "Schering-Plough",
-  "Pfizer",
-  "AstraZeneca",
-  "Schering-Plough",
   "Alpha Therapeutic Corporation"
  ]
 }
