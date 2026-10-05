@@ -13,6 +13,10 @@ Aquaculture_*.zip in its listing):
                              any animals FAO counts by head (whales, seals...)}
   fish/fao_aquaculture.json  the same for farming, by water (fresh, brackish,
                              sea)
+  fish/fao_sharks.json       round 185o: sharks, rays and chimaeras caught (the
+                             FAO group of that name), each country: tonnes in
+                             the latest year and ten years before, every
+                             species in the group, by sea area
   fish/fao_build.json        files read, the latest year, and the reporting
                              countries that are not one country (e.g. "Other
                              nei"), with their totals
@@ -112,8 +116,65 @@ def build(kind, z, stamp):
     return res
 
 
+def sharks(z, stamp):
+    """Round 185o: the catch of FAO's ISSCAAP group "Sharks, rays, chimaeras",
+    the group chosen by its own name in FAO's species list, nothing else."""
+    data = table(z, "Capture_Quantity.csv")
+    countries = {r["UN_Code"]: r for r in table(z, "CL_FI_COUNTRY_GROUPS.csv")}
+    species = {(r.get("3A_Code") or r.get("X3A_Code")): r for r in table(z, "CL_FI_SPECIES_GROUPS.csv")}
+    areas = {r["Code"]: r for r in table(z, "CL_FI_WATERAREA_GROUPS.csv")}
+    groups = sorted({r.get("ISSCAAP_Group_En") for r in species.values() if r.get("ISSCAAP_Group_En") and re.search(r"shark", r["ISSCAAP_Group_En"], re.I)})
+    if not groups:
+        stamp["sharks"] = {"built": False, "why": "no FAO group with sharks in its name"}
+        return {}
+    codes = {k for k, r in species.items() if r.get("ISSCAAP_Group_En") in groups}
+    years = sorted({int(r["PERIOD"]) for r in data if r.get("PERIOD", "").isdigit()})
+    last, before = years[-1], years[-1] - 10
+    out, odd = {}, {}
+    for r in data:
+        if r.get("SPECIES.ALPHA_3_CODE") not in codes or r.get("MEASURE") != "Q_tlw":
+            continue
+        y = int(r["PERIOD"]) if r.get("PERIOD", "").isdigit() else None
+        v = num(r.get("VALUE"))
+        if y not in (last, before) or v is None:
+            continue
+        c = countries.get(r.get("COUNTRY.UN_CODE"), {})
+        iso = c.get("ISO3_Code") or ""
+        name = c.get("Name_En") or r.get("COUNTRY.UN_CODE")
+        if not re.fullmatch(r"[A-Z]{3}", iso):
+            if y == last:
+                odd[name] = odd.get(name, 0) + v
+            continue
+        rec = out.setdefault(iso, {"name": name, "t": 0.0, "t0": 0.0, "species": {}, "areas": {}})
+        if y == before:
+            rec["t0"] += v
+            continue
+        rec["t"] += v
+        sp = species.get(r.get("SPECIES.ALPHA_3_CODE"), {})
+        spn = sp.get("Name_En") or r.get("SPECIES.ALPHA_3_CODE")
+        if sp.get("Scientific_Name"):
+            spn = f"{spn} ({sp['Scientific_Name']})"
+        rec["species"][spn] = rec["species"].get(spn, 0) + v
+        a = areas.get(r.get("AREA.CODE"), {}).get("Name_En") or r.get("AREA.CODE") or "not given"
+        rec["areas"][a] = rec["areas"].get(a, 0) + v
+    fmt = lambda d: "; ".join(f"{k}: {v:,.0f} t" for k, v in sorted(d.items(), key=lambda kv: -kv[1]))
+    res = {}
+    for iso, rec in out.items():
+        if rec["t"] <= 0 and rec["t0"] <= 0:
+            continue
+        res[iso] = {"value": round(rec["t"]), "x_country as FAO names it": rec["name"], "x_year": last,
+                    f"x_tonnes in {before}": round(rec["t0"]),
+                    "x_change over ten years (%)": round(100 * (rec["t"] - rec["t0"]) / rec["t0"], 1) if rec["t0"] > 0 else None,
+                    "x_every species in the group": fmt(rec["species"]), "x_by fishing area": fmt(rec["areas"]),
+                    "x_species recorded": len(rec["species"])}
+    stamp["sharks"] = {"groups": groups, "latest_year": last, "countries": len(res),
+                       "world_total_tonnes": round(sum(v["value"] for v in res.values())),
+                       "not_one_country": {k: round(v) for k, v in odd.items()}}
+    return res
+
+
 def main():
-    if (OUT / "fao_capture.json").exists() and datetime.date.today().weekday() != 6 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
+    if (OUT / "fao_capture.json").exists() and (OUT / "fao_sharks.json").exists() and datetime.date.today().weekday() != 6 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
         print("fao_fisheries: weekly; not Sunday")
         return
     listing = get(BASE).decode("utf-8", "ignore")
@@ -125,6 +186,10 @@ def main():
         stamp[f"{kind}_file"] = name
         res = build(kind, z, stamp)
         (OUT / file).write_text(json.dumps(res, ensure_ascii=False, indent=1))
+        if kind == "Capture":
+            sh = sharks(z, stamp)
+            (OUT / "fao_sharks.json").write_text(json.dumps(sh, ensure_ascii=False, indent=1))
+            print(f"fao_fisheries: sharks, rays and chimaeras: {len(sh)} countries", flush=True)
         print(f"fao_fisheries: {name}: {len(res)} countries, latest year {stamp[kind]['latest_year']}", flush=True)
     (OUT / "fao_build.json").write_text(json.dumps(stamp, ensure_ascii=False, indent=1))
 

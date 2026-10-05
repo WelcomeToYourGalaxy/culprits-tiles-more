@@ -27,26 +27,43 @@ def get(url, timeout=300):
         return r.read()
 
 
-def find_xlsx():
+def links_on(page, html):
+    """Every link on a page that could be the excel file: an .xlsx/.xls address,
+    UNCTAD's uploaded-files folder, or a "download" link (the publication page's
+    Download publication button)."""
+    out = []
+    for h in re.findall(r'href=["\']([^"\']+)["\']', html, re.I):
+        if re.search(r"\.xlsx?(\?|$)|uploaded-files|/download", h, re.I):
+            out.append(urllib.parse.urljoin(page, h))
+    return out
+
+
+def find_xlsx(tried):
+    """Candidate addresses of the newest release, newest publication first."""
     found = []
     for page in PAGES:
         try:
             html = get(page, 120).decode("utf-8", "replace")
+            tried.append({"page": page, "answered": True})
         except Exception as e:  # noqa: BLE001
+            tried.append({"page": page, "answered": f"{type(e).__name__}: {e}"})
             print(f"isds: {page} did not answer ({e})", flush=True)
             continue
-        for h in re.findall(r'href="([^"]+\.xlsx?[^"]*)"', html, re.I):
-            found.append(urllib.parse.urljoin(page, h))
-        # A newer release is linked from the publications list by its title.
-        for h in re.findall(r'href="([^"]*publications/\d+/investment-dispute-settlement-navigator-full[^"]*)"', html, re.I):
+        found += links_on(page, html)
+        # A newer release is linked by its title; open each such page too.
+        for h in re.findall(r'href=["\']([^"\']*publications/\d+/investment-dispute-settlement-navigator-full[^"\']*)["\']', html, re.I):
+            sub_url = urllib.parse.urljoin(page, h)
             try:
-                sub = get(urllib.parse.urljoin(page, h), 120).decode("utf-8", "replace")
-                found += [urllib.parse.urljoin(h, x) for x in re.findall(r'href="([^"]+\.xlsx?[^"]*)"', sub, re.I)]
-            except Exception:  # noqa: BLE001
-                pass
-    if not found:
-        raise SystemExit("isds: no excel link found on UNCTAD's pages")
-    return found
+                found += links_on(sub_url, get(sub_url, 120).decode("utf-8", "replace"))
+                tried.append({"page": sub_url, "answered": True})
+            except Exception as e:  # noqa: BLE001
+                tried.append({"page": sub_url, "answered": f"{type(e).__name__}: {e}"})
+    seen, ordered = set(), []
+    for u in found:
+        if u not in seen:
+            seen.add(u)
+            ordered.append(u)
+    return ordered
 
 
 def main():
@@ -56,17 +73,41 @@ def main():
         return
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "openpyxl"], check=True)
     import openpyxl
-    links = find_xlsx()
-    wb, used = None, None
-    for u in links:
+    OUT.mkdir(exist_ok=True)
+    tried, wb, used = [], None, None
+    # Round 185o: no build had ever been written (isds/ never appeared), so
+    # why was unknown. A copy downloaded by hand into isds/download/ is read
+    # first; otherwise every page and link tried is written to isds/build.json.
+    local = sorted((OUT / "download").glob("*.xls*"), key=lambda p: p.stat().st_mtime)
+    for p in reversed(local):
         try:
-            wb = openpyxl.load_workbook(io.BytesIO(get(u)), data_only=True)
-            used = u
+            wb = openpyxl.load_workbook(p, data_only=True)
+            used = f"the copy uploaded by hand: {p}"
             break
         except Exception as e:  # noqa: BLE001
-            print(f"isds: {u} could not be read ({e})", flush=True)
+            tried.append({"file": str(p), "read": f"{type(e).__name__}: {e}"})
     if not wb:
-        raise SystemExit("isds: no excel file could be read")
+        for u in find_xlsx(tried):
+            try:
+                raw = get(u)
+            except Exception as e:  # noqa: BLE001
+                tried.append({"link": u, "read": f"{type(e).__name__}: {e}"})
+                continue
+            if raw[:2] != b"PK":
+                tried.append({"link": u, "read": f"not an excel file (starts {raw[:40]!r})"})
+                continue
+            try:
+                wb = openpyxl.load_workbook(io.BytesIO(raw), data_only=True)
+                used = u
+                break
+            except Exception as e:  # noqa: BLE001
+                tried.append({"link": u, "read": f"{type(e).__name__}: {e}"})
+    if not wb:
+        (OUT / "build.json").write_text(json.dumps({"built": False, "read": today.isoformat(), "tried": tried,
+                                                   "what to do": "download the excel file from https://investmentpolicy.unctad.org/investment-dispute-settlement "
+                                                                 "(the ISDS data set in excel format link) and upload it to isds/download/"}, indent=1))
+        print(f"::warning::isds: no excel file could be read; {len(tried)} pages and links tried, listed in isds/build.json")
+        return
     # The sheet and heading row that name the respondent state.
     best = None
     for ws in wb.worksheets:
@@ -112,7 +153,6 @@ def main():
             d["x_case_list"] = "; ".join(d["x_case_list"])
         return out, sorted(unmatched)
     ect = [c for c in cases if c_treaty and re.search(r"energy charter", str(c.get(c_treaty) or ""), re.I)]
-    OUT.mkdir(exist_ok=True)
     resp, un1 = tally(cases, c_resp)
     home, un2 = tally(cases, c_home)
     ect_resp, un3 = tally(ect, c_resp)
@@ -120,7 +160,7 @@ def main():
     (OUT / "respondents.json").write_text(json.dumps(resp, ensure_ascii=False))
     (OUT / "home_states.json").write_text(json.dumps(home, ensure_ascii=False))
     (OUT / "ect_respondents.json").write_text(json.dumps(ect_resp, ensure_ascii=False))
-    (OUT / "build.json").write_text(json.dumps({"from": used, "sheet": title, "columns": head, "cases": len(cases), "ect_cases": len(ect),
+    (OUT / "build.json").write_text(json.dumps({"built": True, "tried": tried, "from": used, "sheet": title, "columns": head, "cases": len(cases), "ect_cases": len(ect),
                                                "columns_used": {"respondent": c_resp, "home": c_home, "name": c_name, "year": c_year, "treaty": c_treaty, "outcome": c_out},
                                                "names_not_matched": {"respondent": un1, "home": un2, "ect": un3}, "read": today.isoformat()}, indent=1, ensure_ascii=False))
     print(f"isds: {len(cases)} cases ({len(ect)} under the Energy Charter Treaty), {len(resp)} states sued; unmatched {len(un1)}", flush=True)
