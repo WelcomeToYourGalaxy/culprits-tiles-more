@@ -69,6 +69,22 @@ def main():
     # downloading). A copy downloaded by hand and uploaded to bii/download/
     # is read first; without one, the refusal is written down, not a failure.
     local = sorted(p for p in (OUT_DIR / "download").glob("*") if p.suffix.lower() in (".tif", ".tiff", ".zip"))
+    # Round 187o: the museum's zip is 45.9 MB, over GitHub's 25 MB upload
+    # limit, so it can come in pieces made with `split` (bii_part_aa,
+    # bii_part_ab, ...); they are joined back in name order.
+    parts = sorted((OUT_DIR / "download").glob("bii_part_*"))
+    if parts and not local:
+        joined = tmp / "bii_joined.zip"
+        with open(joined, "wb") as out:
+            for q in parts:
+                out.write(q.read_bytes())
+        if not zipfile.is_zipfile(joined):
+            info.update(built=False, why=f"the {len(parts)} pieces in bii/download/ do not join into a zip; check that every piece was uploaded")
+            stamp.write_text(json.dumps(info, indent=1, ensure_ascii=False))
+            print(f"::warning::{ROW}: pieces do not join into a zip")
+            return
+        local = [joined]
+        info["pieces_joined"] = [q.name for q in parts]
     if local:
         raw = local[-1]
         info["read_from"] = f"the copy uploaded by hand: {raw}"
