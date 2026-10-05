@@ -1,0 +1,1552 @@
+{
+ "ALB": {
+  "value": 0,
+  "x_country as FAO names it": "Albania",
+  "x_year": 2024,
+  "x_tonnes in 2014": 39,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "Smooth-hounds NEI (Mustelus spp): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 0 t",
+  "x_species recorded": 1
+ },
+ "DZA": {
+  "value": 516,
+  "x_country as FAO names it": "Algeria",
+  "x_year": 2024,
+  "x_tonnes in 2014": 428,
+  "x_change over ten years (%)": 20.6,
+  "x_every species in the group": "Catsharks, nursehounds NEI (Scyliorhinus spp): 275 t; Pelagic stingray (Pteroplatytrygon violacea): 110 t; Mediterranean starry ray (Raja asterias): 55 t; Smooth-hound (Mustelus mustelus): 25 t; Tope shark (Galeorhinus galeus): 15 t; Lanternsharks NEI (Etmopterus spp): 10 t; Bluntnose sixgill shark (Hexanchus griseus): 5 t; Dogfish sharks NEI (Squalidae): 5 t; Stingrays, butterfly rays NEI (Dasyatidae): 4 t; Blue shark (Prionace glauca): 2 t; Smalltooth sand tiger (Odontaspis ferox): 2 t; Piked dogfish (Squalus acanthias): 2 t; Blue skate (Dipturus batis): 2 t; Thresher (Alopias vulpinus): 2 t; Batoid fishes NEI (Batoidea or Batoidimorpha (Hypotremata)): 1 t; Cartilaginous fishes NEI (Chondrichthyes): 1 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 516 t",
+  "x_species recorded": 16
+ },
+ "AGO": {
+  "value": 3619,
+  "x_country as FAO names it": "Angola",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3496,
+  "x_change over ten years (%)": 3.5,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 2,450 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,169 t",
+  "x_by fishing area": "Atlantic, Southeast: 3,619 t; Atlantic, Eastern Central: 0 t",
+  "x_species recorded": 2
+ },
+ "ATG": {
+  "value": 25,
+  "x_country as FAO names it": "Antigua and Barbuda",
+  "x_year": 2024,
+  "x_tonnes in 2014": 33,
+  "x_change over ten years (%)": -24.2,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 25 t",
+  "x_by fishing area": "Atlantic, Western Central: 25 t",
+  "x_species recorded": 1
+ },
+ "ARG": {
+  "value": 14280,
+  "x_country as FAO names it": "Argentina",
+  "x_year": 2024,
+  "x_tonnes in 2014": 25556,
+  "x_change over ten years (%)": -44.1,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 8,314 t; Narrownose smooth-hound (Mustelus schmitti): 2,795 t; Argentine angelshark (Squatina argentina): 1,311 t; Plownose chimaera (Callorhinchus callorynchus): 965 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 676 t; Yellownose skate (Dipturus chilensis): 131 t; Tope shark (Galeorhinus galeus): 75 t; Rio skate (Rioraja agassizii): 11 t; Eagle rays NEI (Myliobatidae): 1 t; Spotback skate (Atlantoraja castelnaui): 0 t; Piked dogfish (Squalus acanthias): 0 t",
+  "x_by fishing area": "Atlantic, Southwest: 14,280 t",
+  "x_species recorded": 11
+ },
+ "AUS": {
+  "value": 4806,
+  "x_country as FAO names it": "Australia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 5688,
+  "x_change over ten years (%)": -15.5,
+  "x_every species in the group": "Gummy shark (Mustelus antarcticus): 2,797 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,199 t; Tope shark (Galeorhinus galeus): 379 t; Sawsharks NEI (Pristiophorus spp): 192 t; Rays, stingrays, mantas NEI (Rajiformes): 85 t; Ghost shark (Callorhinchus milii): 76 t; Elephantfishes, etc. NEI (Callorhinchidae): 63 t; Spottail shark (Carcharhinus sorrah): 7 t; Creek whaler (Carcharhinus fitzroyensis): 6 t; Porbeagle (Lamna nasus): 1 t; Milk shark (Rhizoprionodon acutus): 0 t; Pacific sleeper shark (Somniosus pacificus): 0 t; Winghead shark (Eusphyra blochii): 0 t; Eaton's skate (Bathyraja eatonii): 0 t; Lanternsharks NEI (Etmopterus spp): 0 t; Kerguelen sandpaper skate (Bathyraja irrasa): 0 t; Murray's skate (Bathyraja murrayi): 0 t; Pigeye shark (Carcharhinus amboinensis): 0 t; Gulper sharks NEI (Centrophorus spp): 0 t",
+  "x_by fishing area": "Indian Ocean, Eastern: 4,288 t; Pacific, Southwest: 281 t; Pacific, Western Central: 227 t; Indian Ocean, Antarctic: 9 t; Pacific, Antarctic: 1 t",
+  "x_species recorded": 19
+ },
+ "BHR": {
+  "value": 15,
+  "x_country as FAO names it": "Bahrain",
+  "x_year": 2024,
+  "x_tonnes in 2014": 34,
+  "x_change over ten years (%)": -55.9,
+  "x_every species in the group": "Requiem sharks NEI (Carcharhinidae): 10 t; Stingrays, butterfly rays NEI (Dasyatidae): 5 t",
+  "x_by fishing area": "Indian Ocean, Western: 15 t",
+  "x_species recorded": 2
+ },
+ "BGD": {
+  "value": 2952,
+  "x_country as FAO names it": "Bangladesh",
+  "x_year": 2024,
+  "x_tonnes in 2014": 5648,
+  "x_change over ten years (%)": -47.7,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 2,952 t",
+  "x_by fishing area": "Indian Ocean, Eastern: 2,952 t",
+  "x_species recorded": 1
+ },
+ "BRB": {
+  "value": 14,
+  "x_country as FAO names it": "Barbados",
+  "x_year": 2024,
+  "x_tonnes in 2014": 12,
+  "x_change over ten years (%)": 14.0,
+  "x_every species in the group": "Requiem sharks NEI (Carcharhinidae): 9 t; Blue shark (Prionace glauca): 5 t; Silky shark (Carcharhinus falciformis): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 14 t",
+  "x_species recorded": 4
+ },
+ "BEL": {
+  "value": 1573,
+  "x_country as FAO names it": "Belgium",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1588,
+  "x_change over ten years (%)": -0.9,
+  "x_every species in the group": "Thornback ray (Raja clavata): 617 t; Small-spotted catshark (Scyliorhinus canicula): 400 t; Blonde ray (Raja brachyura): 372 t; Spotted ray (Raja montagui): 95 t; Undulate ray (Raja undulata): 44 t; Nursehound (Scyliorhinus stellaris): 34 t; Smooth-hound (Mustelus mustelus): 3 t; Piked dogfish (Squalus acanthias): 3 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 3 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 2 t; Tope shark (Galeorhinus galeus): 0 t; Smooth-hounds NEI (Mustelus spp): 0 t; Dogfishes and hounds NEI (Squalidae, Scyliorhinidae): 0 t; Rays and skates NEI (Rajidae): 0 t; Starry ray (Amblyraja radiata): 0 t; Sandy ray (Leucoraja circularis): 0 t; Cuckoo ray (Leucoraja naevus): 0 t; Small-eyed ray (Raja microocellata): 0 t; Sailray (Rajella lintea): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 1,573 t",
+  "x_species recorded": 19
+ },
+ "BLZ": {
+  "value": 495,
+  "x_country as FAO names it": "Belize",
+  "x_year": 2024,
+  "x_tonnes in 2014": 582,
+  "x_change over ten years (%)": -14.9,
+  "x_every species in the group": "Blue shark (Prionace glauca): 482 t; Silky shark (Carcharhinus falciformis): 14 t",
+  "x_by fishing area": "Atlantic, Northeast: 437 t; Atlantic, Northwest: 55 t; Atlantic, Southeast: 3 t",
+  "x_species recorded": 2
+ },
+ "BEN": {
+  "value": 695,
+  "x_country as FAO names it": "Benin",
+  "x_year": 2024,
+  "x_tonnes in 2014": 308,
+  "x_change over ten years (%)": 125.6,
+  "x_every species in the group": "Pigeye shark (Carcharhinus amboinensis): 400 t; Spinner shark (Carcharhinus brevipinna): 290 t; Rays, stingrays, mantas NEI (Rajiformes): 5 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 695 t",
+  "x_species recorded": 3
+ },
+ "BMU": {
+  "value": 2,
+  "x_country as FAO names it": "Bermuda",
+  "x_year": 2024,
+  "x_tonnes in 2014": 5,
+  "x_change over ten years (%)": -60.0,
+  "x_every species in the group": "Smooth-hounds NEI (Mustelus spp): 1 t; Requiem sharks NEI (Carcharhinidae): 1 t; Bluntnose sixgill shark (Hexanchus griseus): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; Tiger shark (Galeocerdo cuvier): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 2 t",
+  "x_species recorded": 6
+ },
+ "BRA": {
+  "value": 10396,
+  "x_country as FAO names it": "Brazil",
+  "x_year": 2024,
+  "x_tonnes in 2014": 22001,
+  "x_change over ten years (%)": -52.7,
+  "x_every species in the group": "Blue shark (Prionace glauca): 4,280 t; Rays, stingrays, mantas NEI (Rajiformes): 3,646 t; Shortfin mako (Isurus oxyrinchus): 1,013 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 742 t; S.Am. freshwater stingrays NEI (Potamotrygon spp): 715 t; Oceanic whitetip shark (Carcharhinus longimanus): 1 t; Bigeye thresher (Alopias superciliosus): 0 t",
+  "x_by fishing area": "Atlantic, Southwest: 9,681 t; America, South - Inland waters: 715 t",
+  "x_species recorded": 7
+ },
+ "BRN": {
+  "value": 40,
+  "x_country as FAO names it": "Brunei Darussalam",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 40 t",
+  "x_by fishing area": "Pacific, Western Central: 40 t",
+  "x_species recorded": 1
+ },
+ "BGR": {
+  "value": 53,
+  "x_country as FAO names it": "Bulgaria",
+  "x_year": 2024,
+  "x_tonnes in 2014": 107,
+  "x_change over ten years (%)": -50.6,
+  "x_every species in the group": "Thornback ray (Raja clavata): 39 t; Piked dogfish (Squalus acanthias): 13 t; Common stingray (Dasyatis pastinaca): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 53 t",
+  "x_species recorded": 3
+ },
+ "CPV": {
+  "value": 12,
+  "x_country as FAO names it": "Cabo Verde",
+  "x_year": 2024,
+  "x_tonnes in 2014": 127,
+  "x_change over ten years (%)": -90.7,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 12 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 12 t",
+  "x_species recorded": 1
+ },
+ "KHM": {
+  "value": 1944,
+  "x_country as FAO names it": "Cambodia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 2005,
+  "x_change over ten years (%)": -3.1,
+  "x_every species in the group": "Rays and skates NEI (Rajidae): 1,489 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 455 t",
+  "x_by fishing area": "Pacific, Western Central: 1,944 t",
+  "x_species recorded": 2
+ },
+ "CMR": {
+  "value": 2585,
+  "x_country as FAO names it": "Cameroon",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1785,
+  "x_change over ten years (%)": 44.8,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 2,240 t; Angelsharks, sand devils NEI (Squatinidae): 270 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 75 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 2,585 t",
+  "x_species recorded": 3
+ },
+ "CAN": {
+  "value": 976,
+  "x_country as FAO names it": "Canada",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1502,
+  "x_change over ten years (%)": -35.0,
+  "x_every species in the group": "Rays and skates NEI (Rajidae): 859 t; Dogfishes NEI (Squalus spp): 112 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 5 t; Black dogfish (Centroscyllium fabricii): 0 t; Sand tiger shark (Carcharias taurus): 0 t; Basking shark (Cetorhinus maximus): 0 t; Mackerel sharks,porbeagles NEI (Lamnidae): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; Blue shark (Prionace glauca): 0 t; Greenland shark (Somniosus microcephalus): 0 t; Electric ray (Tetronarce nobiliana): 0 t; Arctic skate (Amblyraja hyperborea): 0 t; Barndoor skate (Dipturus laevis): 0 t; Little skate (Leucoraja erinaceus): 0 t; Winter skate (Leucoraja ocellata): 0 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 0 t",
+  "x_by fishing area": "Atlantic, Northwest: 611 t; Pacific, Northeast: 365 t",
+  "x_species recorded": 16
+ },
+ "CHL": {
+  "value": 3269,
+  "x_country as FAO names it": "Chile",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1282,
+  "x_change over ten years (%)": 154.9,
+  "x_every species in the group": "Shortfin mako (Isurus oxyrinchus): 1,743 t; Plownose chimaera (Callorhinchus callorynchus): 797 t; Rays, stingrays, mantas NEI (Rajiformes): 595 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 76 t; Smooth-hounds NEI (Mustelus spp): 44 t; Blue shark (Prionace glauca): 14 t; Piked dogfish (Squalus acanthias): 0 t",
+  "x_by fishing area": "Pacific, Southeast: 3,193 t; Atlantic, Southwest: 76 t",
+  "x_species recorded": 7
+ },
+ "CHN": {
+  "value": 33,
+  "x_country as FAO names it": "China",
+  "x_year": 2024,
+  "x_tonnes in 2014": 923,
+  "x_change over ten years (%)": -96.5,
+  "x_every species in the group": "Blue shark (Prionace glauca): 19 t; Shortfin mako (Isurus oxyrinchus): 14 t; Oceanic whitetip shark (Carcharhinus longimanus): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 29 t; Atlantic, Southwest: 2 t; Atlantic, Southeast: 1 t; Indian Ocean, Western: 1 t; Pacific, Western Central: 0 t; Pacific, Eastern Central: 0 t; Pacific, Southwest: 0 t; Atlantic, Northeast: 0 t; Atlantic, Western Central: 0 t",
+  "x_species recorded": 3
+ },
+ "HKG": {
+  "value": 189,
+  "x_country as FAO names it": "China, Hong Kong SAR",
+  "x_year": 2024,
+  "x_tonnes in 2014": 320,
+  "x_change over ten years (%)": -40.9,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 189 t",
+  "x_by fishing area": "Pacific, Northwest: 189 t",
+  "x_species recorded": 1
+ },
+ "TWN": {
+  "value": 42040,
+  "x_country as FAO names it": "Taiwan Province of China",
+  "x_year": 2024,
+  "x_tonnes in 2014": 22982,
+  "x_change over ten years (%)": 82.9,
+  "x_every species in the group": "Blue shark (Prionace glauca): 31,890 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 6,362 t; Shortfin mako (Isurus oxyrinchus): 2,494 t; Thresher sharks NEI (Alopias spp): 615 t; Silky shark (Carcharhinus falciformis): 353 t; Rays, stingrays, mantas NEI (Rajiformes): 190 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 135 t; Oceanic whitetip shark (Carcharhinus longimanus): 2 t",
+  "x_by fishing area": "Pacific, Northwest: 28,779 t; Indian Ocean, Western: 3,674 t; Pacific, Western Central: 3,557 t; Pacific, Eastern Central: 2,586 t; Pacific, Southwest: 1,619 t; Pacific, Northeast: 825 t; Indian Ocean, Eastern: 268 t; Atlantic, Southeast: 262 t; Atlantic, Eastern Central: 222 t; Atlantic, Northeast: 189 t; Atlantic, Southwest: 39 t; Atlantic, Northwest: 10 t; Atlantic, Western Central: 10 t; Pacific, Southeast: 0 t",
+  "x_species recorded": 8
+ },
+ "COL": {
+  "value": 1,
+  "x_country as FAO names it": "Colombia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 34,
+  "x_change over ten years (%)": -97.1,
+  "x_every species in the group": "PPM (Potamotrygon magdalenae): 1 t",
+  "x_by fishing area": "America, South - Inland waters: 1 t",
+  "x_species recorded": 1
+ },
+ "COM": {
+  "value": 82,
+  "x_country as FAO names it": "Comoros",
+  "x_year": 2024,
+  "x_tonnes in 2014": 17,
+  "x_change over ten years (%)": 376.1,
+  "x_every species in the group": "Oceanic whitetip shark (Carcharhinus longimanus): 31 t; Silky shark (Carcharhinus falciformis): 30 t; Blue shark (Prionace glauca): 21 t",
+  "x_by fishing area": "Indian Ocean, Western: 82 t",
+  "x_species recorded": 3
+ },
+ "COG": {
+  "value": 949,
+  "x_country as FAO names it": "Congo",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1714,
+  "x_change over ten years (%)": -44.6,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 424 t; Requiem sharks NEI (Carcharhinidae): 332 t; Guitarfishes, etc. NEI (Rhinobatidae): 90 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 81 t; Shortfin mako (Isurus oxyrinchus): 17 t; Angelsharks, sand devils NEI (Squatinidae): 5 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 949 t",
+  "x_species recorded": 6
+ },
+ "COD": {
+  "value": 830,
+  "x_country as FAO names it": "Democratic Republic of the Congo",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1739,
+  "x_change over ten years (%)": -52.3,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 700 t; Rays, stingrays, mantas NEI (Rajiformes): 130 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 830 t",
+  "x_species recorded": 2
+ },
+ "COK": {
+  "value": 13,
+  "x_country as FAO names it": "Cook Islands",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1,
+  "x_change over ten years (%)": 985.7,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 13 t; Oceanic whitetip shark (Carcharhinus longimanus): 0 t; Blue shark (Prionace glauca): 0 t; Mako sharks (Isurus spp): 0 t",
+  "x_by fishing area": "Pacific, Eastern Central: 13 t",
+  "x_species recorded": 4
+ },
+ "CRI": {
+  "value": 4935,
+  "x_country as FAO names it": "Costa Rica",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3517,
+  "x_change over ten years (%)": 40.3,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 4,466 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 469 t; Shortfin mako (Isurus oxyrinchus): 1 t",
+  "x_by fishing area": "Pacific, Eastern Central: 4,865 t; Atlantic, Western Central: 70 t",
+  "x_species recorded": 3
+ },
+ "CIV": {
+  "value": 1247,
+  "x_country as FAO names it": "Côte d'Ivoire",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1516,
+  "x_change over ten years (%)": -17.7,
+  "x_every species in the group": "Stingrays, butterfly rays NEI (Dasyatidae): 708 t; Daisy stingray (Fontitrygon margarita): 273 t; Guitarfishes NEI (Rhinobatos spp): 106 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 102 t; Piked dogfish (Squalus acanthias): 58 t; Blue shark (Prionace glauca): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 1,247 t",
+  "x_species recorded": 6
+ },
+ "HRV": {
+  "value": 315,
+  "x_country as FAO names it": "Croatia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 218,
+  "x_change over ten years (%)": 44.5,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 122 t; Dogfish sharks NEI (Squalidae): 79 t; Smooth-hound (Mustelus mustelus): 65 t; Piked dogfish (Squalus acanthias): 21 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 10 t; Common eagle ray (Myliobatis aquila): 8 t; Thornback ray (Raja clavata): 6 t; Brown ray (Raja miraletus): 4 t; Small-spotted catshark (Scyliorhinus canicula): 0 t; Nursehound (Scyliorhinus stellaris): 0 t; Marbled electric ray (Torpedo marmorata): 0 t; Sandbar shark (Carcharhinus plumbeus): 0 t; Blue shark (Prionace glauca): 0 t; Devil fish (Mobula mobular): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; Gulper shark (Centrophorus granulosus): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 315 t",
+  "x_species recorded": 16
+ },
+ "CUB": {
+  "value": 659,
+  "x_country as FAO names it": "Cuba",
+  "x_year": 2024,
+  "x_tonnes in 2014": 2003,
+  "x_change over ten years (%)": -67.1,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 480 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 179 t",
+  "x_by fishing area": "Atlantic, Western Central: 659 t",
+  "x_species recorded": 2
+ },
+ "CYP": {
+  "value": 20,
+  "x_country as FAO names it": "Cyprus",
+  "x_year": 2024,
+  "x_tonnes in 2014": 14,
+  "x_change over ten years (%)": 41.4,
+  "x_every species in the group": "Stingrays, butterfly rays NEI (Dasyatidae): 14 t; Dogfishes NEI (Squalus spp): 3 t; Rays and skates NEI (Rajidae): 2 t; Blue shark (Prionace glauca): 0 t; Thornback ray (Raja clavata): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 20 t",
+  "x_species recorded": 5
+ },
+ "DNK": {
+  "value": 269,
+  "x_country as FAO names it": "Denmark",
+  "x_year": 2024,
+  "x_tonnes in 2014": 73,
+  "x_change over ten years (%)": 268.5,
+  "x_every species in the group": "Piked dogfish (Squalus acanthias): 110 t; Thornback ray (Raja clavata): 80 t; Sailray (Rajella lintea): 38 t; Blonde ray (Raja brachyura): 30 t; Spotted ray (Raja montagui): 7 t; Cuckoo ray (Leucoraja naevus): 3 t; Tope shark (Galeorhinus galeus): 1 t; Small-spotted catshark (Scyliorhinus canicula): 0 t; Velvet belly (Etmopterus spinax): 0 t; Starry ray (Amblyraja radiata): 0 t; Blue skate (Dipturus batis): 0 t; Sandy ray (Leucoraja circularis): 0 t; Raja rays NEI (Raja spp): 0 t; Rabbit fish (Chimaera monstrosa): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 269 t",
+  "x_species recorded": 14
+ },
+ "DJI": {
+  "value": 82,
+  "x_country as FAO names it": "Djibouti",
+  "x_year": 2024,
+  "x_tonnes in 2014": 94,
+  "x_change over ten years (%)": -13.3,
+  "x_every species in the group": "Requiem sharks NEI (Carcharhinidae): 81 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t",
+  "x_by fishing area": "Indian Ocean, Western: 82 t",
+  "x_species recorded": 2
+ },
+ "DOM": {
+  "value": 200,
+  "x_country as FAO names it": "Dominican Republic",
+  "x_year": 2024,
+  "x_tonnes in 2014": 344,
+  "x_change over ten years (%)": -41.8,
+  "x_every species in the group": "Nurse shark (Ginglymostoma cirratum): 120 t; Rays, stingrays, mantas NEI (Rajiformes): 80 t",
+  "x_by fishing area": "Atlantic, Western Central: 200 t",
+  "x_species recorded": 2
+ },
+ "ECU": {
+  "value": 7734,
+  "x_country as FAO names it": "Ecuador",
+  "x_year": 2024,
+  "x_tonnes in 2014": 9494,
+  "x_change over ten years (%)": -18.5,
+  "x_every species in the group": "Pelagic thresher (Alopias pelagicus): 3,508 t; Blue shark (Prionace glauca): 3,356 t; Silky shark (Carcharhinus falciformis): 377 t; Shortfin mako (Isurus oxyrinchus): 234 t; Bigeye thresher (Alopias superciliosus): 160 t; Longtail stingray (Hypanus longus): 96 t; Brown smooth-hound (Mustelus henlei): 2 t; Tiger shark (Galeocerdo cuvier): 1 t",
+  "x_by fishing area": "Pacific, Southeast: 7,734 t",
+  "x_species recorded": 8
+ },
+ "EGY": {
+  "value": 1062,
+  "x_country as FAO names it": "Egypt",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1843,
+  "x_change over ten years (%)": -42.4,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,062 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 1,059 t; Indian Ocean, Western: 3 t",
+  "x_species recorded": 1
+ },
+ "SLV": {
+  "value": 455,
+  "x_country as FAO names it": "El Salvador",
+  "x_year": 2024,
+  "x_tonnes in 2014": 120,
+  "x_change over ten years (%)": 279.2,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 455 t",
+  "x_by fishing area": "Pacific, Eastern Central: 455 t",
+  "x_species recorded": 1
+ },
+ "GNQ": {
+  "value": 50,
+  "x_country as FAO names it": "Equatorial Guinea",
+  "x_year": 2024,
+  "x_tonnes in 2014": 21,
+  "x_change over ten years (%)": 138.1,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 35 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 15 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 50 t",
+  "x_species recorded": 2
+ },
+ "ERI": {
+  "value": 28,
+  "x_country as FAO names it": "Eritrea",
+  "x_year": 2024,
+  "x_tonnes in 2014": 167,
+  "x_change over ten years (%)": -83.4,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 28 t",
+  "x_by fishing area": "Indian Ocean, Western: 28 t",
+  "x_species recorded": 1
+ },
+ "EST": {
+  "value": 19,
+  "x_country as FAO names it": "Estonia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 248,
+  "x_change over ten years (%)": -92.3,
+  "x_every species in the group": "Raja rays NEI (Raja spp): 19 t",
+  "x_by fishing area": "Atlantic, Northwest: 19 t",
+  "x_species recorded": 1
+ },
+ "FLK": {
+  "value": 646,
+  "x_country as FAO names it": "Falkland Islands (Malvinas)",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1131,
+  "x_change over ten years (%)": -42.9,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 646 t",
+  "x_by fishing area": "Atlantic, Southwest: 646 t",
+  "x_species recorded": 1
+ },
+ "FRO": {
+  "value": 336,
+  "x_country as FAO names it": "Faroe Islands",
+  "x_year": 2024,
+  "x_tonnes in 2014": 528,
+  "x_change over ten years (%)": -36.3,
+  "x_every species in the group": "Rays and skates NEI (Rajidae): 334 t; Dogfish sharks NEI (Squalidae): 2 t; Porbeagle (Lamna nasus): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 336 t; Atlantic, Northwest: 0 t",
+  "x_species recorded": 3
+ },
+ "FJI": {
+  "value": 236,
+  "x_country as FAO names it": "Fiji",
+  "x_year": 2024,
+  "x_tonnes in 2014": 26,
+  "x_change over ten years (%)": 807.1,
+  "x_every species in the group": "Blue shark (Prionace glauca): 141 t; Oceanic whitetip shark (Carcharhinus longimanus): 47 t; Silky shark (Carcharhinus falciformis): 29 t; Shortfin mako (Isurus oxyrinchus): 18 t; Thresher sharks NEI (Alopias spp): 1 t",
+  "x_by fishing area": "Pacific, Western Central: 236 t",
+  "x_species recorded": 5
+ },
+ "FRA": {
+  "value": 16904,
+  "x_country as FAO names it": "France",
+  "x_year": 2024,
+  "x_tonnes in 2014": 15803,
+  "x_change over ten years (%)": 7.0,
+  "x_every species in the group": "Smooth-hounds NEI (Mustelus spp): 3,980 t; Small-spotted catshark (Scyliorhinus canicula): 2,830 t; Thornback ray (Raja clavata): 2,672 t; Cuckoo ray (Leucoraja naevus): 1,671 t; Blonde ray (Raja brachyura): 1,442 t; Piked dogfish (Squalus acanthias): 1,196 t; Undulate ray (Raja undulata): 854 t; Nursehound (Scyliorhinus stellaris): 662 t; Spotted ray (Raja montagui): 448 t; Tope shark (Galeorhinus galeus): 378 t; Ratfishes NEI (Hydrolagus spp): 151 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 120 t; Shagreen ray (Leucoraja fullonica): 90 t; Sandy ray (Leucoraja circularis): 80 t; Small-eyed ray (Raja microocellata): 67 t; Thresher (Alopias vulpinus): 54 t; Rays and skates NEI (Rajidae): 46 t; Blue shark (Prionace glauca): 46 t; Mediterranean starry ray (Raja asterias): 20 t; Marbled electric ray (Torpedo marmorata): 15 t; Starry ray (Amblyraja radiata): 13 t; White skate (Rostroraja alba): 13 t; Whiteleg skate (Amblyraja taaf): 11 t; Arctic skate (Amblyraja hyperborea): 10 t; Kerguelen sandpaper skate (Bathyraja irrasa): 8 t; Lanternsharks NEI (Etmopterus spp): 7 t; Longnosed skate (Dipturus oxyrinchus): 6 t; Eaton's skate (Bathyraja eatonii): 4 t; Common stingray (Dasyatis pastinaca): 3 t; Rabbit fish (Chimaera monstrosa): 3 t; Common eagle ray (Myliobatis aquila): 1 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 1 t; Blackmouth catshark (Galeus melastomus): 1 t; Bathyraja rays NEI (Bathyraja spp): 0 t; Bluntnose sixgill shark (Hexanchus griseus): 0 t; Bull shark (Carcharhinus leucas): 0 t; Silky shark (Carcharhinus falciformis): 0 t; Stingrays, butterfly rays NEI (Dasyatidae): 0 t; Mouse catshark (Galeus murinus): 0 t; Dogfish sharks NEI (Squalidae): 0 t; Porbeagle (Lamna nasus): 0 t; Blue skate (Dipturus batis): 0 t; Kitefin shark (Dalatias licha): 0 t; Longnose spurdog (Squalus blainville): 0 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; CZI (Centroscymnus spp): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 16,689 t; Mediterranean and Black Sea: 185 t; Indian Ocean, Antarctic: 30 t; Atlantic, Eastern Central: 0 t; Pacific, Antarctic: 0 t",
+  "x_species recorded": 47
+ },
+ "GUF": {
+  "value": 2,
+  "x_country as FAO names it": "French Guiana",
+  "x_year": 2024,
+  "x_tonnes in 2014": 45,
+  "x_change over ten years (%)": -95.6,
+  "x_every species in the group": "Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 2 t; Stingrays, butterfly rays NEI (Dasyatidae): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 2 t; Atlantic, Southwest: 0 t",
+  "x_species recorded": 2
+ },
+ "GAB": {
+  "value": 160,
+  "x_country as FAO names it": "Gabon",
+  "x_year": 2024,
+  "x_tonnes in 2014": 202,
+  "x_change over ten years (%)": -20.8,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 150 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 10 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 160 t",
+  "x_species recorded": 2
+ },
+ "GMB": {
+  "value": 300,
+  "x_country as FAO names it": "Gambia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 482,
+  "x_change over ten years (%)": -37.8,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 300 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 300 t",
+  "x_species recorded": 1
+ },
+ "GEO": {
+  "value": 0,
+  "x_country as FAO names it": "Georgia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 2,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "DEU": {
+  "value": 64,
+  "x_country as FAO names it": "Germany",
+  "x_year": 2024,
+  "x_tonnes in 2014": 35,
+  "x_change over ten years (%)": 82.9,
+  "x_every species in the group": "Thornback ray (Raja clavata): 44 t; Spotted ray (Raja montagui): 9 t; Dogfish sharks NEI (Squalidae): 6 t; Blonde ray (Raja brachyura): 3 t; Piked dogfish (Squalus acanthias): 1 t; Rabbit fish (Chimaera monstrosa): 1 t; Shagreen ray (Leucoraja fullonica): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 62 t; Atlantic, Northwest: 2 t",
+  "x_species recorded": 7
+ },
+ "GHA": {
+  "value": 3428,
+  "x_country as FAO names it": "Ghana",
+  "x_year": 2024,
+  "x_tonnes in 2014": 7441,
+  "x_change over ten years (%)": -53.9,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 2,298 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 672 t; Blue shark (Prionace glauca): 458 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 3,428 t",
+  "x_species recorded": 3
+ },
+ "GRC": {
+  "value": 519,
+  "x_country as FAO names it": "Greece",
+  "x_year": 2024,
+  "x_tonnes in 2014": 761,
+  "x_change over ten years (%)": -31.8,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 306 t; Smooth-hounds NEI (Mustelus spp): 114 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 99 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 519 t",
+  "x_species recorded": 3
+ },
+ "GRL": {
+  "value": 185,
+  "x_country as FAO names it": "Greenland",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Rays and skates NEI (Rajidae): 94 t; Greenland shark (Somniosus microcephalus): 90 t; Black dogfish (Centroscyllium fabricii): 1 t",
+  "x_by fishing area": "Atlantic, Northwest: 137 t; Atlantic, Northeast: 48 t",
+  "x_species recorded": 3
+ },
+ "GRD": {
+  "value": 21,
+  "x_country as FAO names it": "Grenada",
+  "x_year": 2024,
+  "x_tonnes in 2014": 15,
+  "x_change over ten years (%)": 42.2,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 15 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 6 t",
+  "x_by fishing area": "Atlantic, Western Central: 21 t",
+  "x_species recorded": 2
+ },
+ "GLP": {
+  "value": 4,
+  "x_country as FAO names it": "Guadeloupe",
+  "x_year": 2024,
+  "x_tonnes in 2014": 14,
+  "x_change over ten years (%)": -72.4,
+  "x_every species in the group": "Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 3 t; Rays and skates NEI (Rajidae): 1 t",
+  "x_by fishing area": "Atlantic, Western Central: 4 t",
+  "x_species recorded": 2
+ },
+ "GTM": {
+  "value": 61,
+  "x_country as FAO names it": "Guatemala",
+  "x_year": 2024,
+  "x_tonnes in 2014": 285,
+  "x_change over ten years (%)": -78.5,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 61 t",
+  "x_by fishing area": "Pacific, Eastern Central: 61 t",
+  "x_species recorded": 1
+ },
+ "GGY": {
+  "value": 30,
+  "x_country as FAO names it": "Guernsey",
+  "x_year": 2024,
+  "x_tonnes in 2014": 167,
+  "x_change over ten years (%)": -82.0,
+  "x_every species in the group": "Blonde ray (Raja brachyura): 30 t; Dogfishes and hounds NEI (Squalidae, Scyliorhinidae): 0 t; Undulate ray (Raja undulata): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 30 t",
+  "x_species recorded": 3
+ },
+ "GIN": {
+  "value": 136,
+  "x_country as FAO names it": "Guinea",
+  "x_year": 2024,
+  "x_tonnes in 2014": 820,
+  "x_change over ten years (%)": -83.4,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 70 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 66 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 136 t",
+  "x_species recorded": 2
+ },
+ "GNB": {
+  "value": 10,
+  "x_country as FAO names it": "Guinea-Bissau",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Scalloped hammerhead (Sphyrna lewini): 10 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 10 t",
+  "x_species recorded": 1
+ },
+ "GUY": {
+  "value": 105,
+  "x_country as FAO names it": "Guyana",
+  "x_year": 2024,
+  "x_tonnes in 2014": 399,
+  "x_change over ten years (%)": -73.7,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 105 t",
+  "x_by fishing area": "Atlantic, Western Central: 105 t",
+  "x_species recorded": 1
+ },
+ "ISL": {
+  "value": 387,
+  "x_country as FAO names it": "Iceland",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1817,
+  "x_change over ten years (%)": -78.7,
+  "x_every species in the group": "Starry ray (Amblyraja radiata): 193 t; Blue skate (Dipturus batis): 168 t; Rabbit fish (Chimaera monstrosa): 10 t; Greenland shark (Somniosus microcephalus): 7 t; Shagreen ray (Leucoraja fullonica): 5 t; Porbeagle (Lamna nasus): 3 t; Sailray (Rajella lintea): 1 t; Portuguese dogfish (Centroscymnus coelolepis): 0 t; Piked dogfish (Squalus acanthias): 0 t; Chimaeras, etc. NEI (Chimaeriformes): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 387 t",
+  "x_species recorded": 10
+ },
+ "IND": {
+  "value": 17146,
+  "x_country as FAO names it": "India",
+  "x_year": 2024,
+  "x_tonnes in 2014": 47284,
+  "x_change over ten years (%)": -63.7,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 17,146 t",
+  "x_by fishing area": "Indian Ocean, Western: 11,618 t; Indian Ocean, Eastern: 5,528 t",
+  "x_species recorded": 1
+ },
+ "IDN": {
+  "value": 80873,
+  "x_country as FAO names it": "Indonesia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 132651,
+  "x_change over ten years (%)": -39.0,
+  "x_every species in the group": "Stingrays, butterfly rays NEI (Dasyatidae): 33,241 t; Requiem sharks NEI (Carcharhinidae): 15,457 t; Guitarfishes, etc. NEI (Rhinobatidae): 8,306 t; Eagle rays NEI (Myliobatidae): 8,197 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 7,300 t; Rays, stingrays, mantas NEI (Rajiformes): 6,703 t; Blue shark (Prionace glauca): 996 t; Sawfishes (Pristidae): 393 t; Dogfish sharks NEI (Squalidae): 241 t; Silky shark (Carcharhinus falciformis): 27 t; Thresher sharks NEI (Alopias spp): 13 t",
+  "x_by fishing area": "Pacific, Western Central: 59,940 t; Indian Ocean, Eastern: 20,933 t",
+  "x_species recorded": 11
+ },
+ "IRN": {
+  "value": 4485,
+  "x_country as FAO names it": "Iran (Islamic Republic of)",
+  "x_year": 2024,
+  "x_tonnes in 2014": 13797,
+  "x_change over ten years (%)": -67.5,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 4,229 t; Silky shark (Carcharhinus falciformis): 219 t; Giant guitarfish (Rhynchobatus djiddensis): 20 t; Oceanic whitetip shark (Carcharhinus longimanus): 17 t",
+  "x_by fishing area": "Indian Ocean, Western: 4,485 t",
+  "x_species recorded": 4
+ },
+ "IRL": {
+  "value": 1195,
+  "x_country as FAO names it": "Ireland",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1520,
+  "x_change over ten years (%)": -21.4,
+  "x_every species in the group": "Piked dogfish (Squalus acanthias): 369 t; Thornback ray (Raja clavata): 247 t; Blonde ray (Raja brachyura): 214 t; Small-spotted catshark (Scyliorhinus canicula): 169 t; Dogfishes NEI (Squalus spp): 63 t; Spotted ray (Raja montagui): 59 t; Dogfishes and hounds NEI (Squalidae, Scyliorhinidae): 20 t; Cuckoo ray (Leucoraja naevus): 16 t; Knifetooth dogfish (Scymnodon ringens): 15 t; Dogfish sharks NEI (Squalidae): 8 t; Sandy ray (Leucoraja circularis): 5 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 4 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 2 t; Catsharks, etc. NEI (Scyliorhinidae): 2 t; Nursehound (Scyliorhinus stellaris): 0 t; Black dogfish (Centroscyllium fabricii): 0 t; Rabbit fish (Chimaera monstrosa): 0 t; Shagreen ray (Leucoraja fullonica): 0 t; Longnosed skate (Dipturus oxyrinchus): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 1,195 t",
+  "x_species recorded": 19
+ },
+ "IMN": {
+  "value": 11,
+  "x_country as FAO names it": "Isle of Man",
+  "x_year": 2024,
+  "x_tonnes in 2014": 16,
+  "x_change over ten years (%)": -30.3,
+  "x_every species in the group": "Piked dogfish (Squalus acanthias): 7 t; Dogfish sharks NEI (Squalidae): 2 t; Small-spotted catshark (Scyliorhinus canicula): 2 t",
+  "x_by fishing area": "Atlantic, Northeast: 11 t",
+  "x_species recorded": 3
+ },
+ "ITA": {
+  "value": 1256,
+  "x_country as FAO names it": "Italy",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1831,
+  "x_change over ten years (%)": -31.4,
+  "x_every species in the group": "Thornback ray (Raja clavata): 329 t; Smooth-hounds NEI (Mustelus spp): 286 t; Mediterranean starry ray (Raja asterias): 159 t; Small-spotted catshark (Scyliorhinus canicula): 129 t; White skate (Rostroraja alba): 105 t; Brown ray (Raja miraletus): 67 t; Piked dogfish (Squalus acanthias): 55 t; Spotted ray (Raja montagui): 27 t; Raja rays NEI (Raja spp): 23 t; Blue skate (Dipturus batis): 14 t; Rays, stingrays, mantas NEI (Rajiformes): 13 t; Starry smooth-hound (Mustelus asterias): 12 t; Blue shark (Prionace glauca): 8 t; Blackmouth catshark (Galeus melastomus): 7 t; Blonde ray (Raja brachyura): 4 t; Longnose spurdog (Squalus blainville): 3 t; Sandy ray (Leucoraja circularis): 2 t; Nursehound (Scyliorhinus stellaris): 2 t; Bluntnose sixgill shark (Hexanchus griseus): 2 t; Common torpedo (Torpedo torpedo): 2 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 1 t; Rough ray (Raja radula): 1 t; Marbled electric ray (Torpedo marmorata): 1 t; Sharpnose sevengill shark (Heptranchias perlo): 1 t; Thresher (Alopias vulpinus): 0 t; Velvet belly (Etmopterus spinax): 0 t; Stingrays, butterfly rays NEI (Dasyatidae): 0 t; Longnosed skate (Dipturus oxyrinchus): 0 t; Speckled ray (Raja polystigma): 0 t; Gulper sharks NEI (Centrophorus spp): 0 t; Hammerhead sharks NEI (Sphyrna spp): 0 t; Pelagic stingray (Pteroplatytrygon violacea): 0 t; Porbeagle (Lamna nasus): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 1,256 t",
+  "x_species recorded": 33
+ },
+ "JPN": {
+  "value": 19393,
+  "x_country as FAO names it": "Japan",
+  "x_year": 2024,
+  "x_tonnes in 2014": 22063,
+  "x_change over ten years (%)": -12.1,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 19,193 t; Blue shark (Prionace glauca): 194 t; Shortfin mako (Isurus oxyrinchus): 6 t",
+  "x_by fishing area": "Pacific, Northwest: 16,076 t; Atlantic, Eastern Central: 1,863 t; Atlantic, Southeast: 570 t; Indian Ocean, Western: 359 t; Pacific, Southeast: 156 t; Atlantic, Northwest: 110 t; Indian Ocean, Eastern: 108 t; Atlantic, Northeast: 85 t; Pacific, Eastern Central: 35 t; Pacific, Western Central: 30 t; Atlantic, Southwest: 1 t; Atlantic, Western Central: 0 t; Mediterranean and Black Sea: 0 t; Pacific, Northeast: 0 t; Pacific, Southwest: 0 t",
+  "x_species recorded": 3
+ },
+ "JEY": {
+  "value": 7,
+  "x_country as FAO names it": "Jersey",
+  "x_year": 2024,
+  "x_tonnes in 2014": 65,
+  "x_change over ten years (%)": -89.6,
+  "x_every species in the group": "Nursehound (Scyliorhinus stellaris): 4 t; Blonde ray (Raja brachyura): 3 t; Undulate ray (Raja undulata): 0 t; Small-spotted catshark (Scyliorhinus canicula): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 7 t",
+  "x_species recorded": 4
+ },
+ "JOR": {
+  "value": 5,
+  "x_country as FAO names it": "Jordan",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1,
+  "x_change over ten years (%)": 769.6,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 5 t",
+  "x_by fishing area": "Indian Ocean, Western: 5 t",
+  "x_species recorded": 1
+ },
+ "KEN": {
+  "value": 1856,
+  "x_country as FAO names it": "Kenya",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1032,
+  "x_change over ten years (%)": 79.9,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,819 t; Blue shark (Prionace glauca): 33 t; Mako sharks (Isurus spp): 4 t",
+  "x_by fishing area": "Indian Ocean, Western: 1,856 t",
+  "x_species recorded": 3
+ },
+ "KIR": {
+  "value": 593,
+  "x_country as FAO names it": "Kiribati",
+  "x_year": 2024,
+  "x_tonnes in 2014": 7,
+  "x_change over ten years (%)": 8371.0,
+  "x_every species in the group": "Blue shark (Prionace glauca): 306 t; Silky shark (Carcharhinus falciformis): 190 t; Whale shark (Rhincodon typus): 51 t; Oceanic whitetip shark (Carcharhinus longimanus): 33 t; Thresher sharks NEI (Alopias spp): 8 t; Mackerel sharks,porbeagles NEI (Lamnidae): 3 t; Hammerhead sharks NEI (Sphyrna spp): 3 t",
+  "x_by fishing area": "Pacific, Western Central: 593 t",
+  "x_species recorded": 7
+ },
+ "KOR": {
+  "value": 10821,
+  "x_country as FAO names it": "Republic of Korea",
+  "x_year": 2024,
+  "x_tonnes in 2014": 8725,
+  "x_change over ten years (%)": 24.0,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 9,975 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 595 t; JAU (Beringraja pulchra): 165 t; JFK (Okamejei kenojei): 83 t; Rays and skates NEI (Rajidae): 2 t; Antarctic starry skate (Amblyraja georgiana): 1 t; Bathyraja rays NEI (Bathyraja spp): 0 t",
+  "x_by fishing area": "Pacific, Northwest: 9,835 t; Atlantic, Southwest: 982 t; Pacific, Antarctic: 4 t",
+  "x_species recorded": 7
+ },
+ "LBN": {
+  "value": 0,
+  "x_country as FAO names it": "Lebanon",
+  "x_year": 2024,
+  "x_tonnes in 2014": 4,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "LBR": {
+  "value": 696,
+  "x_country as FAO names it": "Liberia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 220,
+  "x_change over ten years (%)": 216.6,
+  "x_every species in the group": "Daisy stingray (Fontitrygon margarita): 253 t; Blue shark (Prionace glauca): 208 t; Eagle rays NEI (Myliobatidae): 54 t; Silky shark (Carcharhinus falciformis): 48 t; Guitarfishes NEI (Rhinobatos spp): 44 t; Bignose shark (Carcharhinus altimus): 32 t; Blacktip shark (Carcharhinus limbatus): 14 t; Longfin mako (Isurus paucus): 12 t; Sandbar shark (Carcharhinus plumbeus): 10 t; Dogfish sharks NEI (Squalidae): 7 t; Great hammerhead (Sphyrna mokarran): 6 t; Shortfin mako (Isurus oxyrinchus): 4 t; Porbeagle (Lamna nasus): 2 t; Mako sharks (Isurus spp): 2 t; Bigeye thresher (Alopias superciliosus): 0 t; Thresher (Alopias vulpinus): 0 t; Bull shark (Carcharhinus leucas): 0 t; Tiger shark (Galeocerdo cuvier): 0 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 0 t; Scalloped hammerhead (Sphyrna lewini): 0 t; Little sleeper shark (Somniosus rostratus): 0 t; Guitarfishes, etc. NEI (Rhinobatidae): 0 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t; Spotted eagle ray (Aetobatus narinari): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 696 t",
+  "x_species recorded": 25
+ },
+ "LBY": {
+  "value": 4795,
+  "x_country as FAO names it": "Libya",
+  "x_year": 2024,
+  "x_tonnes in 2014": 4140,
+  "x_change over ten years (%)": 15.8,
+  "x_every species in the group": "Dogfish sharks NEI (Squalidae): 3,920 t; Smooth-hounds NEI (Mustelus spp): 760 t; Guitarfishes, etc. NEI (Rhinobatidae): 70 t; Blue shark (Prionace glauca): 25 t; Shortfin mako (Isurus oxyrinchus): 20 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 4,795 t",
+  "x_species recorded": 5
+ },
+ "MDG": {
+  "value": 959,
+  "x_country as FAO names it": "Madagascar",
+  "x_year": 2024,
+  "x_tonnes in 2014": 5660,
+  "x_change over ten years (%)": -83.1,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 770 t; Oceanic whitetip shark (Carcharhinus longimanus): 140 t; Silky shark (Carcharhinus falciformis): 33 t; Blue shark (Prionace glauca): 16 t",
+  "x_by fishing area": "Indian Ocean, Western: 959 t",
+  "x_species recorded": 4
+ },
+ "MYS": {
+  "value": 18908,
+  "x_country as FAO names it": "Malaysia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 24664,
+  "x_change over ten years (%)": -23.3,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 13,323 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 5,585 t",
+  "x_by fishing area": "Pacific, Western Central: 13,160 t; Indian Ocean, Eastern: 5,748 t",
+  "x_species recorded": 2
+ },
+ "MDV": {
+  "value": 0,
+  "x_country as FAO names it": "Maldives",
+  "x_year": 2024,
+  "x_tonnes in 2014": 20,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "MLT": {
+  "value": 84,
+  "x_country as FAO names it": "Malta",
+  "x_year": 2024,
+  "x_tonnes in 2014": 88,
+  "x_change over ten years (%)": -4.7,
+  "x_every species in the group": "Thornback ray (Raja clavata): 32 t; Smooth-hound (Mustelus mustelus): 19 t; Longnose spurdog (Squalus blainville): 13 t; Bluntnose sixgill shark (Hexanchus griseus): 10 t; Piked dogfish (Squalus acanthias): 3 t; Blue shark (Prionace glauca): 1 t; Common stingray (Dasyatis pastinaca): 1 t; Spotted ray (Raja montagui): 1 t; Bull ray (Aetomylaeus bovinus): 1 t; Small-spotted catshark (Scyliorhinus canicula): 1 t; Gulper shark (Centrophorus granulosus): 0 t; Nursehound (Scyliorhinus stellaris): 0 t; Blackspotted smooth-hound (Mustelus punctulatus): 0 t; Longnosed skate (Dipturus oxyrinchus): 0 t; Bramble shark (Echinorhinus brucus): 0 t; Little gulper shark (Centrophorus uyato): 0 t; Thresher (Alopias vulpinus): 0 t; Kitefin shark (Dalatias licha): 0 t; Mediterranean starry ray (Raja asterias): 0 t; Marbled electric ray (Torpedo marmorata): 0 t; Starry smooth-hound (Mustelus asterias): 0 t; Little sleeper shark (Somniosus rostratus): 0 t; Rough ray (Raja radula): 0 t; Blonde ray (Raja brachyura): 0 t; Sharpnose sevengill shark (Heptranchias perlo): 0 t; Porbeagle (Lamna nasus): 0 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 0 t; Blackmouth catshark (Galeus melastomus): 0 t; Smooth-hounds NEI (Mustelus spp): 0 t; Sandbar shark (Carcharhinus plumbeus): 0 t; Portuguese dogfish (Centroscymnus coelolepis): 0 t; Dogfish sharks NEI (Squalidae): 0 t; Shortnose spurdog (Squalus megalops): 0 t; Angelsharks, sand devils NEI (Squatinidae): 0 t; Common torpedo (Torpedo torpedo): 0 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t; Sandy ray (Leucoraja circularis): 0 t; Shagreen ray (Leucoraja fullonica): 0 t; Brown ray (Raja miraletus): 0 t; Speckled ray (Raja polystigma): 0 t; White skate (Rostroraja alba): 0 t; Stingrays, butterfly rays NEI (Dasyatidae): 0 t; Roughtail stingray (Bathytoshia centroura): 0 t; Tortonese's stingray (Dasyatis tortonesei): 0 t; Pelagic stingray (Pteroplatytrygon violacea): 0 t; Common eagle ray (Myliobatis aquila): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 84 t",
+  "x_species recorded": 47
+ },
+ "MHL": {
+  "value": 1209,
+  "x_country as FAO names it": "Marshall Islands",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 739 t; Blue shark (Prionace glauca): 416 t; Oceanic whitetip shark (Carcharhinus longimanus): 38 t; Whale shark (Rhincodon typus): 8 t; Mako sharks (Isurus spp): 8 t; Thresher sharks NEI (Alopias spp): 0 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 1,209 t",
+  "x_species recorded": 7
+ },
+ "MTQ": {
+  "value": 4,
+  "x_country as FAO names it": "Martinique",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1,
+  "x_change over ten years (%)": 508.8,
+  "x_every species in the group": "Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 3 t; Rays and skates NEI (Rajidae): 1 t",
+  "x_by fishing area": "Atlantic, Western Central: 4 t",
+  "x_species recorded": 2
+ },
+ "MRT": {
+  "value": 4034,
+  "x_country as FAO names it": "Mauritania",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3260,
+  "x_change over ten years (%)": 23.8,
+  "x_every species in the group": "Smooth-hound (Mustelus mustelus): 1,171 t; Spiny butterfly ray (Gymnura altavela): 614 t; Blackchin guitarfish (Glaucostegus cemiculus): 445 t; Common guitarfish (Rhinobatos rhinobatos): 423 t; Milk shark (Rhizoprionodon acutus): 356 t; RDQ (Dasyatis marmorata): 326 t; Lusitanian cownose ray (Rhinoptera marginata): 260 t; Eagle rays NEI (Myliobatidae): 230 t; Stingrays, butterfly rays NEI (Dasyatidae): 83 t; Scalloped hammerhead (Sphyrna lewini): 65 t; Rays, stingrays, mantas NEI (Rajiformes): 30 t; Carcharhinus sharks NEI (Carcharhinus spp): 14 t; Atlantic weasel shark (Paragaleus pectoralis): 7 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 5 t; Lesser Guinean devil ray (Mobula rochebrunei): 3 t; RDE (Fontitrygon margaritella): 2 t; Nurse shark (Ginglymostoma cirratum): 1 t; Barbeled houndshark (Leptocharias smithii): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 4,034 t",
+  "x_species recorded": 19
+ },
+ "MUS": {
+  "value": 4,
+  "x_country as FAO names it": "Mauritius",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3,
+  "x_change over ten years (%)": 32.0,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 4 t",
+  "x_by fishing area": "Indian Ocean, Western: 4 t",
+  "x_species recorded": 1
+ },
+ "MYT": {
+  "value": 10,
+  "x_country as FAO names it": "Mayotte",
+  "x_year": 2024,
+  "x_tonnes in 2014": 11,
+  "x_change over ten years (%)": -9.1,
+  "x_every species in the group": "Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 10 t; Shortfin mako (Isurus oxyrinchus): 0 t; Rays and skates NEI (Rajidae): 0 t",
+  "x_by fishing area": "Indian Ocean, Western: 10 t",
+  "x_species recorded": 3
+ },
+ "MEX": {
+  "value": 64344,
+  "x_country as FAO names it": "Mexico",
+  "x_year": 2024,
+  "x_tonnes in 2014": 39613,
+  "x_change over ten years (%)": 62.4,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 16,850 t; Blue shark (Prionace glauca): 10,666 t; Requiem sharks NEI (Carcharhinidae): 9,601 t; Stingrays NEI (Dasyatis spp): 6,418 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 4,869 t; Shortfin mako (Isurus oxyrinchus): 2,486 t; Bull shark (Carcharhinus leucas): 2,134 t; Guitarfishes NEI (Rhinobatos spp): 1,599 t; Smooth-hounds NEI (Mustelus spp): 1,277 t; Pelagic thresher (Alopias pelagicus): 1,152 t; Scalloped hammerhead (Sphyrna lewini): 1,058 t; Thresher (Alopias vulpinus): 1,039 t; Smooth hammerhead (Sphyrna zygaena): 948 t; Sandbar shark (Carcharhinus plumbeus): 947 t; Pacific angelshark (Squatina californica): 749 t; Blacktip shark (Carcharhinus limbatus): 554 t; Atlantic sharpnose shark (Rhizoprionodon terraenovae): 416 t; Dusky shark (Carcharhinus obscurus): 319 t; Bignose shark (Carcharhinus altimus): 260 t; Tiger shark (Galeocerdo cuvier): 196 t; Sicklefin smooth-hound (Mustelus lunulatus): 184 t; Common eagle ray (Myliobatis aquila): 159 t; Oceanic whitetip shark (Carcharhinus longimanus): 136 t; Blacknose shark (Carcharhinus acronotus): 120 t; Sawfishes (Pristidae): 51 t; Tope shark (Galeorhinus galeus): 31 t; Great hammerhead (Sphyrna mokarran): 29 t; Grey reef shark (Carcharhinus amblyrhynchos): 23 t; Lemon shark (Negaprion brevirostris): 20 t; Eagle rays NEI (Myliobatidae): 11 t; Smooth butterfly ray (Gymnura micrura): 11 t; Angelsharks NEI (Squatina spp): 8 t; Bonnethead (Sphyrna tiburo): 8 t; Catsharks, etc. NEI (Scyliorhinidae): 8 t; Great white shark (Carcharodon carcharias): 6 t; Spotted eagle ray (Aetobatus narinari): 0 t; Leopard shark (Triakis semifasciata): 0 t; Nurse shark (Ginglymostoma cirratum): 0 t; Bigeye thresher (Alopias superciliosus): 0 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 0 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t; Spiny butterfly ray (Gymnura altavela): 0 t; Mantas, devil rays, etc. NEI (Mobula spp): 0 t",
+  "x_by fishing area": "Pacific, Eastern Central: 54,622 t; Atlantic, Western Central: 9,722 t",
+  "x_species recorded": 43
+ },
+ "FSM": {
+  "value": 833,
+  "x_country as FAO names it": "Micronesia (Federated States of)",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 431 t; Blue shark (Prionace glauca): 249 t; Whale shark (Rhincodon typus): 76 t; Oceanic whitetip shark (Carcharhinus longimanus): 69 t; Mako sharks (Isurus spp): 6 t; Thresher sharks NEI (Alopias spp): 3 t",
+  "x_by fishing area": "Pacific, Western Central: 833 t",
+  "x_species recorded": 6
+ },
+ "MNE": {
+  "value": 16,
+  "x_country as FAO names it": "Montenegro",
+  "x_year": 2024,
+  "x_tonnes in 2014": 30,
+  "x_change over ten years (%)": -46.7,
+  "x_every species in the group": "Mediterranean starry ray (Raja asterias): 6 t; Thornback ray (Raja clavata): 4 t; Smooth-hounds NEI (Mustelus spp): 3 t; Rays, stingrays, mantas NEI (Rajiformes): 2 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 1 t; Common eagle ray (Myliobatis aquila): 0 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 16 t",
+  "x_species recorded": 7
+ },
+ "MAR": {
+  "value": 5062,
+  "x_country as FAO names it": "Morocco",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3329,
+  "x_change over ten years (%)": 52.1,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 3,480 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,581 t; Tope shark (Galeorhinus galeus): 1 t; Bluntnose sixgill shark (Hexanchus griseus): 0 t; Great white shark (Carcharodon carcharias): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; Blue shark (Prionace glauca): 0 t; Smooth hammerhead (Sphyrna zygaena): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 5,015 t; Mediterranean and Black Sea: 47 t",
+  "x_species recorded": 8
+ },
+ "MOZ": {
+  "value": 9656,
+  "x_country as FAO names it": "Mozambique",
+  "x_year": 2024,
+  "x_tonnes in 2014": 673,
+  "x_change over ten years (%)": 1334.7,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 6,296 t; Scalloped hammerhead (Sphyrna lewini): 1,435 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 842 t; Oceanic whitetip shark (Carcharhinus longimanus): 708 t; Smooth hammerhead (Sphyrna zygaena): 349 t; Great hammerhead (Sphyrna mokarran): 25 t; Shortfin mako (Isurus oxyrinchus): 0 t; Requiem sharks NEI (Carcharhinidae): 0 t; Copper shark (Carcharhinus brachyurus): 0 t; Silky shark (Carcharhinus falciformis): 0 t; Blue shark (Prionace glauca): 0 t",
+  "x_by fishing area": "Indian Ocean, Western: 9,656 t",
+  "x_species recorded": 11
+ },
+ "NAM": {
+  "value": 3536,
+  "x_country as FAO names it": "Namibia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3547,
+  "x_change over ten years (%)": -0.3,
+  "x_every species in the group": "Blue shark (Prionace glauca): 3,277 t; Shortfin mako (Isurus oxyrinchus): 254 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 5 t; Rays and skates NEI (Rajidae): 0 t",
+  "x_by fishing area": "Atlantic, Southeast: 3,536 t; Pacific, Antarctic: 0 t",
+  "x_species recorded": 4
+ },
+ "NRU": {
+  "value": 1,
+  "x_country as FAO names it": "Nauru",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1,
+  "x_change over ten years (%)": 0.0,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 1 t",
+  "x_by fishing area": "Pacific, Western Central: 1 t",
+  "x_species recorded": 1
+ },
+ "NLD": {
+  "value": 1011,
+  "x_country as FAO names it": "Netherlands (Kingdom of the)",
+  "x_year": 2024,
+  "x_tonnes in 2014": 367,
+  "x_change over ten years (%)": 175.5,
+  "x_every species in the group": "Thornback ray (Raja clavata): 414 t; Blonde ray (Raja brachyura): 198 t; Small-spotted catshark (Scyliorhinus canicula): 177 t; Smooth-hound (Mustelus mustelus): 105 t; Spotted ray (Raja montagui): 96 t; Starry smooth-hound (Mustelus asterias): 6 t; Basking shark (Cetorhinus maximus): 6 t; Piked dogfish (Squalus acanthias): 5 t; Porbeagle (Lamna nasus): 2 t; Blue shark (Prionace glauca): 1 t; Stingrays, butterfly rays NEI (Dasyatidae): 0 t; Tope shark (Galeorhinus galeus): 0 t; Smooth-hounds NEI (Mustelus spp): 0 t; Rays and skates NEI (Rajidae): 0 t; Blue skate (Dipturus batis): 0 t; Sandy ray (Leucoraja circularis): 0 t; Common stingray (Dasyatis pastinaca): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 1,011 t",
+  "x_species recorded": 17
+ },
+ "NCL": {
+  "value": 110,
+  "x_country as FAO names it": "New Caledonia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 117,
+  "x_change over ten years (%)": -6.4,
+  "x_every species in the group": "Blue shark (Prionace glauca): 96 t; Silky shark (Carcharhinus falciformis): 6 t; Oceanic whitetip shark (Carcharhinus longimanus): 4 t; Shortfin mako (Isurus oxyrinchus): 3 t; Thresher sharks NEI (Alopias spp): 1 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 110 t",
+  "x_species recorded": 6
+ },
+ "NZL": {
+  "value": 10595,
+  "x_country as FAO names it": "New Zealand",
+  "x_year": 2024,
+  "x_tonnes in 2014": 18203,
+  "x_change over ten years (%)": -41.8,
+  "x_every species in the group": "Tope shark (Galeorhinus galeus): 2,476 t; Piked dogfish (Squalus acanthias): 1,704 t; Spotted estuary smooth-hound (Mustelus lenticulatus): 1,261 t; Ghost shark (Callorhinchus milii): 970 t; Rough skate (Dipturus nasutus): 927 t; Dark ghost shark (Hydrolagus novaezealandiae): 901 t; Ratfishes NEI (Hydrolagus spp): 730 t; New Zealand smooth skate (Dipturus innominatus): 485 t; Birdbeak dogfish (Deania calceus): 348 t; Lanternsharks NEI (Etmopterus spp): 190 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 165 t; Pacific longnose chimaera (Harriotta raleighana): 118 t; Leafscale gulper shark (Centrophorus squamosus): 61 t; Kitefin shark (Dalatias licha): 43 t; Eagle ray (Myliobatis tenuicaudatus): 42 t; Blackbelly lanternshark (Etmopterus lucifer): 41 t; Dogfishes NEI (Squalus spp): 28 t; Longnose velvet dogfish (Centroselachus crepidater): 28 t; Draughtsboard shark (Cephaloscyllium isabella): 23 t; CWM (Chimaera spp): 8 t; Smooth hammerhead (Sphyrna zygaena): 6 t; Copper shark (Carcharhinus brachyurus): 5 t; Roughskin dogfish (Centroscymnus owstonii): 4 t; Electric rays NEI (Torpedinidae): 4 t; Pacific spookfish (Rhinochimaera pacifica): 3 t; Rays and skates NEI (Rajidae): 3 t; Bluntnose sixgill shark (Hexanchus griseus): 3 t; Shortfin mako (Isurus oxyrinchus): 3 t; Slender smooth-hound (Gollum attenuatus): 2 t; Broadnose sevengill shark (Notorynchus cepedianus): 2 t; Largespine velvet dogfish (Scymnodon macracanthus): 2 t; Rays, stingrays, mantas NEI (Rajiformes): 2 t; Prickly dogfish (Oxynotus bruniensis): 2 t; Blue shark (Prionace glauca): 1 t; Short-tail stingray (Bathytoshia brevicaudata): 1 t; Deep-water catsharks (Apristurus spp): 1 t; Thresher (Alopias vulpinus): 1 t; Longnose deep-sea skate (Bathyraja shuntovi): 1 t; Porbeagle (Lamna nasus): 0 t; New Zealand catshark (Bythaelurus dawsoni): 0 t; Deep-water sharks NEI (Elasmobranchii): 0 t; Sharpnose sevengill shark (Heptranchias perlo): 0 t; Portuguese dogfish (Centroscymnus coelolepis): 0 t; Silvertip shark (Carcharhinus albimarginatus): 0 t; Great hammerhead (Sphyrna mokarran): 0 t; Arctic skate (Amblyraja hyperborea): 0 t; Frilled shark (Chlamydoselachus anguineus): 0 t; RDT (Bathytoshia lata): 0 t; Bigeye thresher (Alopias superciliosus): 0 t; Longtail skate (Arhynchobatis asperrimus): 0 t; Mandarin dogfish (Cirrhigaleus barbifer): 0 t",
+  "x_by fishing area": "Pacific, Southwest: 10,593 t; Pacific, Antarctic: 2 t",
+  "x_species recorded": 51
+ },
+ "NIC": {
+  "value": 580,
+  "x_country as FAO names it": "Nicaragua",
+  "x_year": 2024,
+  "x_tonnes in 2014": 432,
+  "x_change over ten years (%)": 34.3,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 310 t; Rays, stingrays, mantas NEI (Rajiformes): 270 t",
+  "x_by fishing area": "Pacific, Eastern Central: 390 t; Atlantic, Western Central: 190 t",
+  "x_species recorded": 2
+ },
+ "NGA": {
+  "value": 20270,
+  "x_country as FAO names it": "Nigeria",
+  "x_year": 2024,
+  "x_tonnes in 2014": 20238,
+  "x_change over ten years (%)": 0.2,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 13,850 t; Rays, stingrays, mantas NEI (Rajiformes): 6,420 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 20,270 t",
+  "x_species recorded": 2
+ },
+ "NOR": {
+  "value": 2641,
+  "x_country as FAO names it": "Norway",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1653,
+  "x_change over ten years (%)": 59.8,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 825 t; Velvet belly (Etmopterus spinax): 664 t; Piked dogfish (Squalus acanthias): 322 t; Rabbit fish (Chimaera monstrosa): 290 t; Spinetail ray (Bathyraja spinicauda): 263 t; Starry ray (Amblyraja radiata): 121 t; Sailray (Rajella lintea): 106 t; White skate (Rostroraja alba): 23 t; Blackmouth catshark (Galeus melastomus): 12 t; Blue skate (Dipturus batis): 6 t; Porbeagle (Lamna nasus): 5 t; Thornback ray (Raja clavata): 3 t; Sandy ray (Leucoraja circularis): 1 t; Tope shark (Galeorhinus galeus): 0 t; Birdbeak dogfish (Deania calceus): 0 t; Dogfishes and hounds NEI (Squalidae, Scyliorhinidae): 0 t; Longnosed skate (Dipturus oxyrinchus): 0 t; Cuckoo ray (Leucoraja naevus): 0 t; Smalleyed rabbitfish (Hydrolagus affinis): 0 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 2,641 t",
+  "x_species recorded": 20
+ },
+ "OMN": {
+  "value": 6190,
+  "x_country as FAO names it": "Oman",
+  "x_year": 2024,
+  "x_tonnes in 2014": 7502,
+  "x_change over ten years (%)": -17.5,
+  "x_every species in the group": "Hardnose shark (Carcharhinus macloti): 1,880 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 1,010 t; Batoid fishes NEI (Batoidea or Batoidimorpha (Hypotremata)): 760 t; Smooth hammerhead (Sphyrna zygaena): 720 t; Graceful shark (Carcharhinus amblyrhynchoides): 530 t; Blacktip shark (Carcharhinus limbatus): 360 t; Thresher sharks NEI (Alopias spp): 290 t; Sliteye shark (Loxodon macrorhinus): 140 t; Mackerel sharks,porbeagles NEI (Lamnidae): 110 t; Blacktip reef shark (Carcharhinus melanopterus): 100 t; Guitarfishes, etc. NEI (Rhinobatidae): 100 t; Stingrays, butterfly rays NEI (Dasyatidae): 70 t; Houndsharks, smoothhounds NEI (Triakidae): 50 t; Honeycomb stingray (Himantura uarnak): 40 t; Hooktooth shark (Chaenogaleus macrostoma): 10 t; Snaggletooth shark (Hemipristis elongata): 10 t; Eagle rays NEI (Myliobatidae): 10 t; Angelshark (Squatina squatina): 0 t; Long-tailed butterfly ray (Gymnura poecilura): 0 t",
+  "x_by fishing area": "Indian Ocean, Western: 6,190 t",
+  "x_species recorded": 19
+ },
+ "PAK": {
+  "value": 945,
+  "x_country as FAO names it": "Pakistan",
+  "x_year": 2024,
+  "x_tonnes in 2014": 10243,
+  "x_change over ten years (%)": -90.8,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 312 t; Shortfin mako (Isurus oxyrinchus): 275 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 211 t; Pelagic thresher (Alopias pelagicus): 145 t; Mantas, devil rays, etc. NEI (Mobula spp): 2 t",
+  "x_by fishing area": "Indian Ocean, Western: 945 t",
+  "x_species recorded": 5
+ },
+ "PLW": {
+  "value": 10,
+  "x_country as FAO names it": "Palau",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Blue shark (Prionace glauca): 10 t; Mako sharks (Isurus spp): 0 t; Thresher sharks NEI (Alopias spp): 0 t; Silky shark (Carcharhinus falciformis): 0 t; Oceanic whitetip shark (Carcharhinus longimanus): 0 t; Hammerhead sharks NEI (Sphyrna spp): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 10 t",
+  "x_species recorded": 6
+ },
+ "PSE": {
+  "value": 3,
+  "x_country as FAO names it": "Palestine",
+  "x_year": 2024,
+  "x_tonnes in 2014": 15,
+  "x_change over ten years (%)": -80.0,
+  "x_every species in the group": "Smooth-hounds NEI (Mustelus spp): 2 t; Rays, stingrays, mantas NEI (Rajiformes): 1 t; Guitarfishes, etc. NEI (Rhinobatidae): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 3 t",
+  "x_species recorded": 3
+ },
+ "PAN": {
+  "value": 382,
+  "x_country as FAO names it": "Panama",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1529,
+  "x_change over ten years (%)": -75.0,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 205 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 177 t; Blacktip shark (Carcharhinus limbatus): 0 t; Blue shark (Prionace glauca): 0 t",
+  "x_by fishing area": "Pacific, Eastern Central: 205 t; Pacific, Southeast: 177 t; Atlantic, Western Central: 0 t",
+  "x_species recorded": 4
+ },
+ "PNG": {
+  "value": 996,
+  "x_country as FAO names it": "Papua New Guinea",
+  "x_year": 2024,
+  "x_tonnes in 2014": 387,
+  "x_change over ten years (%)": 157.3,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 791 t; Whale shark (Rhincodon typus): 180 t; Hammerhead sharks NEI (Sphyrna spp): 20 t; Blue shark (Prionace glauca): 3 t; Oceanic whitetip shark (Carcharhinus longimanus): 2 t; Thresher sharks NEI (Alopias spp): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 996 t",
+  "x_species recorded": 6
+ },
+ "PER": {
+  "value": 13571,
+  "x_country as FAO names it": "Peru",
+  "x_year": 2024,
+  "x_tonnes in 2014": 11572,
+  "x_change over ten years (%)": 17.3,
+  "x_every species in the group": "Blue shark (Prionace glauca): 6,526 t; Rays, stingrays, mantas NEI (Rajiformes): 2,803 t; Shortfin mako (Isurus oxyrinchus): 1,019 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 832 t; Smooth hammerhead (Sphyrna zygaena): 800 t; Smooth-hounds NEI (Mustelus spp): 730 t; Thresher (Alopias vulpinus): 680 t; Pacific guitarfish (Pseudobatos planiceps): 78 t; Mantas, devil rays, etc. NEI (Mobula spp): 43 t; Plownose chimaera (Callorhinchus callorynchus): 40 t; Pacific angelshark (Squatina californica): 22 t",
+  "x_by fishing area": "Pacific, Southeast: 13,571 t",
+  "x_species recorded": 11
+ },
+ "PHL": {
+  "value": 6346,
+  "x_country as FAO names it": "Philippines",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3874,
+  "x_change over ten years (%)": 63.8,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 3,611 t; Rays, stingrays, mantas NEI (Rajiformes): 2,735 t",
+  "x_by fishing area": "Pacific, Western Central: 6,346 t",
+  "x_species recorded": 2
+ },
+ "POL": {
+  "value": 0,
+  "x_country as FAO names it": "Poland",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "PRT": {
+  "value": 11766,
+  "x_country as FAO names it": "Portugal",
+  "x_year": 2024,
+  "x_tonnes in 2014": 12894,
+  "x_change over ten years (%)": -8.8,
+  "x_every species in the group": "Blue shark (Prionace glauca): 9,291 t; Thornback ray (Raja clavata): 957 t; Nursehound (Scyliorhinus stellaris): 501 t; Blonde ray (Raja brachyura): 256 t; Rays, stingrays, mantas NEI (Rajiformes): 243 t; Shortfin mako (Isurus oxyrinchus): 167 t; Raja rays NEI (Raja spp): 106 t; Undulate ray (Raja undulata): 57 t; Torpedo rays (Torpedo spp): 44 t; Smooth-hound (Mustelus mustelus): 40 t; Blackmouth catshark (Galeus melastomus): 33 t; Tope shark (Galeorhinus galeus): 30 t; Smooth-hounds NEI (Mustelus spp): 12 t; Cuckoo ray (Leucoraja naevus): 11 t; Common eagle ray (Myliobatis aquila): 7 t; Bahamas sawshark (Pristiophorus schroederi): 4 t; Starry smooth-hound (Mustelus asterias): 3 t; Angular roughshark (Oxynotus centrina): 1 t; Electric rays NEI (Torpedinidae): 1 t; Stingrays NEI (Dasyatis spp): 1 t; Spiny butterfly ray (Gymnura altavela): 0 t; Thresher (Alopias vulpinus): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 5,159 t; Atlantic, Southwest: 3,025 t; Atlantic, Eastern Central: 1,570 t; Atlantic, Southeast: 1,000 t; Pacific, Southeast: 905 t; Atlantic, Northwest: 106 t",
+  "x_species recorded": 22
+ },
+ "PRI": {
+  "value": 0,
+  "x_country as FAO names it": "Puerto Rico",
+  "x_year": 2024,
+  "x_tonnes in 2014": 7,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "QAT": {
+  "value": 382,
+  "x_country as FAO names it": "Qatar",
+  "x_year": 2024,
+  "x_tonnes in 2014": 105,
+  "x_change over ten years (%)": 262.6,
+  "x_every species in the group": "Whitecheek shark (Carcharhinus dussumieri): 382 t; Requiem sharks NEI (Carcharhinidae): 0 t",
+  "x_by fishing area": "Indian Ocean, Western: 382 t",
+  "x_species recorded": 2
+ },
+ "REU": {
+  "value": 11,
+  "x_country as FAO names it": "Réunion",
+  "x_year": 2024,
+  "x_tonnes in 2014": 4,
+  "x_change over ten years (%)": 183.6,
+  "x_every species in the group": "Shortfin mako (Isurus oxyrinchus): 6 t; Blue shark (Prionace glauca): 4 t; Mackerel sharks,porbeagles NEI (Lamnidae): 1 t",
+  "x_by fishing area": "Indian Ocean, Western: 11 t",
+  "x_species recorded": 3
+ },
+ "ROU": {
+  "value": 8,
+  "x_country as FAO names it": "Romania",
+  "x_year": 2024,
+  "x_tonnes in 2014": 2,
+  "x_change over ten years (%)": 313.5,
+  "x_every species in the group": "Common stingray (Dasyatis pastinaca): 6 t; Thornback ray (Raja clavata): 2 t; Piked dogfish (Squalus acanthias): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 8 t",
+  "x_species recorded": 3
+ },
+ "RUS": {
+  "value": 4443,
+  "x_country as FAO names it": "Russian Federation",
+  "x_year": 2024,
+  "x_tonnes in 2014": 5201,
+  "x_change over ten years (%)": -14.6,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 3,925 t; Rays and skates NEI (Rajidae): 504 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 10 t; Greenland shark (Somniosus microcephalus): 4 t; Piked dogfish (Squalus acanthias): 0 t",
+  "x_by fishing area": "Pacific, Northwest: 3,790 t; Atlantic, Northeast: 421 t; Mediterranean and Black Sea: 122 t; Atlantic, Northwest: 87 t; Atlantic, Southwest: 23 t; Pacific, Antarctic: 0 t",
+  "x_species recorded": 5
+ },
+ "KNA": {
+  "value": 5,
+  "x_country as FAO names it": "Saint Kitts and Nevis",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 5 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 5 t",
+  "x_species recorded": 2
+ },
+ "LCA": {
+  "value": 2,
+  "x_country as FAO names it": "Saint Lucia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3,
+  "x_change over ten years (%)": -18.5,
+  "x_every species in the group": "Tiger shark (Galeocerdo cuvier): 1 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t; Nurse shark (Ginglymostoma cirratum): 0 t; Sand tiger shark (Carcharias taurus): 0 t; Blacktip shark (Carcharhinus limbatus): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 2 t",
+  "x_species recorded": 5
+ },
+ "SPM": {
+  "value": 1,
+  "x_country as FAO names it": "Saint Pierre and Miquelon",
+  "x_year": 2024,
+  "x_tonnes in 2014": 145,
+  "x_change over ten years (%)": -99.3,
+  "x_every species in the group": "Rays and skates NEI (Rajidae): 1 t; Shortfin mako (Isurus oxyrinchus): 0 t; Blue shark (Prionace glauca): 0 t",
+  "x_by fishing area": "Atlantic, Northwest: 1 t",
+  "x_species recorded": 3
+ },
+ "VCT": {
+  "value": 17,
+  "x_country as FAO names it": "Saint Vincent and the Grenadines",
+  "x_year": 2024,
+  "x_tonnes in 2014": 6,
+  "x_change over ten years (%)": 183.3,
+  "x_every species in the group": "Shortfin mako (Isurus oxyrinchus): 5 t; Sandbar shark (Carcharhinus plumbeus): 4 t; Blacktip shark (Carcharhinus limbatus): 3 t; Nurse shark (Ginglymostoma cirratum): 2 t; Lemon shark (Negaprion brevirostris): 2 t; Requiem sharks NEI (Carcharhinidae): 1 t; Silky shark (Carcharhinus falciformis): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 17 t",
+  "x_species recorded": 7
+ },
+ "WSM": {
+  "value": 0,
+  "x_country as FAO names it": "Samoa",
+  "x_year": 2024,
+  "x_tonnes in 2014": 56,
+  "x_change over ten years (%)": -99.7,
+  "x_every species in the group": "Oceanic whitetip shark (Carcharhinus longimanus): 0 t; Blue shark (Prionace glauca): 0 t; Mako sharks (Isurus spp): 0 t; Silky shark (Carcharhinus falciformis): 0 t; Hammerhead sharks NEI (Sphyrna spp): 0 t",
+  "x_by fishing area": "Pacific, Eastern Central: 0 t",
+  "x_species recorded": 5
+ },
+ "STP": {
+  "value": 5,
+  "x_country as FAO names it": "Sao Tome and Principe",
+  "x_year": 2024,
+  "x_tonnes in 2014": 156,
+  "x_change over ten years (%)": -96.8,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 5 t; Smooth hammerhead (Sphyrna zygaena): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 5 t",
+  "x_species recorded": 2
+ },
+ "SAU": {
+  "value": 929,
+  "x_country as FAO names it": "Saudi Arabia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1310,
+  "x_change over ten years (%)": -29.1,
+  "x_every species in the group": "Requiem sharks NEI (Carcharhinidae): 907 t; Cowtail stingray (Pastinachus sephen): 22 t; Blacktip reef shark (Carcharhinus melanopterus): 0 t",
+  "x_by fishing area": "Indian Ocean, Western: 929 t",
+  "x_species recorded": 3
+ },
+ "SEN": {
+  "value": 2837,
+  "x_country as FAO names it": "Senegal",
+  "x_year": 2024,
+  "x_tonnes in 2014": 8597,
+  "x_change over ten years (%)": -67.0,
+  "x_every species in the group": "Guitarfishes, etc. NEI (Rhinobatidae): 1,011 t; Lusitanian cownose ray (Rhinoptera marginata): 780 t; Night shark (Carcharhinus signatus): 342 t; Smooth-hounds NEI (Mustelus spp): 284 t; Rays, stingrays, mantas NEI (Rajiformes): 283 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 120 t; Longnose spurdog (Squalus blainville): 7 t; Gulper shark (Centrophorus granulosus): 5 t; Shortfin mako (Isurus oxyrinchus): 3 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 2,837 t",
+  "x_species recorded": 9
+ },
+ "SYC": {
+  "value": 396,
+  "x_country as FAO names it": "Seychelles",
+  "x_year": 2024,
+  "x_tonnes in 2014": 747,
+  "x_change over ten years (%)": -47.0,
+  "x_every species in the group": "Blue shark (Prionace glauca): 257 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 85 t; Silky shark (Carcharhinus falciformis): 55 t",
+  "x_by fishing area": "Indian Ocean, Western: 361 t; Indian Ocean, Eastern: 36 t",
+  "x_species recorded": 3
+ },
+ "SLE": {
+  "value": 4590,
+  "x_country as FAO names it": "Sierra Leone",
+  "x_year": 2024,
+  "x_tonnes in 2014": 4519,
+  "x_change over ten years (%)": 1.6,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 3,470 t; Rays, stingrays, mantas NEI (Rajiformes): 1,120 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 4,590 t",
+  "x_species recorded": 2
+ },
+ "SGP": {
+  "value": 60,
+  "x_country as FAO names it": "Singapore",
+  "x_year": 2024,
+  "x_tonnes in 2014": 93,
+  "x_change over ten years (%)": -35.5,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 60 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 60 t",
+  "x_species recorded": 2
+ },
+ "SVN": {
+  "value": 2,
+  "x_country as FAO names it": "Slovenia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Smooth-hound (Mustelus mustelus): 2 t; Smooth-hounds NEI (Mustelus spp): 0 t; Piked dogfish (Squalus acanthias): 0 t; Mediterranean starry ray (Raja asterias): 0 t; Thornback ray (Raja clavata): 0 t; Common eagle ray (Myliobatis aquila): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 2 t",
+  "x_species recorded": 6
+ },
+ "SLB": {
+  "value": 199,
+  "x_country as FAO names it": "Solomon Islands",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 170 t; Blue shark (Prionace glauca): 14 t; Mackerel sharks,porbeagles NEI (Lamnidae): 12 t; Hammerhead sharks NEI (Sphyrna spp): 2 t; Oceanic whitetip shark (Carcharhinus longimanus): 0 t; Thresher sharks NEI (Alopias spp): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 199 t",
+  "x_species recorded": 7
+ },
+ "SOM": {
+  "value": 4960,
+  "x_country as FAO names it": "Somalia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 4,960 t",
+  "x_by fishing area": "Indian Ocean, Western: 4,960 t",
+  "x_species recorded": 1
+ },
+ "ZAF": {
+  "value": 1346,
+  "x_country as FAO names it": "South Africa",
+  "x_year": 2024,
+  "x_tonnes in 2014": 3155,
+  "x_change over ten years (%)": -57.3,
+  "x_every species in the group": "Cape elephantfish (Callorhinchus capensis): 472 t; Rays, stingrays, mantas NEI (Rajiformes): 395 t; Shortfin mako (Isurus oxyrinchus): 265 t; Blue shark (Prionace glauca): 67 t; Smooth-hounds NEI (Mustelus spp): 58 t; Tope shark (Galeorhinus galeus): 58 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 28 t; Copper shark (Carcharhinus brachyurus): 1 t; Blacktip shark (Carcharhinus limbatus): 1 t; Thresher (Alopias vulpinus): 0 t; Dogfishes NEI (Squalus spp): 0 t; Broadnose sevengill shark (Notorynchus cepedianus): 0 t",
+  "x_by fishing area": "Atlantic, Southeast: 1,326 t; Indian Ocean, Western: 19 t",
+  "x_species recorded": 12
+ },
+ "ESP": {
+  "value": 55468,
+  "x_country as FAO names it": "Spain",
+  "x_year": 2024,
+  "x_tonnes in 2014": 89525,
+  "x_change over ten years (%)": -38.0,
+  "x_every species in the group": "Blue shark (Prionace glauca): 45,375 t; Raja rays NEI (Raja spp): 3,667 t; Shortfin mako (Isurus oxyrinchus): 1,824 t; Thornback ray (Raja clavata): 1,322 t; Small-spotted catshark (Scyliorhinus canicula): 1,050 t; Cuckoo ray (Leucoraja naevus): 347 t; Portuguese dogfish (Centroscymnus coelolepis): 330 t; Mediterranean starry ray (Raja asterias): 195 t; Dogfish sharks NEI (Squalidae): 193 t; Broadnose skate (Bathyraja brachyurops): 164 t; Rays, stingrays, mantas NEI (Rajiformes): 132 t; Spotted ray (Raja montagui): 99 t; Tope shark (Galeorhinus galeus): 83 t; Longnose spurdog (Squalus blainville): 76 t; Blackmouth catshark (Galeus melastomus): 71 t; Smooth-hound (Mustelus mustelus): 68 t; Leafscale gulper shark (Centrophorus squamosus): 64 t; Smallnose fanskate (Sympterygia bonapartii): 52 t; Longnosed skate (Dipturus oxyrinchus): 52 t; Atlantic sawtail catshark (Galeus atlanticus): 45 t; Blonde ray (Raja brachyura): 44 t; Undulate ray (Raja undulata): 32 t; Marbled electric ray (Torpedo marmorata): 28 t; Nursehound (Scyliorhinus stellaris): 18 t; Shagreen ray (Leucoraja fullonica): 17 t; Arrowhead dogfish (Deania profundorum): 14 t; Gulper shark (Centrophorus granulosus): 12 t; Sharpnose sevengill shark (Heptranchias perlo): 11 t; Bull ray (Aetomylaeus bovinus): 11 t; Kitefin shark (Dalatias licha): 10 t; Small-eyed ray (Raja microocellata): 9 t; Spotback skate (Atlantoraja castelnaui): 7 t; Common eagle ray (Myliobatis aquila): 7 t; Common stingray (Dasyatis pastinaca): 6 t; Piked dogfish (Squalus acanthias): 5 t; Brown ray (Raja miraletus): 4 t; Sandy ray (Leucoraja circularis): 3 t; Catsharks, etc. NEI (Scyliorhinidae): 2 t; Velvet belly (Etmopterus spinax): 2 t; Crocodile shark (Pseudocarcharias kamoharai): 2 t; Requiem sharks NEI (Carcharhinidae): 2 t; Little gulper shark (Centrophorus uyato): 2 t; Knifetooth dogfish (Scymnodon ringens): 2 t; Rough ray (Raja radula): 1 t; Rays and skates NEI (Rajidae): 1 t; Silky shark (Carcharhinus falciformis): 1 t; Lanternsharks NEI (Etmopterus spp): 0 t; Eagle rays NEI (Myliobatidae): 0 t; Smooth-hounds NEI (Mustelus spp): 0 t; Blue skate (Dipturus batis): 0 t; Bluntnose sixgill shark (Hexanchus griseus): 0 t; Bignose shark (Carcharhinus altimus): 0 t; Southern lanternshark(Lucifer) (Etmopterus granulosus): 0 t; Mackerel sharks,porbeagles NEI (Lamnidae): 0 t; Batoid fishes NEI (Batoidea or Batoidimorpha (Hypotremata)): 0 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 0 t; Stingrays NEI (Dasyatis spp): 0 t; Crest-tail catsharks NEI (Galeus spp): 0 t; Stingrays, butterfly rays NEI (Dasyatidae): 0 t; Longfin mako (Isurus paucus): 0 t; Round stingray (Taeniurops grabatus): 0 t; Starry smooth-hound (Mustelus asterias): 0 t; Birdbeak dogfish (Deania calceus): 0 t; Catsharks, nursehounds NEI (Scyliorhinus spp): 0 t; Dogfishes and hounds NEI (Squalidae, Scyliorhinidae): 0 t; Dogfish sharks, etc. NEI (Squaliformes): 0 t; Houndsharks, smoothhounds NEI (Triakidae): 0 t; White skate (Rostroraja alba): 0 t; Sand tiger shark (Carcharias taurus): 0 t; Bramble shark (Echinorhinus brucus): 0 t; Angelshark (Squatina squatina): 0 t; Electric rays NEI (Torpedinidae): 0 t; RJV (Rajella kukujevi): 0 t; Spiny butterfly ray (Gymnura altavela): 0 t; Chimaeras, etc. NEI (Chimaeriformes): 0 t; Rabbit fish (Chimaera monstrosa): 0 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 0 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 12,171 t; Pacific, Southeast: 9,722 t; Atlantic, Northeast: 8,533 t; Atlantic, Southeast: 5,448 t; Indian Ocean, Western: 4,707 t; Pacific, Southwest: 4,469 t; Atlantic, Northwest: 4,350 t; Atlantic, Southwest: 3,746 t; Pacific, Eastern Central: 768 t; Atlantic, Western Central: 710 t; Mediterranean and Black Sea: 590 t; Indian Ocean, Eastern: 236 t; Pacific, Western Central: 17 t",
+  "x_species recorded": 77
+ },
+ "LKA": {
+  "value": 5954,
+  "x_country as FAO names it": "Sri Lanka",
+  "x_year": 2024,
+  "x_tonnes in 2014": 7288,
+  "x_change over ten years (%)": -18.3,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 4,207 t; Silky shark (Carcharhinus falciformis): 601 t; Blue shark (Prionace glauca): 436 t; Shortfin devil ray (Mobula kuhlii): 417 t; Giant manta (Mobula birostris): 139 t; Mako sharks (Isurus spp): 50 t; Scalloped hammerhead (Sphyrna lewini): 37 t; Great hammerhead (Sphyrna mokarran): 36 t; Devil fish (Mobula mobular): 15 t; Smooth hammerhead (Sphyrna zygaena): 15 t; Thresher sharks NEI (Alopias spp): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; Longfin mako (Isurus paucus): 0 t; Oceanic whitetip shark (Carcharhinus longimanus): 0 t; Spottail shark (Carcharhinus sorrah): 0 t; Hammerhead sharks, etc. NEI (Sphyrnidae): 0 t; Rays, stingrays, mantas NEI (Rajiformes): 0 t; Mantas, devil rays NEI (Mobulidae): 0 t",
+  "x_by fishing area": "Indian Ocean, Eastern: 5,717 t; Indian Ocean, Western: 237 t",
+  "x_species recorded": 18
+ },
+ "SDN": {
+  "value": 0,
+  "x_country as FAO names it": "Sudan",
+  "x_year": 2024,
+  "x_tonnes in 2014": 79,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "SUR": {
+  "value": 64,
+  "x_country as FAO names it": "Suriname",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Blue shark (Prionace glauca): 64 t",
+  "x_by fishing area": "Atlantic, Western Central: 64 t",
+  "x_species recorded": 1
+ },
+ "SWE": {
+  "value": 47,
+  "x_country as FAO names it": "Sweden",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Piked dogfish (Squalus acanthias): 47 t; Rabbit fish (Chimaera monstrosa): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 47 t",
+  "x_species recorded": 2
+ },
+ "SYR": {
+  "value": 85,
+  "x_country as FAO names it": "Syrian Arab Republic",
+  "x_year": 2024,
+  "x_tonnes in 2014": 66,
+  "x_change over ten years (%)": 28.8,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 55 t; Rays, stingrays, mantas NEI (Rajiformes): 30 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 85 t",
+  "x_species recorded": 2
+ },
+ "TZA": {
+  "value": 8614,
+  "x_country as FAO names it": "United Republic of Tanzania",
+  "x_year": 2024,
+  "x_tonnes in 2014": 7888,
+  "x_change over ten years (%)": 9.2,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 3,972 t; Rays, stingrays, mantas NEI (Rajiformes): 2,877 t; Silky shark (Carcharhinus falciformis): 1,643 t; Blue shark (Prionace glauca): 122 t",
+  "x_by fishing area": "Indian Ocean, Western: 8,614 t",
+  "x_species recorded": 4
+ },
+ "THA": {
+  "value": 1401,
+  "x_country as FAO names it": "Thailand",
+  "x_year": 2024,
+  "x_tonnes in 2014": 6019,
+  "x_change over ten years (%)": -76.7,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 1,233 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 168 t",
+  "x_by fishing area": "Pacific, Western Central: 843 t; Indian Ocean, Eastern: 558 t",
+  "x_species recorded": 2
+ },
+ "TGO": {
+  "value": 172,
+  "x_country as FAO names it": "Togo",
+  "x_year": 2024,
+  "x_tonnes in 2014": 49,
+  "x_change over ten years (%)": 250.7,
+  "x_every species in the group": "Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 117 t; Rays, stingrays, mantas NEI (Rajiformes): 53 t; Rays and skates NEI (Rajidae): 1 t",
+  "x_by fishing area": "Atlantic, Eastern Central: 172 t",
+  "x_species recorded": 3
+ },
+ "TKL": {
+  "value": 1,
+  "x_country as FAO names it": "Tokelau",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1,
+  "x_change over ten years (%)": 0.0,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 1 t",
+  "x_by fishing area": "Pacific, Eastern Central: 1 t",
+  "x_species recorded": 1
+ },
+ "TON": {
+  "value": 12,
+  "x_country as FAO names it": "Tonga",
+  "x_year": 2024,
+  "x_tonnes in 2014": 8,
+  "x_change over ten years (%)": 46.3,
+  "x_every species in the group": "Oceanic whitetip shark (Carcharhinus longimanus): 4 t; Mako sharks (Isurus spp): 3 t; Blue shark (Prionace glauca): 3 t; Silky shark (Carcharhinus falciformis): 2 t; Thresher sharks NEI (Alopias spp): 0 t",
+  "x_by fishing area": "Pacific, Eastern Central: 12 t",
+  "x_species recorded": 5
+ },
+ "TTO": {
+  "value": 474,
+  "x_country as FAO names it": "Trinidad and Tobago",
+  "x_year": 2024,
+  "x_tonnes in 2014": 529,
+  "x_change over ten years (%)": -10.4,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 300 t; Smooth-hounds NEI (Mustelus spp): 172 t; Thresher sharks NEI (Alopias spp): 1 t; Blue shark (Prionace glauca): 0 t; Shortfin mako (Isurus oxyrinchus): 0 t; Longfin mako (Isurus paucus): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 474 t",
+  "x_species recorded": 6
+ },
+ "TUN": {
+  "value": 1694,
+  "x_country as FAO names it": "Tunisia",
+  "x_year": 2024,
+  "x_tonnes in 2014": 2906,
+  "x_change over ten years (%)": -41.7,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 888 t; Blackmouth catshark (Galeus melastomus): 609 t; Smooth-hounds NEI (Mustelus spp): 184 t; Angelshark (Squatina squatina): 13 t; Catsharks, etc. NEI (Scyliorhinidae): 0 t; Dogfish sharks NEI (Squalidae): 0 t; Longnose spurdog (Squalus blainville): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 1,694 t",
+  "x_species recorded": 7
+ },
+ "TUR": {
+  "value": 1,
+  "x_country as FAO names it": "Türkiye",
+  "x_year": 2024,
+  "x_tonnes in 2014": 314,
+  "x_change over ten years (%)": -99.7,
+  "x_every species in the group": "Smooth-hounds NEI (Mustelus spp): 0 t; Angelsharks, sand devils NEI (Squatinidae): 0 t; Thornback ray (Raja clavata): 0 t",
+  "x_by fishing area": "Mediterranean and Black Sea: 1 t",
+  "x_species recorded": 3
+ },
+ "TUV": {
+  "value": 60,
+  "x_country as FAO names it": "Tuvalu",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": null,
+  "x_every species in the group": "Silky shark (Carcharhinus falciformis): 59 t; Oceanic whitetip shark (Carcharhinus longimanus): 1 t; Thresher sharks NEI (Alopias spp): 0 t; Mako sharks (Isurus spp): 0 t; Blue shark (Prionace glauca): 0 t",
+  "x_by fishing area": "Pacific, Western Central: 60 t",
+  "x_species recorded": 5
+ },
+ "UKR": {
+  "value": 0,
+  "x_country as FAO names it": "Ukraine",
+  "x_year": 2024,
+  "x_tonnes in 2014": 6,
+  "x_change over ten years (%)": -99.7,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 0 t; McCain's skate (Bathyraja maccaini): 0 t",
+  "x_by fishing area": "Pacific, Antarctic: 0 t",
+  "x_species recorded": 2
+ },
+ "ARE": {
+  "value": 1660,
+  "x_country as FAO names it": "United Arab Emirates",
+  "x_year": 2024,
+  "x_tonnes in 2014": 682,
+  "x_change over ten years (%)": 143.4,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,660 t",
+  "x_by fishing area": "Indian Ocean, Western: 1,660 t",
+  "x_species recorded": 1
+ },
+ "GBR": {
+  "value": 5833,
+  "x_country as FAO names it": "United Kingdom of Great Britain and Northern Ireland",
+  "x_year": 2024,
+  "x_tonnes in 2014": 4286,
+  "x_change over ten years (%)": 36.1,
+  "x_every species in the group": "Small-spotted catshark (Scyliorhinus canicula): 1,256 t; Thornback ray (Raja clavata): 1,224 t; Blonde ray (Raja brachyura): 781 t; Piked dogfish (Squalus acanthias): 544 t; Smooth-hound (Mustelus mustelus): 506 t; Cuckoo ray (Leucoraja naevus): 333 t; Spotted ray (Raja montagui): 272 t; Sandy ray (Leucoraja circularis): 249 t; Dogfishes and hounds NEI (Squalidae, Scyliorhinidae): 194 t; Catsharks, etc. NEI (Scyliorhinidae): 154 t; Undulate ray (Raja undulata): 108 t; Small-eyed ray (Raja microocellata): 87 t; Tope shark (Galeorhinus galeus): 26 t; Dogfish sharks NEI (Squalidae): 22 t; Starry smooth-hound (Mustelus asterias): 16 t; Shagreen ray (Leucoraja fullonica): 15 t; Raja rays NEI (Raja spp): 14 t; Longnose spurdog (Squalus blainville): 13 t; Various sharks NEI (Selachii or Selachimorpha (Pleurotremata)): 4 t; Arctic skate (Amblyraja hyperborea): 4 t; Nursehound (Scyliorhinus stellaris): 4 t; Blue skate (Dipturus batis): 2 t; Blue shark (Prionace glauca): 1 t; Portuguese dogfish (Centroscymnus coelolepis): 1 t; White skate (Rostroraja alba): 1 t; Rays, stingrays, mantas NEI (Rajiformes): 1 t; Black dogfish (Centroscyllium fabricii): 1 t; Longnosed skate (Dipturus oxyrinchus): 0 t; Thresher sharks NEI (Alopias spp): 0 t; Starry ray (Amblyraja radiata): 0 t; Norwegian skate (Dipturus nidarosiensis): 0 t; Common stingray (Dasyatis pastinaca): 0 t; Birdbeak dogfish (Deania calceus): 0 t; Smooth hammerhead (Sphyrna zygaena): 0 t; Angelshark (Squatina squatina): 0 t",
+  "x_by fishing area": "Atlantic, Northeast: 5,833 t; Atlantic, Antarctic: 1 t; Pacific, Antarctic: 0 t",
+  "x_species recorded": 35
+ },
+ "USA": {
+  "value": 30729,
+  "x_country as FAO names it": "United States of America",
+  "x_year": 2024,
+  "x_tonnes in 2014": 38559,
+  "x_change over ten years (%)": -20.3,
+  "x_every species in the group": "Rays, stingrays, mantas NEI (Rajiformes): 14,496 t; Winter skate (Leucoraja ocellata): 7,683 t; Piked dogfish (Squalus acanthias): 3,975 t; Little skate (Leucoraja erinaceus): 2,853 t; Dusky smooth-hound (Mustelus canis): 486 t; Rays and skates NEI (Rajidae): 322 t; Barndoor skate (Dipturus laevis): 195 t; Smooth skate (Malacoraja senta): 166 t; Atlantic sharpnose shark (Rhizoprionodon terraenovae): 137 t; Blacktip shark (Carcharhinus limbatus): 128 t; Big skate (Beringraja binoculata): 65 t; Thresher (Alopias vulpinus): 51 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 42 t; Spinner shark (Carcharhinus brevipinna): 22 t; Great hammerhead (Sphyrna mokarran): 21 t; Pacific angelshark (Squatina californica): 18 t; Finetooth shark (Carcharhinus isodon): 13 t; Brown catshark (Apristurus brunneus): 12 t; Shortfin mako (Isurus oxyrinchus): 11 t; Blacknose shark (Carcharhinus acronotus): 7 t; Tope shark (Galeorhinus galeus): 5 t; Spotted ratfish (Hydrolagus colliei): 5 t; Scalloped hammerhead (Sphyrna lewini): 4 t; Stingrays, butterfly rays NEI (Dasyatidae): 4 t; Leopard shark (Triakis semifasciata): 2 t; Bull shark (Carcharhinus leucas): 2 t; Blue shark (Prionace glauca): 1 t; California ray (Beringraja inornata): 1 t; Clearnose skate (Rostroraja eglanteria): 1 t; Cownose ray (Rhinoptera bonasus): 1 t; Tiger shark (Galeocerdo cuvier): 0 t; Banded guitarfish (Zapteryx exasperata): 0 t; Sandpaper skate (Bathyraja interrupta): 0 t; Southern stingray (Hypanus americanus): 0 t; Yellow stingray (Urobatis jamaicensis): 0 t",
+  "x_by fishing area": "Atlantic, Northwest: 15,691 t; Pacific, Northeast: 14,703 t; Atlantic, Western Central: 202 t; Pacific, Eastern Central: 133 t",
+  "x_species recorded": 35
+ },
+ "VIR": {
+  "value": 0,
+  "x_country as FAO names it": "United States Virgin Islands",
+  "x_year": 2024,
+  "x_tonnes in 2014": 0,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "Nurse shark (Ginglymostoma cirratum): 0 t; Caribbean reef shark (Carcharhinus perezii): 0 t; Cartilaginous fishes NEI (Chondrichthyes): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 0 t",
+  "x_species recorded": 3
+ },
+ "URY": {
+  "value": 393,
+  "x_country as FAO names it": "Uruguay",
+  "x_year": 2024,
+  "x_tonnes in 2014": 2011,
+  "x_change over ten years (%)": -80.5,
+  "x_every species in the group": "Narrownose smooth-hound (Mustelus schmitti): 225 t; Rays, stingrays, mantas NEI (Rajiformes): 81 t; Chola guitarfish (Pseudobatos percellens): 42 t; Argentine angelshark (Squatina argentina): 35 t; Tope shark (Galeorhinus galeus): 5 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 4 t; Dogfish sharks NEI (Squalidae): 1 t",
+  "x_by fishing area": "Atlantic, Southwest: 391 t; Indian Ocean, Antarctic: 2 t; Pacific, Antarctic: 1 t",
+  "x_species recorded": 7
+ },
+ "VUT": {
+  "value": 511,
+  "x_country as FAO names it": "Vanuatu",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1007,
+  "x_change over ten years (%)": -49.2,
+  "x_every species in the group": "Blue shark (Prionace glauca): 426 t; Shortfin mako (Isurus oxyrinchus): 42 t; Silky shark (Carcharhinus falciformis): 21 t; Oceanic whitetip shark (Carcharhinus longimanus): 14 t; Thresher sharks NEI (Alopias spp): 4 t; Hammerhead sharks NEI (Sphyrna spp): 3 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 2 t",
+  "x_by fishing area": "Pacific, Western Central: 509 t; Pacific, Southeast: 2 t",
+  "x_species recorded": 7
+ },
+ "VEN": {
+  "value": 1735,
+  "x_country as FAO names it": "Venezuela (Bolivarian Republic of)",
+  "x_year": 2024,
+  "x_tonnes in 2014": 4402,
+  "x_change over ten years (%)": -60.6,
+  "x_every species in the group": "Blacknose shark (Carcharhinus acronotus): 260 t; Spotted eagle ray (Aetobatus narinari): 235 t; Smooth-hounds NEI (Mustelus spp): 220 t; Smooth butterfly ray (Gymnura micrura): 220 t; Caribbean sharpnose shark (Rhizoprionodon porosus): 170 t; Rays, stingrays, mantas NEI (Rajiformes): 140 t; S.Am. freshwater stingrays NEI (Potamotrygon spp): 120 t; Sharks, rays, skates, etc. NEI (Elasmobranchii): 105 t; Brazilian sharpnose shark (Rhizoprionodon lalandii): 70 t; Smalltail shark (Carcharhinus porosus): 65 t; Blacktip shark (Carcharhinus limbatus): 45 t; Tiger shark (Galeocerdo cuvier): 20 t; Great hammerhead (Sphyrna mokarran): 20 t; Blue shark (Prionace glauca): 15 t; Bull shark (Carcharhinus leucas): 10 t; Shortfin mako (Isurus oxyrinchus): 5 t; Bigeye thresher (Alopias superciliosus): 5 t; Requiem sharks NEI (Carcharhinidae): 5 t; Scalloped hammerhead (Sphyrna lewini): 5 t; Longfin mako (Isurus paucus): 0 t",
+  "x_by fishing area": "Atlantic, Western Central: 1,615 t; America, South - Inland waters: 120 t",
+  "x_species recorded": 20
+ },
+ "YEM": {
+  "value": 0,
+  "x_country as FAO names it": "Yemen",
+  "x_year": 2024,
+  "x_tonnes in 2014": 10800,
+  "x_change over ten years (%)": -100.0,
+  "x_every species in the group": "",
+  "x_by fishing area": "",
+  "x_species recorded": 0
+ },
+ "EAZ": {
+  "value": 1800,
+  "x_country as FAO names it": "United Republic of Tanzania, Zanzibar",
+  "x_year": 2024,
+  "x_tonnes in 2014": 1614,
+  "x_change over ten years (%)": 11.5,
+  "x_every species in the group": "Sharks, rays, skates, etc. NEI (Elasmobranchii): 1,800 t",
+  "x_by fishing area": "Indian Ocean, Western: 1,800 t",
+  "x_species recorded": 1
+ }
+}
