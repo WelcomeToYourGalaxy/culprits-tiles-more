@@ -1,0 +1,62 @@
+{
+ "layer": "whaling",
+ "places": 468249,
+ "detail_from": 8,
+ "groups": {
+  "No whales reported that day": 391922,
+  "Whales seen": 45805,
+  "Whales struck (harpooned)": 30512,
+  "Spoke to a whaler that had caught a whale": 10
+ },
+ "parts": [
+  {
+   "file": "whaling_logbooks.pmtiles",
+   "from": 0,
+   "to": 1,
+   "bytes": 135615
+  },
+  {
+   "file": "whaling_logbooks_z2.pmtiles",
+   "from": 2,
+   "to": 3,
+   "bytes": 965182
+  },
+  {
+   "file": "whaling_logbooks_z4.pmtiles",
+   "from": 4,
+   "to": 5,
+   "bytes": 3445236
+  },
+  {
+   "file": "whaling_logbooks_z6.pmtiles",
+   "from": 6,
+   "to": 7,
+   "bytes": 5272694
+  },
+  {
+   "file": "whaling_logbooks_z8_4.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 48330908,
+   "bounds": [
+    -180.0,
+    -85.05,
+    -61.31,
+    85.05
+   ]
+  },
+  {
+   "file": "whaling_logbooks_z8_5.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 50424373,
+   "bounds": [
+    -61.31,
+    -85.05,
+    180.0,
+    85.05
+   ]
+  }
+ ],
+ "date": "2026-10-05"
+}
