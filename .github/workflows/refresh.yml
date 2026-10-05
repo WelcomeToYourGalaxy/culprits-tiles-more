@@ -74,6 +74,8 @@ jobs:
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
+          EARTHDATA_USER: ${{ secrets.EARTHDATA_USER }}
+          EARTHDATA_PASS: ${{ secrets.EARTHDATA_PASS }}
         run: timeout 160m python3 "scripts/${{ matrix.name }}.py"
       - name: Save what it made
         if: always()
