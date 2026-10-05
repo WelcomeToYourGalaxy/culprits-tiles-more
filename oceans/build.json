@@ -2,7 +2,7 @@
  "dead_zones": {
   "from": "https://wri-rw.carto.com/api/v2/sql?q=SELECT%20*%20FROM%20wat_041_eutrophication_hypoxia&format=geojson",
   "features": 776,
-  "read": "2026-09-28"
+  "read": "2026-10-05"
  },
  "seabed_mining": {
   "read": {
@@ -14,6 +14,6 @@
    "Protected from mining (Areas of Particular Environmental Interest)": 13
   },
   "features": 1367,
-  "on": "2026-09-28"
+  "on": "2026-10-05"
  }
 }
