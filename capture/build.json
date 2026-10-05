@@ -1,39 +1,39 @@
 {
- "read": "2026-09-30",
- "features": 32399,
- "wikidata": 935,
- "lists": 31403,
+ "read": "2026-10-05",
+ "features": 35177,
+ "wikidata": 938,
+ "lists": 34178,
  "compiled": 61,
  "by_tier_and_branch": {
   "Admitted by the person, or by the side that paid or ran them | company": 13,
   "Admitted by the person, or by the side that paid or ran them | lawmaking": 2,
   "Admitted by the person, or by the side that paid or ran them | ruling and running": 1,
   "Charged or alleged, not proven | company": 343,
-  "Charged or alleged, not proven | courts": 1,
-  "Charged or alleged, not proven | lawmaking": 14,
+  "Charged or alleged, not proven | courts": 2,
+  "Charged or alleged, not proven | lawmaking": 15,
   "Charged or alleged, not proven | no office recorded": 7,
-  "Charged or alleged, not proven | ruling and running": 129,
+  "Charged or alleged, not proven | ruling and running": 447,
   "Convicted, or found by a court | company": 7,
   "Convicted, or found by a court | courts": 12,
   "Convicted, or found by a court | lawmaking": 125,
   "Convicted, or found by a court | other office": 41,
-  "Convicted, or found by a court | ruling and running": 85,
-  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17760,
+  "Convicted, or found by a court | ruling and running": 143,
+  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17761,
   "Documented ties, funding, or laws written for them | lawmaking": 3,
   "Documented ties, funding, or laws written for them | no office recorded": 3,
-  "Found by an official inquiry | company": 10799,
+  "Found by an official inquiry | company": 10802,
   "Found by an official inquiry | lawmaking": 2,
-  "Held office and worked for a spy service or secret police (Wikidata) | company": 20,
+  "Held office and worked for a spy service or secret police (Wikidata) | company": 19,
   "Held office and worked for a spy service or secret police (Wikidata) | courts": 26,
   "Held office and worked for a spy service or secret police (Wikidata) | lawmaking": 210,
-  "Held office and worked for a spy service or secret police (Wikidata) | other office": 164,
-  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 287,
+  "Held office and worked for a spy service or secret police (Wikidata) | other office": 166,
+  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 289,
   "Named in opened secret-police or spy-service files | company": 2,
-  "Named in opened secret-police or spy-service files | courts": 12,
-  "Named in opened secret-police or spy-service files | lawmaking": 194,
+  "Named in opened secret-police or spy-service files | courts": 14,
+  "Named in opened secret-police or spy-service files | lawmaking": 278,
   "Named in opened secret-police or spy-service files | no office recorded": 1122,
-  "Named in opened secret-police or spy-service files | other office": 143,
-  "Named in opened secret-police or spy-service files | ruling and running": 643,
+  "Named in opened secret-police or spy-service files | other office": 170,
+  "Named in opened secret-police or spy-service files | ruling and running": 2923,
   "Settled bribery charges with a regulator (often without admitting or denying) | company": 229
  },
  "found": {
@@ -161,7 +161,6 @@
    "Q10540832 Q10540832",
    "Q10544492 Q10544492",
    "Q10545213 Q10545213",
-   "Q105476623 Q105476623",
    "Q10547709 Q10547709",
    "Q10547902 Q10547902",
    "Q10548618 Q10548618",
@@ -721,6 +720,7 @@
    "Q12696688 Q12696688",
    "Q1270577 Q1270577",
    "Q127118552 Q127118552",
+   "Q12715015 Q12715015",
    "Q12719579 Q12719579",
    "Q127417615 Q127417615",
    "Q12767044 Q12767044",
@@ -2814,6 +2814,7 @@
    "Q141545945 Q141545945",
    "Q14159575 Q14159575",
    "Q141599932 Q141599932",
+   "Q141604701 Q141604701",
    "Q1416371 Q1416371",
    "Q1416641 Q1416641",
    "Q1419115 Q1419115",
@@ -3235,6 +3236,7 @@
    "Q3487744 Q3487744",
    "Q3488704 Q3488704",
    "Q3490795 Q3490795",
+   "Q3520864 Q3520864",
    "Q3537007 Q3537007",
    "Q3537883 Q3537883",
    "Q3551372 Q3551372",
@@ -3565,6 +3567,7 @@
    "Q122155080 mole",
    "Q123260569 Gestapo agent",
    "Q123439741 Taimanin ninja",
+   "Q127255902 Jack-o-Mole",
    "Q12761960 StB agent",
    "Q127784482 spy",
    "Q1321022 Nevus spilus",
@@ -3610,6 +3613,7 @@
    "Q20039629 North Korean agents",
    "Q2006470 blue nevus",
    "Q2006476 nevus cell nevi",
+   "Q207968 guacamole",
    "Q2340985 00 Agent",
    "Q23884977 industrial spy",
    "Q2587362 oniwaban",
@@ -3689,7 +3693,6 @@
    "Q10211046 national university",
    "Q1021290 music school",
    "Q1021586 credit guarantee association",
-   "Q102167691 Chinese companies sanctioned by the U.S. government",
    "Q102172957 Q102172957",
    "Q102194016 junta de fomento of El Salvador",
    "Q102202026 Samian Ware Production centre",
@@ -3765,7 +3768,6 @@
    "Q10444914 Q10444914",
    "Q104523231 faculty of nursing",
    "Q104527787 stevedoring company",
-   "Q104533873 The Red Unit",
    "Q1045860 kissaten",
    "Q104591075 steam dairy",
    "Q104602860 Managing Agency",
@@ -3863,7 +3865,6 @@
    "Q10547366 municipal middle school",
    "Q10547367 municipal music school",
    "Q10547399 kommunalt bolag",
-   "Q105476623 Q105476623",
    "Q10547709 Q10547709",
    "Q10547902 Q10547902",
    "Q10547908 kooperativ hyresrättsförening",
@@ -4061,9 +4062,12 @@
    "Q107185507 Agency Houses in Company Rule",
    "Q107212145 Salumeria",
    "Q1072166 tea house",
-   "Q10727386 open preschool"
+   "Q10727386 open preschool",
+   "Q107286953 instituto español",
+   "Q10728708 Q10728708",
+   "Q107293007 citrus orchard"
   ],
-  "a. office holders who served a spy service": 728,
+  "a. office holders who served a spy service": 729,
   "b. office holders convicted": 232,
   "crimes matched": [
    "Espionage Act of 1917",
@@ -4100,7 +4104,7 @@
   ],
   "colombia items": 29,
   "colombia_wiki features": 24,
-  "country names": 1268,
+  "country names": 1267,
   "sec cases": 266,
   "sec points": 326,
   "sec_fcpa features": 326,
@@ -4136,7 +4140,7 @@
    "Kategoria:Tajni współpracownicy organów bezpieczeństwa Polski Ludowej": 66
   },
   "de categories": {
-   "Kategorie:Inoffizieller Mitarbeiter des Ministeriums für Staatssicherheit": 452
+   "Kategorie:Inoffizieller Mitarbeiter des Ministeriums für Staatssicherheit": 453
   },
   "ro categories": {
    "Categorie:Colaboratori ai Securității": 77,
@@ -4173,18 +4177,19 @@
   "hr categories": {},
   "sl categories": {},
   "sr categories": {},
-  "secret_police_categories features": 1411,
-  "ipn drawn": 704,
-  "ipn features": 704,
-  "stb features": 0,
+  "secret_police_categories features": 1412,
+  "ipn drawn": 3358,
+  "ipn features": 3358,
+  "stb drawn": 116,
+  "stb features": 116,
   "development bank debarment lists": [
-   "worldbank_debarred: WorldBank Debarred Providers",
-   "ebrd_ineligible: EBRD Ineligible Entities",
    "afdb_sanctions: African Development Bank Debarred Entities",
-   "gb_fcdo_sanctions: UK FCDO Sanctions List"
+   "worldbank_debarred: WorldBank Debarred Providers",
+   "gb_fcdo_sanctions: UK FCDO Sanctions List",
+   "ebrd_ineligible: EBRD Ineligible Entities"
   ],
-  "debarment points": 10799,
-  "mdb_debarments features": 10799,
+  "debarment points": 10802,
+  "mdb_debarments features": 10802,
   "fara columns": [
    "Foreign Principal Termination Date",
    "Foreign Principal",
@@ -4199,7 +4204,7 @@
    "State",
    "Zip"
   ],
-  "fara rows": 17760,
+  "fara rows": 17761,
   "fara countries not matched": [
    "01/10/1947",
    "04/20/1993",
@@ -4284,7 +4289,7 @@
    "YUGOSLAVIA",
    "ZAIRE"
   ],
-  "fara features": 17760,
+  "fara features": 17761,
   "probes": {
    "ipn_catalogue_entry_86435.html": {
     "url": "https://katalog.bip.ipn.gov.pl/informacje/86435",
@@ -4316,13 +4321,12 @@
    }
   },
   "compiled names matched to Wikidata": 13,
-  "cases moved to a truer place": 1495,
-  "organisations placed at their address": 289,
-  "addresses still to look up (next runs)": 6257,
-  "countries with cases": 181
+  "cases moved to a truer place": 1514,
+  "organisations placed at their address": 1008,
+  "addresses still to look up (next runs)": 3403,
+  "countries with cases": 183
  },
  "errors": [
-  "c: HTTPError: HTTP Error 504: Gateway Timeout",
-  "stb: not built yet (scripts/capture_stb.py searches the Slovak register a slice a day)"
+  "c: HTTPError: HTTP Error 504: Gateway Timeout"
  ]
 }
