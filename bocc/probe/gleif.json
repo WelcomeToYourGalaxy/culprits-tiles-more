@@ -6061,39 +6061,6 @@
    }
   },
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
    "lei": "213800HVQMZIPOGSN251",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
@@ -6162,6 +6129,39 @@
   {
    "lei": "213800Z8RDOERZACSL18",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6453,37 +6453,6 @@
    }
   },
   {
-   "lei": "391200T7NK1J5M222951",
-   "legal_name": "onemarkets UC Goldman Sachs Active Income Strategy Fund",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "de",
-    "addressLines": [
-     "1, Avenue de l'Aéroport"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": "c/o UniCredit Invest Lux S.A.",
-    "city": "Sennningerberg",
-    "region": null,
-    "country": "LU",
-    "postalCode": "1110"
-   },
-   "headquarters_address": {
-    "language": "de",
-    "addressLines": [
-     "1, Avenue de l'Aéroport"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": "c/o UniCredit Invest Lux S.A.",
-    "city": "Sennningerberg",
-    "region": null,
-    "country": "LU",
-    "postalCode": "1110"
-   }
-  },
-  {
    "lei": "391200VFNP17ZWNIES53",
    "legal_name": "Margarete Helmis-Reichelt-Stiftung",
    "status": "ACTIVE",
@@ -6510,6 +6479,37 @@
     "addressNumber": null,
     "addressNumberWithinBuilding": null,
     "mailRouting": null,
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   }
+  },
+  {
+   "lei": "3912007R1WBVDVJPXW22",
+   "legal_name": "Elfrieda Albert Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o UniCredit Bank AG, 8100PVNX",
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o UniCredit Bank AG, 8100PVNX",
     "city": "Nürnberg",
     "region": "DE-BY",
     "country": "DE",
@@ -7029,6 +7029,39 @@
    }
   },
   {
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
    "lei": "213800PHORTTEXG59989",
    "legal_name": "RBS HOLDINGS USA INC.",
    "status": "ACTIVE",
@@ -7097,39 +7130,6 @@
   {
    "lei": "213800SJ9EDGYZ296T83",
    "legal_name": "RBS AMERICAS PROPERTY CORP.",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CORPORATION SERVICE COMPANY",
-     "251 LITTLE FALLS DRIVE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "WILMINGTON",
-    "region": "US-DE",
-    "country": "US",
-    "postalCode": "19808"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O NATWEST GROUP PLC",
-     "600 WASHINGTON BOULEVARD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "STAMFORD",
-    "region": "US-CT",
-    "country": "US",
-    "postalCode": "06901"
-   }
-  },
-  {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
