@@ -1,0 +1,21 @@
+{
+ "read": "2026-10-05",
+ "dataset": "The Biodiversity Intactness Index developed by The Natural History Museum, London, v2.1.1 (Open Access, Limited Release)",
+ "licence": "Other (Non-Commercial)",
+ "resources": [
+  {
+   "name": "The Biodiversity Intactness Index developed by The Natural History Museum, London, v2.1.1 (Open Access, Limited Release)",
+   "format": "ZIP",
+   "url": "https://data.nhm.ac.uk/dataset/ed428544-c494-4289-961c-1a5adf8fae74/resource/c4c281c4-befa-4e1b-a162-ba2f25e5ae82/download/bii-v2-1-1-nhm-data-portal.zip",
+   "size": 45890222
+  }
+ ],
+ "file": {
+  "name": "The Biodiversity Intactness Index developed by The Natural History Museum, London, v2.1.1 (Open Access, Limited Release)",
+  "format": "ZIP",
+  "url": "https://data.nhm.ac.uk/dataset/ed428544-c494-4289-961c-1a5adf8fae74/resource/c4c281c4-befa-4e1b-a162-ba2f25e5ae82/download/bii-v2-1-1-nhm-data-portal.zip",
+  "size": 45890222
+ },
+ "built": false,
+ "why": "the museum's server refused the download (403); download the file by hand from https://data.nhm.ac.uk/dataset/bii-developed-by-nhm-v2-1-1-limited-release and upload it to bii/download/"
+}
