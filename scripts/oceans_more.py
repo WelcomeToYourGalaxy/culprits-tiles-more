@@ -193,6 +193,25 @@ def list_nc(root, depth=3, seen=None):
     return out
 
 
+def nc_axis(ds, v, kind):
+    """The latitude or longitude values of v's grid, as 1-D numpy arrays (round
+    175b: the pH files keep them under other names than their dimensions,
+    so the old lookup came back empty and failed on .max())."""
+    import numpy as np
+    rx = r"^(lat|latitude|nav_lat|y)$" if kind == "lat" else r"^(lon|longitude|nav_lon|x)$"
+    for dim in v.dimensions:
+        if re.match(rx, dim, re.I) and dim in ds.variables:
+            return np.array(ds.variables[dim][:], dtype=float).ravel(), dim
+    for name, var in ds.variables.items():
+        std = str(getattr(var, "standard_name", "") or getattr(var, "units", "")).lower()
+        if re.match(rx, name, re.I) or (kind == "lat" and std in ("latitude", "degrees_north")) or (kind == "lon" and std in ("longitude", "degrees_east")):
+            a = np.array(var[:], dtype=float)
+            if a.ndim == 2:
+                a = a[:, 0] if kind == "lat" else a[0, :]
+            return a.ravel(), next((d for d in var.dimensions if d in v.dimensions), var.dimensions[-1] if kind == "lon" else var.dimensions[0])
+    return None, None
+
+
 def acid(stamp):
     import numpy as np
     pyramid.need("netCDF4")
@@ -204,55 +223,84 @@ def acid(stamp):
         files = list_nc(root)
         if files:
             break
-    print(f"  acid: {len(files)} NetCDF files listed: {[f.rsplit('/', 1)[-1] for f in files][:40]}", flush=True)
+    print(f"  acid: {len(files)} NetCDF files listed", flush=True)
     stamp["acid_files"] = [f.rsplit("/", 1)[-1] for f in files]
-    ph = [f for f in files if re.search(r"ph", f.rsplit("/", 1)[-1], re.I)] or files
-    # Middle-of-the-road future (SSP2-4.5) first where the files are split by pathway.
-    ph.sort(key=lambda f: (not re.search(r"ssp2.?45|245", f, re.I), f))
-    if not ph:
-        raise RuntimeError("no NetCDF file listed in the accession's folders or their sub-folders")
-    p = fetch(ph[0], pathlib.Path(tempfile.gettempdir()) / ph[0].rsplit("/", 1)[-1], "acid")
-    ds = netCDF4.Dataset(p)
-    name = next((k for k in ds.variables if re.fullmatch(r"ph[_a-z]*", k, re.I)), None)
-    if not name:
-        raise RuntimeError(f"no pH variable among {list(ds.variables)}")
-    v = ds.variables[name]
-    dims = v.dimensions
-    latn = next(d for d in dims if re.match(r"lat", d, re.I))
-    lonn = next(d for d in dims if re.match(r"lon", d, re.I))
-    tn = next((d for d in dims if d not in (latn, lonn)), None)
-    lat = np.array(ds.variables[latn][:]) if latn in ds.variables else None
-    lon = np.array(ds.variables[lonn][:]) if lonn in ds.variables else None
-    times = np.array(ds.variables[tn][:]) if tn and tn in ds.variables else [None]
-    labels = [str(int(t)) if t is not None and float(t) > 1000 else str(t) for t in times]
-    picks = sorted({0, int(np.argmin([abs(float(t) - 2020) if t is not None else 0 for t in times])), len(times) - 1})
-    bins = [(0, 7.9, "#6E2A38", "under 7.9"), (7.9, 7.95, "#A0525A", "7.9 to 7.95"), (7.95, 8.0, "#C08A8A", "7.95 to 8.0"),
-            (8.0, 8.05, "#6FC2DA", "8.0 to 8.05"), (8.05, 8.1, "#2E8FBA", "8.05 to 8.1"), (8.1, 14, "#0C2E5E", "8.1 or more")]
-    choices = []
-    for i in picks:
-        sl = [slice(None)] * len(dims)
-        if tn:
-            sl[dims.index(tn)] = i
-        a = np.ma.filled(np.ma.array(v[tuple(sl)]).astype(np.float32), np.nan)
-        if dims.index(latn) > dims.index(lonn):
-            a = a.T
-        if lon.max() > 180:
-            order = np.argsort(((lon + 180) % 360) - 180)
-            lon = ((lon + 180) % 360) - 180
-            lon, a = lon[order], a[:, order]
-        if lat[0] < lat[-1]:
-            a, lat = a[::-1], lat[::-1]
-        res = float(abs(lat[1] - lat[0]))
-        codes = np.zeros(a.shape, np.uint8)
-        for k, (lo, hi, _, _) in enumerate(bins):
-            codes[np.isfinite(a) & (a >= lo) & (a < hi)] = k + 1
-        out = T / f"ocean_ph_{labels[i]}.pmtiles"
-        pyramid.build(codes, float(lon[0]) - res / 2, float(lat[0]) + res / 2, res, {k + 1: pyramid.rgba(c, 225) for k, (_, _, c, _) in enumerate(bins)},
-                      out, 5, how="max", attribution="Jiang et al. 2023, NOAA NCEI 0259391 (CC0)", name=out.stem, meta={"from": ph[0], "variable": name, "time": labels[i]})
-        choices.append({"label": labels[i], "archive": f"tiles/{out.name}", "key": [[c, t_] for _, _, c, t_ in bins]})
-    ds.close()
+    # Round 175b: the accession's own multi-model median (pHT_median_*), not
+    # one model's file: the past (historical) and two futures, middle of the
+    # road (SSP2-4.5) and very high emissions (SSP5-8.5).
+    want = [("historical", "past"), ("ssp245", "SSP2-4.5, middle of the road"), ("ssp585", "SSP5-8.5, very high emissions")]
+    found = {k: next((f for f in files if f.rsplit("/", 1)[-1].lower() == f"pht_median_{k}.nc"), None) for k, _ in want}
+    if not found["historical"]:
+        raise RuntimeError("pHT_median_historical.nc not among the accession's files")
+    bins = [(0, 7.9, "#6E2A38", "under 7.9 (most acid)"), (7.9, 7.95, "#A0525A", "7.9 to 7.95"), (7.95, 8.0, "#C08A8A", "7.95 to 8.0"),
+            (8.0, 8.05, "#6FC2DA", "8.0 to 8.05"), (8.05, 8.1, "#2E8FBA", "8.05 to 8.1"), (8.1, 14, "#0C2E5E", "8.1 or more (least acid)")]
+    choices, used = [], []
+    for k, words in want:
+        url = found.get(k)
+        if not url:
+            continue
+        p = fetch(url, pathlib.Path(tempfile.gettempdir()) / url.rsplit("/", 1)[-1], "acid")
+        ds = netCDF4.Dataset(p)
+        name = next((n for n in ds.variables if re.fullmatch(r"ph[_a-z]*", n, re.I)), None)
+        if not name:
+            raise RuntimeError(f"no pH variable among {list(ds.variables)}")
+        v = ds.variables[name]
+        dims = list(v.dimensions)
+        lat, latd = nc_axis(ds, v, "lat")
+        lon, lond = nc_axis(ds, v, "lon")
+        if lat is None or lon is None or latd not in dims or lond not in dims:
+            raise RuntimeError(f"no latitude/longitude found: dims {dims}, variables {list(ds.variables)}")
+        tn = next((d for d in dims if d not in (latd, lond)), None)
+        tv = np.array(ds.variables[tn][:], dtype=float) if tn and tn in ds.variables else np.array([np.nan])
+        years = []
+        units = str(getattr(ds.variables[tn], "units", "")) if tn and tn in ds.variables else ""
+        for t in tv:
+            if np.isfinite(t) and 1700 < t < 2200:
+                years.append(int(round(t)))
+            elif np.isfinite(t) and "since" in units:
+                try:
+                    years.append(netCDF4.num2date(t, units, getattr(ds.variables[tn], "calendar", "standard")).year)
+                except Exception:  # noqa: BLE001
+                    years.append(None)
+            else:
+                years.append(None)
+        # From the past: the earliest and the one nearest 2020; from a future: its last.
+        if k == "historical":
+            picks = sorted({0, int(np.argmin([abs((y or 0) - 2020) for y in years]))})
+        else:
+            picks = [len(tv) - 1]
+        for i in picks:
+            sl = [slice(None)] * len(dims)
+            if tn:
+                sl[dims.index(tn)] = i
+            a = np.ma.filled(np.ma.array(v[tuple(sl)]).astype(np.float32), np.nan)
+            a = np.squeeze(a)
+            la, lo = lat.copy(), lon.copy()
+            rest = [d for d in dims if d != tn]
+            if rest.index(latd) > rest.index(lond):
+                a = a.T
+            if lo.max() > 180:
+                lo = ((lo + 180) % 360) - 180
+            order = np.argsort(lo)
+            lo, a = lo[order], a[:, order]
+            if la[0] < la[-1]:
+                a, la = a[::-1], la[::-1]
+            res = float(abs(la[1] - la[0]))
+            codes = np.zeros(a.shape, np.uint8)
+            for b, (lo_, hi_, _, _) in enumerate(bins):
+                codes[np.isfinite(a) & (a >= lo_) & (a < hi_)] = b + 1
+            label = f"{years[i] if years[i] else 'time ' + str(i)}, {words}"
+            out = T / f"ocean_ph_{k}_{years[i] or i}.pmtiles"
+            pyramid.build(codes, float(lo[0]) - res / 2, float(la[0]) + res / 2, res,
+                          {b + 1: pyramid.rgba(c, 225) for b, (_, _, c, _) in enumerate(bins)}, out, 5, how="max",
+                          attribution="Jiang et al. 2023, NOAA NCEI 0259391, multi-model median (CC0)", name=out.stem,
+                          meta={"from": url, "variable": name, "time": years[i]})
+            choices.append({"label": label, "archive": f"tiles/{out.name}", "key": [[c, t_] for _, _, c, t_ in bins]})
+            used.append({"file": url.rsplit("/", 1)[-1], "variable": name, "year": years[i]})
+        ds.close()
+        p.unlink(missing_ok=True)
     pyramid.write_choices("ocean_acid", choices)
-    stamp["acid"] = {"file": ph[0], "variable": name, "times": [labels[i] for i in picks]}
+    stamp["acid"] = {"used": used}
 
 
 def main():
