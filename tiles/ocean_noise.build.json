@@ -140,6 +140,690 @@
      "info": "emission values describe emissions released at stack height between 0 and 100."
     }
    }
+  },
+  "1st_2017": {
+   "file": "NOISE_ENE_1stBand_allHeights_2017-01-01T00_2017-12-31T00.zip",
+   "band": "63 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3006304,
+   "joules_total": 57336963122148.96,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_1stBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy, first band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 21:55:36+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "1st_2016": {
+   "file": "NOISE_ENE_1stBand_allHeights_2016-01-01T00_2016-12-31T00.zip",
+   "band": "63 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 366,
+   "cells_with_noise": 3124746,
+   "joules_total": 48805776541435.26,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_1stBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     366,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy, first band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-02-04 21:54:20+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "1st_2015": {
+   "file": "NOISE_ENE_1stBand_allHeights_2015-01-01T00_2015-12-31T00.zip",
+   "band": "63 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3182066,
+   "joules_total": 46574200368929.21,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_1stBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy, first band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-02-06 03:54:21+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "1st_2014": {
+   "file": "NOISE_ENE_1stBand_allHeights_2014-01-01T00_2014-12-31T00.zip",
+   "band": "63 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 2988769,
+   "joules_total": 37938212417637.695,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_1stBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy, first band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 20:57:05+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2020": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2020-01-01T00_2020-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 366,
+   "cells_with_noise": 3064490,
+   "joules_total": 35666634916208.14,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     366,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-23 07:42:03+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2019": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2019-01-01T00_2019-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3078813,
+   "joules_total": 42940506107053.17,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-23 20:22:22+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2018": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2018-01-01T00_2018-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3011293,
+   "joules_total": 39272906244349.38,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 23:43:23+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2017": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2017-01-01T00_2017-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3006304,
+   "joules_total": 34120206054578.55,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 22:00:41+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2016": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2016-01-01T00_2016-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 366,
+   "cells_with_noise": 3124746,
+   "joules_total": 27946828032289.496,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     366,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-02-04 21:59:39+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2015": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2015-01-01T00_2015-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3182066,
+   "joules_total": 26077116537242.668,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-02-06 03:59:47+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "2nd_2014": {
+   "file": "NOISE_ENE_2ndBand_allHeights_2014-01-01T00_2014-12-31T00.zip",
+   "band": "125 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 2988769,
+   "joules_total": 19823515197039.88,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_2ndBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 2nd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 21:01:02+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2020": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2020-01-01T00_2020-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 366,
+   "cells_with_noise": 3064490,
+   "joules_total": 519654657988.8935,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     366,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-23 07:44:48+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2019": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2019-01-01T00_2019-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3078813,
+   "joules_total": 625470471558.98,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-23 20:25:18+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2018": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2018-01-01T00_2018-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3011293,
+   "joules_total": 572961550431.6278,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 23:51:53+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2017": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2017-01-01T00_2017-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3006304,
+   "joules_total": 498710644503.0181,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 22:05:49+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2016": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2016-01-01T00_2016-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 366,
+   "cells_with_noise": 3124746,
+   "joules_total": 408668868997.36224,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     366,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-02-04 22:05:11+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2015": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2015-01-01T00_2015-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 3182066,
+   "joules_total": 380864781180.031,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-02-06 04:05:02+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
+  },
+  "3rd_2014": {
+   "file": "NOISE_ENE_3rdBand_allHeights_2014-01-01T00_2014-12-31T00.zip",
+   "band": "2000 Hz",
+   "band_from": "the record's description (bands listed in order)",
+   "days": 365,
+   "cells_with_noise": 2988769,
+   "joules_total": 289832922948.7621,
+   "cell_degrees": 0.09999847412109375,
+   "top_zoom": 6,
+   "read": {
+    "variable": "NOISE_ENE_3rdBand",
+    "units": "J",
+    "dims": [
+     "time",
+     "latitude",
+     "longitude"
+    ],
+    "shape": [
+     365,
+     1800,
+     3600
+    ],
+    "variable_attributes": {
+     "units": "J",
+     "long_name": "Noise energy 3rd band"
+    },
+    "file_attributes": {
+     "conventions": "CF-1.0",
+     "institution": "Finnish Meteorological Institute",
+     "creator": "Lasse Johansson, email lasse.johansson@fmi.fi",
+     "creation_time": "2021-03-22 21:04:59+0:00Z",
+     "history": "model version: JSTEAM 2.1.0 (edited 1.3.2020)",
+     "references": "Jalkanen, J.-P. ,Johansson, L., et al. 2012. Extension of an assessment model of ship traffic exhaust emissions for particulate matter and carbon monoxide",
+     "title": "modelled shipping exhaust emissions and statistics in WorldPool_CUSTOMaccording to STEAM3 model",
+     "info": "emission values describe emissions released at stack height between 0 and 100."
+    }
+   }
   }
  },
  "breaks": {
@@ -154,6 +838,31 @@
     14478914.302475737,
     52124102.513643935
    ]
+  },
+  "2nd": {
+   "from_year": 2020,
+   "joules": [
+    10282.730834960941,
+    138037.61947631836,
+    454354.56878910074,
+    1282410.5733208663,
+    3488186.4015300744,
+    9432569.333235454,
+    32906477.248020656
+   ]
+  },
+  "3rd": {
+   "from_year": 2020,
+   "joules": [
+    161.67121973037723,
+    2061.0501482733525,
+    6724.095063495637,
+    18882.289590537548,
+    51329.75506216583,
+    138595.34500149364,
+    481216.7345484935
+   ]
   }
- }
+ },
+ "built": true
 }
