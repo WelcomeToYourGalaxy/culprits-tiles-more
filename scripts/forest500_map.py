@@ -42,6 +42,7 @@ import datetime, json, math, os, pathlib, subprocess, sys, time, urllib.request
 
 F = pathlib.Path("forest500")
 NE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson"
+NE_COUNTRIES = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson"
 UA = {"User-Agent": "Culprits atlas build (github.com/WelcomeToYourGalaxy)"}
 CITE = "Forest 500 assessment data {y}, Global Canopy, Forest500.org (CC BY-NC 4.0)"
 # Forest 500's names for places Natural Earth or pycountry write otherwise.
@@ -96,6 +97,17 @@ def capitals():
                     found[code] = (p["longitude"], p["latitude"], p["name"], p.get("pop_max") or 0,
                                    "capital" if kinds is not None else "town")
         best.update(found)
+    # Round 184o: a place with no populated place in Natural Earth at all (the
+    # British Virgin Islands: Road Town is not listed) takes Natural Earth's
+    # own label point for that country, and the box says so.
+    try:
+        for f in json.loads(get(NE_COUNTRIES))["features"]:
+            p = f["properties"]
+            code = p.get("ADM0_A3")
+            if code and code not in best and p.get("LABEL_X") is not None and p.get("LABEL_Y") is not None:
+                best[code] = (p["LABEL_X"], p["LABEL_Y"], p.get("NAME_LONG") or p.get("NAME"), 0, "label")
+    except Exception as e:  # noqa: BLE001
+        print(f"forest500_map: Natural Earth countries not read ({e}); places with no listed town stay unplaced", flush=True)
     return {k: (v[0], v[1], v[2], v[4]) for k, v in best.items()}
 
 
@@ -160,6 +172,7 @@ def entities(kind, ranks, details, caps, pycountry):
             else:
                 p[f"x_{k} ({dy})"] = v
         p["placed at"] = ((f"the capital of its headquarters country ({cap[2]})" if cap[3] == "capital" else
+                           f"the middle Natural Earth gives for {cap[2]} (Natural Earth lists no town there)" if cap[3] == "label" else
                            f"{cap[2]}, the most populous place Natural Earth lists in its headquarters country (Natural Earth names no capital there)") +
                           "; Forest 500 gives the country, not the address. "
                           "Spread around the capital so each can be clicked; where in the spread means nothing.")

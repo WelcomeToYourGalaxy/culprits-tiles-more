@@ -5,9 +5,16 @@ burned area on the 0.25-degree climate modelling grid (MCD64CMQ, collection
 6.1; Giglio et al., MODIS Collection 6.1 Burned Area Product User's Guide).
 Each month's file gives the area burned in each 0.25-degree cell; a year's
 months are added up and drawn as the share of the cell's area that burned,
-in six steps. Needs the Earthdata login (secrets EARTHDATA_USER and
-EARTHDATA_PASS). NASA shares the data without restriction (EOSDIS data use
+in six steps. NASA shares the data without restriction (EOSDIS data use
 policy), with the citation in the attribution.
+
+Round 184o: MCD64CMQ is not in NASA's Earthdata catalogue (the first run found
+no collection). Its user guide (Collection 6.1 MODIS Burned Area Product
+User's Guide, section 4.1) says it is served from the University of
+Maryland's fuoco SFTP server, with the login and password printed in the
+guide ("fire" / "burnt"). Files are found by walking data/MODIS/C61/MCD64CMQ
+(and data/MODIS/C6/MCD64CMQ if C61 holds none); every folder looked in and
+every file found is written to the build file.
 
 A year once built is kept; the current year is rebuilt each run until it is
 complete. The science data set's name, units and scale factor are read from
@@ -16,12 +23,13 @@ the file and written to tiles/own_burned.build.json, nothing assumed.
 import datetime, json, math, os, pathlib, re, subprocess, sys, tempfile, time
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "lib"))
 import pyramid  # noqa: E402
-import earthdata  # noqa: E402
 
 ROW = "own_burned"
 T = pathlib.Path("tiles")
 STAMP = T / f"{ROW}.build.json"
-CITE = "MODIS MCD64CMQ v061 burned area, Giglio et al., NASA LP DAAC (EOSDIS, no restriction)"
+CITE = "MODIS MCD64CMQ burned area, Giglio et al., University of Maryland / NASA (no restriction)"
+HOST, USER, PASS = "fuoco.geog.umd.edu", "fire", "burnt"   # as printed in the product user guide, section 4.1
+ROOTS = ["data/MODIS/C61/MCD64CMQ", "data/MODIS/C6/MCD64CMQ"]
 STEPS = [(0.0, 0.01, "under 1% of the land burned"), (0.01, 0.05, "1 to 5%"), (0.05, 0.1, "5 to 10%"),
          (0.1, 0.25, "10 to 25%"), (0.25, 0.5, "25 to 50%"), (0.5, 9.9, "half or more")]
 RAMP6 = ["#D6EEF6", "#8FD6E8", "#3FA9C2", "#2275A8", "#13447A", "#0C2E5E"]
@@ -59,25 +67,54 @@ def read_month(path):
     return a, {"data_set": name, "units": units, "scale_factor": sf, "shape": list(a.shape), "all_data_sets": names}
 
 
+def sftp_files(stamp):
+    """[(year, month_key, remote_path)] of every MCD64CMQ HDF file, newest production of each month."""
+    import paramiko
+    t = paramiko.Transport((HOST, 22))
+    t.connect(username=USER, password=PASS)
+    sf = paramiko.SFTPClient.from_transport(t)
+    looked, found = [], {}
+    for root in ROOTS:
+        stack = [root]
+        while stack:
+            d = stack.pop()
+            try:
+                items = sf.listdir_attr(d)
+            except IOError as e:
+                looked.append(f"{d}: {e}")
+                continue
+            looked.append(d)
+            for it in items:
+                path = f"{d}/{it.filename}"
+                if it.st_mode is not None and (it.st_mode & 0o170000) == 0o040000:
+                    stack.append(path)
+                    continue
+                m = re.match(r"MCD64CMQ\.A(\d{4})(\d{3})\.(\d+)\.(\d+)\.hdf$", it.filename)
+                if m:
+                    k = (int(m.group(1)), m.group(2))
+                    if k not in found or m.group(4) > found[k][1]:
+                        found[k] = (path, m.group(4), m.group(3))
+        if found:
+            stamp["read_from"] = root
+            break
+    stamp["folders_looked_in"] = looked[:200]
+    stamp["files_found"] = len(found)
+    return sf, t, [(y, f"{y}{doy}", v[0]) for (y, doy), v in sorted(found.items())]
+
+
 def main():
-    pyramid.need("rasterio", "requests")
+    pyramid.need("paramiko")
     import numpy as np
     T.mkdir(exist_ok=True)
     stamp = json.loads(STAMP.read_text()) if STAMP.exists() else {}
-    if not earthdata.have_login():
-        stamp.update(built=False, why="no EARTHDATA_USER / EARTHDATA_PASS in the run; see refresh.yml")
-        STAMP.write_text(json.dumps(stamp, indent=1))
-        print("::warning::burned_area: no Earthdata login in this run")
-        return
-    coll = earthdata.collection(short_name="MCD64CMQ", version="061")
-    links = earthdata.granule_links(coll["id"], suffix=".hdf")
-    stamp.update(collection=coll.get("id"), files_listed=len(links))
+    sf, transport, files = sftp_files(stamp)
+    if not files:
+        stamp.update(built=False, why="no MCD64CMQ files found on the server; see folders_looked_in")
+        STAMP.write_text(json.dumps(stamp, indent=1, default=str))
+        sys.exit("burned_area: no MCD64CMQ files found; see tiles/own_burned.build.json")
     by_year = {}
-    for l in links:
-        y = (l.get("start") or "")[:4]
-        if y.isdigit():
-            by_year.setdefault(int(y), []).append(l)
-    s = earthdata.session()
+    for y, key, path in files:
+        by_year.setdefault(y, []).append({"start": key, "href": path})
     done = stamp.setdefault("years", {})
     this_year = datetime.date.today().year
     tmp = pathlib.Path(tempfile.gettempdir())
@@ -92,7 +129,8 @@ def main():
             break
         total, meta = None, None
         for l in months:
-            p = earthdata.download(s, l["href"], tmp / l["href"].rsplit("/", 1)[-1], ROW)
+            p = tmp / l["href"].rsplit("/", 1)[-1]
+            sf.get(l["href"], str(p))
             a, meta = read_month(p)
             p.unlink(missing_ok=True)
             total = np.nan_to_num(a) if total is None else total + np.nan_to_num(a)
@@ -118,6 +156,8 @@ def main():
         done[str(y)] = {"months": len(months), "hectares_burned": round(float(total.sum())), "read": meta}
         STAMP.write_text(json.dumps(stamp, indent=1, default=str))
         print(f"burned_area: {y}: {len(months)} months, {total.sum():,.0f} ha", flush=True)
+    sf.close()
+    transport.close()
     key = [[c, t] for c, (_, _, t) in zip(RAMP6, STEPS)]
     choices = []
     for y in sorted((int(k) for k in done), reverse=True):

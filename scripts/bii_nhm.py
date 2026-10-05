@@ -17,7 +17,7 @@ or not) is drawn in ten steps of 10, teal-to-cobalt, lighter = less intact.
 Monthly (first Monday), or by hand. Stops without guessing when the dataset
 offers no GeoTIFF; bii/build.json then lists what it does offer.
 """
-import datetime, io, json, os, pathlib, re, sys, tempfile, urllib.request, zipfile
+import datetime, io, json, os, pathlib, re, sys, tempfile, urllib.error, urllib.request, zipfile
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent / "lib"))
 import pyramid  # noqa: E402
 
@@ -64,7 +64,30 @@ def main():
     import numpy as np
     tmp = pathlib.Path(tempfile.gettempdir()) / "bii_source"
     tmp.mkdir(exist_ok=True)
-    raw = pyramid.download(pick["url"], tmp / ("bii.zip" if pick["url"].lower().split("?")[0].endswith(".zip") else "bii.tif"), ROW)
+    # Round 184o: the museum's server answered 403 to the build's download
+    # (its page asks people to agree to the licence terms before
+    # downloading). A copy downloaded by hand and uploaded to bii/download/
+    # is read first; without one, the refusal is written down, not a failure.
+    local = sorted(p for p in (OUT_DIR / "download").glob("*") if p.suffix.lower() in (".tif", ".tiff", ".zip"))
+    if local:
+        raw = local[-1]
+        info["read_from"] = f"the copy uploaded by hand: {raw}"
+    else:
+        dest = tmp / ("bii.zip" if pick["url"].lower().split("?")[0].endswith(".zip") else "bii.tif")
+        try:
+            with urllib.request.urlopen(urllib.request.Request(pick["url"], headers=UA), timeout=3600) as r, open(dest, "wb") as f:
+                while True:
+                    b = r.read(1 << 22)
+                    if not b:
+                        break
+                    f.write(b)
+        except urllib.error.HTTPError as e:
+            info.update(built=False, why=f"the museum's server refused the download ({e.code}); download the file by hand from "
+                        f"https://data.nhm.ac.uk/dataset/{PACKAGE} and upload it to bii/download/")
+            stamp.write_text(json.dumps(info, indent=1, ensure_ascii=False))
+            print(f"::warning::{ROW}: download refused ({e.code}); see {stamp}")
+            return
+        raw = dest
     path = str(raw)
     if path.endswith(".zip"):
         names = [n for n in zipfile.ZipFile(path).namelist() if n.lower().endswith((".tif", ".tiff"))]
