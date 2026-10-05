@@ -1,117 +1,518 @@
 {
- "read": "2026-10-04",
- "files_found": [],
+ "read": "2026-10-05",
+ "packages": {
+  "resource_map_doi:10.5063/F1377727": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "slr_2003-2013_trend.tif",
+    "slr_2003_impact.tif",
+    "slr_2003_raw.tif",
+    "slr_2003_rescaled.tif",
+    "slr_2004_impact.tif",
+    "slr_2004_raw.tif",
+    "slr_2004_rescaled.tif",
+    "slr_2005_impact.tif",
+    "slr_2005_raw.tif",
+    "slr_2005_rescaled.tif",
+    "slr_2006_impact.tif",
+    "slr_2006_raw.tif",
+    "slr_2006_rescaled.tif",
+    "slr_2007_impact.tif",
+    "slr_2007_raw.tif",
+    "slr_2007_rescaled.tif",
+    "slr_2008_impact.tif",
+    "slr_2008_raw.tif",
+    "slr_2008_rescaled.tif",
+    "slr_2009_impact.tif",
+    "slr_2009_raw.tif",
+    "slr_2009_rescaled.tif",
+    "slr_2010_impact.tif",
+    "slr_2010_raw.tif",
+    "slr_2010_rescaled.tif",
+    "slr_2011_impact.tif",
+    "slr_2011_raw.tif",
+    "slr_2011_rescaled.tif",
+    "slr_2012_impact.tif",
+    "slr_2012_raw.tif",
+    "slr_2012_rescaled.tif",
+    "slr_2013_impact.tif",
+    "slr_2013_raw.tif",
+    "slr_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1SQ8XQF": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "light_2003-2013_trend.tif",
+    "light_2003_impact.tif",
+    "light_2003_raw.tif",
+    "light_2003_rescaled.tif",
+    "light_2004_impact.tif",
+    "light_2004_raw.tif",
+    "light_2004_rescaled.tif",
+    "light_2005_impact.tif",
+    "light_2005_raw.tif",
+    "light_2005_rescaled.tif",
+    "light_2006_impact.tif",
+    "light_2006_raw.tif",
+    "light_2006_rescaled.tif",
+    "light_2007_impact.tif",
+    "light_2007_raw.tif",
+    "light_2007_rescaled.tif",
+    "light_2008_impact.tif",
+    "light_2008_raw.tif",
+    "light_2008_rescaled.tif",
+    "light_2009_impact.tif",
+    "light_2009_raw.tif",
+    "light_2009_rescaled.tif",
+    "light_2010_impact.tif",
+    "light_2010_raw.tif",
+    "light_2010_rescaled.tif",
+    "light_2011_impact.tif",
+    "light_2011_raw.tif",
+    "light_2011_rescaled.tif",
+    "light_2012_impact.tif",
+    "light_2012_raw.tif",
+    "light_2012_rescaled.tif",
+    "light_2013_impact.tif",
+    "light_2013_raw.tif",
+    "light_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1TQ5ZVT": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "commercial_fishing_demersal_destructive_2003-2013_trend.tif",
+    "commercial_fishing_demersal_destructive_2003_impact.tif",
+    "commercial_fishing_demersal_destructive_2003_raw.tif",
+    "commercial_fishing_demersal_destructive_2003_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2004_impact.tif",
+    "commercial_fishing_demersal_destructive_2004_raw.tif",
+    "commercial_fishing_demersal_destructive_2004_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2005_impact.tif",
+    "commercial_fishing_demersal_destructive_2005_raw.tif",
+    "commercial_fishing_demersal_destructive_2005_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2006_impact.tif",
+    "commercial_fishing_demersal_destructive_2006_raw.tif",
+    "commercial_fishing_demersal_destructive_2006_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2007_impact.tif",
+    "commercial_fishing_demersal_destructive_2007_raw.tif",
+    "commercial_fishing_demersal_destructive_2007_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2008_impact.tif",
+    "commercial_fishing_demersal_destructive_2008_raw.tif",
+    "commercial_fishing_demersal_destructive_2008_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2009_impact.tif",
+    "commercial_fishing_demersal_destructive_2009_raw.tif",
+    "commercial_fishing_demersal_destructive_2009_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2010_impact.tif",
+    "commercial_fishing_demersal_destructive_2010_raw.tif",
+    "commercial_fishing_demersal_destructive_2010_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2011_impact.tif",
+    "commercial_fishing_demersal_destructive_2011_raw.tif",
+    "commercial_fishing_demersal_destructive_2011_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2012_impact.tif",
+    "commercial_fishing_demersal_destructive_2012_raw.tif",
+    "commercial_fishing_demersal_destructive_2012_rescaled.tif",
+    "commercial_fishing_demersal_destructive_2013_impact.tif",
+    "commercial_fishing_demersal_destructive_2013_raw.tif",
+    "commercial_fishing_demersal_destructive_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1K64GC1": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2003-2013_trend.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2003_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2003_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2003_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2004_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2004_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2004_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2005_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2005_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2005_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2006_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2006_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2006_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2007_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2007_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2007_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2008_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2008_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2008_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2009_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2009_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2009_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2010_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2010_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2010_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2011_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2011_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2011_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2012_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2012_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2012_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2013_impact.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2013_raw.tif",
+    "commercial_fishing_demersal_nondestructive_low_bycatch_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1PZ574W": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2003-2013_trend.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2003_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2003_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2003_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2004_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2004_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2004_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2005_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2005_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2005_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2006_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2006_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2006_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2007_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2007_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2007_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2008_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2008_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2008_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2009_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2009_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2009_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2010_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2010_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2010_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2011_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2011_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2011_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2012_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2012_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2012_rescaled.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2013_impact.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2013_raw.tif",
+    "commercial_fishing_demersal_nondestructive_high_bycatch_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1FF3QPR": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "commercial_fishing_pelagic_high_bycatch_2003-2013_trend.tif",
+    "commercial_fishing_pelagic_high_bycatch_2003_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2003_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2003_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2004_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2004_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2004_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2005_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2005_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2005_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2006_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2006_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2006_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2007_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2007_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2007_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2008_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2008_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2008_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2009_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2009_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2009_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2010_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2010_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2010_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2011_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2011_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2011_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2012_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2012_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2012_rescaled.tif",
+    "commercial_fishing_pelagic_high_bycatch_2013_impact.tif",
+    "commercial_fishing_pelagic_high_bycatch_2013_raw.tif",
+    "commercial_fishing_pelagic_high_bycatch_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F19S1PCR": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "commercial_fishing_pelagic_low_bycatch_2003-2013_trend.tif",
+    "commercial_fishing_pelagic_low_bycatch_2003_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2003_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2003_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2004_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2004_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2004_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2005_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2005_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2005_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2006_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2006_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2006_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2007_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2007_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2007_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2008_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2008_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2008_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2009_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2009_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2009_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2010_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2010_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2010_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2011_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2011_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2011_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2012_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2012_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2012_rescaled.tif",
+    "commercial_fishing_pelagic_low_bycatch_2013_impact.tif",
+    "commercial_fishing_pelagic_low_bycatch_2013_raw.tif",
+    "commercial_fishing_pelagic_low_bycatch_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1XG9PGM": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "direct_human_2003-2013_trend.tif",
+    "direct_human_2003_impact.tif",
+    "direct_human_2003_raw.tif",
+    "direct_human_2003_rescaled.tif",
+    "direct_human_2004_impact.tif",
+    "direct_human_2004_raw.tif",
+    "direct_human_2004_rescaled.tif",
+    "direct_human_2005_impact.tif",
+    "direct_human_2005_raw.tif",
+    "direct_human_2005_rescaled.tif",
+    "direct_human_2006_impact.tif",
+    "direct_human_2006_raw.tif",
+    "direct_human_2006_rescaled.tif",
+    "direct_human_2007_impact.tif",
+    "direct_human_2007_raw.tif",
+    "direct_human_2007_rescaled.tif",
+    "direct_human_2008_impact.tif",
+    "direct_human_2008_raw.tif",
+    "direct_human_2008_rescaled.tif",
+    "direct_human_2009_impact.tif",
+    "direct_human_2009_raw.tif",
+    "direct_human_2009_rescaled.tif",
+    "direct_human_2010_impact.tif",
+    "direct_human_2010_raw.tif",
+    "direct_human_2010_rescaled.tif",
+    "direct_human_2011_impact.tif",
+    "direct_human_2011_raw.tif",
+    "direct_human_2011_rescaled.tif",
+    "direct_human_2012_impact.tif",
+    "direct_human_2012_raw.tif",
+    "direct_human_2012_rescaled.tif",
+    "direct_human_2013_impact.tif",
+    "direct_human_2013_raw.tif",
+    "direct_human_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F1610XPS": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "nutrient_pollution_2003-2013_trend.tif",
+    "nutrient_pollution_2003_impact.tif",
+    "nutrient_pollution_2003_raw.tif",
+    "nutrient_pollution_2003_rescaled.tif",
+    "nutrient_pollution_2004_impact.tif",
+    "nutrient_pollution_2004_raw.tif",
+    "nutrient_pollution_2004_rescaled.tif",
+    "nutrient_pollution_2005_impact.tif",
+    "nutrient_pollution_2005_raw.tif",
+    "nutrient_pollution_2005_rescaled.tif",
+    "nutrient_pollution_2006_impact.tif",
+    "nutrient_pollution_2006_raw.tif",
+    "nutrient_pollution_2006_rescaled.tif",
+    "nutrient_pollution_2007_impact.tif",
+    "nutrient_pollution_2007_raw.tif",
+    "nutrient_pollution_2007_rescaled.tif",
+    "nutrient_pollution_2008_impact.tif",
+    "nutrient_pollution_2008_raw.tif",
+    "nutrient_pollution_2008_rescaled.tif",
+    "nutrient_pollution_2009_impact.tif",
+    "nutrient_pollution_2009_raw.tif",
+    "nutrient_pollution_2009_rescaled.tif",
+    "nutrient_pollution_2010_impact.tif",
+    "nutrient_pollution_2010_raw.tif",
+    "nutrient_pollution_2010_rescaled.tif",
+    "nutrient_pollution_2011_impact.tif",
+    "nutrient_pollution_2011_raw.tif",
+    "nutrient_pollution_2011_rescaled.tif",
+    "nutrient_pollution_2012_impact.tif",
+    "nutrient_pollution_2012_raw.tif",
+    "nutrient_pollution_2012_rescaled.tif",
+    "nutrient_pollution_2013_impact.tif",
+    "nutrient_pollution_2013_raw.tif",
+    "nutrient_pollution_2013_rescaled.tif"
+   ]
+  },
+  "resource_map_doi:10.5063/F12805ZF": {
+   "index": "https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr/",
+   "files": [
+    "Recent_pace_of_change_in_human_impact_on_the.xml",
+    "organic_chemical_pollution_2003-2013_trend.tif",
+    "organic_chemical_pollution_2003_impact.tif",
+    "organic_chemical_pollution_2003_raw.tif",
+    "organic_chemical_pollution_2003_rescaled.tif",
+    "organic_chemical_pollution_2004_impact.tif",
+    "organic_chemical_pollution_2004_raw.tif",
+    "organic_chemical_pollution_2004_rescaled.tif",
+    "organic_chemical_pollution_2005_impact.tif",
+    "organic_chemical_pollution_2005_raw.tif",
+    "organic_chemical_pollution_2005_rescaled.tif",
+    "organic_chemical_pollution_2006_impact.tif",
+    "organic_chemical_pollution_2006_raw.tif",
+    "organic_chemical_pollution_2006_rescaled.tif",
+    "organic_chemical_pollution_2007_impact.tif",
+    "organic_chemical_pollution_2007_raw.tif",
+    "organic_chemical_pollution_2007_rescaled.tif",
+    "organic_chemical_pollution_2008_impact.tif",
+    "organic_chemical_pollution_2008_raw.tif",
+    "organic_chemical_pollution_2008_rescaled.tif",
+    "organic_chemical_pollution_2009_impact.tif",
+    "organic_chemical_pollution_2009_raw.tif",
+    "organic_chemical_pollution_2009_rescaled.tif",
+    "organic_chemical_pollution_2010_impact.tif",
+    "organic_chemical_pollution_2010_raw.tif",
+    "organic_chemical_pollution_2010_rescaled.tif",
+    "organic_chemical_pollution_2011_impact.tif",
+    "organic_chemical_pollution_2011_raw.tif",
+    "organic_chemical_pollution_2011_rescaled.tif",
+    "organic_chemical_pollution_2012_impact.tif",
+    "organic_chemical_pollution_2012_raw.tif",
+    "organic_chemical_pollution_2012_rescaled.tif",
+    "organic_chemical_pollution_2013_impact.tif",
+    "organic_chemical_pollution_2013_raw.tif",
+    "organic_chemical_pollution_2013_rescaled.tif"
+   ]
+  }
+ },
  "rows": {
   "ocean_slr": [
    {
     "label": "Sea level rise",
     "year": "2013",
-    "file": null
+    "file": "slr_2013_rescaled.tif"
    },
    {
     "label": "Sea level rise",
     "year": "2003",
-    "file": null
+    "file": "slr_2003_rescaled.tif"
    }
   ],
   "ocean_light": [
    {
     "label": "Light at night",
     "year": "2013",
-    "file": null
+    "file": "light_2013_rescaled.tif"
    },
    {
     "label": "Light at night",
     "year": "2003",
-    "file": null
+    "file": "light_2003_rescaled.tif"
    }
   ],
   "ocean_trawling": [
    {
     "label": "Bottom trawling and dredging",
     "year": "2013",
-    "file": null
+    "file": "commercial_fishing_demersal_destructive_2013_rescaled.tif"
    },
    {
     "label": "Bottom trawling and dredging",
     "year": "2003",
-    "file": null
+    "file": "commercial_fishing_demersal_destructive_2003_rescaled.tif"
    }
   ],
   "ocean_bycatch": [
    {
     "label": "Demersal, high bycatch",
     "year": "2013",
-    "file": null
+    "file": "commercial_fishing_demersal_nondestructive_low_bycatch_2013_rescaled.tif"
    },
    {
     "label": "Demersal, high bycatch",
     "year": "2003",
-    "file": null
+    "file": "commercial_fishing_demersal_nondestructive_low_bycatch_2003_rescaled.tif"
    },
    {
     "label": "Demersal, low bycatch",
     "year": "2013",
-    "file": null
+    "file": "commercial_fishing_demersal_nondestructive_high_bycatch_2013_rescaled.tif"
    },
    {
     "label": "Demersal, low bycatch",
     "year": "2003",
-    "file": null
+    "file": "commercial_fishing_demersal_nondestructive_high_bycatch_2003_rescaled.tif"
    },
    {
     "label": "Pelagic, high bycatch",
     "year": "2013",
-    "file": null
+    "file": "commercial_fishing_pelagic_high_bycatch_2013_rescaled.tif"
    },
    {
     "label": "Pelagic, high bycatch",
     "year": "2003",
-    "file": null
+    "file": "commercial_fishing_pelagic_high_bycatch_2003_rescaled.tif"
    },
    {
     "label": "Pelagic, low bycatch",
     "year": "2013",
-    "file": null
+    "file": "commercial_fishing_pelagic_low_bycatch_2013_rescaled.tif"
    },
    {
     "label": "Pelagic, low bycatch",
     "year": "2003",
-    "file": null
+    "file": "commercial_fishing_pelagic_low_bycatch_2003_rescaled.tif"
    }
   ],
   "ocean_coastal_people": [
    {
     "label": "People on the coast",
     "year": "2013",
-    "file": null
+    "file": "direct_human_2013_rescaled.tif"
    },
    {
     "label": "People on the coast",
     "year": "2003",
-    "file": null
+    "file": "direct_human_2003_rescaled.tif"
    }
   ],
   "ocean_runoff": [
    {
     "label": "Nutrients (fertiliser)",
     "year": "2013",
-    "file": null
+    "file": "nutrient_pollution_2013_rescaled.tif"
    },
    {
     "label": "Nutrients (fertiliser)",
     "year": "2003",
-    "file": null
+    "file": "nutrient_pollution_2003_rescaled.tif"
    },
    {
     "label": "Organic chemicals (pesticides)",
     "year": "2013",
-    "file": null
+    "file": "organic_chemical_pollution_2013_rescaled.tif"
    },
    {
     "label": "Organic chemicals (pesticides)",
     "year": "2003",
-    "file": null
+    "file": "organic_chemical_pollution_2003_rescaled.tif"
    }
   ]
  }

@@ -1,0 +1,8 @@
+{
+ "from": "urn:uuid:5b9011be-c223-4aa9-a836-275e6c518cd5",
+ "file": "commercial_fishing_pelagic_low_bycatch_2013_rescaled.tif",
+ "to_zoom": 7,
+ "squares": 9907,
+ "bytes": 7881778,
+ "how": "max"
+}

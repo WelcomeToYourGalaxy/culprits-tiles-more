@@ -1,0 +1,8 @@
+{
+ "from": "urn:uuid:f63aefc6-7577-4fcd-86cd-201877c0abb7",
+ "file": "nutrient_pollution_2003_rescaled.tif",
+ "to_zoom": 7,
+ "squares": 3099,
+ "bytes": 5413728,
+ "how": "max"
+}
