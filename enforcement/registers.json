@@ -1,8 +1,8 @@
 {
  "ea_enforcement": {
-  "rows": 8288,
-  "placed": 7603,
-  "no_postcode_in_address": 560,
+  "rows": 8228,
+  "placed": 7546,
+  "no_postcode_in_address": 557,
   "postcode_not_found": 125,
   "licence": "Open Government Licence v3.0 (the download's own licence file)"
  },
@@ -16,7 +16,7 @@
   "licence": "US government work (public domain)"
  },
  "at": 0,
- "when": "2026-10-05",
+ "when": "2026-10-06",
  "errors": {
   "canada_offenders": "No module named 'openpyxl'"
  }
