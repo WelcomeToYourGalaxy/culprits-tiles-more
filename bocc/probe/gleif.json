@@ -157,7 +157,7 @@
    "headquarters_address": {
     "language": "en",
     "addressLines": [
-     "383 MADISON AVENUE"
+     "270 Park Avenue"
     ],
     "addressNumber": null,
     "addressNumberWithinBuilding": null,
@@ -165,7 +165,7 @@
     "city": "NEW YORK",
     "region": "US-NY",
     "country": "US",
-    "postalCode": "10179"
+    "postalCode": "10017"
    }
   }
  ],
@@ -2479,6 +2479,41 @@
    }
   },
   {
+   "lei": "2138005B1SPS69QZQN02",
+   "legal_name": "CHINAAMC OFFSHORE RMB BOND ETF",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
+     "37/F BANK OF CHINA TOWER",
+     "1 GARDEN ROAD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
+     "37/F BANK OF CHINA TOWER",
+     "1 GARDEN ROAD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   }
+  },
+  {
    "lei": "213800R3XR57XV4P3H29",
    "legal_name": "CHINAAMC DIGITAL OFC",
    "status": "ACTIVE",
@@ -2536,39 +2571,6 @@
     "addressLines": [
      "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
      "37/F, BANK OF CHINA, TOWER 1 GARDEN ROAD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "CENTRAL",
-    "region": null,
-    "country": "HK",
-    "postalCode": null
-   }
-  },
-  {
-   "lei": "213800VJPVJB728QT718",
-   "legal_name": "CHINAAMC GLOBAL INVESTMENT GRADE BOND FUND",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
-     "37/F, BANK OF CHINA TOWER, 1 GARDEN ROAD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "CENTRAL",
-    "region": null,
-    "country": "HK",
-    "postalCode": null
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
-     "37/F, BANK OF CHINA TOWER, 1 GARDEN ROAD"
     ],
     "addressNumber": null,
     "addressNumberWithinBuilding": null,
@@ -6028,6 +6030,39 @@
  ],
  "Intesa Sanpaolo": [
   {
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
    "lei": "2138007AN6K7FAAWVY22",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
@@ -6129,39 +6164,6 @@
   {
    "lei": "213800Z8RDOERZACSL18",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7029,8 +7031,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800SJ9EDGYZ296T83",
+   "legal_name": "RBS AMERICAS PROPERTY CORP.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7128,8 +7130,8 @@
    }
   },
   {
-   "lei": "213800SJ9EDGYZ296T83",
-   "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
