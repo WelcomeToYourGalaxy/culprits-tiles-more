@@ -5560,7 +5560,7 @@
     "addressNumber": null,
     "addressNumberWithinBuilding": null,
     "mailRouting": null,
-    "city": "北京市",
+    "city": "BEIJING",
     "region": "CN-BJ",
     "country": "CN",
     "postalCode": "100033"
@@ -6030,41 +6030,8 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "lei": "213800SUKVY8V67W2Y36",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6129,8 +6096,8 @@
    }
   },
   {
-   "lei": "213800SUKVY8V67W2Y36",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6164,6 +6131,39 @@
   {
    "lei": "213800Z8RDOERZACSL18",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -8397,7 +8397,7 @@
     "addressNumberWithinBuilding": null,
     "mailRouting": null,
     "city": "Barcelona",
-    "region": null,
+    "region": "ES-B",
     "country": "ES",
     "postalCode": "08028"
    },
@@ -8410,7 +8410,7 @@
     "addressNumberWithinBuilding": null,
     "mailRouting": null,
     "city": "Barcelona",
-    "region": null,
+    "region": "ES-B",
     "country": "ES",
     "postalCode": "08028"
    }
