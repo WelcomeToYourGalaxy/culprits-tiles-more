@@ -21,8 +21,18 @@ shaded by the amount paid there that year.
 
 Research payments and ownership interests are separate CMS files and are not
 added here. Weekly (Mondays) or by hand.
+
+Round 188o: CMS's service takes about fifty minutes a year, so the run of
+5 October stopped at its 160-minute limit after three of seven years and drew
+nothing. Now a year once read is kept (read again only when its copy is more
+than half a year old, as CMS republishes each June), the years still to read
+are read within a time budget, and the map is drawn from every year read so
+far; the next run goes on where this one stopped (build.json "waiting").
 """
 import datetime, json, os, pathlib, re, sys, time, urllib.request
+
+START, BUDGET = time.time(), 130 * 60
+STALE_DAYS = 183
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from attacks_plain import rounded  # noqa: E402  Douglas-Peucker outline simplifier
@@ -99,19 +109,46 @@ def main():
         old = json.loads(stamp.read_text())
     except Exception:  # noqa: BLE001
         old = {}
-    status = {"read": datetime.date.today().isoformat(), "years": {}, "refused": {}}
+    status = {"read": datetime.date.today().isoformat(), "years": {}, "refused": {}, "waiting": []}
+    today = datetime.date.today()
     shapes = {}
     with urllib.request.urlopen(urllib.request.Request(CGAZ, headers={"User-Agent": UA["User-Agent"]}), timeout=300) as r:
         for f in json.loads(r.read())["features"]:
             shapes[f["properties"].get("shapeName")] = rounded(f["geometry"], 3, 0.01)
     years = general_years()
     print(f"open_payments: general payment years {list(years)}", flush=True)
+    # Years already read and recent are kept as they are; the rest, those never
+    # read first and then the oldest copies, are read while the time lasts.
+    def kept(year, ds):
+        f = OUT / "years" / f"{year}.json"
+        rec = (old.get("years") or {}).get(str(year)) or {}
+        if not f.exists() or (rec.get("dataset") and rec["dataset"] != ds):
+            return None
+        when = rec.get("read_on")
+        if when and (today - datetime.date.fromisoformat(when)).days > STALE_DAYS:
+            return None
+        return rec or {"dataset": ds, "read_on": None, "note": "read by an earlier run that stopped before writing its record"}
+    todo = []
     for year, ds in years.items():
+        rec = kept(year, ds)
+        if rec:
+            status["years"][str(year)] = rec
+        else:
+            todo.append((year, ds))
+    todo.sort(key=lambda yd: ((OUT / "years" / f"{yd[0]}.json").exists(), yd[0]))
+    for year, ds in todo:
+        if time.time() - START > BUDGET:
+            status["waiting"].append(year)
+            if (OUT / "years" / f"{year}.json").exists():
+                status["years"][str(year)] = (old.get("years") or {}).get(str(year)) or {"dataset": ds, "read_on": None}
+            continue
         try:
             rows = totals(ds)
         except Exception as e:  # noqa: BLE001
             status["refused"][year] = str(e)[:300]
             print(f"::warning::open_payments {year}: {e}", flush=True)
+            if (OUT / "years" / f"{year}.json").exists():
+                status["years"][str(year)] = (old.get("years") or {}).get(str(year)) or {"dataset": ds, "read_on": None}
             continue
         by = {}
         for r in rows:
@@ -124,8 +161,13 @@ def main():
         for st in by:
             by[st].sort(key=lambda x: -x["paid"])
         (OUT / "years" / f"{year}.json").write_text(json.dumps(by, ensure_ascii=False))
-        status["years"][year] = {"dataset": ds, "rows": len(rows), "states": len(by), "total_paid": round(sum(x["paid"] for v in by.values() for x in v))}
+        status["years"][str(year)] = {"dataset": ds, "read_on": today.isoformat(), "rows": len(rows), "states": len(by),
+                                      "total_paid": round(sum(x["paid"] for v in by.values() for x in v))}
         print(f"  {year}: {len(rows):,} state-company sums", flush=True)
+        stamp.write_text(json.dumps(status, indent=1, ensure_ascii=False))   # kept even if the run is stopped
+    if status["waiting"]:
+        print(f"::warning::open_payments: time budget spent; still to read {status['waiting']} (next run)", flush=True)
+    status["years"] = dict(sorted(status["years"].items()))
     feats, no_shape = [], set()
     for year in status["years"]:
         by = json.loads((OUT / "years" / f"{year}.json").read_text())

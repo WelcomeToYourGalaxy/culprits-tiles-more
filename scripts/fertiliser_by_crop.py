@@ -21,13 +21,24 @@ oxide (the IPCC's default), more or less with soil and climate. The map
 shows the nitrogen, as the source gives it.
 
 Monthly or by hand.
+
+Round 188o: Dryad answered 401 (Unauthorized) to the file's download on
+7 October, though it listed the files. A copy downloaded by hand from
+https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs7qh into
+fertiliser/download/ (the data CSV, or the whole "Download dataset" zip) is
+read first; without one, a refusal is written to fertiliser/build.json, not
+a failed run.
 """
-import csv, io, json, os, pathlib, re, subprocess, sys, time, urllib.parse, urllib.request
+import csv, io, json, os, pathlib, re, subprocess, sys, time, urllib.error, urllib.parse, urllib.request, zipfile
 
 OUT = pathlib.Path("fertiliser")
 DOI = "doi:10.5061/dryad.2rbnzs7qh"
 API = "https://datadryad.org/api/v2"
 UA = {"User-Agent": "Culprits atlas build (github.com/WelcomeToYourGalaxy)", "Accept": "application/json"}
+
+
+WHAT_TO_DO = ("download the data CSV (or the whole dataset as a zip) from https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs7qh "
+              "and upload it to fertiliser/download/ in culprits-tiles-more")
 
 
 def get(url, timeout=600):
@@ -61,13 +72,39 @@ def main():
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pycountry"], check=True)
     import pycountry
     OUT.mkdir(exist_ok=True)
-    listing, licence = files()
+    # A copy downloaded by hand first: the CSVs in fertiliser/download/, or in a zip there.
+    local, licence = [], "as on the Dryad page (the copy uploaded by hand)"
+    for f in sorted((OUT / "download").glob("*")):
+        if f.suffix.lower() == ".csv":
+            local.append((f.name, f.read_bytes()))
+        elif f.suffix.lower() == ".zip":
+            with zipfile.ZipFile(f) as z:
+                local += [(n.rsplit("/", 1)[-1], z.read(n)) for n in z.namelist() if n.lower().endswith(".csv")]
+    if local:
+        listing = local
+    else:
+        try:
+            listing, licence = files()
+        except urllib.error.HTTPError as e:
+            stamp.write_text(json.dumps({"built": False, "why": f"Dryad refused the file list ({e.code})", "what to do": WHAT_TO_DO}, indent=1))
+            print(f"::warning::fertiliser_by_crop: Dryad refused the file list ({e.code}); see fertiliser/build.json")
+            return
     data = [f for f in listing if re.search(r"\.csv$", f[0], re.I) and re.search(r"data", f[0], re.I)] or [f for f in listing if f[0].lower().endswith(".csv")]
     if not data:
         stamp.write_text(json.dumps({"files": listing, "found": False}, indent=1))
         sys.exit("fertiliser_by_crop: no CSV data file in the dataset; its files are in fertiliser/build.json")
     name, url = sorted(data, key=lambda f: (0 if "1_to" in f[0] else 1, f[0]))[0]
-    rows = list(csv.DictReader(io.StringIO(get(url).decode("utf-8-sig", "replace"))))
+    if isinstance(url, bytes):
+        raw, url = url, f"fertiliser/download (uploaded by hand): {name}"
+    else:
+        try:
+            raw = get(url)
+        except urllib.error.HTTPError as e:
+            stamp.write_text(json.dumps({"built": False, "file": name, "address": url, "why": f"Dryad refused the download ({e.code})",
+                                         "what to do": WHAT_TO_DO}, indent=1))
+            print(f"::warning::fertiliser_by_crop: Dryad refused the download of {name} ({e.code}); see fertiliser/build.json")
+            return
+    rows = list(csv.DictReader(io.StringIO(raw.decode("utf-8-sig", "replace"))))
     head = list(rows[0].keys()) if rows else []
     col = lambda *pats: next((h for h in head for p in pats if re.search(p, h, re.I)), None)
     c_iso, c_country, c_crop = col(r"iso"), col(r"^country"), col(r"^crop")

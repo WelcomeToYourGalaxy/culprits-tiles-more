@@ -133,8 +133,13 @@ def main():
     c_name, c_year = col(r"short case name|case name|^case"), col(r"year of initiation|^year|initiat")
     c_treaty, c_out = col(r"applicable (iia|treaty)|treaty"), col(r"outcome|status")
     names = json.loads(get(NAMES, 120))
+    # Round 188o: UNCTAD's own spellings of three places the names file lacks.
+    # The European Union is sued as a party of its own and is no one country;
+    # its cases stay listed under names_not_matched in isds/build.json.
+    unctad = {"congo, democratic republic of the": "COD", "hong kong, china sar": "HKG", "macao, china sar": "MAC"}
     def iso(n):
-        return names.get(re.sub(r"\s+", " ", str(n or "")).strip().lower())
+        k = re.sub(r"\s+", " ", str(n or "")).strip().lower()
+        return names.get(k) or unctad.get(k)
     def tally(chosen, key):
         out, unmatched = {}, set()
         for c in chosen:
