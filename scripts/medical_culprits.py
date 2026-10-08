@@ -60,6 +60,27 @@ COMPILED = [
     ("Alpha Therapeutic", "Alpha Therapeutic Corporation", BLOOD, "blood"),
     ("Armour", "Armour Pharmaceutical Company", BLOOD, "blood"),
 ]
+# Companies Wikidata gives no place for: the address in a published document,
+# placed where OpenStreetMap (Nominatim) finds that address.
+ADDRESSES = {
+    "Alpha Therapeutic Corporation": ("5555 Valley Boulevard, Los Angeles, CA 90032, USA",
+        "the address on its letterhead, 23 February 1987 (Infected Blood Inquiry document KDUD0000001)",
+        "https://www.infectedbloodinquiry.org.uk/sites/default/files/documents/KDUD0000001%20-%20Letter%20from%20Alpha%20Therapeutic%20Corporation%20to%20Pine%20Bluff%20Biological%20Products%20-%2023%20Feb%201987.pdf"),
+}
+UA = {"User-Agent": "WelcomeToYourGalaxy Culprits map (welcometoyourgalaxy@gmail.com)"}
+
+
+def geocode(q):
+    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"q": q, "format": "jsonv2", "limit": 1})
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+            got = json.loads(r.read())
+    except Exception:
+        return None
+    time.sleep(1.2)
+    return (float(got[0]["lon"]), float(got[0]["lat"])) if got else None
+
+
 GROUPS = {"settlements": "Paid to settle illegal marketing, kickbacks or false claims", "opioids": "Named in the opioid epidemic's convictions and settlements",
           "blood": "Sold blood products contaminated with HIV"}
 
@@ -250,6 +271,12 @@ def main():
     for e in entries:
         item = q.get(e["article"])
         where = at.get(item) if item else None
+        if (not where or not where[0]) and e["name"] in ADDRESSES:
+            addr, said, doc = ADDRESSES[e["name"]]
+            ll = geocode(addr)
+            if ll:
+                where = (ll, f"{addr}: {said}", addr, (where[3] if where else "") or "United States")
+                e["rec"] = dict(e["rec"], **{"address source": doc})
         if not where or not where[0]:
             unplaced.append(e["name"])
             continue
