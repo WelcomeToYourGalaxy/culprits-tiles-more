@@ -32,8 +32,8 @@
   "total_max": 100,
   "matched_by": "ticker ULVR LN exactly, then its issuer LEI",
   "lei": "549300MKFYEKVRWML317",
-  "holdings": 782,
-  "funds": 724
+  "holdings": 717,
+  "funds": 677
  },
  {
   "flid": 8415,
@@ -101,8 +101,8 @@
   "total_max": 100,
   "matched_by": "ticker PG US exactly, then its issuer LEI",
   "lei": "2572IBTT8CCZW6AU4141",
-  "holdings": 2204,
-  "funds": 1568
+  "holdings": 2009,
+  "funds": 1429
  },
  {
   "flid": 8347,
@@ -137,8 +137,8 @@
   "total_max": 100,
   "matched_by": "ticker MCD US exactly, then its issuer LEI",
   "lei": "UE2136O97NLB5BYP9H04",
-  "holdings": 2677,
-  "funds": 1483
+  "holdings": 2471,
+  "funds": 1353
  },
  {
   "flid": 8736,
@@ -184,8 +184,8 @@
   "total_max": 100,
   "matched_by": "ticker BN FP exactly, then its issuer LEI",
   "lei": "969500KMUQ2B6CBAF162",
-  "holdings": 449,
-  "funds": 428
+  "holdings": 430,
+  "funds": 407
  },
  {
   "flid": 8429,
@@ -253,8 +253,8 @@
   "total_max": 100,
   "matched_by": "ticker HSY US exactly, then its issuer LEI",
   "lei": "21X2CX66SU2BR6QTAD08",
-  "holdings": 1127,
-  "funds": 917
+  "holdings": 1092,
+  "funds": 891
  },
  {
   "flid": 8249,
@@ -278,8 +278,8 @@
   "total_max": 100,
   "matched_by": "ticker KER FP exactly, then its issuer LEI",
   "lei": "549300VGEJKB7SVUZR78",
-  "holdings": 342,
-  "funds": 310
+  "holdings": 336,
+  "funds": 308
  },
  {
   "flid": 8381,
@@ -347,7 +347,7 @@
   "total_max": 100,
   "matched_by": "ticker CA FP exactly, then its issuer LEI",
   "lei": "549300B8P6MUJ1YWTS08",
-  "holdings": 340,
+  "holdings": 342,
   "funds": 325
  },
  {
@@ -425,10 +425,7 @@
   "forest500_year": 2025,
   "total_score": 50.4334,
   "total_max": 100,
-  "matched_by": "ticker OR FP exactly, then its issuer LEI",
-  "lei": "529900JI1GG6F7RKVI53",
-  "holdings": 542,
-  "funds": 506
+  "unmatched": "holdings with the ticker OR FP give no issuer LEI"
  },
  {
   "flid": 8172,
@@ -441,8 +438,8 @@
   "total_max": 100,
   "matched_by": "ticker CL US exactly, then its issuer LEI",
   "lei": "YMEGZFW4SBUSS5BQXF88",
-  "holdings": 1360,
-  "funds": 1187
+  "holdings": 1270,
+  "funds": 1110
  },
  {
   "flid": 8102,
@@ -455,8 +452,8 @@
   "total_max": 100,
   "matched_by": "ticker COPEC exactly, then its issuer LEI",
   "lei": "549300Q3IDJYG6Z7PA50",
-  "holdings": 115,
-  "funds": 115
+  "holdings": 107,
+  "funds": 107
  },
  {
   "flid": 8108,
@@ -469,8 +466,8 @@
   "total_max": 100,
   "matched_by": "ticker ADM US exactly, then its issuer LEI",
   "lei": "549300LO13MQ9HYSTR83",
-  "holdings": 1138,
-  "funds": 905
+  "holdings": 1115,
+  "funds": 907
  },
  {
   "flid": 8505,
@@ -494,8 +491,8 @@
   "total_max": 100,
   "matched_by": "ticker MDLZ US exactly, then its issuer LEI",
   "lei": "549300DV9GIB88LZ5P30",
-  "holdings": 1606,
-  "funds": 1243
+  "holdings": 1510,
+  "funds": 1183
  },
  {
   "flid": 10454,
@@ -541,8 +538,8 @@
   "total_max": 100,
   "matched_by": "ticker KGF LN exactly, then its issuer LEI",
   "lei": "213800KBMEV7I92FY281",
-  "holdings": 330,
-  "funds": 329
+  "holdings": 356,
+  "funds": 315
  },
  {
   "flid": 8424,
@@ -599,8 +596,8 @@
   "total_max": 100,
   "matched_by": "ticker AAK SS exactly, then its issuer LEI",
   "lei": "549300GK4LGIDDWJWL07",
-  "holdings": 98,
-  "funds": 98
+  "holdings": 105,
+  "funds": 105
  },
  {
   "flid": 8741,
@@ -635,8 +632,8 @@
   "total_max": 100,
   "matched_by": "ticker BARN exactly, then its issuer LEI",
   "lei": "213800Y5RWKLDPUTT265",
-  "holdings": 169,
-  "funds": 169
+  "holdings": 180,
+  "funds": 180
  },
  {
   "flid": 8419,
@@ -704,8 +701,8 @@
   "total_max": 100,
   "matched_by": "ticker ADS GR exactly, then its issuer LEI",
   "lei": "549300JSX0Z4CW0V5023",
-  "holdings": 314,
-  "funds": 306
+  "holdings": 342,
+  "funds": 334
  },
  {
   "flid": 8307,
@@ -817,8 +814,8 @@
   "total_max": 100,
   "matched_by": "ticker PEP US exactly, then its issuer LEI",
   "lei": "FJSUNZKFNQ5YPJ5OT455",
-  "holdings": 2989,
-  "funds": 1601
+  "holdings": 2778,
+  "funds": 1514
  },
  {
   "flid": 8324,
@@ -831,8 +828,8 @@
   "total_max": 100,
   "matched_by": "ticker 4452 JP exactly, then its issuer LEI",
   "lei": "353800HM38HFCB8RGL63",
-  "holdings": 276,
-  "funds": 276
+  "holdings": 264,
+  "funds": 263
  },
  {
   "flid": 8484,
@@ -876,10 +873,7 @@
   "forest500_year": 2025,
   "total_score": 42.203,
   "total_max": 100,
-  "matched_by": "ticker SEOAY exactly, then its issuer LEI",
-  "lei": "7437000ZP669LKUTZ738",
-  "holdings": 258,
-  "funds": 245
+  "unmatched": "no fund reports a holding with the ticker SEOAY"
  },
  {
   "flid": 8749,
@@ -925,8 +919,8 @@
   "total_max": 100,
   "matched_by": "ticker 8053 JP exactly, then its issuer LEI",
   "lei": "V82KK8NH1P0JS71FJC05",
-  "holdings": 353,
-  "funds": 353
+  "holdings": 329,
+  "funds": 328
  },
  {
   "flid": 8313,
@@ -1104,8 +1098,8 @@
   "total_max": 100,
   "matched_by": "ticker BIMBOA MM exactly, then its issuer LEI",
   "lei": "5493000RIXURZEBFEV60",
-  "holdings": 154,
-  "funds": 137
+  "holdings": 143,
+  "funds": 130
  },
  {
   "flid": 8351,
@@ -1118,8 +1112,8 @@
   "total_max": 100,
   "matched_by": "ticker MC FP exactly, then its issuer LEI",
   "lei": "IOG4E947OATN0KJYSD45",
-  "holdings": 721,
-  "funds": 646
+  "holdings": 685,
+  "funds": 618
  },
  {
   "flid": 10413,
@@ -1176,8 +1170,8 @@
   "total_max": 100,
   "matched_by": "ticker KMB US exactly, then its issuer LEI",
   "lei": "MP3J6QPYPGN75NVW2S34",
-  "holdings": 1246,
-  "funds": 951
+  "holdings": 1230,
+  "funds": 957
  },
  {
   "flid": 8207,
@@ -1201,8 +1195,8 @@
   "total_max": 100,
   "matched_by": "ticker HEN GR exactly, then its issuer LEI",
   "lei": "549300VZCL1HTH4O4Y49",
-  "holdings": 586,
-  "funds": 387
+  "holdings": 550,
+  "funds": 356
  },
  {
   "flid": 8724,
@@ -1248,8 +1242,8 @@
   "total_max": 100,
   "matched_by": "ticker YUM US exactly, then its issuer LEI",
   "lei": "549300JE8XHZZ7OHN517",
-  "holdings": 1327,
-  "funds": 1065
+  "holdings": 1252,
+  "funds": 997
  },
  {
   "flid": 8538,
@@ -1273,8 +1267,8 @@
   "total_max": 100,
   "matched_by": "ticker ITX SM exactly, then its issuer LEI",
   "lei": "549300TTCXZOGZM2EY83",
-  "holdings": 484,
-  "funds": 481
+  "holdings": 461,
+  "funds": 459
  },
  {
   "flid": 8131,
@@ -1298,8 +1292,8 @@
   "total_max": 100,
   "matched_by": "ticker 2802 JP exactly, then its issuer LEI",
   "lei": "353800UT0TLROREPIC92",
-  "holdings": 294,
-  "funds": 294
+  "holdings": 310,
+  "funds": 310
  },
  {
   "flid": 8338,
@@ -1345,8 +1339,8 @@
   "total_max": 100,
   "matched_by": "ticker SBUX US exactly, then its issuer LEI",
   "lei": "OQSJ1DU9TAOC51A47K68",
-  "holdings": 1938,
-  "funds": 1246
+  "holdings": 1741,
+  "funds": 1192
  },
  {
   "flid": 8336,
@@ -1381,8 +1375,8 @@
   "total_max": 100,
   "matched_by": "ticker CAG US exactly, then its issuer LEI",
   "lei": "54930035UDEIH090K650",
-  "holdings": 1228,
-  "funds": 901
+  "holdings": 1023,
+  "funds": 708
  },
  {
   "flid": 8224,
@@ -1439,8 +1433,8 @@
   "total_max": 100,
   "matched_by": "ticker WMT US exactly, then its issuer LEI",
   "lei": "Y87794H0US1R65VBXU25",
-  "holdings": 2823,
-  "funds": 1750
+  "holdings": 2705,
+  "funds": 1633
  },
  {
   "flid": 8705,
@@ -1486,8 +1480,8 @@
   "total_max": 100,
   "matched_by": "ticker TSCO LN exactly, then its issuer LEI",
   "lei": "2138002P5RNKC5W2JZ46",
-  "holdings": 420,
-  "funds": 417
+  "holdings": 393,
+  "funds": 389
  },
  {
   "flid": 8492,
@@ -1588,8 +1582,8 @@
   "total_max": 100,
   "matched_by": "ticker GIS US exactly, then its issuer LEI",
   "lei": "2TGYMUGI08PO8X8L6150",
-  "holdings": 1375,
-  "funds": 998
+  "holdings": 1213,
+  "funds": 883
  },
  {
   "flid": 8428,
@@ -1690,8 +1684,8 @@
   "total_max": 100,
   "matched_by": "ticker LEA US exactly, then its issuer LEI",
   "lei": "549300UPNBTXA1SYTQ33",
-  "holdings": 721,
-  "funds": 597
+  "holdings": 737,
+  "funds": 612
  },
  {
   "flid": 10466,
@@ -1737,8 +1731,8 @@
   "total_max": 100,
   "matched_by": "ticker BEI GR exactly, then its issuer LEI",
   "lei": "L47NHHI0Z9X22DV46U41",
-  "holdings": 258,
-  "funds": 258
+  "holdings": 266,
+  "funds": 266
  },
  {
   "flid": 8434,
@@ -2013,7 +2007,10 @@
   "forest500_year": 2025,
   "total_score": 26.8126666666667,
   "total_max": 100,
-  "unmatched": "holdings with the ticker 1925 JP give no issuer LEI"
+  "matched_by": "ticker 1925 JP exactly, then its issuer LEI",
+  "lei": "353800K9WXR9XRZJZI46",
+  "holdings": 268,
+  "funds": 268
  },
  {
   "flid": 8365,
@@ -2037,8 +2034,8 @@
   "total_max": 100,
   "matched_by": "ticker SGO FP exactly, then its issuer LEI",
   "lei": "NFONVGN05Z0FMN5PEC35",
-  "holdings": 476,
-  "funds": 440
+  "holdings": 451,
+  "funds": 418
  },
  {
   "flid": 8081,
@@ -2194,8 +2191,8 @@
   "total_max": 100,
   "matched_by": "ticker CPF TB exactly, then its issuer LEI",
   "lei": "529900FJ3AI2GKGIWK15",
-  "holdings": 124,
-  "funds": 118
+  "holdings": 104,
+  "funds": 98
  },
  {
   "flid": 8472,
@@ -2241,8 +2238,8 @@
   "total_max": 100,
   "matched_by": "ticker 1928 JP exactly, then its issuer LEI",
   "lei": "529900GMNDOYQSAJAE76",
-  "holdings": 258,
-  "funds": 258
+  "holdings": 262,
+  "funds": 262
  },
  {
   "flid": 8312,
@@ -2354,8 +2351,8 @@
   "total_max": 100,
   "matched_by": "ticker 8058 JP exactly, then its issuer LEI",
   "lei": "KVIPTY4PULAPGC1VVD26",
-  "holdings": 380,
-  "funds": 354
+  "holdings": 388,
+  "funds": 364
  },
  {
   "flid": 8180,
@@ -2390,8 +2387,8 @@
   "total_max": 100,
   "matched_by": "ticker TSN US exactly, then its issuer LEI",
   "lei": "WD6L6041MNRW1JE49D58",
-  "holdings": 1293,
-  "funds": 996
+  "holdings": 1202,
+  "funds": 945
  },
  {
   "flid": 8713,
@@ -2569,7 +2566,7 @@
   "total_max": 100,
   "matched_by": "ticker VFC US exactly, then its issuer LEI",
   "lei": "CWAJJ9DJ5Z7P057HV541",
-  "holdings": 553,
+  "holdings": 532,
   "funds": 461
  },
  {
@@ -2663,8 +2660,8 @@
   "total_max": 100,
   "matched_by": "ticker KR US exactly, then its issuer LEI",
   "lei": "6CPEOKI6OYJ13Q6O7870",
-  "holdings": 1858,
-  "funds": 1203
+  "holdings": 1756,
+  "funds": 1136
  },
  {
   "flid": 8557,
@@ -2688,8 +2685,8 @@
   "total_max": 100,
   "matched_by": "ticker TGT US exactly, then its issuer LEI",
   "lei": "8WDDFXB5T1Z6J0XC1L66",
-  "holdings": 1579,
-  "funds": 1093
+  "holdings": 1552,
+  "funds": 1085
  },
  {
   "flid": 10401,
@@ -2845,8 +2842,8 @@
   "total_max": 100,
   "matched_by": "ticker CPB US exactly, then its issuer LEI",
   "lei": "5493007JDSMX8Z5Z1902",
-  "holdings": 1156,
-  "funds": 836
+  "holdings": 940,
+  "funds": 648
  },
  {
   "flid": 8401,
@@ -2870,8 +2867,8 @@
   "total_max": 100,
   "matched_by": "ticker LOW US exactly, then its issuer LEI",
   "lei": "WAFCR4OKGSC504WU3E95",
-  "holdings": 3238,
-  "funds": 1581
+  "holdings": 2899,
+  "funds": 1426
  },
  {
   "flid": 8270,
@@ -2972,8 +2969,8 @@
   "total_max": 100,
   "matched_by": "ticker NKE US exactly, then its issuer LEI",
   "lei": "787RXPR0UX0O0XUXPZ81",
-  "holdings": 1199,
-  "funds": 1016
+  "holdings": 1052,
+  "funds": 891
  },
  {
   "flid": 8293,
@@ -3041,8 +3038,8 @@
   "total_max": 100,
   "matched_by": "ticker HRL US exactly, then its issuer LEI",
   "lei": "MSD54751OJP1FS2ND863",
-  "holdings": 707,
-  "funds": 635
+  "holdings": 639,
+  "funds": 587
  },
  {
   "flid": 8507,
@@ -3132,8 +3129,8 @@
   "total_max": 100,
   "matched_by": "ticker HD US exactly, then its issuer LEI",
   "lei": "QEKMOTMBBKA8I816DO57",
-  "holdings": 3616,
-  "funds": 1722
+  "holdings": 3294,
+  "funds": 1582
  },
  {
   "flid": 8183,
@@ -3157,8 +3154,8 @@
   "total_max": 100,
   "matched_by": "ticker ABF LN exactly, then its issuer LEI",
   "lei": "GBQKSY6W7G0OHCQ8OQ72",
-  "holdings": 234,
-  "funds": 233
+  "holdings": 226,
+  "funds": 225
  },
  {
   "flid": 10425,
@@ -3600,8 +3597,8 @@
   "total_max": 100,
   "matched_by": "ticker 7936 JP exactly, then its issuer LEI",
   "lei": "3538002LJMRZ83SU0B85",
-  "holdings": 364,
-  "funds": 364
+  "holdings": 366,
+  "funds": 365
  },
  {
   "flid": 8294,
@@ -3856,8 +3853,8 @@
   "total_max": 100,
   "matched_by": "ticker SYY exactly, then its issuer LEI",
   "lei": "5RGWIFLMGH3YS7KWI652",
-  "holdings": 1867,
-  "funds": 1237
+  "holdings": 1711,
+  "funds": 1120
  },
  {
   "flid": 8480,
@@ -4275,7 +4272,10 @@
   "forest500_year": 2025,
   "total_score": 8.5,
   "total_max": 100,
-  "unmatched": "holdings with the ticker 2801 JP give no issuer LEI"
+  "matched_by": "ticker 2801 JP exactly, then its issuer LEI",
+  "lei": "529900T9K5UH9HXOND47",
+  "holdings": 161,
+  "funds": 161
  },
  {
   "flid": 8155,
@@ -4695,8 +4695,8 @@
   "total_max": 100,
   "matched_by": "ticker UBSG exactly, then its issuer LEI",
   "lei": "549300SZJ9VS8SGXAN81",
-  "holdings": 3374,
-  "funds": 1350
+  "holdings": 3201,
+  "funds": 1329
  },
  {
   "flid": 8135,
@@ -4731,8 +4731,8 @@
   "total_max": 100,
   "matched_by": "ticker CENCOSUD CI exactly, then its issuer LEI",
   "lei": "549300NLTGCFV7482429",
-  "holdings": 176,
-  "funds": 165
+  "holdings": 158,
+  "funds": 145
  },
  {
   "flid": 8530,

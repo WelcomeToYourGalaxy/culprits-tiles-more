@@ -1,10 +1,10 @@
 {
- "quarter": "2026q2",
+ "quarter": "2026q3",
  "forest500_year": 2025,
  "forest500_companies": 767,
  "matched": 53,
- "holdings": 53560,
- "funds": 5507,
+ "holdings": 49688,
+ "funds": 5272,
  "tables_in_file": [
   "BORROWER",
   "BORROW_AGGREGATE",
@@ -186,6 +186,11 @@
    "why": "no fund reports a holding with the ticker INVI65"
   },
   {
+   "company": "L'Oréal Groupe",
+   "ticker": "OR FP",
+   "why": "holdings with the ticker OR FP give no issuer LEI"
+  },
+  {
    "company": "Tetra Laval",
    "ticker": "CO2921",
    "why": "no fund reports a holding with the ticker CO2921"
@@ -319,6 +324,11 @@
    "company": "FrieslandCampina N.V.",
    "ticker": "COOP 4",
    "why": "no fund reports a holding with the ticker COOP 4"
+  },
+  {
+   "company": "Stora Enso",
+   "ticker": "SEOAY",
+   "why": "no fund reports a holding with the ticker SEOAY"
   },
   {
    "company": "Mitsubishi UFJ Financial Group (MUFG)",
@@ -734,11 +744,6 @@
    "company": "Puma SE",
    "ticker": "CDP 15345",
    "why": "no fund reports a holding with the ticker CDP 15345"
-  },
-  {
-   "company": "Daiwa House Group",
-   "ticker": "1925 JP",
-   "why": "holdings with the ticker 1925 JP give no issuer LEI"
   },
   {
    "company": "Mercedes-Benz Group",
@@ -1654,11 +1659,6 @@
    "company": "Spectrum Brands Holdings Inc",
    "ticker": "FL 4488",
    "why": "no fund reports a holding with the ticker FL 4488"
-  },
-  {
-   "company": "Kikkoman Corp.",
-   "ticker": "2801 JP",
-   "why": "holdings with the ticker 2801 JP give no issuer LEI"
   },
   {
    "company": "Chanel SA",
