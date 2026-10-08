@@ -105,10 +105,29 @@ def main():
             return
         raw = dest
     path = str(raw)
+    # Round 191o: the museum's zip holds another zip (and a manifest), with
+    # the GeoTIFFs inside that one; open zips inside zips, up to three deep.
+    seen = []
+    for _ in range(3):
+        if not path.endswith(".zip"):
+            break
+        z = zipfile.ZipFile(path)
+        listing = z.namelist()
+        seen.append({"zip": os.path.basename(path), "holds": listing[:40]})
+        if any(n.lower().endswith((".tif", ".tiff")) for n in listing):
+            break
+        inner = [n for n in listing if n.lower().endswith(".zip")]
+        if not inner:
+            break
+        out = pathlib.Path(tempfile.mkdtemp())
+        path = str(pathlib.Path(z.extract(max(inner, key=lambda n: z.getinfo(n).file_size), out)))
+    info["zips_opened"] = seen
     if path.endswith(".zip"):
         names = [n for n in zipfile.ZipFile(path).namelist() if n.lower().endswith((".tif", ".tiff"))]
         if not names:
-            raise SystemExit(f"{ROW}: the zip holds no GeoTIFF ({zipfile.ZipFile(path).namelist()[:20]})")
+            info.update(built=False, why="no GeoTIFF inside the zips; zips_opened lists what they hold")
+            stamp.write_text(json.dumps(info, indent=1, ensure_ascii=False))
+            raise SystemExit(f"{ROW}: the zip holds no GeoTIFF ({seen})")
         names.sort(key=lambda n: max([int(y) for y in re.findall(r"(?<!\d)(19\d\d|20\d\d)(?!\d)", n)] or [0]))
         info["tif_in_zip"] = names[-1]
         path = f"/vsizip/{path}/{names[-1]}"
