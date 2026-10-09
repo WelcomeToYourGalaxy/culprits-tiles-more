@@ -214,7 +214,7 @@ https://unpkg.com/esri-leaflet/dist/esri-leaflet.js
 https://unpkg.com/leaflet@1.9.2/dist/leaflet.css
 https://unpkg.com/leaflet@1.9.2/dist/leaflet.js
 https://urgewald.org
-https://use.fontawesome.com/releases/v5.2.0/css/all.css?ver=7.0.5
+https://use.fontawesome.com/releases/v5.2.0/css/all.css?ver=7.1.3
 https://use.typekit.net/hda8tbm.css
 https://uucorvallis.org/
 https://uujec.net
@@ -265,7 +265,7 @@ https://www.bankingonclimatechaos.org/frontline-stories/wangan-and-jagalingou-cu
 https://www.bankingonclimatechaos.org/methodology-2026
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/favicon.ico
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/css/banking_on_climate_change_2025.css
-https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/css/bootstrap.min.css?ver=7.0.5
+https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/css/bootstrap.min.css?ver=7.1.3
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/css/flag-icon.css
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/fonts/harmonia-2022.css
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/images/bcc2020/2020-bcc-logos_10.gif
@@ -283,13 +283,13 @@ https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/ima
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/images/shawna-headshot_square.jpg
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/bocc-2026-charts.js?v=3
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/bocc-2026-maps.js
-https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/bootstrap.min.js?ver=7.0.5
+https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/bootstrap.min.js?ver=7.1.3
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/divResizer.js
-https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/popper.min.js?ver=7.0.5
-https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/ran.js?ver=7.0.5
+https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/popper.min.js?ver=7.1.3
+https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/ran.js?ver=7.1.3
 https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/skip-link-focus-fix.js?ver=20151215
-https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/theme-script.js?ver=7.0.5
-https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/style.css?ver=7.0.5
+https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/inc/assets/js/theme-script.js?ver=7.1.3
+https://www.bankingonclimatechaos.org/wp-content/themes/bocc-2021/style.css?ver=7.1.3
 https://www.bankingonclimatechaos.org/wp-content/uploads/2022/03/LNG-Cameron-Calcasieu-Pass10-800x473.jpg
 https://www.bankingonclimatechaos.org/wp-content/uploads/2022/04/Credit_-Will-Bozian-800x533.jpeg
 https://www.bankingonclimatechaos.org/wp-content/uploads/2022/07/51723906205_33305fff4d_k-800x533.jpg
@@ -310,7 +310,7 @@ https://www.bankingonclimatechaos.org/wp-content/uploads/2026/08/BOCC_2026_ExecS
 https://www.bankingonclimatechaos.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
 https://www.bankingonclimatechaos.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
 https://www.bankingonclimatechaos.org/wp-includes/js/wp-emoji-loader.min.js
-https://www.bankingonclimatechaos.org/wp-includes/js/wp-emoji-release.min.js?ver=7.0.5
+https://www.bankingonclimatechaos.org/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3
 https://www.bankingonclimatechaos.org/wp-json/
 https://www.bankingonclimatechaos.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bankingonclimatechaos.org%2F
 https://www.bankingonclimatechaos.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bankingonclimatechaos.org%2F&#038;format=xml
