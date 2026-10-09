@@ -8,10 +8,10 @@
    5508
   ],
   "england_ea_enforcement": [
-   295875
+   335370
   ],
   "us_epa_echo_downloads": [
-   99202
+   99708
   ],
   "peru_oefa_sanctioned": [
    "HTTP Error 404: Not Found"
@@ -21,14 +21,14 @@
   ],
   "chile_sma_sanctions": [
    3964,
-   3984
+   3979
   ],
   "mexico_profepa": [
    "HTTP Error 403: Forbidden",
    "HTTP Error 403: Forbidden"
   ],
   "colombia_sanctions": [
-   18427,
+   18425,
    129
   ],
   "ireland_epa": [
@@ -44,13 +44,13 @@
    69724
   ]
  },
- "at": 1790901397.8066885,
- "when": "2026-10-02",
+ "at": 1791555809.4152474,
+ "when": "2026-10-09",
  "ibama_embargos": {
-  "rows": 113878,
-  "placed": 92021,
-  "no_position": 21857,
-  "from": "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.csv"
+  "rows": 116763,
+  "placed": 94883,
+  "no_position": 21880,
+  "from": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/TERMOS_DE_EMBARGO/TERMO_EMBARGO/termo_de_embargo.csv"
  },
  "ibama_infractions": {
   "rows": 16262,
