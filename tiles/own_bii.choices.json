@@ -1,0 +1,50 @@
+{
+ "choices": [
+  {
+   "label": "latest year in the file",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_bii.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0 to 10 (of 100: the original community left)"
+    ],
+    [
+     "#C6E7F0",
+     "10 to 20 (of 100: the original community left)"
+    ],
+    [
+     "#9CD6E6",
+     "20 to 30 (of 100: the original community left)"
+    ],
+    [
+     "#6FC2DA",
+     "30 to 40 (of 100: the original community left)"
+    ],
+    [
+     "#46AACB",
+     "40 to 50 (of 100: the original community left)"
+    ],
+    [
+     "#2E8FBA",
+     "50 to 60 (of 100: the original community left)"
+    ],
+    [
+     "#2275A8",
+     "60 to 70 (of 100: the original community left)"
+    ],
+    [
+     "#1A5C92",
+     "70 to 80 (of 100: the original community left)"
+    ],
+    [
+     "#13447A",
+     "80 to 90 (of 100: the original community left)"
+    ],
+    [
+     "#0C2E5E",
+     "90 to 100 (of 100: the original community left)"
+    ]
+   ]
+  }
+ ]
+}
