@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "OCER"
+ ],
+ "hectares": 24818916.0,
+ "to_zoom": 5,
+ "squares": 268,
+ "bytes": 618709,
+ "how": "max"
+}

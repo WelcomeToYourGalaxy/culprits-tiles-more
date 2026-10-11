@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "BEAN"
+ ],
+ "hectares": 30106728.0,
+ "to_zoom": 5,
+ "squares": 245,
+ "bytes": 632960,
+ "how": "max"
+}

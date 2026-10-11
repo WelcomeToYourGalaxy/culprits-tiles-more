@@ -1,0 +1,92 @@
+{
+ "layer": "sports",
+ "places": 6227451,
+ "detail_from": 8,
+ "release": "2026-09-23.1",
+ "groups": {
+  "gyms and sports centres": 1546126,
+  "other sports places": 1030655,
+  "rinks and snow": 142367,
+  "golf": 82921,
+  "stadiums and arenas": 169355,
+  "pools and water": 81473,
+  "courts": 52787,
+  "pitches and fields": 2960991,
+  "tracks and racecourses": 160776
+ },
+ "parts": [
+  {
+   "file": "sports_facilities.pmtiles",
+   "from": 0,
+   "to": 1,
+   "bytes": 158893
+  },
+  {
+   "file": "sports_facilities_z2.pmtiles",
+   "from": 2,
+   "to": 3,
+   "bytes": 863254
+  },
+  {
+   "file": "sports_facilities_z4.pmtiles",
+   "from": 4,
+   "to": 5,
+   "bytes": 4496506
+  },
+  {
+   "file": "sports_facilities_z6.pmtiles",
+   "from": 6,
+   "to": 7,
+   "bytes": 16273384
+  },
+  {
+   "file": "sports_facilities_z8_4.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 61481484,
+   "bounds": [
+    -180.0,
+    -85.05,
+    -75.3364,
+    85.05
+   ]
+  },
+  {
+   "file": "sports_facilities_z8_5.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 61509101,
+   "bounds": [
+    -75.3364,
+    -85.05,
+    4.1335,
+    85.05
+   ]
+  },
+  {
+   "file": "sports_facilities_z8_6.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 62248139,
+   "bounds": [
+    4.1335,
+    -85.05,
+    23.8484,
+    85.05
+   ]
+  },
+  {
+   "file": "sports_facilities_z8_7.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 65502823,
+   "bounds": [
+    23.8484,
+    -85.05,
+    180.0,
+    85.05
+   ]
+  }
+ ],
+ "date": "2026-09-30"
+}

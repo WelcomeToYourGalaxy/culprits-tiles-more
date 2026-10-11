@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "RAPE"
+ ],
+ "hectares": 35682240.0,
+ "to_zoom": 5,
+ "squares": 207,
+ "bytes": 489621,
+ "how": "max"
+}

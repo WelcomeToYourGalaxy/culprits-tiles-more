@@ -1,0 +1,71 @@
+{
+ "points_merged": false,
+ "points_whole": true,
+ "points_at_world_view": true,
+ "tile_bytes": 500000,
+ "points_to": 6,
+ "zoom": 13,
+ "outlines": 79,
+ "record": {
+  "title": "Global Landside Clustering of Aquaculture Ponds Distribution Acquired from Dense Time-Series Sentinel-2 Images by Google Earth Engine",
+  "licence": null,
+  "doi": "10.5281/zenodo.5643036",
+  "creators": [
+   {
+    "name": "WangZhihua",
+    "affiliation": null
+   },
+   {
+    "name": "ZhangJunyao",
+    "affiliation": null
+   },
+   {
+    "name": "YangXiaomei",
+    "affiliation": null
+   },
+   {
+    "name": "SuFenzhen",
+    "affiliation": null
+   },
+   {
+    "name": "LiuYueming",
+    "affiliation": null
+   },
+   {
+    "name": "LiuBin",
+    "affiliation": null
+   },
+   {
+    "name": "LiuXiaoliang",
+    "affiliation": null
+   }
+  ]
+ },
+ "files_in_release": {
+  "GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Africa/aqu_AF_ds.shp": "INFO: Open of `/tmp/tmp3uenbj1i/GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Africa/aqu_AF_ds.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: aqu_AF_ds\nMetadata:\n  DBF_DATE_LAST_UPDATE=2021-11-03\nGeometry: Polygon\nFeature Count: 13\nExtent: (-1480346.472859, -3536249.558954) - (5481829.151797, 3833856.216975)\nLayer SRS WKT:\nPROJCRS[\"World_Cylindrical_Equal_Area\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"World_Cylindrical_Equal_Area\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"World.\"],\n        BBOX[-90,-180,90,180]],\n    ID[\"ESRI\",54034]]\nData axis to CRS axis mapping: 1,2\nNAME_0: String (80.0)\n",
+  "GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Asia/aqu_AS_ds.shp": "INFO: Open of `/tmp/tmp3uenbj1i/GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Asia/aqu_AS_ds.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: aqu_AS_ds\nMetadata:\n  DBF_DATE_LAST_UPDATE=2021-11-03\nGeometry: Polygon\nFeature Count: 30\nExtent: (2944160.561034, -1149287.527346) - (14782551.461898, 4698133.625243)\nLayer SRS WKT:\nPROJCRS[\"World_Cylindrical_Equal_Area\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"World_Cylindrical_Equal_Area\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"World.\"],\n        BBOX[-90,-180,90,180]],\n    ID[\"ESRI\",54034]]\nData axis to CRS axis mapping: 1,2\nNAME_0: String (80.0)\n",
+  "GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Europe/aqu_EU_ds.shp": "INFO: Open of `/tmp/tmp3uenbj1i/GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Europe/aqu_EU_ds.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: aqu_EU_ds\nMetadata:\n  DBF_DATE_LAST_UPDATE=2021-11-03\nGeometry: Polygon\nFeature Count: 15\nExtent: (-1004000.289146, 3745408.313295) - (5378902.750961, 5231621.178103)\nLayer SRS WKT:\nPROJCRS[\"World_Cylindrical_Equal_Area\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"World_Cylindrical_Equal_Area\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"World.\"],\n        BBOX[-90,-180,90,180]],\n    ID[\"ESRI\",54034]]\nData axis to CRS axis mapping: 1,2\nNAME_0: String (80.0)\n",
+  "GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/NorthAmerica/aqu_NA_ds.shp": "INFO: Open of `/tmp/tmp3uenbj1i/GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/NorthAmerica/aqu_NA_ds.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: aqu_NA_ds\nMetadata:\n  DBF_DATE_LAST_UPDATE=2021-11-03\nGeometry: Polygon\nFeature Count: 9\nExtent: (-13645637.327164, 814235.461283) - (-8533719.488462, 3926815.428839)\nLayer SRS WKT:\nPROJCRS[\"World_Cylindrical_Equal_Area\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"World_Cylindrical_Equal_Area\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"World.\"],\n        BBOX[-90,-180,90,180]],\n    ID[\"ESRI\",54034]]\nData axis to CRS axis mapping: 1,2\nNAME_0: String (80.0)\n",
+  "GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Oceania/aqu_OA_ds.shp": "INFO: Open of `/tmp/tmp3uenbj1i/GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/Oceania/aqu_OA_ds.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: aqu_OA_ds\nMetadata:\n  DBF_DATE_LAST_UPDATE=2021-11-03\nGeometry: Polygon\nFeature Count: 3\nExtent: (12616412.534286, -4361266.710304) - (19389464.490413, -1372648.115117)\nLayer SRS WKT:\nPROJCRS[\"World_Cylindrical_Equal_Area\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"World_Cylindrical_Equal_Area\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"World.\"],\n        BBOX[-90,-180,90,180]],\n    ID[\"ESRI\",54034]]\nData axis to CRS axis mapping: 1,2\nNAME_0: String (80.0)\n",
+  "GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/SouthAmerica/aqu_SA_ds.shp": "INFO: Open of `/tmp/tmp3uenbj1i/GlobalAquaculturePonds_unzipped/GlobalAquaculturePonds/SouthAmerica/aqu_SA_ds.shp'\n      using driver `ESRI Shapefile' successful.\n\nLayer name: aqu_SA_ds\nMetadata:\n  DBF_DATE_LAST_UPDATE=2021-11-03\nGeometry: Polygon\nFeature Count: 9\nExtent: (-9013552.725113, -2725368.798706) - (-3880266.956070, 1293241.145291)\nLayer SRS WKT:\nPROJCRS[\"World_Cylindrical_Equal_Area\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"World_Cylindrical_Equal_Area\",\n        METHOD[\"Lambert Cylindrical Equal Area\",\n            ID[\"EPSG\",9835]],\n        PARAMETER[\"Latitude of 1st standard parallel\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Not known.\"],\n        AREA[\"World.\"],\n        BBOX[-90,-180,90,180]],\n    ID[\"ESRI\",54034]]\nData axis to CRS axis mapping: 1,2\nNAME_0: String (80.0)\n"
+ },
+ "parts": [
+  {
+   "file": "aquaculture_ponds.pmtiles",
+   "from": 7,
+   "to": 13,
+   "points": true,
+   "bytes": 40888211
+  }
+ ],
+ "outlines_by_zoom": {
+  "7": 78,
+  "8": 78,
+  "9": 79,
+  "10": 79,
+  "11": 79,
+  "12": 79,
+  "13": 79
+ },
+ "no_outline_at_closest_zoom": []
+}

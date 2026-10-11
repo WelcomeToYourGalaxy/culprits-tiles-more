@@ -1,0 +1,353 @@
+{
+"AGO": {
+"name": "Angola",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 53847201,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2242555,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3333,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 92543190
+},
+"ARG": {
+"name": "Argentina",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Cattle, Soy, Timber",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 38380241,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 3168599,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.05,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 27137000
+},
+"BOL": {
+"name": "Bolivia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 62714153,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 4176062,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3448,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 50771160
+},
+"BRA": {
+"name": "Brazil",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 498198382,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 33227585,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.1086,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 701583000
+},
+"KHM": {
+"name": "Cambodia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 7641740,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1810951,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 7786400
+},
+"CMR": {
+"name": "Cameroon",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 30543474,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1231656,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3962,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 20279380
+},
+"COL": {
+"name": "Colombia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 81738198,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2757224,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.0287,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 58714510
+},
+"CIV": {
+"name": "Côte d'Ivoire",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 13953284,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2382074,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.2,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 4124270
+},
+"COD": {
+"name": "Democratic Republic of the Congo",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 198452936,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 11811128,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.073,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 208849010
+},
+"ECU": {
+"name": "Ecuador",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 19227280,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 499395,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.0566,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 12386790
+},
+"ETH": {
+"name": "Ethiopia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 12361078,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 268574,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.25,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 15865200
+},
+"GAB": {
+"name": "Gabon",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 24699923,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 313151,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3028,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 23500590
+},
+"GHA": {
+"name": "Ghana",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 7034627,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 962135,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": "Not Available",
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 8073610
+},
+"GTM": {
+"name": "Guatemala",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 7034117,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 873470,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3333,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 4033950
+},
+"GIN": {
+"name": "Guinea",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 8023664,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1511482,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": "Not Available",
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 6195000
+},
+"HND": {
+"name": "Honduras",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 7554766,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 835554,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.4286,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 6359260
+},
+"IND": {
+"name": "India",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 34435273,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1327044,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.0588,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 74592000
+},
+"IDN": {
+"name": "Indonesia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 157793272,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 16943349,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.1838,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 132347500
+},
+"LAO": {
+"name": "Laos",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 17941851,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2934142,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.5556,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 14824250
+},
+"LBR": {
+"name": "Liberia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 9283496,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1601208,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.4,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 7590410
+},
+"MDG": {
+"name": "Madagascar",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 16436355,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 3171819,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3529,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 15067810
+},
+"MYS": {
+"name": "Malaysia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 28632041,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 5105939,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.2857,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 18503080
+},
+"MEX": {
+"name": "Mexico",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 50346718,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2582788,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.0667,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 97631860
+},
+"MOZ": {
+"name": "Mozambique",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 26973824,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2279406,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": "Not Available",
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 36669490
+},
+"MMR": {
+"name": "Myanmar",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 40919357,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 3006283,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.4151,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 31309630
+},
+"NIC": {
+"name": "Nicaragua",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 7622239,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1059309,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.5,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 3341270
+},
+"NGA": {
+"name": "Nigeria",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 10934411,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 823795,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.3333,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 21410680
+},
+"PAN": {
+"name": "Panama",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 5545904,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 231646,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.1333,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 4148100
+},
+"PNG": {
+"name": "Papua New Guinea",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 42921261,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1125224,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.2063,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 35795570
+},
+"PRY": {
+"name": "Paraguay",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 20452833,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 3849814,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.7955,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 15946600
+},
+"PER": {
+"name": "Peru",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 78780800,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2380189,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.1023,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 71241900
+},
+"PHL": {
+"name": "Philippines",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 18391765,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 864404,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 7669070
+},
+"SUR": {
+"name": "Suriname",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Palm, Timber",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 13997728,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 156518,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.1308,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 30015430
+},
+"TZA": {
+"name": "Tanzania",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 24703916,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1770847,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 73699970
+},
+"THA": {
+"name": "Thailand",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 19272251,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1438051,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.1053,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 16336000
+},
+"VEN": {
+"name": "Venezuela",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Palm",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 57273646,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1275155,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.0319,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 89745500
+},
+"VNM": {
+"name": "Vietnam",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 16371754,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 2343893,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0.25,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 10373720
+},
+"ZMB": {
+"name": "Zambia",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 22436285,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 1387154,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": "Not Available",
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 44761910
+},
+"UGA": {
+"name": "Uganda",
+"x_Forest Type": "Trop",
+"x_Important FRC Drivers of Deforestation": "Timber, Cattle, Soy",
+"x_Forest Cover 2010 (NB Gain not accounted for) (canopy cover >30%)(1000ha) - Hansen et al. (2010)": 6926895,
+"x_Deforested Area 2010-2018 (NB Gain not accounted for) (canopy cover >30%) (1000ha) - Hansen et al. (2019)": 692530,
+"x_IFL area reduction 2000–2013 (canopy cover >20%) (%) - Potapov et al. (2017)": 0,
+"x_Natural forest area (canopy cover >10%) (1000ha) - FAO FRA (2015)": 1872750
+}
+}

@@ -1,0 +1,35 @@
+{
+ "us_tri": {
+  "ok": true,
+  "at": 1791225887.7495403,
+  "when": "2026-10-05",
+  "plants": 339,
+  "vinyl_chloride": 37
+ },
+ "eu_prtr": {
+  "ok": false,
+  "error": "no facility table with a position and a main activity",
+  "tried": "2026-10-11"
+ },
+ "ct_crack": {
+  "ok": true,
+  "at": 1791225889.21901,
+  "when": "2026-10-05",
+  "plants": 241,
+  "vinyl_chloride": 0
+ },
+ "osm": {
+  "ok": true,
+  "at": 1791226140.15764,
+  "when": "2026-10-05",
+  "plants": 822,
+  "vinyl_chloride": 12
+ },
+ "wikidata": {
+  "ok": true,
+  "at": 1791226178.8257399,
+  "when": "2026-10-05",
+  "plants": 34,
+  "vinyl_chloride": 6
+ }
+}

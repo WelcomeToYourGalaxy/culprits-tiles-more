@@ -1,0 +1,898 @@
+{
+ "read": "2026-10-05",
+ "download": "b02f8a56bfbebf2f5f5d3ef0634e46b4714e0502e2d541aa20d71cb7a47785b0",
+ "files": [
+  "gem/coal/download/Global Coal Mine Tracker, August 2026.xlsx",
+  "z0/Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST).geojson",
+  "z0/Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST).xlsx",
+  "z0/README.txt",
+  "z1/Coal Mine Ownership.csv"
+ ],
+ "sheets": {
+  "Global Coal Mine Tracker, August 2026 / Non-closed mines": {
+   "columns": [
+    "GEM Mine ID",
+    "MSHA ID",
+    "Country / Area",
+    "Mine Name",
+    "Mine Name AKAs",
+    "Mine Name (Non-ENG)",
+    "Complex Name",
+    "GEM Wiki Page (ENG)",
+    "GEM Wiki Page (Non-ENG)",
+    "Status",
+    "Status Detail",
+    "Project Type",
+    "Project Phase",
+    "Owners",
+    "Owners GEM Entity ID",
+    "Owners (Non-ENG)",
+    "Parent Company",
+    "Company HQs",
+    "Capacity (Mtpa)",
+    "Production (Mtpa)",
+    "Year of Production",
+    "Coal Output (Annual, Mst)",
+    "Mine Type",
+    "Mining Method",
+    "Mine Size (Km2)",
+    "Mine Depth (m)",
+    "Depth Accuracy",
+    "Workforce Size",
+    "Workforce Accuracy",
+    "Coal Type",
+    "Coal Grade",
+    "Percentage of Met Coal",
+    "Percentage of Thermal Coal",
+    "Accuracy Rating",
+    "Reported Year of Percentage Split",
+    "Total Reserves (Proven and Probable, Mt)",
+    "Year of Total Reserves Recorded",
+    "Total Resource (Inferred, Indicated, Measured)",
+    "Reserve to Production Ratio (R/P)",
+    "Opening Year",
+    "Closing Year",
+    "Reported Life of Mine",
+    "Reported Year of Mine Life",
+    "Coalfield",
+    "Location",
+    "Prefecture, District",
+    "State, Province",
+    "Location (Non-ENG)",
+    "Subregion",
+    "Region",
+    "Latitude",
+    "Longitude",
+    "Location Accuracy",
+    "Primary Consumer, Destination",
+    "Primary Consumer, Destination Name",
+    "Primary Consumer, Destination GEM Wiki",
+    "Gas-level Rating",
+    "Gas-level Rating Appraisal Year",
+    "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+    "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
+    "Year of Reported Coal Mine Methane Emissions",
+    "Reference Type",
+    "Source ID",
+    "Has mine boundary and methane emissions sources data",
+    "Has associated plume data",
+    "Has associated CMM mitigation data",
+    "Measurement Based Emission Estimate (kt/year)",
+    "Emissions Calculation Detail",
+    "Measurements Methodology",
+    "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
+    "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+    "Methane Gas Content (m^3/tonne)",
+    "Methane Emissions Factor",
+    "CMM Emissions (CO2e 20 years)",
+    "CMM Emissions (CO2e 100 years)",
+    "ISO Code"
+   ],
+   "rows": 5390
+  },
+  "Global Coal Mine Tracker, August 2026 / Closed mines": {
+   "columns": [
+    "GEM Mine ID",
+    "MSHA ID",
+    "Country / Area",
+    "Mine Name",
+    "Mine Name AKAs",
+    "Mine Name (Non-ENG)",
+    "Owners",
+    "Owners (Non-ENG)",
+    "Parent Company",
+    "Company HQs",
+    "Capacity (Mtpa)",
+    "Production (Mtpa)",
+    "Year of Production",
+    "Mine Type",
+    "Mining Method",
+    "Mine Size\n(Km2)",
+    "Mine Depth\n(m)",
+    "Depth Accuracy",
+    "Workforce Size",
+    "Workforce Accuracy",
+    "Coal Type",
+    "Coal Grade",
+    "Opening Year",
+    "Closing Year",
+    "Reason for Closure",
+    "Mine Site Status",
+    "Coalfield",
+    "Location",
+    "Prefecture, District",
+    "State, Province",
+    "Subregion",
+    "Region",
+    "Latitude",
+    "Longitude",
+    "Location Accuracy",
+    "Primary Consumer, Destination",
+    "Primary Consumer, Destination Name",
+    "Primary Consumer, Destination GEM Wiki",
+    "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+    "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
+    "Year of Reported Coal Mine Methane Emissions",
+    "Reference Type",
+    "Source ID",
+    "Has mine boundary and methane emissions sources data",
+    "Has associated plume data",
+    "Has associated CMM mitigation data",
+    "Measurement Based Emission Estimate (kt/year)",
+    "Emissions Calculation Detail",
+    "Measurements Methodology"
+   ],
+   "rows": 1754
+  },
+  "Global Coal Mine Tracker, August 2026 / Historic Production (2018-2025)": {
+   "columns": [
+    "GEM Mine ID",
+    "MSHA IDs",
+    "Country",
+    "Mine Name",
+    "Mine Name AKAs",
+    "Mine Name (Non-ENG)",
+    "Status",
+    "Coal Output (Annual, Mt) 2025",
+    "Coal Output (Annual, Mst) 2025",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2024",
+    "Coal Output (Annual, Mst) 2024",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2023",
+    "Coal Output (Annual, Mst) 2023",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2022",
+    "Coal Output (Annual, Mst) 2022",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2021",
+    "Coal Output (Annual, Mst) 2021",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2020",
+    "Coal Output (Annual, Mst) 2020",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2019",
+    "Coal Output (Annual, Mst) 2019",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2018",
+    "Coal Output (Annual, Mst) 2018",
+    "Output Accuracy",
+    "Coal Output (Annual, Mt) 2017",
+    "Coal Output (Annual, Mst) 2017",
+    "Output Accuracy"
+   ],
+   "rows": 3708
+  },
+  "Global Coal Mine Tracker, August 2026 / Change Log": {
+   "columns": [
+    "Sheet Name",
+    "GEM Mine ID",
+    "Mine Name",
+    "Country / Area",
+    "Column",
+    "Old Value (1st version)",
+    "New Value (2nd version)",
+    "Notes"
+   ],
+   "rows": 330
+  },
+  "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST) / Boundaries and methane sources": {
+   "columns": [
+    "Full mine name",
+    "id",
+    "mine feature category",
+    "mine feature subcategory",
+    "data source date",
+    "notes",
+    "description",
+    "coordinates precision",
+    "GEM Mine ID",
+    "Owners",
+    "Owners (Non-ENG)",
+    "Parent Company",
+    "GEM Wiki Page (ENG)",
+    "GEM Wiki Page (Non-ENG)",
+    "Coal Grade",
+    "Mine Name",
+    "Country / Area",
+    "Last researched",
+    "build_version",
+    "geometry"
+   ],
+   "rows": 2116
+  },
+  "Coal Mine Ownership": {
+   "columns": [
+    "Parent GEM Entity ID",
+    "Parent",
+    "Parent Registration Country",
+    "Parent Headquarters Country",
+    "Project",
+    "Share",
+    "Ownership Path",
+    "Immediate Project Owner",
+    "Immediate Project Owner GEM Entity ID",
+    "Tracker",
+    "Status",
+    "Capacity (Mtpa)",
+    "Production (Mtpa)",
+    "GEM Mine ID"
+   ],
+   "rows": 26867
+  }
+ },
+ "mines_sheets": {
+  "Global Coal Mine Tracker, August 2026 / Non-closed mines": {
+   "latitude": "Latitude",
+   "longitude": "Longitude",
+   "id_column": "GEM Mine ID",
+   "methane_column": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+   "rows": 5390
+  },
+  "Global Coal Mine Tracker, August 2026 / Closed mines": {
+   "latitude": "Latitude",
+   "longitude": "Longitude",
+   "id_column": "GEM Mine ID",
+   "methane_column": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+   "rows": 1754
+  }
+ },
+ "mines": 7139,
+ "not_placed": 5,
+ "joined_rows": {
+  "Coal Mine Ownership (as distinct chains)": 26959,
+  "Global Coal Mine Tracker, August 2026 / Historic Production (2018-2025)": 3894,
+  "Global Coal Mine Tracker, August 2026 / Change Log": 362,
+  "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST) / Boundaries and methane sources": 2391
+ },
+ "not_joined": [],
+ "boundary_files": [
+  "/tmp/tmpe43vk6oo/z0/Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST).geojson"
+ ],
+ "boundaries_built": true,
+ "parents": {
+  "built": true,
+  "sheet": "Coal Mine Ownership",
+  "methane_estimate_column": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+  "methane_reported_column": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+  "parents": 1665,
+  "placed": 1512,
+  "not_placed": [
+   {
+    "parent": "small shareholder(s) ",
+    "headquarters": ""
+   },
+   {
+    "parent": "natural person(s) ",
+    "headquarters": ""
+   },
+   {
+    "parent": "unknown ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Henan Province Energy Chemical Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Energy ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Lubel Coal Co Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "Huaihe Energy ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Biyun Construction Investment of Zhijin Bijie ",
+    "headquarters": ""
+   },
+   {
+    "parent": "SINOPEC ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Energy ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Mach Energy (Hongkong) Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "State-owned Assets Supervision and Administration Bureau of Xiangning County Government ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Hawaii Motor ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Electric Power Development Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guizhou Shuicheng Coal Mine Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Orbit Marketing Pte Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Coalmines [Overseas] Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Essess Aluminum Holdings Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Polo Resources Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "China Huaneng ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Kinetic Crest Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Caixin Asset Operation Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ningxia Haosheng Industry Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ningxia Xingjun Energy Development Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "DB Spore DCS A/C DB SG DCS AC Japet Res Pte Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Jilin Provincial Coal Industry Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "show collar Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Xinjiang Shenxin Development Co Ltd Trade Union Committee ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Javelin Global Commodoties (UK) Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Goldway Capital Investment Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Isan International Corp",
+    "headquarters": ""
+   },
+   {
+    "parent": "State Power Investment Corporation [SPIC] ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Treasure Global Investments Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "PPF Investments Ltd",
+    "headquarters": "Jersey"
+   },
+   {
+    "parent": "Sunflag Ltd",
+    "headquarters": "Jersey"
+   },
+   {
+    "parent": "Minorum Holding Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Inner Mongolia Huolinhe Coal Industry Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Chifeng City Economic and Information Commission ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Chengdong Investment Corp",
+    "headquarters": ""
+   },
+   {
+    "parent": "BV Mining Holding Ltd",
+    "headquarters": "Guernsey"
+   },
+   {
+    "parent": "King Makhado Holdings Pty Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guizhou Panjiang Coal and Electricity Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Chase Manhattan Nominees Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Raffles International Pte Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Longelephant International Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Adonis LLC",
+    "headquarters": "Guernsey"
+   },
+   {
+    "parent": "EP Investment S.à r.l. ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Africa Coal Partners Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Vibrant Veterans Mineral Resource Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guangdong Hengjian Investment Holding Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "member/employee owned ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Alma Metals Ltd",
+    "headquarters": "Guernsey"
+   },
+   {
+    "parent": "PT Deli Coal ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Master Resources International Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "PT Agata Nugraha Nastari ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guangdong Yuedian Holdings West Investment Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guangdong Yuedian Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guangzhou Development Group Inc",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guizhou Coalfield Geology Bureau ",
+    "headquarters": ""
+   },
+   {
+    "parent": "IL&FS Tamil Nadu Power Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "MDJ Oil Trading Ltd",
+    "headquarters": "Guernsey"
+   },
+   {
+    "parent": "Suala Holding Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "KPD Simas Equity Fund 2 ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Bluenut Trading Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "Cox Enterprises ",
+    "headquarters": ""
+   },
+   {
+    "parent": "SDC ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Mogul Resources ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Seritza Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "China Southern Power Grid Company Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Chubu Electric Power Co Inc",
+    "headquarters": ""
+   },
+   {
+    "parent": "Belvedere Mining Holdings Inc",
+    "headquarters": ""
+   },
+   {
+    "parent": "Power Africa Pty Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Everred Corporate Inc",
+    "headquarters": ""
+   },
+   {
+    "parent": "Murray Energy ",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Coal ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Government of Telengana ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Government of Hong Kong ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Polska Grupa Górnicza (PGG) ",
+    "headquarters": ""
+   },
+   {
+    "parent": "National Energy Investment Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ministry of Fuel and Energy of Luhansk People's Republic ",
+    "headquarters": ""
+   },
+   {
+    "parent": "JTC PLC",
+    "headquarters": "Jersey"
+   },
+   {
+    "parent": "Vistra Group Holdings SA",
+    "headquarters": ""
+   },
+   {
+    "parent": "Alpine Development Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Hebei Construction Investment Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Yankuang Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Jilin Energy Investment Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ordos City Ulan Development Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Tebian Electric Apparatus [TBEA] ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guizhou Water Mine Holding Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guizhou Bangda Energy Development Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Fuyuan County Laochang Town Hongfa Coal Mine ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Inner Mongolia Autonomous Region Prison Administration ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shenhua Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Employee Partnership Foundation of Taiyuan Dongshan Coal Mine Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Henan Energy Chemical Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Droxford International Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "Kangping State-Owned Asset Operation Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "http://finance.china.com.cn/news/20220916/5879360.shtml ",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Pingmei Shenma Energy and Chemical Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ordos City Huneng Coal Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "New Energy Engineering Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Jungar Banner Shentao Coal Transportation and Marketing Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Xinjiang Lvyuan State-Owned Capital Investment Operation Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Sichuan Coal Industry Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Zhongda Advanced Material Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Baosteel Group Corp",
+    "headquarters": ""
+   },
+   {
+    "parent": "Trade Union Committee ",
+    "headquarters": ""
+   },
+   {
+    "parent": "https://www.csm.org.cn/col/col6293/art/2024/art_b59a36de17904a09bebc6dd934b24218.html ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Head Office Organ Employees Joint Stock Foundation ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Dachuanhe Coal Mine Employees Joint Stock Foundation ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Multi-Employee Partnership Foundation ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Fanshigou Coal Mine Employees Joint Stock Foundation ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Wuhai Liangzhu Energy Coal-Chemical Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Inner Mongolia Ordos Investment Holding Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Xuzhou Zhongnuoji Enterprise Management Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Yijin Huoluo Banner Xinmiao Ahuigou Zhifu Coal Mine ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Weishan County Cuizhuangkuang Investment Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Wangchao Coal and Power Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Guizhou Guoxing Mining Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ordos Wanxinglong Industry and Trade Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Zhong Yi Jin Cai Qian Hong Kong Energy Holding Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Guoxin Holding Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Datong Region Coal Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Chinese Academy Of Sciences Holdings Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Coal Energy Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Dongguan Ruilong Property Investment Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Mingxing Mining Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ordos Guangli Coal Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Yijinhuoluo Banner Nalin Taohai Coal Management, Transportation and Marketing Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "China Xinda Asset Management Inc",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Xingning Energy Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Shandong Zhongtai Coal Industry Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Heungkong Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Zoucheng Asset Operation Co",
+    "headquarters": ""
+   },
+   {
+    "parent": "Wenshan State Industrial Investment Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Inner Mongolia Mengxing Products Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Zhonghe Energy Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ordos Ulan Development Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Westmoreland Haystack Mining LLC",
+    "headquarters": ""
+   },
+   {
+    "parent": "Metinvest B V ",
+    "headquarters": ""
+   },
+   {
+    "parent": "nner Mongolia Mengxing Investment Group Co Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "HSBC Asia Holdings Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Caravaggio Holdings Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "Inner Mongolia Yuanyuan Energy Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "JINAN Group ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Kestenbaum & Tradburks Resource Ventures LLC",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ministry of Energy of Ukraine ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Kitty Hawk Natural Resources Pte Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "CMB International Capital Corp Ltd",
+    "headquarters": ""
+   },
+   {
+    "parent": "Ohai Coal ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Sharp Victory Holdings Ltd",
+    "headquarters": "Virgin Islands (British)"
+   },
+   {
+    "parent": "Federal Government of Nigeria ",
+    "headquarters": ""
+   },
+   {
+    "parent": "Zhejiang Zheneng Electric Power Co Ltd",
+    "headquarters": ""
+   }
+  ],
+  "holdings": 11003,
+  "holdings_with_unknown_share": 2828
+ },
+ "built": true
+}

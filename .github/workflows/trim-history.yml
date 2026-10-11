@@ -1,0 +1,39 @@
+# Keeps only the latest version of every file (25 September, at the owner's
+# word). Every nightly refresh saves new map files, and git keeps every old
+# version too, so the repo grew by gigabytes though the map only ever reads the
+# newest. Once a week this replaces the history with one save holding the
+# files as they are now. It shares the refresh's queue, so it never runs while
+# a refresh is saving, and it refuses to overwrite anything saved after it
+# started (--force-with-lease). Old versions stop being downloaded at once;
+# GitHub frees their space on its own schedule.
+name: trim-history
+on:
+  schedule:
+    - cron: "30 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  trim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: One save holding the files as they are now
+        run: |
+          set -eu
+          git config user.name "trim-history"
+          git config user.email "actions@users.noreply.github.com"
+          head=$(git rev-parse HEAD)
+          git checkout -q --orphan trimmed
+          git commit -q -m "Latest files only; earlier versions dropped $(date -u +%Y-%m-%d)"
+          git push --force-with-lease=main:$head origin trimmed:main
+          echo "History trimmed to one save."

@@ -1,0 +1,29 @@
+{
+ "read": "2026-10-08",
+ "years": {
+  "2019": {
+   "dataset": "4e54dd6c-30f8-4f86-86a7-3c109a89528e",
+   "read_on": null,
+   "note": "read by an earlier run that stopped before writing its record"
+  },
+  "2020": {
+   "dataset": "a08c4b30-5cf3-4948-ad40-36f404619019",
+   "read_on": null,
+   "note": "read by an earlier run that stopped before writing its record"
+  },
+  "2021": {
+   "dataset": "0380bbeb-aea1-58b6-b708-829f92a48202",
+   "read_on": null,
+   "note": "read by an earlier run that stopped before writing its record"
+  },
+  "2022": {
+   "dataset": "df01c2f8-dc1f-4e79-96cb-8208beaf143c",
+   "read_on": "2026-10-08",
+   "rows": 39737,
+   "states": 58,
+   "total_paid": 3845496174
+  }
+ },
+ "refused": {},
+ "waiting": []
+}

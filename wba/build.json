@@ -1,0 +1,5 @@
+{
+ "built": false,
+ "source": "World Benchmarking Alliance, Nature Benchmark (CC BY 4.0), data.worldbenchmarkingalliance.org",
+ "reason": "No WBA_API_KEY secret yet. Request access at data.worldbenchmarkingalliance.org, then add the secret and the line WBA_API_KEY: ${{ secrets.WBA_API_KEY }} in refresh.yml."
+}

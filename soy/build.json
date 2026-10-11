@@ -1,0 +1,52 @@
+{
+ "built": "2026-10-02 16:01 UTC",
+ "traders": {
+  "ADM": {
+   "wikidata": "Q632694",
+   "label": "Archer Daniels Midland",
+   "amount": 101556000000.0,
+   "currency": "USD",
+   "year": "2022",
+   "usd": 101556000000.0,
+   "rate": "given in US dollars"
+  },
+  "Amaggi": null,
+  "Bunge": {
+   "wikidata": "Q1009458",
+   "label": "Bunge Limited",
+   "amount": 67232000000.0,
+   "currency": "USD",
+   "year": "2022",
+   "usd": 67232000000.0,
+   "rate": "given in US dollars"
+  },
+  "COFCO Corp": {
+   "wikidata": "Q4382137",
+   "label": "COFCO Group",
+   "amount": 471119900000.0,
+   "currency": "CNY",
+   "year": "2018",
+   "usd": 71180158511.1187,
+   "rate": "European Central Bank, 2018 average"
+  },
+  "COFCO Intl": {
+   "wikidata": "Q108169280",
+   "label": "Cofco International Romania",
+   "amount": 837000000.0,
+   "currency": "EUR",
+   "year": "2018",
+   "usd": 987514918.986477,
+   "rate": "European Central Bank, 2018 average"
+  },
+  "Cargill": {
+   "wikidata": "Q1036056",
+   "label": "Cargill",
+   "amount": 144695000000.0,
+   "currency": "USD",
+   "year": "2018",
+   "usd": 144695000000.0,
+   "rate": "given in US dollars"
+  },
+  "Louis Dreyfus": null
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "date": "2026-10-05",
+ "settlements": {
+  "rows": 22,
+  "columns": [
+   "Company",
+   "Laws violated (if applicable)",
+   "Product(s)",
+   "Settlement",
+   "Violation(s)",
+   "Year"
+  ]
+ },
+ "compiled_left_out": [
+  "Allergan (not found in Opioid epidemic in the United States)",
+  "Armour (not found in Contaminated haemophilia blood products)"
+ ],
+ "placed": 39,
+ "not_placed": [
+  "Alpha Therapeutic Corporation"
+ ]
+}

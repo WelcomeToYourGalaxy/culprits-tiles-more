@@ -1,0 +1,88 @@
+{
+ "source": "Emissions Impossible: Methane Edition, Institute for Agriculture and Trade Policy (IATP) and Changing Markets Foundation, 15 November 2022, dataset workbook; used with the authors' agreement",
+ "companies": 15,
+ "placed": [
+  {
+   "company": "Tyson",
+   "at": "Springdale",
+   "how": "its headquarters",
+   "wikidata": "Q1325987"
+  },
+  {
+   "company": "WH Group",
+   "at": "Hong Kong",
+   "how": "its headquarters",
+   "wikidata": "Q17499655"
+  },
+  {
+   "company": "JBS",
+   "at": "São Paulo",
+   "how": "its headquarters",
+   "wikidata": "Q1676554"
+  },
+  {
+   "company": "Marfrig",
+   "at": "São Paulo",
+   "how": "its headquarters",
+   "wikidata": "Q3064573"
+  },
+  {
+   "company": "Fonterra",
+   "at": "Auckland",
+   "how": "its headquarters",
+   "wikidata": "Q946370"
+  },
+  {
+   "company": "Dairy Farmers of America",
+   "at": "Kansas City",
+   "how": "its headquarters",
+   "wikidata": "Q5209566"
+  },
+  {
+   "company": "Lactalis",
+   "at": "Laval",
+   "how": "its headquarters",
+   "wikidata": "Q1799825"
+  },
+  {
+   "company": "Nestlé",
+   "at": "Vevey",
+   "how": "its headquarters",
+   "wikidata": "Q160746"
+  },
+  {
+   "company": "Arla",
+   "at": "Viby",
+   "how": "its headquarters",
+   "wikidata": "Q674575"
+  },
+  {
+   "company": "FrieslandCampina",
+   "at": "Amersfoort",
+   "how": "its headquarters",
+   "wikidata": "Q248711"
+  },
+  {
+   "company": "Danone",
+   "at": "Paris",
+   "how": "its headquarters",
+   "wikidata": "Q329426"
+  },
+  {
+   "company": "Saputo",
+   "at": "Montreal",
+   "how": "its headquarters",
+   "wikidata": "Q1352708"
+  },
+  {
+   "company": "Yili",
+   "at": "Hohhot",
+   "how": "its headquarters",
+   "wikidata": "Q1231406"
+  }
+ ],
+ "not placed": [
+  "Danish Crown",
+  "DMK"
+ ]
+}

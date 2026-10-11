@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "SORG"
+ ],
+ "hectares": 37101216.0,
+ "to_zoom": 5,
+ "squares": 249,
+ "bytes": 589629,
+ "how": "max"
+}

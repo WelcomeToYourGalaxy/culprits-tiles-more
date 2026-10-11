@@ -1,0 +1,9 @@
+{
+ "from": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0.zip",
+ "epoch": 2020,
+ "to_zoom": 6,
+ "squares": 1694,
+ "bytes": 37026178,
+ "unit": "people per square km",
+ "encoding": "mapbox"
+}

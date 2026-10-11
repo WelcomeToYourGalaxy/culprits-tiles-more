@@ -1,0 +1,30 @@
+{
+ "ipn_catalogue_entry_86435.html": {
+  "url": "https://katalog.bip.ipn.gov.pl/informacje/86435",
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+ },
+ "abs_records_search.html": {
+  "url": "https://www.abscr.cz/jmenne-evidence/vyhledavani-evidencni-zaznamy/",
+  "final": "https://www.abscr.cz/jmenne-evidence/vyhledavani-evidencni-zaznamy/",
+  "status": 200,
+  "bytes": 38038
+ },
+ "abs_protocols.html": {
+  "url": "https://www.abscr.cz/jmenne-evidence/protokoly/",
+  "final": "https://www.abscr.cz/jmenne-evidence/protokoly/",
+  "status": 200,
+  "bytes": 46157
+ },
+ "abs_records_help.html": {
+  "url": "https://www.abscr.cz/jmenne-evidence/evidencni-zaznamy-a-archivni-pomucky-vysvetlivky-zkratky/",
+  "final": "https://www.abscr.cz/jmenne-evidence/evidencni-zaznamy-a-archivni-pomucky-vysvetlivky-zkratky/",
+  "status": 200,
+  "bytes": 32975
+ },
+ "upn_sample_search.html": {
+  "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Novak&meno=&krycie_meno=&datum_narodenia=&kategoria=A",
+  "final": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?priezvisko=Novak&kategoria=A",
+  "status": 200,
+  "bytes": 50106
+ }
+}
