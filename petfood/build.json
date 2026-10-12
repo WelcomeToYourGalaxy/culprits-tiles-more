@@ -1,5 +1,5 @@
 {
- "date": "2026-10-05",
+ "date": "2026-10-12",
  "products": {
   "Q1736906": "cat food",
   "Q5442115": "Felix",
@@ -47,8 +47,8 @@
  "kinds": {
   "Q136305047": "pet food brand"
  },
- "items": 76,
- "placed": 62,
+ "items": 77,
+ "placed": 63,
  "not_placed": [
   "Alpo",
   "Beneful",
