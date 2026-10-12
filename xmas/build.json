@@ -2,7 +2,7 @@
  "sources": {
   "Google My Maps": "not read (not well-formed (invalid token): line 17293, column 84)",
   "OpenStreetMap tags": "1564 places",
-  "OpenStreetMap names": "not read (no Overpass instance answered (Remote end closed connection without response))"
+  "OpenStreetMap names": "not read (no Overpass instance answered (HTTP Error 504: Gateway Timeout))"
  },
  "places": 1564,
  "read": 1564,
@@ -10,5 +10,5 @@
   "Place selling Christmas trees": 365,
   "Christmas tree farm": 1199
  },
- "date": "2026-09-29"
+ "date": "2026-10-12"
 }
