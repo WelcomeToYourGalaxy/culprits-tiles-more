@@ -1,8 +1,8 @@
 {
- "read": "2026-10-05",
- "features": 35177,
- "wikidata": 938,
- "lists": 34178,
+ "read": "2026-10-12",
+ "features": 35233,
+ "wikidata": 940,
+ "lists": 34232,
  "compiled": 61,
  "by_tier_and_branch": {
   "Admitted by the person, or by the side that paid or ran them | company": 13,
@@ -13,25 +13,25 @@
   "Charged or alleged, not proven | lawmaking": 15,
   "Charged or alleged, not proven | no office recorded": 7,
   "Charged or alleged, not proven | ruling and running": 447,
-  "Convicted, or found by a court | company": 7,
+  "Convicted, or found by a court | company": 6,
   "Convicted, or found by a court | courts": 12,
   "Convicted, or found by a court | lawmaking": 125,
   "Convicted, or found by a court | other office": 41,
-  "Convicted, or found by a court | ruling and running": 143,
-  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17761,
+  "Convicted, or found by a court | ruling and running": 145,
+  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17768,
   "Documented ties, funding, or laws written for them | lawmaking": 3,
   "Documented ties, funding, or laws written for them | no office recorded": 3,
-  "Found by an official inquiry | company": 10802,
+  "Found by an official inquiry | company": 10848,
   "Found by an official inquiry | lawmaking": 2,
   "Held office and worked for a spy service or secret police (Wikidata) | company": 19,
   "Held office and worked for a spy service or secret police (Wikidata) | courts": 26,
   "Held office and worked for a spy service or secret police (Wikidata) | lawmaking": 210,
   "Held office and worked for a spy service or secret police (Wikidata) | other office": 166,
-  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 289,
+  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 290,
   "Named in opened secret-police or spy-service files | company": 2,
   "Named in opened secret-police or spy-service files | courts": 14,
   "Named in opened secret-police or spy-service files | lawmaking": 278,
-  "Named in opened secret-police or spy-service files | no office recorded": 1122,
+  "Named in opened secret-police or spy-service files | no office recorded": 1123,
   "Named in opened secret-police or spy-service files | other office": 170,
   "Named in opened secret-police or spy-service files | ruling and running": 2923,
   "Settled bribery charges with a regulator (often without admitting or denying) | company": 229
@@ -59,7 +59,6 @@
    "Q10336527 Oral melanocytic nevi",
    "Q104723360 holder of the rented apartment",
    "Q104731029 Q104731029",
-   "Q104858669 Pipián",
    "Q105695126 director of intelligence agency",
    "Q108761356 Q108761356",
    "Q109628468 Director of the National Intelligence Service of South Korea",
@@ -68,6 +67,7 @@
    "Q1153622 kunoichi",
    "Q1154057 Director of National Intelligence",
    "Q11659023 onmitsu",
+   "Q11699481 Pipián",
    "Q11777035 Neurocutaneous melanosis",
    "Q123439741 Taimanin ninja",
    "Q1321022 Nevus spilus",
@@ -716,7 +716,6 @@
    "Q126870163 Q126870163",
    "Q126870164 Q126870164",
    "Q126870165 Q126870165",
-   "Q126870168 Q126870168",
    "Q12696688 Q12696688",
    "Q1270577 Q1270577",
    "Q127118552 Q127118552",
@@ -738,7 +737,6 @@
    "Q128588476 Q128588476",
    "Q12883713 Q12883713",
    "Q129069416 Q129069416",
-   "Q1292265 Q1292265",
    "Q129254613 Q129254613",
    "Q129254614 Q129254614",
    "Q129254617 Q129254617",
@@ -2619,6 +2617,7 @@
    "Q131910668 Q131910668",
    "Q131918020 Q131918020",
    "Q131918070 Q131918070",
+   "Q131926253 Q131926253",
    "Q131927617 Q131927617",
    "Q131991175 Q131991175",
    "Q13203249 Q13203249",
@@ -2817,6 +2816,7 @@
    "Q141604701 Q141604701",
    "Q1416371 Q1416371",
    "Q1416641 Q1416641",
+   "Q141681517 Q141681517",
    "Q1419115 Q1419115",
    "Q14318888 Q14318888",
    "Q144145 Q144145",
@@ -3236,7 +3236,6 @@
    "Q3487744 Q3487744",
    "Q3488704 Q3488704",
    "Q3490795 Q3490795",
-   "Q3520864 Q3520864",
    "Q3537007 Q3537007",
    "Q3537883 Q3537883",
    "Q3551372 Q3551372",
@@ -3259,7 +3258,6 @@
    "Q3803846 Q3803846",
    "Q3831930 Q3831930",
    "Q3862177 Q3862177",
-   "Q3953293 Q3953293",
    "Q3963766 Q3963766",
    "Q4056084 Q4056084",
    "Q4069573 Q4069573",
@@ -3548,7 +3546,6 @@
    "Q104723447 conspiracy apartment holder",
    "Q104731029 Q104731029",
    "Q104736802 conscious collaborator of the State Security",
-   "Q104858669 Pipián",
    "Q105044610 FSB agent",
    "Q105695126 director of intelligence agency",
    "Q1058375 double agent",
@@ -3561,6 +3558,7 @@
    "Q1153622 kunoichi",
    "Q1154057 Director of National Intelligence",
    "Q11659023 onmitsu",
+   "Q11699481 Pipián",
    "Q117435562 key informant",
    "Q11777035 Neurocutaneous melanosis",
    "Q118869598 informant",
@@ -4067,8 +4065,8 @@
    "Q10728708 Q10728708",
    "Q107293007 citrus orchard"
   ],
-  "a. office holders who served a spy service": 729,
-  "b. office holders convicted": 232,
+  "a. office holders who served a spy service": 730,
+  "b. office holders convicted": 233,
   "crimes matched": [
    "Espionage Act of 1917",
    "bribery",
@@ -4129,7 +4127,7 @@
   "doj cases": 246,
   "doj_fcpa features": 246,
   "cs categories": {
-   "Kategorie:Agenti Státní bezpečnosti": 215
+   "Kategorie:Spolupracovníci Státní bezpečnosti": 216
   },
   "sk categories": {
    "Kategória:Agenti ŠtB": 41,
@@ -4177,19 +4175,19 @@
   "hr categories": {},
   "sl categories": {},
   "sr categories": {},
-  "secret_police_categories features": 1412,
+  "secret_police_categories features": 1413,
   "ipn drawn": 3358,
   "ipn features": 3358,
   "stb drawn": 116,
   "stb features": 116,
   "development bank debarment lists": [
-   "afdb_sanctions: African Development Bank Debarred Entities",
-   "worldbank_debarred: WorldBank Debarred Providers",
    "gb_fcdo_sanctions: UK FCDO Sanctions List",
+   "worldbank_debarred: WorldBank Debarred Providers",
+   "afdb_sanctions: African Development Bank Debarred Entities",
    "ebrd_ineligible: EBRD Ineligible Entities"
   ],
-  "debarment points": 10802,
-  "mdb_debarments features": 10802,
+  "debarment points": 10848,
+  "mdb_debarments features": 10848,
   "fara columns": [
    "Foreign Principal Termination Date",
    "Foreign Principal",
@@ -4204,7 +4202,7 @@
    "State",
    "Zip"
   ],
-  "fara rows": 17761,
+  "fara rows": 17768,
   "fara countries not matched": [
    "01/10/1947",
    "04/20/1993",
@@ -4289,7 +4287,7 @@
    "YUGOSLAVIA",
    "ZAIRE"
   ],
-  "fara features": 17761,
+  "fara features": 17768,
   "probes": {
    "ipn_catalogue_entry_86435.html": {
     "url": "https://katalog.bip.ipn.gov.pl/informacje/86435",
@@ -4321,10 +4319,10 @@
    }
   },
   "compiled names matched to Wikidata": 13,
-  "cases moved to a truer place": 1514,
-  "organisations placed at their address": 1008,
-  "addresses still to look up (next runs)": 3403,
-  "countries with cases": 183
+  "cases moved to a truer place": 1517,
+  "organisations placed at their address": 2952,
+  "addresses still to look up (next runs)": 408,
+  "countries with cases": 188
  },
  "errors": [
   "c: HTTPError: HTTP Error 504: Gateway Timeout"
