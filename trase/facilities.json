@@ -8,12 +8,6 @@
    "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
   },
   {
-   "id": "brazil-silos",
-   "label": "Brazil: soy silos and storage",
-   "file": "silos_consolidated_capacity_website_brazil_2024_2_post.geo.json",
-   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
-  },
-  {
    "id": "cote-d-ivoire-cocoa-cooperatives",
    "label": "Côte d'Ivoire: cocoa cooperatives",
    "file": "IC2B_coopyear_clean.geo.json",
@@ -47,6 +41,12 @@
    "id": "indonesia-wood-pulp-concessions-2023-2024",
    "label": "Indonesia: wood pulp concessions, 2023–2024",
    "file": "indonesia_wood_pulp_concessions_2023_2024_v2026_02_20.geo.json",
+   "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
+  },
+  {
+   "id": "Brazil_soy_facilities_map_v2_2_2026",
+   "label": "Trase: Brazil soy facilities map v2 2 2026",
+   "file": "Brazil_soy_facilities_map_v2_2_2026.geo.json",
    "base": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/trase/facilities/"
   }
  ]
