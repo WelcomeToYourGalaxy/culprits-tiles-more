@@ -1,5 +1,5 @@
 {
- "read": "2026-10-08",
+ "read": "2026-10-12",
  "years": {
   "2019": {
    "dataset": "4e54dd6c-30f8-4f86-86a7-3c109a89528e",
@@ -22,6 +22,13 @@
    "rows": 39737,
    "states": 58,
    "total_paid": 3845496174
+  },
+  "2023": {
+   "dataset": "fb3a65aa-c901-4a38-a813-b04b00dfa2a9",
+   "read_on": "2026-10-12",
+   "rows": 41152,
+   "states": 60,
+   "total_paid": 3328079280
   }
  },
  "refused": {},
