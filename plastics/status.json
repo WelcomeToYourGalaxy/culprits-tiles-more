@@ -1,34 +1,34 @@
 {
  "us_tri": {
   "ok": true,
-  "at": 1791225887.7495403,
-  "when": "2026-10-05",
+  "at": 1791831348.227204,
+  "when": "2026-10-12",
   "plants": 339,
   "vinyl_chloride": 37
  },
  "eu_prtr": {
   "ok": false,
   "error": "no facility table with a position and a main activity",
-  "tried": "2026-10-11"
+  "tried": "2026-10-12"
  },
  "ct_crack": {
   "ok": true,
-  "at": 1791225889.21901,
-  "when": "2026-10-05",
+  "at": 1791831350.9844136,
+  "when": "2026-10-12",
   "plants": 241,
   "vinyl_chloride": 0
  },
  "osm": {
   "ok": true,
-  "at": 1791226140.15764,
-  "when": "2026-10-05",
-  "plants": 822,
-  "vinyl_chloride": 12
+  "at": 1791831754.9639504,
+  "when": "2026-10-12",
+  "plants": 855,
+  "vinyl_chloride": 13
  },
  "wikidata": {
   "ok": true,
-  "at": 1791226178.8257399,
-  "when": "2026-10-05",
+  "at": 1791831792.8564568,
+  "when": "2026-10-12",
   "plants": 34,
   "vinyl_chloride": 6
  }
