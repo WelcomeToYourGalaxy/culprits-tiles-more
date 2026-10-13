@@ -4232,8 +4232,8 @@
    }
   },
   {
-   "lei": "636700P3Y9I9KCGUWH64",
-   "legal_name": "Bourso France",
+   "lei": "6367007ISLF5V6ZEJP88",
+   "legal_name": "Bourso Europe",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -4265,8 +4265,8 @@
    }
   },
   {
-   "lei": "6367007ISLF5V6ZEJP88",
-   "legal_name": "Bourso Europe",
+   "lei": "636700P3Y9I9KCGUWH64",
+   "legal_name": "Bourso France",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -6028,39 +6028,6 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800HVQMZIPOGSN251",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
    "lei": "213800ALUI5LNBGGXM45",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
@@ -6127,8 +6094,8 @@
    }
   },
   {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800HVQMZIPOGSN251",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6162,6 +6129,39 @@
   {
    "lei": "213800SUKVY8V67W2Y36",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7298,7 +7298,7 @@
   },
   {
    "lei": "529900AN6CFOQFYI8491",
-   "legal_name": "Dr. h. c. Hugo Zinsser-Stiftung",
+   "legal_name": "Dr. h.c. Hugo Zinsser-Stiftung",
    "status": "ACTIVE",
    "legal_address": {
     "language": "de",
