@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 18:15 UTC",
+ "built": "2026-10-13 16:23 UTC",
  "by_source_and_kind": {
   "Wikidata": {
    "forts": 83437,
@@ -12,11 +12,11 @@
    "nuclear": 70
   },
   "OpenStreetMap": {
-   "air": 2451,
-   "bases": 21542,
-   "naval": 510,
-   "ranges": 8782,
-   "nuclear": 2810
+   "air": 2430,
+   "bases": 21321,
+   "naval": 516,
+   "ranges": 8626,
+   "nuclear": 2838
   },
   "US Department of Defense register (MIRTA)": {
    "bases": 611,
@@ -27,13 +27,13 @@
   }
  },
  "files": {
-  "nuclear": 2880,
-  "air": 5681,
-  "naval": 1106,
-  "ranges": 9235,
+  "nuclear": 2908,
+  "air": 5660,
+  "naval": 1112,
+  "ranges": 9079,
   "schools": 939,
   "forts": 83437,
-  "bases": 32229,
+  "bases": 32008,
   "other": 761
  },
  "rules": {
