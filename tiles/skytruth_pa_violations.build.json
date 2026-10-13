@@ -1,11 +1,11 @@
 {
  "points_merged": false,
  "slim": true,
- "from": "12921d3dc0970f1c93a85f7d5746b90f341725a6",
+ "from": "088c782704b9f92d9ae3263cfb91f6ecf0df3a41",
  "row": "skytruth_pa_violations",
  "feed": "feed_9",
  "alerts_with_position": 16904,
  "no_position": 0,
- "bytes": 7365752,
+ "bytes": 7365753,
  "boxes": "skytruth/feed_9"
 }
