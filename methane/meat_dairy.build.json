@@ -52,7 +52,7 @@
   },
   {
    "company": "Arla",
-   "at": "Viby",
+   "at": "Aarhus",
    "how": "its headquarters",
    "wikidata": "Q674575"
   },
@@ -69,6 +69,12 @@
    "wikidata": "Q329426"
   },
   {
+   "company": "DMK",
+   "at": "Zeven",
+   "how": "its headquarters",
+   "wikidata": "Q1205833"
+  },
+  {
    "company": "Saputo",
    "at": "Montreal",
    "how": "its headquarters",
@@ -82,7 +88,14 @@
   }
  ],
  "not placed": [
-  "Danish Crown",
-  "DMK"
+  {
+   "company": "Danish Crown",
+   "article tried": [
+    "Danish Crown",
+    "Danish Crown A/S",
+    "Danish Crown (company)"
+   ],
+   "why": "Wikidata gives no place for it"
+  }
  ]
 }
