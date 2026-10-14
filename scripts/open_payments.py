@@ -31,7 +31,7 @@ far; the next run goes on where this one stopped (build.json "waiting").
 """
 import datetime, json, os, pathlib, re, sys, time, urllib.request
 
-START, BUDGET = time.time(), 130 * 60
+START, BUDGET = time.time(), 120 * 60
 STALE_DAYS = 183
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -79,10 +79,31 @@ def general_years():
     return dict(sorted(out.items()))
 
 
-def totals(ds):
-    """Every (state, company) sum for one year, added up by CMS's own service."""
+class OutOfTime(Exception):
+    pass
+
+
+def totals(ds, year=None):
+    """Every (state, company) sum for one year, added up by CMS's own service.
+    Round 192o: one year took about two hours (2023: 83 pages of 500, ~84 s
+    a page), so a run that started the next year was stopped at 160 minutes.
+    The pages read so far are kept in years/<year>.partial.json and the next
+    run goes on from there; no page is started after the time budget."""
+    part = OUT / "years" / f"{year}.partial.json" if year else None
     rows, offset, size = [], 0, 500
+    if part and part.exists():
+        try:
+            saved = json.loads(part.read_text())
+            if saved.get("dataset") == ds:
+                rows, offset = saved["rows"], saved["offset"]
+        except (ValueError, KeyError):
+            rows, offset = [], 0
     while True:
+        if time.time() - START > BUDGET:
+            if part:
+                part.parent.mkdir(parents=True, exist_ok=True)
+                part.write_text(json.dumps({"dataset": ds, "offset": offset, "rows": rows}, ensure_ascii=False))
+            raise OutOfTime(f"{len(rows):,} sums read so far, kept for the next run")
         body = {"properties": [STATE, CO,
                                {"expression": {"operator": "sum", "operands": [USD]}, "alias": "paid"},
                                {"expression": {"operator": "count", "operands": [USD]}, "alias": "payments"}],
@@ -90,6 +111,8 @@ def totals(ds):
         got = call(f"{API}/datastore/query/{ds}/0", body).get("results") or []
         rows += got
         if len(got) < size:
+            if part and part.exists():
+                part.unlink()
             return rows
         offset += size
 
@@ -143,7 +166,13 @@ def main():
                 status["years"][str(year)] = (old.get("years") or {}).get(str(year)) or {"dataset": ds, "read_on": None}
             continue
         try:
-            rows = totals(ds)
+            rows = totals(ds, year)
+        except OutOfTime as e:
+            status["waiting"].append(year)
+            status["partly read"] = {str(year): str(e)}
+            if (OUT / "years" / f"{year}.json").exists():
+                status["years"][str(year)] = (old.get("years") or {}).get(str(year)) or {"dataset": ds, "read_on": None}
+            continue
         except Exception as e:  # noqa: BLE001
             status["refused"][year] = str(e)[:300]
             print(f"::warning::open_payments {year}: {e}", flush=True)

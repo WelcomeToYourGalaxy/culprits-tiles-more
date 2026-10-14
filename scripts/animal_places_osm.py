@@ -28,12 +28,21 @@ out center tags;"""
 ZOOS = """[out:json][timeout:900];
 nwr["tourism"~"^(zoo|aquarium)$"];
 out center tags;"""
+# Round 192o: the whole-world breeding query timed out at every Overpass
+# server (504, 12 October); it is now asked in eight longitude bands, each
+# place kept once.
+BANDS = [(-180, -120), (-120, -60), (-60, 0), (0, 30), (30, 60), (60, 90), (90, 130), (130, 180)]
 KML = "https://www.google.com/maps/d/kml?mid=1seBCggQGg1tcRYpqpZ5ZKJaxHs4&forcekml=1"
 
 
 def main():
     stamp = pathlib.Path("breeding/build.json")
-    if stamp.exists() and datetime.date.today().weekday() != 0 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
+    last = {}
+    try:
+        last = json.loads(stamp.read_text()) if stamp.exists() else {}
+    except ValueError:
+        pass
+    if stamp.exists() and not last.get("failed") and datetime.date.today().weekday() != 0 and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
         print("animal_places_osm: weekly; not Monday")
         return
     status, failed = {"date": datetime.date.today().isoformat()}, []
@@ -41,7 +50,18 @@ def main():
                                ("zoos", ZOOS, pathlib.Path("zoos/osm.geojson"),
                                 lambda t: "aquarium" if t.get("tourism") == "aquarium" else (t.get("zoo") or "zoo").replace("_", " "))):
         try:
-            j = W.overpass(q)
+            if name == "breeding":
+                els, seen = [], set()
+                for w, e in BANDS:
+                    part = W.overpass(q.replace('nwr["animal_breeding"];', f'nwr["animal_breeding"](-90,{w},90,{e});'))
+                    for el in part.get("elements", []):
+                        k = (el.get("type"), el.get("id"))
+                        if k not in seen:
+                            seen.add(k)
+                            els.append(el)
+                j = {"elements": els}
+            else:
+                j = W.overpass(q)
             feats = W.osm_features(j.get("elements", []))
             for f in feats:
                 t = f["properties"]
@@ -68,10 +88,16 @@ def main():
         status["zoos_kml"] = {"placemarks": len(names), "named_like_aquariums": len(aq)}
     except Exception as e:  # noqa: BLE001
         status["zoos_kml"] = f"not read ({e})"
+    if failed:
+        # The last good copy of that part stays; the next run tries again
+        # whatever the day (round 192o: a refused server is not a broken build).
+        status["failed"] = failed
+        for name in ("breeding", "zoos"):
+            if name not in status and name in last:
+                status[name] = dict(last[name], kept_from=last.get("date"))
+        print("::warning::animal_places_osm: " + "; ".join(failed) + " (the last copy stays; tried again tomorrow)", flush=True)
     stamp.parent.mkdir(exist_ok=True)
     stamp.write_text(json.dumps(status, indent=1, ensure_ascii=False))
-    if failed:
-        sys.exit("animal_places_osm: " + "; ".join(failed))
 
 
 if __name__ == "__main__":

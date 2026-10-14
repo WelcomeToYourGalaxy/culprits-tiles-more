@@ -40,6 +40,10 @@ ARTICLES = {
     "Lactalis": "Lactalis", "Nestlé": "Nestlé", "Arla": "Arla Foods", "FrieslandCampina": "FrieslandCampina",
     "Danone": "Danone", "DMK": "Deutsches Milchkontor", "Saputo": "Saputo Inc.", "Yili": "Yili Group",
 }
+# Round 192o: other titles to try where the first finds no Wikidata item
+# (Danish Crown and DMK went unplaced on 11 and 12 October).
+ALT_TITLES = {"Danish Crown": ["Danish Crown A/S", "Danish Crown (company)"],
+              "DMK": ["DMK Group", "DMK Deutsches Milchkontor", "DMK Deutsches Milchkontor GmbH"]}
 KINDS = {"meat": ("Meat company", "#1A5C92"), "milk": ("Dairy company", "#6FC2DA")}
 
 
@@ -77,6 +81,7 @@ def places(items, countries):
       OPTIONAL {{ ?item wdt:P625 ?own. }}
       OPTIONAL {{ ?item wdt:P159 ?hq. OPTIONAL {{ ?hq wdt:P625 ?hqc. }} }}
       OPTIONAL {{ ?item wdt:P17 ?country. OPTIONAL {{ ?country wdt:P297 ?iso2. }} }}
+      OPTIONAL {{ ?item wdt:P159 ?hq2. ?hq2 wdt:P17 ?hqcountry. ?hqcountry wdt:P297 ?hqiso2. }}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }} }}""")
     out = {}
     for r in rows:
@@ -84,6 +89,11 @@ def places(items, countries):
         if q in out and out[q][0]:
             continue
         at, how = W.place_row(r, countries)
+        if not at and W.v(r, "hqiso2") in countries:
+            # Round 192o: no coordinates and no country of its own; its
+            # headquarters' country, which Wikidata gives.
+            c = countries[W.v(r, "hqiso2")]
+            at, how = (c[0], c[1]), f"the middle of {c[2]}, its headquarters' country: Wikidata gives no nearer place"
         out[q] = (at, how, W.v(r, "hqLabel"), W.v(r, "countryLabel"))
     return out
 
@@ -220,7 +230,12 @@ def main():
                             kind.setdefault(v.strip(), k)
     all_tables = [(n, s, t) for n, s in sheets.items() for t in tables(s)]
     countries = W.country_points()
-    q = qids(sorted(set(ARTICLES.values())))
+    q = qids(sorted(set(ARTICLES.values()) | {t for ts in ALT_TITLES.values() for t in ts}))
+    for n, ts in ALT_TITLES.items():
+        if ARTICLES.get(n) not in q:
+            hit = next((t for t in ts if t in q), None)
+            if hit:
+                ARTICLES[n] = hit
     at = places(sorted(set(q.values())), countries)
     top = max(float(c[ch4_mass]) for _, c in companies)
     feats, boxes, status = [], {}, {"source": CITE, "companies": len(companies), "placed": [], "not placed": []}
@@ -230,7 +245,8 @@ def main():
         item = q.get(article) if article else None
         where = at.get(item) if item else None
         if not where or not where[0]:
-            status["not placed"].append(name)
+            status["not placed"].append({"company": name, "article tried": [article] + ALT_TITLES.get(name, []),
+                                         "why": "no Wikidata item found from the article" if not item else "Wikidata gives no place for it"})
             continue
         (lon, lat), how, hq, country = where
         kd = kind.get(name, "milk")
