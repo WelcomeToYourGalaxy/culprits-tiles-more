@@ -1,5 +1,5 @@
 {
- "read": "2026-10-12",
+ "read": "2026-10-14",
  "years": {
   "2019": {
    "dataset": "4e54dd6c-30f8-4f86-86a7-3c109a89528e",
@@ -32,5 +32,18 @@
   }
  },
  "refused": {},
- "waiting": []
+ "waiting": [
+  2024,
+  2025
+ ],
+ "partly read": {
+  "2024": "40,000 sums read so far, kept for the next run"
+ },
+ "features": 277,
+ "states_without_a_shape": [
+  "(no state)",
+  "AA",
+  "AE",
+  "AP"
+ ]
 }
