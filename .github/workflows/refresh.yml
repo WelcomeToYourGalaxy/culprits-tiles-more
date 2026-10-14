@@ -76,6 +76,7 @@ jobs:
           GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
           EARTHDATA_USER: ${{ secrets.EARTHDATA_USER }}
           EARTHDATA_PASS: ${{ secrets.EARTHDATA_PASS }}
+          WBA_API_KEY: ${{ secrets.WBA_API_KEY }}
           GIGA_API_KEY: ${{ secrets.GIGA_API_KEY }}
         run: timeout 160m python3 "scripts/${{ matrix.name }}.py"
       - name: Save what it made
