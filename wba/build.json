@@ -1,5 +1,30 @@
 {
- "built": false,
+ "built": true,
  "source": "World Benchmarking Alliance, Nature Benchmark (CC BY 4.0), data.worldbenchmarkingalliance.org",
- "reason": "No WBA_API_KEY secret yet. Request access at data.worldbenchmarkingalliance.org, then add the secret and the line WBA_API_KEY: ${{ secrets.WBA_API_KEY }} in refresh.yml."
+ "columns used": {
+  "benchmark": "benchmark_name",
+  "company id (benchmarks)": "company_id",
+  "company id (companies)": "company_id",
+  "year": "methodology_year",
+  "headquarters country": "company_location_hq_country_iso"
+ },
+ "benchmarks seen": [
+  "ACT Core",
+  "Corporate Human Rights Benchmark",
+  "Digital Inclusion Benchmark",
+  "Food and Agriculture Benchmark",
+  "Gender Assessment",
+  "Gender Benchmark",
+  "Just Transition",
+  "Nature Benchmark",
+  "Ocean Benchmark",
+  "Ranking Digital Rights Index",
+  "Social Benchmark",
+  "Urban Benchmark"
+ ],
+ "benchmark_rows": 9961,
+ "nature_rows": 750,
+ "companies": 750,
+ "placed": 750,
+ "not_placed": []
 }
