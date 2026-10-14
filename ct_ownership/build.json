@@ -1,0 +1,2765 @@
+{
+ "read": "2026-10-14",
+ "source": "Climate TRACE (CC BY 4.0): ownership tables of 7 October 2026 and its sector emissions packages (CO2e, 100-year)",
+ "tables": {
+  "entities.csv": "read from https://storage.googleapis.com/climate_trace/ownership/ownership_all_entities_071026.csv",
+  "asset_relationships.csv": "read from https://storage.googleapis.com/climate_trace/ownership/ownership_all_entity_asset_relationships_071026.csv",
+  "entity_relationships.csv": "read from https://storage.googleapis.com/climate_trace/ownership/ownership_all_entity_relationships_071026.csv"
+ },
+ "sectors": {
+  "mineral_extraction": {
+   "release": "Wed, 26 Aug 2026 23:00:23 GMT",
+   "files used": 7,
+   "owned sites found": 1636,
+   "owned sites asked": 1642,
+   "columns": [
+    "2026_asset-definition",
+    "activity",
+    "activity_units",
+    "capacity",
+    "capacity_factor",
+    "capacity_factor_units",
+    "capacity_units",
+    "created_date",
+    "data available through",
+    "emissions_factor",
+    "emissions_factor_units",
+    "emissions_quantity",
+    "end_time",
+    "gas",
+    "geometry_ref",
+    "iso3_country",
+    "lat",
+    "lon",
+    "modified_date",
+    "other1",
+    "other10",
+    "other10_def",
+    "other1_def",
+    "other2",
+    "other2_def",
+    "other3",
+    "other3_def",
+    "other4",
+    "other4_def",
+    "other5",
+    "other5_def",
+    "other6",
+    "other6_def",
+    "other7",
+    "other7_def",
+    "other8",
+    "other8_def",
+    "other9",
+    "other9_def",
+    "sector"
+   ],
+   "emissions as of": "2026-10-14"
+  },
+  "manufacturing": {
+   "release": "Wed, 26 Aug 2026 23:00:22 GMT",
+   "files used": 27,
+   "owned sites found": 1690,
+   "owned sites asked": 1716,
+   "columns": [
+    "2026_asset-definition",
+    "activity",
+    "activity_units",
+    "capacity",
+    "capacity_factor",
+    "capacity_factor_units",
+    "capacity_units",
+    "created_date",
+    "data available through",
+    "emissions_factor",
+    "emissions_factor_units",
+    "emissions_quantity",
+    "end_time",
+    "gas",
+    "geometry_ref",
+    "iso3_country",
+    "lat",
+    "lon",
+    "modified_date",
+    "other1",
+    "other10",
+    "other10_def",
+    "other1_def",
+    "other2",
+    "other2_def",
+    "other3",
+    "other3_def",
+    "other4",
+    "other4_def",
+    "other5",
+    "other5_def",
+    "other6",
+    "other6_def",
+    "other7",
+    "other7_def",
+    "other8",
+    "other8_def",
+    "other9",
+    "other9_def",
+    "sector"
+   ],
+   "emissions as of": "2026-10-14"
+  },
+  "agriculture": {
+   "release": "Wed, 26 Aug 2026 23:00:16 GMT",
+   "files used": 19,
+   "owned sites found": 2580,
+   "owned sites asked": 3212,
+   "columns": [
+    "2026_asset-definition",
+    "activity",
+    "activity_units",
+    "capacity",
+    "capacity_factor",
+    "capacity_factor_units",
+    "capacity_units",
+    "created_date",
+    "data available through",
+    "emissions_factor",
+    "emissions_factor_units",
+    "emissions_quantity",
+    "end_time",
+    "gas",
+    "geometry_ref",
+    "iso3_country",
+    "lat",
+    "lon",
+    "modified_date",
+    "other1",
+    "other10",
+    "other10_def",
+    "other1_def",
+    "other2",
+    "other2_def",
+    "other3",
+    "other3_def",
+    "other4",
+    "other4_def",
+    "other5",
+    "other5_def",
+    "other6",
+    "other6_def",
+    "other7",
+    "other7_def",
+    "other8",
+    "other8_def",
+    "other9",
+    "other9_def",
+    "sector"
+   ],
+   "emissions as of": "2026-10-14"
+  },
+  "fossil_fuel_operations": {
+   "release": "Wed, 26 Aug 2026 23:00:21 GMT",
+   "files used": 9,
+   "owned sites found": 4030,
+   "owned sites asked": 4046,
+   "columns": [
+    "2026_asset-definition",
+    "activity",
+    "activity_units",
+    "capacity",
+    "capacity_factor",
+    "capacity_factor_units",
+    "capacity_units",
+    "created_date",
+    "data available through",
+    "emissions_factor",
+    "emissions_factor_units",
+    "emissions_quantity",
+    "end_time",
+    "gas",
+    "geometry_ref",
+    "iso3_country",
+    "lat",
+    "lon",
+    "modified_date",
+    "other1",
+    "other10",
+    "other10_def",
+    "other1_def",
+    "other2",
+    "other2_def",
+    "other3",
+    "other3_def",
+    "other4",
+    "other4_def",
+    "other5",
+    "other5_def",
+    "other6",
+    "other6_def",
+    "other7",
+    "other7_def",
+    "other8",
+    "other8_def",
+    "other9",
+    "other9_def",
+    "sector"
+   ],
+   "emissions as of": "2026-10-14"
+  },
+  "power": {
+   "release": "Wed, 26 Aug 2026 23:00:23 GMT",
+   "files used": 3,
+   "owned sites found": 9567,
+   "owned sites asked": 9703,
+   "columns": [
+    "2026_asset-definition",
+    "activity",
+    "activity_units",
+    "capacity",
+    "capacity_factor",
+    "capacity_factor_units",
+    "capacity_units",
+    "created_date",
+    "data available through",
+    "emissions_factor",
+    "emissions_factor_units",
+    "emissions_quantity",
+    "end_time",
+    "gas",
+    "geometry_ref",
+    "iso3_country",
+    "lat",
+    "lon",
+    "modified_date",
+    "other1",
+    "other10",
+    "other10_def",
+    "other1_def",
+    "other2",
+    "other2_def",
+    "other3",
+    "other3_def",
+    "other4",
+    "other4_def",
+    "other5",
+    "other5_def",
+    "other6",
+    "other6_def",
+    "other7",
+    "other7_def",
+    "other8",
+    "other8_def",
+    "other9",
+    "other9_def",
+    "sector"
+   ],
+   "emissions as of": "2026-10-14"
+  }
+ },
+ "waiting": [],
+ "owners at the top": 9142,
+ "placed": 6237,
+ "not placed": [
+  {
+   "owner": "small shareholder(s)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "natural person(s)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Iraqi Oil Exploration",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "member/employee owned",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Busra Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kansai Electric Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kansai Electric Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PTT Exploration and ‎‎Production Public",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Aramco Gulf Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nogaholdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Cosmo Abu Dhabi Energy Exploration & Production",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "OQ",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "TotalEnergies Exploration and Production",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "ONGC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Roszarubezhneft",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SunTrust Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Amni International Petroleum Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dubri Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Neconde Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190920",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Midwestern Oil & Gas",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Equinor Brasil Energia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CNOOC Petroleum Brasil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CNODC Brasil Petróleo e Gás",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000191624",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Wintershall Aktiengesellschaft",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Iraq Drilling",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Midland Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "National Oil Corporation (Libya)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "GyP Neuquén",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nobel Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kerogen Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Amni International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Bluewater Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Concedo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guodian Zhejiang Beilun No.1 Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190414",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Esso Exploration Angola",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xinjiang Tianlong Mineral",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Petrolera Cárdenas Mora",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Vista Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Fletcher Group Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Anhui Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Anhui Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Mongolia Juda Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "LetterOne Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Grupo Bal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "AINDA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huadian Laizhou Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "JOGMEC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "British Asia Pan Ruogen International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Energi Mega Persada",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "INEOS",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Vedanta Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shaanxi Guohua Jinjie Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huadian Zouxian Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "State Energy Group Taizhou Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Private investors",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Bangchak Corporation Public",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gansu Dongxing Aluminum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Baotou Aluminum Factory",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000191602",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Entergy Utility Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Zamaja",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Changyuan Hanchuan Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CNOOC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CNOOC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "EP Investment S.à r.l.",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "BP P.L.C.",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guodian Jiangsu Jianbi Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190955",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "E100002019164",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Chevron Brasil Petróleo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PRIO",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Brava Energia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Niko Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Government of Donetsk People's Republic",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "North Petroleum International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nongbashi Tianshan Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jiangsu Datang International Lvsigang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Shanxi Hequ Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Monglia Chuangyuan Metal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Monglia Chuangyuan Metal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Cnooc International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Bridas Energy Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "MangistauMunaiGaz",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "unknown",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Sanmenxia Electric Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Sanmenxia Electric Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Serica Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hebei Xibaipo Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Yunnan Diandong Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Yunnan Diandong Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sinochem",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xinjiang Qiya Energy Aluminium Electric",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Eldridge City Utilities",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guodian Bengbu Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190615",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Indian Farmers Fertiliser Cooperative",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Hunan Yueyang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Zhejiang Zheneng Lanxi Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Guizhou Faer Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Brightoil Petroleum Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "GS Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Huanghe Xinye",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Deseret Generation & Tran Coop",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Baotou Oriental Hope Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Anhui Jinmei Zhongneng Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "DNO",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xinjiang Easthope Coal Power and Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jiangsu Xinhai Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Viaro Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Xiangtan Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "HitecVision",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Rigel Petroleum (NI)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Neimeng Jinlian Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guixi Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Baofeng Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Mongolia Baofeng",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Compañías Asociadas Petroleras",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PDV America",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Pucheng No.2 Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dongfang Xiwang Aluminium Smelter Innermongolia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Shenhua Jiujiang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PTT Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "National Energy Group Yueyang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huafeng Aluminum Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Chevron Phillips Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guangdong Datang International Leizhou Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "China Resources Power Hubei",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "China Resources Power Hubei",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dongfang Energy (Hong Kong) International Trading",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Afentra",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Acrep",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "HollyFrontier",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kuwait National Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000191068",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Kuwait Integrated Petroleum Industries",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Xinheng Hydro Power Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sinochem",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Dongying Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Mongolia Daban Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xuchang Longgang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Guiguan Heshan Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kufpec",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Bridge Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ithaca MA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Japex",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ping Petroleum UK",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kufpec",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Egyptian General Petroleum Corporation (EGPC)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dayuan",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guangzhou Hengyun Enterprises Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Shenwan Chizhou Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Türkiye Petrol Rafinerileri",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Henan Yugang Longquan Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shanxi Tongchuan Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Chaoyang Yanshan Lake Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ceylon Electricity Board",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yunnan Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ma’aden Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "China Power Engineering Consulting Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guodian Suqian Thermoelectricity",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Henan Hong KongYugang Longquan Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huanghe Xinye",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Liaoning Qinghe Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Liaoning Qinghe Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Engro Fertilizers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Town of Montezuma - (IN)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "China Power (Pu'an) Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jiangxi Datang International Xinyu Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190689",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Emerald Energy Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "HKN Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "ShaMaran Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Mongolia MengDian HuaNeng Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guizhou Panjiang Coal and Electricity Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guizhou Jinyuan Chayuan Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guodian Huangjinbu Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Huanghe Hydro Power Recycling Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Henan Qinyang Aluminium Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yongchen Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huadian Xinzhou Guangyu Coal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Binchang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sirida (Hong Kong) Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shaanxi Coal Power Yuncheng",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shaanxi Coal Power Yuncheng",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guizhou Yaxi Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jiangyin Sulong Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Anyuan Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Minquan Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Maurel & Prom",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kosmos Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PetroSA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guizhou Xingyi Electric Power Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Coromandel International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hanwha Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Iraq National Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yunnan Diandong Yuwang Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yunnan Diandong Yuwang Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shaanxi Beiyuan Chemical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "National Energy Group Yulin Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Western Hydro Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Huanghe Hydropower Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Huanghe Hydropower Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "National Energy Feixian Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Puxingxing (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190600",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Jiaozuowanfang Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Chevron Phillips",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinhai Qiatou Aluminium and Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000189783",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Isramco",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tamar Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yingkou Zhongwang Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shaanxi Yanchang Petroleum Yanan Energy Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Huaiyin Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sichuan Aostar Guangyuan Aluminium Smelter",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shanxi Yuguang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "City of Geneseo - (IL)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Irving Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gazprom Neft",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190994",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "E100000189712",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "E100000189960",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Liaoning Zhongwang",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Southern Indiana Gas & Elec",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "National Energy Group Baoqing Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "LG Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qinghai Baihe Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xinjiang Production and Construction Corps",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hubei Huadian Jiangling Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "GPSC Holding (Thailand)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SCG Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Barito Pacific Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PT Top Investment Indonesia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shuangyao Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nor Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Continent Congo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000189430",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "E100000191078",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Surgutneftegas",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gold Geneses Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yunnan Dongyuan Qujing Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ningxia Jinjiang Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Lygend New Power (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000191448",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "E100000191803",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Shanxi Luneng Jinbei Aluminum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "PTT Global Cehmical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Chengdu Xindu Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Emeishan Aluminium Industry Clique",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Henan Shenhuo Orient Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Linfeng Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SASOL North American",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Indorama Eleme Fertilizer & Chemicals",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Lygend Resources & Technology",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SK Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "TotalEnergies E&P North Sea UK",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sojitz Energy Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Talos Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Daelim",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "State Power Investment Group Inner Mongolia Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "State Power Investment Group Inner Mongolia Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Inner Mongolia Jingneng Shuangxin Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guangxi Xinfa Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guangxi Baise Mining Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Metalloinvest MC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nantong Tianshenggang Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jiangsu Sopo (Group)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Cosmo Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huadian Tengzhou Xinyuan Thermoelectricity",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Qingtongxia Maike Aluminum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Fuxin Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CDPQ Infrastructures Asia II",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CLP GPEC (Mauritius) Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190851",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Chambal Fertilisers and Chemicals",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Westlake Petrochemicals",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shanxi Datang International Linfen Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Longdong Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "U.S. International Development Finance",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huadian Karamay Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Varo Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ministry of Economy (Azerbaijan)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Paradeep Phosphates",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guodian Korla Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Todd",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ta'min Oil and Gas and Petrochemical Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tharwa",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Luqing Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "3R Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Zhongfu Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yulin Yushen Coal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Saudi Petrochemical Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CS control",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tianhe Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Qingyuan Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Qingyuan Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Satellite Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Utah Municipal Power Agency",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Utah Municipal Power Agency",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "FIRST GLORY SERVICES",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hellenic Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "State Power Investment Group Hebei Electric Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "State Power Investment Group Hebei Electric Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100002010968",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Kordestan Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Bakhtar Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mahabad Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kermanshah Polymer",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Lorestan Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Khalij Fars Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mesaieed Petrochemical Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Misr Fertilizers Production",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shenzhen Energy Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Henan Jingneng Huazhou Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Yingkou Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mubadala Investmment Company of the Emirate of Abu Dhabi",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hubei Kailong Chuxing Chemical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Zhejiang Hengli Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nordsøfonden",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "OK",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "BlueNord",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Formosa Investment (Cayman)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Essess Aluminum Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dno North Sea",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Oil Industry Retirement Fund Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000189897",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Yunnan Huadian Kunming Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tenaska Pennsylvania I",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CGN Huamei Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huaneng Jingmen Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Key Group Long Term Investments",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Huayin Zhuzhou Electricity Generate",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Huayin Zhuzhou Electricity Generate",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Luminant Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kermanshah Petrochemical Industries",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Chandra Asri-Glencore joint venture",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Petrochemical Corporation of Singapore",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Orlen Unipetrol",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sichuan Lomon Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Suzhou Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Suzhou Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Hebei Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Hebei Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guangdong Huadian Shaoguan Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "NYSE-New York Stock Exchange",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Datang Linzhou Thermoelectricity",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tenaska Oklahoma",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tenaska Oklahoma I",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CVR Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Cooper Energy (Ch)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Esso Australia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Northstar Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Huarun Power (Lianyuan)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hebei Datang International Fengrun Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Zhongshan Electric Power (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CVR Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Wanbao Mining",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Preem",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "TC Virginia GP",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tenaska Virginia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tenaska Virginia I",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Carroll County Energy Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kuwait Petroleum International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100002011211",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Atiyeh Saba Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gotham Power Investors",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "New Zealand Oil & Gas",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Horizon Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Horizon Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "New Zealand Oil & Gas",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jadestone Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Jadestone Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000190411",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Doe Run Mining",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SinoCongolaise des Mines",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Transworld Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Suncor Energy UK",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Schlumberger",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guizhou Qiya Aluminum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Codelco",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Liaoning Bora Enterprise Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dongming Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Safmar Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Slavneft",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Yongfu Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guoneng Yongfu Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Maruzen Petrochemial",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Prax Upstream",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "LAT Nitrogen Linz",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mittal Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xuan Gang International Trading (HK)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "GenOn Bowline Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Idemitsu Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Marvdasht Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mitsui Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tenaska VI Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Coffeyville Resources Nitrogen Fertilizers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Severstal PAO",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Delta Air Lines",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Motor Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Guizhou Kaiyang Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kaiyang Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Edalat Fund",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Southern Copper",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tasnee Saharan Olefins",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sipchem",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tabane Farda Petrochemical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Armed Forces Pension Fund",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Amin Tavan Afarin Saz",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tamin Oil and Gas and Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nova Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hengxin Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Shandong Zoucheng Hengxin High-tech Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "South Aluminium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mach Energy (Hongkong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "NOMAC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Pars Tammin Majd",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Pars Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Petroecuador",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CMOC Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Wanhua Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "NRG East Generation Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dehdash Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sepher Saderat Financial Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Borujen Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Mamasani Petrochemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kazrun Petrochemi",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "J-POWER Jackson Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Federated Co-operatives",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Carville Power Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Navoiazot",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "XinYi Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Empire Gen Holdco",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gulf Energy USA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Rhône Energies",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Kanpur Fertilizers & Cement",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ampol",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Stoket",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Roskhim",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Antofagasta",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Taiyo Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tomago Aluminium Company Pty",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Aluminium de Grèce",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Warrego Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Korea Petrochemical Industries",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Geo-Jade Petroleum",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Aluminerie Alouette",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Panjin Xincheng Indutrial Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Pequiven",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SPIC Guizhou Zunyi Industrial Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Salalah Methanol",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Boyne Smelters",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Volga Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hohhot Risun China Gas Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "LI Generation Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Minera Cruz",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Government of National Capital Territory of Delhi",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hamilton Liberty O&M",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hamilton Patriot Intermediate Holdings III",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "SMB-Winning Consortium",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gunvor Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Vietnam National Chemical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "State-owned Assets Supervision and Administration Bureau of Xiangning County Government",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Xinjiang Jiarun Resources Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Société Nationale Industriale et Minière de Mauritanie",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Zangezur Copper-Molybdenum Combine",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Rusinvest",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Press Metal Samalaju",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Sinpoo Chemicals Pte",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "CPV Valley Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "AJ Lucas Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Bashkir Soda Company",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yangmei Taihua New Materials",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Engineers India",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "E100000188404",
+   "headquarters": null,
+   "registration": null
+  },
+  {
+   "owner": "Engineers India",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Nasser Social Bank",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Luminant Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Isan International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Persian Gulf Star Oil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Hilal Al-Tuwairqi",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Independent Third Party",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Transworld Oil USA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Dalian Taishan Thermal Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "NLMK Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Primary Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Wuxi Municipal People's Government",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "South Asia Energy Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Petkim",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Astron Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Yuncheng State-owned Assets Supervision and Administration Commission",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Tsingtuo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Ostchem",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Gangfa International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Petroperu",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "British Virgin Islands Best Environmental Technology",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "owner": "Grupo Minero Las Cenizas",
+   "headquarters": "",
+   "registration": ""
+  }
+ ],
+ "not placed, count": 2905,
+ "sites named": 20319,
+ "sites with emissions": 19503,
+ "sites drawn": 19503
+}
