@@ -15,12 +15,21 @@ wba/columns.json. Countries are matched exactly (ISO code or the country's
 own name); the unmatched are listed, not placed.
 
 Writes wba/nature_companies.geojson, wba/build.json, wba/columns.json.
+
+Round 194o (asked 14 October): every benchmark WBA's data holds is drawn the
+same way, one file each, wba/<benchmark>.geojson (the Nature Benchmark keeps
+its old name), except the Urban Benchmark, which the owner left out.
 """
 import json, math, os, pathlib, subprocess, sys, time, urllib.parse, urllib.request
 
 BASE = "https://data.worldbenchmarkingalliance.org/api/data/v1"
 OUT = pathlib.Path("wba")
-CITE = "World Benchmarking Alliance, Nature Benchmark (CC BY 4.0), data.worldbenchmarkingalliance.org"
+CITE = "World Benchmarking Alliance, {} (CC BY 4.0), data.worldbenchmarkingalliance.org"
+LEFT_OUT = {"urban benchmark"}   # the owner's choice, 14 October
+
+
+def slug(name):
+    return "".join(c if c.isalnum() else "_" for c in name.lower()).strip("_")
 _last = [0.0]
 
 
@@ -66,7 +75,7 @@ def col(cols, *words, avoid=()):
 
 def main():
     OUT.mkdir(exist_ok=True)
-    status = {"built": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "source": CITE}
+    status = {"built": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "source": CITE.format("benchmarks")}
     if not os.environ.get("WBA_API_KEY"):
         status.update(built=False, reason="No WBA_API_KEY secret yet. Request access at data.worldbenchmarkingalliance.org, "
                       "then add the secret and the line WBA_API_KEY: ${{ secrets.WBA_API_KEY }} in refresh.yml.")
@@ -98,12 +107,29 @@ def main():
         (OUT / "build.json").write_text(json.dumps(status, indent=1, ensure_ascii=False))
         print("::warning::wba_nature: column not found; see wba/columns.json")
         return
-    nature = [r for r in bench if "nature" in str(r.get(which) or "").lower()]
-    by_co = {}
-    for r in nature:
-        by_co.setdefault(r.get(cid_b), []).append(r)
     info = {c.get(cid_c): c for c in comps}
     caps = capitals()
+    status["files"] = {}
+    for bname in status["benchmarks seen"]:
+        if bname.lower() in LEFT_OUT or bname in ("None", ""):
+            continue
+        n_rows, n_cos, feats, unplaced = draw(bname, bench, which, cid_b, year, info, ccols, country, caps, pycountry)
+        fname = "nature_companies.geojson" if bname == "Nature Benchmark" else f"{slug(bname)}.geojson"
+        (OUT / fname).write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
+        status["files"][bname] = {"file": f"wba/{fname}", "rows": n_rows, "companies": n_cos, "placed": len(feats), "not_placed": unplaced}
+        if bname == "Nature Benchmark":
+            status.update(nature_rows=n_rows, companies=n_cos, placed=len(feats), not_placed=unplaced)
+    status.update(built=True, benchmark_rows=len(bench), left_out=sorted(LEFT_OUT))
+    (OUT / "build.json").write_text(json.dumps(status, indent=1, ensure_ascii=False))
+    print("wba_nature: " + "; ".join(f"{k}: {v['placed']} placed, {len(v['not_placed'])} not" for k, v in status["files"].items()))
+
+
+def draw(bname, bench, which, cid_b, year, info, ccols, country, caps, pycountry):
+    """One benchmark's rows -> its companies, each with every column of its rows."""
+    mine = [r for r in bench if str(r.get(which) or "") == bname]
+    by_co = {}
+    for r in mine:
+        by_co.setdefault(r.get(cid_b), []).append(r)
     feats, unplaced, spin = [], [], {}
     for co, rs in sorted(by_co.items(), key=lambda kv: str(kv[0])):
         c = info.get(co) or {}
@@ -133,14 +159,10 @@ def main():
         p["placed at"] = (f"the capital of its headquarters country ({cap[2]})" if cap[3] == "capital" else
                           f"{cap[2]}, the most populous place Natural Earth lists in its headquarters country") + \
                          "; WBA gives the country, not the address. Spread around it so each can be clicked."
-        p["source"] = CITE
+        p["source"] = CITE.format(bname)
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(lon, 5), round(lat, 5)]},
                       "properties": {k: (v if isinstance(v, (int, float, str, bool)) else json.dumps(v, ensure_ascii=False)) for k, v in p.items()}})
-    (OUT / "nature_companies.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
-    status.update(built=True, benchmark_rows=len(bench), nature_rows=len(nature), companies=len(by_co),
-                  placed=len(feats), not_placed=unplaced)
-    (OUT / "build.json").write_text(json.dumps(status, indent=1, ensure_ascii=False))
-    print(f"wba_nature: {len(feats)} placed, {len(unplaced)} not placed")
+    return len(mine), len(by_co), feats, unplaced
 
 
 if __name__ == "__main__":
