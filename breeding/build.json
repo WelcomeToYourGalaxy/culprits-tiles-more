@@ -1,5 +1,13 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-14",
+ "zoos_kml": {
+  "placemarks": 10444,
+  "named_like_aquariums": 881
+ },
+ "failed": [
+  "breeding: no Overpass instance answered (HTTP Error 504: Gateway Timeout)",
+  "zoos: no Overpass instance answered (Remote end closed connection without response)"
+ ],
  "zoos": {
   "places": 10806,
   "kinds": {
@@ -45,10 +53,7 @@
    "seal": 1,
    "rabbit": 1,
    "farm animals": 1
-  }
- },
- "zoos_kml": {
-  "placemarks": 10444,
-  "named_like_aquariums": 881
+  },
+  "kept_from": "2026-10-12"
  }
 }
