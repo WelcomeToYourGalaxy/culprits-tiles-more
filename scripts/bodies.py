@@ -269,11 +269,23 @@ def wiki(body):
     (RAW / f"{body}_list.html").write_text(page, encoding="utf-8")
     p = Tables()
     p.feed(page)
-    feats, report = [], []
+    feats, report, keys, totals = [], [], [], []
     for ti, t in enumerate(p.tables):
         g = grid(t["rows"])
+        # Round 203o: a table of two columns or fewer is a colour key, not a
+        # list of objects; it is kept in the file's "keys", as written.
+        widest = max((len(line) for line in g), default=0)
+        if widest < 3:
+            keys.append({"caption": t["caption"], "rows": [[c["text"] for c in line] for line in g]})
+            report.append({"caption": t["caption"], "kept as": "key", "rows": len(g)})
+            continue
         head = None
         for line in g:
+            if line and all(c["th"] for c in line) and head is not None and any(re.search(r"\d", c["text"]) for c in line):
+                # A line of totals under the header (the Moon list's total mass) is kept
+                # in the file's "totals", not taken as a column name.
+                totals.append([c["text"] for c in line])
+                continue
             if line and all(c["th"] for c in line):
                 # The last full header line names the columns (two-line headers keep both words).
                 names = [c["text"] for c in line]
@@ -297,7 +309,8 @@ def wiki(body):
                     break
             feats.append({"type": "Feature", "properties": props, "geometry": geom})
         report.append({"caption": t["caption"], "columns": head, "rows": sum(1 for f in feats if f["properties"]["table"] == (t["caption"] or f"Table {ti + 1}"))})
-    write(f"{body}_list.geojson", {"type": "FeatureCollection", "features": feats,
+    build[f"{body}_list_totals"] = totals
+    write(f"{body}_list.geojson", {"type": "FeatureCollection", "features": feats, "keys": keys, "totals": totals,
           "source": "Wikipedia, \"" + title + "\" (revision " + str(j["parse"].get("revid")) + ")",
           "licence": "CC BY-SA 4.0", "url": "https://en.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))})
     build[f"{body}_list"] = {"revision": j["parse"].get("revid"), "tables": report, "rows": len(feats),
@@ -344,6 +357,37 @@ def artemis(moon_names):
     build["artemis3"] = {"regions": len(feats), "not found in the names": missing}
 
 
+# Round 203o: one picture of each body for the globe view, stitched from the
+# same Trek tiles the flat map shows, at Trek's zoom 3 (16 x 8 squares, 4096 x 2048).
+GLOBE_TILES = {"moon": "https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/default/default028mm/{z}/{y}/{x}.jpg",
+               "mars": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/{z}/{y}/{x}.jpg"}
+
+
+def globe_pictures():
+    try:
+        from PIL import Image
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pillow"], check=True)
+        from PIL import Image
+    made = {}
+    z, cols, rows = 3, 16, 8
+    for body, tpl in GLOBE_TILES.items():
+        out = Image.new("RGB", (cols * 256, rows * 256))
+        got = 0
+        for y in range(rows):
+            for x in range(cols):
+                try:
+                    im = Image.open(io.BytesIO(fetch(tpl.format(z=z, x=x, y=y)))).convert("RGB")
+                    out.paste(im.resize((256, 256)), (x * 256, y * 256))
+                    got += 1
+                except Exception as e:
+                    print(f"bodies: {body} globe square {x},{y}: {e}")
+        if got:
+            out.save(OUT / f"{body}_globe.jpg", "JPEG", quality=85)
+        made[body] = f"{got} of {cols * rows} squares"
+    build["globe_pictures"] = made
+
+
 def rovers():
     got = {}
     for rel in ROVERS:
@@ -364,7 +408,7 @@ def main():
     moon_names = []
     for name, fn in [("moon_objects", lroc), ("moon_list", lambda: wiki("moon")), ("mars_list", lambda: wiki("mars")),
                      ("moon_names", lambda: moon_names.extend(names("moon"))), ("mars_names", lambda: names("mars")),
-                     ("artemis3", lambda: artemis(moon_names)), ("rovers", rovers)]:
+                     ("artemis3", lambda: artemis(moon_names)), ("rovers", rovers), ("globe_pictures", globe_pictures)]:
         try:
             fn()
         except Exception as e:
