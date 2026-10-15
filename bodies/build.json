@@ -1,0 +1,161 @@
+{
+ "built": "2026-10-15T02:43:37Z",
+ "failed": {},
+ "moon_objects": {
+  "rows": 71,
+  "fields": [
+   "OBJECT_ID",
+   "SHORT_NAME",
+   "VEHCL_NAME",
+   "MISSION",
+   "OBJECT",
+   "LATITUDE",
+   "LON_360",
+   "LONGITUDE",
+   "RADIUS",
+   "RAD_SRC",
+   "COORD_SRC",
+   "UNCERTAIN",
+   "DATE",
+   "REFERENCES"
+  ],
+  "file in zip": "ANTHROPOGENIC_OBJECTS_180",
+  "unplaced": 0
+ },
+ "moon_list": {
+  "revision": 1370338372,
+  "tables": [
+   {
+    "caption": "",
+    "columns": [
+     "Colors",
+     "Colors"
+    ],
+    "rows": 4
+   },
+   {
+    "caption": "",
+    "columns": [
+     "Artificial object Total estimated dry mass",
+     "Image Total estimated dry mass",
+     "Country Total estimated dry mass",
+     "Year Total estimated dry mass",
+     "Mass (lb) 491,035",
+     "Mass (kg) 222,729",
+     "Status 40 major objects landed softly",
+     "Location 40 major objects landed softly",
+     "Notes 40 major objects landed softly"
+    ],
+    "rows": 104
+   }
+  ],
+  "rows": 108,
+  "unplaced": [
+   "Crashed (unintentionally)",
+   "Impactor or post-mission crashed",
+   "Landed",
+   "Operational",
+   "Luna 10",
+   "Luna 11",
+   "Luna 12",
+   "Lunar Orbiter 4",
+   "Explorer 35",
+   "Luna 14",
+   "Apollo 10 LM-4 Snoopy descent stage",
+   "Luna 15",
+   "Apollo 11 LM-5 Eagle ascent stage",
+   "Luna 19",
+   "Apollo 15 subsatellite",
+   "Apollo 16 LM-11 Orion ascent stage",
+   "Apollo 16 subsatellite",
+   "Explorer 49 (RAE-B)",
+   "Luna 22",
+   "Hagoromo Hiten",
+   "SELENE Vstar (Ouna)"
+  ]
+ },
+ "mars_list": {
+  "revision": 1373656289,
+  "tables": [
+   {
+    "caption": "Key",
+    "columns": null,
+    "rows": 0
+   },
+   {
+    "caption": "",
+    "columns": [
+     "Year",
+     "Agency",
+     "Mission",
+     "Object(s)",
+     "Image",
+     "Mass (kg)",
+     "Status",
+     "Location"
+    ],
+    "rows": 20
+   }
+  ],
+  "rows": 20,
+  "unplaced": []
+ },
+ "moon_names": {
+  "rows": 9087,
+  "fields": [
+   "name",
+   "clean_name",
+   "approvaldt",
+   "origin",
+   "diameter",
+   "center_lon",
+   "center_lat",
+   "type",
+   "code",
+   "approval",
+   "min_lon",
+   "max_lon",
+   "min_lat",
+   "max_lat",
+   "ethnicity",
+   "continent",
+   "quad_name",
+   "quad_code",
+   "link"
+  ]
+ },
+ "mars_names": {
+  "rows": 2052,
+  "fields": [
+   "name",
+   "clean_name",
+   "approvaldt",
+   "origin",
+   "diameter",
+   "center_lon",
+   "center_lat",
+   "type",
+   "code",
+   "approval",
+   "min_lon",
+   "max_lon",
+   "min_lat",
+   "max_lat",
+   "ethnicity",
+   "continent",
+   "quad_name",
+   "quad_code",
+   "link"
+  ]
+ },
+ "artemis3": {
+  "regions": 9,
+  "not found in the names": []
+ },
+ "rovers": {
+  "M20/Layers/json/M20_waypoints.json": 704,
+  "M20/Layers/json/M20_traverse.json": 557,
+  "MSL/Layers/json/MSL_waypoints.json": 1385,
+  "MSL/Layers/json/MSL_traverse.json": 1313
+ }
+}
