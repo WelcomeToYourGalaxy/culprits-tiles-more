@@ -1,5 +1,5 @@
 {
- "built": "2026-10-15T02:43:37Z",
+ "built": "2026-10-15T04:54:59Z",
  "failed": {},
  "moon_objects": {
   "rows": 71,
@@ -22,39 +22,45 @@
   "file in zip": "ANTHROPOGENIC_OBJECTS_180",
   "unplaced": 0
  },
+ "moon_list_totals": [
+  [
+   "Total estimated dry mass",
+   "Total estimated dry mass",
+   "Total estimated dry mass",
+   "Total estimated dry mass",
+   "491,035",
+   "222,729",
+   "40 major objects landed softly",
+   "40 major objects landed softly",
+   "40 major objects landed softly"
+  ]
+ ],
  "moon_list": {
   "revision": 1370338372,
   "tables": [
    {
     "caption": "",
-    "columns": [
-     "Colors",
-     "Colors"
-    ],
-    "rows": 4
+    "kept as": "key",
+    "rows": 5
    },
    {
     "caption": "",
     "columns": [
-     "Artificial object Total estimated dry mass",
-     "Image Total estimated dry mass",
-     "Country Total estimated dry mass",
-     "Year Total estimated dry mass",
-     "Mass (lb) 491,035",
-     "Mass (kg) 222,729",
-     "Status 40 major objects landed softly",
-     "Location 40 major objects landed softly",
-     "Notes 40 major objects landed softly"
+     "Artificial object",
+     "Image",
+     "Country",
+     "Year",
+     "Mass (lb)",
+     "Mass (kg)",
+     "Status",
+     "Location",
+     "Notes"
     ],
     "rows": 104
    }
   ],
-  "rows": 108,
+  "rows": 104,
   "unplaced": [
-   "Crashed (unintentionally)",
-   "Impactor or post-mission crashed",
-   "Landed",
-   "Operational",
    "Luna 10",
    "Luna 11",
    "Luna 12",
@@ -74,13 +80,14 @@
    "SELENE Vstar (Ouna)"
   ]
  },
+ "mars_list_totals": [],
  "mars_list": {
   "revision": 1373656289,
   "tables": [
    {
     "caption": "Key",
-    "columns": null,
-    "rows": 0
+    "kept as": "key",
+    "rows": 3
    },
    {
     "caption": "",
@@ -157,5 +164,9 @@
   "M20/Layers/json/M20_traverse.json": 557,
   "MSL/Layers/json/MSL_waypoints.json": 1385,
   "MSL/Layers/json/MSL_traverse.json": 1313
+ },
+ "globe_pictures": {
+  "moon": "128 of 128 squares",
+  "mars": "128 of 128 squares"
  }
 }
