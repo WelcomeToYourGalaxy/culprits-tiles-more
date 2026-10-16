@@ -1,0 +1,19 @@
+{
+ "series read": {
+  "VA.PER.RNK": 0,
+  "VA.EST": 0,
+  "PV.PER.RNK": 0,
+  "PV.EST": 0,
+  "GE.PER.RNK": 0,
+  "GE.EST": 0,
+  "RQ.PER.RNK": 0,
+  "RQ.EST": 0,
+  "RL.PER.RNK": 0,
+  "RL.EST": 0,
+  "CC.PER.RNK": 0,
+  "CC.EST": 0
+ },
+ "countries": 0,
+ "failed": true,
+ "made": "2026-10-16T23:22:17Z"
+}
