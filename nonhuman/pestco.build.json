@@ -1,0 +1,182 @@
+{
+ "companies": {
+  "BASF": {
+   "item": "Q9401"
+  },
+  "Bayer": {
+   "item": "Q152051"
+  },
+  "Sumitomo Chemical": {
+   "item": "Q137803"
+  },
+  "Syngenta": {
+   "item": "Q688613"
+  },
+  "UPL": {
+   "item": "Q98033901"
+  },
+  "Adama": {
+   "item": "Q903943"
+  },
+  "Kumiai Chemical Industry": {
+   "item": "Q11298808"
+  },
+  "Nissan Chemical": {
+   "item": "Q7040930"
+  },
+  "Nufarm": {
+   "item": "Q900401"
+  },
+  "Jiangsu Yangnong Chemical": {
+   "searched": [],
+   "item": null
+  }
+ },
+ "owned, first step": 68,
+ "owned, second step": 36,
+ "placed": 99,
+ "no place on Wikidata (not drawn)": [
+  {
+   "name": "UPL (company)",
+   "qid": "Q98033901",
+   "role": "company",
+   "group": "UPL",
+   "parent": null,
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "Q127448081",
+   "qid": "Q127448081",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "Q134305593",
+   "qid": "Q134305593",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": "Canada",
+   "placed": null
+  },
+  {
+   "name": "BASF Agricultural Solutions",
+   "qid": "Q137918362",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "BASF (United States)",
+   "qid": "Q29000277",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": "United States",
+   "placed": null
+  },
+  {
+   "name": "Norsk Kraftaktieselskab",
+   "qid": "Q41147750",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": "Norway",
+   "placed": null
+  },
+  {
+   "name": "De Norske Salpeterverker",
+   "qid": "Q41147793",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": "Norway",
+   "placed": null
+  },
+  {
+   "name": "Bayer Türkiye",
+   "qid": "Q6079827",
+   "role": "subsidiary",
+   "group": "Bayer",
+   "parent": "Bayer",
+   "hq": null,
+   "country": "Turkey",
+   "placed": null
+  },
+  {
+   "name": "Q6975218",
+   "qid": "Q6975218",
+   "role": "subsidiary",
+   "group": "Syngenta",
+   "parent": "Syngenta",
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "BASF Plant Science",
+   "qid": "Q795452",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "BASF Vegetable Seeds",
+   "qid": "Q99456316",
+   "role": "subsidiary",
+   "group": "BASF",
+   "parent": "BASF",
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "Agracetus",
+   "qid": "Q4693694",
+   "role": "subsidiary",
+   "group": "Bayer",
+   "parent": "Monsanto",
+   "hq": null,
+   "country": null,
+   "placed": null
+  },
+  {
+   "name": "Covestro (Thailand)",
+   "qid": "Q68464743",
+   "role": "subsidiary",
+   "group": "Bayer",
+   "parent": "Covestro",
+   "hq": "Map Ta Phut",
+   "country": "Thailand",
+   "placed": null
+  },
+  {
+   "name": "Covestro (Australia)",
+   "qid": "Q68465049",
+   "role": "subsidiary",
+   "group": "Bayer",
+   "parent": "Covestro",
+   "hq": null,
+   "country": "Australia",
+   "placed": null
+  }
+ ],
+ "failed": false,
+ "made": "2026-10-16T23:11:10Z"
+}
