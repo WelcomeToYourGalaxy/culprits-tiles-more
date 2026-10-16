@@ -1,0 +1,93 @@
+{
+ "sheets": {
+  "Pivot": {
+   "rows": 77,
+   "columns": [
+    "Exporter name CLEAN",
+    "(All)"
+   ],
+   "used": {
+    "exporting country": null,
+    "destination": null,
+    "active ingredient": null,
+    "company": null,
+    "amount": null
+   },
+   "names not matched to a country": []
+  },
+  "Agri export notifications": {
+   "rows": 1803,
+   "columns": [
+    "UEID",
+    "Importing party (i.e. importing non-EU country)",
+    "Importing party (i.e. importing non-EU country) CLEAN",
+    "Importing continent",
+    "World bank income classification",
+    "Annex I chemical name ",
+    "Annex I chemical name CLEAN",
+    "CAS number",
+    "EC Number",
+    "Subject Type",
+    "Mixture name/trade name ",
+    "Concentration(s) of the Annex I chemical(s) in the mixture",
+    "Concentration(s) of the Annex I chemical(s) in the mixture CLEAN",
+    "Export Year",
+    "Expected date of first export ",
+    "Expected yearly amount of exported substance or mixture (kg/l per year) ",
+    "Expected yearly amount of exported substance or mixture (/ per year) CLEAN",
+    "Foreseen category",
+    "Foreseen use",
+    "Exporter name",
+    "Exporter name CLEAN",
+    "Exporter Address",
+    "Exporter Country Name",
+    "notifications with more than one banned substance",
+    "Group ID",
+    "Divided by",
+    "Notes"
+   ],
+   "used": {
+    "exporting country": "Exporter Country Name",
+    "destination": "Importing party (i.e. importing non-EU country)",
+    "active ingredient": "Annex I chemical name ",
+    "company": null,
+    "amount": "Expected yearly amount of exported substance or mixture (kg/l per year) "
+   },
+   "names not matched to a country": [
+    "Bielorrusia",
+    "Brasil",
+    "Costa de Marfil",
+    "Egipto",
+    "Estados Unidos",
+    "Federación Rusa",
+    "Filipinas",
+    "Kazajistán",
+    "Kenia",
+    "Marruecos",
+    "Nueva Zelanda",
+    "Sudáfrica",
+    "Tailandia",
+    "Túnez",
+    "Ucrania",
+    "United Kingdom (Great Britain)",
+    "Zimbagüe"
+   ]
+  },
+  "Notes": {
+   "rows": 3,
+   "columns": [
+    "Notes: "
+   ],
+   "used": {
+    "exporting country": null,
+    "destination": null,
+    "active ingredient": null,
+    "company": null,
+    "amount": null
+   },
+   "names not matched to a country": []
+  }
+ },
+ "failed": false,
+ "made": "2026-10-16T22:58:31Z"
+}
