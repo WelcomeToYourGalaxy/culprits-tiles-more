@@ -25,7 +25,7 @@ culprits-tiles-more gem/solar/download/. This script then:
 
 Runs when the download folder changes; otherwise it leaves the last copy.
 """
-import hashlib, json, pathlib, sys, tempfile
+import hashlib, json, pathlib, re, sys, tempfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import gem_coal  # noqa: E402  (its sheet readers)
@@ -100,15 +100,30 @@ def main():
         if cap and gem_coal.num(p.get(cap)) is not None:
             p["value"] = gem_coal.num(p.get(cap))
         feats.append({"type": "Feature", "properties": p, "geometry": {"type": "Point", "coordinates": [x, y]}})
-    pts = work / "solar.geojsonl"
-    with open(pts, "w", encoding="utf-8") as fh:
+    # Round 214o: every phase at every zoom made an archive over GitHub's 100 MB
+    # limit (about 104,000 phases, 32 columns, at 13 zooms). As inpe_fire does,
+    # the far-out zooms (0 to 7) carry every phase with a few of its columns
+    # (name, phase, capacity, status, country, GEM's ids), and the close zooms
+    # (8 on) carry every phase with every column; the map reads the close
+    # copy past its last zoom. No phase is left out at any zoom.
+    keep = [c for c in head if c and re.search(r"project name$|phase name|capacity|status|country|gem (location|phase) id", c, re.I)]
+    pts, lows = work / "solar.geojsonl", work / "solar_low.geojsonl"
+    more = "Zoom in closer for every column GEM gives"
+    with open(pts, "w", encoding="utf-8") as fh, open(lows, "w", encoding="utf-8") as fl:
         for f in feats:
             fh.write(json.dumps(f, ensure_ascii=False) + "\n")
+            p = {k: v for k, v in f["properties"].items() if k in keep or k == "value"}
+            p["More"] = more
+            fl.write(json.dumps({"type": "Feature", "properties": p, "geometry": f["geometry"]}, ensure_ascii=False) + "\n")
     mines.tools()
     OUT.parent.mkdir(exist_ok=True)
-    for maxz in (12, 11, 10):
-        gem_coal.sh("tippecanoe", "-o", str(OUT), "--force", "-l", "solar_gem", "-Z0", f"-z{maxz}", "-r1",
-                    "--no-feature-limit", "--no-tile-size-limit", "-q", "-P", str(pts))
+    common = ["--force", "-q", "-l", "solar_gem", "-r1", "--no-feature-limit", "--no-tile-size-limit", "-P"]
+    lo, hi = work / "lo.pmtiles", work / "hi.pmtiles"
+    gem_coal.sh("tippecanoe", "-o", str(lo), *common, "-Z0", "-z7", str(lows))
+    for maxz in (10, 9, 8):
+        gem_coal.sh("tippecanoe", "-o", str(hi), *common, "-Z8", f"-z{maxz}", str(pts))
+        gem_coal.sh("tile-join", "-o", str(OUT), "--force", "-q", "--no-tile-size-limit", str(lo), str(hi))
+        print(f"gem_solar: zooms 0-7 with {len(keep)} columns, 8-{maxz} with all: {OUT.stat().st_size / 1e6:.1f} MB", flush=True)
         if OUT.stat().st_size <= 95 * 1024 * 1024:
             break
     else:
@@ -116,7 +131,7 @@ def main():
         sys.exit("gem_solar: could not get the archive under GitHub's 100 MB limit")
     STAMP.parent.mkdir(exist_ok=True)
     STAMP.write_text(json.dumps({"sha256": digest, "sheet": name, "columns": head, "capacity_column": cap,
-                                 "phases": len(feats), "no_position": unplaced, "maxzoom": maxz}, indent=1, ensure_ascii=False))
+                                 "phases": len(feats), "no_position": unplaced, "maxzoom": maxz, "far_zoom_columns": keep}, indent=1, ensure_ascii=False))
     print(f"gem_solar: {len(feats)} phases placed, {unplaced} without a position, from {name}")
 
 

@@ -126,9 +126,11 @@ def stars():
         name = r["proper"] or ((r["bayer"] or r["flam"]) + " " + r["con"] if (r["bayer"] or r["flam"]) else "") or \
             ("HIP " + r["hip"] if r["hip"] else "HD " + r["hd"] if r["hd"] else r["gl"] if r["gl"] else "HYG " + r["id"])
         draw.append([i, name, r4(ra_deg), r4(dec), r4(dist * PC_AU, 1) if known else None, num(r["mag"]),
-                     r4(l), r4(b), num(r["lum"]), r["spect"]])
+                     r4(l), r4(b), num(r["lum"]), r["spect"], r["con"], 1 if r["proper"] else 0])
         chunks.setdefault(i // CHUNK, {})[str(i)] = [r[c] for c in cols]
-    write("stars.json", {"cols": ["id", "name", "ra", "dec", "d_au", "mag", "l", "b", "lum", "spect"], "rows": draw,
+    # Round 213o+1 (214o): the constellation each star is in, and whether its name is a proper
+    # name, for the sky chart's labels.
+    write("stars.json", {"cols": ["id", "name", "ra", "dec", "d_au", "mag", "l", "b", "lum", "spect", "con", "proper"], "rows": draw,
                          "chunk": CHUNK, "hyg_columns": cols,
                          "source": "HYG star database v4.1 (D. Nash, astronexus.com), CC BY-SA 4.0"})
     for k, v in chunks.items():
@@ -450,8 +452,8 @@ def companions(today):
     return {"ok": True, "rows": len(rows), "placed": sum(1 for r in rows if "geo_au" in r)}
 
 
-def lookup_sct(name):
-    q = urllib.parse.urlencode({"sstr": name, "group": "sct", "format": "json"})
+def lookup_sct(name, group="sct"):
+    q = urllib.parse.urlencode({"sstr": name, "group": group, "format": "json"})
     try:
         d = json.loads(get(f"{LOOKUP}?{q}"))
     except Exception:  # noqa: BLE001
@@ -594,6 +596,151 @@ def anchors():
     return {"ok": True, "rows": len(out)}
 
 
+# ---------- every body on Wikidata with a published mass and place (round 214o) ----------
+# Asked 15 October: gravity's fabric should reach beyond the Solar System and
+# beyond the Milky Way. Every Wikidata item with a mass (P2067), a distance from
+# Earth (P2583), a right ascension (P6257) and a declination (P6258): stars,
+# planets, black holes, galaxies, clusters, as Wikidata gives them (CC0). The
+# first value of each is taken; units Wikidata does not give in one of the
+# kinds below are listed, not converted.
+SPARQL = "https://query.wikidata.org/sparql"
+MASS_UNITS = {"Q180892": ("solar masses", 1.0), "Q651336": ("Jupiter masses", 9.5458e-4), "Q681996": ("Earth masses", 3.0035e-6),
+              "Q11570": ("kg", 1 / 1.98847e30)}
+DIST_UNITS = {"Q531": ("light-years", LY_AU), "Q12129": ("parsecs", PC_AU), "Q11929860": ("kiloparsecs", PC_AU * 1e3),
+              "Q3773454": ("megaparsecs", PC_AU * 1e6), "Q1811": ("AU", 1.0), "Q828224": ("km", 1 / 1.495978707e8),
+              "Q11573": ("metres", 1 / 1.495978707e11)}
+
+
+@part("masses")
+def masses():
+    q = """SELECT ?item ?itemLabel ?mass ?mu ?dist ?du ?ra ?dec (GROUP_CONCAT(DISTINCT ?tl; separator="; ") AS ?types) WHERE {
+  ?item p:P2067/psv:P2067 [wikibase:quantityAmount ?mass; wikibase:quantityUnit ?mu].
+  ?item p:P2583/psv:P2583 [wikibase:quantityAmount ?dist; wikibase:quantityUnit ?du].
+  ?item wdt:P6257 ?ra; wdt:P6258 ?dec.
+  OPTIONAL { ?item wdt:P31 ?t. ?t rdfs:label ?tl. FILTER(LANG(?tl) = "en") }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} GROUP BY ?item ?itemLabel ?mass ?mu ?dist ?du ?ra ?dec"""
+    req = urllib.request.Request(SPARQL + "?" + urllib.parse.urlencode({"query": q, "format": "json"}),
+                                 headers={**UA, "Accept": "application/sparql-results+json"})
+    with urllib.request.urlopen(req, timeout=300) as r:
+        res = json.loads(r.read().decode("utf-8"))["results"]["bindings"]
+    rows, seen, odd = [], set(), []
+    for b in res:
+        qid = b["item"]["value"].rsplit("/", 1)[-1]
+        if qid in seen:
+            continue            # the first mass and distance Wikidata gives
+        seen.add(qid)
+        mu, du = b["mu"]["value"].rsplit("/", 1)[-1], b["du"]["value"].rsplit("/", 1)[-1]
+        name = b.get("itemLabel", {}).get("value", qid)
+        m, d = float(b["mass"]["value"]), float(b["dist"]["value"])
+        ra, dec = float(b["ra"]["value"]), float(b["dec"]["value"])
+        rec = {"name": name, "wikidata": qid, "types": b.get("types", {}).get("value", ""),
+               "mass_as_given": f"{b['mass']['value']} {MASS_UNITS.get(mu, (mu,))[0]}",
+               "distance_as_given": f"{b['dist']['value']} {DIST_UNITS.get(du, (du,))[0]}", "ra": r4(ra), "dec": r4(dec)}
+        if mu in MASS_UNITS:
+            rec["mass_msun"] = m * MASS_UNITS[mu][1]
+        if du in DIST_UNITS:
+            rec["d_au"] = r4(d * DIST_UNITS[du][1], 1)
+        if "mass_msun" not in rec or "d_au" not in rec:
+            odd.append(qid)
+        rec["l"], rec["b"] = [r4(v) for v in radec_to_lb(ra, dec)]
+        rows.append(rec)
+    write("masses.json", {"rows": rows, "source": "Wikidata (CC0): every item with a mass, a distance from Earth, a right ascension and a declination",
+                          "units_not_converted": odd})
+    return {"ok": True, "rows": len(rows), "units_not_converted": len(odd)}
+
+
+# ---------- where life could be (round 214o) ----------
+# Asked 15 October: in Sunlight's reach, a way to show only the places that
+# could hold life, "even if just potential ... none calculated or inclinated":
+# nothing is judged here; two published lists, every row as written.
+#   Wikipedia, List of potentially habitable exoplanets (both its tables;
+#     Earth, Venus and Mars are in them for reference)
+#   Wikipedia, List of ocean worlds (the Solar System's worlds with oceans,
+#     the places most searched for life there)
+# Exoplanets are placed by Wikidata (the planet's own item, else its star's)
+# at the distance the list gives; the Sun's worlds where Horizons has them today.
+def wd_search(name):
+    q = urllib.parse.urlencode({"action": "wbsearchentities", "search": name, "language": "en", "limit": 1, "format": "json"})
+    try:
+        hits = json.loads(get(f"{WD}?{q}")).get("search") or []
+    except Exception:  # noqa: BLE001
+        return None
+    time.sleep(0.3)
+    return hits[0]["id"] if hits else None
+
+
+def wd_coords(qids):
+    out = {}
+    qids = [q for q in qids if q]
+    for i in range(0, len(qids), 40):
+        q = urllib.parse.urlencode({"action": "wbgetentities", "ids": "|".join(qids[i:i + 40]), "props": "claims", "format": "json"})
+        for k, e in json.loads(get(f"{WD}?{q}")).get("entities", {}).items():
+            ra, _ = wd_amount(e, "P6257")
+            dec, _ = wd_amount(e, "P6258")
+            if ra is not None and dec is not None:
+                out[k] = (ra, dec)
+        time.sleep(0.3)
+    return out
+
+
+def sun_world(name, today):
+    """A Solar System world where Horizons has it today: from the Sun, and its galactic direction from the Sun."""
+    spk = lookup_sct(name, "mb")
+    if not spk:
+        return None
+    h, _ = vec(spk, "500@10", today)
+    if not h:
+        return None
+    return {"horizons": spk, "helio_au": [r4(v, 6) for v in h], "l_b_from_sun": [r4(v) for v in galactic_from_eq(*ecl_to_eq(*h))]}
+
+
+@part("life")
+def life(today):
+    rows = []
+    for t in wiki_tables("List_of_potentially_habitable_exoplanets"):
+        oc = next((c for c in t["columns"] if re.search(r"^object", c, re.I)), None)
+        sc = next((c for c in t["columns"] if re.search(r"^star", c, re.I)), None)
+        dc = next((c for c in t["columns"] if re.search(r"distance", c, re.I)), None)
+        if not oc:
+            continue
+        for x in t["rows"]:
+            r = x["row"]
+            obj = re.sub(r"\s*\(.*?\)\s*", " ", r.get(oc, "")).strip()
+            rows.append({"row": r, "list": "List of potentially habitable exoplanets", "name": obj, "star": r.get(sc, "") if sc else "",
+                         "links": [x["links"].get(oc), x["links"].get(sc)] if sc else [x["links"].get(oc)],
+                         "d_ly": first_num(r.get(dc, "")) if dc else None})
+    for t in wiki_tables("List_of_ocean_worlds"):
+        wc = next((c for c in t["columns"] if re.search(r"^world", c, re.I)), None)
+        if not wc:
+            continue
+        for x in t["rows"]:
+            r = x["row"]
+            rows.append({"row": r, "list": "List of ocean worlds", "name": re.sub(r"\s*\(.*?\)\s*", " ", r.get(wc, "")).strip(), "star": "Sun", "links": []})
+    # Places: the Sun's worlds from Horizons; the others from Wikidata.
+    titles = sorted({l for r in rows for l in r["links"] if l})
+    qid, _ = wikidata_items(titles) if titles else ({}, {})
+    for r in rows:
+        if r["star"].strip().startswith("Sun") or r["list"] == "List of ocean worlds":
+            w = sun_world(r["name"], today)
+            if w:
+                r.update(w)
+            continue
+        cands = [qid.get(l) for l in r["links"] if l and qid.get(l)]
+        cands += [wd_search(r["name"]), wd_search(r["star"])] if not cands else []
+        got = wd_coords([c for c in cands if c])
+        pick = next((c for c in cands if c in got), None)
+        if pick:
+            ra, dec = got[pick]
+            r["ra"], r["dec"], r["placed_by"] = r4(ra), r4(dec), f"https://www.wikidata.org/wiki/{pick}"
+            r["l"], r["b"] = [r4(v) for v in radec_to_lb(ra, dec)]
+        if r.get("d_ly") is not None:
+            r["d_au"] = r4(r["d_ly"] * LY_AU, 1)
+    write("life.json", {"rows": rows, "date": today,
+                        "source": "Wikipedia, List of potentially habitable exoplanets and List of ocean worlds (CC BY-SA 4.0), every row as written; places from Wikidata (CC0) and NASA/JPL Horizons"})
+    return {"ok": True, "rows": len(rows), "placed": sum(1 for r in rows if r.get("l") is not None or r.get("helio_au"))}
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     today = datetime.date.today().isoformat()
@@ -607,6 +754,8 @@ def main():
     flybys()
     earth_orbit()
     anchors()
+    masses()
+    life(today)
     write("build.json", BUILD)
     print(json.dumps(BUILD, indent=1))
 
