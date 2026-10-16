@@ -13,6 +13,9 @@ affected) are read whole. The fields that hold each event's type, year, name
 and status are found by what they contain and written to the build file.
 Every point is a dot and every polygon is drawn as its outline, each as the
 release gives it (no dot is made for an event given only as an outline).
+Small outlines are kept at every zoom (tippecanoe would otherwise merge
+outlines smaller than a pixel into stand-in squares); the map rings them so
+they can be found from the world view.
 
   nonhuman/paddd.json             which fields mean what, types, years
   nonhuman/paddd_events.geojson   a dot per event
@@ -84,7 +87,9 @@ def detect(df):
 
 
 def main():
-    if not nh.due(NAME, None, "PADDD_REBUILD", hand=False):
+    # Built once; built again if the last build tiled the outlines before
+    # round nh3, which keeps small outlines at every zoom.
+    if nh.read_stamp(NAME).get("small outlines kept") and not nh.due(NAME, None, "PADDD_REBUILD", hand=False):
         return
     nh.pip("geopandas", "pyogrio", "shapely")
     import geopandas as gpd
@@ -116,7 +121,7 @@ def main():
     out = nh.OUT / "paddd_areas.pmtiles"
     top = 11
     while True:
-        mines.sh("tippecanoe", "-o", str(out), "--force", "-q", "-l", "paddd_areas", "-Z0", f"-z{top}", "--no-feature-limit", "--no-tile-size-limit",
+        mines.sh("tippecanoe", "-o", str(out), "--force", "-q", "-l", "paddd_areas", "-Z0", f"-z{top}", "--no-feature-limit", "--no-tile-size-limit", "--no-tiny-polygon-reduction",
                  "--attribution", "PADDDtracker v2.1 (CI and WWF 2021)", str(nd))
         if out.stat().st_size <= 95 * 1024 * 1024 or top <= 6:
             break
@@ -135,7 +140,7 @@ def main():
             "licence": "Zenodo record: CC BY 4.0; the release's ReadMe: CC BY-NC-ND 4.0"}
     nh.write_json("paddd.json", meta, compact=False)
     nh.write_stamp(NAME, {"points": len(pts), "polygons": len(polys), "fields (points)": fp, "fields (polygons)": fa,
-                          "polygon columns": [c for c in polys.columns if c != "geometry"], "areas to zoom": top, "areas bytes": out.stat().st_size})
+                          "polygon columns": [c for c in polys.columns if c != "geometry"], "areas to zoom": top, "areas bytes": out.stat().st_size, "small outlines kept": True})
 
 
 if __name__ == "__main__":
