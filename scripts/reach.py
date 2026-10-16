@@ -174,8 +174,16 @@ def soe(text):
 
 
 def gm_of(text):
-    m = re.search(r"GM[^=\n]{0,25}=\s*([0-9.]+(?:[eE][-+]?\d+)?)", text)
-    return float(m.group(1)) if m else None      # km^3/s^2
+    """GM in km^3/s^2 as Horizons writes it: "GM, km^3/s^2 = 22031.86855" for the
+    planets, "GM= 62.6284" for small bodies. Round 213o: only those two forms are
+    read (the looser reading took other figures for the dwarf planets), and the
+    line it was read from is kept beside it; "n.a." gives none."""
+    for pat in (r"GM,\s*km\^3/s\^2\s*=\s*([0-9.]+(?:[eE][-+]?\d+)?)", r"(?<![A-Za-z])GM\s*=\s*([0-9.]+(?:[eE][-+]?\d+)?)"):
+        m = re.search(pat, text)
+        if m:
+            line = text[text.rfind("\n", 0, m.start()) + 1:text.find("\n", m.end()) if text.find("\n", m.end()) > 0 else len(text)]
+            return float(m.group(1)), " ".join(line.split())
+    return None, None
 
 
 def vec(command, center, when, extra=None):
@@ -221,7 +229,7 @@ def solar(today):
         rec = {"name": name, "horizons": cmd}
         try:
             h, text = vec(cmd, "500@10", today)
-            rec["gm_km3_s2"] = gm_of(text)
+            rec["gm_km3_s2"], rec["gm_as_written"] = gm_of(text)
             if h:
                 rec["helio_au"] = [r4(v, 6) for v in h]
                 rec["l_b_from_sun"] = [r4(v) for v in galactic_from_eq(*ecl_to_eq(*h))] if name != "Sun" else None
@@ -264,8 +272,11 @@ def wiki_tables(page):
         for i in range(width):
             parts = []
             for h in hdr_rows:
-                if i < len(h) and h[i]["text"] and (not parts or parts[-1] != h[i]["text"]):
-                    parts.append(h[i]["text"])
+                # Round 213o: soft hyphens (as in "Dis\u00adtance") taken out of the
+                # column names, so "Distance" is found.
+                txt = h[i]["text"].replace("\u00ad", "") if i < len(h) else ""
+                if txt and (not parts or parts[-1] != txt):
+                    parts.append(txt)
             names.append(" / ".join(parts) or f"column {i + 1}")
         rows = []
         for line in g[len(hdr_rows):]:
@@ -286,8 +297,15 @@ def wiki_tables(page):
 
 
 def coords_in(text):
-    """RA/Dec written as in Wikipedia's tables: 14h 29m 43s / -62° 40′ 46″ (any of the usual marks)."""
-    t = text.replace("−", "-").replace("−", "-")
+    """RA/Dec written as in Wikipedia's tables: 14h 29m 43s / -62° 40′ 46″ (any of the usual marks),
+    or, as the List of nearest stars writes them, 14 29 43.0 −62° 40′ 46″ (round 213o)."""
+    t = text.replace("\u2212", "-").replace("\u2013", "-")
+    m = re.search(r"^\s*(\d{1,2})\s+(\d{1,2})\s+([\d.]+)\s+([+-]?\d{1,2})\s*°\s*(\d{1,2})?\s*[′']?\s*([\d.]+)?", t)
+    if m:
+        ra = (int(m.group(1)) + int(m.group(2)) / 60 + float(m.group(3)) / 3600) * 15
+        sgn = -1 if m.group(4).startswith("-") else 1
+        dec = sgn * (abs(int(m.group(4))) + int(m.group(5) or 0) / 60 + float(m.group(6) or 0) / 3600)
+        return ra, dec
     m = re.search(r"(\d{1,2})\s*h\s*(\d{1,2})\s*m\s*([\d.]+)?\s*s?.*?([+-]?\d{1,2})\s*°\s*(\d{1,2})?\s*[′']?\s*([\d.]+)?", t)
     if not m:
         return None

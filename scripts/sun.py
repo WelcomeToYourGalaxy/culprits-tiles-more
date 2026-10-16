@@ -28,6 +28,7 @@ Writes:
 Positions are heliocentric, ecliptic of J2000, in astronomical units.
 """
 import datetime, json, pathlib, re, sys, time, urllib.parse, urllib.request
+from html.parser import HTMLParser
 
 GCAT = "https://planet4589.org/space/gcat/tsv/cat/hcocat.tsv"
 LOOKUP = "https://ssd.jpl.nasa.gov/api/horizons_lookup.api"
@@ -96,6 +97,75 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
+# Round 213o (asked 15 October: leave out the craft still working, which NASA's
+# Eyes on the Solar System already shows): the names on Wikipedia's "List of
+# active Solar System probes" (CC BY-SA 4.0), read from its table headers,
+# bold names and headings. The map leaves out the rows GCAT gives for a payload
+# with one of these names (and its parts still attached), and lists them.
+ACTIVE_PAGE = "List_of_active_Solar_System_probes"
+
+
+class Names(HTMLParser):
+    """Text inside table headers, bold type, captions and headings."""
+    KEEP = {"th", "b", "caption", "h2", "h3", "h4", "dt"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.depth, self.buf, self.out, self.skip = 0, [], [], 0
+
+    def handle_starttag(self, tag, a):
+        if tag in ("sup", "style", "script"):
+            self.skip += 1
+        if tag in self.KEEP:
+            self.depth += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("sup", "style", "script") and self.skip:
+            self.skip -= 1
+        if tag in self.KEEP and self.depth:
+            self.depth -= 1
+            if not self.depth:
+                t = " ".join("".join(self.buf).replace("[edit]", "").split())
+                if t:
+                    self.out.append(t)
+                self.buf = []
+
+    def handle_data(self, d):
+        if self.depth and not self.skip:
+            self.buf.append(d)
+
+
+def active_names():
+    q = urllib.parse.urlencode({"action": "parse", "page": ACTIVE_PAGE, "prop": "text", "format": "json", "formatversion": 2, "redirects": 1})
+    html = json.loads(get(f"https://en.wikipedia.org/w/api.php?{q}"))["parse"]["text"]
+    p = Names()
+    p.feed(html)
+    names = set()
+    for t in p.out:
+        for part in [t, t.split("(")[0], *re.findall(r"\(([^)]*)\)", t)]:
+            part = part.strip(" :;,.")
+            if 3 <= len(part) <= 60:
+                names.add(part)
+    return sorted(names)
+
+
+def is_active(r, names):
+    """The listed name, matched on GCAT's Name or PLName (letters and digits only):
+    exactly, or as the start of the name for a payload or a part still attached
+    (BepiColombo MPO under BepiColombo); short names (under five letters) only exactly."""
+    if not (r.get("Type", "").startswith("P") or r.get("Status") == "AO"):
+        return None
+    mine = [norm(r.get(k, "")) for k in ("Name", "PLName") if r.get(k) and r[k] != "-"]
+    for n in names:
+        k = norm(n)
+        if len(k) < 3:
+            continue
+        for m in mine:
+            if m == k or (len(k) >= 5 and m.startswith(k)):
+                return n
+    return None
+
+
 def vectors(command, start, stop, step):
     q = urllib.parse.urlencode({
         "format": "json", "COMMAND": f"'{command}'", "OBJ_DATA": "'NO'", "MAKE_EPHEM": "'YES'", "EPHEM_TYPE": "'VECTORS'",
@@ -147,6 +217,12 @@ def main():
             cache = {}
     head, rows = gcat_rows()
     print(f"sun: {len(rows)} objects in GCAT's Heliocentric Register")
+    try:
+        names = active_names()
+        print(f"sun: {len(names)} names read from Wikipedia's {ACTIVE_PAGE}: " + "; ".join(names))
+    except Exception as e:  # noqa: BLE001
+        names = None
+        print(f"sun: Wikipedia's {ACTIVE_PAGE} could not be read ({e}); no row is marked as working")
     objects, placed = [], 0
     for r in rows:
         hit = None
@@ -168,7 +244,11 @@ def main():
             except Exception as e:  # noqa: BLE001
                 print(f"  {r.get('Name')}: Horizons did not answer ({e})")
         placed += 1 if pos else 0
-        objects.append({"gcat": r, "pos": pos, "horizons": hit})
+        rec = {"gcat": r, "pos": pos, "horizons": hit}
+        act = is_active(r, names) if names else None
+        if act:
+            rec["active"] = act
+        objects.append(rec)
     planets = []
     for name, cmd, period in PLANETS:
         stop = (datetime.date.fromisoformat(today) + datetime.timedelta(days=int(period) + 1)).isoformat()
@@ -182,7 +262,11 @@ def main():
     CACHE.write_text(json.dumps(cache, indent=0, sort_keys=True))
     src = ("Objects: J. McDowell, General Catalog of Artificial Space Objects (GCAT), Heliocentric Register, "
            "planet4589.org/space/gcat (CC BY). Places: NASA/JPL Horizons, ssd.jpl.nasa.gov/horizons.")
-    (OUT / "sun_objects.json").write_text(json.dumps({"objects": objects, "columns": head, "built": today, "source": src}, ensure_ascii=False))
+    act = {"page": f"https://en.wikipedia.org/wiki/{ACTIVE_PAGE}", "names": names,
+           "rows": sum(1 for o in objects if o.get("active"))} if names is not None else None
+    if act:
+        print(f"sun: {act['rows']} rows marked as working craft: " + "; ".join(sorted({o['gcat'].get('Name', '') for o in objects if o.get('active')})))
+    (OUT / "sun_objects.json").write_text(json.dumps({"objects": objects, "columns": head, "built": today, "source": src, "active": act}, ensure_ascii=False))
     (OUT / "sun_planets.json").write_text(json.dumps({"planets": planets, "date": today,
                                                       "source": "NASA/JPL Horizons, heliocentric ecliptic J2000, astronomical units"}))
     print(f"sun: {placed} of {len(objects)} placed by Horizons; {len(planets)} planets")
