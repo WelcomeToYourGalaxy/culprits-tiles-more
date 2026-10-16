@@ -11,9 +11,8 @@ Shown as published, unaltered: every field of every event is kept.
 The release's points shapefile (events) and polygons shapefile (the land
 affected) are read whole. The fields that hold each event's type, year, name
 and status are found by what they contain and written to the build file.
-Every point is a dot; every polygon whose event has no point gets a dot at a
-point inside it (marked _from = "area"), so every event has a dot. The
-polygons are tiled as they are.
+Every point is a dot and every polygon is drawn as its outline, each as the
+release gives it (no dot is made for an event given only as an outline).
 
   nonhuman/paddd.json             which fields mean what, types, years
   nonhuman/paddd_events.geojson   a dot per event
@@ -95,7 +94,6 @@ def main():
     polys = gpd.read_file(fetch_set(work, "Poly")).to_crs(4326)
     fp, fa = detect(pts), detect(polys)
     print(f"paddd: {len(pts)} points, {len(polys)} polygons; fields {fp} / {fa}", flush=True)
-    ids = set(pts[fp["id"]].dropna().astype(str)) if fp["id"] else set()
     feats = []
     for _, r in pts.iterrows():
         g = r.geometry
@@ -105,18 +103,6 @@ def main():
         props = {k: clean(r[k]) for k in pts.columns if k != "geometry"}
         props["_from"] = "point"
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(g.x, 5), round(g.y, 5)]}, "properties": {k: v for k, v in props.items() if v is not None}})
-    added = 0
-    for _, r in polys.iterrows():
-        if fa["id"] and str(r[fa["id"]]) in ids:
-            continue
-        g = r.geometry
-        if g is None or g.is_empty:
-            continue
-        c = g.representative_point()
-        props = {k: clean(r[k]) for k in polys.columns if k != "geometry"}
-        props["_from"] = "area"
-        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(c.x, 5), round(c.y, 5)]}, "properties": {k: v for k, v in props.items() if v is not None}})
-        added += 1
     nh.OUT.mkdir(parents=True, exist_ok=True)
     (nh.OUT / "paddd_events.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False))
     # The land affected, every polygon with every field.
@@ -137,15 +123,18 @@ def main():
         top -= 1
     tf = fp["type"] or fa["type"]
     yf = fp["year"] or fa["year"]
-    types = sorted({str(f["properties"][tf]) for f in feats if tf and tf in f["properties"]})
+    # Types and years from the outlines too, so the filters reach every one.
+    every = [f["properties"] for f in feats] + [{k: clean(r[k]) for k in (tf, yf) if k and k in polys.columns} for _, r in polys.iterrows()]
+    types = sorted({str(p[tf]) for p in every if tf and p.get(tf) is not None})
     years = [int(float(f["properties"][yf])) for f in feats if yf and f["properties"].get(yf) is not None and re.match(r"^\d{4}(\.0+)?$", str(f["properties"][yf]))]
+    years_all = years + [int(float(p[yf])) for p in every[len(feats):] if yf and p.get(yf) is not None and re.match(r"^\d{4}(\.0+)?$", str(p[yf]))]
     meta = {"typeField": tf, "yearField": yf, "nameField": fp["name"] or fa["name"], "statusField": fp["status"] or fa["status"],
-            "types": types, "yearMin": min(years) if years else None, "yearMax": max(years) if years else None,
-            "noYear": len(feats) - len(years), "events": len(feats), "areas": "paddd_areas.pmtiles", "areasLayer": "paddd_areas",
+            "types": types, "yearMin": min(years_all) if years_all else None, "yearMax": max(years_all) if years_all else None,
+            "noYear": len(feats) - len(years), "events": len(feats), "outlines": len(polys), "areas": "paddd_areas.pmtiles", "areasLayer": "paddd_areas",
             "fields": [c for c in pts.columns if c != "geometry"],
             "licence": "Zenodo record: CC BY 4.0; the release's ReadMe: CC BY-NC-ND 4.0"}
     nh.write_json("paddd.json", meta, compact=False)
-    nh.write_stamp(NAME, {"points": len(pts), "polygons": len(polys), "dots from polygons with no point": added, "fields (points)": fp, "fields (polygons)": fa,
+    nh.write_stamp(NAME, {"points": len(pts), "polygons": len(polys), "fields (points)": fp, "fields (polygons)": fa,
                           "polygon columns": [c for c in polys.columns if c != "geometry"], "areas to zoom": top, "areas bytes": out.stat().st_size})
 
 
