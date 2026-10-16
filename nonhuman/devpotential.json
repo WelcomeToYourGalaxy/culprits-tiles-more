@@ -1,0 +1,615 @@
+{
+ "choices": [
+  {
+   "label": "UO",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/uo.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.168 to under 0.497"
+    ],
+    [
+     "#C6E7F0",
+     "0.497 to under 0.553"
+    ],
+    [
+     "#9CD6E6",
+     "0.553 to under 0.593"
+    ],
+    [
+     "#6FC2DA",
+     "0.593 to under 0.633"
+    ],
+    [
+     "#46AACB",
+     "0.633 to under 0.663"
+    ],
+    [
+     "#2E8FBA",
+     "0.663 to under 0.72"
+    ],
+    [
+     "#2275A8",
+     "0.72 to under 0.779"
+    ],
+    [
+     "#1A5C92",
+     "0.779 to under 0.83"
+    ],
+    [
+     "#13447A",
+     "0.83 to under 0.87"
+    ],
+    [
+     "#0C2E5E",
+     "0.87 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "Wind",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/wind.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.112 to under 0.353"
+    ],
+    [
+     "#C6E7F0",
+     "0.353 to under 0.415"
+    ],
+    [
+     "#9CD6E6",
+     "0.415 to under 0.478"
+    ],
+    [
+     "#6FC2DA",
+     "0.478 to under 0.553"
+    ],
+    [
+     "#46AACB",
+     "0.553 to under 0.632"
+    ],
+    [
+     "#2E8FBA",
+     "0.632 to under 0.693"
+    ],
+    [
+     "#2275A8",
+     "0.693 to under 0.739"
+    ],
+    [
+     "#1A5C92",
+     "0.739 to under 0.776"
+    ],
+    [
+     "#13447A",
+     "0.776 to under 0.819"
+    ],
+    [
+     "#0C2E5E",
+     "0.819 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "NMM",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/nmm.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1.42e-03 to under 0.254"
+    ],
+    [
+     "#C6E7F0",
+     "0.254 to under 0.386"
+    ],
+    [
+     "#9CD6E6",
+     "0.386 to under 0.489"
+    ],
+    [
+     "#6FC2DA",
+     "0.489 to under 0.554"
+    ],
+    [
+     "#46AACB",
+     "0.554 to under 0.61"
+    ],
+    [
+     "#2E8FBA",
+     "0.61 to under 0.671"
+    ],
+    [
+     "#2275A8",
+     "0.671 to under 0.733"
+    ],
+    [
+     "#1A5C92",
+     "0.733 to under 0.794"
+    ],
+    [
+     "#13447A",
+     "0.794 to under 0.865"
+    ],
+    [
+     "#0C2E5E",
+     "0.865 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "UG",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/ug.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.161 to under 0.364"
+    ],
+    [
+     "#C6E7F0",
+     "0.364 to under 0.489"
+    ],
+    [
+     "#9CD6E6",
+     "0.489 to under 0.552"
+    ],
+    [
+     "#6FC2DA",
+     "0.552 to under 0.596"
+    ],
+    [
+     "#46AACB",
+     "0.596 to under 0.666"
+    ],
+    [
+     "#2E8FBA",
+     "0.666 to under 0.714"
+    ],
+    [
+     "#2275A8",
+     "0.714 to under 0.786"
+    ],
+    [
+     "#1A5C92",
+     "0.786 to under 0.828"
+    ],
+    [
+     "#13447A",
+     "0.828 to under 0.888"
+    ],
+    [
+     "#0C2E5E",
+     "0.888 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "MM",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/mm.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "8.70e-05 to under 0.142"
+    ],
+    [
+     "#C6E7F0",
+     "0.142 to under 0.25"
+    ],
+    [
+     "#9CD6E6",
+     "0.25 to under 0.337"
+    ],
+    [
+     "#6FC2DA",
+     "0.337 to under 0.419"
+    ],
+    [
+     "#46AACB",
+     "0.419 to under 0.489"
+    ],
+    [
+     "#2E8FBA",
+     "0.489 to under 0.546"
+    ],
+    [
+     "#2275A8",
+     "0.546 to under 0.605"
+    ],
+    [
+     "#1A5C92",
+     "0.605 to under 0.675"
+    ],
+    [
+     "#13447A",
+     "0.675 to under 0.768"
+    ],
+    [
+     "#0C2E5E",
+     "0.768 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "PV",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/pv.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.01 to under 0.338"
+    ],
+    [
+     "#C6E7F0",
+     "0.338 to under 0.444"
+    ],
+    [
+     "#9CD6E6",
+     "0.444 to under 0.492"
+    ],
+    [
+     "#6FC2DA",
+     "0.492 to under 0.527"
+    ],
+    [
+     "#46AACB",
+     "0.527 to under 0.566"
+    ],
+    [
+     "#2E8FBA",
+     "0.566 to under 0.607"
+    ],
+    [
+     "#2275A8",
+     "0.607 to under 0.654"
+    ],
+    [
+     "#1A5C92",
+     "0.654 to under 0.704"
+    ],
+    [
+     "#13447A",
+     "0.704 to under 0.765"
+    ],
+    [
+     "#0C2E5E",
+     "0.765 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "Hydro",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/hydro.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.014 to under 0.321"
+    ],
+    [
+     "#C6E7F0",
+     "0.321 to under 0.368"
+    ],
+    [
+     "#9CD6E6",
+     "0.368 to under 0.409"
+    ],
+    [
+     "#6FC2DA",
+     "0.409 to under 0.448"
+    ],
+    [
+     "#46AACB",
+     "0.448 to under 0.485"
+    ],
+    [
+     "#2E8FBA",
+     "0.485 to under 0.52"
+    ],
+    [
+     "#2275A8",
+     "0.52 to under 0.556"
+    ],
+    [
+     "#1A5C92",
+     "0.556 to under 0.601"
+    ],
+    [
+     "#13447A",
+     "0.601 to under 0.67"
+    ],
+    [
+     "#0C2E5E",
+     "0.67 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "CO",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/co.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.02 to under 0.215"
+    ],
+    [
+     "#C6E7F0",
+     "0.215 to under 0.281"
+    ],
+    [
+     "#9CD6E6",
+     "0.281 to under 0.339"
+    ],
+    [
+     "#6FC2DA",
+     "0.339 to under 0.394"
+    ],
+    [
+     "#46AACB",
+     "0.394 to under 0.437"
+    ],
+    [
+     "#2E8FBA",
+     "0.437 to under 0.519"
+    ],
+    [
+     "#2275A8",
+     "0.519 to under 0.597"
+    ],
+    [
+     "#1A5C92",
+     "0.597 to under 0.668"
+    ],
+    [
+     "#13447A",
+     "0.668 to under 0.76"
+    ],
+    [
+     "#0C2E5E",
+     "0.76 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "Coal",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/coal.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.041 to under 0.206"
+    ],
+    [
+     "#C6E7F0",
+     "0.206 to under 0.247"
+    ],
+    [
+     "#9CD6E6",
+     "0.247 to under 0.257"
+    ],
+    [
+     "#6FC2DA",
+     "0.257 to under 0.289"
+    ],
+    [
+     "#46AACB",
+     "0.289 to under 0.352"
+    ],
+    [
+     "#2E8FBA",
+     "0.352 to under 0.423"
+    ],
+    [
+     "#2275A8",
+     "0.423 to under 0.501"
+    ],
+    [
+     "#1A5C92",
+     "0.501 to under 0.554"
+    ],
+    [
+     "#13447A",
+     "0.554 to under 0.603"
+    ],
+    [
+     "#0C2E5E",
+     "0.603 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "Crop",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/crop.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.063 to under 0.407"
+    ],
+    [
+     "#C6E7F0",
+     "0.407 to under 0.457"
+    ],
+    [
+     "#9CD6E6",
+     "0.457 to under 0.523"
+    ],
+    [
+     "#6FC2DA",
+     "0.523 to under 0.595"
+    ],
+    [
+     "#46AACB",
+     "0.595 to under 0.661"
+    ],
+    [
+     "#2E8FBA",
+     "0.661 to under 0.718"
+    ],
+    [
+     "#2275A8",
+     "0.718 to under 0.769"
+    ],
+    [
+     "#1A5C92",
+     "0.769 to under 0.821"
+    ],
+    [
+     "#13447A",
+     "0.821 to under 0.884"
+    ],
+    [
+     "#0C2E5E",
+     "0.884 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "CG",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/cg.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.081 to under 0.324"
+    ],
+    [
+     "#C6E7F0",
+     "0.324 to under 0.387"
+    ],
+    [
+     "#9CD6E6",
+     "0.387 to under 0.433"
+    ],
+    [
+     "#6FC2DA",
+     "0.433 to under 0.47"
+    ],
+    [
+     "#46AACB",
+     "0.47 to under 0.53"
+    ],
+    [
+     "#2E8FBA",
+     "0.53 to under 0.614"
+    ],
+    [
+     "#2275A8",
+     "0.614 to under 0.724"
+    ],
+    [
+     "#1A5C92",
+     "0.724 to under 0.806"
+    ],
+    [
+     "#13447A",
+     "0.806 to under 0.877"
+    ],
+    [
+     "#0C2E5E",
+     "0.877 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "Bio",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/bio.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.021 to under 0.364"
+    ],
+    [
+     "#C6E7F0",
+     "0.364 to under 0.423"
+    ],
+    [
+     "#9CD6E6",
+     "0.423 to under 0.46"
+    ],
+    [
+     "#6FC2DA",
+     "0.46 to under 0.506"
+    ],
+    [
+     "#46AACB",
+     "0.506 to under 0.547"
+    ],
+    [
+     "#2E8FBA",
+     "0.547 to under 0.595"
+    ],
+    [
+     "#2275A8",
+     "0.595 to under 0.634"
+    ],
+    [
+     "#1A5C92",
+     "0.634 to under 0.683"
+    ],
+    [
+     "#13447A",
+     "0.683 to under 0.737"
+    ],
+    [
+     "#0C2E5E",
+     "0.737 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  },
+  {
+   "label": "CSP",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/csp.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "4.60e-05 to under 0.295"
+    ],
+    [
+     "#C6E7F0",
+     "0.295 to under 0.421"
+    ],
+    [
+     "#9CD6E6",
+     "0.421 to under 0.463"
+    ],
+    [
+     "#6FC2DA",
+     "0.463 to under 0.501"
+    ],
+    [
+     "#46AACB",
+     "0.501 to under 0.538"
+    ],
+    [
+     "#2E8FBA",
+     "0.538 to under 0.577"
+    ],
+    [
+     "#2275A8",
+     "0.577 to under 0.622"
+    ],
+    [
+     "#1A5C92",
+     "0.622 to under 0.677"
+    ],
+    [
+     "#13447A",
+     "0.677 to under 0.751"
+    ],
+    [
+     "#0C2E5E",
+     "0.751 to 1"
+    ]
+   ],
+   "licence": "CC0"
+  }
+ ]
+}

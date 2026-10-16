@@ -1,0 +1,143 @@
+{
+ "articles": [
+  {
+   "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 04)",
+   "licence": "CC0",
+   "files": [
+    "DPI_InputsAndCode_Part04.zip"
+   ]
+  },
+  {
+   "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 02)",
+   "licence": "CC0",
+   "files": [
+    "DPI_InputsAndCode_Part02.zip"
+   ]
+  },
+  {
+   "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 03)",
+   "licence": "CC0",
+   "files": [
+    "DPI_InputsAndCode_Part03.zip"
+   ]
+  },
+  {
+   "title": "Unconventional Oil Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "UO.zip"
+   ]
+  },
+  {
+   "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 01)",
+   "licence": "CC0",
+   "files": [
+    "DPI_InputsAndCode_Part01.zip"
+   ]
+  },
+  {
+   "title": "Wind Power Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Wind.zip"
+   ]
+  },
+  {
+   "title": "Non-metallic Mining Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "NMM.zip"
+   ]
+  },
+  {
+   "title": "Unconventional Gas Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "UG.zip"
+   ]
+  },
+  {
+   "title": "Metallic Mining Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "MM.zip"
+   ]
+  },
+  {
+   "title": "Photovoltaic Solar Power (PV) Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "PV.zip"
+   ]
+  },
+  {
+   "title": "Hydropower Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Hydro.zip"
+   ]
+  },
+  {
+   "title": "Conventional Oil Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "CO.zip"
+   ]
+  },
+  {
+   "title": "Coal Mining Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Coal.zip"
+   ]
+  },
+  {
+   "title": "Crop Expansion Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Crop.zip"
+   ]
+  },
+  {
+   "title": "Conventional Gas Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "CG.zip"
+   ]
+  },
+  {
+   "title": "Biofuels Expansion Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Bio.zip"
+   ]
+  },
+  {
+   "title": "Concentrated Solar Power (CSP) Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "CSP.zip"
+   ]
+  }
+ ],
+ "built": [
+  "UO",
+  "Wind",
+  "NMM",
+  "UG",
+  "MM",
+  "PV",
+  "Hydro",
+  "CO",
+  "Coal",
+  "Crop",
+  "CG",
+  "Bio",
+  "CSP"
+ ],
+ "skipped": [],
+ "dti": "not built: could not download https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+ "complete": false,
+ "failed": false,
+ "made": "2026-10-16T23:04:37Z"
+}
