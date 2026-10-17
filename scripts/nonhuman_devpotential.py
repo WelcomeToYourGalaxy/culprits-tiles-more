@@ -38,6 +38,11 @@ NAME = "devpotential"
 COLLECTION = "https://api.figshare.com/v2/collections/4249532/articles?page_size=100"
 DTI_DOI = "10.7927/61jv-th84"
 START, BUDGET = time.time(), 140 * 60
+# The Development Threat Index's kinds, as its file names run them together.
+WORDS = {"agriculturalexpansion": "Agricultural expansion", "urbanexpansion": "Urban expansion", "biofuels": "Biofuels", "coal": "Coal mining",
+         "conventionaloilandgas": "Conventional oil and gas", "unconventionaloilandgas": "Unconventional oil and gas", "mining": "Mining",
+         "metallicmining": "Metallic mining", "nonmetallicmining": "Non-metallic mining", "solar": "Solar power", "wind": "Wind power",
+         "cumulative": "All kinds together", "combined": "All kinds together", "hydropower": "Hydropower"}
 
 
 def main():
@@ -113,7 +118,16 @@ def main():
             if not earthdata.have_login():
                 raise RuntimeError("no Earthdata login")
             col = earthdata.collection(doi=DTI_DOI)
-            links = earthdata.granule_links(col["id"])
+            # Only the files themselves (the listing also holds links back to
+            # the granule search), and for each kind one copy: the lon/lat
+            # (geographic) one where both it and a Mollweide one are given.
+            links = [l for l in earthdata.granule_links(col["id"]) if re.search(r"\.(zip|tif|tiff)$", l["href"].split("?")[0], re.I)]
+            pick = {}
+            for l in sorted(links, key=lambda l: ("mollweide" in l["href"].lower(), l["href"])):
+                kind = re.sub(r"-(mollweide|geographic).*$", "", l["href"].rsplit("/", 1)[-1].lower())
+                pick.setdefault(kind, l)
+            links = list(pick.values())
+            report["dti files"] = [l["href"].rsplit("/", 1)[-1] for l in links]
             s = earthdata.session()
             files = []
             for l in links:
@@ -148,7 +162,7 @@ def main():
                     continue
                 pyr.build(code, w, n, 1 / 12, pal, out, 4, how="max", attribution="Oakleaf et al. 2019, Development Threat Index (NASA SEDAC)",
                           name=out.stem, meta={"file": t.name})
-                dti.append({"label": k[:1].upper() + k[1:], "archive": f"{pyr.PAGES}nonhuman/devpotential/{out.name}", "key": key, "file": t.name})
+                dti.append({"label": WORDS.get(k.replace(" ", ""), k[:1].upper() + k[1:]), "archive": f"{pyr.PAGES}nonhuman/devpotential/{out.name}", "key": key, "file": t.name})
             meta["dti"] = {"choices": dti, "from": [f.name for f in files]}
             report["dti"] = meta["dti"]
         except Exception as e:
