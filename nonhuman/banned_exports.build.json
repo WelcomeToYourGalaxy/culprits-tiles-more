@@ -6,14 +6,7 @@
     "Exporter name CLEAN",
     "(All)"
    ],
-   "used": {
-    "exporting country": null,
-    "destination": null,
-    "active ingredient": null,
-    "company": null,
-    "amount": null
-   },
-   "names not matched to a country": []
+   "skipped": "not a sheet of notifications"
   },
   "Agri export notifications": {
    "rows": 1803,
@@ -48,29 +41,13 @@
    ],
    "used": {
     "exporting country": "Exporter Country Name",
-    "destination": "Importing party (i.e. importing non-EU country)",
-    "active ingredient": "Annex I chemical name ",
-    "company": null,
-    "amount": "Expected yearly amount of exported substance or mixture (kg/l per year) "
+    "destination": "Importing party (i.e. importing non-EU country) CLEAN",
+    "active ingredient": "Annex I chemical name CLEAN",
+    "company": "Exporter name CLEAN",
+    "amount": "Expected yearly amount of exported substance or mixture (/ per year) CLEAN"
    },
    "names not matched to a country": [
-    "Bielorrusia",
-    "Brasil",
-    "Costa de Marfil",
-    "Egipto",
-    "Estados Unidos",
-    "Federación Rusa",
-    "Filipinas",
-    "Kazajistán",
-    "Kenia",
-    "Marruecos",
-    "Nueva Zelanda",
-    "Sudáfrica",
-    "Tailandia",
-    "Túnez",
-    "Ucrania",
-    "United Kingdom (Great Britain)",
-    "Zimbagüe"
+    "United Kingdom (Great Britain)"
    ]
   },
   "Notes": {
@@ -78,16 +55,9 @@
    "columns": [
     "Notes: "
    ],
-   "used": {
-    "exporting country": null,
-    "destination": null,
-    "active ingredient": null,
-    "company": null,
-    "amount": null
-   },
-   "names not matched to a country": []
+   "skipped": "not a sheet of notifications"
   }
  },
  "failed": false,
- "made": "2026-10-17T01:34:24Z"
+ "made": "2026-10-17T04:50:44Z"
 }
