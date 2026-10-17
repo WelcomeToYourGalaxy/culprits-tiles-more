@@ -1,13 +1,13 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "zoos": {
   "places": 11019,
   "kinds": {
-   "zoo": 5260,
+   "zoo": 5259,
    "petting zoo": 2119,
    "aquarium": 1711,
    "wildlife park": 659,
-   "enclosure": 529,
+   "enclosure": 530,
    "aviary": 280,
    "safari park": 120,
    "birds": 90,
@@ -390,6 +390,6 @@
    "breeding turtle;dove": 1,
    "breeding koala": 1
   },
-  "kept_from": "2026-10-15"
+  "kept_from": "2026-10-16"
  }
 }
