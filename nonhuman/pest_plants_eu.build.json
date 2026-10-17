@@ -1,29 +1,22 @@
 {
- "activity names the service gives": [
-  "1(a) - Mineral oil and gas refineries",
-  "1(c) - Thermal power stations and other combustion installations >=50MW",
-  "1(d) - Coke ovens",
-  "2(a) - Metal ore (including sulphide ore) roasting or sintering installations",
-  "2(b) -  Installations for the production of pig iron or steel (primary or secondary melting) including continuous casting with a capacity of 2.5 tonnes or more per hour",
-  "2(c)(i) - Installations for the processing of ferrous metals, Hot-rolling mills with a capacity of 20 tonnes of crude steel or more per hour",
-  "2(c)(iii) - Installations for the processing of ferrous metals, Application of protective fused metal coats with an input of 2 tonnes of crude steel or more per hour",
-  "2(e) - Installations for the production and/or smelting of non-ferrous metals (No further disaggregation available)",
-  "2(e)(i) - Installation for the production of non-ferrous crude metals from ore, concentrates or secondary raw materials by metallurgical, chemical or electrolytic processes",
-  "2(e)(ii) - Installation for the smelting, including the alloying, of non-ferrous metals, including recovered products (refining, foundry casting, etc.) with a melting capacity of 4 tonnes per day for lead and cadmium or 20 tonnes or more per day for all other metals",
-  "3(b) - Opencast mining and quarrying where the surface of the area effectively under extractive operation equals 25 hectares or more",
-  "3(c) - Installations for the production of cement clinker in rotary kilns, lime in rotary kilns, cement or lime in other furnaces (No further disaggregation available)",
-  "3(c)(i) - Installations for the production of cement clinker in rotary kilns with a production capacity of 500 tonnes or more per day",
-  "3(g) - Installations for the manufacture of ceramic products by firing, in particular roofing tiles, bricks, refractory bricks, tiles, stoneware or porcelain with a production capacity of 75 tonnes or more per day, or with a kiln capacity of 4 m3 or more and with a setting density per kiln of 300 kg/m3 or higher",
-  "4(a) - Chemical installations for the production on an industrial scale of basic organic chemicals (No further disaggregation available)",
-  "4(a)(ii) - Chemical installations for the production on an industrial scale of basic organic chemicals: Oxygen-containing hydrocarbons such as alcohols, aldehydes, ketones, carboxylic acids, esters, acetates, ethers, peroxides, epoxy resins",
-  "4(b) - Chemical installations for the production on an industrial scale of basic inorganic chemicals (No further disaggregation available)",
-  "4(b)(i) - Chemical installations for the production on an industrial scale of basic inorganic chemicals: Gases, such as ammonia, chlorine or hydrogen chloride, fluorine or hydrogen fluoride, carbon oxides, sulphur compounds, nitrogen oxides, hydrogen, sulphur dioxide, carbonyl chloride",
-  "4(b)(iv) - Chemical installations for the production on an industrial scale of basic inorganic chemicals: Salts, such as ammonium chloride, potassium chlorate, potassium carbonate, sodium carbonate, perborate, silver nitrate",
-  "4(c) - Chemical installations for the production on an industrial scale of phosphorous, nitrogen or potassium based fertilisers (simple or compound fertilisers)",
-  "5(d) - Landfills (excluding landfills of inert waste and landfills closed before 16.7.2001 or for which the after-care phase required by the competent authorities has expired) receiving 10 tonnes or more per day or with a total capacity of 25,000 tonnes or more"
+ "service": "https://air.discomap.eea.europa.eu/arcgis/rest/services/Air/EprtrFacilities_Dyna_WGS84/MapServer/0/query",
+ "where": "IAActivityCode = '4.(d)' OR NACEActivityCode = '20.2'",
+ "reports counted": 1075,
+ "reports read": 1075,
+ "facilities": 147,
+ "years": [
+  2007,
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017
  ],
- "kept": [],
- "facilities": 0,
- "failed": true,
- "made": "2026-10-17T01:49:50Z"
+ "failed": false,
+ "made": "2026-10-17T04:56:24Z"
 }
