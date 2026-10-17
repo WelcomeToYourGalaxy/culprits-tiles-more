@@ -26,7 +26,6 @@
  "licence": {
   "id": "cc-by-4.0"
  },
- "grip4_area_land_km2.asc": "built",
  "grip4_tp4_dens_m_km2.asc": "built",
  "grip4_tp1_dens_m_km2.asc": "built",
  "grip4_tp2_dens_m_km2.asc": "built",
@@ -34,5 +33,6 @@
  "grip4_tp3_dens_m_km2.asc": "built",
  "grip4_total_dens_m_km2.asc": "built",
  "failed": false,
- "made": "2026-10-16T23:17:11Z"
+ "version": 2,
+ "made": "2026-10-17T05:01:35Z"
 }
