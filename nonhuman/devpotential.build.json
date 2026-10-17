@@ -22,13 +22,6 @@
    ]
   },
   {
-   "title": "Unconventional Oil Development Potential Index",
-   "licence": "CC0",
-   "files": [
-    "UO.zip"
-   ]
-  },
-  {
    "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 01)",
    "licence": "CC0",
    "files": [
@@ -43,10 +36,10 @@
    ]
   },
   {
-   "title": "Non-metallic Mining Development Potential Index",
+   "title": "Unconventional Oil Development Potential Index",
    "licence": "CC0",
    "files": [
-    "NMM.zip"
+    "UO.zip"
    ]
   },
   {
@@ -57,10 +50,10 @@
    ]
   },
   {
-   "title": "Metallic Mining Development Potential Index",
+   "title": "Non-metallic Mining Development Potential Index",
    "licence": "CC0",
    "files": [
-    "MM.zip"
+    "NMM.zip"
    ]
   },
   {
@@ -78,10 +71,10 @@
    ]
   },
   {
-   "title": "Conventional Oil Development Potential Index",
+   "title": "Metallic Mining Development Potential Index",
    "licence": "CC0",
    "files": [
-    "CO.zip"
+    "MM.zip"
    ]
   },
   {
@@ -106,6 +99,13 @@
    ]
   },
   {
+   "title": "Conventional Oil Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "CO.zip"
+   ]
+  },
+  {
    "title": "Biofuels Expansion Development Potential Index",
    "licence": "CC0",
    "files": [
@@ -120,24 +120,10 @@
    ]
   }
  ],
- "built": [
-  "UO",
-  "Wind",
-  "NMM",
-  "UG",
-  "MM",
-  "PV",
-  "Hydro",
-  "CO",
-  "Coal",
-  "Crop",
-  "CG",
-  "Bio",
-  "CSP"
- ],
+ "built": [],
  "skipped": [],
- "dti": "not built: could not download https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+ "dti": "not built: no vector layer in ['lulc-development-threat-index-biofuels-mollweide-geotiff.zip', 'granules?p=C3556405724-ESDIS', 'granules?p=C3556405724-ESDIS', 'lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip', 'granules?p=C3556405724-ESDIS', 'granules?p=C3556405724-ESDIS', 'lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip', 'granules?p=C3556405",
  "complete": false,
  "failed": false,
- "made": "2026-10-16T23:04:37Z"
+ "made": "2026-10-17T01:52:27Z"
 }
