@@ -14,9 +14,11 @@ Sources:
     is for that development. The licence the records state is written to the
     build file.
   - Oakleaf, J.R. et al. 2019, Development Threat Index, v1.00, NASA SEDAC
-    doi:10.7927/61jv-th84 (Earthdata login): every 50 km2 cell of land scored
-    0 to 100 for each kind of future development, read whole and drawn as its
-    cells with every score.
+    doi:10.7927/61jv-th84 (Earthdata login): land scored 0 to 100 for each
+    kind of future development, one GeoTIFF per kind (in the Mollweide
+    projection), each drawn in tenths of 0 to 100 at about 10 km (each pixel
+    the highest score under it). Round nh4: the files are pictures, not
+    outlines, as round nh3 had assumed.
 
 Each DPI is drawn from its continuous map in tenths of its own values, at
 about 10 km (the files would pass GitHub's limits at 1 km; each pixel shows
@@ -51,7 +53,14 @@ def main():
     work = pathlib.Path(os.environ.get("RUNNER_TEMP") or tempfile.mkdtemp()) / "devpotential"
     work.mkdir(parents=True, exist_ok=True)
     meta = json.loads(meta_p.read_text()) if meta_p.exists() and not os.environ.get("DEVPOTENTIAL_REBUILD") else {"choices": []}
-    done = {c["label"] for c in meta.get("choices", [])}
+    # Round nh3 labelled each sector by its file name (UO, CG, ...); each is
+    # now labelled by its figshare title, and remembers its file.
+    for c in meta.get("choices", []):
+        c.setdefault("file", c["label"])
+    if isinstance(meta.get("dti"), dict) and not meta["dti"].get("choices"):
+        meta.pop("dti")
+    done = {c["file"] for c in meta.get("choices", [])}
+    titles = {}
     report = {"articles": [], "built": [], "skipped": []}
     complete = True
     arts = nh.get_json(COLLECTION)
@@ -61,10 +70,13 @@ def main():
         full = nh.get_json(f"https://api.figshare.com/v2/articles/{a['id']}")
         lic = (full.get("license") or {}).get("name")
         report["articles"].append({"title": full.get("title"), "licence": lic, "files": [f["name"] for f in full.get("files", [])]})
+        title = re.sub(r"\s*Development Potential Index\s*$", "", full.get("title") or "", flags=re.I).strip()
         for f in full.get("files", []):
             if not f["name"].lower().endswith(".zip") or re.search(r"input|script", f["name"], re.I):
                 continue
             label = re.sub(r"[_\-]+", " ", pathlib.Path(f["name"]).stem).strip()
+            if title and not re.search(r"spatial data|python code", title, re.I):
+                titles[label] = title
             if label in done:
                 continue
             if time.time() - START > BUDGET:
@@ -87,9 +99,12 @@ def main():
             key, pal = nh.ramp_key(cuts, float(np.nanmin(a2[a2 > 0])) if (a2 > 0).any() else 0, float(np.nanmax(a2)), "")
             out = nh.OUT / "devpotential" / f"{nh.slug(label)}.pmtiles"
             pyr.build(nh.coded(a2, cuts), w, n, 1 / 12, pal, out, 4, how="max", attribution="Oakleaf et al. 2019, Scientific Data", name=out.stem, meta={"file": f["name"], "raster": path})
-            meta["choices"].append({"label": label, "archive": f"{pyr.PAGES}nonhuman/devpotential/{out.name}", "key": key, "licence": lic})
+            meta["choices"].append({"label": titles.get(label, label), "file": label, "archive": f"{pyr.PAGES}nonhuman/devpotential/{out.name}", "key": key, "licence": lic})
             report["built"].append(label)
             nh.write_json("devpotential.json", meta, compact=False)
+    for c in meta["choices"]:
+        c["label"] = titles.get(c["file"], c["label"])
+    meta["choices"].sort(key=lambda c: c["label"].lower())
     # The Development Threat Index, from NASA SEDAC.
     if complete and not meta.get("dti"):
         try:
@@ -105,29 +120,36 @@ def main():
                 to = work / "dti" / l["href"].rsplit("/", 1)[-1]
                 to.parent.mkdir(parents=True, exist_ok=True)
                 files.append(earthdata.download(s, l["href"], to, "DTI"))
-            import geopandas as gpd
-            import pyogrio
-            vec = []
+            tifs = []
             for f in files:
                 if f.suffix.lower() == ".zip":
                     zipfile.ZipFile(f).extractall(work / "dti" / f.stem)
-            for cand in list((work / "dti").rglob("*.shp")) + list((work / "dti").rglob("*.gpkg")) + list((work / "dti").rglob("*.gdb")):
-                for lname, _ in pyogrio.list_layers(str(cand)):
-                    vec.append((str(cand), lname))
-            if not vec:
-                raise RuntimeError(f"no vector layer in {[f.name for f in files]}")
-            df = gpd.read_file(vec[0][0], layer=vec[0][1]).to_crs(4326)
-            nums = [c for c in df.columns if c != "geometry" and str(df[c].dtype).startswith(("int", "float"))]
-            nd = work / "dti.geojsonl"
-            with nd.open("w") as w2:
-                for _, r in df.iterrows():
-                    props = {c: (None if r[c] != r[c] else (r[c].item() if hasattr(r[c], "item") else r[c])) for c in df.columns if c != "geometry"}
-                    w2.write(json.dumps({"type": "Feature", "geometry": r.geometry.__geo_interface__, "properties": props}, default=str) + "\n")
-            mines = nh.tools()
-            out = nh.OUT / "devpotential" / "dti.pmtiles"
-            mines.sh("tippecanoe", "-o", str(out), "--force", "-q", "-l", "dti", "-Z0", "-z8", "--no-feature-limit", "--no-tile-size-limit",
-                     "--no-tiny-polygon-reduction", "--attribution", "Oakleaf et al. 2019, Development Threat Index (NASA SEDAC)", str(nd))
-            meta["dti"] = {"archive": "devpotential/dti.pmtiles", "layer": "dti", "columns": nums, "cells": len(df), "from": vec[0][1]}
+                elif f.suffix.lower() in (".tif", ".tiff"):
+                    tifs.append(f)
+            tifs += [t for t in (work / "dti").rglob("*") if t.suffix.lower() in (".tif", ".tiff")]
+            # One picture per kind of development, named in its file name;
+            # a lon/lat copy preferred to a Mollweide one when both are given.
+            kinds = {}
+            for t in sorted(set(tifs), key=lambda t: ("mollweide" in t.name.lower(), t.name)):
+                k = re.sub(r"(lulc|development|threat|index|mollweide|geographic|geotiff|global|v\d+(\.\d+)*|\d{4})", " ", t.stem.lower())
+                k = re.sub(r"[_\-\s]+", " ", k).strip() or t.stem
+                kinds.setdefault(k, t)
+            if not kinds:
+                raise RuntimeError(f"no GeoTIFF in {[f.name for f in files]}")
+            cuts = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+            key, pal = nh.ramp_key(cuts, 0, 100, "")
+            dti = []
+            for k, t in sorted(kinds.items()):
+                a2, w, n = pyr.read_grid(str(t), 1 / 12, resampling="max")
+                a2[a2 < 0] = np.nan
+                out = nh.OUT / "devpotential" / f"dti_{nh.slug(k)}.pmtiles"
+                code = nh.coded(a2, cuts)
+                if not code.any():
+                    continue
+                pyr.build(code, w, n, 1 / 12, pal, out, 4, how="max", attribution="Oakleaf et al. 2019, Development Threat Index (NASA SEDAC)",
+                          name=out.stem, meta={"file": t.name})
+                dti.append({"label": k[:1].upper() + k[1:], "archive": f"{pyr.PAGES}nonhuman/devpotential/{out.name}", "key": key, "file": t.name})
+            meta["dti"] = {"choices": dti, "from": [f.name for f in files]}
             report["dti"] = meta["dti"]
         except Exception as e:
             report["dti"] = f"not built: {e}"[:400]

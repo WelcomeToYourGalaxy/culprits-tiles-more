@@ -9,7 +9,7 @@ an area's id, name, designation, IUCN category and figures worked out from it.
 
 Kept in scripts/lib/ so the refresh workflow does not run it as a job.
 """
-import datetime, pathlib, re, zipfile
+import datetime, gc, pathlib, re, zipfile
 
 import nhcommon as nh
 
@@ -78,52 +78,121 @@ def _pick(cols, pats):
     return None
 
 
-def read(zpath, work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn")):
+def near_mask(D, near, reach=SEARCH):
+    """Which rows of D have a bounding box within reach (degrees) of a
+    bounding box of one of near: a cheap test that keeps everything that could
+    be the nearest area to one of them."""
+    import numpy as np
+    import shapely
+    if near is None:
+        return np.ones(len(D), bool)
+    tree = shapely.STRtree(shapely.envelope(near))
+    hit = tree.query(shapely.envelope(np.asarray(D.geometry.values)), predicate="dwithin", distance=reach)[0]
+    m = np.zeros(len(D), bool)
+    m[hit] = True
+    return m
+
+
+def _sources(zpath, work):
+    """Each layer in the download, as (GDAL path, layer, geometry type, done),
+    read straight from the zip; inner zips are copied out one at a time and
+    done() deletes each once read, so the disk never holds the release twice
+    over (round nh4: unpacking it whole filled the runner)."""
+    import pyogrio
+    z = zipfile.ZipFile(zpath)
+    names = z.namelist()
+    gdbs = sorted({n.split(".gdb/")[0] + ".gdb" for n in names if ".gdb/" in n})
+    for g in gdbs:
+        path = f"/vsizip/{zpath}/{g}"
+        for lname, gtype in pyogrio.list_layers(path):
+            yield path, str(lname), str(gtype), (lambda: None)
+    for n in names:
+        if n.lower().endswith(".shp"):
+            path = f"/vsizip/{zpath}/{n}"
+            yield path, None, str(pyogrio.read_info(path).get("geometry_type")), (lambda: None)
+    for n in names:
+        if not n.lower().endswith(".zip"):
+            continue
+        inner = pathlib.Path(work) / "wdpa_inner" / pathlib.Path(n).name
+        inner.parent.mkdir(parents=True, exist_ok=True)
+        with z.open(n) as src, open(inner, "wb") as dst:
+            while True:
+                b = src.read(1 << 24)
+                if not b:
+                    break
+                dst.write(b)
+        for m in zipfile.ZipFile(inner).namelist():
+            if m.lower().endswith(".shp"):
+                path = f"/vsizip/{inner}/{m}"
+                yield path, None, str(pyogrio.read_info(path).get("geometry_type")), (lambda: None)
+        inner.unlink(missing_ok=True)
+
+
+def read(zpath, work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn"), near=None, keep=None, each=None, batch=20_000):
     """(shapes, points, what was read): every polygon and point layer in the
-    download, with the columns asked for, renamed as in COLS."""
+    download, with the columns asked for, renamed as in COLS, read 20,000 at
+    a time straight from the zip. Given near (shapely geometries, WGS84), only
+    areas that could be within 20 km or so of one of them are kept; given
+    keep(df) -> mask, only the rows it marks; given each(kind, df), every
+    batch is handed to it and nothing is kept (shapes and points come back
+    None). So the whole world's outlines are never held at once."""
+    nh.pip("pyarrow")
     import geopandas as gpd
     import pandas as pd
     import pyogrio
-    work = pathlib.Path(work)
-    srcs = []
-    z = zipfile.ZipFile(zpath)
-    z.extractall(work / "wdpa")
-    if any(".gdb/" in n for n in z.namelist()):
-        gdb = next((work / "wdpa").rglob("*.gdb"))
-        for lname, gtype in pyogrio.list_layers(str(gdb)):
-            srcs.append((str(gdb), lname, str(gtype)))
-    else:
-        for inner in (work / "wdpa").rglob("*.zip"):
-            zipfile.ZipFile(inner).extractall(work / "wdpa" / inner.stem)
-        for shp in (work / "wdpa").rglob("*.shp"):
-            info = pyogrio.read_info(str(shp))
-            srcs.append((str(shp), None, str(info.get("geometry_type"))))
+    import shapely
     polys, points, used = [], [], []
-    for path, layer, gtype in srcs:
-        cols = list(pyogrio.read_info(path, layer=layer)["fields"])
+    for path, layer, gtype, done in _sources(zpath, work):
+        info = pyogrio.read_info(path, layer=layer)
+        cols = list(info["fields"])
         found = {k: _pick(cols, COLS[k]) for k in want}
         if not found.get("pa_id"):
             continue
-        df = gpd.read_file(path, layer=layer, columns=[c for c in found.values() if c], engine="pyogrio")
-        df = df.rename(columns={c: k for k, c in found.items() if c})
-        df = df.to_crs(4326) if df.crs and df.crs.to_epsg() != 4326 else df
         kind = "point" if "point" in gtype.lower() else "poly"
-        used.append({"file": pathlib.Path(path).name, "layer": layer, "geometry": gtype, "rows": len(df), "as": kind,
+        rows = kept = 0
+        with pyogrio.raw.open_arrow(path, layer=layer, columns=[c for c in found.values() if c], batch_size=batch, use_pyarrow=True) as (meta, reader):
+            gname = meta.get("geometry_name") or "wkb_geometry"
+            crs = meta.get("crs")
+            for rb in reader:
+                t = rb.to_pandas()
+                geom = shapely.from_wkb(t.pop(gname if gname in t.columns else t.columns[-1]).values)
+                df = gpd.GeoDataFrame(t.rename(columns={c: k for k, c in found.items() if c}), geometry=geom, crs=crs)
+                df = df.to_crs(4326) if df.crs and df.crs.to_epsg() != 4326 else df
+                rows += len(df)
+                if near is not None:
+                    df = df[near_mask(df, near)]
+                if keep is not None and len(df):
+                    df = df[keep(df)]
+                kept += len(df)
+                if each is not None:
+                    if len(df):
+                        each(kind, df.reset_index(drop=True))
+                elif len(df):
+                    (points if kind == "point" else polys).append(df.reset_index(drop=True))
+                del t, df, geom
+                gc.collect()
+        done()
+        used.append({"file": path.rsplit("/", 1)[-1], "layer": layer, "geometry": gtype, "rows": rows, "kept": kept, "as": kind,
                      "columns": {k: c for k, c in found.items() if c}})
-        (points if kind == "point" else polys).append(df)
     P = pd.concat(polys, ignore_index=True) if polys else None
     Q = pd.concat(points, ignore_index=True) if points else None
+    del polys, points
+    gc.collect()
     return P, Q, used
 
 
-def get(work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn")):
+def get(work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn"), near=None, keep=None, each=None):
     """Downloads and reads this month's release. Returns (shapes, points, file name, report)."""
     u, tried = url()
     if not u:
         raise RuntimeError("no WDPA download found at Protected Planet; tried " + "; ".join(tried[:10]))
     z = nh.download(u, pathlib.Path(work) / u.rsplit("/", 1)[-1], "WDPA")
-    P, Q, used = read(z, work, want)
+    P, Q, used = read(z, work, want, near=near, keep=keep, each=each)
+    pathlib.Path(z).unlink(missing_ok=True)
     return P, Q, u.rsplit("/", 1)[-1], used
+
+
+_TREES = {}
 
 
 def nearest(geoms, P, Q, log=print):
@@ -135,37 +204,57 @@ def nearest(geoms, P, Q, log=print):
     import shapely
     from pyproj import Geod
     geod = Geod(ellps="WGS84")
-    g = shapely.make_valid(np.asarray(geoms))
+
+    def valid(a):
+        a = np.asarray(a)
+        bad = ~shapely.is_valid(a)
+        if bad.any():
+            a = a.copy()
+            a[bad] = shapely.make_valid(a[bad])
+        return a
+
+    g = valid(geoms)
     best_km = np.full(len(g), np.inf)
     best_ix = np.full(len(g), -1)
     best_src = np.array([""] * len(g), dtype=object)
+    STEP = 20_000      # things at a time, so the pairs never fill memory
     for label, D in (("shape", P), ("point", Q)):
         if D is None or not len(D):
             continue
-        dg = shapely.make_valid(np.asarray(D.geometry.values))
-        tree = shapely.STRtree(dg)
-        if label == "shape":
-            mi, pi = tree.query(g, predicate="intersects")
-            best_km[mi] = 0.0
-            best_ix[mi] = pi
-            best_src[mi] = label
-        mi, pi = tree.query(g, predicate="dwithin", distance=SEARCH)
-        keep = best_km[mi] > 0
-        mi, pi = mi[keep], pi[keep]
-        log(f"  {label}: {len(mi):,} pairs within {SEARCH} degrees")
-        CH = 1_000_000
-        for s0 in range(0, len(mi), CH):
-            a, b = mi[s0:s0 + CH], pi[s0:s0 + CH]
-            xy = shapely.get_coordinates(shapely.shortest_line(g[a], dg[b])).reshape(-1, 2, 2)
-            km = np.asarray(geod.inv(xy[:, 0, 0], xy[:, 0, 1], xy[:, 1, 0], xy[:, 1, 1])[2]) / 1000
-            order = np.lexsort((km, a))
-            a, b, km = a[order], b[order], km[order]
-            first = np.r_[True, a[1:] != a[:-1]]
-            a, b, km = a[first], b[first], km[first]
-            better = km < best_km[a]
-            best_km[a[better]] = km[better]
-            best_ix[a[better]] = b[better]
-            best_src[a[better]] = label
+        # Mended and indexed once per table, however many times this is
+        # called with it (the oil and gas script calls it chunk by chunk).
+        if _TREES.get(label, (None,))[0] is not D:
+            _TREES[label] = (D, None, None)
+            dg = valid(D.geometry.values)
+            _TREES[label] = (D, dg, shapely.STRtree(dg))
+        _, dg, tree = _TREES[label]
+        pairs = 0
+        for t0 in range(0, len(g), STEP):
+            gs = g[t0:t0 + STEP]
+            if label == "shape":
+                mi, pi = tree.query(gs, predicate="intersects")
+                best_km[mi + t0] = 0.0
+                best_ix[mi + t0] = pi
+                best_src[mi + t0] = label
+            mi, pi = tree.query(gs, predicate="dwithin", distance=SEARCH)
+            mi = mi + t0
+            keep = best_km[mi] > 0
+            mi, pi = mi[keep], pi[keep]
+            pairs += len(mi)
+            CH = 200_000
+            for s0 in range(0, len(mi), CH):
+                a, b = mi[s0:s0 + CH], pi[s0:s0 + CH]
+                xy = shapely.get_coordinates(shapely.shortest_line(g[a], dg[b])).reshape(-1, 2, 2)
+                km = np.asarray(geod.inv(xy[:, 0, 0], xy[:, 0, 1], xy[:, 1, 0], xy[:, 1, 1])[2]) / 1000
+                order = np.lexsort((km, a))
+                a, b, km = a[order], b[order], km[order]
+                first = np.r_[True, a[1:] != a[:-1]]
+                a, b, km = a[first], b[first], km[first]
+                better = km < best_km[a]
+                best_km[a[better]] = km[better]
+                best_ix[a[better]] = b[better]
+                best_src[a[better]] = label
+            log(f"  {label}: {min(t0 + STEP, len(g)):,} of {len(g):,} measured, {pairs:,} pairs within {SEARCH} degrees so far")
     return best_km, best_ix, best_src
 
 

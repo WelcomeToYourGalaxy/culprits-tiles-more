@@ -31,7 +31,8 @@ RECORDS = ["18759840", "4632335"]
 
 
 def pick_columns(cols):
-    low = {c: re.sub(r"[^a-z]", "", str(c).lower()) for c in cols}
+    # Digits kept, so FirstRecord and FirstRecord1 stay apart.
+    low = {c: re.sub(r"[^a-z0-9]", "", str(c).lower()) for c in cols}
     def find(*pats, avoid=()):
         for p in pats:
             for c, l in low.items():
@@ -43,9 +44,16 @@ def pick_columns(cols):
                     return c
         return None
     return {
-        "place": find(r"region", r"location", r"country", r"locality", avoid=(r"code", r"iso")),
-        "taxon": find(r"scientificname", r"taxonname", r"taxon", r"species", avoid=(r"group", r"rank", r"id$")),
-        "year": find(r"firstrecord", r"firstrecordyear", r"year", avoid=(r"source", r"ref")),
+        # The country first: in the 2026 table Region is free text (seas,
+        # states, towns), Country the country (round nh4).
+        "place": find(r"country", r"region", r"location", r"locality", avoid=(r"code", r"iso")),
+        "where": find(r"region", r"location", r"locality", avoid=(r"code", r"iso")),
+        "island": find(r"island"),
+        "taxon": find(r"genusspecies", r"scientificname", r"taxonname", r"taxon", r"species", avoid=(r"group", r"rank", r"id$", r"type")),
+        "year": find(r"firstrecord", r"firstrecordyear", r"firstrecord1", r"year", avoid=(r"source", r"ref")),
+        # Used where the year column is blank (the 2026 table gives a range,
+        # FirstRecord1 to FirstRecord2, beside its FirstRecord).
+        "year_else": find(r"firstrecord1"),
         "life": find(r"lifeform", r"taxonomicgroup", r"group"),
     }
 
@@ -119,7 +127,9 @@ def main():
             continue
         taxon = str(r[cols["taxon"]]).strip()
         life = str(r[cols["life"]]).strip() if cols["life"] and r[cols["life"]] == r[cols["life"]] else ""
-        yv = str(r[cols["year"]]).strip()
+        yv = str(r[cols["year"]]).strip() if r[cols["year"]] == r[cols["year"]] else ""
+        if (not yv or yv.lower() == "nan") and cols.get("year_else") and cols["year_else"] != cols["year"] and r[cols["year_else"]] == r[cols["year_else"]]:
+            yv = str(r[cols["year_else"]]).strip()
         m = re.match(r"^-?\d{1,4}(\.0+)?$", yv)
         y = int(float(yv)) if m else None
         e = places[place]
@@ -127,7 +137,18 @@ def main():
             e["noYear"] += 1
         else:
             e["byYear"][y] += 1
-        e["records"].append([taxon, y, life] if life and life.lower() != "nan" else [taxon, y])
+        # Where in the country, as the table words it (region, island).
+        bits = []
+        for k in ("where", "island"):
+            c = cols.get(k)
+            if c and c != cols["place"] and r[c] == r[c] and str(r[c]).strip() and str(r[c]).strip().lower() not in ("nan", "no", "0"):
+                bits.append(str(r[c]).strip())
+        rec = [taxon, y, life if life and life.lower() != "nan" else ""]
+        if bits:
+            rec.append(", ".join(dict.fromkeys(bits)))
+        while len(rec) > 2 and not rec[-1]:
+            rec.pop()
+        e["records"].append(rec)
     regions, years, used_iso = [], [], set()
     for name in sorted(places):
         e = places[name]

@@ -73,30 +73,39 @@ def main():
                 for i, (lo, hi, _) in enumerate(CLASSES):
                     out[ok & (a >= lo) & (a < hi)] = i + 1
                 dst.write(out, 1, window=win)
-    P, Q, wdpa, used = nhwdpa.get(work, want=("pa_id",))
-    P = P.to_crs(crs)
-    print(f"pa pressure: {len(P):,} areas with a boundary", flush=True)
-    means = exact_extract(str(p), P, ["mean"], include_cols=["pa_id"], output="pandas")
-    fracs = exact_extract(str(cls), P, ["unique", "frac"], include_cols=["pa_id"], output="pandas")
-    ids = {}
-    for (_, m), (_, fr) in zip(means.iterrows(), fracs.iterrows()):
-        pid = str(m["pa_id"]).removesuffix(".0")
-        mean = m["mean"]
-        shares = [0, 0, 0, 0]
-        for u, fv in zip(list(fr["unique"]) if fr["unique"] is not None else [], list(fr["frac"]) if fr["frac"] is not None else []):
-            if 1 <= int(u) <= 4:
-                shares[int(u) - 1] = round(float(fv) * 100, 1)
-        if mean is None or mean != mean:
-            continue
-        # The same id can be several shapes (parts of one area): the first is kept,
-        # the others counted.
-        ids.setdefault(pid, [round(float(mean), 3)] + shares)
+    # The areas are read 20,000 at a time and measured as they come, so the
+    # whole world's outlines are never held at once (round nh4).
+    ids, counts = {}, {"shapes": 0, "points": 0}
+
+    def measure(kind, df):
+        if kind == "point":
+            counts["points"] += len(df)
+            return
+        counts["shapes"] += len(df)
+        df = df.to_crs(crs)
+        means = exact_extract(str(p), df, ["mean"], include_cols=["pa_id"], output="pandas")
+        fracs = exact_extract(str(cls), df, ["unique", "frac"], include_cols=["pa_id"], output="pandas")
+        for (_, m), (_, fr) in zip(means.iterrows(), fracs.iterrows()):
+            pid = str(m["pa_id"]).removesuffix(".0")
+            mean = m["mean"]
+            shares = [0, 0, 0, 0]
+            for u, fv in zip(list(fr["unique"]) if fr["unique"] is not None else [], list(fr["frac"]) if fr["frac"] is not None else []):
+                if 1 <= int(u) <= 4:
+                    shares[int(u) - 1] = round(float(fv) * 100, 1)
+            if mean is None or mean != mean:
+                continue
+            # The same id can be several shapes (parts of one area): the first
+            # is kept, the others counted.
+            ids.setdefault(pid, [round(float(mean), 3)] + shares)
+        print(f"pa pressure: {counts['shapes']:,} areas with a boundary measured", flush=True)
+
+    _, _, wdpa, used = nhwdpa.get(work, want=("pa_id",), each=measure)
     nh.write_json("pa_pressure.json", {"source": "Global Human Modification (Kennedy et al. 2019, figshare 7283087, CC BY 4.0) inside each area of " + wdpa,
                                        "fields": ["mean human modification (0 to 1)", "% low", "% moderate", "% high", "% very high"],
                                        "classes": [[lo, hi, w] for lo, hi, w in CLASSES], "ids": ids,
                                        "made": nh.datetime.datetime.utcnow().strftime("%Y-%m-%d")})
-    nh.write_stamp(NAME, {"file": f["name"], "raster crs": str(crs), "areas with a boundary": len(P), "areas measured": len(ids),
-                          "areas given only as a point (not measured)": 0 if Q is None else len(Q), "wdpa": wdpa, "wdpa layers read": used})
+    nh.write_stamp(NAME, {"file": f["name"], "raster crs": str(crs), "areas with a boundary": counts["shapes"], "areas measured": len(ids),
+                          "areas given only as a point (not measured)": counts["points"], "wdpa": wdpa, "wdpa layers read": used})
 
 
 if __name__ == "__main__":

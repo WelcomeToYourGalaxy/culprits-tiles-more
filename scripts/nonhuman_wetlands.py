@@ -128,9 +128,16 @@ def main():
                 break
             out = nh.OUT / "wetlands" / f"{nh.slug(var)}_{y}.pmtiles"
             if not out.exists() or os.environ.get("WETLANDS_REBUILD"):
-                pyr.build(nh.coded(a, cuts), geo[0], geo[1], geo[2], pal, out, 4, how="max", attribution="Fluet-Chouinard et al. 2023", name=out.stem, meta={"variable": var, "year": y})
+                code = nh.coded(a, cuts)
+                # A date with nothing drained for this use (forestry in 1700,
+                # say) has no picture: the slider shows it as none (round nh4).
+                if not code.any():
+                    steps.append({"year": y, "label": f"{y} (none mapped)", "archive": None})
+                    continue
+                pyr.build(code, geo[0], geo[1], geo[2], pal, out, 4, how="max", attribution="Fluet-Chouinard et al. 2023", name=out.stem, meta={"variable": var, "year": y})
             steps.append({"year": y, "label": str(y), "archive": f"{pyr.PAGES}nonhuman/wetlands/{out.name}"})
-        choices.append({"label": var.replace("_", " "), "unit": unit, "key": key, "steps": steps})
+        if any(st.get("archive") for st in steps):
+            choices.append({"label": var.replace("_", " "), "unit": unit, "key": key, "steps": steps})
     nh.write_json("wetlands.json", {"source": "Fluet-Chouinard et al. 2023, Nature 614: 281-286; Zenodo 7616651", "choices": choices}, compact=False)
     nh.write_stamp(NAME, dict(report, complete=complete, variables=list(groups), failed=not choices))
 

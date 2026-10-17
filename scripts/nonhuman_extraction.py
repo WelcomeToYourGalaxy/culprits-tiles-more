@@ -56,7 +56,7 @@ def main():
     print(f"extraction: {len(M):,} mines; columns {list(M.columns)}", flush=True)
     # The protected areas.
     try:
-        P, Q, wdpa, used = nhwdpa.get(work)
+        P, Q, wdpa, used = nhwdpa.get(work, near=M.geometry.values)
     except Exception as e:
         nh.write_stamp(NAME, {"failed": True, "error": str(e)[:1000]})
         raise SystemExit(f"extraction: {e}")

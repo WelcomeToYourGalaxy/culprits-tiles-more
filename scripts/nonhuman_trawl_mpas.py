@@ -79,12 +79,15 @@ def main():
         with rasterio.open(p, "w", driver="GTiff", height=H, width=W, count=1, dtype="float32", crs="EPSG:4326", transform=from_origin(-180, 90, RES, RES)) as d:
             d.write(a, 1)
         tifs[g] = str(p)
-    P, Q, wdpa, used = nhwdpa.get(work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn", "pa_marine", "pa_no_take", "pa_status_yr", "pa_iso3", "pa_rep_m_area"))
-    m = P["pa_marine"].astype(str).str.strip().str.lower() if "pa_marine" in P.columns else None
+    MARINE = ["1", "2", "1.0", "2.0", "marine", "coastal"]
+    # Only marine and partly marine areas are kept as they are read (round nh4).
+    keep = lambda df: df["pa_marine"].astype(str).str.strip().str.lower().isin(MARINE) if "pa_marine" in df.columns else [True] * len(df)
+    P, Q, wdpa, used = nhwdpa.get(work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn", "pa_marine", "pa_no_take", "pa_status_yr", "pa_iso3", "pa_rep_m_area"), keep=keep)
+    m = P["pa_marine"].astype(str).str.strip().str.lower() if P is not None and "pa_marine" in P.columns else None
     if m is None:
         nh.write_stamp(NAME, {"failed": True, "error": "no MARINE or REALM column in the WDPA download", "wdpa layers read": used})
         raise SystemExit("trawl mpas: no marine column")
-    M = P[m.isin(["1", "2", "1.0", "2.0", "marine", "coastal"])].copy()
+    M = P[m.isin(MARINE)].copy()
     print(f"trawl mpas: {len(M):,} marine and partly marine areas", flush=True)
     sums = {g: exact_extract(tifs[g], M, ["sum"], output="pandas")["sum"].to_numpy() for g in GEARS}
     eq = M.to_crs("+proj=cea")   # equal-area, for each area's size

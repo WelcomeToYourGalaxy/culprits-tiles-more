@@ -32,10 +32,12 @@ PAGE = "https://unearthed.greenpeace.org/2025/12/16/interactive-map-eu-banned-pe
 
 
 def find(cols, *pats, avoid=None):
+    """The first heading matching a pattern; where the spreadsheet gives a
+    tidied copy of a column (its heading ending in CLEAN), that copy."""
     for p in pats:
-        for c in cols:
-            if re.search(p, str(c), re.I) and not (avoid and re.search(avoid, str(c), re.I)):
-                return c
+        hits = [c for c in cols if re.search(p, str(c), re.I) and not (avoid and re.search(avoid, str(c), re.I))]
+        if hits:
+            return next((c for c in hits if re.search(r"\bclean\s*$", str(c), re.I)), hits[0])
     return None
 
 
@@ -66,17 +68,24 @@ def main():
                 where[iso] = [round(pt.x, 3), round(pt.y, 3)]
             except Exception:
                 pass
-    sheets, report = {}, {}
+    sheets, report, notes = {}, {}, []
     for name, df in book.items():
         df = df.dropna(how="all")
         cols = [str(c) for c in df.columns]
         df.columns = cols
-        exp = find(cols, r"export\w*\s*country|exporting|from\b|origin|member state|exporter country", avoid=r"compan|firm")
-        dst = find(cols, r"destination|import\w*\s*country|importing|to\b|recipient")
-        ai = find(cols, r"active|substance|ingredient|pesticide|chemical")
-        co = find(cols, r"compan|exporter$|firm|business")
-        qty = find(cols, r"tonne|\bkg\b|quantit|amount|volume|weight")
+        exp = find(cols, r"export\w*\s*country|exporting|from\b|origin|member state|exporter country", avoid=r"compan|firm|address")
+        dst = find(cols, r"destination|import\w*\s*country|importing|to\b|recipient", avoid=r"continent|income")
+        ai = find(cols, r"chemical name|active|substance|ingredient|pesticide", avoid=r"concentration|more than one|mixture")
+        co = find(cols, r"exporter name|compan|firm|business")
+        qty = find(cols, r"expected yearly amount|tonne|\bkg\b|quantit|amount|volume|weight")
         used = {"exporting country": exp, "destination": dst, "active ingredient": ai, "company": co, "amount": qty}
+        # Only sheets of notifications; a pivot table or a sheet of notes
+        # is not one (the notes are kept as text).
+        if not (exp and dst):
+            if re.search(r"note", name, re.I):
+                notes += [str(v).strip() for v in df.astype(str).values.ravel().tolist() + cols if str(v).strip() and str(v).strip().lower() not in ("nan", "notes:")]
+            report[name] = {"rows": len(df), "columns": cols, "skipped": "not a sheet of notifications"}
+            continue
         rows = []
         for _, r in df.iterrows():
             rec = {c: (None if (v is None or (isinstance(v, float) and math.isnan(v)) or str(v).strip().lower() == "nan") else str(v).strip()) for c, v in r.items()}
@@ -89,6 +98,7 @@ def main():
                         "names not matched to a country": sorted({rec.get(c) for rec in rows for c, k in ((exp, "_from"), (dst, "_to")) if c and rec.get(c) and not rec.get(k)})}
     isos = {rec.get(k) for s in sheets.values() for rec in s["rows"] for k in ("_from", "_to") if rec.get(k)}
     out = {"source": "Unearthed (Greenpeace UK) and Public Eye, EU banned pesticide export notifications, 2024", "page": PAGE, "file": XLSX,
+           "unit": "kg or litres a year, as notified", "notes": notes,
            "unit_column": {n: s["used"]["amount"] for n, s in sheets.items()}, "sheets": sheets, "points": {i: where[i] for i in isos if i in where},
            "made": nh.datetime.datetime.utcnow().strftime("%Y-%m-%d")}
     nh.write_json("banned_exports.json", out)

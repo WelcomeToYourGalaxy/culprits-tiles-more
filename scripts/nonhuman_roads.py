@@ -14,7 +14,12 @@ states is written to the build file.
 
   nonhuman/roads.json, nonhuman/roads/*.pmtiles, nonhuman/roads.build.json
 
-A fixed release: built once; ROADS_REBUILD=1 builds again.
+Each density zip also holds the map of land area per cell
+(grip4_area_land_km2), the same in every zip: it is not a road map and is left
+out (round nh4; round nh2 drew it six times).
+
+A fixed release: built once (and once more after round nh4's mend);
+ROADS_REBUILD=1 builds again.
 """
 import os, pathlib, re, sys, tempfile, zipfile
 
@@ -36,7 +41,7 @@ def label(name):
 
 
 def main():
-    if not nh.due(NAME, None, "ROADS_REBUILD", hand=False):
+    if nh.read_stamp(NAME).get("version") == 2 and not nh.due(NAME, None, "ROADS_REBUILD", hand=False):
         return
     pyr = nh.lib_pyramid()
     pyr.need("rasterio")
@@ -56,7 +61,9 @@ def main():
         if k.lower().endswith(".zip"):
             z = zipfile.ZipFile(p)
             for n in z.namelist():
-                if re.search(r"\.(tif|tiff|asc|img)$", n, re.I):
+                if re.search(r"area_land", n, re.I):
+                    continue
+                if re.search(r"\.(tif|tiff|asc|img)$", n, re.I) and n not in {m for _, m in rasters}:
                     rasters.append((f"zip://{p}!/{n}", n))
         elif re.search(r"\.(tif|tiff|asc|img)$", k, re.I):
             rasters.append((str(p), k))
@@ -83,10 +90,13 @@ def main():
             report[n] = "built"
         except Exception as e:
             report[n] = f"not built: {e}"[:300]
+    stale = nh.OUT / "roads" / "grip4_area_land_km2.pmtiles"
+    if stale.exists():
+        stale.unlink()
     choices.sort(key=lambda c: (c["label"] != "Density of all roads", c["label"]))
     if choices:
         nh.write_json("roads.json", {"source": "GRIP4, Meijer et al. 2018 (PBL), Zenodo 6420961", "licence": lic.get("id") or lic.get("title"), "choices": choices}, compact=False)
-    nh.write_stamp(NAME, dict(report, failed=not choices))
+    nh.write_stamp(NAME, dict(report, failed=not choices, version=2))
 
 
 if __name__ == "__main__":
