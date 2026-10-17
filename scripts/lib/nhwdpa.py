@@ -193,13 +193,57 @@ def get(work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn"), near=None, keep=
 
 
 _TREES = {}
+PIECE = 64          # vertices per piece of boundary
+SIMPLIFY = 0.0003   # degrees (about 30 m): boundaries are simplified this much for measuring only
+
+
+def _pieces(dg):
+    """Every boundary of every area cut into short pieces of at most PIECE
+    vertices, after simplifying by SIMPLIFY degrees (about 30 m; whether a
+    thing is inside an area is still tested on the full boundary). Returns
+    (pieces, the row in dg each came from)."""
+    import numpy as np
+    import shapely
+    parts, pidx = shapely.get_parts(dg, return_index=True)
+    t = shapely.get_type_id(parts)
+    poly = np.isin(t, [3])
+    rings, ridx = shapely.get_rings(parts[poly], return_index=True)
+    lines = np.concatenate([rings, parts[np.isin(t, [1, 2])]])
+    owner = np.concatenate([pidx[poly][ridx], pidx[np.isin(t, [1, 2])]])
+    lines = shapely.simplify(lines, SIMPLIFY, preserve_topology=False)
+    coords, cidx = shapely.get_coordinates(lines, return_index=True)
+    n = np.bincount(cidx, minlength=len(lines))
+    off = np.r_[0, np.cumsum(n)[:-1]]
+    ok = n >= 2
+    m = np.where(ok, np.maximum(1, -(-(n - 1) // (PIECE - 1))), 0)
+    line_of_piece = np.repeat(np.arange(len(lines)), m)
+    k = np.arange(m.sum()) - np.repeat(np.r_[0, np.cumsum(m)[:-1]], m)
+    start = off[line_of_piece] + k * (PIECE - 1)
+    length = np.minimum(PIECE, off[line_of_piece] + n[line_of_piece] - start)
+    piece_id = np.repeat(np.arange(len(start)), length)
+    at = np.repeat(start, length) + (np.arange(length.sum()) - np.repeat(np.r_[0, np.cumsum(length)[:-1]], length))
+    pieces = shapely.linestrings(coords[at], indices=piece_id)
+    pts = parts[np.isin(t, [0, 4])]
+    if len(pts):
+        pieces = np.concatenate([pieces, pts])
+        line_of_piece = np.concatenate([line_of_piece, np.arange(len(lines), len(lines) + len(pts))])
+        owner = np.concatenate([owner, pidx[np.isin(t, [0, 4])]])
+    return pieces, owner[line_of_piece]
 
 
 def nearest(geoms, P, Q, log=print):
     """For each of geoms (shapely, WGS84): the distance in km on the globe to
-    the nearest protected area within 20 km or so (0 if they touch or
-    overlap), which table it is in ("shape" or "point") and its row there.
-    Distances are measured between the nearest points of the two shapes."""
+    the nearest protected area within 20 km or so (0 if it touches or
+    overlaps one), which table it is in ("shape" or "point") and its row
+    there.
+
+    Round nh5: whether a thing touches an area is tested on the area's full
+    boundary. Distances are measured to the area's boundary cut into short
+    pieces (simplified by about 30 m): the piece nearest on the lon/lat grid
+    is found, every piece within that distance widened for how much a degree
+    of longitude shrinks at that latitude is measured on the globe (WGS84),
+    and the shortest is kept. (Measuring whole outlines took about 400 pairs
+    a second and the oil and gas run never finished.)"""
     import numpy as np
     import shapely
     from pyproj import Geod
@@ -217,44 +261,63 @@ def nearest(geoms, P, Q, log=print):
     best_km = np.full(len(g), np.inf)
     best_ix = np.full(len(g), -1)
     best_src = np.array([""] * len(g), dtype=object)
-    STEP = 20_000      # things at a time, so the pairs never fill memory
+    STEP = 20_000
     for label, D in (("shape", P), ("point", Q)):
         if D is None or not len(D):
             continue
-        # Mended and indexed once per table, however many times this is
-        # called with it (the oil and gas script calls it chunk by chunk).
+        # Mended, cut into pieces and indexed once per table, however many
+        # times this is called with it (the oil and gas script calls it
+        # chunk by chunk).
         if _TREES.get(label, (None,))[0] is not D:
-            _TREES[label] = (D, None, None)
+            _TREES[label] = (D,)
             dg = valid(D.geometry.values)
-            _TREES[label] = (D, dg, shapely.STRtree(dg))
-        _, dg, tree = _TREES[label]
+            if label == "shape":
+                pieces, owner = _pieces(dg)
+                log(f"  {label}: {len(dg):,} areas cut into {len(pieces):,} pieces of boundary")
+            else:
+                pieces, owner = dg, np.arange(len(dg))
+            _TREES[label] = (D, dg, shapely.STRtree(dg) if label == "shape" else None, pieces, owner, shapely.STRtree(pieces))
+        _, dg, whole, pieces, owner, tree = _TREES[label]
         pairs = 0
         for t0 in range(0, len(g), STEP):
             gs = g[t0:t0 + STEP]
             if label == "shape":
-                mi, pi = tree.query(gs, predicate="intersects")
+                mi, pi = whole.query(gs, predicate="intersects")
                 best_km[mi + t0] = 0.0
                 best_ix[mi + t0] = pi
                 best_src[mi + t0] = label
-            mi, pi = tree.query(gs, predicate="dwithin", distance=SEARCH)
-            mi = mi + t0
-            keep = best_km[mi] > 0
-            mi, pi = mi[keep], pi[keep]
-            pairs += len(mi)
-            CH = 200_000
-            for s0 in range(0, len(mi), CH):
-                a, b = mi[s0:s0 + CH], pi[s0:s0 + CH]
-                xy = shapely.get_coordinates(shapely.shortest_line(g[a], dg[b])).reshape(-1, 2, 2)
+            out = np.where(~(best_km[t0:t0 + len(gs)] == 0))[0]
+            if not len(out):
+                continue
+            (qi, ti), dd = tree.query_nearest(gs[out], max_distance=SEARCH, return_distance=True)
+            if not len(qi):
+                continue
+            first = np.r_[True, qi[1:] != qi[:-1]]
+            qi, dd = qi[first], dd[first]
+            # Widen for latitude: a degree of longitude is cos(latitude) as
+            # long as one of latitude, so the nearest on the grid may not be
+            # the nearest on the globe.
+            lat = np.abs(shapely.get_y(shapely.centroid(gs[out][qi])))
+            widen = np.minimum(1 / np.maximum(np.cos(np.radians(lat)), 0.15), 7.0)
+            reach = np.minimum(dd * widen * 1.01 + 1e-9, SEARCH)
+            ai, b = tree.query(gs[out][qi], predicate="dwithin", distance=reach)
+            a = out[qi][ai] + t0
+            pairs += len(a)
+            CH = 500_000
+            for s0 in range(0, len(a), CH):
+                aa, bb = a[s0:s0 + CH], b[s0:s0 + CH]
+                xy = shapely.get_coordinates(shapely.shortest_line(g[aa], pieces[bb])).reshape(-1, 2, 2)
                 km = np.asarray(geod.inv(xy[:, 0, 0], xy[:, 0, 1], xy[:, 1, 0], xy[:, 1, 1])[2]) / 1000
-                order = np.lexsort((km, a))
-                a, b, km = a[order], b[order], km[order]
-                first = np.r_[True, a[1:] != a[:-1]]
-                a, b, km = a[first], b[first], km[first]
-                better = km < best_km[a]
-                best_km[a[better]] = km[better]
-                best_ix[a[better]] = b[better]
-                best_src[a[better]] = label
-            log(f"  {label}: {min(t0 + STEP, len(g)):,} of {len(g):,} measured, {pairs:,} pairs within {SEARCH} degrees so far")
+                rows = owner[bb]
+                order = np.lexsort((km, aa))
+                aa, rows, km = aa[order], rows[order], km[order]
+                keep = np.r_[True, aa[1:] != aa[:-1]]
+                aa, rows, km = aa[keep], rows[keep], km[keep]
+                better = km < best_km[aa]
+                best_km[aa[better]] = km[better]
+                best_ix[aa[better]] = rows[better]
+                best_src[aa[better]] = label
+            log(f"  {label}: {min(t0 + STEP, len(g)):,} of {len(g):,} measured, {pairs:,} pieces measured so far")
     return best_km, best_ix, best_src
 
 
