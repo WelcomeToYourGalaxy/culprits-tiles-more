@@ -22,13 +22,6 @@
    ]
   },
   {
-   "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 01)",
-   "licence": "CC0",
-   "files": [
-    "DPI_InputsAndCode_Part01.zip"
-   ]
-  },
-  {
    "title": "Wind Power Development Potential Index",
    "licence": "CC0",
    "files": [
@@ -43,10 +36,10 @@
    ]
   },
   {
-   "title": "Unconventional Gas Development Potential Index",
+   "title": "Spatial Data and Python Code for 13 Development Potential Indices (part 01)",
    "licence": "CC0",
    "files": [
-    "UG.zip"
+    "DPI_InputsAndCode_Part01.zip"
    ]
   },
   {
@@ -57,10 +50,10 @@
    ]
   },
   {
-   "title": "Photovoltaic Solar Power (PV) Development Potential Index",
+   "title": "Unconventional Gas Development Potential Index",
    "licence": "CC0",
    "files": [
-    "PV.zip"
+    "UG.zip"
    ]
   },
   {
@@ -78,17 +71,10 @@
    ]
   },
   {
-   "title": "Coal Mining Development Potential Index",
+   "title": "Photovoltaic Solar Power (PV) Development Potential Index",
    "licence": "CC0",
    "files": [
-    "Coal.zip"
-   ]
-  },
-  {
-   "title": "Crop Expansion Development Potential Index",
-   "licence": "CC0",
-   "files": [
-    "Crop.zip"
+    "PV.zip"
    ]
   },
   {
@@ -106,10 +92,17 @@
    ]
   },
   {
-   "title": "Biofuels Expansion Development Potential Index",
+   "title": "Coal Mining Development Potential Index",
    "licence": "CC0",
    "files": [
-    "Bio.zip"
+    "Coal.zip"
+   ]
+  },
+  {
+   "title": "Crop Expansion Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Crop.zip"
    ]
   },
   {
@@ -118,12 +111,516 @@
    "files": [
     "CSP.zip"
    ]
+  },
+  {
+   "title": "Biofuels Expansion Development Potential Index",
+   "licence": "CC0",
+   "files": [
+    "Bio.zip"
+   ]
   }
  ],
  "built": [],
  "skipped": [],
- "dti": "not built: no vector layer in ['lulc-development-threat-index-biofuels-mollweide-geotiff.zip', 'granules?p=C3556405724-ESDIS', 'granules?p=C3556405724-ESDIS', 'lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip', 'granules?p=C3556405724-ESDIS', 'granules?p=C3556405724-ESDIS', 'lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip', 'granules?p=C3556405",
- "complete": false,
+ "dti files": [
+  "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+  "lulc-development-threat-index-biofuels-geographic-geotiff.zip",
+  "lulc-development-threat-index-coal-geographic-geotiff.zip",
+  "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+  "lulc-development-threat-index-geographic-geotiff.zip",
+  "lulc-development-threat-index-mining-geographic-geotiff.zip",
+  "lulc-development-threat-index-solar-geographic-geotiff.zip",
+  "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff.zip",
+  "lulc-development-threat-index-urbanexpansion-geographic-geotiff.zip",
+  "lulc-development-threat-index-wind-geographic-geotiff.zip"
+ ],
+ "dti": {
+  "choices": [
+   {
+    "label": "Agricultural expansion",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_agriculturalexpansion.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_agriculturalexpansion_geographic.tif"
+   },
+   {
+    "label": "Biofuels",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_biofuels.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_biofuels_geographic.tif"
+   },
+   {
+    "label": "Coal mining",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_coal.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_coal_geographic.tif"
+   },
+   {
+    "label": "Conventional oil and gas",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_conventionaloilandgas.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_conventionaloilandgas_geographic.tif"
+   },
+   {
+    "label": "Geogrpahic",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_geogrpahic.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_geogrpahic.tif"
+   },
+   {
+    "label": "Mining",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_mining.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_mining_geographic.tif"
+   },
+   {
+    "label": "Solar power",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_solar.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_solar_geographic.tif"
+   },
+   {
+    "label": "Unconventional oil and gas",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_unconventionaloilandgas.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_unconventionaloilandgas_geographic.tif"
+   },
+   {
+    "label": "Urban expansion",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_urbanexpansion.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_urbanexpansion_geographic.tif"
+   },
+   {
+    "label": "Wind power",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_wind.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_wind_geographic.tif"
+   }
+  ],
+  "from": [
+   "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+   "lulc-development-threat-index-biofuels-geographic-geotiff.zip",
+   "lulc-development-threat-index-coal-geographic-geotiff.zip",
+   "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+   "lulc-development-threat-index-geographic-geotiff.zip",
+   "lulc-development-threat-index-mining-geographic-geotiff.zip",
+   "lulc-development-threat-index-solar-geographic-geotiff.zip",
+   "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff.zip",
+   "lulc-development-threat-index-urbanexpansion-geographic-geotiff.zip",
+   "lulc-development-threat-index-wind-geographic-geotiff.zip"
+  ]
+ },
+ "complete": true,
  "failed": false,
- "made": "2026-10-17T01:52:27Z"
+ "made": "2026-10-17T04:52:06Z"
 }

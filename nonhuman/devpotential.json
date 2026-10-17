@@ -1,524 +1,7 @@
 {
  "choices": [
   {
-   "label": "UO",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/uo.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.168 to under 0.497"
-    ],
-    [
-     "#C6E7F0",
-     "0.497 to under 0.553"
-    ],
-    [
-     "#9CD6E6",
-     "0.553 to under 0.593"
-    ],
-    [
-     "#6FC2DA",
-     "0.593 to under 0.633"
-    ],
-    [
-     "#46AACB",
-     "0.633 to under 0.663"
-    ],
-    [
-     "#2E8FBA",
-     "0.663 to under 0.72"
-    ],
-    [
-     "#2275A8",
-     "0.72 to under 0.779"
-    ],
-    [
-     "#1A5C92",
-     "0.779 to under 0.83"
-    ],
-    [
-     "#13447A",
-     "0.83 to under 0.87"
-    ],
-    [
-     "#0C2E5E",
-     "0.87 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "Wind",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/wind.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.112 to under 0.353"
-    ],
-    [
-     "#C6E7F0",
-     "0.353 to under 0.415"
-    ],
-    [
-     "#9CD6E6",
-     "0.415 to under 0.478"
-    ],
-    [
-     "#6FC2DA",
-     "0.478 to under 0.553"
-    ],
-    [
-     "#46AACB",
-     "0.553 to under 0.632"
-    ],
-    [
-     "#2E8FBA",
-     "0.632 to under 0.693"
-    ],
-    [
-     "#2275A8",
-     "0.693 to under 0.739"
-    ],
-    [
-     "#1A5C92",
-     "0.739 to under 0.776"
-    ],
-    [
-     "#13447A",
-     "0.776 to under 0.819"
-    ],
-    [
-     "#0C2E5E",
-     "0.819 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "NMM",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/nmm.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "1.42e-03 to under 0.254"
-    ],
-    [
-     "#C6E7F0",
-     "0.254 to under 0.386"
-    ],
-    [
-     "#9CD6E6",
-     "0.386 to under 0.489"
-    ],
-    [
-     "#6FC2DA",
-     "0.489 to under 0.554"
-    ],
-    [
-     "#46AACB",
-     "0.554 to under 0.61"
-    ],
-    [
-     "#2E8FBA",
-     "0.61 to under 0.671"
-    ],
-    [
-     "#2275A8",
-     "0.671 to under 0.733"
-    ],
-    [
-     "#1A5C92",
-     "0.733 to under 0.794"
-    ],
-    [
-     "#13447A",
-     "0.794 to under 0.865"
-    ],
-    [
-     "#0C2E5E",
-     "0.865 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "UG",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/ug.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.161 to under 0.364"
-    ],
-    [
-     "#C6E7F0",
-     "0.364 to under 0.489"
-    ],
-    [
-     "#9CD6E6",
-     "0.489 to under 0.552"
-    ],
-    [
-     "#6FC2DA",
-     "0.552 to under 0.596"
-    ],
-    [
-     "#46AACB",
-     "0.596 to under 0.666"
-    ],
-    [
-     "#2E8FBA",
-     "0.666 to under 0.714"
-    ],
-    [
-     "#2275A8",
-     "0.714 to under 0.786"
-    ],
-    [
-     "#1A5C92",
-     "0.786 to under 0.828"
-    ],
-    [
-     "#13447A",
-     "0.828 to under 0.888"
-    ],
-    [
-     "#0C2E5E",
-     "0.888 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "MM",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/mm.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "8.70e-05 to under 0.142"
-    ],
-    [
-     "#C6E7F0",
-     "0.142 to under 0.25"
-    ],
-    [
-     "#9CD6E6",
-     "0.25 to under 0.337"
-    ],
-    [
-     "#6FC2DA",
-     "0.337 to under 0.419"
-    ],
-    [
-     "#46AACB",
-     "0.419 to under 0.489"
-    ],
-    [
-     "#2E8FBA",
-     "0.489 to under 0.546"
-    ],
-    [
-     "#2275A8",
-     "0.546 to under 0.605"
-    ],
-    [
-     "#1A5C92",
-     "0.605 to under 0.675"
-    ],
-    [
-     "#13447A",
-     "0.675 to under 0.768"
-    ],
-    [
-     "#0C2E5E",
-     "0.768 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "PV",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/pv.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.01 to under 0.338"
-    ],
-    [
-     "#C6E7F0",
-     "0.338 to under 0.444"
-    ],
-    [
-     "#9CD6E6",
-     "0.444 to under 0.492"
-    ],
-    [
-     "#6FC2DA",
-     "0.492 to under 0.527"
-    ],
-    [
-     "#46AACB",
-     "0.527 to under 0.566"
-    ],
-    [
-     "#2E8FBA",
-     "0.566 to under 0.607"
-    ],
-    [
-     "#2275A8",
-     "0.607 to under 0.654"
-    ],
-    [
-     "#1A5C92",
-     "0.654 to under 0.704"
-    ],
-    [
-     "#13447A",
-     "0.704 to under 0.765"
-    ],
-    [
-     "#0C2E5E",
-     "0.765 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "Hydro",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/hydro.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.014 to under 0.321"
-    ],
-    [
-     "#C6E7F0",
-     "0.321 to under 0.368"
-    ],
-    [
-     "#9CD6E6",
-     "0.368 to under 0.409"
-    ],
-    [
-     "#6FC2DA",
-     "0.409 to under 0.448"
-    ],
-    [
-     "#46AACB",
-     "0.448 to under 0.485"
-    ],
-    [
-     "#2E8FBA",
-     "0.485 to under 0.52"
-    ],
-    [
-     "#2275A8",
-     "0.52 to under 0.556"
-    ],
-    [
-     "#1A5C92",
-     "0.556 to under 0.601"
-    ],
-    [
-     "#13447A",
-     "0.601 to under 0.67"
-    ],
-    [
-     "#0C2E5E",
-     "0.67 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "CO",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/co.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.02 to under 0.215"
-    ],
-    [
-     "#C6E7F0",
-     "0.215 to under 0.281"
-    ],
-    [
-     "#9CD6E6",
-     "0.281 to under 0.339"
-    ],
-    [
-     "#6FC2DA",
-     "0.339 to under 0.394"
-    ],
-    [
-     "#46AACB",
-     "0.394 to under 0.437"
-    ],
-    [
-     "#2E8FBA",
-     "0.437 to under 0.519"
-    ],
-    [
-     "#2275A8",
-     "0.519 to under 0.597"
-    ],
-    [
-     "#1A5C92",
-     "0.597 to under 0.668"
-    ],
-    [
-     "#13447A",
-     "0.668 to under 0.76"
-    ],
-    [
-     "#0C2E5E",
-     "0.76 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "Coal",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/coal.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.041 to under 0.206"
-    ],
-    [
-     "#C6E7F0",
-     "0.206 to under 0.247"
-    ],
-    [
-     "#9CD6E6",
-     "0.247 to under 0.257"
-    ],
-    [
-     "#6FC2DA",
-     "0.257 to under 0.289"
-    ],
-    [
-     "#46AACB",
-     "0.289 to under 0.352"
-    ],
-    [
-     "#2E8FBA",
-     "0.352 to under 0.423"
-    ],
-    [
-     "#2275A8",
-     "0.423 to under 0.501"
-    ],
-    [
-     "#1A5C92",
-     "0.501 to under 0.554"
-    ],
-    [
-     "#13447A",
-     "0.554 to under 0.603"
-    ],
-    [
-     "#0C2E5E",
-     "0.603 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "Crop",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/crop.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.063 to under 0.407"
-    ],
-    [
-     "#C6E7F0",
-     "0.407 to under 0.457"
-    ],
-    [
-     "#9CD6E6",
-     "0.457 to under 0.523"
-    ],
-    [
-     "#6FC2DA",
-     "0.523 to under 0.595"
-    ],
-    [
-     "#46AACB",
-     "0.595 to under 0.661"
-    ],
-    [
-     "#2E8FBA",
-     "0.661 to under 0.718"
-    ],
-    [
-     "#2275A8",
-     "0.718 to under 0.769"
-    ],
-    [
-     "#1A5C92",
-     "0.769 to under 0.821"
-    ],
-    [
-     "#13447A",
-     "0.821 to under 0.884"
-    ],
-    [
-     "#0C2E5E",
-     "0.884 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "CG",
-   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/cg.pmtiles",
-   "key": [
-    [
-     "#E4F3F8",
-     "0.081 to under 0.324"
-    ],
-    [
-     "#C6E7F0",
-     "0.324 to under 0.387"
-    ],
-    [
-     "#9CD6E6",
-     "0.387 to under 0.433"
-    ],
-    [
-     "#6FC2DA",
-     "0.433 to under 0.47"
-    ],
-    [
-     "#46AACB",
-     "0.47 to under 0.53"
-    ],
-    [
-     "#2E8FBA",
-     "0.53 to under 0.614"
-    ],
-    [
-     "#2275A8",
-     "0.614 to under 0.724"
-    ],
-    [
-     "#1A5C92",
-     "0.724 to under 0.806"
-    ],
-    [
-     "#13447A",
-     "0.806 to under 0.877"
-    ],
-    [
-     "#0C2E5E",
-     "0.877 to 1"
-    ]
-   ],
-   "licence": "CC0"
-  },
-  {
-   "label": "Bio",
+   "label": "Biofuels Expansion",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/bio.pmtiles",
    "key": [
     [
@@ -562,10 +45,59 @@
      "0.737 to 1"
     ]
    ],
-   "licence": "CC0"
+   "licence": "CC0",
+   "file": "Bio"
   },
   {
-   "label": "CSP",
+   "label": "Coal Mining",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/coal.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.041 to under 0.206"
+    ],
+    [
+     "#C6E7F0",
+     "0.206 to under 0.247"
+    ],
+    [
+     "#9CD6E6",
+     "0.247 to under 0.257"
+    ],
+    [
+     "#6FC2DA",
+     "0.257 to under 0.289"
+    ],
+    [
+     "#46AACB",
+     "0.289 to under 0.352"
+    ],
+    [
+     "#2E8FBA",
+     "0.352 to under 0.423"
+    ],
+    [
+     "#2275A8",
+     "0.423 to under 0.501"
+    ],
+    [
+     "#1A5C92",
+     "0.501 to under 0.554"
+    ],
+    [
+     "#13447A",
+     "0.554 to under 0.603"
+    ],
+    [
+     "#0C2E5E",
+     "0.603 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "Coal"
+  },
+  {
+   "label": "Concentrated Solar Power (CSP)",
    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/csp.pmtiles",
    "key": [
     [
@@ -609,7 +141,974 @@
      "0.751 to 1"
     ]
    ],
-   "licence": "CC0"
+   "licence": "CC0",
+   "file": "CSP"
+  },
+  {
+   "label": "Conventional Gas",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/cg.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.081 to under 0.324"
+    ],
+    [
+     "#C6E7F0",
+     "0.324 to under 0.387"
+    ],
+    [
+     "#9CD6E6",
+     "0.387 to under 0.433"
+    ],
+    [
+     "#6FC2DA",
+     "0.433 to under 0.47"
+    ],
+    [
+     "#46AACB",
+     "0.47 to under 0.53"
+    ],
+    [
+     "#2E8FBA",
+     "0.53 to under 0.614"
+    ],
+    [
+     "#2275A8",
+     "0.614 to under 0.724"
+    ],
+    [
+     "#1A5C92",
+     "0.724 to under 0.806"
+    ],
+    [
+     "#13447A",
+     "0.806 to under 0.877"
+    ],
+    [
+     "#0C2E5E",
+     "0.877 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "CG"
+  },
+  {
+   "label": "Conventional Oil",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/co.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.02 to under 0.215"
+    ],
+    [
+     "#C6E7F0",
+     "0.215 to under 0.281"
+    ],
+    [
+     "#9CD6E6",
+     "0.281 to under 0.339"
+    ],
+    [
+     "#6FC2DA",
+     "0.339 to under 0.394"
+    ],
+    [
+     "#46AACB",
+     "0.394 to under 0.437"
+    ],
+    [
+     "#2E8FBA",
+     "0.437 to under 0.519"
+    ],
+    [
+     "#2275A8",
+     "0.519 to under 0.597"
+    ],
+    [
+     "#1A5C92",
+     "0.597 to under 0.668"
+    ],
+    [
+     "#13447A",
+     "0.668 to under 0.76"
+    ],
+    [
+     "#0C2E5E",
+     "0.76 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "CO"
+  },
+  {
+   "label": "Crop Expansion",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/crop.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.063 to under 0.407"
+    ],
+    [
+     "#C6E7F0",
+     "0.407 to under 0.457"
+    ],
+    [
+     "#9CD6E6",
+     "0.457 to under 0.523"
+    ],
+    [
+     "#6FC2DA",
+     "0.523 to under 0.595"
+    ],
+    [
+     "#46AACB",
+     "0.595 to under 0.661"
+    ],
+    [
+     "#2E8FBA",
+     "0.661 to under 0.718"
+    ],
+    [
+     "#2275A8",
+     "0.718 to under 0.769"
+    ],
+    [
+     "#1A5C92",
+     "0.769 to under 0.821"
+    ],
+    [
+     "#13447A",
+     "0.821 to under 0.884"
+    ],
+    [
+     "#0C2E5E",
+     "0.884 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "Crop"
+  },
+  {
+   "label": "Hydropower",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/hydro.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.014 to under 0.321"
+    ],
+    [
+     "#C6E7F0",
+     "0.321 to under 0.368"
+    ],
+    [
+     "#9CD6E6",
+     "0.368 to under 0.409"
+    ],
+    [
+     "#6FC2DA",
+     "0.409 to under 0.448"
+    ],
+    [
+     "#46AACB",
+     "0.448 to under 0.485"
+    ],
+    [
+     "#2E8FBA",
+     "0.485 to under 0.52"
+    ],
+    [
+     "#2275A8",
+     "0.52 to under 0.556"
+    ],
+    [
+     "#1A5C92",
+     "0.556 to under 0.601"
+    ],
+    [
+     "#13447A",
+     "0.601 to under 0.67"
+    ],
+    [
+     "#0C2E5E",
+     "0.67 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "Hydro"
+  },
+  {
+   "label": "Metallic Mining",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/mm.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "8.70e-05 to under 0.142"
+    ],
+    [
+     "#C6E7F0",
+     "0.142 to under 0.25"
+    ],
+    [
+     "#9CD6E6",
+     "0.25 to under 0.337"
+    ],
+    [
+     "#6FC2DA",
+     "0.337 to under 0.419"
+    ],
+    [
+     "#46AACB",
+     "0.419 to under 0.489"
+    ],
+    [
+     "#2E8FBA",
+     "0.489 to under 0.546"
+    ],
+    [
+     "#2275A8",
+     "0.546 to under 0.605"
+    ],
+    [
+     "#1A5C92",
+     "0.605 to under 0.675"
+    ],
+    [
+     "#13447A",
+     "0.675 to under 0.768"
+    ],
+    [
+     "#0C2E5E",
+     "0.768 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "MM"
+  },
+  {
+   "label": "Non-metallic Mining",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/nmm.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1.42e-03 to under 0.254"
+    ],
+    [
+     "#C6E7F0",
+     "0.254 to under 0.386"
+    ],
+    [
+     "#9CD6E6",
+     "0.386 to under 0.489"
+    ],
+    [
+     "#6FC2DA",
+     "0.489 to under 0.554"
+    ],
+    [
+     "#46AACB",
+     "0.554 to under 0.61"
+    ],
+    [
+     "#2E8FBA",
+     "0.61 to under 0.671"
+    ],
+    [
+     "#2275A8",
+     "0.671 to under 0.733"
+    ],
+    [
+     "#1A5C92",
+     "0.733 to under 0.794"
+    ],
+    [
+     "#13447A",
+     "0.794 to under 0.865"
+    ],
+    [
+     "#0C2E5E",
+     "0.865 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "NMM"
+  },
+  {
+   "label": "Photovoltaic Solar Power (PV)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/pv.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.01 to under 0.338"
+    ],
+    [
+     "#C6E7F0",
+     "0.338 to under 0.444"
+    ],
+    [
+     "#9CD6E6",
+     "0.444 to under 0.492"
+    ],
+    [
+     "#6FC2DA",
+     "0.492 to under 0.527"
+    ],
+    [
+     "#46AACB",
+     "0.527 to under 0.566"
+    ],
+    [
+     "#2E8FBA",
+     "0.566 to under 0.607"
+    ],
+    [
+     "#2275A8",
+     "0.607 to under 0.654"
+    ],
+    [
+     "#1A5C92",
+     "0.654 to under 0.704"
+    ],
+    [
+     "#13447A",
+     "0.704 to under 0.765"
+    ],
+    [
+     "#0C2E5E",
+     "0.765 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "PV"
+  },
+  {
+   "label": "Unconventional Gas",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/ug.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.161 to under 0.364"
+    ],
+    [
+     "#C6E7F0",
+     "0.364 to under 0.489"
+    ],
+    [
+     "#9CD6E6",
+     "0.489 to under 0.552"
+    ],
+    [
+     "#6FC2DA",
+     "0.552 to under 0.596"
+    ],
+    [
+     "#46AACB",
+     "0.596 to under 0.666"
+    ],
+    [
+     "#2E8FBA",
+     "0.666 to under 0.714"
+    ],
+    [
+     "#2275A8",
+     "0.714 to under 0.786"
+    ],
+    [
+     "#1A5C92",
+     "0.786 to under 0.828"
+    ],
+    [
+     "#13447A",
+     "0.828 to under 0.888"
+    ],
+    [
+     "#0C2E5E",
+     "0.888 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "UG"
+  },
+  {
+   "label": "Unconventional Oil",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/uo.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.168 to under 0.497"
+    ],
+    [
+     "#C6E7F0",
+     "0.497 to under 0.553"
+    ],
+    [
+     "#9CD6E6",
+     "0.553 to under 0.593"
+    ],
+    [
+     "#6FC2DA",
+     "0.593 to under 0.633"
+    ],
+    [
+     "#46AACB",
+     "0.633 to under 0.663"
+    ],
+    [
+     "#2E8FBA",
+     "0.663 to under 0.72"
+    ],
+    [
+     "#2275A8",
+     "0.72 to under 0.779"
+    ],
+    [
+     "#1A5C92",
+     "0.779 to under 0.83"
+    ],
+    [
+     "#13447A",
+     "0.83 to under 0.87"
+    ],
+    [
+     "#0C2E5E",
+     "0.87 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "UO"
+  },
+  {
+   "label": "Wind Power",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/wind.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.112 to under 0.353"
+    ],
+    [
+     "#C6E7F0",
+     "0.353 to under 0.415"
+    ],
+    [
+     "#9CD6E6",
+     "0.415 to under 0.478"
+    ],
+    [
+     "#6FC2DA",
+     "0.478 to under 0.553"
+    ],
+    [
+     "#46AACB",
+     "0.553 to under 0.632"
+    ],
+    [
+     "#2E8FBA",
+     "0.632 to under 0.693"
+    ],
+    [
+     "#2275A8",
+     "0.693 to under 0.739"
+    ],
+    [
+     "#1A5C92",
+     "0.739 to under 0.776"
+    ],
+    [
+     "#13447A",
+     "0.776 to under 0.819"
+    ],
+    [
+     "#0C2E5E",
+     "0.819 to 1"
+    ]
+   ],
+   "licence": "CC0",
+   "file": "Wind"
   }
- ]
+ ],
+ "dti": {
+  "choices": [
+   {
+    "label": "Agricultural expansion",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_agriculturalexpansion.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_agriculturalexpansion_geographic.tif"
+   },
+   {
+    "label": "Biofuels",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_biofuels.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_biofuels_geographic.tif"
+   },
+   {
+    "label": "Coal mining",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_coal.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_coal_geographic.tif"
+   },
+   {
+    "label": "Conventional oil and gas",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_conventionaloilandgas.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_conventionaloilandgas_geographic.tif"
+   },
+   {
+    "label": "Geogrpahic",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_geogrpahic.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_geogrpahic.tif"
+   },
+   {
+    "label": "Mining",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_mining.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_mining_geographic.tif"
+   },
+   {
+    "label": "Solar power",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_solar.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_solar_geographic.tif"
+   },
+   {
+    "label": "Unconventional oil and gas",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_unconventionaloilandgas.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_unconventionaloilandgas_geographic.tif"
+   },
+   {
+    "label": "Urban expansion",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_urbanexpansion.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_urbanexpansion_geographic.tif"
+   },
+   {
+    "label": "Wind power",
+    "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/devpotential/dti_wind.pmtiles",
+    "key": [
+     [
+      "#E4F3F8",
+      "0 to under 10"
+     ],
+     [
+      "#C6E7F0",
+      "10 to under 20"
+     ],
+     [
+      "#9CD6E6",
+      "20 to under 30"
+     ],
+     [
+      "#6FC2DA",
+      "30 to under 40"
+     ],
+     [
+      "#46AACB",
+      "40 to under 50"
+     ],
+     [
+      "#2E8FBA",
+      "50 to under 60"
+     ],
+     [
+      "#2275A8",
+      "60 to under 70"
+     ],
+     [
+      "#1A5C92",
+      "70 to under 80"
+     ],
+     [
+      "#13447A",
+      "80 to under 90"
+     ],
+     [
+      "#0C2E5E",
+      "90 to 100"
+     ]
+    ],
+    "file": "lulc-development-threat-index_wind_geographic.tif"
+   }
+  ],
+  "from": [
+   "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+   "lulc-development-threat-index-biofuels-geographic-geotiff.zip",
+   "lulc-development-threat-index-coal-geographic-geotiff.zip",
+   "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+   "lulc-development-threat-index-geographic-geotiff.zip",
+   "lulc-development-threat-index-mining-geographic-geotiff.zip",
+   "lulc-development-threat-index-solar-geographic-geotiff.zip",
+   "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff.zip",
+   "lulc-development-threat-index-urbanexpansion-geographic-geotiff.zip",
+   "lulc-development-threat-index-wind-geographic-geotiff.zip"
+  ]
+ }
 }
