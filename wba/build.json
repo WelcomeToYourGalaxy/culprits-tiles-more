@@ -1,0 +1,137 @@
+{
+ "built": true,
+ "source": "World Benchmarking Alliance, benchmarks (CC BY 4.0), data.worldbenchmarkingalliance.org",
+ "columns used": {
+  "benchmark": "benchmark_name",
+  "company id (benchmarks)": "company_id",
+  "company id (companies)": "company_id",
+  "year": "methodology_year",
+  "headquarters country": "company_location_hq_country_iso"
+ },
+ "benchmarks seen": [
+  "ACT Core",
+  "Corporate Human Rights Benchmark",
+  "Digital Inclusion Benchmark",
+  "Food and Agriculture Benchmark",
+  "Gender Assessment",
+  "Gender Benchmark",
+  "Just Transition",
+  "Nature Benchmark",
+  "Ocean Benchmark",
+  "Ranking Digital Rights Index",
+  "Social Benchmark",
+  "Urban Benchmark"
+ ],
+ "files": {
+  "ACT Core": {
+   "file": "wba/act_core.geojson",
+   "rows": 2000,
+   "companies": 2000,
+   "placed": 1999,
+   "not_placed": [
+    {
+     "company": "PalTel",
+     "headquarters": "PSE"
+    }
+   ]
+  },
+  "Corporate Human Rights Benchmark": {
+   "file": "wba/corporate_human_rights_benchmark.geojson",
+   "rows": 105,
+   "companies": 105,
+   "placed": 105,
+   "not_placed": []
+  },
+  "Digital Inclusion Benchmark": {
+   "file": "wba/digital_inclusion_benchmark.geojson",
+   "rows": 200,
+   "companies": 200,
+   "placed": 199,
+   "not_placed": [
+    {
+     "company": "PalTel",
+     "headquarters": "PSE"
+    }
+   ]
+  },
+  "Food and Agriculture Benchmark": {
+   "file": "wba/food_and_agriculture_benchmark.geojson",
+   "rows": 350,
+   "companies": 350,
+   "placed": 350,
+   "not_placed": []
+  },
+  "Gender Assessment": {
+   "file": "wba/gender_assessment.geojson",
+   "rows": 2000,
+   "companies": 2000,
+   "placed": 1999,
+   "not_placed": [
+    {
+     "company": "PalTel",
+     "headquarters": "PSE"
+    }
+   ]
+  },
+  "Gender Benchmark": {
+   "file": "wba/gender_benchmark.geojson",
+   "rows": 105,
+   "companies": 105,
+   "placed": 105,
+   "not_placed": []
+  },
+  "Just Transition": {
+   "file": "wba/just_transition.geojson",
+   "rows": 2000,
+   "companies": 2000,
+   "placed": 1999,
+   "not_placed": [
+    {
+     "company": "PalTel",
+     "headquarters": "PSE"
+    }
+   ]
+  },
+  "Nature Benchmark": {
+   "file": "wba/nature_companies.geojson",
+   "rows": 750,
+   "companies": 750,
+   "placed": 750,
+   "not_placed": []
+  },
+  "Ocean Benchmark": {
+   "file": "wba/ocean_benchmark.geojson",
+   "rows": 125,
+   "companies": 125,
+   "placed": 125,
+   "not_placed": []
+  },
+  "Ranking Digital Rights Index": {
+   "file": "wba/ranking_digital_rights_index.geojson",
+   "rows": 26,
+   "companies": 26,
+   "placed": 26,
+   "not_placed": []
+  },
+  "Social Benchmark": {
+   "file": "wba/social_benchmark.geojson",
+   "rows": 2000,
+   "companies": 2000,
+   "placed": 1999,
+   "not_placed": [
+    {
+     "company": "PalTel",
+     "headquarters": "PSE"
+    }
+   ]
+  }
+ },
+ "nature_rows": 750,
+ "companies": 750,
+ "placed": 750,
+ "not_placed": [],
+ "benchmark_rows": 9961,
+ "left_out": [
+  "urban benchmark"
+ ]
+}

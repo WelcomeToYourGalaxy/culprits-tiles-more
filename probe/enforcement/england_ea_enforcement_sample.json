@@ -1,0 +1,89 @@
+{
+ "url": "https://environment.data.gov.uk/public-register/downloads/enforcement-action",
+ "tables": [
+  {
+   "file": "enforcement-action.csv",
+   "separator": ",",
+   "rows": 8288,
+   "columns": [
+    "Action Number",
+    "Offender",
+    "Address",
+    "Action Date",
+    "Relevant Legislation",
+    "Action Type",
+    "Agency Function"
+   ],
+   "first_rows": [
+    [
+     "5316",
+     "YORK RECYCLING (PROCESSING) LIMITED",
+     "ALNE MATERIAL RECYCLING FACILITY, FOREST LANE, ALNE, EASINGWOLD, NORTH YORKSHIRE, YO61 2LU",
+     "2010-05-21",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10001368",
+     "SWEETING OF LEEDS LTD",
+     "",
+     "2016-05-03",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1439",
+     "ST. JAMES HAULAGE LIMITED",
+     "UNIT 7 SHEPPEY PLANT ESTATE, RUSHENDEN ROAD, QUEENBOROUGH, KENT, ME11 5HL",
+     "2002-07-22",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6235",
+     "BARBAR ELEPHANTS LIMITED",
+     "162 GATHURST LANE, GATHURST, WIGAN, GREATER MANCHESTER, WN6 8HZ",
+     "2012-03-15",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2980",
+     "PROACTIVE WASTE SOLUTIONS LIMITED",
+     "UNIT 15A CANNOCK INDUSTRIAL ESTATE, WALKMILL LANE, BRIDGTOWN, CANNOCK, STAFFORDSHIRE, WS11 3LN",
+     "2006-05-22",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "file": "PRO-enforcement-actions-licence-information.txt",
+   "separator": ",",
+   "rows": 8,
+   "columns": [
+    "This data is available under the Open Government Licence. "
+   ],
+   "first_rows": [
+    [],
+    [
+     "You MUST first check the supporting information provided through links below to determine if the conditions on use are suitable for your purposes.  If they aren’t",
+     " this information is not provided with a licence for use",
+     " and the data is provided for read right only. "
+    ],
+    [],
+    [
+     "The Open Government Licence: "
+    ],
+    [
+     "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "OFIB"
+ ],
+ "hectares": 2707672.75,
+ "to_zoom": 5,
+ "squares": 211,
+ "bytes": 404847,
+ "how": "max"
+}

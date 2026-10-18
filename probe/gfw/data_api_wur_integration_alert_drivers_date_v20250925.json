@@ -1,0 +1,20 @@
+{
+ "data": {
+  "created_on": "2025-09-19T16:01:23.605342",
+  "updated_on": "2025-09-19T16:31:54.623882",
+  "dataset": "wur_integration_alert_drivers_date",
+  "version": "v20250925",
+  "is_latest": false,
+  "is_mutable": false,
+  "metadata": {},
+  "status": "saved",
+  "assets": [
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/wur_integration_alert_drivers_date/v20250925/raster/epsg-4326/10/100000/date/geotiff/{tile_id}.tif",
+    "2b93c793-2c40-4129-961a-25abb7d99f49"
+   ]
+  ]
+ },
+ "status": "success"
+}

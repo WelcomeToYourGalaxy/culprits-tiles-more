@@ -1,0 +1,41 @@
+{
+ "read": "2026-10-18",
+ "platforms": 5682,
+ "kinds": {
+  "gas": 130,
+  "oil": 1124,
+  "not stated": 3351,
+  "oil and gas": 1043,
+  "wind": 34
+ },
+ "slices_not_answered": [
+  {
+   "slice": "-90,90,-60,120",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "slice": "0,-90,30,-60",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "slice": "30,-60,60,-30",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "slice": "30,-30,60,0",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "slice": "30,150,60,180",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "slice": "60,-180,90,-150",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "slice": "60,-120,90,-90",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  }
+ ]
+}

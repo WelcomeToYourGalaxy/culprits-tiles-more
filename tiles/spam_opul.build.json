@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "OPUL"
+ ],
+ "hectares": 15924497.0,
+ "to_zoom": 5,
+ "squares": 281,
+ "bytes": 632213,
+ "how": "max"
+}

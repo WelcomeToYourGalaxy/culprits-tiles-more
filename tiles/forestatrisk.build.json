@@ -1,0 +1,126 @@
+{
+ "source": [
+  "https://forestatrisk.cirad.fr/tropics/tif/prob_2020_AME_aea.tif",
+  "https://forestatrisk.cirad.fr/tropics/tif/prob_2020_AFR_aea.tif",
+  "https://forestatrisk.cirad.fr/tropics/tif/prob_2020_ASI_aea.tif"
+ ],
+ "page": "https://forestatrisk.cirad.fr/rasters.html",
+ "citation": "Vieilledent G., Vancutsem C., Bourgoin C., Ploton P., Verley P., Achard F. (2023). Spatial scenario of tropical deforestation and carbon emissions for the 21st century. bioRxiv. doi:10.1101/2022.03.22.485306",
+ "rights": "Copyright 2021 Cirad, EC JRC, all rights reserved; shown with Cirad's permission (29 September 2026) for non-commercial educational use",
+ "values": "1 + probability x 65534 (forestatrisk package); 0 = no forest or no data",
+ "classes": [
+  {
+   "value": 1,
+   "colour": "#E4F3F8",
+   "name": "0 to 10% chance of being cleared"
+  },
+  {
+   "value": 2,
+   "colour": "#C6E7F0",
+   "name": "10 to 20% chance of being cleared"
+  },
+  {
+   "value": 3,
+   "colour": "#9CD6E6",
+   "name": "20 to 30% chance of being cleared"
+  },
+  {
+   "value": 4,
+   "colour": "#6FC2DA",
+   "name": "30 to 40% chance of being cleared"
+  },
+  {
+   "value": 5,
+   "colour": "#46AACB",
+   "name": "40 to 50% chance of being cleared"
+  },
+  {
+   "value": 6,
+   "colour": "#2E8FBA",
+   "name": "50 to 60% chance of being cleared"
+  },
+  {
+   "value": 7,
+   "colour": "#2275A8",
+   "name": "60 to 70% chance of being cleared"
+  },
+  {
+   "value": 8,
+   "colour": "#1A5C92",
+   "name": "70 to 80% chance of being cleared"
+  },
+  {
+   "value": 9,
+   "colour": "#13447A",
+   "name": "80 to 90% chance of being cleared"
+  },
+  {
+   "value": 10,
+   "colour": "#0C2E5E",
+   "name": "90 to 100% chance of being cleared"
+  }
+ ],
+ "max_zoom": 9,
+ "metres_per_pixel_at_equator": 306,
+ "profiles": {
+  "AME": {
+   "width": 354827,
+   "height": 211903,
+   "dtype": "uint16",
+   "nodata": 0.0,
+   "crs": "ESRI:102033",
+   "overviews": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  "AFR": {
+   "width": 280148,
+   "height": 163042,
+   "dtype": "uint16",
+   "nodata": 0.0,
+   "crs": "ESRI:102022",
+   "overviews": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  "ASI": {
+   "width": 384405,
+   "height": 213564,
+   "dtype": "uint16",
+   "nodata": 0.0,
+   "crs": "ESRI:102028",
+   "overviews": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  }
+ },
+ "pixels_by_step_at_max_zoom": {
+  "0 to 10% chance of being cleared": 65206296,
+  "10 to 20% chance of being cleared": 10104385,
+  "20 to 30% chance of being cleared": 7408814,
+  "30 to 40% chance of being cleared": 6360512,
+  "40 to 50% chance of being cleared": 5946348,
+  "50 to 60% chance of being cleared": 5817935,
+  "60 to 70% chance of being cleared": 5830337,
+  "70 to 80% chance of being cleared": 5871033,
+  "80 to 90% chance of being cleared": 5804722,
+  "90 to 100% chance of being cleared": 3523728
+ },
+ "squares": 9499,
+ "seconds": 414
+}

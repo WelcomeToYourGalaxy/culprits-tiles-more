@@ -1,0 +1,124 @@
+{
+ "choices": [
+  {
+   "label": "1750, past",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_ph_historical_1750.pmtiles",
+   "key": [
+    [
+     "#6E2A38",
+     "under 7.9 (most acid)"
+    ],
+    [
+     "#A0525A",
+     "7.9 to 7.95"
+    ],
+    [
+     "#C08A8A",
+     "7.95 to 8.0"
+    ],
+    [
+     "#6FC2DA",
+     "8.0 to 8.05"
+    ],
+    [
+     "#2E8FBA",
+     "8.05 to 8.1"
+    ],
+    [
+     "#0C2E5E",
+     "8.1 or more (least acid)"
+    ]
+   ]
+  },
+  {
+   "label": "2010, past",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_ph_historical_2010.pmtiles",
+   "key": [
+    [
+     "#6E2A38",
+     "under 7.9 (most acid)"
+    ],
+    [
+     "#A0525A",
+     "7.9 to 7.95"
+    ],
+    [
+     "#C08A8A",
+     "7.95 to 8.0"
+    ],
+    [
+     "#6FC2DA",
+     "8.0 to 8.05"
+    ],
+    [
+     "#2E8FBA",
+     "8.05 to 8.1"
+    ],
+    [
+     "#0C2E5E",
+     "8.1 or more (least acid)"
+    ]
+   ]
+  },
+  {
+   "label": "2100, SSP2-4.5, middle of the road",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_ph_ssp245_2100.pmtiles",
+   "key": [
+    [
+     "#6E2A38",
+     "under 7.9 (most acid)"
+    ],
+    [
+     "#A0525A",
+     "7.9 to 7.95"
+    ],
+    [
+     "#C08A8A",
+     "7.95 to 8.0"
+    ],
+    [
+     "#6FC2DA",
+     "8.0 to 8.05"
+    ],
+    [
+     "#2E8FBA",
+     "8.05 to 8.1"
+    ],
+    [
+     "#0C2E5E",
+     "8.1 or more (least acid)"
+    ]
+   ]
+  },
+  {
+   "label": "2100, SSP5-8.5, very high emissions",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_ph_ssp585_2100.pmtiles",
+   "key": [
+    [
+     "#6E2A38",
+     "under 7.9 (most acid)"
+    ],
+    [
+     "#A0525A",
+     "7.9 to 7.95"
+    ],
+    [
+     "#C08A8A",
+     "7.95 to 8.0"
+    ],
+    [
+     "#6FC2DA",
+     "8.0 to 8.05"
+    ],
+    [
+     "#2E8FBA",
+     "8.05 to 8.1"
+    ],
+    [
+     "#0C2E5E",
+     "8.1 or more (least acid)"
+    ]
+   ]
+  }
+ ]
+}

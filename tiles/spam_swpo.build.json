@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "SWPO"
+ ],
+ "hectares": 6374178.0,
+ "to_zoom": 5,
+ "squares": 208,
+ "bytes": 458072,
+ "how": "max"
+}

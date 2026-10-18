@@ -1,0 +1,744 @@
+{
+"Unipar Carbocloro - Bahia Blanca Unipar Indupa Bahia Blanca Buenos Aires Argentina": [
+-62.265487,
+-38.717652
+],
+"Braskem - Maceió / Alagoas Braskem Av. Assis Chateaubriand, 5260 - Pontal da Barra, Maceió - AL, 57010-500, Brazil Maceió Alagoas Brazil": null,
+"Braskem - Camaçari Petrochemical Braskem R. Oxigênio, 765 - Polo Petroquímico, Camaçari - BA, 42810-270, Brazil Camaçari Bahia Brazil": null,
+"Unipar Carbocloro - Cubatão Unipar Carbocloro Rod. Cônego Domênico Rangoni, km 267,7, S/N, Perequê Cubatão São Paulo Brazil": [
+-46.421306,
+-23.884208
+],
+"Santo André Unipar Carbocloro KM 38 EFSJ Vila Elclor - Paranapiacaba, Santo André - SP, Brazil Santo André São Paulo Brazil": [
+-46.531757,
+-23.660084
+],
+"Dow - Aratu Dow Chemical Dow Brasil - Aratu Site - Via Matoim, s/n - Distrito Industrial, Candeias - BA, 43813-000, Brazil Candeias Bahia Brazil": null,
+"Chemtrade - North Vancouver Chemtrade 100 Amhurst Ave. North Vancouver British Columbia Canada": [
+-123.113952,
+49.260872
+],
+"Westlake - Beauharnois Westlake 31 Rue de l'Industrie Beauharnois Quebec Canada": [
+-73.89496,
+45.311928
+],
+"Olin - Bécancour Olin 675 Bd Alphonse-Deshaies Bécancour Quebec Canada": [
+-72.291313,
+46.233095
+],
+"Mexichem - PMV Plant Chloro-Sosa Mexichem Complejo Industrial Pajaritos, Calle 1 s/n Coatzacoalcos Veracruz Mexico": [
+-94.544113,
+18.154106
+],
+"Cydsa - IQUISA Coatzacoalcos Cydsa Allende Veracruz Mexico": null,
+"Cydsa - IQUISA Santa Clara Cydsa Pto. Juárez 21, Jardines de Casa Nueva Ecatepec de Morelos Estado de México Mexico": [
+-99.689972,
+19.483945
+],
+"Mexichem - El Salto Mexichem El Salto Jalisco Mexico": [
+-103.181314,
+20.519696
+],
+"Quimpac - Oquendo-Callao Quimpac Av. Néstor Gambeta, 8585 Callao Callao Peru": [
+-77.139113,
+-12.052263
+],
+"Quimpac - Paramonga Quimpac Carlos Garcia Gastañeta Paramonga Lima Peru": [
+-77.827375,
+-10.674533
+],
+"Pequiven - El Tablazo Pequiven Complejo Petroquímico Ana María Campos Los Puertos de Altagracia Zulia Venezuela": [
+-71.527305,
+10.669338
+],
+"ASHTA - Ashtabula ASHTA Middle Road Ashtabula Ohio USA": [
+-80.793054,
+41.865315
+],
+"Covestro - Baytown Covestro 8500 W Bay Rd Baytown Texas USA": [
+-95.017093,
+29.784584
+],
+"Formosa Plastics - Point Comfort Formosa 301 Formosa Drive Point Comfort Texas USA": [
+-96.560254,
+28.679717
+],
+"OxyChem - Niagara Falls Occidental 4700 Buffalo Ave. Niagara Falls New York USA": [
+-78.994052,
+43.089234
+],
+"OxyChem - Deer Park Occidental 1000 Tidal Road Deer Park Texas USA": [
+-95.12382,
+29.705228
+],
+"OxyVinyls Battleground (LaPorte) Occidental 2400 Miller Cut Off Rd La Porte TX USA": [
+-95.019373,
+29.665784
+],
+"OxyChem - Ingleside Occidental 4133 Hwy 361 Gregory TX USA": [
+-97.329061,
+32.533528
+],
+"OxyChem - Geismar Occidental 8318 Ashland Rd. Geismar LA USA": [
+-91.031334,
+30.208505
+],
+"OxyChem - Convent Occidental 7377 LA-3214 Convent LA USA": [
+-90.84065,
+30.024646
+],
+"OxyChem - Taft (Hahnville) Occidental 266 LA-3142 Hahnville/Taft LA USA": null,
+"OxyChem - Wichita Occidental 6200 S Ridge Road Wichita KS USA": [
+-97.242818,
+37.66208
+],
+"OxyChem - New Johnsonville Occidental 1900 DuPont Road New Johnsonville TN USA": [
+-87.966977,
+36.021172
+],
+"Olin - Charleston Olin 1186 Old Lower River Rd NW Charleston TN USA": [
+-84.815735,
+35.232561
+],
+"Olin - McIntosh Olin 1638 Industrial Road McIntosh AL USA": [
+-88.034175,
+31.261367
+],
+"Olin - Niagara Falls Olin 2400 Buffalo Road Niagara Falls NY USA": [
+-79.070179,
+43.084841
+],
+"Olin - Freeport Olin Freeport TX USA": null,
+"Olin - St. Gabriel Olin St. Gabriel LA USA": [
+-85.60099,
+38.169364
+],
+"Olin - Plaquemine Olin Plaquemine LA USA": null,
+"Shintech - Plaquemine Shin-Etsu Plaquemine LA USA": null,
+"Westlake - Plaquemine Westlake Plaquemine LA USA": [
+-91.187151,
+30.262
+],
+"Westlake - Geismar Westlake Geismar LA USA": [
+-91.008215,
+30.212947
+],
+"Westlake - Lake Charles Westlake Lake Charles / Westlake LA USA": [
+-147.74237,
+64.79719
+],
+"Westlake - Calvert City Westlake Calvert City KY USA": [
+-88.350036,
+37.03339
+],
+"Axiall Westlake Proctor WV USA": null,
+"Cydsa - Iquisa Noreste Cydsa Garcia Monterrey Mexico": null,
+"Misr Chemical Alexandria Egypt": null,
+"Egyptian Petrochemical Alexandria Egypt": null,
+"TCI Sanmar - Port Said Egypt": [
+32.305505,
+31.263235
+],
+"SNEP Mohemmedia Morocco": null,
+"Sasol - Midland Midland Sasolburg South Africa": null,
+"Rue Solvay 39, 5190 Jemeppe-sur-Sambre, Belgium Jemeppe-sur-Sambre Belgium": null,
+"Scheldelaan 480, 2040 Antwerpen, Belgium Port of Antwerp (Zandvliet and Lillo) Belgium": null,
+"Heilig Hartlaan 21, 3980 Tessenderlo, Belgium Tessenderlo Belgium": [
+5.100519,
+51.065542
+],
+"INDISTRIEPARK, Brüningstraße 50, 65929 Frankfurt am Main, Germany Frankfurt Germany": [
+8.600043,
+50.123521
+],
+"Hauptstraße 47, 49479 Ibbenbüren, Germany Ibbenbüren Germany": null,
+"Carl-Bosch-Straße 38, 67063 Ludwigshafen am Rhein, Germany Ludwigshaven Germany": null,
+"Fährstraße 51, 25541 Brunsbüttel, Germany Brunsbüttel Germany": null,
+"An der Römerziegelei, 50769 Köln, Germany Dormagen Germany": null,
+"Friedrich-Ebert-Straße, 51373 Leverkusen, Germany Leverkusen Germany": null,
+"Rheinuferstraße 7, 47829 Krefeld, Germany Uerdingen-Krefeld Germany": null,
+"Ladenstraße 1, 06258 Schkopau, Germany Schkopau Germany": null,
+"Bützflether Sand 9, 21683 Stade, Germany Stade Germany": null,
+"Feldmühlestraße 3, 53859 Niederkassel, Germany Lülsdorf Germany": null,
+"Ludwigstraße 12, 47495 Rheinberg, Germany Rheinberg Germany": null,
+"Paul-Baumann-Straße 1, 45772 Marl, Germany Marl Germany": null,
+"Industrieparkstraße 1 84508 Burgkirchen Gendorf Germany": [
+12.719088,
+48.177329
+],
+"Industriestrasse 300 50354 Hürth-Knapsack Hürth-Knapsack Germany": [
+6.849401,
+50.856877
+],
+"54, Carrer Autovia de Salou, 50, 43480 Tarragona, Spain Vila-seca Spain": null,
+"2 Avenue de la République, 39500 Tavaux, France Tavaux France": [
+5.412657,
+47.040479
+],
+"Usine de Fos-sur-Mer, Carrefour du Caban, D268, 13270 Fos-sur-Mer, France Fos-sur-Mer France": [
+4.925994,
+43.445861
+],
+"13117 Martigues, France Lavéra France": [
+5.021656,
+43.387772
+],
+"Rue Lavoisier, 38800 Le Pont-de-Claix, France Le Pont-de-Claix France": [
+5.701294,
+45.133974
+],
+"Kazincbarcika, Bolyai tér 1, 3700 Hungary Kazincbarcika Hungary": [
+20.594335,
+48.228901
+],
+"Via Piave, 6, 57016 Rosignano Solvay-Castiglioncello LI, Italy Rosignano Solvay Italy": null,
+"Welplaatweg 12, 3197 KS Botlek Rotterdam, Netherlands Botlek-Rotterdam Netherlands": [
+4.278345,
+51.874799
+],
+"Oosterhorn 4, 9936 HD Farmsum, Netherlands Delfzijl Netherlands": [
+6.912635,
+53.320024
+],
+"3962, Herreveien 801, 3965 Stathelle, Norway Stathelle Norway": null,
+"Henryka Sienkiewicza 4, 56-120 Brzeg Dolny, Poland Brzeg Dolny Poland": [
+16.729733,
+51.279864
+],
+"Toruńska 222, 87-800 Włocławek, Poland Wloclawek Poland": null,
+"Platforma Chimică Râureni, Strada Industriilor Râureni Râmnicu Vâlcea Romania": [
+24.330035,
+45.060855
+],
+"Ulitsa Svyazi, Novomoskovsk, Tulskaya oblast', Russia, 301660 Novomoskovsk Russia": null,
+"607650, Нижегородская область, Кстово, Промзона, Russia, 607650 Kstovo Russia": null,
+"Tekhnicheskaya Ulitsa, 32, Sterlitamak, Respublika Bashkortostan, Russia, 453110 Steritamak Russia": null,
+"Ulitsa 40 Let Vlksm, 57, Volgograd, Volgogradskaya oblast', Russia, 400097 Volgograd Russia": [
+44.513611,
+48.697544
+],
+"Промзона, а/я 17, Саянск, Irkutskaya oblast', Russia, 666301 Sayansk city Russia": null,
+"Inovyn Sverige, 444 31 Stenungsund, Sweden Stenungsund Sweden": null,
+"South Parade, Runcorn, Cheshire WA7 4JE, UK Runcorn United Kingdom": [
+-2.717855,
+53.342724
+],
+"вулиця Промислова, 4, Kalush, Ivano-Frankivs'ka oblast, Ukraine, 77300 Kalush City Ukraine": null,
+"Shin-Etsu - Botlek Shin-Etsu Welplaatweg 12, 3197 KS Botlek Rotterdam, Netherlands Botlek-Rotterdam Netherlands": [
+4.314447,
+51.88586
+],
+"Inovyn - Jemeppe-sur-Sambre Ineos Rue Solvay 39, 5190 Jemeppe-sur-Sambre, Belgium Jemeppe-sur-Sambre Belgium": null,
+"Shin-Etsu - Pernis Shin-Etsu Vondelingenweg 601 3196 KK Rotterdam Havennummer: 3150 Poort 7 Pernis Netherlands": [
+4.350359,
+51.888506
+],
+"Inovyn - Newton-Aycliffe Ineos School Aycliffe Ln, Newton Aycliffe DL5 6EA, UK Newton-Aycliffe United Kingdom": [
+-1.56932,
+54.588591
+],
+"Vestolit - Marl Mexichem Paul-Baumann-Straße 1, 45772 Marl, Germany Marl North Rhine-Westphalia Germany": [
+7.082905,
+51.648584
+],
+"BorsodChem Wanhua Industrial Group Kazincbarcika, Bolyai tér 1, 3700 Hungary Kazincbarcika Borsod-Abaúj-Zemplén Hungary": null,
+"Vynova Wilhelmshaven International Chemical Investors Group 25, Inhausersieler Str., 26388 Wilhelmshaven, Germany Wilhelmshaven Netherlands": null,
+"RusVinyl - Kstovo Sibur and Solvay (JV) 607650, Нижегородская область, Кстово, Промзона, Russia, 607650 Kstovo Nizhny Novgorod Oblast Russia": [
+44.091159,
+55.471803
+],
+"Inovyn - Rheinberg Ineos Ludwigstraße 12, 47495 Rheinberg, Germany Rheinberg North Rhine-Westphalia Germany": [
+6.60141,
+51.545898
+],
+"Kem One Balan (Ain) Kem One Usine de Balan, 258 Route de Saint-Maurice de Gourdans, 01360 Balan, France Balan France": [
+5.099935,
+45.844318
+],
+"UCB - Usine Chimique de Berre Kem One Lyondellbasell Services France Chemin départemental 54 - BP 14 13131 Berre l’Etang Berre-L'Etang France": [
+5.175973,
+43.48026
+],
+"Inovyn - Tavaux Ineos 2 Avenue de la République, 39500 Tavaux, France Tavaux France": [
+5.413035,
+47.04263
+],
+"Vynova - Mazingarbe International Chemical Investors Group Chemin des Soldats, 62670 Mazingarbe, France Mazingarbe France": [
+2.701191,
+50.460647
+],
+"TCI Sanmar - Port Said Sanmar Holdings Port Said Egypt": null,
+"International Chemical Investors Group 1, RA, Koolwaterstofstraat, 6167 AC Geleen, Netherlands Beek Geleen Netherlands": null,
+"Westlake (Vinnolit) Wacker - Burghausen Westlake Johannes-Hess-Straße 24, 84489 Burghausen, Germany Burghausen Germany": null,
+"Kem One Etablissement de Saint Fons Kem One 1 Quai Louis Aulagne, CS 70035, 69190 Saint-Fons, France Saint-Fons France": [
+4.852366,
+45.705636
+],
+"Companhia Industrial de Resinas Sintéticas, CIRES, Lda Shin-Etsu Rua da CIRES, nº 8, 3860-160 Avanca, Portugal Estarreja Portugal": null,
+"Inovyn - Herøya Ineos 3962, Herreveien 801, 3965 Stathelle, Norway Porsgrunn Norway": null,
+"Vinnolit - Hürth-Knapsack Westlake Industriestrasse 300 50354 Hürth-Knapsack Hürth-Knapsack North Rhine-Westphalia Germany": [
+6.864518,
+50.868661
+],
+"JSC Bashkirskaya Khimiya Tekhnicheskaya Ulitsa, 32, Sterlitamak, Respublika Bashkortostan, Russia, 453110 Steritamak Bashkortostan Russia": null,
+"Westlake Emdener Str. 117, 50769 Köln, Germany Köln-Merkenich Germany": null,
+"Vinnolit - Gendorf Westlake Industrieparkstraße 1 84508 Burgkirchen Gendorf Burgkirchen an der Alz Germany": [
+12.730785,
+48.167688
+],
+"Spolana - Neratovice Spolana Práce 657, 277 11 Mělník, Czechia Neratovice Czech Republic": null,
+"Ercros - Vila-seca Ercros Industria 54, Carrer Autovia de Salou, 50, 43480 Tarragona, Spain Vila-seca Tarragona Spain": [
+1.152973,
+41.116886
+],
+"Sasol - Midland Sasol Midland South Africa": null,
+"Nikochem ул. 40 лет ВЛКСМ, 57, Волгоград, Волгоградская обл., 400080 Volgograd Russia": [
+44.501285,
+48.712547
+],
+"Egyptian Petrochemicals Company Egypt Alexandria , Amryia ,36 Km Alex-Cairo Desert Road، Al Noubarya-Naga Al Hawes, Qetaa an Nahdah, Qesm Al Amereyah Alexandria Egypt": null,
+"Vinnolit Schkopau Westlake Gebäude Q161, L171, 06258 Schkopau, Germany Schkopau Germany": null,
+"Kem One - Saint Auban Kem One Usine de Saint-Auban Château-Arnoux, 04600 Saint-Auban, France Chateau-Arnoux-Saint-Auban France": [
+5.992731,
+44.070845
+],
+"Ynna Holding Mohammedia Morocco": null,
+"Kem One Hernani, S.L.U. Kem One Calle Valle Epela, 26, 20128 Epela, SS, Spain Hernani Spain": null,
+"Khimprom Promyslovaya Ulitsa, 23, Volgograd, Volgogradskaya oblast', Russia, 400057 Volgograd Russia": [
+44.513611,
+48.697544
+],
+"Unipar Carbocloro Bahia Blanca Buenos Aires Province Argentina": [
+-58.524818,
+-34.512152
+],
+"Braskem Av. Assis Chateaubriand, 5260 - Pontal da Barra, Maceió - AL, 57010-500, Brazil Maceió Alagoas Brazil": null,
+"Unipar Unipar Carbocloro Rod. Cônego Domênico Rangoni, km 267,7, S/N, Perequê Santo André São Paulo Brazil": [
+-46.531757,
+-23.660084
+],
+"Formosa 301 Formosa Drive Point Comfort Texas USA": [
+-96.560254,
+28.679717
+],
+"Occidental 1000 Tidal Road Deer Park Texas USA": [
+-95.12382,
+29.705228
+],
+"Shin-Etsu 26270 LA-405, Plaquemine, LA 70764 Plaquemine Louisiana USA": [
+-91.245748,
+30.268672
+],
+"Westlake 26100 LA-405, Plaquemine, LA 70764 Plaquemine Louisiana USA": [
+-91.245748,
+30.268672
+],
+"Westlake 36045 E Hwy 30, Geismar, LA 70734 Geismar Louisiana USA": null,
+"Westlake 2468 Industrial Pkwy, Calvert City, KY 42029 Calvert City Kentucky USA": [
+-88.350036,
+37.03339
+],
+"Pequiven Complejo Petroquímico Ana María Campos Maracaibo Venezuela": [
+-71.641805,
+10.669792
+],
+"Formosa Gulf States Road, Baton Rouge, LA 70801 Baton Rouge Louisiana USA": [
+-91.186966,
+30.449416
+],
+"Formosa 780 School House Rd, New Castle, DE 19720 Delaware City Delaware USA": [
+-75.588815,
+39.57789
+],
+"Occidental 4700 Buffalo Ave. Niagara Falls Ontario Canada": [
+-79.063438,
+43.108822
+],
+"Mexichem 1598 County Rd 1450 N, Henry, IL 61537 Henry Illinois USA": [
+-89.356478,
+41.111425
+],
+"Occidental 4403 Pasadena Fwy, Pasadena, TX 77503 Pasadena Texas USA": [
+-95.163851,
+29.677436
+],
+"Mexichem Mexichem 76 Porcupine Rd, Pedricktown, NJ 08067 Pedricktown New Jersey USA": [
+-75.412435,
+39.766951
+],
+"Mexichem Altamira, Tamaulipas, Mexico Altamira Tampico Mexico": [
+-97.862572,
+22.335644
+],
+"Mexichem Mexichem Resinas Colombia S.A.S., Cartagena Province, Bolivar, Colombia Cartagena Bolivar Region Colombia": null,
+"OxyChem Occidental 40 E Mill St, Pedricktown NJ 08067 Pedricktown NJ, 08067 Pedricktown New Jersey USA": [
+-75.412435,
+39.766951
+],
+"Shin-Etsu 5618 TX-332, Freeport, TX 77541 Freeport Texas USA": [
+-95.346143,
+28.949678
+],
+"Shin-Etsu 9750 La Highway 1 S, Addis, LA 70710 Addis Louisiana USA": [
+-91.262726,
+30.358059
+],
+"Westlake 715 MS-25, Aberdeen, MS 39730 Aberdeen Mississippi USA": [
+-88.543655,
+33.825114
+],
+"Certainteed 3300 Pete Manena Rd, Westlake, LA 70669 Lake Charles Louisiana USA": [
+-93.216981,
+30.23051
+],
+"Ineos Stenungsund Sweden": null,
+"Xedrian Holding Xedrian Holding Kalush City Ukraine": null,
+"Luqiaozhen, Dingyuan, Chuzhou Anhui China": [
+117.682299,
+32.461795
+],
+"唐山三友化工股份有限公司, NanPu Development Zone, Tangshan Hebei China": [
+118.200151,
+39.246932
+],
+"HaoHua Chemical, Ang'angxi Industrial Park Heilongjiang China": [
+124.490293,
+46.832724
+],
+", Xinyang Henan China": [
+114.853333,
+32.075
+],
+"Alxa Left Banner Inner Mongolia China": [
+105.304236,
+39.554074
+],
+"Baotou Inner Mongolia China": [
+109.944912,
+40.617478
+],
+"Erdos City Inner Mongolia China": [
+108.813428,
+39.460295
+],
+"Inner Mongolia Yidong Group Dongxing Chemical, Ulan Oab Inner Mongolia China": null,
+"Wuhai City Inner Mongolia China": [
+106.900469,
+39.485784
+],
+"No.1, Shugang Road, Taixing Economic Development Zone Jiangsu China": [
+118.800115,
+32.307303
+],
+"Taizhou Jiangsu China": [
+119.918117,
+32.457973
+],
+"Huludao Liaoning China": [
+120.831572,
+40.709423
+],
+"Wuzhong City Ningxia China": [
+106.515192,
+37.492298
+],
+"Shenmu County Shaanxi China": null,
+"Dezhou City Shandong China": [
+117.210698,
+37.725953
+],
+"Tancheng Shandong China": [
+118.361505,
+34.614817
+],
+"Zibo Shandong China": [
+118.04884,
+36.812956
+],
+"Liaocheng Shandong China": [
+115.964201,
+36.444181
+],
+"Caojing Shanghai China": [
+121.406182,
+30.796328
+],
+"Deyang City Sichuan China": [
+104.281532,
+30.981817
+],
+"Yibin Sichuan China": [
+104.718661,
+28.58689
+],
+"Tanggu Tianjin China": [
+117.634889,
+39.02643
+],
+"Shihezi Xinjiang China": [
+86.077557,
+44.301701
+],
+"Toksun County Xinjiang China": [
+88.448316,
+42.427899
+],
+"Urumqi Xinjiang China": [
+87.613904,
+43.824407
+],
+"Ningbo Zhejiang China": [
+121.549964,
+29.87196
+],
+"Vilayat Gujarat India": null,
+"Nagda Madhya Pradesh India": [
+75.419111,
+23.457896
+],
+"Renukoot Uttar Pradesh India": [
+83.040035,
+24.203231
+],
+"Kota Rajasthan India": [
+75.857419,
+25.173702
+],
+"Jhagadia, Bharuch District Gujarat India": [
+73.149703,
+21.71572
+],
+"Dahej, Bharuch District Gujarat India": [
+72.589396,
+21.709301
+],
+"Hazira Gujarat India": [
+72.646602,
+21.095606
+],
+"Cilegon Banten Indonesia": [
+106.053769,
+-6.017389
+],
+"Merak West Java Indonesia": [
+108.415833,
+-6.746389
+],
+"Special Economic Zone, Bandar Emam Iran": null,
+"Ichihara City Chiba Japan": null,
+"Kashima Ibaraki Japan": [
+140.645029,
+35.966116
+],
+"Nobeoka Miyazaki Japan": [
+131.664903,
+32.582306
+],
+"Takasago Hyōgo Japan": [
+134.790681,
+34.766137
+],
+"Mizushima Okayama Japan": [
+133.741293,
+34.529195
+],
+"Tokuyama Yamaguchi Japan": [
+131.80272,
+34.051231
+],
+"Yokkaichi Mie Japan": [
+136.624845,
+34.964843
+],
+"Engro, Port Qasim Baluchistan Pakistan": null,
+"Mesaieed Industrial City Al Wakrah Municipality Qatar": null,
+"Jubail Industrial City Al-Jubail Saudi Arabia": [
+49.481333,
+27.065152
+],
+"Ulsan South Korea": [
+129.311914,
+35.53917
+],
+"Yeosu City South Korea": [
+127.659859,
+34.754626
+],
+"Formosa Plastics, Jen-Wu Kaohsiung City Taiwan": null,
+"Mailiao Taiwan": [
+120.252043,
+23.753841
+],
+"Lin Hai industrial area Kaohsiung City Taiwan": null,
+"Map Tha Phut Rayong Thailand": [
+101.154731,
+12.668777
+],
+"Aliaga Izmir Turkey": [
+26.971373,
+38.803427
+],
+"Urumqi, Xinjiang China": [
+87.613904,
+43.824407
+],
+"Shihezi, Xinjiang China": [
+86.077647,
+44.298834
+],
+"Shenmu County, Shaanxi China": null,
+"Wuhai City, Inner Mongolia China": [
+106.900469,
+39.485784
+],
+"Caojing, Shanghai China": [
+121.406182,
+30.796328
+],
+"Wuzhong City, Ningxia China": [
+106.515192,
+37.492298
+],
+"Zibo, Shandong China": [
+118.04884,
+36.812956
+],
+"Liaocheng, Shandong China": [
+115.964201,
+36.444181
+],
+"Cilegon, Banten Indonesia": [
+106.053769,
+-6.017389
+],
+"JenWu, Kaohsiung Taiwan": null,
+"Kashima, Ibaraki Japan": [
+140.645029,
+35.966116
+],
+"Rayong Thailand": [
+101.370534,
+12.794372
+],
+"Erdos City, Inner Mongolia China": [
+108.813428,
+39.460295
+],
+"Yibin, Sichuan China": [
+104.718661,
+28.58689
+],
+"Lugiaozhen, Chuzhou, Anhui China": null,
+"No.8 Zhabei Rd., Taixing Economic Development Zone, Taixing, Jiangsu China": null,
+"Xinyang, Henan China": [
+114.853333,
+32.075
+],
+"Alxa Left Banner, Inner Mongolia China": [
+105.304236,
+39.554074
+],
+"Baotou, Inner Mongolia China": [
+109.944912,
+40.617478
+],
+"Jubail Industrial City, Al-Jubail Saudi Arabia": [
+49.481333,
+27.065152
+],
+"Ulan Oab China": null,
+"Taizhou, Jiangsu China": [
+119.918117,
+32.457973
+],
+"Tangshan, Hebei China": [
+118.173871,
+39.629595
+],
+"Dezhou City, Shandong China": [
+117.221971,
+37.72767
+],
+"Hazira, Gujarat India": [
+72.646602,
+21.095606
+],
+"Dahej, Bharuch District, Gujarat India": [
+72.589396,
+21.709301
+],
+"Yokkaichi, Mie Japan": [
+136.624845,
+34.964843
+],
+"Ang'angxi, Heilongjiang China": [
+123.914486,
+47.14167
+],
+"Cuddalore, Tamil Nadu India": [
+79.339636,
+11.520207
+],
+"Deyang City, Sichuan China": [
+104.281532,
+30.981817
+],
+"Tancheng, Shandong China": [
+118.361505,
+34.614817
+],
+"Takasago, Hyōgo Japan": [
+134.790681,
+34.766137
+],
+"Map Tha Phut, Rayong Thailand": [
+101.154731,
+12.668777
+],
+"Toksun County, Xinjiang China": [
+88.448316,
+42.427899
+],
+"Huangge Town, Nansha District, Guangzhou China": [
+113.50449,
+22.838576
+],
+"Port Qasim Pakistan": [
+67.385128,
+24.830025
+],
+"Takaishi, Osaka Japan": [
+135.442434,
+34.520736
+],
+"Ba Ria-Vung Tao Vietnam": null,
+"Aliaga, Izmir Turkey": [
+26.971373,
+38.803427
+],
+"Tokuyama Japan": [
+131.80272,
+34.051231
+],
+"Ichihara, Chiba Japan": [
+140.1157,
+35.497775
+],
+"Batangas II, Mariveles, Bataan Philippines": [
+120.599301,
+14.496206
+],
+"Merak, West Java Indonesia": [
+108.415833,
+-6.746389
+],
+"Kodya Cilegon, Banten Indonesia": null,
+"Kota, Rajasthan India": [
+75.857419,
+25.173702
+],
+"Huludao, Liaoning China": [
+120.831572,
+40.709423
+]
+}

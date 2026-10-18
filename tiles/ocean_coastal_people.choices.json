@@ -1,0 +1,96 @@
+{
+ "choices": [
+  {
+   "label": "2013",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_coastal_people_people_on_the_coast_2013.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.0 to 0.1"
+    ],
+    [
+     "#C6E7F0",
+     "0.1 to 0.2"
+    ],
+    [
+     "#9CD6E6",
+     "0.2 to 0.3"
+    ],
+    [
+     "#6FC2DA",
+     "0.3 to 0.4"
+    ],
+    [
+     "#46AACB",
+     "0.4 to 0.5"
+    ],
+    [
+     "#2E8FBA",
+     "0.5 to 0.6"
+    ],
+    [
+     "#2275A8",
+     "0.6 to 0.7"
+    ],
+    [
+     "#1A5C92",
+     "0.7 to 0.8"
+    ],
+    [
+     "#13447A",
+     "0.8 to 0.9"
+    ],
+    [
+     "#0C2E5E",
+     "0.9 to 1.0 (highest)"
+    ]
+   ]
+  },
+  {
+   "label": "2003",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_coastal_people_people_on_the_coast_2003.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "0.0 to 0.1"
+    ],
+    [
+     "#C6E7F0",
+     "0.1 to 0.2"
+    ],
+    [
+     "#9CD6E6",
+     "0.2 to 0.3"
+    ],
+    [
+     "#6FC2DA",
+     "0.3 to 0.4"
+    ],
+    [
+     "#46AACB",
+     "0.4 to 0.5"
+    ],
+    [
+     "#2E8FBA",
+     "0.5 to 0.6"
+    ],
+    [
+     "#2275A8",
+     "0.6 to 0.7"
+    ],
+    [
+     "#1A5C92",
+     "0.7 to 0.8"
+    ],
+    [
+     "#13447A",
+     "0.8 to 0.9"
+    ],
+    [
+     "#0C2E5E",
+     "0.9 to 1.0 (highest)"
+    ]
+   ]
+  }
+ ]
+}

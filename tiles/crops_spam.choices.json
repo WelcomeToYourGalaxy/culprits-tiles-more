@@ -1,0 +1,1246 @@
+{
+ "choices": [
+  {
+   "label": "COFF",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_coff.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "COFF: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "banana",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_bana.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "banana: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "barley",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_barl.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "barley: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "beans",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_bean.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "beans: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "cassava",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_cass.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "cassava: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "chickpeas",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_chic.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "chickpeas: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "citrus",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_citr.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "citrus: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "cocoa",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_coco.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "cocoa: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "coconut",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_cnut.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "coconut: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "cotton",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_cott.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "cotton: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "cowpeas",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_cowp.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "cowpeas: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "groundnuts",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_grou.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "groundnuts: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "lentils",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_lent.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "lentils: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "maize (corn)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_maiz.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "maize (corn): the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "millet",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_mill.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "millet: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "oil palm",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_oilp.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "oil palm: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "onion",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_onio.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "onion: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other cereals",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_ocer.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other cereals: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other crops",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_rest.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other crops: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other fibre crops",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_ofib.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other fibre crops: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other oil crops",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_ooil.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other oil crops: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other pulses",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_opul.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other pulses: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other roots and tubers",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_orts.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other roots and tubers: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other tropical fruit",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_trof.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other tropical fruit: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "other vegetables",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_vege.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "other vegetables: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "pearl millet",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_pmil.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "pearl millet: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "pigeon peas",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_pige.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "pigeon peas: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "plantain",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_plnt.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "plantain: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "potato",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_pota.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "potato: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "rapeseed",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_rape.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "rapeseed: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "rice",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_rice.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "rice: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "robusta coffee",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_rcof.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "robusta coffee: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "rubber",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_rubb.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "rubber: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "sesame",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_sesa.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "sesame: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "sorghum",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_sorg.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "sorghum: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "soybeans",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_soyb.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "soybeans: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "sugar beet",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_sugb.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "sugar beet: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "sugarcane",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_sugc.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "sugarcane: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "sunflower",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_sunf.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "sunflower: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "sweet potato",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_swpo.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "sweet potato: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "tea",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_teas.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "tea: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "temperate fruit",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_temf.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "temperate fruit: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "tobacco",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_toba.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "tobacco: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "tomato",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_toma.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "tomato: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "wheat",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_whea.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "wheat: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  },
+  {
+   "label": "yams",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_yams.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "yams: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  }
+ ]
+}

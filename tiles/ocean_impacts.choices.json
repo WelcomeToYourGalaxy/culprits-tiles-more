@@ -1,0 +1,50 @@
+{
+ "choices": [
+  {
+   "label": "2013",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_impacts_2013.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "lowest tenth (0.00 to 0.42)"
+    ],
+    [
+     "#C6E7F0",
+     "tenth (0.42 to 0.67)"
+    ],
+    [
+     "#9CD6E6",
+     "tenth (0.67 to 0.82)"
+    ],
+    [
+     "#6FC2DA",
+     "tenth (0.82 to 0.94)"
+    ],
+    [
+     "#46AACB",
+     "tenth (0.94 to 1.06)"
+    ],
+    [
+     "#2E8FBA",
+     "tenth (1.06 to 1.19)"
+    ],
+    [
+     "#2275A8",
+     "tenth (1.19 to 1.33)"
+    ],
+    [
+     "#1A5C92",
+     "tenth (1.33 to 1.55)"
+    ],
+    [
+     "#13447A",
+     "tenth (1.55 to 1.89)"
+    ],
+    [
+     "#0C2E5E",
+     "highest tenth (1.89 to 10.65)"
+    ]
+   ]
+  }
+ ]
+}

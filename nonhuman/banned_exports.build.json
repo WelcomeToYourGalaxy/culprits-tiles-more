@@ -1,0 +1,63 @@
+{
+ "sheets": {
+  "Pivot": {
+   "rows": 77,
+   "columns": [
+    "Exporter name CLEAN",
+    "(All)"
+   ],
+   "skipped": "not a sheet of notifications"
+  },
+  "Agri export notifications": {
+   "rows": 1803,
+   "columns": [
+    "UEID",
+    "Importing party (i.e. importing non-EU country)",
+    "Importing party (i.e. importing non-EU country) CLEAN",
+    "Importing continent",
+    "World bank income classification",
+    "Annex I chemical name ",
+    "Annex I chemical name CLEAN",
+    "CAS number",
+    "EC Number",
+    "Subject Type",
+    "Mixture name/trade name ",
+    "Concentration(s) of the Annex I chemical(s) in the mixture",
+    "Concentration(s) of the Annex I chemical(s) in the mixture CLEAN",
+    "Export Year",
+    "Expected date of first export ",
+    "Expected yearly amount of exported substance or mixture (kg/l per year) ",
+    "Expected yearly amount of exported substance or mixture (/ per year) CLEAN",
+    "Foreseen category",
+    "Foreseen use",
+    "Exporter name",
+    "Exporter name CLEAN",
+    "Exporter Address",
+    "Exporter Country Name",
+    "notifications with more than one banned substance",
+    "Group ID",
+    "Divided by",
+    "Notes"
+   ],
+   "used": {
+    "exporting country": "Exporter Country Name",
+    "destination": "Importing party (i.e. importing non-EU country) CLEAN",
+    "active ingredient": "Annex I chemical name CLEAN",
+    "company": "Exporter name CLEAN",
+    "amount": "Expected yearly amount of exported substance or mixture (/ per year) CLEAN"
+   },
+   "names not matched to a country": [
+    "United Kingdom (Great Britain)"
+   ]
+  },
+  "Notes": {
+   "rows": 3,
+   "columns": [
+    "Notes: "
+   ],
+   "skipped": "not a sheet of notifications"
+  }
+ },
+ "failed": false,
+ "made": "2026-10-17T04:50:44Z"
+}

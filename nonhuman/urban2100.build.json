@@ -1,0 +1,136 @@
+{
+ "files": [
+  "Global urban product_SSPs_2015_2100/global_urban_2015.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2020.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2030.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2040.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2050.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2060.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2070.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2080.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2090.tif",
+  "Global urban product_SSPs_2015_2100/SSP1/global_SSP1_2100.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2020.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2030.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2040.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2050.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2060.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2070.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2080.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2090.tif",
+  "Global urban product_SSPs_2015_2100/SSP2/global_SSP2_2100.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2020.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2030.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2040.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2050.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2060.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2070.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2080.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2090.tif",
+  "Global urban product_SSPs_2015_2100/SSP3/global_SSP3_2100.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2020.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2030.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2040.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2050.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2060.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2070.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2080.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2090.tif",
+  "Global urban product_SSPs_2015_2100/SSP4/global_SSP4_2100.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2020.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2030.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2040.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2050.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2060.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2070.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2080.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2090.tif",
+  "Global urban product_SSPs_2015_2100/SSP5/global_SSP5_2100.tif"
+ ],
+ "read as": {
+  "SSP1": [
+   2020,
+   2030,
+   2040,
+   2050,
+   2060,
+   2070,
+   2080,
+   2090,
+   2100
+  ],
+  "SSP2": [
+   2020,
+   2030,
+   2040,
+   2050,
+   2060,
+   2070,
+   2080,
+   2090,
+   2100
+  ],
+  "SSP3": [
+   2020,
+   2030,
+   2040,
+   2050,
+   2060,
+   2070,
+   2080,
+   2090,
+   2100
+  ],
+  "SSP4": [
+   2020,
+   2030,
+   2040,
+   2050,
+   2060,
+   2070,
+   2080,
+   2090,
+   2100
+  ],
+  "SSP5": [
+   2020,
+   2030,
+   2040,
+   2050,
+   2060,
+   2070,
+   2080,
+   2090,
+   2100
+  ]
+ },
+ "values": {
+  "SSP1 2020": [
+   0.0,
+   1.0,
+   2.0
+  ],
+  "SSP2 2020": [
+   0.0,
+   1.0,
+   2.0
+  ],
+  "SSP3 2020": [
+   0.0,
+   1.0,
+   2.0
+  ],
+  "SSP4 2020": [
+   0.0,
+   1.0,
+   2.0
+  ],
+  "SSP5 2020": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ "complete": true,
+ "made": "2026-10-16T23:28:23Z"
+}

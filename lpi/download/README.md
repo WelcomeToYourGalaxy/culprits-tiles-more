@@ -1,0 +1,1 @@
+Put the Living Planet Database download here (the csv, or the zip it comes in), from https://www.livingplanetindex.org/download after agreeing to its terms. scripts/lpi_populations.py builds lpi/populations.geojson from it.

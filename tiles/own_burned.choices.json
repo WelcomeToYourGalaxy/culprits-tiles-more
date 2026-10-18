@@ -1,0 +1,724 @@
+{
+ "choices": [
+  {
+   "label": "2024, first 2 months",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2024.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2023",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2023.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2022",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2022.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2021",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2021.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2020",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2020.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2019",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2019.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2018",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2018.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2017",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2017.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2016",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2016.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2015",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2015.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2014",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2014.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2013",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2013.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2012",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2012.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2011",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2011.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2010",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2010.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2009",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2009.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2008",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2008.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2007",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2007.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2006",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2006.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2005",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2005.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2004",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2004.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2003",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2003.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2002",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2002.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  },
+  {
+   "label": "2001",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_burned_2001.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 1% of the land burned"
+    ],
+    [
+     "#8FD6E8",
+     "1 to 5%"
+    ],
+    [
+     "#3FA9C2",
+     "5 to 10%"
+    ],
+    [
+     "#2275A8",
+     "10 to 25%"
+    ],
+    [
+     "#13447A",
+     "25 to 50%"
+    ],
+    [
+     "#0C2E5E",
+     "half or more"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,802 @@
+{
+ "choices": [
+  {
+   "label": "2020, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2020.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2019, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2019.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2018, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2018.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2017, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2017.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2016, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2016.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2015, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2015.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2014, 63 Hz (the low hum of large ships' propellers)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_1st_2014.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 17.7 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "17.7 thousand joules to 209 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "209 thousand joules to 692 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "692 thousand joules to 2.01 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "2.01 million joules to 5.43 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "5.43 million joules to 14.5 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "14.5 million joules to 52.1 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "52.1 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2020, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2020.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2019, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2019.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2018, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2018.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2017, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2017.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2016, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2016.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2015, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2015.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2014, 125 Hz (low ship noise)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_2nd_2014.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 10.3 thousand joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "10.3 thousand joules to 138 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "138 thousand joules to 454 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "454 thousand joules to 1.28 million joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "1.28 million joules to 3.49 million joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "3.49 million joules to 9.43 million joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "9.43 million joules to 32.9 million joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "32.9 million joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2020, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2020.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2019, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2019.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2018, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2018.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2017, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2017.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2016, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2016.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2015, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2015.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  },
+  {
+   "label": "2014, 2000 Hz (higher-pitched noise, mostly from smaller and faster vessels)",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ocean_noise_3rd_2014.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "under 162 joules a year in the cell (steps set from 2020)"
+    ],
+    [
+     "#A9DEEC",
+     "162 joules to 2.06 thousand joules a year in the cell"
+    ],
+    [
+     "#74C3DA",
+     "2.06 thousand joules to 6.72 thousand joules a year in the cell"
+    ],
+    [
+     "#3FA9C2",
+     "6.72 thousand joules to 18.9 thousand joules a year in the cell"
+    ],
+    [
+     "#2A86B4",
+     "18.9 thousand joules to 51.3 thousand joules a year in the cell"
+    ],
+    [
+     "#1E6FA8",
+     "51.3 thousand joules to 139 thousand joules a year in the cell"
+    ],
+    [
+     "#13447A",
+     "139 thousand joules to 481 thousand joules a year in the cell"
+    ],
+    [
+     "#0C2E5E",
+     "481 thousand joules or more a year in the cell"
+    ]
+   ]
+  }
+ ]
+}
