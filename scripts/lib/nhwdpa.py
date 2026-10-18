@@ -315,20 +315,34 @@ def nearest(geoms, P, Q, log=print):
                 pieces, owner = dg, np.arange(len(dg))
             _TREES[label] = (D, dg, shapely.STRtree(dg) if label == "shape" else None, pieces, owner, shapely.STRtree(pieces))
         _, dg, whole, pieces, owner, tree = _TREES[label]
-        # Inside or touching, on the full shapes.
-        if label == "shape":
-            for t0 in range(0, len(g), STEP):
-                mi, pi = whole.query(g[t0:t0 + STEP], predicate="intersects")
-                best_km[mi + t0] = 0.0
-                best_ix[mi + t0] = pi
-                best_src[mi + t0] = label
-        # Everything else measured piece to piece (round nh9: a long
-        # pipeline measured whole against each piece took about 5 minutes
-        # per 20,000 pipelines).
         if tp is None:
             tp, town = _pieces(g, tol=SIMPLIFY) if lined else (g, np.arange(len(g)))
             if lined:
                 log(f"  {len(g):,} things cut into {len(tp):,} pieces (memory in use {_mem()})")
+        # Inside or touching. Round nh10: testing whole pipelines against
+        # whole outlines took 107 minutes for 400,000 pipelines, so a thing
+        # counts as inside when one of its pieces starts inside an area's
+        # full outline, when an area lies inside it (an oil field around a
+        # reserve), or when a piece comes within 1 metre of an area's
+        # boundary (it crosses it; tested below, as the pieces are measured).
+        if label == "shape":
+            starts = np.where(shapely.get_type_id(tp) == 1, shapely.get_point(tp, 0), tp)
+            for t0 in range(0, len(tp), STEP * 10):
+                mi, pi = whole.query(starts[t0:t0 + STEP * 10], predicate="intersects")
+                th = town[mi + t0]
+                best_km[th] = 0.0
+                best_ix[th] = pi
+                best_src[th] = label
+            polys = np.where(np.isin(shapely.get_type_id(g), [3, 6]))[0]
+            if len(polys):
+                if len(_TREES[label]) < 7:
+                    _TREES[label] = _TREES[label] + (shapely.point_on_surface(dg),)
+                rp = _TREES[label][6]
+                pi, mi = shapely.STRtree(g[polys]).query(rp, predicate="intersects")
+                th = polys[mi]
+                best_km[th] = 0.0
+                best_ix[th] = pi
+                best_src[th] = label
         todo = np.where(best_km[town] != 0)[0]
         pairs = 0
         for t0 in range(0, len(todo), STEP):
@@ -352,6 +366,8 @@ def nearest(geoms, P, Q, log=print):
                     aa, bb = a[s0:s0 + CH], b[s0:s0 + CH]
                     xy = shapely.get_coordinates(shapely.shortest_line(tp[aa], pieces[bb])).reshape(-1, 2, 2)
                     km = np.asarray(geod.inv(xy[:, 0, 0], xy[:, 0, 1], xy[:, 1, 0], xy[:, 1, 1])[2]) / 1000
+                    # A line or outline within 1 m of a boundary crosses it.
+                    km = np.where((km < 0.001) & (shapely.get_type_id(tp[aa]) != 0), 0.0, km)
                     things, rows = town[aa], owner[bb]
                     order = np.lexsort((km, things))
                     things, rows, km = things[order], rows[order], km[order]

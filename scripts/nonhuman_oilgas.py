@@ -96,7 +96,13 @@ def main():
         counts = {b: 0 for b in nhwdpa.BANDS}
         files = {b: work / f"{nh.slug(lname)}_{nh.slug(b)}.ndjson" for b in nhwdpa.BANDS}
         handles = {b: open(p, "w") for b, p in files.items()}
+        cut = False
         for s0 in range(0, max(n, 1), CHUNK):
+            # Stop cleanly before the 160-minute limit, so the layers already
+            # finished are saved; this layer starts again next run (round nh10).
+            if time.time() - START > BUDGET:
+                cut = True
+                break
             df = pyogrio.read_dataframe(str(gpkg), layer=lname, skip_features=s0, max_features=CHUNK)
             if not len(df):
                 break
@@ -122,6 +128,10 @@ def main():
             print(f"  {lname}: {min(s0 + CHUNK, n):,} of {n:,}", flush=True)
         for h in handles.values():
             h.close()
+        if cut:
+            report["stopped"] = f"time budget reached {min(s0, n):,} of {n:,} into {lname}; the next run starts it again"
+            print(f"oilgas: {report['stopped']}", flush=True)
+            break
         sets = {}
         for b, p in files.items():
             if not counts[b]:
