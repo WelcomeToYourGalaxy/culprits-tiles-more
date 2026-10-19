@@ -1,5 +1,5 @@
 {
- "read": "2026-10-15",
+ "read": "2026-10-19",
  "years": {
   "2019": {
    "dataset": "4e54dd6c-30f8-4f86-86a7-3c109a89528e",
@@ -36,16 +36,18 @@
    "rows": 41608,
    "states": 60,
    "total_paid": 3424344413
+  },
+  "2025": {
+   "dataset": "fb0b1734-1410-429d-92f6-3f4b35218e5e",
+   "read_on": "2026-10-19",
+   "rows": 41929,
+   "states": 60,
+   "total_paid": 3923550963
   }
  },
  "refused": {},
- "waiting": [
-  2025
- ],
- "partly read": {
-  "2025": "35,500 sums read so far, kept for the next run"
- },
- "features": 333,
+ "waiting": [],
+ "features": 389,
  "states_without_a_shape": [
   "(no state)",
   "AA",
