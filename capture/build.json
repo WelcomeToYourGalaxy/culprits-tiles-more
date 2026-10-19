@@ -1,8 +1,8 @@
 {
- "read": "2026-10-12",
- "features": 35233,
- "wikidata": 940,
- "lists": 34232,
+ "read": "2026-10-19",
+ "features": 35324,
+ "wikidata": 943,
+ "lists": 34320,
  "compiled": 61,
  "by_tier_and_branch": {
   "Admitted by the person, or by the side that paid or ran them | company": 13,
@@ -18,22 +18,22 @@
   "Convicted, or found by a court | lawmaking": 125,
   "Convicted, or found by a court | other office": 41,
   "Convicted, or found by a court | ruling and running": 145,
-  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17768,
+  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17769,
   "Documented ties, funding, or laws written for them | lawmaking": 3,
   "Documented ties, funding, or laws written for them | no office recorded": 3,
-  "Found by an official inquiry | company": 10848,
+  "Found by an official inquiry | company": 10934,
   "Found by an official inquiry | lawmaking": 2,
   "Held office and worked for a spy service or secret police (Wikidata) | company": 19,
   "Held office and worked for a spy service or secret police (Wikidata) | courts": 26,
   "Held office and worked for a spy service or secret police (Wikidata) | lawmaking": 210,
   "Held office and worked for a spy service or secret police (Wikidata) | other office": 166,
-  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 290,
+  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 293,
   "Named in opened secret-police or spy-service files | company": 2,
   "Named in opened secret-police or spy-service files | courts": 14,
   "Named in opened secret-police or spy-service files | lawmaking": 278,
   "Named in opened secret-police or spy-service files | no office recorded": 1123,
   "Named in opened secret-police or spy-service files | other office": 170,
-  "Named in opened secret-police or spy-service files | ruling and running": 2923,
+  "Named in opened secret-police or spy-service files | ruling and running": 2924,
   "Settled bribery charges with a regulator (often without admitting or denying) | company": 229
  },
  "found": {
@@ -97,7 +97,7 @@
    "Q4851862 Balloon cell nevus",
    "Q4887965 benign skin melanocytic nevus",
    "Q5160447 congenital melanocytic nevus",
-   "Q5558484 Giant pigmented nevus",
+   "Q5558484 giant pigmented nevus",
    "Q5691863 almocadem",
    "Q63226348 melanoma in congenital melanocytic nevus",
    "Q7193410 Pigmented hairy epidermal nevus syndrome",
@@ -643,7 +643,6 @@
    "Q124349638 Q124349638",
    "Q124351374 Q124351374",
    "Q124354100 Q124354100",
-   "Q124356650 Q124356650",
    "Q124368239 Geospatial Information Repository",
    "Q124368261 geospatial repository",
    "Q124368518 geospatial data repository",
@@ -701,7 +700,6 @@
    "Q126584182 Q126584182",
    "Q126649439 Q126649439",
    "Q126760022 Q126760022",
-   "Q126760480 Q126760480",
    "Q126870116 Q126870116",
    "Q126870140 Q126870140",
    "Q126870143 Q126870143",
@@ -2643,7 +2641,6 @@
    "Q133258316 Q133258316",
    "Q133282342 Q133282342",
    "Q133444512 Q133444512",
-   "Q133448235 Q133448235",
    "Q133459119 Q133459119",
    "Q133460789 Q133460789",
    "Q1335076 Q1335076",
@@ -2717,15 +2714,10 @@
    "Q137166213 geospatial one-stop shop",
    "Q137170876 Q137170876",
    "Q137189321 Q137189321",
-   "Q137294370 Q137294370",
-   "Q137294899 Q137294899",
-   "Q137301369 Q137301369",
-   "Q137324692 Q137324692",
    "Q137327854 Q137327854",
    "Q137342705 Q137342705",
    "Q137383520 Q137383520",
    "Q13742976 Q13742976",
-   "Q137441585 Q137441585",
    "Q137464072 Q137464072",
    "Q13748890 Q13748890",
    "Q137536234 Q137536234",
@@ -2745,7 +2737,6 @@
    "Q137863371 Q137863371",
    "Q137884283 Q137884283",
    "Q137911412 Q137911412",
-   "Q137918382 Q137918382",
    "Q138025692 Q138025692",
    "Q138026813 Q138026813",
    "Q138042614 Q138042614",
@@ -2817,6 +2808,11 @@
    "Q1416371 Q1416371",
    "Q1416641 Q1416641",
    "Q141681517 Q141681517",
+   "Q141714130 Q141714130",
+   "Q141727616 Q141727616",
+   "Q141733406 Q141733406",
+   "Q141735366 Q141735366",
+   "Q141756898 Q141756898",
    "Q1419115 Q1419115",
    "Q14318888 Q14318888",
    "Q144145 Q144145",
@@ -2879,7 +2875,6 @@
    "Q1643717 Q1643717",
    "Q1644354 Q1644354",
    "Q1646737 Q1646737",
-   "Q16482266 Q16482266",
    "Q16482671 Q16482671",
    "Q1649396 Q1649396",
    "Q1650577 Q1650577",
@@ -2950,7 +2945,6 @@
    "Q18691066 Q18691066",
    "Q18694092 Q18694092",
    "Q18745216 Q18745216",
-   "Q1897915 Q1897915",
    "Q1899333 Q1899333",
    "Q1926381 Q1926381",
    "Q19295820 Q19295820",
@@ -3130,7 +3124,6 @@
    "Q26137724 Q26137724",
    "Q2634158 Q2634158",
    "Q2646121 Q2646121",
-   "Q2648747 Q2648747",
    "Q2650879 Q2650879",
    "Q2660722 Q2660722",
    "Q26877976 Q26877976",
@@ -3641,7 +3634,7 @@
    "Q5160447 congenital melanocytic nevus",
    "Q5179297 covert agent",
    "Q5446967 field agent",
-   "Q5558484 Giant pigmented nevus",
+   "Q5558484 giant pigmented nevus",
    "Q56318130 Cooperative patriot",
    "Q5691863 almocadem",
    "Q5976600 Lin Kuei",
@@ -4065,7 +4058,7 @@
    "Q10728708 Q10728708",
    "Q107293007 citrus orchard"
   ],
-  "a. office holders who served a spy service": 730,
+  "a. office holders who served a spy service": 733,
   "b. office holders convicted": 233,
   "crimes matched": [
    "Espionage Act of 1917",
@@ -4134,7 +4127,7 @@
    "Kategória:Vedomí spolupracovníci ŠtB": 1
   },
   "pl categories": {
-   "Kategoria:Tajni współpracownicy Służby Bezpieczeństwa PRL": 246,
+   "Kategoria:Tajni współpracownicy Służby Bezpieczeństwa PRL": 247,
    "Kategoria:Tajni współpracownicy organów bezpieczeństwa Polski Ludowej": 66
   },
   "de categories": {
@@ -4175,19 +4168,19 @@
   "hr categories": {},
   "sl categories": {},
   "sr categories": {},
-  "secret_police_categories features": 1413,
+  "secret_police_categories features": 1414,
   "ipn drawn": 3358,
   "ipn features": 3358,
   "stb drawn": 116,
   "stb features": 116,
   "development bank debarment lists": [
-   "gb_fcdo_sanctions: UK FCDO Sanctions List",
    "worldbank_debarred: WorldBank Debarred Providers",
-   "afdb_sanctions: African Development Bank Debarred Entities",
-   "ebrd_ineligible: EBRD Ineligible Entities"
+   "ebrd_ineligible: EBRD Ineligible Entities",
+   "gb_fcdo_sanctions: UK FCDO Sanctions List",
+   "afdb_sanctions: African Development Bank Debarred Entities"
   ],
-  "debarment points": 10848,
-  "mdb_debarments features": 10848,
+  "debarment points": 10934,
+  "mdb_debarments features": 10934,
   "fara columns": [
    "Foreign Principal Termination Date",
    "Foreign Principal",
@@ -4202,7 +4195,7 @@
    "State",
    "Zip"
   ],
-  "fara rows": 17768,
+  "fara rows": 17769,
   "fara countries not matched": [
    "01/10/1947",
    "04/20/1993",
@@ -4287,7 +4280,7 @@
    "YUGOSLAVIA",
    "ZAIRE"
   ],
-  "fara features": 17768,
+  "fara features": 17769,
   "probes": {
    "ipn_catalogue_entry_86435.html": {
     "url": "https://katalog.bip.ipn.gov.pl/informacje/86435",
@@ -4297,19 +4290,19 @@
     "url": "https://www.abscr.cz/jmenne-evidence/vyhledavani-evidencni-zaznamy/",
     "final": "https://www.abscr.cz/jmenne-evidence/vyhledavani-evidencni-zaznamy/",
     "status": 200,
-    "bytes": 38038
+    "bytes": 38378
    },
    "abs_protocols.html": {
     "url": "https://www.abscr.cz/jmenne-evidence/protokoly/",
     "final": "https://www.abscr.cz/jmenne-evidence/protokoly/",
     "status": 200,
-    "bytes": 46157
+    "bytes": 46252
    },
    "abs_records_help.html": {
     "url": "https://www.abscr.cz/jmenne-evidence/evidencni-zaznamy-a-archivni-pomucky-vysvetlivky-zkratky/",
     "final": "https://www.abscr.cz/jmenne-evidence/evidencni-zaznamy-a-archivni-pomucky-vysvetlivky-zkratky/",
     "status": 200,
-    "bytes": 32975
+    "bytes": 33070
    },
    "upn_sample_search.html": {
     "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Novak&meno=&krycie_meno=&datum_narodenia=&kategoria=A",
@@ -4319,10 +4312,10 @@
    }
   },
   "compiled names matched to Wikidata": 13,
-  "cases moved to a truer place": 1517,
-  "organisations placed at their address": 2952,
-  "addresses still to look up (next runs)": 408,
-  "countries with cases": 188
+  "cases moved to a truer place": 1518,
+  "organisations placed at their address": 3258,
+  "addresses still to look up (next runs)": 0,
+  "countries with cases": 190
  },
  "errors": [
   "c: HTTPError: HTTP Error 504: Gateway Timeout"
