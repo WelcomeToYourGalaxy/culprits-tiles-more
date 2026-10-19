@@ -4232,8 +4232,8 @@
    }
   },
   {
-   "lei": "6367007ISLF5V6ZEJP88",
-   "legal_name": "Bourso Europe",
+   "lei": "636700P3Y9I9KCGUWH64",
+   "legal_name": "Bourso France",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -4265,8 +4265,8 @@
    }
   },
   {
-   "lei": "636700P3Y9I9KCGUWH64",
-   "legal_name": "Bourso France",
+   "lei": "6367007ISLF5V6ZEJP88",
+   "legal_name": "Bourso Europe",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -6026,8 +6026,8 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800HVQMZIPOGSN251",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6059,8 +6059,8 @@
    }
   },
   {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "lei": "213800HVQMZIPOGSN251",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7027,72 +7027,6 @@
    }
   },
   {
-   "lei": "213800PHORTTEXG59989",
-   "legal_name": "RBS HOLDINGS USA INC.",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CORPORATION SERVICE COMPANY",
-     "251 LITTLE FALLS DRIVE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "WILMINGTON",
-    "region": "US-DE",
-    "country": "US",
-    "postalCode": "19808"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O NATWEST GROUP PLC",
-     "600 WASHINGTON BOULEVARD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "STAMFORD",
-    "region": "US-CT",
-    "country": "US",
-    "postalCode": "06901"
-   }
-  },
-  {
-   "lei": "213800GPB7NYZQPOAT64",
-   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CORPORATION SERVICE COMPANY",
-     "251 LITTLE FALLS DRIVE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "WILMINGTON",
-    "region": "US-DE",
-    "country": "US",
-    "postalCode": "19808"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O NATWEST GROUP PLC",
-     "600 WASHINGTON BOULEVARD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "STAMFORD",
-    "region": "US-CT",
-    "country": "US",
-    "postalCode": "06901"
-   }
-  },
-  {
    "lei": "213800LFIK7QRGP8UY79",
    "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
@@ -7128,6 +7062,72 @@
   {
    "lei": "213800SJ9EDGYZ296T83",
    "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
+   "lei": "213800PHORTTEXG59989",
+   "legal_name": "RBS HOLDINGS USA INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
+   "lei": "213800GPB7NYZQPOAT64",
+   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
