@@ -1,11 +1,11 @@
 {
  "points_merged": false,
  "slim": true,
- "from": "5fa15eb1ace2db2b2aa8f814ed73b840d1926ed6",
+ "from": "7e5d91ac1fd06299f89554d9c88e898563a18159",
  "row": "skytruth_quakes",
  "feed": "feed_6",
  "alerts_with_position": 3265,
  "no_position": 0,
- "bytes": 3057676,
+ "bytes": 3057678,
  "boxes": "skytruth/feed_6"
 }
