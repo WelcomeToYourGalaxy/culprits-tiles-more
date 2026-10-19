@@ -1,5 +1,5 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-19",
  "kinds": {
   "Q664702": "bookmaker",
   "Q7366867": "sportsbook",
@@ -54,8 +54,8 @@
   "Q114653522": "Gambling in Latvia",
   "Q117445087": "nelegální hazardní hry"
  },
- "items": 335,
- "placed": 284,
+ "items": 339,
+ "placed": 286,
  "not_placed": [
   "10bet South Africa",
   "10bet.com",
@@ -76,6 +76,7 @@
   "EuroMillions",
   "FA CHAI Gaming",
   "GGPoker",
+  "Gambling Soft",
   "Grosvenor Casinos",
   "Hazarat",
   "MERKUR Slots",
@@ -102,6 +103,7 @@
   "The Spartan Poker",
   "Tipbet",
   "Tranchant Group",
+  "Turbo Stars",
   "Uwin Sports",
   "Virgin Games",
   "gaming control board",
