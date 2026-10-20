@@ -1,4 +1,4 @@
-Last Update: 2026-10-19 14:56 UTC
+Last Update: 2026-10-19 23:00 UTC
            Object             |    Diameter    |             VI Max                                   |          VIs                  |
 Num/des.           Name       |   m  |   *=Y   |      Date/Time   |  IP max  | PS max |TS  | Vel km/s | Years     | IP cum   | PS cum |
 AAAAAAAAAAAA AAAAAAAAAAAAAAAA | NNNN |    A    | YYYY-MM-DD HH:MM | EEEEEEEE | NNN.NN | NN |  NNN.NN  | YYYY-YYYY | EEEEEEEE | NNN.NN |
@@ -1731,6 +1731,7 @@ AAAAAAAAAAAA AAAAAAAAAAAAAAAA | NNNN |    A    | YYYY-MM-DD HH:MM | EEEEEEEE | N
 2022SZ9                       |    8 |    *    | 2090-10-06 17:27 |  9.63E-8 |  -8.85 |  0 |   13.59  | 2090-2108 |  1.09E-7 |  -8.81 |
 2022QE265                     |    6 |    *    | 2122-08-24 09:17 |  1.91E-7 |  -8.86 |  0 |   14.79  | 2122-2122 |  3.08E-7 |  -8.66 |
 2026KQ                        |  2.6 |    *    | 2116-09-25 01:12 |  1.76E-6 |  -8.87 |  0 |   12.48  | 2088-2126 |  5.18E-6 |  -8.37 |
+2026UP                        |    5 |    *    | 2112-10-17 03:04 |  2.88E-7 |  -8.87 |  0 |   14.59  | 2081-2125 |  8.71E-7 |  -8.38 |
 2024TT                        |   10 |    *    | 2103-10-01 23:53 |  4.59E-8 |  -8.88 |  0 |   13.23  | 2079-2122 |  9.39E-8 |  -8.61 |
 2022JK2                       |    9 |    *    | 2081-05-03 16:04 |  5.33E-8 |  -8.88 |  0 |   13.60  | 2081-2109 |  5.55E-8 |  -8.86 |
 2026GY                        |    7 |    *    | 2122-04-29 17:43 |  1.54E-7 |  -8.90 |  0 |   12.24  | 2122-2122 |  1.54E-7 |  -8.90 |
