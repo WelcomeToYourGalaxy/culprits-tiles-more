@@ -9,7 +9,7 @@
 },
 "Arkansas": {
 "code": "AR",
-"records": 1104
+"records": 1113
 },
 "American Samoa": {
 "code": "AS",
@@ -17,11 +17,11 @@
 },
 "Arizona": {
 "code": "AZ",
-"records": 558
+"records": 563
 },
 "California": {
 "code": "CA",
-"records": 2615
+"records": 2622
 },
 "Colorado": {
 "code": "CO",
@@ -33,7 +33,7 @@
 },
 "District of Columbia": {
 "code": "DC",
-"records": 3
+"records": 2
 },
 "Delaware": {
 "code": "DE",
@@ -41,19 +41,19 @@
 },
 "Florida": {
 "code": "FL",
-"records": 1305
+"records": 1309
 },
 "Georgia": {
 "code": "GA",
-"records": 1139
+"records": 1148
 },
 "Hawaii": {
 "code": "HI",
-"records": 4238
+"records": 4263
 },
 "Iowa": {
 "code": "IA",
-"records": 3667
+"records": 3684
 },
 "Idaho": {
 "code": "ID",
@@ -61,15 +61,15 @@
 },
 "Illinois": {
 "code": "IL",
-"records": 3900
+"records": 3920
 },
 "Indiana": {
 "code": "IN",
-"records": 2100
+"records": 2111
 },
 "Kansas": {
 "code": "KS",
-"records": 1205
+"records": 1214
 },
 "Kentucky": {
 "code": "KY",
@@ -81,11 +81,11 @@
 },
 "Massachusetts": {
 "code": "MA",
-"records": 41
+"records": 42
 },
 "Maryland": {
 "code": "MD",
-"records": 787
+"records": 796
 },
 "Maine": {
 "code": "ME",
@@ -97,11 +97,11 @@
 },
 "Minnesota": {
 "code": "MN",
-"records": 1739
+"records": 1746
 },
 "Missouri": {
 "code": "MO",
-"records": 1348
+"records": 1356
 },
 "Northern Mariana Islands": {
 "code": "MP",
@@ -109,7 +109,7 @@
 },
 "Mississippi": {
 "code": "MS",
-"records": 1391
+"records": 1401
 },
 "Montana": {
 "code": "MT",
@@ -117,23 +117,23 @@
 },
 "North Carolina": {
 "code": "NC",
-"records": 1005
+"records": 1010
 },
 "North Dakota": {
 "code": "ND",
-"records": 724
+"records": 729
 },
 "Nebraska": {
 "code": "NE",
-"records": 2033
+"records": 2043
 },
 "New Hampshire": {
 "code": "NH",
-"records": 1
+"records": 2
 },
 "New Jersey": {
 "code": "NJ",
-"records": 284
+"records": 285
 },
 "New Mexico": {
 "code": "NM",
@@ -145,15 +145,15 @@
 },
 "New York": {
 "code": "NY",
-"records": 519
+"records": 520
 },
 "Ohio": {
 "code": "OH",
-"records": 821
+"records": 826
 },
 "Oklahoma": {
 "code": "OK",
-"records": 223
+"records": 228
 },
 "Oregon": {
 "code": "OR",
@@ -161,11 +161,11 @@
 },
 "Pennsylvania": {
 "code": "PA",
-"records": 487
+"records": 493
 },
 "Puerto Rico": {
 "code": "PR",
-"records": 4457
+"records": 4490
 },
 "Rhode Island": {
 "code": "RI",
@@ -177,15 +177,15 @@
 },
 "South Dakota": {
 "code": "SD",
-"records": 759
+"records": 763
 },
 "Tennessee": {
 "code": "TN",
-"records": 929
+"records": 939
 },
 "Texas": {
 "code": "TX",
-"records": 1382
+"records": 1393
 },
 "Utah": {
 "code": "UT",
@@ -193,7 +193,7 @@
 },
 "Virginia": {
 "code": "VA",
-"records": 317
+"records": 319
 },
 "US Virgin Islands": {
 "code": "VI",
@@ -209,7 +209,7 @@
 },
 "Wisconsin": {
 "code": "WI",
-"records": 1448
+"records": 1457
 },
 "West Virginia": {
 "code": "WV",
