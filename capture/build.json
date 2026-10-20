@@ -1,6 +1,6 @@
 {
  "read": "2026-10-19",
- "features": 35324,
+ "features": 3714,
  "wikidata": 943,
  "lists": 34320,
  "compiled": 61,
@@ -9,19 +9,17 @@
   "Admitted by the person, or by the side that paid or ran them | lawmaking": 2,
   "Admitted by the person, or by the side that paid or ran them | ruling and running": 1,
   "Charged or alleged, not proven | company": 343,
-  "Charged or alleged, not proven | courts": 2,
-  "Charged or alleged, not proven | lawmaking": 15,
+  "Charged or alleged, not proven | courts": 1,
+  "Charged or alleged, not proven | lawmaking": 14,
   "Charged or alleged, not proven | no office recorded": 7,
-  "Charged or alleged, not proven | ruling and running": 447,
+  "Charged or alleged, not proven | ruling and running": 2,
   "Convicted, or found by a court | company": 6,
   "Convicted, or found by a court | courts": 12,
   "Convicted, or found by a court | lawmaking": 125,
   "Convicted, or found by a court | other office": 41,
   "Convicted, or found by a court | ruling and running": 145,
-  "Documented ties, funding, or laws written for them | foreign influence registered in the US": 17769,
   "Documented ties, funding, or laws written for them | lawmaking": 3,
   "Documented ties, funding, or laws written for them | no office recorded": 3,
-  "Found by an official inquiry | company": 10934,
   "Found by an official inquiry | lawmaking": 2,
   "Held office and worked for a spy service or secret police (Wikidata) | company": 19,
   "Held office and worked for a spy service or secret police (Wikidata) | courts": 26,
@@ -30,10 +28,10 @@
   "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 293,
   "Named in opened secret-police or spy-service files | company": 2,
   "Named in opened secret-police or spy-service files | courts": 14,
-  "Named in opened secret-police or spy-service files | lawmaking": 278,
+  "Named in opened secret-police or spy-service files | lawmaking": 276,
   "Named in opened secret-police or spy-service files | no office recorded": 1123,
   "Named in opened secret-police or spy-service files | other office": 170,
-  "Named in opened secret-police or spy-service files | ruling and running": 2924,
+  "Named in opened secret-police or spy-service files | ruling and running": 466,
   "Settled bribery charges with a regulator (often without admitting or denying) | company": 229
  },
  "found": {
@@ -4315,7 +4313,13 @@
   "cases moved to a truer place": 1518,
   "organisations placed at their address": 3258,
   "addresses still to look up (next runs)": 0,
-  "countries with cases": 190
+  "countries with cases": 114,
+  "moved to rows of their own (round cap1w)": {
+   "fara": 17769,
+   "uk_sanctions": 6954,
+   "debarments": 3980,
+   "ipn_watched": 2907
+  }
  },
  "errors": [
   "c: HTTPError: HTTP Error 504: Gateway Timeout"
