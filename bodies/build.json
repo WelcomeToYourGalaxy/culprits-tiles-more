@@ -1,5 +1,5 @@
 {
- "built": "2026-10-22T12:23:52Z",
+ "built": "2026-10-23T12:11:50Z",
  "failed": {},
  "moon_objects": {
   "rows": 71,
@@ -160,10 +160,10 @@
   "not found in the names": []
  },
  "rovers": {
-  "M20/Layers/json/M20_waypoints.json": 706,
-  "M20/Layers/json/M20_traverse.json": 558,
-  "MSL/Layers/json/MSL_waypoints.json": 1386,
-  "MSL/Layers/json/MSL_traverse.json": 1314
+  "M20/Layers/json/M20_waypoints.json": "failed: HTTP Error 403: Forbidden",
+  "M20/Layers/json/M20_traverse.json": "failed: HTTP Error 403: Forbidden",
+  "MSL/Layers/json/MSL_waypoints.json": "failed: HTTP Error 403: Forbidden",
+  "MSL/Layers/json/MSL_traverse.json": "failed: HTTP Error 403: Forbidden"
  },
  "globe_pictures": {
   "moon": "128 of 128 squares",
