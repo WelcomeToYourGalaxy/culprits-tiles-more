@@ -1,5 +1,5 @@
 {
- "built": "2026-10-22 15:16 UTC",
+ "built": "2026-10-23 15:20 UTC",
  "bundles": [
   {
    "file": "tiles/points_bundle_1.pmtiles",
@@ -22,7 +22,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 9,
-   "bytes": 34530688
+   "bytes": 34530687
   },
   {
    "file": "tiles/points_bundle_3.pmtiles",
@@ -46,7 +46,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 12,
-   "bytes": 65864509
+   "bytes": 65864510
   },
   {
    "file": "tiles/points_bundle_5.pmtiles",
@@ -87,7 +87,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 12,
-   "bytes": 61483556
+   "bytes": 61483554
   }
  ],
  "left_out": [
@@ -223,7 +223,7 @@
   "wastewater_n_septic": "51e5b0d83b425b7c3958f35b08346d94dd410cf3482977668d85422cbc72035d",
   "wastewater_n_open": "749682f4696b0a20f4d1dd0922595767a3943e0e7793ba5315f4f24ccd92f1a9",
   "hydrowaste": "49e91e490b50243e36819def0dd13faf42387680d50c58d76c264e1f944ba6d0",
-  "slavery_sites": "b27bcb18aa0b1f34c23a1d0bd3897e506b006ab9566dd2783176a461c112ebcc",
+  "slavery_sites": "b8c82a42438986a5d4bb5d085dd4100f8331687e2cfaf93223cf719bda8aa230",
   "slavery_ports": "7d40753e6cfc1b987a259a84614401d9890d0365c0ec921f476292a0b52c984d",
   "slavery_fishing": "dc5df79a01281f3855462df4e943e13a41e71b62f62b8d156153931086f2a80c",
   "exec_ministry": "aca1d0012be96748d1bd0903d4d97c3adf2ad74b0ef50e9129304d56ee906f48",
@@ -246,15 +246,15 @@
   "slavery_determinations": "55a1140ea60f3c7a8ccf19ae778c973a1b793908a2be92670194c3ac8ccbffce",
   "slavery_enforcement": "c86314a8a9deeee9411b99994d7304d971b2b5b419130e79bfc47fa5ec709c46",
   "remains_findings": "b15ea08a9a9e055304647dcaf03f9dc6390fc51f071c52861401b60e498b0ec0",
-  "skytruth_voc": "2ceabffb707eae0091906e13abaa7f866cc8750cf8a5c5b2c3e4a5ae19032fec",
-  "skytruth_posts": "483a0b7df3ab6db516082abf6ff918634a80350ccafe5c977ecfe18408bae2ad",
-  "skytruth_marine_incidents": "725598490ad738dd0ed1a217ea095904797e1a3cb298496eb152fa8b72d8a06a",
-  "skytruth_pa_permits": "d33e21cc9e764b6a2529a51733fc2e52838737d255c1fb30af5789724e9ad2c1",
-  "skytruth_pa_spud": "4ef1efb85b561e0c5000872f2ad62243eafc300a592825a10bde8d5f1c785e4b",
-  "skytruth_pa_violations": "c694418890e3648e5f53cd60a1606f53c4a141028225ac050ea56ae8adfd443b",
-  "skytruth_well_permits": "fcab381c1310f720c18082940fcaf0d9125f8e8eb02771e8926a038031c36d12",
-  "skytruth_fracfocus": "957c8c45b8577afd9ede36e75f50b6a29ddc7f9c7c25bc67aa918491380beeca",
-  "skytruth_tests": "b9cfcc73acf57ae39e9a80b0ced42c5a6ed595aeab32102f0ac661fedc00f46e",
-  "skytruth_quakes": "35ab81ba2a6e5ba7e7afdd9264df090d40b88677977810961a8954bb52933ed7"
+  "skytruth_voc": "2fc24c79e838c501905f5abbc17b1dead04e5a3060ba5accb74f77fc194a68b8",
+  "skytruth_posts": "7ff11a7ea43c1f45e6873211da01dd334e19982a9cb6e5c078d2d492767d80ab",
+  "skytruth_marine_incidents": "0e951182ac9cdff7440f604f5a5b20ebf578b8bfbdb1892f453bd2d7f2ac4c05",
+  "skytruth_pa_permits": "609bde1a72edd04b337057255c9d7f2bafb411bcfec663fa4c449cc7d793f38e",
+  "skytruth_pa_spud": "bc765d8b46aac2ba730d9e8109ab606dd4b6c068fb2fe2779ef8ef7f88513c93",
+  "skytruth_pa_violations": "9fa2d6f9263b7d59a143ed872c86f71da3b3df8c9ac23eefa45a1ea6788493fb",
+  "skytruth_well_permits": "e8412ea1e06935a932b85957cdc849f4d9e18de774832ef3531bffbc267a22b9",
+  "skytruth_fracfocus": "72a46f6561a24ae67fa319e76101bafec2cad1509a90f11bca059a0cb959203d",
+  "skytruth_tests": "f2bd8a4719b776dde53bc4916661a662590614299b2077fa04c27ab3aaaca91d",
+  "skytruth_quakes": "bfb7c4864c7345e02344999f6457ee5b6fbfec9a14f78b286f5c1ea87f033f89"
  }
 }
