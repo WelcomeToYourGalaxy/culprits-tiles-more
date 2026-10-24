@@ -1945,6 +1945,100 @@
      }
     ]
    }
+  },
+  {
+   "name": "Oil_and_Natural_Gas_Pipelines",
+   "label": "Oil and Natural Gas Pipelines",
+   "kind": "line",
+   "count": 1858109,
+   "counts": {
+    "inside a protected area": 30786,
+    "within 1 km": 59424,
+    "within 10 km": 642550,
+    "within 20 km": 480929,
+    "further than 20 km": 644420
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR",
+    "INSTALL_DATE",
+    "COMMODITY",
+    "LIQ_CAPACITY_BPD",
+    "LIQ_THROUGHPUT_BPD",
+    "GAS_CAPACITY_MMCFD",
+    "GAS_THROUGHPUT_MMCFD",
+    "PIPE_DIAMETER_MM",
+    "PIPE_LENGTH_KM",
+    "PIPE_MATERIAL"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/oil_and_natural_gas_pipelines_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 31376514
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_pipelines_within_1_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 21010726
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_pipelines_within_10_km.pmtiles",
+      "from": 0,
+      "to": 8,
+      "bytes": 84557449
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_pipelines_within_20_km.pmtiles",
+      "from": 0,
+      "to": 9,
+      "bytes": 79882918
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_pipelines_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 98769557
+     }
+    ]
+   }
   }
  ],
  "source": "OGIM OGIM_v3.0 (Environmental Defense Fund), Zenodo record 7466758, CC BY 4.0",
@@ -1957,5 +2051,5 @@
   "further than 20 km"
  ],
  "detail": 8,
- "made": "2026-10-17"
+ "made": "2026-10-24"
 }
