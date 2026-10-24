@@ -16,8 +16,10 @@
   "licence": "US government work (public domain)"
  },
  "at": 0,
- "when": "2026-10-23",
+ "when": "2026-10-24",
  "errors": {
-  "canada_offenders": "No module named 'openpyxl'"
+  "ea_enforcement": "[Errno 18] Invalid cross-device link: '/tmp/tmpb0f3dwuj/ea_enforcement.pmtiles' -> 'tiles/ea_enforcement.pmtiles'",
+  "canada_offenders": "No module named 'openpyxl'",
+  "epa_cases": "[Errno 18] Invalid cross-device link: '/tmp/tmpm1kyqi78/epa_cases.pmtiles' -> 'tiles/epa_cases.pmtiles'"
  }
 }
