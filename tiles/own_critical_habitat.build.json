@@ -1,0 +1,13 @@
+{
+ "from": "https://datadownload-production.s3.us-east-1.amazonaws.com/WCMC_043_GlobalCH_Basic_IFCPS6_2025.zip",
+ "file": "WCMC_043_GlobalCH_Basic_IFCPS6_2025/01_Data/Basic_Critical_Habitat_2025.tif",
+ "classes": [
+  1,
+  10
+ ],
+ "names": {},
+ "to_zoom": 7,
+ "squares": 11384,
+ "bytes": 18983768,
+ "how": "max"
+}

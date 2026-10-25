@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "TEAS"
+ ],
+ "hectares": 4806458.5,
+ "to_zoom": 5,
+ "squares": 115,
+ "bytes": 213976,
+ "how": "max"
+}

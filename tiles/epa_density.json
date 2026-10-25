@@ -1,0 +1,72 @@
+{
+ "from": "teal-blue-1{\n \"points\": 2994625,\n \"layers\": 6,\n \"points_merged\": false,\n \"parts\": [\n  {\n   \"file\": \"epa_efpoints_z0.pmtiles\",\n   \"from\": 0,\n   \"to\": 0,\n   \"bytes\": 16836427\n  },\n  {\n   \"file\": \"epa_efpoints_z1.pmtiles\",\n   \"from\": 1,\n   \"to\": 1,\n   \"bytes\": 17371387\n  },\n  {\n   \"file\": \"epa_efpoints_z2.pmtiles\",\n   \"from\": 2,\n   \"to\": 2,\n   \"bytes\": 20265661\n  },\n  {\n   \"file\": \"epa_efpoints_z3.pmtiles\",\n   \"from\": 3,\n   \"to\": 3,\n   \"bytes\": 23916770\n  },\n  {\n   \"file\": \"epa_efpoints_z4.pmtiles\",\n   \"from\": 4,\n   \"to\": 4,\n   \"bytes\": 24222137\n  },\n  {\n   \"file\": \"epa_efpoints_z5.pmtiles\",\n   \"from\": 5,\n   \"to\": 5,\n   \"bytes\": 25280377\n  },\n  {\n   \"file\": \"epa_efpoints_z6.pmtiles\",\n   \"from\": 6,\n   \"to\": 6,\n   \"bytes\": 27474353\n  }\n ]\n}",
+ "built": "2026-09-28",
+ "to_zoom": 5,
+ "points": 2994625,
+ "steps": [
+  1,
+  3,
+  10,
+  30,
+  100,
+  300
+ ],
+ "colours": [
+  "#0B2E6B",
+  "#1747B8",
+  "#2F6BFF",
+  "#1A9FD6",
+  "#14A8A0",
+  "#CFEFF2"
+ ],
+ "layers": [
+  {
+   "lid": 0,
+   "name": "",
+   "points": 1373,
+   "file": "epa_density_0.pmtiles",
+   "squares": 47,
+   "bytes": 26653
+  },
+  {
+   "lid": 1,
+   "name": "",
+   "points": 64508,
+   "file": "epa_density_1.pmtiles",
+   "squares": 80,
+   "bytes": 117425
+  },
+  {
+   "lid": 2,
+   "name": "",
+   "points": 1096892,
+   "file": "epa_density_2.pmtiles",
+   "squares": 94,
+   "bytes": 325012
+  },
+  {
+   "lid": 3,
+   "name": "",
+   "points": 236321,
+   "file": "epa_density_3.pmtiles",
+   "squares": 76,
+   "bytes": 185551
+  },
+  {
+   "lid": 4,
+   "name": "",
+   "points": 1551158,
+   "file": "epa_density_4.pmtiles",
+   "squares": 87,
+   "bytes": 272680
+  },
+  {
+   "lid": 5,
+   "name": "",
+   "points": 44373,
+   "file": "epa_density_5.pmtiles",
+   "squares": 70,
+   "bytes": 85210
+  }
+ ]
+}

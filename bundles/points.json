@@ -1,0 +1,260 @@
+{
+ "built": "2026-10-25 15:32 UTC",
+ "bundles": [
+  {
+   "file": "tiles/points_bundle_1.pmtiles",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/points_bundle_1.pmtiles",
+   "rows": [
+    "wastewater_n_tot",
+    "wastewater_n_treated",
+    "wastewater_n_septic",
+    "wastewater_n_open"
+   ],
+   "minzoom": 0,
+   "maxzoom": 8,
+   "bytes": 55518449
+  },
+  {
+   "file": "tiles/points_bundle_2.pmtiles",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/points_bundle_2.pmtiles",
+   "rows": [
+    "hydrowaste"
+   ],
+   "minzoom": 0,
+   "maxzoom": 9,
+   "bytes": 34530687
+  },
+  {
+   "file": "tiles/points_bundle_3.pmtiles",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/points_bundle_3.pmtiles",
+   "rows": [
+    "slavery_sites",
+    "epa_tri_sites"
+   ],
+   "minzoom": 0,
+   "maxzoom": 12,
+   "bytes": 68159976
+  },
+  {
+   "file": "tiles/points_bundle_4.pmtiles",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/points_bundle_4.pmtiles",
+   "rows": [
+    "jud_courts",
+    "legal_courthouse",
+    "skytruth_pa_permits",
+    "exec_prison"
+   ],
+   "minzoom": 0,
+   "maxzoom": 12,
+   "bytes": 65864509
+  },
+  {
+   "file": "tiles/points_bundle_5.pmtiles",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/points_bundle_5.pmtiles",
+   "rows": [
+    "jud_prisons",
+    "legal_prison",
+    "skytruth_pa_spud",
+    "skytruth_pa_violations",
+    "slavery_ports",
+    "skytruth_fracfocus",
+    "skytruth_quakes",
+    "slavery_fishing",
+    "legal_publicdefender",
+    "slavery_enforcement",
+    "exec_diplomatic",
+    "leg_parliament",
+    "leg_council",
+    "carbon_bombs",
+    "leg_audit",
+    "leg_electoral",
+    "carbon_majors",
+    "leg_ombudsman",
+    "exec_ministry",
+    "skytruth_marine_incidents",
+    "legal_probation",
+    "fertilizer_facilities",
+    "slavery_determinations",
+    "skytruth_posts",
+    "legal_immigration",
+    "skytruth_well_permits",
+    "remains_findings",
+    "soy_organizations",
+    "legal_juvenile",
+    "skytruth_voc",
+    "skytruth_tests",
+    "exec_border"
+   ],
+   "minzoom": 0,
+   "maxzoom": 12,
+   "bytes": 61483557
+  }
+ ],
+ "left_out": [
+  {
+   "row": "global_energy_monitor",
+   "why": "not found"
+  },
+  {
+   "row": "trase",
+   "why": "not found"
+  },
+  {
+   "row": "counterglow",
+   "why": "not found"
+  },
+  {
+   "row": "local_projects",
+   "why": "84 MB, loads faster on its own"
+  },
+  {
+   "row": "site_environment_law",
+   "why": "not found"
+  },
+  {
+   "row": "exec_police",
+   "why": "81 MB, loads faster on its own"
+  },
+  {
+   "row": "exec_townhall",
+   "why": "89 MB, loads faster on its own"
+  },
+  {
+   "row": "exec_firestation",
+   "why": "77 MB, loads faster on its own"
+  },
+  {
+   "row": "exec_govoffice",
+   "why": "96 MB, loads faster on its own"
+  },
+  {
+   "row": "fin_bank",
+   "why": "not found"
+  },
+  {
+   "row": "fin_taxoffice",
+   "why": "not found"
+  },
+  {
+   "row": "fin_govfinance",
+   "why": "not found"
+  },
+  {
+   "row": "fin_financial",
+   "why": "not found"
+  },
+  {
+   "row": "fin_exchange",
+   "why": "not found"
+  },
+  {
+   "row": "fin_insurance",
+   "why": "not found"
+  },
+  {
+   "row": "fin_accountant",
+   "why": "not found"
+  },
+  {
+   "row": "fin_remittance",
+   "why": "not found"
+  },
+  {
+   "row": "fin_centralbank",
+   "why": "not found"
+  },
+  {
+   "row": "fin_stockexchange",
+   "why": "not found"
+  },
+  {
+   "row": "fin_auditoffice",
+   "why": "not found"
+  },
+  {
+   "row": "fin_devbank",
+   "why": "not found"
+  },
+  {
+   "row": "fin_mint",
+   "why": "not found"
+  },
+  {
+   "row": "legal_police",
+   "why": "70 MB, loads faster on its own"
+  },
+  {
+   "row": "leg_townhall",
+   "why": "87 MB, loads faster on its own"
+  },
+  {
+   "row": "slavery_facilities",
+   "why": "not found"
+  },
+  {
+   "row": "activist_courts",
+   "why": "not found"
+  },
+  {
+   "row": "activist_police",
+   "why": "not found"
+  },
+  {
+   "row": "activist_prisons",
+   "why": "not found"
+  },
+  {
+   "row": "remains_cemeteries",
+   "why": "77 MB, loads faster on its own"
+  },
+  {
+   "row": "skytruth_nrc",
+   "why": "95 MB, loads faster on its own"
+  }
+ ],
+ "members": {
+  "carbon_bombs": "31b964601fa4b726cee3340ca6051c3df861eb8671f7d1813033d7d7f7f9725d",
+  "carbon_majors": "d86b87402b731818470c94e0cf2f6157750faf25dadb27a0ac19f5be3ec9f11e",
+  "fertilizer_facilities": "e876725a0b1895348ceff0661f898811a902891fb96a1a98b7b0d658ce41fa99",
+  "soy_organizations": "5b057c5153ec9fa98a7aa4850994a9698862fd9a4fd9fa4ce10dba410ed6cb8b",
+  "epa_tri_sites": "5c04f7a55345932a5d2dcf4905ac30727a3eebbb97bbc316bf791f23daa3bc71",
+  "wastewater_n_tot": "8830907b86a8f1b28a26db9aa76144ee38ef200e93e803b65999d10419f53fb4",
+  "wastewater_n_treated": "09c2e824067179f1cc542f8cfb27001757a876b7017eba5698353a2f7d395a76",
+  "wastewater_n_septic": "51e5b0d83b425b7c3958f35b08346d94dd410cf3482977668d85422cbc72035d",
+  "wastewater_n_open": "749682f4696b0a20f4d1dd0922595767a3943e0e7793ba5315f4f24ccd92f1a9",
+  "hydrowaste": "49e91e490b50243e36819def0dd13faf42387680d50c58d76c264e1f944ba6d0",
+  "slavery_sites": "b8dec7f7b4d493b842d671793456372be3952b1acb2b9d47a52ff009dead32af",
+  "slavery_ports": "7d40753e6cfc1b987a259a84614401d9890d0365c0ec921f476292a0b52c984d",
+  "slavery_fishing": "dc5df79a01281f3855462df4e943e13a41e71b62f62b8d156153931086f2a80c",
+  "exec_ministry": "aca1d0012be96748d1bd0903d4d97c3adf2ad74b0ef50e9129304d56ee906f48",
+  "exec_diplomatic": "42c71ebb5f5d9fb983f6d3c05f82692fe70fbb34b2f7127a3c09760fde3d63fd",
+  "exec_border": "ef0c1ee02efcfc13d1fc1880c0caab81cadea6c44d73da91999ab8d2f046803e",
+  "exec_prison": "a4fbd58bf906f03052efe2ef81ffb332341ffe1af48084bbab9be0c86193500f",
+  "legal_prison": "45a1d453023e8f7e0296450030f153fa5bb1c81715278beda8ada258257df875",
+  "legal_courthouse": "d50da55128fb6857d46032fe3b66a3f0da23f9f4d917de3acf651308fb311f76",
+  "legal_publicdefender": "4ca89c3902764fa47c1f3a35c447643a71f267dab39d4fbfb69b5869cac1ae84",
+  "legal_immigration": "8d796f55d25e3331dbfac8abab145b4d0622485a6c602d5427dc5696c7393483",
+  "legal_probation": "5c474b664e7a1a6a6c5ff70a9a534071ef3255577a78340053c0a962f73f3c19",
+  "legal_juvenile": "68e9783cb64db7a5fdc5def433855c9c8bf6130a98fe04ddd67b57502f30dd82",
+  "leg_parliament": "908a0321147f12fb4b27a8f69e67c0f507788074fb6f7225bfe2aa06c8cdf43c",
+  "leg_audit": "c0ed5eaf8a9c2a27e14938dd0dbad36e2817701cdbc3666f64402bf5bdb3b305",
+  "leg_electoral": "14fb01d2ed24b46ea9a647d31d42ced9a471c9f311aee41113002716589f12a5",
+  "leg_ombudsman": "45d5b533e53527256273c9c9f624cdffd280a9a9466eef934202eccbd759f833",
+  "leg_council": "29fef1e32219a413df543a9419bb403997609acb2f59ff1fc5832aac0a74e77a",
+  "jud_courts": "e49b876f778f1adb89203b19588f090faf6e0c01ec6ea7a2d13ab4918e49e4ec",
+  "jud_prisons": "d5e93b057a099a60668d7c444955549f668af0e37fa5e4d8155f82d873125840",
+  "slavery_determinations": "55a1140ea60f3c7a8ccf19ae778c973a1b793908a2be92670194c3ac8ccbffce",
+  "slavery_enforcement": "c86314a8a9deeee9411b99994d7304d971b2b5b419130e79bfc47fa5ec709c46",
+  "remains_findings": "b15ea08a9a9e055304647dcaf03f9dc6390fc51f071c52861401b60e498b0ec0",
+  "skytruth_voc": "df214473f0f0d3a3359a2248512c226a35017a54788b20830142ef3fc7d5740d",
+  "skytruth_posts": "e32a6503d08ba6697db50f586816315cd84c505090863e5c9b79581dd34c82c9",
+  "skytruth_marine_incidents": "e72b316d81ee2710aa610dea5720f7992d1411a31805c34a3a383428b06e1ea9",
+  "skytruth_pa_permits": "47084739cfb397355b28f369a05bb95ba725172aa3c1b14beb295881ad7d4be6",
+  "skytruth_pa_spud": "eb9cdb90059b6eb2e69d75a106e46fc370f0b4695aa53ea312b689ac2d06004c",
+  "skytruth_pa_violations": "7ff2da8340af00478d898d9d09d849f504ed17419ec9906b0fa995fcd8dbe850",
+  "skytruth_well_permits": "5f529c8afa7eaed46bfe09acecfc5ea5cb6b40dd1c78818052132fc31f423be2",
+  "skytruth_fracfocus": "6702a8a3c3a770f1c423af85200625d68b9ac22cef0f941d8ab1198f110e09a4",
+  "skytruth_tests": "8081da4e5605ab253479f3f0fa4d7b991b0a78ffb1c7059090b658a404657e4e",
+  "skytruth_quakes": "1bef53e6f14157925bbb42f363eb7309e25b41a7b657dd04defdf8e7e5dcc568"
+ }
+}

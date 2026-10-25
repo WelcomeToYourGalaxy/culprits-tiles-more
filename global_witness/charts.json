@@ -1,0 +1,40 @@
+{
+ "8Hdke": {
+  "title": "8Hdke",
+  "columns": [
+   "event_country",
+   "Count",
+   "LAT",
+   "LON"
+  ],
+  "rows": 64,
+  "from": "https://datawrapper.dwcdn.net/8Hdke/4/"
+ },
+ "Os5Qu": {
+  "title": "Os5Qu",
+  "columns": [
+   "Year",
+   "Count"
+  ],
+  "rows": 14,
+  "from": "https://datawrapper.dwcdn.net/Os5Qu/6/"
+ },
+ "lHwRF": {
+  "title": "lHwRF",
+  "columns": [
+   "Person Characteristics",
+   "Count"
+  ],
+  "rows": 13,
+  "from": "https://datawrapper.dwcdn.net/lHwRF/4/"
+ },
+ "rhBcA": {
+  "title": "rhBcA",
+  "columns": [
+   "Status",
+   "Count"
+  ],
+  "rows": 2,
+  "from": "https://datawrapper.dwcdn.net/rhBcA/3/"
+ }
+}

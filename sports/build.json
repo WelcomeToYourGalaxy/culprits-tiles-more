@@ -1,0 +1,53 @@
+{
+ "release": "2026-09-23.1",
+ "places_categories_taken": {
+  "air_transport_facility_or_service": 20694,
+  "b2b_transportation_and_storage_service": 284803,
+  "fitness_studio": 162927,
+  "food_and_drink": 104370,
+  "food_court": 2927,
+  "golf_course": 45479,
+  "ground_transport_facility_or_service": 664,
+  "gym": 562365,
+  "skate_park": 20002,
+  "skating_rink": 9344,
+  "sport_court": 49860,
+  "sport_field": 70096,
+  "sport_league": 223938,
+  "sport_or_fitness_facility": 622022,
+  "sport_or_recreation_club": 198812,
+  "sport_team": 42080,
+  "sports_and_recreation": 219454,
+  "sports_complex": 5726,
+  "stadium_arena": 125146,
+  "swimming_pool": 81473,
+  "travel_and_transportation": 229717
+ },
+ "places_categories_left_out_by_name": {
+  "courthouse": 35525,
+  "sporting_goods_store": 364439
+ },
+ "land_use_classes_taken": {
+  "golf_course": 37442,
+  "ice_skate": 460,
+  "pitch": 2704168,
+  "recreation_ground": 186727,
+  "ski_jump": 1232,
+  "skitour": 6959,
+  "stadium": 44209,
+  "track": 160776,
+  "winter_sports": 3579
+ },
+ "land_use_classes_left_out_by_name": {},
+ "groups": [
+  "stadiums and arenas",
+  "pitches and fields",
+  "courts",
+  "tracks and racecourses",
+  "golf",
+  "pools and water",
+  "rinks and snow",
+  "gyms and sports centres"
+ ],
+ "seconds": 3452
+}

@@ -1,0 +1,18 @@
+{
+ "from": "https://gladxfer.umd.edu/Potapov/Global_Crop/Data/Global_cropland_3km_2003.tif",
+ "values": [
+  0.0,
+  100.0
+ ],
+ "steps_percent": [
+  0,
+  5,
+  15,
+  30,
+  60
+ ],
+ "to_zoom": 6,
+ "squares": 983,
+ "bytes": 5152483,
+ "how": "mean"
+}

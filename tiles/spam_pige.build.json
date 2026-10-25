@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "PIGE"
+ ],
+ "hectares": 5578579.5,
+ "to_zoom": 5,
+ "squares": 51,
+ "bytes": 108989,
+ "how": "max"
+}

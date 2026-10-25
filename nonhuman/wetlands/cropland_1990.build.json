@@ -1,0 +1,8 @@
+{
+ "variable": "cropland",
+ "year": 1990,
+ "to_zoom": 4,
+ "squares": 118,
+ "bytes": 248940,
+ "how": "max"
+}

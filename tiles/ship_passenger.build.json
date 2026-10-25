@@ -1,0 +1,8 @@
+{
+ "from": "https://datacatalogfiles.worldbank.org/ddh-published/0037580/5/DR0045404/ShipDensity_Passenger.zip",
+ "file": "ShipDensity_Passenger1.tif",
+ "to_zoom": 7,
+ "squares": 2338,
+ "bytes": 3856376,
+ "how": "max"
+}

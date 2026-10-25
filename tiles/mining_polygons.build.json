@@ -1,0 +1,42 @@
+{
+ "tile_bytes": 500000,
+ "points_to": 6,
+ "zoom": 13,
+ "points_merged": false,
+ "points_whole": true,
+ "parts": [
+  {
+   "file": "mining_polygons.pmtiles",
+   "from": 7,
+   "to": 10,
+   "points": true,
+   "bytes": 96693148
+  },
+  {
+   "file": "mining_polygons_2.pmtiles",
+   "from": 11,
+   "to": 12,
+   "points": false,
+   "bytes": 74211847
+  },
+  {
+   "file": "mining_polygons_3.pmtiles",
+   "from": 13,
+   "to": 13,
+   "points": false,
+   "bytes": 64160994
+  }
+ ],
+ "outlines_by_zoom": {
+  "7": 185098,
+  "8": 188219,
+  "9": 190442,
+  "10": 192057,
+  "11": 192550,
+  "12": 192582,
+  "13": 192583
+ },
+ "no_outline_at_closest_zoom": [
+  "0444652"
+ ]
+}

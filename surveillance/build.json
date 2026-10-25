@@ -1,0 +1,50 @@
+{
+ "read": "2026-10-19",
+ "source": "Surveillance Watch (surveillancewatch.io), through its public API",
+ "endpoints": {
+  "entities": 1010,
+  "entity-types": 15,
+  "countries": 244,
+  "cities": 5930,
+  "funders": 1186,
+  "financial-markets": 24
+ },
+ "entities placed": 1005,
+ "not placed": [
+  "Catwatchful",
+  "ClayRat",
+  "Landfall",
+  "ProSpy",
+  "Sturnus"
+ ],
+ "links": 4177,
+ "entity fields seen": [
+  "_status",
+  "affiliations",
+  "affiliationsList",
+  "createdAt",
+  "description",
+  "domains",
+  "funders",
+  "harmIndex",
+  "harmIndexDescriptionOverride",
+  "hasDirectTargets",
+  "headquarters",
+  "headquartersCity",
+  "id",
+  "isNavigableCollection",
+  "marketInfo",
+  "name",
+  "otherData",
+  "path",
+  "providingTo",
+  "slug",
+  "slugToggle",
+  "sources",
+  "subsidiaries",
+  "surveilling",
+  "types",
+  "updatedAt"
+ ],
+ "surveilling, first entity, as given": "[]"
+}

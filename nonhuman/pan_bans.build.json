@@ -1,0 +1,35 @@
+{
+ "file": "https://pan-international.org/wp-content/uploads/PAN-Consolidated-List-of-Bans_2024_FINAL.xlsx",
+ "sheets": {
+  "Sheet1": {
+   "layout": "one column per country",
+   "heading row": 1,
+   "country columns": 152,
+   "ingredient column": "PAN INTERNATIONAL CONSOLDIATED LIST OF BANNED PESTICIDES                                        7th Edition, Dec 2024                                                                                                                       Key:                                                                                                 1.The primary source of information is in the little red flag on the country name; secondary sources are in individual entries.                                                         2. Entries in orange denote the country\nhas filled a \"No Consent to Import\" response under the Prior Informed Consent (PIC) Procedure of the \nRotterdam Convention. The Convention requires that if a country does not consent to the import of a pesticide, it also cannot produce it for domestic use.                                                                                      3. Blue: HHPs not approved in the EU and UK but not banned anywhere                                                                                             4. Green infill denotes pesticides new to the list this edition                                                                                     5. Pesticides that are considered to be obsolete are not included in this list                                                                              "
+  }
+ },
+ "countries": 134,
+ "unplaced": [
+  "CAP-VERT",
+  "CAS No",
+  "EU -  not approved (at 22/08/2024)",
+  "EU - listed as banned by EU-PIC-Reg. (at 22/08/2024",
+  "FRANCE (in addtion to EU)",
+  "IRAQ, Islamic State of",
+  "JMPM HHPs (i.e. based on JMPM criteria 1-7)",
+  "KOREA (North), Democratic People's Republic of",
+  "KOREA (South), Republic of",
+  "LAO PDR",
+  "LUXEMBOURG (in addtion to EU bans)",
+  "PAN HHP",
+  "SWEDEN (in addition to EU)",
+  "TOTAL BANS PER ACTIVE INGREDIENT",
+  "UK -  not approved (at 22/08/2024)",
+  "UNITED KINGDOM (UK)",
+  "UNITEDARAB EMIRATES",
+  "USA - Voluntary withdrawal of registrtaion"
+ ],
+ "ingredients": 572,
+ "failed": false,
+ "made": "2026-10-24T13:31:53Z"
+}

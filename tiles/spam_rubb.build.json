@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "RUBB"
+ ],
+ "hectares": 11943576.0,
+ "to_zoom": 5,
+ "squares": 88,
+ "bytes": 187845,
+ "how": "max"
+}

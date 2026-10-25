@@ -1,0 +1,17 @@
+{
+ "file": "InvaCost_database_v4.1.xlsx",
+ "article version": 5,
+ "rows": 13553,
+ "columns used": {
+  "country": "Official_country",
+  "start": "Probable_starting_year_adjusted",
+  "end": "Probable_ending_year_adjusted",
+  "cost": "Cost_estimate_per_year_2017_USD_exchange_rate",
+  "implementation": "Implementation",
+  "reliability": "Method_reliability",
+  "species": "Species"
+ },
+ "countries": 171,
+ "unplaced names": 9,
+ "made": "2026-10-24T13:23:58Z"
+}

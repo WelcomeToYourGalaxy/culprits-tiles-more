@@ -1,0 +1,41 @@
+{
+ "series read": {
+  "VA.SC": 5652,
+  "VA.SC_LB": 5652,
+  "VA.SC_UB": 5652,
+  "VA.EST": 5652,
+  "PV.SC": 5644,
+  "PV.SC_LB": 5644,
+  "PV.SC_UB": 5644,
+  "PV.EST": 5644,
+  "GE.SC": 5553,
+  "GE.SC_LB": 5553,
+  "GE.SC_UB": 5553,
+  "GE.EST": 5553,
+  "RQ.SC": 5554,
+  "RQ.SC_LB": 5554,
+  "RQ.SC_UB": 5554,
+  "RQ.EST": 5554,
+  "RL.SC": 5691,
+  "RL.SC_LB": 5691,
+  "RL.SC_UB": 5691,
+  "RL.EST": 5691,
+  "CC.SC": 5588,
+  "CC.SC_LB": 5588,
+  "CC.SC_UB": 5588,
+  "CC.EST": 5588
+ },
+ "countries": 208,
+ "not placed (regions and groups)": [
+  "French Guiana",
+  "Kosovo",
+  "Martinique",
+  "Monaco",
+  "Naoero",
+  "Netherlands Antilles",
+  "Reunion",
+  "Tuvalu"
+ ],
+ "failed": false,
+ "made": "2026-10-24T13:54:36Z"
+}

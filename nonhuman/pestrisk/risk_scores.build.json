@@ -1,0 +1,20 @@
+{
+ "crs": "EPSG:4326",
+ "size": [
+  1681,
+  4306
+ ],
+ "cell": 0.08333333333333333,
+ "nodata": null,
+ "min": -2.0,
+ "max": 6.101684700815551,
+ "distinct values": 905033,
+ "tenths cut at": [
+  -1.0,
+  1.387514757182144
+ ],
+ "to_zoom": 4,
+ "squares": 257,
+ "bytes": 514046,
+ "how": "max"
+}

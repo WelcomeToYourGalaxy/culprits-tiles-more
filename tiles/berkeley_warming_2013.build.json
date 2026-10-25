@@ -1,0 +1,8 @@
+{
+ "year": 2013,
+ "source": "https://berkeley-earth-temperature.s3.us-west-1.amazonaws.com/Global/Gridded/Land_and_Ocean_LatLong1.nc",
+ "to_zoom": 4,
+ "squares": 341,
+ "bytes": 492410,
+ "how": "max"
+}

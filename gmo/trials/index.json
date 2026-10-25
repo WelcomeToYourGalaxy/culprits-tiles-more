@@ -1,0 +1,222 @@
+{
+"Alaska": {
+"code": "AK",
+"records": 6
+},
+"Alabama": {
+"code": "AL",
+"records": 474
+},
+"Arkansas": {
+"code": "AR",
+"records": 1113
+},
+"American Samoa": {
+"code": "AS",
+"records": 1
+},
+"Arizona": {
+"code": "AZ",
+"records": 563
+},
+"California": {
+"code": "CA",
+"records": 2622
+},
+"Colorado": {
+"code": "CO",
+"records": 432
+},
+"Connecticut": {
+"code": "CT",
+"records": 310
+},
+"District of Columbia": {
+"code": "DC",
+"records": 2
+},
+"Delaware": {
+"code": "DE",
+"records": 414
+},
+"Florida": {
+"code": "FL",
+"records": 1309
+},
+"Georgia": {
+"code": "GA",
+"records": 1148
+},
+"Hawaii": {
+"code": "HI",
+"records": 4263
+},
+"Iowa": {
+"code": "IA",
+"records": 3684
+},
+"Idaho": {
+"code": "ID",
+"records": 860
+},
+"Illinois": {
+"code": "IL",
+"records": 3920
+},
+"Indiana": {
+"code": "IN",
+"records": 2111
+},
+"Kansas": {
+"code": "KS",
+"records": 1214
+},
+"Kentucky": {
+"code": "KY",
+"records": 382
+},
+"Louisiana": {
+"code": "LA",
+"records": 568
+},
+"Massachusetts": {
+"code": "MA",
+"records": 42
+},
+"Maryland": {
+"code": "MD",
+"records": 796
+},
+"Maine": {
+"code": "ME",
+"records": 152
+},
+"Michigan": {
+"code": "MI",
+"records": 796
+},
+"Minnesota": {
+"code": "MN",
+"records": 1746
+},
+"Missouri": {
+"code": "MO",
+"records": 1356
+},
+"Northern Mariana Islands": {
+"code": "MP",
+"records": 3
+},
+"Mississippi": {
+"code": "MS",
+"records": 1401
+},
+"Montana": {
+"code": "MT",
+"records": 184
+},
+"North Carolina": {
+"code": "NC",
+"records": 1010
+},
+"North Dakota": {
+"code": "ND",
+"records": 729
+},
+"Nebraska": {
+"code": "NE",
+"records": 2043
+},
+"New Hampshire": {
+"code": "NH",
+"records": 2
+},
+"New Jersey": {
+"code": "NJ",
+"records": 285
+},
+"New Mexico": {
+"code": "NM",
+"records": 67
+},
+"Nevada": {
+"code": "NV",
+"records": 4
+},
+"New York": {
+"code": "NY",
+"records": 520
+},
+"Ohio": {
+"code": "OH",
+"records": 826
+},
+"Oklahoma": {
+"code": "OK",
+"records": 228
+},
+"Oregon": {
+"code": "OR",
+"records": 493
+},
+"Pennsylvania": {
+"code": "PA",
+"records": 493
+},
+"Puerto Rico": {
+"code": "PR",
+"records": 4490
+},
+"Rhode Island": {
+"code": "RI",
+"records": 27
+},
+"South Carolina": {
+"code": "SC",
+"records": 758
+},
+"South Dakota": {
+"code": "SD",
+"records": 763
+},
+"Tennessee": {
+"code": "TN",
+"records": 939
+},
+"Texas": {
+"code": "TX",
+"records": 1393
+},
+"Utah": {
+"code": "UT",
+"records": 92
+},
+"Virginia": {
+"code": "VA",
+"records": 319
+},
+"US Virgin Islands": {
+"code": "VI",
+"records": 28
+},
+"Vermont": {
+"code": "VT",
+"records": 2
+},
+"Washington": {
+"code": "WA",
+"records": 545
+},
+"Wisconsin": {
+"code": "WI",
+"records": 1457
+},
+"West Virginia": {
+"code": "WV",
+"records": 51
+},
+"Wyoming": {
+"code": "WY",
+"records": 58
+}
+}

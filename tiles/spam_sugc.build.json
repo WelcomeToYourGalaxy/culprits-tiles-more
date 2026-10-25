@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "SUGC"
+ ],
+ "hectares": 26065116.0,
+ "to_zoom": 5,
+ "squares": 156,
+ "bytes": 382967,
+ "how": "max"
+}

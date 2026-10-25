@@ -1,0 +1,8 @@
+{
+ "variable": "wetland_loss",
+ "year": 2000,
+ "to_zoom": 4,
+ "squares": 163,
+ "bytes": 345610,
+ "how": "max"
+}

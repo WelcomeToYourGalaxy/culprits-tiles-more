@@ -1,0 +1,11 @@
+{
+ "read": "2026-10-25",
+ "credit": "Giga (UNICEF and ITU), shared under a share-alike licence as Giga asks",
+ "done": {},
+ "refused": {},
+ "countries": 249,
+ "probe": {
+  "refused": "HTTPError: HTTP Error 401: Unauthorized",
+  "answer": "{\"detail\":\"Incorrect authentication credentials.\"}"
+ }
+}

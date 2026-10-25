@@ -1,0 +1,56 @@
+{
+ "risk_scores": {
+  "crs": "EPSG:4326",
+  "size": [
+   1681,
+   4306
+  ],
+  "cell": 0.08333333333333333,
+  "nodata": null,
+  "min": -2.0,
+  "max": 6.101684700815551,
+  "distinct values": 905033,
+  "tenths cut at": [
+   -1.0,
+   1.387514757182144
+  ]
+ },
+ "regions_of_concern": {
+  "crs": "EPSG:4326",
+  "size": [
+   1681,
+   4306
+  ],
+  "cell": 0.08333333333333333,
+  "nodata": null,
+  "min": -2.0,
+  "max": 4.0,
+  "distinct values": 6,
+  "values": [
+   -2,
+   -1,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "ingredient_counts": {
+  "crs": "EPSG:4326",
+  "size": [
+   1681,
+   4306
+  ],
+  "cell": 0.08333333333333333,
+  "nodata": null,
+  "min": -2.0,
+  "max": 43.0,
+  "distinct values": 46,
+  "tenths cut at": [
+   -1.0,
+   2.0
+  ]
+ },
+ "failed": false,
+ "made": "2026-10-16T23:16:17Z"
+}

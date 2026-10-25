@@ -1,0 +1,25 @@
+{
+ "ea_enforcement": {
+  "rows": 7697,
+  "placed": 7080,
+  "no_postcode_in_address": 497,
+  "postcode_not_found": 120,
+  "licence": "Open Government Licence v3.0 (the download's own licence file)"
+ },
+ "epa_cases": {
+  "cases": 137026,
+  "points": 190759,
+  "cases_placed": 126998,
+  "no_facility_named": 997,
+  "no_zip_found": 9031,
+  "zip_centres": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
+  "licence": "US government work (public domain)"
+ },
+ "at": 0,
+ "when": "2026-10-25",
+ "errors": {
+  "ea_enforcement": "[Errno 18] Invalid cross-device link: '/tmp/tmpp1m9oad6/ea_enforcement.pmtiles' -> 'tiles/ea_enforcement.pmtiles'",
+  "canada_offenders": "No module named 'openpyxl'",
+  "epa_cases": "[Errno 18] Invalid cross-device link: '/tmp/tmp0klgo50o/epa_cases.pmtiles' -> 'tiles/epa_cases.pmtiles'"
+ }
+}

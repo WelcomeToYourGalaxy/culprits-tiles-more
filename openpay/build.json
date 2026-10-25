@@ -1,0 +1,57 @@
+{
+ "read": "2026-10-19",
+ "years": {
+  "2019": {
+   "dataset": "4e54dd6c-30f8-4f86-86a7-3c109a89528e",
+   "read_on": null,
+   "note": "read by an earlier run that stopped before writing its record"
+  },
+  "2020": {
+   "dataset": "a08c4b30-5cf3-4948-ad40-36f404619019",
+   "read_on": null,
+   "note": "read by an earlier run that stopped before writing its record"
+  },
+  "2021": {
+   "dataset": "0380bbeb-aea1-58b6-b708-829f92a48202",
+   "read_on": null,
+   "note": "read by an earlier run that stopped before writing its record"
+  },
+  "2022": {
+   "dataset": "df01c2f8-dc1f-4e79-96cb-8208beaf143c",
+   "read_on": "2026-10-08",
+   "rows": 39737,
+   "states": 58,
+   "total_paid": 3845496174
+  },
+  "2023": {
+   "dataset": "fb3a65aa-c901-4a38-a813-b04b00dfa2a9",
+   "read_on": "2026-10-12",
+   "rows": 41152,
+   "states": 60,
+   "total_paid": 3328079280
+  },
+  "2024": {
+   "dataset": "e6b17c6a-2534-4207-a4a1-6746a14911ff",
+   "read_on": "2026-10-15",
+   "rows": 41608,
+   "states": 60,
+   "total_paid": 3424344413
+  },
+  "2025": {
+   "dataset": "fb0b1734-1410-429d-92f6-3f4b35218e5e",
+   "read_on": "2026-10-19",
+   "rows": 41929,
+   "states": 60,
+   "total_paid": 3923550963
+  }
+ },
+ "refused": {},
+ "waiting": [],
+ "features": 389,
+ "states_without_a_shape": [
+  "(no state)",
+  "AA",
+  "AE",
+  "AP"
+ ]
+}
