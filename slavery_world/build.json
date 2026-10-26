@@ -1,5 +1,5 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-26",
  "pages": {
   "https://data.unodc.org/dp-trafficking-persons": "HTTP Error 404: Not Found"
  },
@@ -100,9 +100,7 @@
   "Persons prosecuted — Total 0 to 17 years": 223
  },
  "cbp": {
-  "not_read": "HTTP Error 403: Forbidden",
-  "from": "https://raw.githubusercontent.com/WelcomeToYourGalaxy/anti-slavery-map/main/projects.json",
-  "placed": 74,
+  "placed": 0,
   "not_placed": []
  }
 }
