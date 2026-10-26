@@ -1,0 +1,160 @@
+{
+ "type": "FeatureCollection",
+ "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+ "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+ "week": "2026-10-05",
+ "total": "",
+ "unplaced": [
+  "In Phuket, Thailand",
+  "Carrier Strike Group 10",
+  "Carrier Strike Group 9",
+  "Carrier Strike Group 3",
+  "Carrier Strike Group 5"
+ ],
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138,
+     36
+    ]
+   },
+   "properties": {
+    "name": "In Japan",
+    "said": "USS Tripoli (LHA-7) is in port in Sasebo, Japan.",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -160,
+     0
+    ]
+   },
+   "properties": {
+    "name": "In the Pacific Ocean",
+    "said": "Aircraft carrier USS Theodore Roosevelt (CVN-71) is transiting the Pacific Ocean in U.S. 3rd Fleet westward on deployment.\n\nCarrier Strike Group 9 is composed of Theodore Roosevelt , Carrier Air Wing (CVW) 11, Destroyer Squadron 23, Information Warfare Squadron 9 and Ticonderoga-class guided-missile cruiser USS Chosin (CG-65).",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75,
+     15
+    ]
+   },
+   "properties": {
+    "name": "In the Caribbean",
+    "said": "Littoral combat ship USS Minneapolis–Saint Paul (LCS-21) is operating in the Central Caribbean Sea. The Freedom-class LCS is based at Naval Station Mayport, Fla.\n\nUSS St. Louis (LCS-19) is in port in the Bahamas.",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18,
+     35
+    ]
+   },
+   "properties": {
+    "name": "In the Mediterranean Sea",
+    "said": "The independently deployed guided-missile destroyers operating in the Mediterranean Sea include:\n\nThree destroyers are in port in Rota, Spain:",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.5,
+     20
+    ]
+   },
+   "properties": {
+    "name": "In the Red Sea",
+    "said": "There are three guided-missile destroyers operating in the Red Sea:",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     63,
+     15
+    ]
+   },
+   "properties": {
+    "name": "In the Arabian Sea",
+    "said": "Aircraft carrier USS George Washington (CVN-73), along with embarked Carrier Air Wing (CVW) 5 and USS Shoup (DDG-86), are operating in the Arabian Sea in support of U.S. operations against Iran.",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -120,
+     10
+    ]
+   },
+   "properties": {
+    "name": "In the Eastern Pacific",
+    "said": "USS Ronald Reagan (CVN 76) Nimitz-class aircraft carrier passing Seattle leaving Bremerton, Washington and heading north in Puget Sound – September 30, 2026 SRC: FB- Port Orchard / Tina Overley Holmes pic.twitter.com/ijQxBnfSIW\n\n— WarshipCam (@WarshipCam) September 30, 2026\n\nAircraft carrier USS Ronald Reagan (CVN-76) departed Wednesday from Bremerton, Wash., and arrived Monday in San Diego, according to ship spotters.\n\nUSS Gridley (DDG-101), homeported at Naval Station Everett, Wash., is operating off the coast of Southern California.",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70,
+     32
+    ]
+   },
+   "properties": {
+    "name": "In the Western Atlantic",
+    "said": "USS Dwight D. Eisenhower (CVN 69) Nimitz-class aircraft carrier coming into Norfolk, Virginia after the September 28 incident that injured four sailors and resulted in the loss of a EA-18G Growler. According to Naval Air Force Atlantic, the return to port will “allow for a… pic.twitter.com/ELk3hDmGSQ\n\n— WarshipCam (@WarshipCam) October 5, 2026\n\nAircraft carrier USS Dwight D. Eisenhower (CVN-69) arrived Monday in Norfolk, Va., following the loss of an EA-18G Growler due to a carrier launch and recovery system mishap on Sept. 28. The mishap occurred during an underway in the Western Atlantic.\n\nUSS San Antonio (LPD-17) is operating off the coast of Virginia. The amphibious ship previously operated in the Caribbean with elements of the 24th Marine Expeditionary Unit as Littoral Combat Force 24.\n\nIn addition to these major formations, not shown are others serving in submarines, individual surface ships, aircraft squadrons, SEALs, Special Purpose Marine Air-Ground Task Forces, Seabees, EOD Mobile Units and more throughout the globe.",
+    "week": "2026-10-05",
+    "article": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
+    "title": "USNI News Fleet and Marine Tracker: Oct. 5, 2026",
+    "position": "the middle of the area USNI names; USNI gives no coordinates"
+   }
+  }
+ ]
+}
