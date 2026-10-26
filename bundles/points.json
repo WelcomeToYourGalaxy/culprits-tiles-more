@@ -1,5 +1,5 @@
 {
- "built": "2026-10-25 15:32 UTC",
+ "built": "2026-10-26 18:21 UTC",
  "bundles": [
   {
    "file": "tiles/points_bundle_1.pmtiles",
@@ -12,7 +12,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 8,
-   "bytes": 55518449
+   "bytes": 55518450
   },
   {
    "file": "tiles/points_bundle_2.pmtiles",
@@ -22,7 +22,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 9,
-   "bytes": 34530687
+   "bytes": 34530688
   },
   {
    "file": "tiles/points_bundle_3.pmtiles",
@@ -33,7 +33,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 12,
-   "bytes": 68159976
+   "bytes": 68159977
   },
   {
    "file": "tiles/points_bundle_4.pmtiles",
@@ -46,7 +46,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 12,
-   "bytes": 65864509
+   "bytes": 65864510
   },
   {
    "file": "tiles/points_bundle_5.pmtiles",
@@ -87,7 +87,7 @@
    ],
    "minzoom": 0,
    "maxzoom": 12,
-   "bytes": 61483557
+   "bytes": 61483558
   }
  ],
  "left_out": [
@@ -214,7 +214,7 @@
  ],
  "members": {
   "carbon_bombs": "31b964601fa4b726cee3340ca6051c3df861eb8671f7d1813033d7d7f7f9725d",
-  "carbon_majors": "d86b87402b731818470c94e0cf2f6157750faf25dadb27a0ac19f5be3ec9f11e",
+  "carbon_majors": "310a2ff2fa62642f01cf4e0e98f90f7fb9379e43925a60dd4217d1aa499bd51e",
   "fertilizer_facilities": "e876725a0b1895348ceff0661f898811a902891fb96a1a98b7b0d658ce41fa99",
   "soy_organizations": "5b057c5153ec9fa98a7aa4850994a9698862fd9a4fd9fa4ce10dba410ed6cb8b",
   "epa_tri_sites": "5c04f7a55345932a5d2dcf4905ac30727a3eebbb97bbc316bf791f23daa3bc71",
@@ -223,8 +223,8 @@
   "wastewater_n_septic": "51e5b0d83b425b7c3958f35b08346d94dd410cf3482977668d85422cbc72035d",
   "wastewater_n_open": "749682f4696b0a20f4d1dd0922595767a3943e0e7793ba5315f4f24ccd92f1a9",
   "hydrowaste": "49e91e490b50243e36819def0dd13faf42387680d50c58d76c264e1f944ba6d0",
-  "slavery_sites": "b8dec7f7b4d493b842d671793456372be3952b1acb2b9d47a52ff009dead32af",
-  "slavery_ports": "7d40753e6cfc1b987a259a84614401d9890d0365c0ec921f476292a0b52c984d",
+  "slavery_sites": "9fe5a84d75e5f01d5524915419dd559c451df1a97d4fa59f1a69dae16a03c980",
+  "slavery_ports": "dabbad4778821ddabc583e726ddbf8f46818127b5c9ecf3e39b80b77dd54bf69",
   "slavery_fishing": "dc5df79a01281f3855462df4e943e13a41e71b62f62b8d156153931086f2a80c",
   "exec_ministry": "aca1d0012be96748d1bd0903d4d97c3adf2ad74b0ef50e9129304d56ee906f48",
   "exec_diplomatic": "42c71ebb5f5d9fb983f6d3c05f82692fe70fbb34b2f7127a3c09760fde3d63fd",
