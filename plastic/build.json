@@ -1,9 +1,9 @@
 {
- "read": "2026-10-19",
- "features": 204,
+ "read": "2026-10-26",
+ "features": 142,
  "by_company": {
   "The Coca-Cola Company": {
-   "Wikidata": 27,
+   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Nestlé": {
@@ -27,7 +27,7 @@
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Procter & Gamble": {
-   "Wikidata": 16,
+   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Danone": {
@@ -39,7 +39,7 @@
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "British American Tobacco": {
-   "Wikidata": 19,
+   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   }
  },
