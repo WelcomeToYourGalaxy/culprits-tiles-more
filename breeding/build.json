@@ -1,25 +1,25 @@
 {
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "zoos": {
-  "places": 11024,
+  "places": 10806,
   "kinds": {
-   "zoo": 5258,
-   "petting zoo": 2124,
-   "aquarium": 1714,
-   "wildlife park": 656,
-   "enclosure": 532,
-   "aviary": 278,
-   "safari park": 120,
-   "birds": 91,
+   "zoo": 5249,
+   "petting zoo": 2037,
+   "aquarium": 1666,
+   "wildlife park": 633,
+   "enclosure": 518,
+   "aviary": 265,
+   "safari park": 106,
+   "birds": 90,
    "butterfly": 76,
-   "falconry": 65,
-   "reptile": 56,
+   "falconry": 66,
+   "reptile": 51,
    "farm park": 9,
-   "thematic area": 7,
    "insectarium": 4,
    "small animal": 3,
    "turtle": 3,
    "marine": 2,
+   "thematic area": 2,
    "wildlife park;enclosure": 2,
    "reptile;monkey": 1,
    "wildlife sanctuary": 1,
@@ -40,11 +40,11 @@
    "wildlife": 1,
    "tortoises": 1,
    "sanctuary": 1,
+   "reptile;insectarium": 1,
    "aviary.": 1,
    "seal": 1,
    "rabbit": 1,
-   "farm animals": 1,
-   "birds;butterfly": 1
+   "farm animals": 1
   }
  },
  "zoos_kml": {
@@ -388,6 +388,6 @@
    "breeding turtle;dove": 1,
    "breeding koala": 1
   },
-  "kept_from": "2026-10-24"
+  "kept_from": "2026-10-25"
  }
 }
