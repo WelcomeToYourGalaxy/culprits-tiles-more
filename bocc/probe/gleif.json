@@ -6059,6 +6059,39 @@
    }
   },
   {
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
    "lei": "2138007AN6K7FAAWVY22",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
@@ -6127,39 +6160,6 @@
   {
    "lei": "213800SUKVY8V67W2Y36",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7060,6 +7060,39 @@
    }
   },
   {
+   "lei": "213800GPB7NYZQPOAT64",
+   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
    "lei": "213800PHORTTEXG59989",
    "legal_name": "RBS HOLDINGS USA INC.",
    "status": "ACTIVE",
@@ -7095,39 +7128,6 @@
   {
    "lei": "213800LFIK7QRGP8UY79",
    "legal_name": "RBS COMMERCIAL FUNDING INC.",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CORPORATION SERVICE COMPANY",
-     "251 LITTLE FALLS DRIVE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "WILMINGTON",
-    "region": "US-DE",
-    "country": "US",
-    "postalCode": "19808"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O NATWEST GROUP PLC",
-     "600 WASHINGTON BOULEVARD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "STAMFORD",
-    "region": "US-CT",
-    "country": "US",
-    "postalCode": "06901"
-   }
-  },
-  {
-   "lei": "213800GPB7NYZQPOAT64",
-   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
