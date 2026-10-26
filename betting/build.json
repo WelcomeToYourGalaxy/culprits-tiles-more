@@ -1,5 +1,5 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-26",
  "kinds": {
   "Q664702": "bookmaker",
   "Q7366867": "sportsbook",
@@ -55,7 +55,7 @@
   "Q117445087": "nelegální hazardní hry"
  },
  "items": 339,
- "placed": 286,
+ "placed": 285,
  "not_placed": [
   "10bet South Africa",
   "10bet.com",
@@ -70,7 +70,7 @@
   "Development Lotteries Board",
   "Dicey",
   "Dimers",
-  "Duel.com",
+  "Duel",
   "Duelbits",
   "Entain",
   "EuroMillions",
@@ -80,6 +80,7 @@
   "Grosvenor Casinos",
   "Hazarat",
   "MERKUR Slots",
+  "MagicMarkets",
   "ManBetX",
   "McLuck.com",
   "National Lotteries Board",
