@@ -1,6 +1,32 @@
 {
- "built": "2026-10-19 16:54 UTC",
- "plumes": 34699,
- "top50": 450,
- "climate_trace": "not read: HTTPError: HTTP Error 502: Bad Gateway"
+ "built": "2026-10-26 16:23 UTC",
+ "plumes": 34970,
+ "top50": 500,
+ "climate_trace": {
+  "pages": 400,
+  "sites with an owner": 5073,
+  "owners": 3195,
+  "top owners": [
+   "National Iranian Oil Co",
+   "CNOOC Ltd",
+   "LUKOIL PJSC",
+   "Bogatyr Komir LLP",
+   "Exxon Mobil Corp",
+   "PT Pertamina (Persero) PT",
+   "PetroChina Co Ltd",
+   "Eni SpA",
+   "Basra Energy Co",
+   "Sonangol EP",
+   "SUEK-Kuzbass JSC",
+   "NNPC Ltd",
+   "Repsol SA",
+   "DTEK Pavlogradugol PJSC",
+   "Exxaro Coal Pty Ltd",
+   "Peabody Powder River Mining LLC",
+   "BHP Mitsubishi Alliance ",
+   "Occidental Petroleum Corp",
+   "Pakistan Petroleum Ltd",
+   "Sasol Mining Pty Ltd"
+  ]
+ }
 }
