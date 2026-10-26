@@ -1,12 +1,12 @@
 {
  "read": 22729,
  "total_said": 22729,
- "rated": 1315,
- "points": 8612,
+ "rated": 1323,
+ "points": 8618,
  "placed_by_aiddata": 479,
- "placed_at_country": 763,
+ "placed_at_country": 769,
  "aiddata": "https://raw.githubusercontent.com/AidData-WM/public_datasets/master/geocoded/WorldBank_GeocodedResearchRelease_Level1_v1.4.2.zip",
- "not_placed": 73,
+ "not_placed": 75,
  "fields": [
   "boardapprovaldate",
   "borrower",
@@ -32,5 +32,5 @@
   "totalcommamt",
   "url"
  ],
- "date": "2026-10-19"
+ "date": "2026-10-26"
 }
