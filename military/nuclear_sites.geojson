@@ -213,27 +213,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.864722,
-     41.144167
-    ]
-   },
-   "properties": {
-    "name": "F.E. Warren Air Force Base",
-    "country": "United States (Wyoming)",
-    "what the Nuclear Notebook says": "ICBM base",
-    "status": "stored",
-    "source": "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
-    "summary of all states' arsenals": "https://fas.org/initiative/status-world-nuclear-forces/",
-    "position": "Wikidata's coordinates for Francis E. Warren Air Force Base (Q1956149); the Notebook gives none",
-    "wikidata": "https://www.wikidata.org/wiki/Q1956149",
-    "group": "weapons stored (estimated)"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -111.20556,
      47.50833
     ]
