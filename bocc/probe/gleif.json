@@ -4130,35 +4130,3898 @@
    }
   }
  ],
- "ING Groep": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Societe Generale": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Credit Agricole": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Banco Bilbao Vizcaya Argentaria": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Industrial Bank Co., Ltd.": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "BNP Paribas": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Agricultural Bank of China": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Shanghai Pudong Development Bank": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "BPCE": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "China Everbright Group": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "China Everbright Bank": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Capital One Financial Corporation": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "State Bank of India": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Intesa Sanpaolo": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Bank of Beijing": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "UniCredit": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "China Minsheng Banking Corp": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "DBS Group Holdings": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Ping An Insurance (Group) Company of China": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "UBS Group AG": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Bank of Jiangsu": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Cooperatieve Rabobank": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "NatWest Group plc": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Commerzbank AG": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Australia and New Zealand Banking Group": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Bank of Communications": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "KB Financial Group": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "Lloyds Banking Group plc": "not read (<urlopen error [Errno 101] Network is unreachable>)",
- "DZ BANK AG": "not read (<urlopen error [Errno 101] Network is unreachable>)",
+ "ING Groep": [
+  {
+   "lei": "549300NYKK9MWM7GGW15",
+   "legal_name": "ING GROEP N.V.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "nl",
+    "addressLines": [
+     "BIJLMERDREEF 106"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "AMSTERDAM",
+    "region": "NL-NH",
+    "country": "NL",
+    "postalCode": "1102 CT"
+   },
+   "headquarters_address": {
+    "language": "nl",
+    "addressLines": [
+     "BIJLMERDREEF 106"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "AMSTERDAM",
+    "region": "NL-NH",
+    "country": "NL",
+    "postalCode": "1102 CT"
+   }
+  },
+  {
+   "lei": "254900X9FOBJZXUTZM84",
+   "legal_name": "ING Groep NV ADRhedged(TM)",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CAPITOL SERVICES, INC.",
+     "108 LAKELAND AVE."
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "DOVER",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19901"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O Precidian Funds LLC",
+     "350 Main Street",
+     "Suite 9"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Bedminster",
+    "region": "US-NJ",
+    "country": "US",
+    "postalCode": "07921"
+   }
+  }
+ ],
+ "Societe Generale": [
+  {
+   "lei": "636700M35OJC0JTZYE69",
+   "legal_name": "BOURSO LIQUIDITE (PEA)",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 Boulevard Haussmann"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 Boulevard Haussmann"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   }
+  },
+  {
+   "lei": "6367007ISLF5V6ZEJP88",
+   "legal_name": "Bourso Europe",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   }
+  },
+  {
+   "lei": "636700P3Y9I9KCGUWH64",
+   "legal_name": "Bourso France",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   }
+  },
+  {
+   "lei": "636700DD0CHFOFFWAQ33",
+   "legal_name": "Bourso Tech",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   }
+  },
+  {
+   "lei": "636700Q1AIJRSHYQHQ61",
+   "legal_name": "Bourso US",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O Société Générale Investment Solutions (France)",
+     "29 BOULEVARD HAUSSMANN"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O Société Générale Investment Solutions (France)",
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75009"
+   }
+  }
+ ],
+ "Credit Agricole": [
+  {
+   "lei": "9695002V5WQ72MR8M993",
+   "legal_name": "CADS DEVELOPPEMENT",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "AVENUE DE LA MOTTE SERVOLEX",
+     "CREDIT AGRICOLE DES SAVOIE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "CHAMBERY",
+    "region": "FR-73",
+    "country": "FR",
+    "postalCode": "73000"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "AVENUE DE LA MOTTE SERVOLEX",
+     "CREDIT AGRICOLE DES SAVOIE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "CHAMBERY",
+    "region": "FR-73",
+    "country": "FR",
+    "postalCode": "73000"
+   }
+  },
+  {
+   "lei": "969500JZG3KYA2ZWSZ62",
+   "legal_name": "HOLDING NS IMMOBILIER",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "CHE DE LA BRETEQUE",
+     "CITE AGRICULTURE IMM CREDIT AGRICOLE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BOIS-GUILLAUME",
+    "region": "FR-76",
+    "country": "FR",
+    "postalCode": "76230"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "CHE DE LA BRETEQUE",
+     "CITE AGRICULTURE IMM CREDIT AGRICOLE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BOIS-GUILLAUME",
+    "region": "FR-76",
+    "country": "FR",
+    "postalCode": "76230"
+   }
+  },
+  {
+   "lei": "969500SRQKP7167VWF70",
+   "legal_name": "CAISSE REGIONALE DE CREDIT AGRICOLE MUTUEL DE LA REUNION ET DE MAYOTTE",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "LOT DES LAURIERS",
+     "PARC JEAN DE CAMBIAIRE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SAINT DENIS",
+    "region": "FR-974",
+    "country": "FR",
+    "postalCode": "97400"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "LOT DES LAURIERS",
+     "PARC JEAN DE CAMBIAIRE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SAINT DENIS",
+    "region": "FR-974",
+    "country": "FR",
+    "postalCode": "97400"
+   }
+  },
+  {
+   "lei": "969500AH97I4VXX75B91",
+   "legal_name": "SANTEFFI",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "1 RUE PIERRE DE TRUCHIS DE LAYS",
+     "CAMPUS CREDIT AGRICOLE BATIMENT F"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "CHAMPAGNE-AU-MONT-D OR",
+    "region": "FR-69",
+    "country": "FR",
+    "postalCode": "69410"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "1 RUE PIERRE DE TRUCHIS DE LAYS",
+     "CAMPUS CREDIT AGRICOLE BATIMENT F"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "CHAMPAGNE-AU-MONT-D OR",
+    "region": "FR-69",
+    "country": "FR",
+    "postalCode": "69410"
+   }
+  },
+  {
+   "lei": "969500BXHPU34GK9M589",
+   "legal_name": "PAYMED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "1 RUE PIERRE DE TRUCHIS DE LAYS",
+     "CAMPUS CREDIT AGRICOLE BATIMENT F"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "CHAMPAGNE-AU-MONT-D OR",
+    "region": "FR-69",
+    "country": "FR",
+    "postalCode": "69410"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "1 RUE PIERRE DE TRUCHIS DE LAYS",
+     "CAMPUS CREDIT AGRICOLE BATIMENT F"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "CHAMPAGNE-AU-MONT-D OR",
+    "region": "FR-69",
+    "country": "FR",
+    "postalCode": "69410"
+   }
+  }
+ ],
+ "Banco Bilbao Vizcaya Argentaria": [
+  {
+   "lei": "5493007O7UXIOZ2RV630",
+   "legal_name": "SCOTIABANK AZUL BANCO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "Torre A",
+     "Avenida Costanera Sur 2710",
+     "Parque Titanium",
+     "Las Condes"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Santiago",
+    "region": "CL-RM",
+    "country": "CL",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Torre A",
+     "Avenida Costanera Sur 2710",
+     "Parque Titanium",
+     "Las Condes"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Santiago",
+    "region": "CL-RM",
+    "country": "CL",
+    "postalCode": null
+   }
+  },
+  {
+   "lei": "5493009W53901OCHI065",
+   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA S.A.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "Piso 9"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Bogota",
+    "region": "CO-DC",
+    "country": "CO",
+    "postalCode": "110221"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Piso 9"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Bogota",
+    "region": "CO-DC",
+    "country": "CO",
+    "postalCode": "110221"
+   }
+  },
+  {
+   "lei": "549300QD1160SR6LNZ76",
+   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA (PORTUGAL) S.A.",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "pt",
+    "addressLines": [
+     "AVENIDA DA LIBERDADE, N.º 222",
+     "SANTO ANTÓNIO"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LISBON",
+    "region": "PT-11",
+    "country": "PT",
+    "postalCode": "1250-148"
+   },
+   "headquarters_address": {
+    "language": "pt",
+    "addressLines": [
+     "AVENIDA DA LIBERDADE, N.º 222",
+     "SANTO ANTÓNIO"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LISBON",
+    "region": "PT-11",
+    "country": "PT",
+    "postalCode": "1250-148"
+   }
+  },
+  {
+   "lei": "894500U247KEMA0HHP26",
+   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA S.A (Paris Branch)",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "29 AVENUE DE L'OPERA"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PARIS",
+    "region": null,
+    "country": "FR",
+    "postalCode": "75001"
+   },
+   "headquarters_address": {
+    "language": "es",
+    "addressLines": [
+     "4 PLAZA DE SAN NICOLAS"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BILBAO",
+    "region": null,
+    "country": "ES",
+    "postalCode": "48005"
+   }
+  },
+  {
+   "lei": "5493000ITT4HB63XLV65",
+   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA, SA LONDON BRANCH",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "ONE CANADA SQUARE 44TH FLOOR"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "E14 5AA"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "PLAZA DE SAN NICOLAS, 4"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BILBAO",
+    "region": "ES-BI",
+    "country": "ES",
+    "postalCode": "48005"
+   }
+  }
+ ],
+ "Industrial Bank Co., Ltd.": [
+  {
+   "lei": "549300I6T5EMYLOLK711",
+   "legal_name": "China Industrial Bank Co., Ltd.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "PO Box 2330",
+     "68 Fort Street"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "George Town",
+    "region": null,
+    "country": "KY",
+    "postalCode": "KY1-1106"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "PO Box 2330",
+     "68 Fort Street"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "George Town",
+    "region": null,
+    "country": "KY",
+    "postalCode": "KY1-1106"
+   }
+  },
+  {
+   "lei": "300300C1030935001303",
+   "legal_name": "兴业银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "台江区江滨中大道398号兴业银行大厦"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "福州市",
+    "region": "CN-FJ",
+    "country": "CN",
+    "postalCode": "350009"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "银城路167号3楼"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海市",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200120"
+   }
+  },
+  {
+   "lei": "3003007Y03W5HH1MXR96",
+   "legal_name": "興業銀行股份有限公司香港分行",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "香港中環港景街1號國際金融中心第1期10至12樓"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "香港",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "香港中環港景街1號國際金融中心第1期10至12樓"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "香港",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  },
+  {
+   "lei": "300300M7AD1LM3G8N398",
+   "legal_name": "兴业银行股份有限公司上海自贸试验区分行",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "中国(上海)自由贸易试验区银城路167号101室-1"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海市",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200120"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "中国(上海)自由贸易试验区银城路167号101室-1"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海市",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200120"
+   }
+  },
+  {
+   "lei": "984500413EBA87FCBA10",
+   "legal_name": "IANFLETCH PTY LTD & ONEQ PTY LTD & VIOTA HOLDINGS PTY LTD & WULIN HOLDINGS PTY LTD",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "8 Glenferrie Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Welshpool",
+    "region": "AU-WA",
+    "country": "AU",
+    "postalCode": "6106"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "8 Glenferrie Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Welshpool",
+    "region": "AU-WA",
+    "country": "AU",
+    "postalCode": "6106"
+   }
+  }
+ ],
+ "BNP Paribas": [
+  {
+   "lei": "3358007YCIOUOQ32HA95",
+   "legal_name": "BARODA BNP PARIBAS ELSS FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE,",
+     "1 NORTH AVENUE, MAKER MAXITY, BANDRA KURLA COMPLEX,",
+     "BANDRA - EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BARODA BNP PARIBAS ASSET MANAGEMENT INDIA PRIVATE LIMITED",
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE,",
+     "1 NORTH AVENUE, MAKER MAXITY, BANDRA KURLA COMPLEX,",
+     "BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   }
+  },
+  {
+   "lei": "335800JRVDEWMPYKN574",
+   "legal_name": "BARODA BNP PARIBAS CONSERVATIVE HYBRID FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE,",
+     "1 NORTH AVENUE, MAKER MAXITY,",
+     "BANDRA KURLA COMPLEX, BANDRA-EAST"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BARODA BNP PARIBAS ASSET MANAGEMENT INDIA PRIVATE LIMITED",
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE,",
+     "1 NORTH AVENUE, MAKER MAXITY,",
+     "BANDRA KURLA COMPLEX, BANDRA-EAST"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   }
+  },
+  {
+   "lei": "335800HCNNO7N52IZ532",
+   "legal_name": "BARODA BNP PARIBAS LOW DURATION FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE",
+     "1 NORTH AVENUE, MAKER MAXITY,",
+     "BANDRA KURLA COMPLEX, BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BARODA BNP PARIBAS ASSET MANAGEMENT INDIA PRIVATE LIMITED",
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE",
+     "1 NORTH AVENUE, MAKER MAXITY,",
+     "BANDRA KURLA COMPLEX, BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   }
+  },
+  {
+   "lei": "335800K6O8Y8B2XZ1B88",
+   "legal_name": "BARODA BNP PARIBAS MID CAP FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE,",
+     "1 NORTH AVENUE, MAKER MAXITY, BANDRA KURLA COMPLEX",
+     "BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BARODA BNP PARIBAS ASSET MANAGEMENT INDIA PRIVATE LIMITED",
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE,",
+     "1 NORTH AVENUE, MAKER MAXITY, BANDRA KURLA COMPLEX",
+     "BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   }
+  },
+  {
+   "lei": "335800ZKEZ6Q5RGOV259",
+   "legal_name": "BARODA BNP PARIBAS DYNAMIC BOND FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE",
+     "1 NORTH AVENUE, MAKER MAXITY,",
+     "BANDRA KURLA COMPLEX, BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BARODA BNP PARIBAS ASSET MANAGEMENT INDIA PRIVATE LIMITED",
+     "BARODA BNP PARIBAS MUTUAL FUND,BNP PARIBAS HOUSE",
+     "1 NORTH AVENUE, MAKER MAXITY,",
+     "BANDRA KURLA COMPLEX, BANDRA-EAST,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400051"
+   }
+  }
+ ],
+ "Agricultural Bank of China": [
+  {
+   "lei": "5493000FLJYVISDGLT69",
+   "legal_name": "ABCI US Dollar Money Market Fund",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "10/F Agricultural Bank of China Tower",
+     "50 Connaught Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "c/o ABCI ASSET MANAGEMENT LIMITED",
+     "5/F., AGRICULTURAL BANK OF CHINA TOWER 50 CONNAUGHT ROAD CENTRAL"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   }
+  },
+  {
+   "lei": "2549001LFIUYTC5OI735",
+   "legal_name": "农银国际控股有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "16/F, Agricultural Bank of China Tower",
+     "50 Connaught Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "16/F., Agricultural Bank of China Tower",
+     "50 Connaught Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  },
+  {
+   "lei": "984500BA35474YCB0312",
+   "legal_name": "FAITHFUL WAY INVESTMENT LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "10/F., AGRICULTURAL BANK OF CHINA TOWER, 50 CONNAUGHT ROAD",
+     "CENTRAL"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "10/F., AGRICULTURAL BANK OF CHINA TOWER, 50 CONNAUGHT ROAD",
+     "CENTRAL"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   }
+  },
+  {
+   "lei": "549300OWAIOB5PIYON10",
+   "legal_name": "TBP Investment Advisory (HK) Limited",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "UNITS 2001-2004 20/F AGRICULTURAL BANK OF CHINA TOWER",
+     "50 CONNAUGHT RD",
+     "CENTRAL"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "UNITS 2001-2004 20/F AGRICULTURAL BANK OF CHINA TOWER",
+     "50 CONNAUGHT RD",
+     "CENTRAL"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   }
+  },
+  {
+   "lei": "549300PT1F3CP6WB2C66",
+   "legal_name": "Millennium Capital Management Asia Limited",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "7th Floor",
+     "Agricultural Bank of China Tower",
+     "50 Connaught Road",
+     "Central and Western District"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "7th Floor",
+     "Agricultural Bank of China Tower",
+     "50 Connaught Road",
+     "Central and Western District"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  }
+ ],
+ "Shanghai Pudong Development Bank": [
+  {
+   "lei": "5493000UMGG5FY3JYJ61",
+   "legal_name": "SHANGHAI PUDONG DEVELOPMENT BANK CO., LTD. SINGAPORE BRANCH",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "12 MARINA BOULEVARD, #34-01, MARINA BAY FINANCIAL CENTRE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SINGAPORE",
+    "region": null,
+    "country": "SG",
+    "postalCode": "018982"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O Shanghai Pudong Development Bank Co., Ltd.",
+     "12 Zhong Shan Dong Yi Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Shanghai",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200002"
+   }
+  },
+  {
+   "lei": "300300C1031031001330",
+   "legal_name": "上海浦东发展银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "中山东一路12号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海市",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200002"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "博成路1388号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海市",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200126"
+   }
+  },
+  {
+   "lei": "894500MD4AQ96RDND980",
+   "legal_name": "Shanghai Pudong Development Bank Co. Ltd., London Branch",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "19th Floor, 1 Angel Court"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "London",
+    "region": null,
+    "country": "GB",
+    "postalCode": "EC2R 7HJ"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "12 Zhongshan Dong Yi Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Shanghai",
+    "region": null,
+    "country": "CN",
+    "postalCode": "200002"
+   }
+  },
+  {
+   "lei": "655600C1031051000024",
+   "legal_name": "上海浦东发展银行股份有限公司成都分行",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "成华区二环路东二段22号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "成都市",
+    "region": "CN-SC",
+    "country": "CN",
+    "postalCode": "610051"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "成华区二环路东二段22号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "成都市",
+    "region": "CN-SC",
+    "country": "CN",
+    "postalCode": "610051"
+   }
+  },
+  {
+   "lei": "254900VPI91W77OOUM06",
+   "legal_name": "New Development Bank",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "新開發銀行總部",
+     "國展路 1600 號",
+     "浦東新區"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200126"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "新開發銀行總部",
+     "國展路 1600 號",
+     "浦東新區"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200126"
+   }
+  }
+ ],
+ "BPCE": [
+  {
+   "lei": "969500UHP35QWCZ0F449",
+   "legal_name": "BPCE ASSURANCES",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "7 PRO GERMAINE SABLON"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PARIS 13",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75013"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "7 PRO GERMAINE SABLON"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PARIS 13",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75013"
+   }
+  },
+  {
+   "lei": "54930039KUBJI660KI09",
+   "legal_name": "BPCE LIFE",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "7 PROMENADE GERMAINE SABLON"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PARIS",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75013"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "51, AVENUE J.F. KENNEDY"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LËTZEBUERG",
+    "region": "LU-LU",
+    "country": "LU",
+    "postalCode": "L-1855"
+   }
+  },
+  {
+   "lei": "549300M13E8KYMUN1032",
+   "legal_name": "BPCE Vie Constellation Feeder",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr-LU",
+    "addressLines": [
+     "126, Route de Thionville"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Luxembourg",
+    "region": "LU-LU",
+    "country": "LU",
+    "postalCode": "L-2610"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "C/O AEW",
+     "43 Avenue Pierre Mendès-France"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "C/O AEW",
+    "city": "Paris",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75013"
+   }
+  },
+  {
+   "lei": "969500I3ZHHLMF1ZAK92",
+   "legal_name": "BPCE ASSURANCES IARD",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "7 PRO GERMAINE SABLON"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PARIS 13",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75013"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "7 PRO GERMAINE SABLON"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PARIS 13",
+    "region": "FR-75C",
+    "country": "FR",
+    "postalCode": "75013"
+   }
+  },
+  {
+   "lei": "969500L02TXCDZ219437",
+   "legal_name": "BPCE LEASE REUNION",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "41 RUE GEORGES GUYNEMER"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SAINTE-MARIE",
+    "region": "FR-974",
+    "country": "FR",
+    "postalCode": "97438"
+   },
+   "headquarters_address": {
+    "language": "fr",
+    "addressLines": [
+     "41 RUE GEORGES GUYNEMER"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SAINTE-MARIE",
+    "region": "FR-974",
+    "country": "FR",
+    "postalCode": "97438"
+   }
+  }
+ ],
+ "China Everbright Group": [],
+ "China Everbright Bank": [
+  {
+   "lei": "549300WVNR4RWTGIV379",
+   "legal_name": "中國光大銀行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "23TH FLOOR, EVERBRIGHT CENTRE",
+     "108 GLOUCESTER ROAD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WANCHAI",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "西城区太平桥大街25号、甲25号中国光大中心"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BEIJING",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   }
+  },
+  {
+   "lei": "984500BF55800409BB67",
+   "legal_name": "China Everbright Bank Company Limited - Luxembourg Branch",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "10, Avenue Emile Reuter"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Luxembourg",
+    "region": "LU-LU",
+    "country": "LU",
+    "postalCode": "2420"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "China Everbright Center",
+     "No.25 Taipingqiao Avenue, Xicheng District"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Beijing",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   }
+  },
+  {
+   "lei": "300300C1030311000497",
+   "legal_name": "中国光大银行股份有限公司",
+   "status": "NULL",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "北京市西城区太平桥大街25号、甲25号中国光大中心"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "西城区",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "北京市西城区太平桥大街25号、甲25号中国光大中心"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "西城区",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   }
+  },
+  {
+   "lei": "549300U6PKQ4H1P34E17",
+   "legal_name": "中国光大银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "西城区太平桥大街25号、甲25号中国光大中心"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "北京市",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "西城区太平桥大街25号、甲25号中国光大中心"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "北京市",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   }
+  },
+  {
+   "lei": "549300UKYQ6UFK6ZV089",
+   "legal_name": "CHINA EVERBRIGHT BANK CO., LTD.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "LEVEL 28, INTERNATIONAL TOWER ONE",
+     "100 BARANGAROO AVENUE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SYDNEY",
+    "region": "AU-NSW",
+    "country": "AU",
+    "postalCode": "2000"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "西城区太平桥大街25号、甲25号中国光大中心"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "北京市",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   }
+  }
+ ],
+ "Capital One Financial Corporation": [
+  {
+   "lei": "5493003C1ORLFUKRL650",
+   "legal_name": "GOODWIN CAPITAL ADVISERS, INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "80 STATE STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "ALBANY",
+    "region": "US-NY",
+    "country": "US",
+    "postalCode": "12207-2543"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "ONE FINANCIAL PLAZA"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HARTFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06103"
+   }
+  },
+  {
+   "lei": "549300JVYLER1U5NDK13",
+   "legal_name": "WESTCHESTER CAPITAL MANAGEMENT, LLC",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "One Financial Plz"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hartford",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06103"
+   }
+  },
+  {
+   "lei": "NO6Y0OX3YS81S6SG4Z16",
+   "legal_name": "WESTCHESTER CAPITAL PARTNERS, LLC",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "One Financial PlZ"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hartford",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06103"
+   }
+  },
+  {
+   "lei": "549300QZ6NU2N7GEG090",
+   "legal_name": "Advisors' Inner Circle Fund II - WESTFIELD CAPITAL DIVIDEND GROWTH FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O C T CORPORATION SYSTEM",
+     "155 FEDERAL ST., SUITE 700"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BOSTON",
+    "region": "US-MA",
+    "country": "US",
+    "postalCode": "02110"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O Westfield Capital Management Company, L.P.",
+     "One Financial Center"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Boston",
+    "region": "US-MA",
+    "country": "US",
+    "postalCode": "02111"
+   }
+  },
+  {
+   "lei": "549300S6UXVEE0EKUL97",
+   "legal_name": "Westfield Capital Management Company, L.P.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O Corporation Service Company",
+     "2711 Centerville Road",
+     "Suite 400"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Wilmington",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "One Financial Center"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Boston",
+    "region": "US-MA",
+    "country": "US",
+    "postalCode": "02111"
+   }
+  }
+ ],
+ "State Bank of India": [
+  {
+   "lei": "335800LBFW6QLFB59952",
+   "legal_name": "STATE BANK OF INDIA EMPLOYEES PENSION FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "STATE BANK OF INDIA, PPG DEPARTMENT,",
+     "CORPORATE CENTRE,16TH FLOOR, STATE BANK BHAVAN, NAIRMAN POINT",
+     "POST BOX NO. 12"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400021"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "STATE BANK OF INDIA, PPG DEPARTMENT,",
+     "CORPORATE CENTRE,16TH FLOOR, STATE BANK BHAVAN, NAIRMAN POINT",
+     "POST BOX NO. 12"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400021"
+   }
+  },
+  {
+   "lei": "335800UWYP951SYHUR68",
+   "legal_name": "THE STATE BANK OF INDIA EMPLOYEES PROVIDENT FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "STATE BANK OF INDIA, PPG DEPARTMENT,",
+     "CORPORATE CENTRE,16TH FLOOR, STATE BANK BHAVAN, NAIRMAN POINT",
+     "POST BOX NO. 12"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400021"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "STATE BANK OF INDIA, PPG DEPARTMENT,",
+     "CORPORATE CENTRE,16TH FLOOR, STATE BANK BHAVAN, NAIRMAN POINT",
+     "POST BOX NO. 12"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400021"
+   }
+  },
+  {
+   "lei": "335800MD3E9STN5Z3317",
+   "legal_name": "MANGAL GREEN ENERGY",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "SHOP NO. 2, STATION AREA, STATE BANK OF INDIA, STATE BANK KE PASS, LOHAWAT BISNAWAS"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "JODHPUR",
+    "region": "IN-RJ",
+    "country": "IN",
+    "postalCode": "342302"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "SHOP NO. 2, STATION AREA, STATE BANK OF INDIA, STATE BANK KE PASS, LOHAWAT BISNAWAS"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "JODHPUR",
+    "region": "IN-RJ",
+    "country": "IN",
+    "postalCode": "342302"
+   }
+  },
+  {
+   "lei": "335800HSUFLCVOT94R27",
+   "legal_name": "THE IMPERIAL BANK OF INDIA EMPLOYEES PENSION AND GUARANTEE FUND",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "STATE BANK OF INDIA, PPG DEPARTMENT,",
+     "CORPORATE CENTRE,16TH FLOOR, STATE BANK BHAVAN, NAIRMAN POINT",
+     "POST BOX NO. 12"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400021"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "STATE BANK OF INDIA, PPG DEPARTMENT,",
+     "CORPORATE CENTRE,16TH FLOOR, STATE BANK BHAVAN, NAIRMAN POINT",
+     "POST BOX NO. 12"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MUMBAI",
+    "region": "IN-MH",
+    "country": "IN",
+    "postalCode": "400021"
+   }
+  },
+  {
+   "lei": "64880084KZVJFEPILD46",
+   "legal_name": "MAYANK SHUKLA",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "NEAR STATE BANK OF INDIA, RAJMARG"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Unnao",
+    "region": null,
+    "country": "IN",
+    "postalCode": "209861"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "NEAR STATE BANK OF INDIA, RAJMARG"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Unnao",
+    "region": null,
+    "country": "IN",
+    "postalCode": "209861"
+   }
+  }
+ ],
+ "Intesa Sanpaolo": [
+  {
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800HVQMZIPOGSN251",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800SUKVY8V67W2Y36",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  }
+ ],
+ "Bank of Beijing": [
+  {
+   "lei": "549300EL3G507HKZMX98",
+   "legal_name": "ICBC ORIENTAL PEARL",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O INDUSTRIAL AND COMMERCIAL BANK OF CHINA",
+     "NO.55, FUXINGMENNEI DAJIE XICHENG DISTRICT"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BEIJING",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100000"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O INDUSTRIAL AND COMMERCIAL BANK OF CHINA",
+     "NO.55, FUXINGMENNEI DAJIE XICHENG DISTRICT"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BEIJING",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100000"
+   }
+  },
+  {
+   "lei": "300300C1080211000042",
+   "legal_name": "北京银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "西城区金融大街甲17号首层"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "北京市",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "西城区金融大街甲17号首层"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "北京市",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100033"
+   }
+  },
+  {
+   "lei": "P392SPI69NXUSZMACF80",
+   "legal_name": "蒙特利尔银行（中国）有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "27TH FLOOR, TOWER 3",
+     "CHINA CENTRAL PLACE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BEIJING",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100025"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "27TH FLOOR, TOWER 3",
+     "CHINA CENTRAL PLACE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BEIJING",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100025"
+   }
+  },
+  {
+   "lei": "549300OLZFLPH7LVXW89",
+   "legal_name": "BANK OF CHINA (CANADA)",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "161 Bay, Bce Place 3740"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o BANK OF CHINA (CANADA)",
+    "city": "Toronto",
+    "region": "CA-ON",
+    "country": "CA",
+    "postalCode": "M5J 2S1"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "1 Fuxingmen Nei Dajie,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Beijing",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100818"
+   }
+  },
+  {
+   "lei": "213800LYJ4WHJMEGI115",
+   "legal_name": "北京密云汇丰村镇银行有限责任公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "FIRST FLOOR, XINHUA BOOKSTORE",
+     "XINDONG ROAD (SE OF ROUNDABOUT), MIYUN DISTRICT"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "BEIJING",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "101500"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "C/O HSBC HOLDINGS PLC",
+     "8 CANADA SQUARE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "E14 5HQ"
+   }
+  }
+ ],
+ "UniCredit": [
+  {
+   "lei": "8156007BA6E6B606F205",
+   "legal_name": "UNICREDIT RE SERVICES SOCIETA' PER AZIONI\" OPPURE IN FORMA ABBREVIATA \"UNICREDIT RE SERVICES S.P.A.\" O \"UNICREDIT RES S.P.A.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "it-IT",
+    "addressLines": [
+     "VIA LIVIO CAMBI, 5"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": "IT-MI",
+    "country": "IT",
+    "postalCode": "20151"
+   },
+   "headquarters_address": {
+    "language": "it-IT",
+    "addressLines": [
+     "VIA LIVIO CAMBI, 5"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": "IT-MI",
+    "country": "IT",
+    "postalCode": "20151"
+   }
+  },
+  {
+   "lei": "5299009WCZQ5210QDL73",
+   "legal_name": "UniCredit S.p.A. Branch Vienna",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Rothschildplatz 1"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Wien",
+    "region": "AT-9",
+    "country": "AT",
+    "postalCode": "1020"
+   },
+   "headquarters_address": {
+    "language": "it",
+    "addressLines": [
+     "Piazza Gae Aulenti 3, Tower A"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Milano",
+    "region": "IT-25",
+    "country": "IT",
+    "postalCode": "20154"
+   }
+  },
+  {
+   "lei": "391200ELF2F3O2DXEE69",
+   "legal_name": "Fritz und Erika Liepold-Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21",
+     "UniCredit Bank AG, 8100PVNX"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21",
+     "UniCredit Bank AG, 8100PVNX"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   }
+  },
+  {
+   "lei": "391200VFNP17ZWNIES53",
+   "legal_name": "Margarete Helmis-Reichelt-Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21",
+     "c/o UniCredit Bank GmbH"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21",
+     "c/o UniCredit Bank GmbH"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   }
+  },
+  {
+   "lei": "3912007R1WBVDVJPXW22",
+   "legal_name": "Elfrieda Albert Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o UniCredit Bank AG, 8100PVNX",
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Lorenzer Platz 21"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o UniCredit Bank AG, 8100PVNX",
+    "city": "Nürnberg",
+    "region": "DE-BY",
+    "country": "DE",
+    "postalCode": "90402"
+   }
+  }
+ ],
+ "China Minsheng Banking Corp": [
+  {
+   "lei": "549300HBUGSQD1VCXG94",
+   "legal_name": "中国民生银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "复兴门内大街2号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "西城区",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100031"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "复兴门内大街2号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "西城区",
+    "region": "CN-BJ",
+    "country": "CN",
+    "postalCode": "100031"
+   }
+  },
+  {
+   "lei": "635400BPCTF8TCGUXG82",
+   "legal_name": "中国民生银行股份有限公司香港分行",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "中环金融街8号国际金融中心二期37楼3701-3702,12-16室及40楼"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "香港",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "中环金融街8号国际金融中心二期37楼3701-3702,12-16室及40楼"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "香港",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  }
+ ],
+ "DBS Group Holdings": [
+  {
+   "lei": "5493007FKT78NKPM5V55",
+   "legal_name": "DBS GROUP HOLDINGS LTD",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "12 MARINA BOULEVARD, MARINA BAY FINANCIAL CENTRE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SINGAPORE",
+    "region": "SG-01",
+    "country": "SG",
+    "postalCode": "018982"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "12 MARINA BOULEVARD, MARINA BAY FINANCIAL CENTRE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SINGAPORE",
+    "region": "SG-01",
+    "country": "SG",
+    "postalCode": "018982"
+   }
+  }
+ ],
+ "Ping An Insurance (Group) Company of China": [
+  {
+   "lei": "529900M9MC28JLN35U89",
+   "legal_name": "中国平安保险（集团）股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "47th, 48th, 108th,109th, 110th, 111th and 112th Floors, Ping An Finance Center, No. 5033 Yitian Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Shenzhen",
+    "region": "CN-GD",
+    "country": "CN",
+    "postalCode": "518033"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "47th, 48th, 108th,109th, 110th, 111th and 112th Floors, Ping An Finance Center, No. 5033 Yitian Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Shenzhen",
+    "region": "CN-GD",
+    "country": "CN",
+    "postalCode": "518033"
+   }
+  },
+  {
+   "lei": "300300IP9S6FHQPKRN68",
+   "legal_name": "中国平安保险(集团)股份有限公司",
+   "status": "NULL",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "福田区益田路5033号平安金融中心47、48、109、110、111、112层"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "深圳市",
+    "region": "CN-GD",
+    "country": "CN",
+    "postalCode": "518000"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "福田区益田路5033号平安金融中心47、48、109、110、111、112层"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "深圳市",
+    "region": "CN-GD",
+    "country": "CN",
+    "postalCode": "518000"
+   }
+  }
+ ],
+ "UBS Group AG": [
+  {
+   "lei": "506700Q800G1L95S7805",
+   "legal_name": "UBS Group Funding (Switzerland) AG",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "Bahnhofstrasse 45"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zurich",
+    "region": null,
+    "country": "CH",
+    "postalCode": "8001"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Bahnhofstrasse 45"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zurich",
+    "region": null,
+    "country": "CH",
+    "postalCode": "8001"
+   }
+  },
+  {
+   "lei": "549300SZJ9VS8SGXAN81",
+   "legal_name": "UBS Group AG",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "Bahnhofstrasse 45"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zurich",
+    "region": "CH-ZH",
+    "country": "CH",
+    "postalCode": "8001"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Bahnhofstrasse 45"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zurich",
+    "region": "CH-ZH",
+    "country": "CH",
+    "postalCode": "8001"
+   }
+  }
+ ],
+ "Bank of Jiangsu": [
+  {
+   "lei": "655600KAZF10QJKPU355",
+   "legal_name": "江苏明钻新材料有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "江苏省东台市五烈镇廉广路8号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "盐城市",
+    "region": "CN-JS",
+    "country": "CN",
+    "postalCode": "224200"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "江苏省东台市五烈镇廉广路8号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "盐城市",
+    "region": "CN-JS",
+    "country": "CN",
+    "postalCode": "224200"
+   }
+  },
+  {
+   "lei": "300300C1086832000046",
+   "legal_name": "江苏银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "中华路26号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "南京市",
+    "region": "CN-JS",
+    "country": "CN",
+    "postalCode": "210000"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "中华路26号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "南京市",
+    "region": "CN-JS",
+    "country": "CN",
+    "postalCode": "210000"
+   }
+  },
+  {
+   "lei": "300300C1100932000071",
+   "legal_name": "江苏宿迁东吴村镇银行股份有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "沭阳县宿沭一级路与迎宾大道交汇处"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "宿迁市",
+    "region": "CN-JS",
+    "country": "CN",
+    "postalCode": "223600"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "沭阳县宿沭一级路与迎宾大道交汇处"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "宿迁市",
+    "region": "CN-JS",
+    "country": "CN",
+    "postalCode": "223600"
+   }
+  }
+ ],
+ "Cooperatieve Rabobank": [
+  {
+   "lei": "254900FXMVC4TFZIGW70",
+   "legal_name": "Coöperatieve Rabobank U.A Paris Branch",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "5 Rue De La Baume"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Paris",
+    "region": "FR-IDF",
+    "country": "FR",
+    "postalCode": "75008"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Croeselaan 18"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Utrecht",
+    "region": "NL-UT",
+    "country": "NL",
+    "postalCode": "3521 CB"
+   }
+  },
+  {
+   "lei": "5299004S8HOVSZMARS92",
+   "legal_name": "Coöperatieve Rabobank Bollenstreek U.A.",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "Wilhelminalaan 3"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hillegom",
+    "region": "NL-ZH",
+    "country": "NL",
+    "postalCode": "2182CA"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "Wilhelminalaan 3"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hillegom",
+    "region": "NL-ZH",
+    "country": "NL",
+    "postalCode": "2182CA"
+   }
+  },
+  {
+   "lei": "529900E0QE77Z9ZE1A71",
+   "legal_name": "Coöperatieve Rabobank IJsseldelta U.A.",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "Willemskade 1"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zwolle",
+    "region": "NL-OV",
+    "country": "NL",
+    "postalCode": "8011AC"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "Willemskade 1"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zwolle",
+    "region": "NL-OV",
+    "country": "NL",
+    "postalCode": "8011AC"
+   }
+  },
+  {
+   "lei": "529900B2O1LZSYMJVE37",
+   "legal_name": "Coöperatieve Rabobank Utrechtse Heuvelrug U.A.",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "Utrechtseweg 25"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zeist",
+    "region": "NL-UT",
+    "country": "NL",
+    "postalCode": "3704HA"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "Utrechtseweg 25"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zeist",
+    "region": "NL-UT",
+    "country": "NL",
+    "postalCode": "3704HA"
+   }
+  },
+  {
+   "lei": "529900CR9SE4O7ZP2F44",
+   "legal_name": "Coöperatieve Rabobank Zaanstreek U.A.",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "Ankersmidplein 2"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zaandam",
+    "region": "NL-NH",
+    "country": "NL",
+    "postalCode": "1506CK"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "Ankersmidplein 2"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Zaandam",
+    "region": "NL-NH",
+    "country": "NL",
+    "postalCode": "1506CK"
+   }
+  }
+ ],
+ "NatWest Group plc": [
+  {
+   "lei": "213800312VH35PW1WV87",
+   "legal_name": "THE ROYAL BANK OF SCOTLAND GROUP PLC EMPLOYEE SHARE OWNERSHIP PLAN",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "36 ST ANDREW SQUARE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "EDINBURGH",
+    "region": "GB-EDH",
+    "country": "GB",
+    "postalCode": "EH2 2YB"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "36 ST ANDREW SQUARE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "EDINBURGH",
+    "region": "GB-EDH",
+    "country": "GB",
+    "postalCode": "EH2 2YB"
+   }
+  },
+  {
+   "lei": "213800PHORTTEXG59989",
+   "legal_name": "RBS HOLDINGS USA INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
+   "lei": "213800GPB7NYZQPOAT64",
+   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
+   "lei": "213800SJ9EDGYZ296T83",
+   "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  }
+ ],
+ "Commerzbank AG": [
+  {
+   "lei": "5493006KVD5MATWWKT59",
+   "legal_name": "DEGI GERMAN BUSINESS",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O COMMERZBANK AG",
+     "KAISERPLATZ"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "FRANKFURT AM MAIN",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60261"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O COMMERZBANK AG",
+     "KAISERPLATZ"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "FRANKFURT AM MAIN",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60261"
+   }
+  },
+  {
+   "lei": "549300D83ZRV1XZEYU54",
+   "legal_name": "DEGI INTERNATIONAL",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O COMMERZBANK AG",
+     "KAISERPLATZ"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "FRANKFURT AM MAIN",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60261"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O COMMERZBANK AG",
+     "KAISERPLATZ"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "FRANKFURT AM MAIN",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60261"
+   }
+  },
+  {
+   "lei": "9845008C2A5EB7B0CC76",
+   "legal_name": "Ingeborg Schäffler-Wolf-Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Kaiserplatz 16"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o Commerzbank AG Stiftungsmanagement",
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60311"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Kaiserplatz 16"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o Commerzbank AG Stiftungsmanagement",
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60311"
+   }
+  },
+  {
+   "lei": "391200A8LF888ZTNMW09",
+   "legal_name": "Stefanie und Helmut Löser Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Kaiserstr. 16",
+     "c/o Commerzbank AG",
+     "Stiftungsmanagement",
+     "Frau Iris Euler"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Frankfurt am Main",
+    "region": null,
+    "country": "DE",
+    "postalCode": "60311"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Kaiserstr. 16",
+     "c/o Commerzbank AG",
+     "Stiftungsmanagement",
+     "Frau Iris Euler"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Frankfurt am Main",
+    "region": null,
+    "country": "DE",
+    "postalCode": "60311"
+   }
+  },
+  {
+   "lei": "529900AN6CFOQFYI8491",
+   "legal_name": "Dr. h.c. Hugo Zinsser-Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "c/o Commerzbank AG - Stiftungsmanagement -, Kaiserstraße 16"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60311"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "c/o Commerzbank AG - Stiftungsmanagement -, Kaiserstraße 16"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60311"
+   }
+  }
+ ],
+ "Australia and New Zealand Banking Group": [
+  {
+   "lei": "549300VL8GRXJQGJCL77",
+   "legal_name": "澳大利亚和新西兰银行（中国）有限公司",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "zh",
+    "addressLines": [
+     "UNIT D, E, F 17TH FLOOR",
+     "UNIT A, B, C, D2",
+     "Unit E,F 15th Floor and Unit B1, 12th Floor",
+     "MIRAE ASSET TOWER NO. 166 LUJIAZUI RING ROAD PUDONG NEW AREA"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "SHANGHAI",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200120"
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "C/O AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+     "LEVEL 9, ANZ CENTRE, 833 COLLINS STREET, DOCKLANDS"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MELBOURNE",
+    "region": "AU-VIC",
+    "country": "AU",
+    "postalCode": "3008"
+   }
+  },
+  {
+   "lei": "894500UPOAKVAFI0LP62",
+   "legal_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "fr",
+    "addressLines": [
+     "6 Rue Lamennais"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Paris",
+    "region": null,
+    "country": "FR",
+    "postalCode": "75008"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Level 9",
+     "ANZ Centre",
+     "833 Collins Street",
+     "Docklands"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Melbourne",
+    "region": "AU-VIC",
+    "country": "AU",
+    "postalCode": "3008"
+   }
+  },
+  {
+   "lei": "984500496A6EA00E4988",
+   "legal_name": "Australia and New Zealand Banking Group Limited Niederlassung Frankfurt am Main",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Friedrich-Ebert-Anlage 35 - 37"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60327"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Level 9, 833 Collins Street",
+     "Docklands"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o ANZ CENTRE MELBOURNE",
+    "city": "Melbourne",
+    "region": "AU-VIC",
+    "country": "AU",
+    "postalCode": "3008"
+   }
+  },
+  {
+   "lei": "549300YUNEMKRCKKKW26",
+   "legal_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP (PNG) LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "ALLOTMENT 10, SECTION 19, GRANVILLE, LEVEL 10",
+     "HARBOURSIDE SOUTH"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PORT MORESBY",
+    "region": "PG-NCD",
+    "country": "PG",
+    "postalCode": "121"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "ALLOTMENT 10, SECTION 19, GRANVILLE, LEVEL 10",
+     "HARBOURSIDE SOUTH"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "PORT MORESBY",
+    "region": "PG-NCD",
+    "country": "PG",
+    "postalCode": "121"
+   }
+  },
+  {
+   "lei": "JHE42UYNWWTJB8YTTU19",
+   "legal_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "c/o ANZ CENTRE MELBOURNE, Level 9, 833 Collins Street, Docklands"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Melbourne",
+    "region": "AU-VIC",
+    "country": "AU",
+    "postalCode": "3008"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "c/o ANZ CENTRE MELBOURNE, Level 9, 833 Collins Street, Docklands"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Melbourne",
+    "region": "AU-VIC",
+    "country": "AU",
+    "postalCode": "3008"
+   }
+  }
+ ],
+ "Bank of Communications": [
+  {
+   "lei": "315700CAYR7MDC0A4Z80",
+   "legal_name": "Bank of Communications Co., Ltd., Prague Branch odštěpný závod",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "cs",
+    "addressLines": [
+     "Rohanské nábřeží 693/10"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Praha 8",
+    "region": "CZ-10",
+    "country": "CZ",
+    "postalCode": "186 00"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "Bank of Communications Co.,Ltd",
+     "188 Yincheng Middle Road"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Pudong Xinqu",
+    "region": null,
+    "country": "CN",
+    "postalCode": "200120"
+   }
+  },
+  {
+   "lei": "984500C4F39MFEE54196",
+   "legal_name": "Bank of Communications Co., Ltd.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "Unit 02, Level 30, Currency Tower 2",
+     "Dubai International Financial Centre"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Dubai",
+    "region": "AE-DU",
+    "country": "AE",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "zh",
+    "addressLines": [
+     "银城中路188号"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "上海市",
+    "region": "CN-SH",
+    "country": "CN",
+    "postalCode": "200120"
+   }
+  },
+  {
+   "lei": "2549007ZNCU3Z9S7AB55",
+   "legal_name": "Bank of Communications Charitable Foundation Limited",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "1/F, Far East Consortium Building",
+     "121 Des Voeux Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "1/F, Far East Consortium Building",
+     "121 Des Voeux Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  },
+  {
+   "lei": "254900642AGQUFLQFJ67",
+   "legal_name": "Bank of Communications, Hong Kong Branch Staff Provident Fund Scheme",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "1/F, Far East Consortium Building",
+     "121 Des Voeux Road",
+     "Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BCOM Finance (Hong Kong) Limited",
+     "1/F, Far East Consortium Building",
+     "121 Des Voeux Road",
+     "Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  },
+  {
+   "lei": "254900F97RWMMPC1Q336",
+   "legal_name": "Bank of Communications Hong Kong General Provident Fund - Part B - BOCOM Guaranteed Fund",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "1/F, Far East Consortium Building",
+     "121 Des Voeux Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O BCOM Finance (Hong Kong) Limited",
+     "1/F, Far East Consortium Building",
+     "121 Des Voeux Road Central"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hong Kong",
+    "region": null,
+    "country": "HK",
+    "postalCode": "999077"
+   }
+  }
+ ],
+ "KB Financial Group": [
+  {
+   "lei": "529900TKE4MXG3Q6GW86",
+   "legal_name": "주식회사 케이비금융지주",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "ko",
+    "addressLines": [
+     "서울특별시 영등포구 국제금융로8길 26 (여의도동)",
+     "케이비금융지주"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Seoul",
+    "region": "KR-11",
+    "country": "KR",
+    "postalCode": "07331"
+   },
+   "headquarters_address": {
+    "language": "ko",
+    "addressLines": [
+     "서울특별시 영등포구 국제금융로8길 26 (여의도동)",
+     "케이비금융지주"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Seoul",
+    "region": "KR-11",
+    "country": "KR",
+    "postalCode": "07331"
+   }
+  }
+ ],
+ "Lloyds Banking Group plc": [
+  {
+   "lei": "213800RN8G8WGY7GS835",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O LLOYDS BANKING GROUP PLC",
+     "25 GRESHAM STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 7HN"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O LLOYDS BANKING GROUP PLC",
+     "25 GRESHAM STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 7HN"
+   }
+  },
+  {
+   "lei": "213800TKDMVMCUH3SZ31",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP GP LLP",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O LLOYDS BANKING GROUP PLC",
+     "25 GRESHAM STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 7HN"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O LLOYDS BANKING GROUP PLC",
+     "25 GRESHAM STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 7HN"
+   }
+  },
+  {
+   "lei": "213800L6AFRWDKEU5W12",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O LLOYDS BANKING GROUP PLC",
+     "25 GRESHAM STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 7HN"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O LLOYDS BANKING GROUP PLC",
+     "25 GRESHAM STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 7HN"
+   }
+  },
+  {
+   "lei": "2549000HDDRHH5RIHX35",
+   "legal_name": "Lloyds Banking Group plc ADRhedged(TM)",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CAPITOL SERVICES, INC.",
+     "108 LAKELAND AVE."
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "DOVER",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19901"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O Precidian Funds LLC",
+     "350 Main Street",
+     "Suite 9"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Bedminster",
+    "region": "US-NJ",
+    "country": "US",
+    "postalCode": "07921"
+   }
+  },
+  {
+   "lei": "549300PPXHEU2JF0AM85",
+   "legal_name": "LLOYDS BANKING GROUP PLC",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "THE MOUND"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "EDINBURGH",
+    "region": "GB-EDH",
+    "country": "GB",
+    "postalCode": "EH1 1YZ"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "33 OLD BROAD STREET"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2N 1HZ"
+   }
+  }
+ ],
+ "DZ BANK AG": [
+  {
+   "lei": "967600Z353EMU56FWF57",
+   "legal_name": "DZ Bank-Stiftung",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Platz der Republik"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o DZ BANK AG",
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60265"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Regionalbüro, Königstraße 7"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o DSZ - Deutsches Stiftungszentrum GmbH",
+    "city": "Stuttgart",
+    "region": "DE-BW",
+    "country": "DE",
+    "postalCode": "70173"
+   }
+  },
+  {
+   "lei": "8755008LWRMKMUGM3H46",
+   "legal_name": "WGZ BANK Stiftung",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "Platz der Republik"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o DZ BANK AG",
+    "city": "Frankfurt am Main",
+    "region": "DE-HE",
+    "country": "DE",
+    "postalCode": "60265"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "Regionalbüro, Königstraße 7"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": "c/o DSZ - Deutsches Stiftungszentrum GmbH",
+    "city": "Stuttgart",
+    "region": "DE-BW",
+    "country": "DE",
+    "postalCode": "70173"
+   }
+  },
+  {
+   "lei": "549300SY37C1DMKU2691",
+   "legal_name": "Hariton & D'Angelo LLP",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "888 Veterans Memorial Highway",
+     "Suite 210"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Hauppauge",
+    "region": "US-NY",
+    "country": "US",
+    "postalCode": "11788"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O DZ Bank AG",
+     "609 5th Avenue"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "New York",
+    "region": "US-NY",
+    "country": "US",
+    "postalCode": "10017"
+   }
+  },
+  {
+   "lei": "EFHQAFG69S4HKHLIZA14",
+   "legal_name": "WGZ BANK AG WESTDEUTSCHE GENOSSENSCHAFTS-ZENTRALBANK",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": "de",
+    "addressLines": [
+     "LUDWIG-ERHARD-ALLEE 20"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "DÜSSELDORF",
+    "region": "DE-NW",
+    "country": "DE",
+    "postalCode": "40227"
+   },
+   "headquarters_address": {
+    "language": "de",
+    "addressLines": [
+     "LUDWIG-ERHARD-ALLEE 20"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "DÜSSELDORF",
+    "region": "DE-NW",
+    "country": "DE",
+    "postalCode": "40227"
+   }
+  },
+  {
+   "lei": "549300H4VEXVCN0Z3G48",
+   "legal_name": "DZ BANK AG LONDON BRANCH PENSION PLAN",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "150 CHEAPSIDE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 6ET"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "150 CHEAPSIDE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "EC2V 6ET"
+   }
+  }
+ ],
  "Postal Savings Bank of China": [
   {
    "lei": "300300C1040311005298",
