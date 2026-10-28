@@ -1,5 +1,5 @@
 {
- "read": "2026-10-27",
+ "read": "2026-10-28",
  "source": "Climate TRACE (CC BY 4.0): ownership tables of 7 October 2026 and its sector emissions packages (CO2e, 100-year)",
  "tables": {
   "entities.csv": "read from https://storage.googleapis.com/climate_trace/ownership/ownership_all_entities_071026.csv",
