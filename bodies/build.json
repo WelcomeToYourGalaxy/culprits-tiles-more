@@ -1,5 +1,5 @@
 {
- "built": "2026-10-28T13:36:35Z",
+ "built": "2026-10-29T13:47:43Z",
  "failed": {},
  "moon_objects": {
   "rows": 71,
@@ -160,8 +160,8 @@
   "not found in the names": []
  },
  "rovers": {
-  "M20/Layers/json/M20_waypoints.json": 706,
-  "M20/Layers/json/M20_traverse.json": 558,
+  "M20/Layers/json/M20_waypoints.json": 708,
+  "M20/Layers/json/M20_traverse.json": 559,
   "MSL/Layers/json/MSL_waypoints.json": 1386,
   "MSL/Layers/json/MSL_traverse.json": 1314
  },
