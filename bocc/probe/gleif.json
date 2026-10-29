@@ -1179,8 +1179,8 @@
    }
   },
   {
-   "lei": "213800LNBAJFZBEP1196",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
+   "lei": "213800Y9PAZTWQCYVS21",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -1211,8 +1211,8 @@
    }
   },
   {
-   "lei": "213800Y9PAZTWQCYVS21",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
+   "lei": "213800LNBAJFZBEP1196",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6026,72 +6026,6 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
    "lei": "213800HVQMZIPOGSN251",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
@@ -6160,6 +6094,72 @@
   {
    "lei": "213800SUKVY8V67W2Y36",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
