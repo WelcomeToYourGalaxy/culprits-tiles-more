@@ -11,7 +11,6 @@
 //www.googletagmanager.com
 /analysis
 /bahasa-summary-2025/
-/cdn-cgi/challenge-platform/scripts/jsd/main.js
 /chinese-summary-2025/
 /french-summary-2025
 /french-summary-2025/
