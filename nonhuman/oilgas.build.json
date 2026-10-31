@@ -1,0 +1,180 @@
+{
+ "version": "OGIM_v3.0",
+ "layers in the file": [
+  [
+   "Crude_Oil_Refineries",
+   "Point"
+  ],
+  [
+   "Equipment_and_Components",
+   "Point"
+  ],
+  [
+   "Gathering_and_Processing",
+   "Point"
+  ],
+  [
+   "Injection_and_Disposal",
+   "Point"
+  ],
+  [
+   "LNG_Facilities",
+   "Point"
+  ],
+  [
+   "Natural_Gas_Compressor_Stations",
+   "Point"
+  ],
+  [
+   "Natural_Gas_Flaring_Detections",
+   "Point"
+  ],
+  [
+   "Offshore_Platforms",
+   "Point"
+  ],
+  [
+   "Oil_and_Natural_Gas_Basins",
+   "MultiPolygon"
+  ],
+  [
+   "Oil_and_Natural_Gas_Fields",
+   "MultiPolygon Z"
+  ],
+  [
+   "Oil_and_Natural_Gas_License_Blocks",
+   "MultiPolygon Z"
+  ],
+  [
+   "Oil_and_Natural_Gas_Pipelines",
+   "MultiLineString Z"
+  ],
+  [
+   "Oil_and_Natural_Gas_Production",
+   "Point"
+  ],
+  [
+   "Oil_and_Natural_Gas_Wells",
+   "Point"
+  ],
+  [
+   "Petroleum_Terminals",
+   "Point"
+  ],
+  [
+   "Stations_Other",
+   "Point"
+  ],
+  [
+   "Tank_Battery",
+   "Point"
+  ],
+  [
+   "Data_Catalog",
+   "Unknown"
+  ],
+  [
+   "ML_Oil_and_Natural_Gas_Well_Pads",
+   "Polygon"
+  ]
+ ],
+ "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "wdpa layers read": [
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2629,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2629,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2628,
+   "kept": 2628,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  }
+ ],
+ "this run": {
+  "Oil_and_Natural_Gas_Production": {
+   "inside a protected area": 6290,
+   "within 1 km": 26732,
+   "within 10 km": 339837,
+   "within 20 km": 216726,
+   "further than 20 km": 281873
+  }
+ },
+ "stopped": "time budget reached 4,400,000 of 4,537,369 into Oil_and_Natural_Gas_Wells; the next run starts it again",
+ "complete": false,
+ "made": "2026-10-31T17:47:44Z"
+}

@@ -2039,6 +2039,220 @@
      }
     ]
    }
+  },
+  {
+   "name": "Oil_and_Natural_Gas_Production",
+   "label": "Oil and Natural Gas Production",
+   "kind": "point",
+   "count": 871458,
+   "counts": {
+    "inside a protected area": 6290,
+    "within 1 km": 26732,
+    "within 10 km": 339837,
+    "within 20 km": 216726,
+    "further than 20 km": 281873
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OPERATOR",
+    "SPUD_DATE",
+    "COMP_DATE",
+    "DRILL_TYPE",
+    "OIL_BBL",
+    "GAS_MCF",
+    "WATER_BBL",
+    "CONDENSATE_BBL",
+    "PROD_DAYS",
+    "PROD_YEAR",
+    "ENTITY_TYPE",
+    "LATITUDE",
+    "LONGITUDE"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/oil_and_natural_gas_production_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 2727
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_inside_a_protected_area_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 6896
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_inside_a_protected_area_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 16034
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_inside_a_protected_area_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 43991
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_inside_a_protected_area_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 504092
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_1_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3250
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_1_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 10668
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_1_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 33085
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_1_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 100394
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_1_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 1862760
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_10_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3886
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_10_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 19372
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_10_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 106530
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_10_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 578326
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_10_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 18870695
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3521
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 17886
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 86628
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 434561
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_within_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 11874502
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_production_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3303
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_further_than_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 14814
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_further_than_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 85133
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_further_than_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 607148
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_production_further_than_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 5966906
+     }
+    ]
+   }
   }
  ],
  "source": "OGIM OGIM_v3.0 (Environmental Defense Fund), Zenodo record 7466758, CC BY 4.0",
@@ -2051,5 +2265,6 @@
   "further than 20 km"
  ],
  "detail": 8,
- "made": "2026-10-24"
+ "made": "2026-10-31",
+ "complete": false
 }
