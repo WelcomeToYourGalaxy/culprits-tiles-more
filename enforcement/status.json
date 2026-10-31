@@ -8,7 +8,7 @@
    5508
   ],
   "england_ea_enforcement": [
-   315068
+   315077
   ],
   "us_epa_echo_downloads": [
    99708
@@ -28,7 +28,7 @@
    "HTTP Error 403: Forbidden"
   ],
   "colombia_sanctions": [
-   18414,
+   18382,
    129
   ],
   "ireland_epa": [
@@ -44,12 +44,12 @@
    69724
   ]
  },
- "at": 1792843755.0427406,
- "when": "2026-10-24",
+ "at": 1793454501.514776,
+ "when": "2026-10-31",
  "ibama_embargos": {
-  "rows": 116808,
-  "placed": 94943,
-  "no_position": 21865,
+  "rows": 116993,
+  "placed": 95127,
+  "no_position": 21866,
   "from": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/TERMOS_DE_EMBARGO/TERMO_EMBARGO/termo_de_embargo.csv"
  },
  "ibama_infractions": {
@@ -58,9 +58,5 @@
   "no_position": 145,
   "from": "https://dadosabertos.ibama.gov.br/dados/SIFISC/auto_infracao/auto_infracao/auto_infracao_csv.zip",
   "coordinates": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/SIFISC/auto_infracao/coordenada/coordenada.csv"
- },
- "errors": {
-  "ibama_embargos": "[Errno 18] Invalid cross-device link: '/tmp/tmp7gx8v81x/ibama_embargos.pmtiles' -> 'tiles/ibama_embargos.pmtiles'",
-  "ibama_infractions": "[Errno 18] Invalid cross-device link: '/tmp/tmp2fhk6peb/ibama_infractions.pmtiles' -> 'tiles/ibama_infractions.pmtiles'"
  }
 }
