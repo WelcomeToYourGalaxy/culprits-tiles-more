@@ -1,7 +1,7 @@
 report: 72 pages, 100 tables
 site data: https://www.bankingonclimatechaos.org/#data-panel -> 00__ (97,415 bytes)
 site data: https://www.bankingonclimatechaos.org/#fulldata-panel -> 01__ (97,415 bytes)
-site data: https://api.w.org/ -> 02__ (190,080 bytes)
+site data: https://api.w.org/ -> 02__ (190,161 bytes)
 site data: https://cdn.jsdelivr.net/npm/leaflet-label@0.2.1-0/dist/leaflet.label.min.js -> 03__npm_leaflet-label_0.2.1-0_dist_leaflet.label.min.js (8,628 bytes)
 site data: https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js -> 04__ajax_libs_ScrollMagic_2.0.8_ScrollMagic.min.js (17,388 bytes)
 site data: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css -> 05__ajax_libs_animate.css_4.1.1_animate.min.css (71,750 bytes)
