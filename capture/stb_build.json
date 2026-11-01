@@ -1,0 +1,795 @@
+{
+ "read": "2026-10-01",
+ "people": 8101,
+ "searched": 8101,
+ "finished": "2026-10-01",
+ "matched by name and birth date": {
+  "no category read": 673,
+  "I": 146,
+  "K": 2,
+  "TS": 3
+ },
+ "drawn": 116,
+ "searches whose results gave no birth date": [
+  {
+   "person": "Ladislav Hučko",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Hu%C4%8Dko&meno=Ladislav&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Hučko",
+    "meno": "Ladislav",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "kandidát informátora",
+    "registračné číslo": "6423",
+    "séria": "I",
+    "kraj": "Košice",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jozef Lenárt",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Len%C3%A1rt&meno=Jozef&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Lenárt",
+    "meno": "Jozef",
+    "dátum narodenia": "",
+    "krycie meno": "Javorský",
+    "kategória": "",
+    "registračné číslo": "3633",
+    "séria": "TS",
+    "kraj": "Košice",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Zoltán Horváth",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Horv%C3%A1th&meno=Zolt%C3%A1n&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "HORVÁTH",
+    "meno": "Zoltán",
+    "dátum narodenia": "",
+    "krycie meno": "SKLADNÍK",
+    "kategória": "informátor",
+    "registračné číslo": "2979",
+    "séria": "TS",
+    "kraj": "Nitra",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Milan Urbáni",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Urbani&meno=Milan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Urbanik",
+    "meno": "Milan",
+    "dátum narodenia": "",
+    "krycie meno": "Pavel",
+    "kategória": "",
+    "registračné číslo": "2142",
+    "séria": "TS",
+    "kraj": "Banská Bystrica",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Anton Hajduk",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Hajduk&meno=Anton&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Hajdúk",
+    "meno": "Anton",
+    "dátum narodenia": "",
+    "krycie meno": "Humenský",
+    "kategória": "",
+    "registračné číslo": "3538",
+    "séria": "TS",
+    "kraj": "Košice",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Božena Holečková",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Hole%C4%8Dkov%C3%A1&meno=Bo%C5%BEena&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "HOLEČKOVÁ",
+    "meno": "Božena",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "342",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Vladimír Hradil",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Hradil&meno=Vladim%C3%ADr&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Hradil",
+    "meno": "Vladimír",
+    "dátum narodenia": "",
+    "krycie meno": "Eva",
+    "kategória": "",
+    "registračné číslo": "12671",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "František Kincl",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kincl&meno=Franti%C5%A1ek&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Kincl",
+    "meno": "František",
+    "dátum narodenia": "",
+    "krycie meno": "Roman",
+    "kategória": "informátor",
+    "registračné číslo": "3808",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jaroslav Maňásek",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Ma%C5%88%C3%A1sek&meno=Jaroslav&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Maňásek",
+    "meno": "Jaroslav",
+    "dátum narodenia": "",
+    "krycie meno": "Fero",
+    "kategória": "agent",
+    "registračné číslo": "3539",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jaroslav Melichar",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Melichar&meno=Jaroslav&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Melichar",
+    "meno": "Jaroslav",
+    "dátum narodenia": "",
+    "krycie meno": "Vaněk Jiří",
+    "kategória": "",
+    "registračné číslo": "19576",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Josef Kotásek",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kot%C3%A1sek&meno=Josef&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Kotásek",
+    "meno": "Josef",
+    "dátum narodenia": "",
+    "krycie meno": "Morava",
+    "kategória": "",
+    "registračné číslo": "54316",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Karel Šebek",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=%C5%A0ebek&meno=Karel&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "ŠEBEK",
+    "meno": "Karel",
+    "dátum narodenia": "",
+    "krycie meno": "PETROVEC",
+    "kategória": "",
+    "registračné číslo": "8888",
+    "séria": "RTS",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Pavel Horňák",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Hor%C5%88%C3%A1k&meno=Pavel&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Horňák",
+    "meno": "Pavel",
+    "dátum narodenia": "",
+    "krycie meno": "Horizont",
+    "kategória": "informátor",
+    "registračné číslo": "1703",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Pavel Kolář",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kol%C3%A1%C5%99&meno=Pavel&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Kolář",
+    "meno": "Pavel",
+    "dátum narodenia": "",
+    "krycie meno": "Kozák Karel",
+    "kategória": "",
+    "registračné číslo": "21989",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Klára Liptáková",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Lipt%C3%A1kov%C3%A1&meno=Kl%C3%A1ra&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Liptáková",
+    "meno": "Klára",
+    "dátum narodenia": "",
+    "krycie meno": "Viera",
+    "kategória": "",
+    "registračné číslo": "3642",
+    "séria": "TS",
+    "kraj": "Košice",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Zdeněk Ondráček",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Ondr%C3%A1%C4%8Dek&meno=Zden%C4%9Bk&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Vondráček",
+    "meno": "Zdenek",
+    "dátum narodenia": "",
+    "krycie meno": "Ráček",
+    "kategória": "agent",
+    "registračné číslo": "5543",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Karel Fiedler",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Fiedler&meno=Karel&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "FIEDLER",
+    "meno": "Karel",
+    "dátum narodenia": "",
+    "krycie meno": "HOUSLAŘ",
+    "kategória": "",
+    "registračné číslo": "1087",
+    "séria": "RTS",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Zdeněk Lyčka",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Ly%C4%8Dka&meno=Zden%C4%9Bk&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Lyčka",
+    "meno": "Zdeněk",
+    "dátum narodenia": "",
+    "krycie meno": "Herman",
+    "kategória": "kandidát informátora",
+    "registračné číslo": "48865",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Pavel Růžička",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=R%C5%AF%C5%BEi%C4%8Dka&meno=Pavel&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "RŮŽIČKA",
+    "meno": "Pavel",
+    "dátum narodenia": "",
+    "krycie meno": "PAVEL",
+    "kategória": "",
+    "registračné číslo": "5345",
+    "séria": "RTS",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Ladislav Sitko",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Sitko&meno=Ladislav&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Sitko",
+    "meno": "Ladislav",
+    "dátum narodenia": "",
+    "krycie meno": "Sitý",
+    "kategória": "tajný spolupracovník",
+    "registračné číslo": "557",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jiří Růžek",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Ruzek&meno=Ji%C5%99%C3%AD&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Mrúzek",
+    "meno": "Jiří",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "agent",
+    "registračné číslo": "6819",
+    "séria": "I",
+    "kraj": "Košice",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jan Kuchař",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kucha%C5%99&meno=Jan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Kucharovič",
+    "meno": "Ján",
+    "dátum narodenia": "",
+    "krycie meno": "Sokol",
+    "kategória": "konšpiračný byt",
+    "registračné číslo": "1155",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Milan Slavík",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Slav%C3%ADk&meno=Milan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Slavik",
+    "meno": "Milan",
+    "dátum narodenia": "",
+    "krycie meno": "Milan",
+    "kategória": "",
+    "registračné číslo": "3147",
+    "séria": "TS",
+    "kraj": "Banská Bystrica",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Martin Staněk",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Stan%C4%9Bk&meno=Martin&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Stanek",
+    "meno": "Martin",
+    "dátum narodenia": "",
+    "krycie meno": "Šátek",
+    "kategória": "tajný spolupracovník",
+    "registračné číslo": "2460",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Vladimír Kolek",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kolek&meno=Vladim%C3%ADr&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Kolek",
+    "meno": "Vladimír",
+    "dátum narodenia": "",
+    "krycie meno": "Vašek",
+    "kategória": "informátor",
+    "registračné číslo": "2492",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Fraňo Kráľ",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kr%C3%A1%C4%BE&meno=Fra%C5%88o&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "KRÁĽ",
+    "meno": "Fraňo",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "320",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Viliam Šalgovič",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=%C5%A0algovi%C4%8D&meno=Viliam&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "ŠALGOVIČ",
+    "meno": "Viliam",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "314",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jozef Prokeš",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Proke%C5%A1&meno=Jozef&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Prokeš",
+    "meno": "Jozef",
+    "dátum narodenia": "",
+    "krycie meno": "Zdenek",
+    "kategória": "",
+    "registračné číslo": "1945",
+    "séria": "TS",
+    "kraj": "Banská Bystrica",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jozef Rosa",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Rosa&meno=Jozef&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Roša",
+    "meno": "Jozef",
+    "dátum narodenia": "",
+    "krycie meno": "Adam",
+    "kategória": "informátor",
+    "registračné číslo": "2835",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Ján Dobránsky",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Dobransky&meno=J%C3%A1n&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Dobranský",
+    "meno": "Jan",
+    "dátum narodenia": "",
+    "krycie meno": "Jožo",
+    "kategória": "",
+    "registračné číslo": "2867",
+    "séria": "TS",
+    "kraj": "Košice",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Július Viktory",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Viktory&meno=J%C3%BAlius&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "VIKTORY",
+    "meno": "Július",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "318",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Matej Metod Bella",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Bella&meno=Matej&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Bella",
+    "meno": "Matej",
+    "dátum narodenia": "",
+    "krycie meno": "Turčan, Kordoš",
+    "kategória": "tajný spolupracovník",
+    "registračné číslo": "50",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Michal Falťan",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Fal%C5%A5an&meno=Michal&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "FALŤAN",
+    "meno": "Michal",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "327",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Milan Pišút",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Pi%C5%A1%C3%BAt&meno=Milan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Pišút",
+    "meno": "Milan",
+    "dátum narodenia": "",
+    "krycie meno": "Breza",
+    "kategória": "informátor",
+    "registračné číslo": "1134",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Rudolf Strechaj",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Strechaj&meno=Rudolf&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "STRECHAJ",
+    "meno": "Rudolf",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "319",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Ján Pataky",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Pataky&meno=J%C3%A1n&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Pataky",
+    "meno": "Jan",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "kandidát informátora",
+    "registračné číslo": "50427",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Jaroslav Kvapil",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kvapil&meno=Jaroslav&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Kvapil",
+    "meno": "Jaroslav",
+    "dátum narodenia": "",
+    "krycie meno": "Bohumila",
+    "kategória": "",
+    "registračné číslo": "18370",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Antal Stašek",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Zeman&meno=Anton%C3%ADn&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Zemančík",
+    "meno": "Antonín",
+    "dátum narodenia": "",
+    "krycie meno": "Colník",
+    "kategória": "signálny zväzok",
+    "registračné číslo": "3351",
+    "útvar": "OVKR 13. td TO",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Alois Petr",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Petr&meno=Alois&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Petr",
+    "meno": "Alois",
+    "dátum narodenia": "",
+    "krycie meno": "Karel Diviš",
+    "kategória": "",
+    "registračné číslo": "12517",
+    "útvar": "OVKR 11. b PS BA",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Rudolf Pilát",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Pil%C3%A1t&meno=Rudolf&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Pilát",
+    "meno": "Rudolf",
+    "dátum narodenia": "",
+    "krycie meno": "Dora",
+    "kategória": "agent",
+    "registračné číslo": "5817",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Štefan Babinec",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Babinec&meno=%C5%A0tefan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Babinec",
+    "meno": "Štefan",
+    "dátum narodenia": "",
+    "krycie meno": "Štefan",
+    "kategória": "tajný spolupracovník",
+    "registračné číslo": "1199",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Štefan Figura",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Figura&meno=%C5%A0tefan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Figura",
+    "meno": "Štefan",
+    "dátum narodenia": "",
+    "krycie meno": "Juraj",
+    "kategória": "informátor",
+    "registračné číslo": "3486",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Štefan Krištofík",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Kri%C5%A1tof%C3%ADk&meno=%C5%A0tefan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Krištofík",
+    "meno": "Štefan",
+    "dátum narodenia": "",
+    "krycie meno": "Tetrov",
+    "kategória": "",
+    "registračné číslo": "3680",
+    "séria": "TS",
+    "kraj": "Banská Bystrica",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Štefan Manca",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Manca&meno=%C5%A0tefan&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Manca",
+    "meno": "Štefan",
+    "dátum narodenia": "",
+    "krycie meno": "Maraton",
+    "kategória": "tajný spolupracovník",
+    "registračné číslo": "650",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Ľudovít Šiška",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=%C5%A0i%C5%A1ka&meno=%C4%BDudov%C3%ADt&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Šiška",
+    "meno": "Ľudovít",
+    "dátum narodenia": "",
+    "krycie meno": "Helena",
+    "kategória": "informátor",
+    "registračné číslo": "2243",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Alexander Horák",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Hor%C3%A1k&meno=Alexander&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "HORÁK",
+    "meno": "Alexander",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "",
+    "registračné číslo": "322",
+    "séria": "RES",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Anna Buráňová",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Bur%C3%A1%C5%88ov%C3%A1&meno=Anna&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Buranová",
+    "meno": "Anna",
+    "dátum narodenia": "",
+    "krycie meno": "Anna",
+    "kategória": "prepožičaný byt",
+    "registračné číslo": "3655",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Antonín Chmelík",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Chmel%C3%ADk&meno=Anton%C3%ADn&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "CHMELÍK",
+    "meno": "Antonín",
+    "dátum narodenia": "",
+    "krycie meno": "ANTONÍN",
+    "kategória": "",
+    "registračné číslo": "1126",
+    "séria": "RTS",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Antonín Jura",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=Jura&meno=Anton%C3%ADn&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Jurák",
+    "meno": "Antonín",
+    "dátum narodenia": "",
+    "krycie meno": "Novák",
+    "kategória": "konšpiračný byt",
+    "registračné číslo": "4645",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  },
+  {
+   "person": "Antonín Červinka",
+   "url": "https://www.upn.gov.sk/projekty/regpro/vysledky-vyhladavania/?kraj=&priezvisko=%C4%8Cervinka&meno=Anton%C3%ADn&krycie_meno=&datum_narodenia=&kategoria=",
+   "first row": {
+    "priezvisko": "Červinka",
+    "meno": "Antonín",
+    "dátum narodenia": "",
+    "krycie meno": "",
+    "kategória": "kandidát agenta",
+    "registračné číslo": "7806",
+    "séria": "TS",
+    "kraj": "Bratislava",
+    "poznámka": "",
+    "": "zobraz stranu"
+   }
+  }
+ ]
+}

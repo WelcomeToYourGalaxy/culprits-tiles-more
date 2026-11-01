@@ -1,0 +1,61 @@
+{
+ "concessioncma_spv": [
+  {
+   "name": "atlas-workspace-v3:concessioncma_spv",
+   "title": "concessioncma_spv",
+   "abstract": "",
+   "keywords": [
+    "features",
+    "concessioncma_spv"
+   ],
+   "styles": [
+    {
+     "Name": "atlas-workspace-v3:PolyFillOrange_transparentOutlineBlue_Solid",
+     "Title": "atlas-workspace-v3:PolyFillOrange_transparentOutlineBlue_Solid"
+    }
+   ]
+  }
+ ],
+ "millopbufferol_spv": [
+  {
+   "name": "atlas-workspace-v3:millopbufferol_spv",
+   "title": "millopbufferol_spv",
+   "abstract": "",
+   "keywords": [
+    "features",
+    "millopbufferol_spv"
+   ],
+   "styles": [
+    {
+     "Name": "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid",
+     "Title": "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+    }
+   ]
+  }
+ ],
+ "millopbufferpolyloreal_spv": [
+  {
+   "name": "atlas-workspace-v3:millopbufferpolyloreal_spv",
+   "title": "millopbufferpolyloreal_spv",
+   "abstract": "",
+   "keywords": [
+    "features",
+    "millopbufferpolyloreal_spv"
+   ],
+   "styles": [
+    {
+     "Name": "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid",
+     "Title": "atlas-workspace-v3:PolyFillBlack_transparentOutlineBlack_solid"
+    },
+    {
+     "Name": "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid",
+     "Title": "atlas-workspace-v3:PolyFillTransparentOutlineCyan_solid"
+    },
+    {
+     "Name": "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid",
+     "Title": "atlas-workspace-v3:PolyFillTransparentOutlineYellow_solid"
+    }
+   ]
+  }
+ ]
+}

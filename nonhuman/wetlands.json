@@ -1,0 +1,1918 @@
+{
+ "source": "Fluet-Chouinard et al. 2023, Nature 614: 281-286; Zenodo 7616651",
+ "choices": [
+  {
+   "label": "cropland",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "4.54e-28 to under 1.73e-06 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "1.73e-06 to under 3.74e-05 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "3.74e-05 to under 3.90e-04 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "3.90e-04 to under 3.40e-03 km^2"
+    ],
+    [
+     "#46AACB",
+     "3.40e-03 to under 0.024 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "0.024 to under 0.137 km^2"
+    ],
+    [
+     "#2275A8",
+     "0.137 to under 0.703 km^2"
+    ],
+    [
+     "#1A5C92",
+     "0.703 to under 3.501 km^2"
+    ],
+    [
+     "#13447A",
+     "3.501 to under 23.7 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "23.7 to 2,983 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/cropland_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "forestry",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "1.63e-23 to under 2.49e-20 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "2.49e-20 to under 1.01e-18 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "1.01e-18 to under 3.57e-18 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "3.57e-18 to under 1.66e-17 km^2"
+    ],
+    [
+     "#46AACB",
+     "1.66e-17 to under 1.66e-17 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "1.66e-17 to under 3.18e-03 km^2"
+    ],
+    [
+     "#2275A8",
+     "3.18e-03 to under 0.094 km^2"
+    ],
+    [
+     "#1A5C92",
+     "0.094 to under 0.946 km^2"
+    ],
+    [
+     "#13447A",
+     "0.946 to under 5.176 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "5.176 to 921 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1710,
+     "label": "1710 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1720,
+     "label": "1720 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1730,
+     "label": "1730 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1740,
+     "label": "1740 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1750,
+     "label": "1750 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1760,
+     "label": "1760 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1770,
+     "label": "1770 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1780,
+     "label": "1780 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1790,
+     "label": "1790 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1800,
+     "label": "1800 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1810,
+     "label": "1810 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1820,
+     "label": "1820 (none mapped)",
+     "archive": null
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/forestry_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "ir rice",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "1.92e-10 to under 0.015 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "0.015 to under 0.578 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "0.578 to under 3.225 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "3.225 to under 8.306 km^2"
+    ],
+    [
+     "#46AACB",
+     "8.306 to under 16.8 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "16.8 to under 31.6 km^2"
+    ],
+    [
+     "#2275A8",
+     "31.6 to under 55.5 km^2"
+    ],
+    [
+     "#1A5C92",
+     "55.5 to under 105.9 km^2"
+    ],
+    [
+     "#13447A",
+     "105.9 to under 249.4 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "249.4 to 2,238 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/ir_rice_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "pasture",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "2.72e-13 to under 7.01e-07 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "7.01e-07 to under 1.44e-05 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "1.44e-05 to under 1.20e-04 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "1.20e-04 to under 6.58e-04 km^2"
+    ],
+    [
+     "#46AACB",
+     "6.58e-04 to under 3.06e-03 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "3.06e-03 to under 0.013 km^2"
+    ],
+    [
+     "#2275A8",
+     "0.013 to under 0.044 km^2"
+    ],
+    [
+     "#1A5C92",
+     "0.044 to under 0.155 km^2"
+    ],
+    [
+     "#13447A",
+     "0.155 to under 0.709 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "0.709 to 573.1 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/pasture_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "peatextr",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "6.45e-27 to under 1.96e-23 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "1.96e-23 to under 1.46e-22 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "1.46e-22 to under 1.99e-21 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "1.99e-21 to under 2.19e-20 km^2"
+    ],
+    [
+     "#46AACB",
+     "2.19e-20 to under 1.26e-19 km^2"
+    ],
+    [
+     "#2275A8",
+     "1.26e-19 to under 1.76e-06 km^2"
+    ],
+    [
+     "#1A5C92",
+     "1.76e-06 to under 3.84e-04 km^2"
+    ],
+    [
+     "#13447A",
+     "3.84e-04 to under 0.026 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "0.026 to 1,132 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/peatextr_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "urban",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "3.34e-13 to under 8.44e-04 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "8.44e-04 to under 7.48e-03 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "7.48e-03 to under 0.026 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "0.026 to under 0.068 km^2"
+    ],
+    [
+     "#46AACB",
+     "0.068 to under 0.153 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "0.153 to under 0.33 km^2"
+    ],
+    [
+     "#2275A8",
+     "0.33 to under 0.724 km^2"
+    ],
+    [
+     "#1A5C92",
+     "0.724 to under 1.681 km^2"
+    ],
+    [
+     "#13447A",
+     "1.681 to under 4.739 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "4.739 to 1,541 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/urban_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "wetcultiv",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "3.48e-22 to under 2.03e-03 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "2.03e-03 to under 9.67e-03 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "9.67e-03 to under 0.028 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "0.028 to under 0.075 km^2"
+    ],
+    [
+     "#46AACB",
+     "0.075 to under 0.182 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "0.182 to under 0.422 km^2"
+    ],
+    [
+     "#2275A8",
+     "0.422 to under 0.929 km^2"
+    ],
+    [
+     "#1A5C92",
+     "0.929 to under 2.259 km^2"
+    ],
+    [
+     "#13447A",
+     "2.259 to under 7.527 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "7.527 to 1,510 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetcultiv_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "wetland area",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "1.77e-22 to under 20.4 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "20.4 to under 42.3 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "42.3 to under 68 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "68 to under 98 km^2"
+    ],
+    [
+     "#46AACB",
+     "98 to under 137.7 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "137.7 to under 189.6 km^2"
+    ],
+    [
+     "#2275A8",
+     "189.6 to under 263 km^2"
+    ],
+    [
+     "#1A5C92",
+     "263 to under 382.9 km^2"
+    ],
+    [
+     "#13447A",
+     "382.9 to under 630.7 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "630.7 to 3,044 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_area_2020.pmtiles"
+    }
+   ]
+  },
+  {
+   "label": "wetland loss",
+   "unit": "km^2",
+   "key": [
+    [
+     "#E4F3F8",
+     "4.54e-28 to under 1.66e-17 km^2"
+    ],
+    [
+     "#C6E7F0",
+     "1.66e-17 to under 2.26e-05 km^2"
+    ],
+    [
+     "#9CD6E6",
+     "2.26e-05 to under 1.89e-03 km^2"
+    ],
+    [
+     "#6FC2DA",
+     "1.89e-03 to under 0.015 km^2"
+    ],
+    [
+     "#46AACB",
+     "0.015 to under 0.073 km^2"
+    ],
+    [
+     "#2E8FBA",
+     "0.073 to under 0.279 km^2"
+    ],
+    [
+     "#2275A8",
+     "0.279 to under 0.968 km^2"
+    ],
+    [
+     "#1A5C92",
+     "0.968 to under 3.651 km^2"
+    ],
+    [
+     "#13447A",
+     "3.651 to under 21.4 km^2"
+    ],
+    [
+     "#0C2E5E",
+     "21.4 to 3,054 km^2"
+    ]
+   ],
+   "steps": [
+    {
+     "year": 1700,
+     "label": "1700",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1700.pmtiles"
+    },
+    {
+     "year": 1710,
+     "label": "1710",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1710.pmtiles"
+    },
+    {
+     "year": 1720,
+     "label": "1720",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1720.pmtiles"
+    },
+    {
+     "year": 1730,
+     "label": "1730",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1730.pmtiles"
+    },
+    {
+     "year": 1740,
+     "label": "1740",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1740.pmtiles"
+    },
+    {
+     "year": 1750,
+     "label": "1750",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1750.pmtiles"
+    },
+    {
+     "year": 1760,
+     "label": "1760",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1760.pmtiles"
+    },
+    {
+     "year": 1770,
+     "label": "1770",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1770.pmtiles"
+    },
+    {
+     "year": 1780,
+     "label": "1780",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1780.pmtiles"
+    },
+    {
+     "year": 1790,
+     "label": "1790",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1790.pmtiles"
+    },
+    {
+     "year": 1800,
+     "label": "1800",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1800.pmtiles"
+    },
+    {
+     "year": 1810,
+     "label": "1810",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1810.pmtiles"
+    },
+    {
+     "year": 1820,
+     "label": "1820",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1820.pmtiles"
+    },
+    {
+     "year": 1830,
+     "label": "1830",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1830.pmtiles"
+    },
+    {
+     "year": 1840,
+     "label": "1840",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1840.pmtiles"
+    },
+    {
+     "year": 1850,
+     "label": "1850",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1850.pmtiles"
+    },
+    {
+     "year": 1860,
+     "label": "1860",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1860.pmtiles"
+    },
+    {
+     "year": 1870,
+     "label": "1870",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1870.pmtiles"
+    },
+    {
+     "year": 1880,
+     "label": "1880",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1880.pmtiles"
+    },
+    {
+     "year": 1890,
+     "label": "1890",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1890.pmtiles"
+    },
+    {
+     "year": 1900,
+     "label": "1900",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1900.pmtiles"
+    },
+    {
+     "year": 1910,
+     "label": "1910",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1910.pmtiles"
+    },
+    {
+     "year": 1920,
+     "label": "1920",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1920.pmtiles"
+    },
+    {
+     "year": 1930,
+     "label": "1930",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1930.pmtiles"
+    },
+    {
+     "year": 1940,
+     "label": "1940",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1940.pmtiles"
+    },
+    {
+     "year": 1950,
+     "label": "1950",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1950.pmtiles"
+    },
+    {
+     "year": 1960,
+     "label": "1960",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1960.pmtiles"
+    },
+    {
+     "year": 1970,
+     "label": "1970",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1970.pmtiles"
+    },
+    {
+     "year": 1980,
+     "label": "1980",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1980.pmtiles"
+    },
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_1990.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_2000.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/wetlands/wetland_loss_2020.pmtiles"
+    }
+   ]
+  }
+ ]
+}

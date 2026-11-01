@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "COWP"
+ ],
+ "hectares": 12883626.0,
+ "to_zoom": 5,
+ "squares": 119,
+ "bytes": 244137,
+ "how": "max"
+}

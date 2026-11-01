@@ -1,0 +1,8 @@
+{
+ "from": "https://data.ornldaac.earthdata.nasa.gov/protected/cms/Global_Salt_Marsh_Change/data/sm_gain.tif",
+ "kind": "gain",
+ "to_zoom": 9,
+ "squares": 3012,
+ "bytes": 4046535,
+ "how": "max"
+}

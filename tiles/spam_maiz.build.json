@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "MAIZ"
+ ],
+ "hectares": 176535856.0,
+ "to_zoom": 5,
+ "squares": 278,
+ "bytes": 891947,
+ "how": "max"
+}

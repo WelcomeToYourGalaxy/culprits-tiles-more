@@ -1,0 +1,303 @@
+{
+ "data": {
+  "id": "956dd0f6-9396-4e6b-88eb-1db52f763c9a",
+  "type": "dataset",
+  "attributes": {
+   "name": "Drivers of deforestation alerts PROD",
+   "slug": "Drivers-of-deforestation-alerts-STAGING-1760630531570",
+   "type": null,
+   "subtitle": null,
+   "application": [
+    "gfw"
+   ],
+   "dataPath": "data",
+   "attributesPath": null,
+   "connectorType": "document",
+   "provider": "json",
+   "userId": "622714c480348f001aab92b6",
+   "connectorUrl": "/query/67ae3597-edc5-4cbe-9f3e-90dcd1fc6dab?sql=select%20%2A%20from%20data%20limit%2010",
+   "sources": [],
+   "tableName": "index_956dd0f693964e6b88eb1db52f763c9a_1760630534074",
+   "status": "pending",
+   "published": true,
+   "overwrite": false,
+   "mainDateField": null,
+   "env": "production",
+   "geoInfo": false,
+   "protected": false,
+   "legend": {
+    "date": [],
+    "region": [],
+    "country": [],
+    "nested": [],
+    "integer": [],
+    "short": [],
+    "byte": [],
+    "double": [],
+    "float": [],
+    "half_float": [],
+    "scaled_float": [],
+    "boolean": [],
+    "binary": [],
+    "text": [],
+    "keyword": []
+   },
+   "clonedHost": {
+    "hostProvider": "json",
+    "hostUrl": "/query/67ae3597-edc5-4cbe-9f3e-90dcd1fc6dab?sql=select%20%2A%20from%20data%20limit%2010",
+    "hostId": "67ae3597-edc5-4cbe-9f3e-90dcd1fc6dab",
+    "hostType": "document",
+    "hostPath": "index_67ae3597edc54cbe9f3e90dcd1fc6dab_1759335004872"
+   },
+   "errorMessage": "",
+   "taskId": "/v1/doc-importer/task/628d10f0-c626-4ac6-9253-869350b69edc",
+   "createdAt": "2025-10-16T16:02:11.587Z",
+   "updatedAt": "2025-10-16T16:13:11.564Z",
+   "dataLastUpdated": null,
+   "metadata": [
+    {
+     "id": "68f1170411ef8d001fcbd14c",
+     "type": "metadata",
+     "attributes": {
+      "dataset": "956dd0f6-9396-4e6b-88eb-1db52f763c9a",
+      "application": "gfw",
+      "resource": {
+       "type": "dataset",
+       "id": "956dd0f6-9396-4e6b-88eb-1db52f763c9a"
+      },
+      "language": "en",
+      "info": {
+       "citation": "monthly, 10 m, tropics, WUR",
+       "color": "#DA6899",
+       "description": "Identifies drivers of deforestation alerts",
+       "isMultiLayer": true,
+       "name": "Drivers of disturbance alerts",
+       "alerts": [
+        {
+         "id": "Driver_alerts_1",
+         "title": "drivers_alerts_title",
+         "text": "We are collecting user feedback for how we can improve the drivers of deforestation alerts. Please provide your feedback through this [survey](https://survey.alchemer.com/s3/8520222/Drivers-of-Alerts) or email us at **gfw@wri.org**!",
+         "icon": "warning",
+         "color": ""
+        }
+       ]
+      },
+      "createdAt": "2025-10-16T16:02:12.314Z",
+      "updatedAt": "2026-09-02T19:04:03.560Z",
+      "status": "published"
+     }
+    }
+   ],
+   "layer": [
+    {
+     "id": "3b3d16e1-d445-4133-9a18-c452889bd43c",
+     "type": "layer",
+     "attributes": {
+      "name": "Geographic coverage",
+      "slug": "Geographic-coverage_11",
+      "dataset": "956dd0f6-9396-4e6b-88eb-1db52f763c9a",
+      "description": "Geographic coverage of drivers of deforestation alerts (tree cover 2000, ≥ 10% canopy density)",
+      "application": [
+       "gfw"
+      ],
+      "iso": [],
+      "provider": "tilelayer",
+      "userId": "622714c480348f001aab92b6",
+      "default": false,
+      "protected": false,
+      "published": true,
+      "thumbnailUrl": "https://s3.amazonaws.com/wri-api-backups/resourcewatch/prod/thumbnails/3b3d16e1-d445-4133-9a18-c452889bd43c-1760631029987.png",
+      "env": "production",
+      "layerConfig": {
+       "decode_config": [],
+       "decode_function": "RADDsCoverage",
+       "source": {
+        "maxzoom": 14,
+        "minzoom": 2,
+        "tiles": [
+         "https://tiles.globalforestwatch.org/wur_alert_drivers_coverage/v20251007.1/default/{z}/{x}/{y}.png"
+        ],
+        "type": "raster"
+       },
+       "type": "raster"
+      },
+      "legendConfig": {},
+      "interactionConfig": {},
+      "applicationConfig": {
+       "active": true,
+       "default": false,
+       "global": true,
+       "slug": "drivers-of-deforestation-alerts-geographic-coverage",
+       "dataset_slug": "drivers-of-deforestation-alerts",
+       "multiConfig": {
+        "color": "#dc6699",
+        "position": 99
+       }
+      },
+      "staticImageConfig": {},
+      "createdAt": "2025-10-16T16:10:29.761Z",
+      "updatedAt": "2025-10-16T16:10:29.761Z"
+     }
+    },
+    {
+     "id": "164e0e17-ed40-4e37-90ab-ff999699cb75",
+     "type": "layer",
+     "attributes": {
+      "name": "Drivers of disturbance alerts",
+      "slug": "Drivers-of-deforestation-alerts_1",
+      "dataset": "956dd0f6-9396-4e6b-88eb-1db52f763c9a",
+      "description": "Drivers of deforestation alerts, 2022-2024, tropics, 10 m, WUR",
+      "application": [
+       "gfw"
+      ],
+      "iso": [],
+      "provider": "tilelayer",
+      "userId": "622714c480348f001aab92b6",
+      "default": false,
+      "protected": false,
+      "published": true,
+      "thumbnailUrl": "https://s3.amazonaws.com/wri-api-backups/resourcewatch/prod/thumbnails/164e0e17-ed40-4e37-90ab-ff999699cb75-1788375842549.png",
+      "env": "staging",
+      "layerConfig": {
+       "decode_config": [
+        {
+         "default": "2014-12-31",
+         "key": "minDateAbsolut",
+         "required": true
+        },
+        {
+         "default": "2024-04-01",
+         "key": "startDate",
+         "required": true,
+         "interval": "days"
+        },
+        {
+         "key": "endDate",
+         "required": true,
+         "default": 730,
+         "interval": "days",
+         "max": 730,
+         "url": "https://data-api.globalforestwatch.org/dataset/wur_integration_alert_drivers_class/latest"
+        }
+       ],
+       "decode_function": "alertDriversEncoded",
+       "params_config": [
+        {
+         "key": "startDate",
+         "required": true,
+         "default": "2022-01-01",
+         "interval": "days"
+        },
+        {
+         "key": "endDate",
+         "required": true,
+         "default": "2024-12-31",
+         "interval": "days"
+        }
+       ],
+       "source": {
+        "maxzoom": 14,
+        "minzoom": 2,
+        "tiles": [
+         "https://tiles.globalforestwatch.org/wur_integration_alert_drivers_class/latest/dynamic/{z}/{x}/{y}.png?render_type=encoded"
+        ],
+        "type": "raster"
+       },
+       "timeline_config": {
+        "canPlay": false,
+        "dateFormat": "YYYY-MM-DD",
+        "interval": "days",
+        "speed": 100,
+        "step": 7
+       },
+       "type": "raster"
+      },
+      "legendConfig": {
+       "type": "basic",
+       "items": [
+        {
+         "name": "Non-natural drivers (human caused)",
+         "items": [
+          {
+           "name": "Small-scale agriculture",
+           "color": "#ffd966"
+          },
+          {
+           "name": "Small-scale agriculture (fire)",
+           "color": "#ff8c42"
+          },
+          {
+           "name": "Large-scale agriculture",
+           "color": "#f4b083"
+          },
+          {
+           "name": "Large-scale agriculture (fire)",
+           "color": "#ce4d1e"
+          },
+          {
+           "name": "Road development",
+           "color": "#ff0000"
+          },
+          {
+           "name": "Selective logging",
+           "color": "#00b0f0"
+          },
+          {
+           "name": "Mining",
+           "color": "#bc9dd9"
+          }
+         ]
+        },
+        {
+         "name": "Natural drivers",
+         "items": [
+          {
+           "name": "Flooding",
+           "color": "#469990"
+          },
+          {
+           "name": "Other natural disturbance",
+           "color": "#3a1f9a"
+          }
+         ]
+        },
+        {
+         "name": "Other drivers",
+         "items": [
+          {
+           "name": "Wildfire",
+           "color": "#895128"
+          },
+          {
+           "name": "Unlabeled",
+           "color": "#eda4c3"
+          }
+         ]
+        }
+       ]
+      },
+      "interactionConfig": {},
+      "applicationConfig": {
+       "active": true,
+       "dataset_slug": "drivers-of-deforestation-alert",
+       "default": true,
+       "global": true,
+       "menuPosition": 2,
+       "metadata": "wur_alert_drivers",
+       "multiConfig": {
+        "color": "#dc6699",
+        "position": 0
+       },
+       "slug": "drivers-of-deforestation-alert"
+      },
+      "staticImageConfig": {},
+      "createdAt": "2025-10-16T16:08:45.599Z",
+      "updatedAt": "2026-09-02T19:04:02.460Z"
+     }
+    }
+   ],
+   "widgetRelevantProps": [],
+   "layerRelevantProps": []
+  }
+ }
+}

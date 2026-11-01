@@ -1,0 +1,11 @@
+{
+ "alerts_with_position": 431627,
+ "no_position": 0,
+ "ged": "261",
+ "candidates": [
+  "GEDEvent_v26_01_26_06.csv",
+  "GEDEvent_v26_0_7.csv",
+  "GEDEvent_v26_0_8.csv"
+ ],
+ "boxes": "military/ucdp"
+}

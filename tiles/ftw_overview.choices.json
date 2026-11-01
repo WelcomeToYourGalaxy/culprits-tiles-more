@@ -1,0 +1,31 @@
+{
+ "choices": [
+  {
+   "label": "fields counted, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/ftw_overview.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "0.0 to 3.8 fields per 100 km²"
+    ],
+    [
+     "#8FD6E8",
+     "3.8 to 44 fields per 100 km²"
+    ],
+    [
+     "#3FA9C2",
+     "44 to 167 fields per 100 km²"
+    ],
+    [
+     "#1E6FA8",
+     "167 to 588 fields per 100 km²"
+    ],
+    [
+     "#0E2F66",
+     "588 to 26,231 fields per 100 km²"
+    ]
+   ],
+   "hint": "Wider out: fields per 100 km² in each one-degree square, counted from the project's 2025 download files"
+  }
+ ]
+}

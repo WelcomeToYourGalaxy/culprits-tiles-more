@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "SOYB"
+ ],
+ "hectares": 119458288.0,
+ "to_zoom": 5,
+ "squares": 241,
+ "bytes": 633112,
+ "how": "max"
+}

@@ -1,0 +1,71 @@
+{
+ "source": "Tang et al. 2021, figshare doi:10.6084/m9.figshare.10302218 (CC BY 4.0)",
+ "choices": [
+  {
+   "label": "Pesticide pollution risk score",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/pestrisk/risk_scores.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "-2 to under -1 risk score"
+    ],
+    [
+     "#46AACB",
+     "-1 to under 1.388 risk score"
+    ],
+    [
+     "#0C2E5E",
+     "1.388 to 6.102 risk score"
+    ]
+   ]
+  },
+  {
+   "label": "Regions of concern",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/pestrisk/regions_of_concern.pmtiles",
+   "key": [
+    [
+     "#E9E1D3",
+     "value -2"
+    ],
+    [
+     "#D08A9C",
+     "value -1"
+    ],
+    [
+     "#9A5878",
+     "value 1"
+    ],
+    [
+     "#7E92B8",
+     "value 2"
+    ],
+    [
+     "#2E8FBA",
+     "value 3"
+    ],
+    [
+     "#0C2E5E",
+     "value 4"
+    ]
+   ]
+  },
+  {
+   "label": "How many active ingredients are used",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/pestrisk/ingredient_counts.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "-2 to under -1 ingredients"
+    ],
+    [
+     "#46AACB",
+     "-1 to under 2 ingredients"
+    ],
+    [
+     "#0C2E5E",
+     "2 to 43 ingredients"
+    ]
+   ]
+  }
+ ]
+}

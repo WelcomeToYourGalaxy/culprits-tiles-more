@@ -1,0 +1,38 @@
+{
+ "files in the record": [
+  "GRIP4_Region4_vector_fgdb.zip",
+  "GRIP4_Region1_vector_shp.zip",
+  "GRIP4_Region5_vector_fgdb.zip",
+  "GRIP4_density_tp4.zip",
+  "GRIP4_density_tp1.zip",
+  "GRIP4_density_tp2.zip",
+  "GRIP4_Region4_vector_shp.zip",
+  "GRIP4_global_vector_fgdb.zip",
+  "GRIP4_AttributeDescription.xlsx",
+  "GRIP4_Region5_vector_shp.zip",
+  "GRIP4_density_tp5.zip",
+  "GRIP4_Region6_vector_fgdb.zip",
+  "GRIP4_Region6_vector_shp.zip",
+  "GRIP4_Region7_vector_fgdb.zip",
+  "GRIP4_Region7_vector_shp.zip",
+  "GRIP4_density_tp3.zip",
+  "GRIP4_Region1_vector_fgdb.zip",
+  "GRIP4_Region3_vector_fgdb.zip",
+  "GRIP4_Region3_vector_shp.zip",
+  "GRIP4_Region2_vector_shp.zip",
+  "GRIP4_Region2_vector_fgdb.zip",
+  "GRIP4_density_total.zip"
+ ],
+ "licence": {
+  "id": "cc-by-4.0"
+ },
+ "grip4_tp4_dens_m_km2.asc": "built",
+ "grip4_tp1_dens_m_km2.asc": "built",
+ "grip4_tp2_dens_m_km2.asc": "built",
+ "grip4_tp5_dens_m_km2.asc": "built",
+ "grip4_tp3_dens_m_km2.asc": "built",
+ "grip4_total_dens_m_km2.asc": "built",
+ "failed": false,
+ "version": 2,
+ "made": "2026-10-17T05:01:35Z"
+}

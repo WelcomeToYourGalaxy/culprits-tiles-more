@@ -1,0 +1,82 @@
+{
+ "item": "3ff82579637f4c7a96bd62d039ac3e00",
+ "title": "Material Research World Atlas",
+ "features": 904139,
+ "layers": 15,
+ "skipped": 0,
+ "points_merged": false,
+ "parts": [
+  {
+   "file": "arcgis_materialresearch.pmtiles",
+   "from": 0,
+   "to": 0,
+   "bytes": 1978945
+  },
+  {
+   "file": "arcgis_materialresearch_z1.pmtiles",
+   "from": 1,
+   "to": 1,
+   "bytes": 3708581
+  },
+  {
+   "file": "arcgis_materialresearch_z2.pmtiles",
+   "from": 2,
+   "to": 2,
+   "bytes": 7255018
+  },
+  {
+   "file": "arcgis_materialresearch_z3.pmtiles",
+   "from": 3,
+   "to": 3,
+   "bytes": 12563144
+  },
+  {
+   "file": "arcgis_materialresearch_z4.pmtiles",
+   "from": 4,
+   "to": 4,
+   "bytes": 18042604
+  },
+  {
+   "file": "arcgis_materialresearch_z5.pmtiles",
+   "from": 5,
+   "to": 5,
+   "bytes": 25411292
+  },
+  {
+   "file": "arcgis_materialresearch_z6.pmtiles",
+   "from": 6,
+   "to": 6,
+   "bytes": 34164228
+  },
+  {
+   "file": "arcgis_materialresearch_z7.pmtiles",
+   "from": 7,
+   "to": 7,
+   "bytes": 42559618
+  },
+  {
+   "file": "arcgis_materialresearch_z8.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 45552615
+  },
+  {
+   "file": "arcgis_materialresearch_z9.pmtiles",
+   "from": 9,
+   "to": 9,
+   "bytes": 45182912
+  },
+  {
+   "file": "arcgis_materialresearch_z10.pmtiles",
+   "from": 10,
+   "to": 10,
+   "bytes": 57685279
+  },
+  {
+   "file": "arcgis_materialresearch_z11.pmtiles",
+   "from": 11,
+   "to": 11,
+   "bytes": 80495703
+  }
+ ]
+}

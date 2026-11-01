@@ -1,0 +1,24 @@
+{
+ "companies": 48,
+ "financiers": 8,
+ "lobby_groups": 5,
+ "orbit": 12,
+ "regional_sites": 40,
+ "ties": 191,
+ "kinds": {
+  "Inputs · Seeds & Agrochemicals": 4,
+  "Regional sites": 40,
+  "Commodity Traders": 6,
+  "Meat & Protein": 5,
+  "Branded Manufacturers": 20,
+  "Retail & Grocery": 7,
+  "Foodservice & Restaurants": 6,
+  "Asset managers and financiers": 8,
+  "Lobby groups": 5,
+  "Bodies in the industry's orbit": 12,
+  "Ties: shareholdings": 88,
+  "Ties: lobby membership": 27,
+  "Ties: the orbit": 76
+ },
+ "ties_naming_no_company_on_the_page": []
+}

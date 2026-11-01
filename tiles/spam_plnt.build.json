@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "PLNT"
+ ],
+ "hectares": 5028482.0,
+ "to_zoom": 5,
+ "squares": 83,
+ "bytes": 157687,
+ "how": "max"
+}

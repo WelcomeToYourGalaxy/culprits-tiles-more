@@ -1,0 +1,8 @@
+{
+ "variable": "wetland_area",
+ "year": 2000,
+ "to_zoom": 4,
+ "squares": 169,
+ "bytes": 411354,
+ "how": "max"
+}
