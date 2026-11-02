@@ -1,11 +1,11 @@
 {
  "points_merged": false,
  "slim": true,
- "from": "f8c502efa09c2fbe92076586d175ddba6017b2f0",
+ "from": "599ed7de1904cc0ec2e13b07986ded6533c73656",
  "row": "skytruth_voc",
  "feed": "vessels_of_concern",
  "alerts_with_position": 12,
  "no_position": 0,
- "bytes": 20358,
+ "bytes": 20359,
  "boxes": "skytruth/vessels_of_concern"
 }
