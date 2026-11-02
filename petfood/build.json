@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26",
+ "date": "2026-11-02",
  "products": {
   "Q1736906": "cat food",
   "Q5442115": "Felix",
@@ -47,8 +47,8 @@
  "kinds": {
   "Q136305047": "pet food brand"
  },
- "items": 78,
- "placed": 64,
+ "items": 80,
+ "placed": 65,
  "not_placed": [
   "Alpo",
   "Beneful",
@@ -59,6 +59,7 @@
   "Health Extension",
   "Kitekat",
   "Nature Magic",
+  "Nádúr",
   "Orijen",
   "Purina One",
   "Schesir",
