@@ -1,5 +1,13 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-02",
+ "zoos_kml": {
+  "placemarks": 10445,
+  "named_like_aquariums": 881
+ },
+ "failed": [
+  "breeding: no Overpass instance answered (HTTP Error 502: Bad Gateway)",
+  "zoos: no Overpass instance answered (HTTP Error 504: Gateway Timeout)"
+ ],
  "breeding": {
   "places": 8829,
   "kinds": {
@@ -333,7 +341,8 @@
    "breeding crane": 1,
    "breeding turtle;dove": 1,
    "breeding koala": 1
-  }
+  },
+  "kept_from": "2026-10-31"
  },
  "zoos": {
   "places": 11021,
@@ -380,10 +389,7 @@
    "rabbit": 1,
    "farm animals": 1,
    "birds;butterfly": 1
-  }
- },
- "zoos_kml": {
-  "placemarks": 10445,
-  "named_like_aquariums": 881
+  },
+  "kept_from": "2026-10-31"
  }
 }
