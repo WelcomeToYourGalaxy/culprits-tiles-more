@@ -1,15 +1,15 @@
 {
- "read": "2026-10-26",
+ "read": "2026-11-02",
  "source": "Surveillance Watch (surveillancewatch.io), through its public API",
  "endpoints": {
-  "entities": 1010,
+  "entities": 1012,
   "entity-types": 15,
   "countries": 244,
   "cities": 5930,
-  "funders": 1186,
+  "funders": 1194,
   "financial-markets": 24
  },
- "entities placed": 1005,
+ "entities placed": 1007,
  "not placed": [
   "Catwatchful",
   "ClayRat",
@@ -17,7 +17,7 @@
   "ProSpy",
   "Sturnus"
  ],
- "links": 4177,
+ "links": 4186,
  "entity fields seen": [
   "_status",
   "affiliations",
