@@ -16,7 +16,7 @@
   "licence": "US government work (public domain)"
  },
  "at": 0,
- "when": "2026-11-05",
+ "when": "2026-11-06",
  "errors": {
   "canada_offenders": "No module named 'openpyxl'"
  }
