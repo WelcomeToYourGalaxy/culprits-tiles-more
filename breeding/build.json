@@ -1,19 +1,19 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "breeding": {
-  "places": 8806,
+  "places": 8818,
   "kinds": {
-   "breeding cow": 2172,
-   "breeding poultry": 1599,
-   "breeding pig": 1457,
+   "breeding cow": 2176,
+   "breeding poultry": 1601,
+   "breeding pig": 1453,
    "breeding chicken": 1187,
-   "breeding horse": 732,
-   "breeding dog": 366,
+   "breeding horse": 746,
+   "breeding dog": 364,
    "breeding fish": 132,
    "breeding gamecock": 127,
    "breeding sheep": 103,
    "breeding goat": 99,
-   "breeding cat": 55,
+   "breeding cat": 56,
    "breeding rabbit": 47,
    "breeding alpaca": 41,
    "breeding bird": 33,
@@ -36,12 +36,12 @@
    "breeding small_animal": 8,
    "breeding amphibian": 8,
    "breeding fallow_deer": 7,
-   "breeding cow;horse": 6,
    "breeding horses": 6,
    "breeding cow;sheep": 6,
    "breeding dog;cat": 6,
    "breeding bull": 6,
    "breeding sheep;goat": 6,
+   "breeding cow;horse": 5,
    "breeding lama": 5,
    "breeding crocodile": 4,
    "breeding buffalo": 4,
@@ -109,7 +109,6 @@
    "breeding gallina;gallo;pollito;pavo": 1,
    "breeding gamecock;duck": 1,
    "breeding caribou": 1,
-   "breeding cerdos;_vacas": 1,
    "breeding girafe;elephant": 1,
    "breeding Aves": 1,
    "breeding cow;horse;pig;chicken;goat": 1,
@@ -124,7 +123,6 @@
    "breeding salmon;sturgeon": 1,
    "breeding tortuga": 1,
    "breeding colony": 1,
-   "breeding dog;horse": 1,
    "breeding egg": 1,
    "breeding pig;chicken;horse;cow": 1,
    "breeding chèvres": 1,
@@ -337,8 +335,8 @@
   }
  },
  "zoos_kml": {
-  "placemarks": 10445,
-  "named_like_aquariums": 881
+  "placemarks": 10450,
+  "named_like_aquariums": 882
  },
  "failed": [
   "zoos: no Overpass instance answered (HTTP Error 502: Bad Gateway)"
@@ -389,6 +387,6 @@
    "farm animals": 1,
    "birds;butterfly": 1
   },
-  "kept_from": "2026-11-05"
+  "kept_from": "2026-11-06"
  }
 }
