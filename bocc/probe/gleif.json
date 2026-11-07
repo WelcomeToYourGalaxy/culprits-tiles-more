@@ -1179,8 +1179,8 @@
    }
   },
   {
-   "lei": "213800LNBAJFZBEP1196",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
+   "lei": "213800Y9PAZTWQCYVS21",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -1211,8 +1211,8 @@
    }
   },
   {
-   "lei": "213800Y9PAZTWQCYVS21",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
+   "lei": "213800LNBAJFZBEP1196",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -2479,6 +2479,39 @@
    }
   },
   {
+   "lei": "213800R3IJPN1JAUGY09",
+   "legal_name": "CHINAAMC STABLE FIXED INCOME FUND SP",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
+     "37/F, BANK OF CHINA TOWER, 1 GARDEN ROAD,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
+     "37/F, BANK OF CHINA TOWER, 1 GARDEN ROAD,"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "HONG KONG",
+    "region": null,
+    "country": "HK",
+    "postalCode": null
+   }
+  },
+  {
    "lei": "213800MOFKOV443ZI258",
    "legal_name": "CHINAAMC CORE SELECT BOND FUND SP",
    "status": "ACTIVE",
@@ -2541,39 +2574,6 @@
     "addressNumberWithinBuilding": null,
     "mailRouting": null,
     "city": "HONG KONG",
-    "region": null,
-    "country": "HK",
-    "postalCode": null
-   }
-  },
-  {
-   "lei": "213800S315WMUDQIMN35",
-   "legal_name": "CHINAAMC RMB MONEY MARKET ETF",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
-     "37/F, BANK OF CHINA, TOWER 1 GARDEN ROAD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "CENTRAL",
-    "region": null,
-    "country": "HK",
-    "postalCode": null
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CHINA ASSET MANAGEMENT (HONG KONG) LIMITED",
-     "37/F, BANK OF CHINA, TOWER 1 GARDEN ROAD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "CENTRAL",
     "region": null,
     "country": "HK",
     "postalCode": null
@@ -4570,6 +4570,37 @@
    }
   },
   {
+   "lei": "254900DQYZBJO6RP6D54",
+   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA URUGUAY SOCIEDAD A",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "25 De Mayo 401"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Montevideo",
+    "region": "UY-MO",
+    "country": "UY",
+    "postalCode": "11000"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "25 De Mayo 401"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Montevideo",
+    "region": "UY-MO",
+    "country": "UY",
+    "postalCode": "11000"
+   }
+  },
+  {
    "lei": "5493009W53901OCHI065",
    "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA S.A.",
    "status": "ACTIVE",
@@ -4660,37 +4691,6 @@
     "mailRouting": null,
     "city": "BILBAO",
     "region": null,
-    "country": "ES",
-    "postalCode": "48005"
-   }
-  },
-  {
-   "lei": "5493000ITT4HB63XLV65",
-   "legal_name": "BANCO BILBAO VIZCAYA ARGENTARIA, SA LONDON BRANCH",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "ONE CANADA SQUARE 44TH FLOOR"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "LONDON",
-    "region": "GB-LND",
-    "country": "GB",
-    "postalCode": "E14 5AA"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "PLAZA DE SAN NICOLAS, 4"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "BILBAO",
-    "region": "ES-BI",
     "country": "ES",
     "postalCode": "48005"
    }
@@ -6026,8 +6026,8 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "lei": "213800HVQMZIPOGSN251",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6092,8 +6092,8 @@
    }
   },
   {
-   "lei": "213800HVQMZIPOGSN251",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7027,8 +7027,8 @@
    }
   },
   {
-   "lei": "213800SJ9EDGYZ296T83",
-   "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7093,8 +7093,8 @@
    }
   },
   {
-   "lei": "213800PHORTTEXG59989",
-   "legal_name": "RBS HOLDINGS USA INC.",
+   "lei": "213800SJ9EDGYZ296T83",
+   "legal_name": "RBS AMERICAS PROPERTY CORP.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7126,8 +7126,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800PHORTTEXG59989",
+   "legal_name": "RBS HOLDINGS USA INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
