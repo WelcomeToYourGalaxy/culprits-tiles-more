@@ -1,5 +1,5 @@
 {
- "built": "2026-11-06 17:24 UTC",
+ "built": "2026-11-07 15:13 UTC",
  "by_source_and_kind": {
   "Wikidata": {
    "forts": 83688,
@@ -12,8 +12,8 @@
    "nuclear": 71
   },
   "OpenStreetMap": {
-   "air": 2457,
-   "bases": 21057,
+   "air": 2428,
+   "bases": 21367,
    "naval": 509,
    "ranges": 8597,
    "nuclear": 2825
@@ -28,12 +28,12 @@
  },
  "files": {
   "nuclear": 2896,
-  "air": 5695,
+  "air": 5666,
   "naval": 1110,
   "ranges": 9052,
   "schools": 947,
   "forts": 83688,
-  "bases": 31789,
+  "bases": 32099,
   "other": 771
  },
  "rules": {
