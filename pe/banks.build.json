@@ -1,0 +1,852 @@
+{
+ "report": "https://portfolio.earth/wp-content/uploads/2020/10/Bankrolling-Extinction-Report.pdf",
+ "banks": 50,
+ "placed": 41,
+ "scale": {
+  "points_per_million_usd": 0.001846466666666667,
+  "points_per_percent": 37.96
+ },
+ "checks": {
+  "largest_million_usd": 209844.57249924965,
+  "average_million_usd": 52084.713861581346,
+  "report_says": "more than 210 billion for the largest; 52 billion on average; 1.3 billion the smallest",
+  "bars_at_smallest_length": [
+   "STANDARD BANK",
+   "HDFC BANK",
+   "SHIN FINANCIAL GROUP",
+   "FIRSTRAND"
+  ]
+ },
+ "pairing": [
+  {
+   "bank": "Bank of America",
+   "figure_1_label": "BANK OF AMERICA",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 209844.57249924965,
+    "direct": 108089.67634130048
+   },
+   "placed": "street",
+   "openstreetmap_match": "Bank of America, 100, North Tryon Street, Uptown, Charlotte, Mecklenburg County, North Carolina, 28202, United States"
+  },
+  {
+   "bank": "Citigroup",
+   "figure_1_label": "CITIGROUP",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 184899.07199942117,
+    "direct": 112560.37978362953
+   },
+   "register_entries_found": [
+    {
+     "lei": "6SHGI4ZSSLCXXQSBB395",
+     "legal_name": "CITIGROUP INC.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "388, Greenwich Street, Lower Manhattan, Manhattan, New York County, New York, 10013, United States"
+  },
+  {
+   "bank": "JPMorgan Chase",
+   "figure_1_label": "JP MORGAN CHASE",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 171933.2386940598,
+    "direct": 95322.04146729
+   },
+   "placed": "street",
+   "openstreetmap_match": "383 Madison Avenue, 383, Madison Avenue, Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10017, United States"
+  },
+  {
+   "bank": "Mizuho Financial",
+   "figure_1_label": "MIZUHO FINANCIAL",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 144168.30270355882,
+    "direct": 89758.47002340617
+   },
+   "placed": false
+  },
+  {
+   "bank": "Wells Fargo",
+   "figure_1_label": "WELLS FARGO",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 132507.1214807504,
+    "direct": 70991.7957044084
+   },
+   "register_entries_found": [
+    {
+     "lei": "54930004W6Z9H2LPE588",
+     "legal_name": "WELLS FARGO & COMPANY",
+     "status": "NULL"
+    },
+    {
+     "lei": "PBLD0EJDB5FWOLXP3B76",
+     "legal_name": "WELLS FARGO & COMPANY",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "333 Market, 333, Market Street, Financial District, San Francisco, California, 94105, United States"
+  },
+  {
+   "bank": "BNP Paribas",
+   "figure_1_label": "BNP PARIBAS",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 126954.35905738887,
+    "direct": 73060.61578829047
+   },
+   "register_entries_found": [
+    {
+     "lei": "2763TSAJ0VP4CVMFM028",
+     "legal_name": "BNP PARIBAS",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "R0MUWSFPU8MPRO8K5P83",
+     "legal_name": "BNP PARIBAS",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "16, Boulevard des Italiens, Quartier du Faubourg-Montmartre, Paris 9e Arrondissement, Paris, Île-de-France, France métropolitaine, 75002, France"
+  },
+  {
+   "bank": "Mitsubishi UFJ Financial",
+   "figure_1_label": "MITSUBISHI UFJ FINANCIAL",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 117514.18363859916,
+    "direct": 72263.95461517718
+   },
+   "placed": false
+  },
+  {
+   "bank": "HSBC",
+   "figure_1_label": "HSBC",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 117514.18363859916,
+    "direct": 64167.40325201623
+   },
+   "register_entries_found": [
+    {
+     "lei": "MLU0ZO3ML4LN2LL2TL39",
+     "legal_name": "HSBC HOLDINGS PLC",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "HSBC UK, 8, Canada Square, Canary Wharf, London Borough of Tower Hamlets, Greater London, England, E14 5HQ, United Kingdom"
+  },
+  {
+   "bank": "SMBC Group",
+   "figure_1_label": "SMBC GROUP",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 117514.18363859916,
+    "direct": 76785.5629247978
+   },
+   "placed": false
+  },
+  {
+   "bank": "Barclays",
+   "figure_1_label": "BARCLAYS",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 104186.56216927261,
+    "direct": 59291.60945341553
+   },
+   "register_entries_found": [
+    {
+     "lei": "213800LBQA1Y9L22JB70",
+     "legal_name": "BARCLAYS PLC",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Barclays, 1, Churchill Place, Canary Wharf, London Borough of Tower Hamlets, Greater London, England, E14 5HP, United Kingdom"
+  },
+  {
+   "bank": "Goldman Sachs",
+   "figure_1_label": "GOLDMAN SACHS",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 96900.22457376361,
+    "direct": 48605.25643924093
+   },
+   "register_entries_found": [
+    {
+     "lei": "784F5XWPLTWKTBV3E584",
+     "legal_name": "THE GOLDMAN SACHS GROUP, INC.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Goldman Sachs Tower, 200, West Street, Battery Park City, Lower Manhattan, Manhattan, New York County, New York, 10282, United States"
+  },
+  {
+   "bank": "Crédit Agricole",
+   "figure_1_label": "CRÉDIT AGRICOLE",
+   "how_paired": "no register entry named Crédit Agricole S.A.",
+   "measured_million_usd": {
+    "total": 81084.61118800659,
+    "direct": 51194.00032677839
+   },
+   "placed": false
+  },
+  {
+   "bank": "Morgan Stanley",
+   "figure_1_label": "MORGAN STANLEY",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 79460.41537031875,
+    "direct": 43628.74372464188
+   },
+   "register_entries_found": [
+    {
+     "lei": "IGJSJL3JD5P30I6NJZ34",
+     "legal_name": "MORGAN STANLEY",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Morgan Stanley Building, 1585, Broadway, Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States"
+  },
+  {
+   "bank": "Bank of China",
+   "figure_1_label": "BANK OF CHINA",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 76824.56795298227,
+    "direct": 60887.642318549835
+   },
+   "register_entries_found": [
+    {
+     "lei": "25490064D4J0UOZ7XS89",
+     "legal_name": "Bank of China Limited",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "254900DOHD6ZQSF7GZ43",
+     "legal_name": "BANK OF CHINA LIMITED",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "984500BDB0DE6F1AF647",
+     "legal_name": "BANK OF CHINA LIMITED",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "54930053HGCFWVHYZX42",
+     "legal_name": "中国银行股份有限公司",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "西城区, 北京市, 100032, 中国"
+  },
+  {
+   "bank": "Royal Bank of Canada",
+   "figure_1_label": "ROYAL BANK OF CANADA",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 74735.71647326989,
+    "direct": 48518.05706267262
+   },
+   "register_entries_found": [
+    {
+     "lei": "ES7IP3U3RHIGC71XBU11",
+     "legal_name": "Royal Bank of Canada",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Le Cathcart, 1, Esplanade Place Ville Marie, Galerie Place Ville-Marie, Ville-Marie, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H3B 0E9, Canada"
+  },
+  {
+   "bank": "Société Générale",
+   "figure_1_label": "SOCIÉTÉ GÉNÉRALE",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 69356.26198446017,
+    "direct": 42995.077292187554
+   },
+   "register_entries_found": [
+    {
+     "lei": "254900N8T2BRBQ9GMT85",
+     "legal_name": "Société Générale",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "213800O66553ESU7RD35",
+     "legal_name": "SOCIETE GENERALE",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "O2RNE8IBXP4R0TD8PU41",
+     "legal_name": "SOCIETE GENERALE",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "29, Boulevard Haussmann, Quartier de la Chaussée-d'Antin, Paris 9e Arrondissement, Paris, Île-de-France, France métropolitaine, 75009, France"
+  },
+  {
+   "bank": "Deutsche Bank",
+   "figure_1_label": "DEUTSCHE BANK",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 68758.36117954447,
+    "direct": 34169.594673498024
+   },
+   "register_entries_found": [
+    {
+     "lei": "529900IH9V4I3VHQVO92",
+     "legal_name": "Deutsche Bank Aktiengesellschaft",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "7LTWFZYICNSX8D621K86",
+     "legal_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Deutsche-Bank-Hochhaus, 12, Taunusanlage, Westend Süd, Innenstadt 2, Frankfurt am Main, Hessen, 60325, Deutschland"
+  },
+  {
+   "bank": "Toronto-Dominion Bank",
+   "figure_1_label": "TORONTO-DOMINION BANK",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 57070.07476765872,
+    "direct": 39119.03525412837
+   },
+   "placed": "city",
+   "openstreetmap_match": "Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  {
+   "bank": "Credit Suisse",
+   "figure_1_label": "CREDIT SUISSE",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 53653.82929065535,
+    "direct": 35047.472248517435
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300506SI9CRFV9Z86",
+     "legal_name": "CREDIT SUISSE GROUP AG",
+     "status": "INACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "UBS, 8, Paradeplatz, City, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  {
+   "bank": "Santander",
+   "figure_1_label": "SANTANDER",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 49766.416295227136,
+    "direct": 32479.88363050375
+   },
+   "register_entries_found": [
+    {
+     "lei": "7245000NHIQTPK869X55",
+     "legal_name": "Banco Santander S.A.",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "894500NTXK2L5DK8ST13",
+     "legal_name": "Banco Santander S.A",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "5493006QMFDDMYWIAM13",
+     "legal_name": "BANCO SANTANDER S.A.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Paseo de Pereda, Ensanche, Tetuán, Santander, Cantabria, 39004, España"
+  },
+  {
+   "bank": "ING Group",
+   "figure_1_label": "ING GROUP",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 48655.63242479442,
+    "direct": 32246.448453352343
+   },
+   "placed": "street",
+   "openstreetmap_match": "ING Bank Cedar gebouw A, 106, Bijlmerdreef, H-Buurt, Bijlmer, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1102 CT, Nederland"
+  },
+  {
+   "bank": "China Construction Bank",
+   "figure_1_label": "CHINA CONSTRUCTION BANK",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 42825.041813390206,
+    "direct": 35341.56355000654
+   },
+   "placed": "address",
+   "openstreetmap_match": "北京金融街, 金融街街道, 首都功能核心区, 西城区, 北京市, 100032, 中国"
+  },
+  {
+   "bank": "UniCredit",
+   "figure_1_label": "UNICREDIT",
+   "how_paired": "no register entry named UniCredit S.p.A. / UniCredit, Società per Azioni",
+   "measured_million_usd": {
+    "total": 41725.100018588426,
+    "direct": 25125.81611741005
+   },
+   "register_entries_found": [
+    {
+     "lei": "5299009WCZQ5210QDL73",
+     "legal_name": "UniCredit S.p.A. Branch Vienna",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": false
+  },
+  {
+   "bank": "Industrial and Commercial Bank of China",
+   "figure_1_label": "INDUSTRIAL AND COMMERCIAL BANK",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 41436.99169176151,
+    "direct": 31347.97754565589
+   },
+   "placed": "city",
+   "openstreetmap_match": "北京市, 中国"
+  },
+  {
+   "bank": "Agricultural Bank of China",
+   "figure_1_label": "AGRICULTURAL BANK OF CHINA",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 34158.223716128996,
+    "direct": 26290.74425578018
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300E7TSGLCOVSY746",
+     "legal_name": "中国农业银行股份有限公司",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "东城区, 北京市, 100010, 中国"
+  },
+  {
+   "bank": "Banco Bilbao Vizcaya Argentaria (BBVA)",
+   "figure_1_label": "BANCO BILBAO VIZCAYA ARGENTARIA",
+   "how_paired": "no register entry named Banco Bilbao Vizcaya Argentaria, S.A.",
+   "measured_million_usd": {
+    "total": 33107.56708829589,
+    "direct": 18429.77665183165
+   },
+   "placed": false
+  },
+  {
+   "bank": "BPCE Group",
+   "figure_1_label": "BPCE GROUP",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 29443.276076126247,
+    "direct": 21197.77839347447
+   },
+   "register_entries_found": [
+    {
+     "lei": "9695005MSX1OYEMGDF46",
+     "legal_name": "BPCE",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "54930039KUBJI660KI09",
+     "legal_name": "BPCE LIFE",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Paris 13e Arrondissement, Paris, Île-de-France, France métropolitaine, 75013, France"
+  },
+  {
+   "bank": "UBS",
+   "figure_1_label": "UBS",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 23960.359097301825,
+    "direct": 14135.653599808868
+   },
+   "placed": "street",
+   "openstreetmap_match": "UBS, 45, Bahnhofstrasse, Lindenhof, Altstadt, Zürich, Bezirk Zürich, Zürich, 8001, Schweiz/Suisse/Svizzera/Svizra"
+  },
+  {
+   "bank": "NatWest",
+   "figure_1_label": "NATWEST",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 22906.99195056098,
+    "direct": 13492.79784715515
+   },
+   "register_entries_found": [
+    {
+     "lei": "2138005O9XJIJN4JPN90",
+     "legal_name": "NATWEST GROUP PLC",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "36, St Andrew Square, Gayfield, Broughton, New Town/Broughton, City of Edinburgh, Alba / Scotland, EH2 2AD, United Kingdom"
+  },
+  {
+   "bank": "Rabobank",
+   "figure_1_label": "RABOBANK",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 22699.57114390209,
+    "direct": 14517.440104495747
+   },
+   "register_entries_found": [
+    {
+     "lei": "DG3RU1DBUFHT4ZF9WN62",
+     "legal_name": "Coöperatieve Rabobank U.A.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Rabobank, 18, Croeselaan, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Nederland, 3521 CB, Nederland"
+  },
+  {
+   "bank": "DBS",
+   "figure_1_label": "DBS",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 21075.93726306098,
+    "direct": 13209.548621296979
+   },
+   "placed": "city",
+   "openstreetmap_match": "Singapore"
+  },
+  {
+   "bank": "Intesa Sanpaolo",
+   "figure_1_label": "INTESA SANPAOLO",
+   "how_paired": "no register entry named Intesa Sanpaolo S.p.A. / Intesa Sanpaolo Società per Azioni",
+   "measured_million_usd": {
+    "total": 14504.449446803803,
+    "direct": 8100.319645544869
+   },
+   "register_entries_found": [
+    {
+     "lei": "724500ZM62VN7JH6K383",
+     "legal_name": "Intesa Sanpaolo S.p.A.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": false
+  },
+  {
+   "bank": "Lloyds Banking Group",
+   "figure_1_label": "LLOYDS BANKING GROUP",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 12618.159672781572,
+    "direct": 5649.15112012921
+   },
+   "placed": "street",
+   "openstreetmap_match": "Lloyds Banking Group, 33, Old Broad Street, Leadenhall Market, Bishopsgate, City of London, Greater London, England, EC2N 1HZ, United Kingdom"
+  },
+  {
+   "bank": "Oversea-Chinese Banking Corporation",
+   "figure_1_label": "OVERSEA-CHINESE BANKING",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 9102.781924994131,
+    "direct": 7458.025829737877
+   },
+   "register_entries_found": [
+    {
+     "lei": "5493007O3QFXCPOGWK22",
+     "legal_name": "OVERSEA-CHINESE BANKING CORPORATION LIMITED",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Singapore"
+  },
+  {
+   "bank": "Crédit Mutuel CIC Group",
+   "figure_1_label": "CRÉDIT MUTUEL CIC GROUP",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 6522.202649288505,
+    "direct": 3834.8884278137066
+   },
+   "placed": "street",
+   "openstreetmap_match": "46, Rue du Bastion, Quartier des Batignolles, Paris 17e Arrondissement, Paris, Île-de-France, France métropolitaine, 75017, France"
+  },
+  {
+   "bank": "Commonwealth Bank of Australia",
+   "figure_1_label": "COMMONWEALTH BANK OF AUSTRALIA",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 6452.324149642785,
+    "direct": 4753.390731340488
+   },
+   "placed": "city",
+   "openstreetmap_match": "Sydney, New South Wales, Australia"
+  },
+  {
+   "bank": "National Australia Bank",
+   "figure_1_label": "NATIONAL AUSTRALIA BANK",
+   "how_paired": "LEI as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 6452.324149642785,
+    "direct": 4669.99269226473
+   },
+   "placed": "city",
+   "openstreetmap_match": "Melbourne, Victoria, Australia"
+  },
+  {
+   "bank": "DZ Bank",
+   "figure_1_label": "DZ BANK",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 6065.645488878533,
+    "direct": 4366.183188838141
+   },
+   "register_entries_found": [
+    {
+     "lei": "529900HNOAA1KXQJUQ27",
+     "legal_name": "DZ BANK AG Deutsche Zentral-Genossenschaftsbank, Frankfurt am Main",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Platz der Republik, Bahnhofsviertel, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland"
+  },
+  {
+   "bank": "Norinchukin Bank",
+   "figure_1_label": "NORINCHUKIN BANK",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 5735.292733221332,
+    "direct": 3678.372488446402
+   },
+   "register_entries_found": [
+    {
+     "lei": "5493007VSMFZCPV1NB83",
+     "legal_name": "農林中央金庫",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": false
+  },
+  {
+   "bank": "State Bank of India",
+   "figure_1_label": "STATE BANK OF INDIA",
+   "how_paired": "exact legal name as approved for Banking on Climate Chaos, 25 September",
+   "measured_million_usd": {
+    "total": 5552.2335416234155,
+    "direct": 4430.607595559763
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300P3DIW86LCFS227",
+     "legal_name": "STATE BANK OF INDIA",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "5493001JZ37UBBZF6L49",
+     "legal_name": "STATE BANK OF INDIA",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+  },
+  {
+   "bank": "Banco do Brasil",
+   "figure_1_label": "BANCO DO BRASIL",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 5702.237624590433,
+    "direct": 1547.276579903735
+   },
+   "register_entries_found": [
+    {
+     "lei": "81560032A9148CB5EB22",
+     "legal_name": "BANCO DO BRASIL S.A.",
+     "status": "NULL"
+    }
+   ],
+   "placed": "address",
+   "openstreetmap_match": "Brasília, Plano Piloto, Distrito Federal, Região Centro-Oeste, 70391-900, Brasil"
+  },
+  {
+   "bank": "CIMB Group",
+   "figure_1_label": "CIMB GROUP",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 5619.930404099496,
+    "direct": 2794.511938764803
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300FYDN5UD7USZW18",
+     "legal_name": "CIMB GROUP HOLDINGS BERHAD",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Arcoris East, Plaza Level, Arcoris Mont'Kiara, Mont Kiara, Kuala Lumpur, 50480, Malaysia"
+  },
+  {
+   "bank": "Bradesco",
+   "figure_1_label": "BRADESCO",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 5064.27402801409,
+    "direct": 2444.127787277277
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300CTUU1RFXHQJE44",
+     "legal_name": "BANCO BRADESCO S.A.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Osasco, São Paulo, Região Sudeste, Brasil"
+  },
+  {
+   "bank": "Malayan Banking",
+   "figure_1_label": "MALAYSIAN BANKING",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 5064.27402801409,
+    "direct": 3152.4987652374352
+   },
+   "register_entries_found": [
+    {
+     "lei": "5493004OT3TOY404V310",
+     "legal_name": "MALAYAN BANKING BERHAD",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "Arcoris East, Plaza Level, Arcoris Mont'Kiara, Mont Kiara, Kuala Lumpur, 50480, Malaysia"
+  },
+  {
+   "bank": "Bank Mandiri",
+   "figure_1_label": "BANK MANDIRI",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 2843.2682239953783,
+    "direct": 1030.0632951560638
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300RSKQN4Z5ZSGH94",
+     "legal_name": "PT. Bank Mandiri (Persero) Tbk.",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Daerah Khusus Ibukota Jakarta, Indonesia"
+  },
+  {
+   "bank": "Sberbank",
+   "figure_1_label": "SBERBANK",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 2843.2682239953783,
+    "direct": 1157.8874002317489
+   },
+   "register_entries_found": [
+    {
+     "lei": "549300WE6TAF5EEWQS81",
+     "legal_name": "Публичное акционерное общество \"Сбербанк России\"",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "street",
+   "openstreetmap_match": "улица Вавилова, Академический район, Москва, Центральный федеральный округ, 117312, Россия"
+  },
+  {
+   "bank": "Standard Bank",
+   "figure_1_label": "STANDARD BANK",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 1863.0189775460788,
+    "direct": null
+   },
+   "register_entries_found": [
+    {
+     "lei": "2549003PEZXUT7MDBU41",
+     "legal_name": "Standard Bank Group Limited",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa"
+  },
+  {
+   "bank": "HDFC Bank",
+   "figure_1_label": "HDFC BANK",
+   "how_paired": "exact legal name; 2 register entries with that name",
+   "measured_million_usd": {
+    "total": 1863.0189775460788,
+    "direct": null
+   },
+   "register_entries_found": [
+    {
+     "lei": "335800ZQ6I4E2JXENC50",
+     "legal_name": "HDFC BANK LIMITED",
+     "status": "ACTIVE"
+    },
+    {
+     "lei": "2549002CKOXEYVT72L29",
+     "legal_name": "VAIBHAVLAXMI TEXTILES LLP",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India"
+  },
+  {
+   "bank": "Shinhan Financial Group",
+   "figure_1_label": "SHIN FINANCIAL GROUP",
+   "how_paired": "exact legal name; 1 register entry with that name",
+   "measured_million_usd": {
+    "total": 1863.0189775460788,
+    "direct": null
+   },
+   "register_entries_found": [
+    {
+     "lei": "988400EB8A6G49E5KO54",
+     "legal_name": "(주)신한금융지주회사",
+     "status": "ACTIVE"
+    }
+   ],
+   "placed": "city",
+   "openstreetmap_match": "서울특별시, 대한민국"
+  },
+  {
+   "bank": "FirstRand",
+   "figure_1_label": "FIRSTRAND",
+   "how_paired": "no register entry named FirstRand Limited in ZA",
+   "measured_million_usd": {
+    "total": 1863.0189775460788,
+    "direct": null
+   },
+   "placed": false
+  }
+ ]
+}

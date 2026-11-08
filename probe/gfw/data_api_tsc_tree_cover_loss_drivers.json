@@ -1,0 +1,39 @@
+{
+ "data": {
+  "created_on": "2021-07-09T17:54:36.118578",
+  "updated_on": "2025-01-27T20:44:37.617273",
+  "dataset": "tsc_tree_cover_loss_drivers",
+  "is_downloadable": true,
+  "metadata": {
+   "created_on": "2024-07-11T15:09:24.048314",
+   "updated_on": "2026-08-05T14:43:22.892840",
+   "spatial_resolution": null,
+   "resolution_description": "10 × 10 km",
+   "geographic_coverage": "Global",
+   "update_frequency": "Annual",
+   "scale": "global",
+   "citation": "Curtis, P.G., C.M. Slay, N.L. Harris, A. Tyukavina, and M.C. Hansen. 2018. “Classifying Drivers of Global Forest Loss.” *Science.* Accessed through Global Nature Watch on [date]. www.globalnaturewatch.org.",
+   "title": "Tree cover loss by dominant driver",
+   "subtitle": null,
+   "source": "Curtis, P.G., C.M. Slay, N.L. Harris, A. Tyukavina, and M.C. Hansen. 2018. “Classifying Drivers of Global Forest Loss.” Science. [https://science.sciencemag.org/content/361/6407/1108](https://science.sciencemag.org/content/361/6407/1108)",
+   "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+   "data_language": "English",
+   "overview": "This data set shows the dominant driver of [tree cover loss](https://earthenginepartners.appspot.com/science-2013-global-forest) from 2001-2023 using the following five categories:<br><br>* **Commodity-driven deforestation:** Large-scale deforestation linked primarily to commercial agricultural expansion.<br>* **Shifting agriculture:** Temporary loss or permanent deforestation due to small- and medium-scale agriculture.<br>* **Forestry:** Temporary loss from plantation and natural forest harvesting, with some deforestation of primary forests.<br>* **Wildfire:** Temporary loss, does not include fire clearing for agriculture.<br>* **Urbanization:** Deforestation for expansion of urban centers.<br><br>The commodity-driven deforestation and urbanization categories represent permanent deforestation, while tree cover usually regrows in the other categories. <br><br>The data were generated using decision tree models to separate each 10 km grid cell into one of the five categories. The decision trees were created using 4,699 sample grid cells, and use metrics derived from the [Hansen tree cover, tree cover gain, and tree cover loss](https://earthenginepartners.appspot.com/science-2013-global-forest), [NASA fires](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data), [global land cover](http://www.earthenv.org/landcover.html), and [population count](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-count-rev10). Separate decision trees were created for each driver and each region (North America, South America, Europe, Africa, Eurasia, Southeast Asia, Oceania), for a total of 35 decision trees. The final outputs were combined into a global map, which is then overlaid with tree cover loss data to indicate the intensity of loss associated with each driver around the world.<br><br>All model code, reference samples, decision trees, and the final model are available in the Supplementary Materials of the paper.",
+   "function": "Shows the dominant driver of tree cover loss within each 10 km grid cell and the intensity of that loss for the time period 2001-2023.",
+   "cautions": "This data set is intended for use at the global or regional scale, not for individual pixels. Individual grid cells may have more than one driver of tree cover loss, with variation over space and time. <br><br>Aside from the commodity-driven deforestation and urbanization classes, which are assumed to represent permanent conversion from a forest to non-forest state, this data set does not indicate the stability or changing condition of the forest land use after the tree cover loss occurs. The data set also does not distinguish between natural or anthropogenic wildfires. <br><br>The accuracy of the data was assessed using a validation sample of 1,565 randomly selected grid cells. The overall accuracy of the model was 89%, with individual class accuracies ranging from 55% (urbanization) to 94% (commodity-driven deforestation).",
+   "key_restrictions": null,
+   "tags": null,
+   "why_added": "Global picture of the drivers of tree cover loss - allows us to better separate out and understand drivers spatially",
+   "learn_more": null,
+   "id": "0cc54ec8-ca98-4290-a395-17bae8d75e03"
+  },
+  "versions": [
+   "v2020",
+   "v2021",
+   "v2021.1",
+   "v2022",
+   "v2023"
+  ]
+ },
+ "status": "success"
+}

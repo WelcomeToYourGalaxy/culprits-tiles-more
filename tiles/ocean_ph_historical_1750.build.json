@@ -1,0 +1,9 @@
+{
+ "from": "https://www.ncei.noaa.gov/data/oceans/ncei/ocads/data/0259391/nc/median/pHT_median_historical.nc",
+ "variable": "pHT",
+ "time": 1750,
+ "to_zoom": 5,
+ "squares": 980,
+ "bytes": 794329,
+ "how": "max"
+}

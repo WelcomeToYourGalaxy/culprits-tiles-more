@@ -1,0 +1,22 @@
+{
+ "choices": [
+  {
+   "label": "every river reach",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fish_rivers.pmtiles",
+   "key": [
+    [
+     "#8FD6E8",
+     "free-flowing river (CSI 95% or more along its whole length)"
+    ],
+    [
+     "#3FA9C2",
+     "good connectivity: this reach 95% or more, the river as a whole not free-flowing"
+    ],
+    [
+     "#0E2F66",
+     "impacted: CSI under 95%"
+    ]
+   ]
+  }
+ ]
+}

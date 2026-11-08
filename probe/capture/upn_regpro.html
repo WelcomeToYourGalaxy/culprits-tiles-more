@@ -1,0 +1,1508 @@
+
+<!DOCTYPE html>
+
+<html lang="sk">
+	<meta charset="utf-8">
+	<title>Vyhľadávanie
+ - Registračné protokoly agentúrnych a operatívnych zväzkov Štátnej bezpečnosti a vojenskej kontrarozviedky - Ústav pamäti národa</title>
+	<meta name="copyright" content="Ústav pamäti národa, 2004-2026">
+	<meta name="author" content="Sekcia informatiky ÚPN">
+	<meta name="description" content="Vyhľadávanie v Registračných protokoloch agentúrnych a operatívnych zväzkov Štátnej bezpečnosti a vojenskej kontrarozviedky, ktoré zverejnil Ústav pamäti národa.">
+	<meta name="keywords" content="registračné protokoly, vojenská kontratozviedka, štb, zväzky, zoznam zväzkov, štátna bezpečnosť, prenasledovaná osoba, nepriatelská osoba, agent, dôverník, tajný spolupracovník, komunizmus, ústav pamäti národa">
+  	<link rel="stylesheet" href="/assets/stylesheets/application.css?v=2" media="screen">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="/assets/regpro/js/focus-form-field.js"> </script>
+</html>
+
+<body>
+
+	<div class="header">
+		<h1>Registračné protokoly agentúrnych a operatívnych zväzkov Štátnej bezpečnosti a vojenskej kontrarozviedky</h1>
+	</div>
+
+	<div class="nav">
+		<ul class="left">
+			<li><a title="Vyhľadávanie v registračných protokoloch" href="/projekty/regpro/">Registračné protokoly</a></li>
+			<li><a href="//www.upn.gov.sk/sk/vysvetlivky-k-registracnym-protokolom/" title="Vysvetlivky k registračným protokolom">Vysvetlivky</a></li>
+			<li><a title="Najčastejšie otázky" href="/projekty/regpro/faq/">Najčastejšie otázky</a></li>
+		</ul>
+		<ul class="right">
+			<li><a href="//www.upn.gov.sk/" title="Na úvodnú stránku Ústavu pamäti národa">Hlavná stránka ÚPN</a></li>
+		</ul>
+	</div>
+
+<div class="content-container">
+    <h2>Vyhľadávanie
+</h2>
+
+
+<div class="search-form" id="regpro">
+	<form action="/projekty/regpro/vysledky-vyhladavania/" method="get">
+		<div class="row">
+			<div class="column-full">
+				<label for="kraj" class="col1">Kraj:</label><br>
+				<select id="kraj" class="select-col1 no-full-width" name="kraj">
+					<option value="">všetky</option>
+							<option value="BA">Bratislavský</option>
+							<option value="NR">Nitriansky</option>
+							<option value="BB">Banskobystrický</option>
+							<option value="KE">Košický</option>
+							<option value="88">II. správa ZNB</option>
+							<option value="BA_VKR">11. brigáda Pohraničnej stráže Bratislava (VKR)</option>
+							<option value="KE_VKR">Oddelenie VKR pri Krajskej vojenskej správe v Košiciach (VKR)</option>
+							<option value="TN_VKR">1. oddelenie Odboru VKR VVO Trenčín (VKR)</option>
+							<option value="TO_VKR">Oddelenie VKR 13. tankovej divízie v Topoľčanoch (VKR)</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<label for="priezvisko" class="col1">Priezvisko:</label><br>
+				<input type="text" id="priezvisko" class="input-col1" name="priezvisko" maxlength="50" value="">
+			</div>
+			<div class="column">
+				<label for="meno" class="col2">Meno:</label><br>
+				<input type="text" id="meno" name="meno" class="input-col2" maxlength="50" value="">
+			</div>
+			<div class="column">
+				<label for="krycie-meno" class="col2">Krycie meno:</label><br>
+				<input type="text" id="krycie-meno" name="krycie_meno" class="input-col2" maxlength="50" value="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+            	<label for="datum-narodenia" class="col1">Dátum narodenia:</label><br>
+				<input type="text" id="datum-narodenia" class="input-col1" name="datum_narodenia" size="8" maxlength="10" value="">
+			</div>
+			<div class="column">
+				<label for="kategoria" class="col2">Kategória:</label><br>
+				<select id="kategoria" class="select-col2" name="kategoria">
+					<option value="">všetky</option>
+						<option value="A">agent (A)</option>
+						<option value="I">informátor (I)</option>
+						<option value="R">rezident (R)</option>
+						<option value="KB">konšpiračný byt (KB)</option>
+						<option value="PB">prepožičaný byt (PB)</option>
+						<option value="PO">preverovaná osoba (PO)</option>
+						<option value="NO">nepriateľská osoba (NO)</option>
+						<option value="TS">tajný spolupracovník (TS)</option>
+						<option value="KTS">kandidát tajnej spolupráce (KTS)</option>
+						<option value="D">dôverník (D)</option>
+						<option value="KI">kandidát informátora (KI)</option>
+						<option value="KA">kandidát agenta (KA)</option>
+						<option value="S">signálny zväzok (S)</option>
+						<option value="Z">sobný zväzok (OZ)</option>
+						<option value="OB">objektový zväzok (OB)</option>
+						<option value="SKZ">skupinový zväzok (SKZ)</option>
+						<option value="APZ">agentúrno-pátrací zväzok (APZ)</option>
+						<option value="EZ">evidenčný zväzok (EZ)</option>
+						<option value="K">kontrolný zväzok (K)</option>
+						<option value="VOZ">vecný operatívny zväzok (VOZ)</option>
+						<option value="P">pozorovací zväzok (P)</option>
+						<option value="PZ">pátrací zväzok (PZ)</option>
+						<option value="ZPS">zväzok pohraničnej stráže (ZPS)</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-full">
+				<button type="submit" id="tlacitko-hladaj">Hľadaj</button>
+			</div>
+		</div>
+	</form>
+</div>
+
+    <div class="small-navigation">
+        <p><strong>Prejdi na:</strong>
+            <a href="#ke">Správa ŠtB Košice</a>, <a href="#bb">Správa ŠtB Banská Bystrica</a>, <a href="#ba">Správa ŠtB Bratislava</a>, <a href="#nr">Správa ŠtB Nitra</a>, <a href="#ce">II. Správa ZNB</a>,
+            <a href="#vkr-ba">11. brigáda Pohraničnej stráže Bratislava</a>, <a href="#vkr-ke">Oddelenie VKR pri Krajskej vojenskej správe v Košiciach</a>, <a href="#vkr-tn">1. oddelenie Odboru VKR VVO Trenčín</a>, <a href="#vkr-to">oddelenie VKR 13. tankovej divízie v Topoľčanoch</a>
+        </p>
+    </div>
+
+    <h3 id="ke">Zoznam zväzkov: košický kraj</h3>
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>séria</th>
+                    <th><abbr title="Krajská správa">KS</abbr> <abbr title="Zbor národnej bezpečnosti">ZNB</abbr></th>
+                    <th>vedená</th>
+                    <th>registračné čísla</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>03.06.1958 - 19.01.1960</td>
+                        <td>1 - 970</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=1&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>19.01.1960 - 17.03.1961</td>
+                        <td>971 - 4947</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=2&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>17.03.1961 - 04.01.1963</td>
+                        <td>4955 - 5795</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=3&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>03.01.1963 - 25.07.1967</td>
+                        <td>5955 - 6970</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=4&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>25.07.1967 - 25.03.1971</td>
+                        <td>6971 - 8360</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=5&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>26.03.1971 - 12.09.1972</td>
+                        <td>8361 - 8850</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=6&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>12.09.1972 - 12.04.1974</td>
+                        <td>8851 - 9840</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=7&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>16.04.1974 - 15.07.1975</td>
+                        <td>9841 - 10830</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=8&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>18.07.1975 - 13.04.1976</td>
+                        <td>10831 - 11820</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=9&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>13.04.1976 - 27.09.1977</td>
+                        <td>11821 - 12810</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=10&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>27.09.1977 - 19.07.1979</td>
+                        <td>12811 - 13780</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=11&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>19.07.1979 - 24.03.1981</td>
+                        <td>13781 - 14770</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=12&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>25.03.1981 - 28.10.1982</td>
+                        <td>14771 - 15780</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=13&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>29.10.1982 - 22.06.1983</td>
+                        <td>15781 - 16270</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=14&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>22.06.1983 - 13.08.1984</td>
+                        <td>16271 - 17260</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=15&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>13.08.1982 - 06.09.1985</td>
+                        <td>17261 - 18250</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=16&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>11.09.1985 - 14.10.1986</td>
+                        <td>18251 - 19240</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=17&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>16.10.1986 - 22.01.1988</td>
+                        <td>19241 - 20230</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=18&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>22.01.1988 - 27.03.1989</td>
+                        <td>20231 - 21220</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=19&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>30.03.1989 - 24.11.1989</td>
+                        <td>21221 - 21781</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=20&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Košice</td>
+                        <td>09.06.1954 - 02.07.1975</td>
+                        <td>1 - 5953</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=95&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+    <h3 id="bb">Zoznam zväzkov: banskobystrický kraj</h3>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>séria</th>
+                    <th><abbr title="Krajská správa">KS</abbr> <abbr title="Zbor národnej bezpečnosti">ZNB</abbr></th>
+                    <th>vedená</th>
+                    <th>registračné čísla</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>20.02.1967 - 12.02.1963</td>
+                        <td>1 - 1000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=21&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>19.08.1960 - </td>
+                        <td>1001 - 2000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=22&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>16.07.1962 - </td>
+                        <td>2001 - 3000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=23&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>10.04.1971 - </td>
+                        <td>3001 - 4000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=24&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>21.06.1965 - </td>
+                        <td>4001 - 5000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=25&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.03.1973 - 02.01.1974</td>
+                        <td>5001 - 6000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=26&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>02.01.1974 - 04.12.1974</td>
+                        <td>6001 - 7000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=27&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>04.12.1974 - 12.04.1976</td>
+                        <td>7001 - 8000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=28&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>12.04.1976 - 20.09.1977</td>
+                        <td>8001 - 9000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=29&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>23.09.1977 - 09.03.1979</td>
+                        <td>9001 - 10000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=30&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>09.03.1979 - 20.05.1980</td>
+                        <td>10001 - 11000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=31&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>20.05.1980 - 24.06.1981</td>
+                        <td>11001 - 12000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=32&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>24.06.1981 - 14.06.1982</td>
+                        <td>12001 - 13000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=33&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>14.06.1982 - 05.04.1983</td>
+                        <td>13001 - 14000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=34&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>05.04.1983 - 08.03.1984</td>
+                        <td>14001 - 15000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=35&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>08.03.1984 - 06.03.1985</td>
+                        <td>15001 - 16000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=36&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>06.03.1985 - 11.04.1986</td>
+                        <td>16001 - 17000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=37&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>11.04.1986 - 12.05.1987</td>
+                        <td>17001 - 18000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=38&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>12.05.1987 - 04.07.1988</td>
+                        <td>18001 - 19000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=39&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>06.07.1988 - 12.12.1989</td>
+                        <td>19001 - 20000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=40&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>1 - 1000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=41&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>16.07.1962 - </td>
+                        <td>1001 - 2000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=42&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>2001 - 3000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=43&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>3001 - 4000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=44&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>1 - 1000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=45&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>1001 - 2000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=46&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>2001 - 3000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=47&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.01.1962 - </td>
+                        <td>4001 - 4930</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=48&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>01.09.1959 - </td>
+                        <td>1011 - 4020</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=49&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>22.11.1960 - </td>
+                        <td>4021 - 4583</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=50&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>14.06.1954 - 27.06.1958</td>
+                        <td>1 - 1990</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=92&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>30.06.1958 - 28.07.1960</td>
+                        <td>1991 - 3990</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=93&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Banská Bystrica</td>
+                        <td>18.08.1960 - 11.06.1962</td>
+                        <td>3991 - 4662</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=94&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>	
+    <h3 id="ba">Zoznam zväzkov: bratislavský kraj</h3>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>séria</th>
+                    <th><abbr title="Krajská správa">KS</abbr> <abbr title="Zbor národnej bezpečnosti">ZNB</abbr></th>
+                    <th>vedená</th>
+                    <th>registračné čísla</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>14.03.1958 - 24.03.1958</td>
+                        <td>1 - 490</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=51&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>24.03.1958 - 23.04.1958</td>
+                        <td>491 - 980</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=52&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>23.04.1958 - 01.12.1958</td>
+                        <td>981 - 1970</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=53&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>02.12.1958 - 12.04.1959</td>
+                        <td>1971 - 5800</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=54&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>07.03.1960 - 24.03.1961</td>
+                        <td>6001 - 6989</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=55&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>24.03.1961 - 14.01.1963</td>
+                        <td>7001 - 8000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=56&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>01.11.1961 - 20.05.1964</td>
+                        <td>7981 - 8990</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=57&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>20.05.1964 - 16.02.1966</td>
+                        <td>8991 - 10000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=58&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>18.02.1966 - 01.04.1967</td>
+                        <td>10001 - 10490</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=59&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>31.03.1967 - 10.09.1969</td>
+                        <td>10491 - 10980</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=60&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>11.09.1969 - 07.06.1971</td>
+                        <td>10981 - 11990</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=61&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>07.06.1971 - 24.07.1972</td>
+                        <td>11991 - 12970</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=62&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>24.07.1972 - 06.06.1973</td>
+                        <td>12971 - 13960</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=63&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>06.06.1973 - 08.02.1974</td>
+                        <td>13961 - 14950</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=64&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>08.02.1974 - 21.08.1974</td>
+                        <td>14951 - 15940</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=65&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>26.08.1974 - 09.04.1975</td>
+                        <td>15941 - 17010</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=66&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>09.04.1975 - 21.11.1975</td>
+                        <td>17011 - 18010</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=67&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>25.11.1975 - 26.05.1976</td>
+                        <td>18011 - 19000</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=68&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>26.05.1976 - 07.03.1977</td>
+                        <td>19001 - 19990</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=69&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>07.03.1977 - 22.11.1977</td>
+                        <td>19991 - 20980</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=70&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>22.11.1977 - 03.07.1978</td>
+                        <td>20981 - 21970</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=71&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>03.07.1978 - 21.03.1979</td>
+                        <td>21971 - 22960</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=72&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>22.03.1979 - 24.01.1980</td>
+                        <td>22961 - 23950</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=73&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>24.01.1980 - 30.09.1980</td>
+                        <td>23951 - 24940</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=74&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>30.09.1980 - 22.06.1981</td>
+                        <td>24941 - 25930</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=75&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>23.06.1981 - 30.03.1982</td>
+                        <td>25931 - 26900</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=76&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>30.03.1982 - 01.02.1983</td>
+                        <td>26901 - 27880</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=77&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>01.02.1983 - 27.09.1983</td>
+                        <td>27881 - 28870</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=78&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>27.09.1983 - 24.05.1984</td>
+                        <td>28871 - 29860</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=79&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>25.05.1984 - 04.02.1985</td>
+                        <td>29861 - 30830</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=80&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>04.02.1985 - 02.09.1985</td>
+                        <td>30931 - 31820</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=81&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>03.09.1985 - 12.03.1986</td>
+                        <td>31821 - 32810</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=82&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>12.03.1986 - 15.10.1986</td>
+                        <td>32811 - 33800</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=83&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>15.10.1986 - 22.05.1987</td>
+                        <td>33801 - 36590</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=84&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>22.05.1987 - 14.01.1988</td>
+                        <td>36591 - 37650</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=85&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>18.01.1988 - 14.07.1988</td>
+                        <td>37651 - 38640</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=86&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>15.07.1988 - 23.03.1989</td>
+                        <td>38641 - 39630</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=87&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>23.03.1989 - 31.10.1989</td>
+                        <td>39631 - 40610</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=88&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>31.10.1989 - 26.01.1990</td>
+                        <td>40611 - 40698</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=89&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>08.06.1954 - 01.12.1960</td>
+                        <td>1 - 5980</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=90&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Bratislava</td>
+                        <td>01.03.1960 - 01.11.1962</td>
+                        <td>5981 - 7980</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=91&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>	
+    <h3 id="nr">Zoznam zväzkov: nitriansky kraj</h3>
+    <div class="table-container">
+        <table class="zoznam-zvazkov">
+            <thead>
+                <tr>
+                    <th>séria</th>
+                    <th><abbr title="Krajská správa">KS</abbr> <abbr title="Zbor národnej bezpečnosti">ZNB</abbr></th>
+                    <th>vedená</th>
+                    <th>registračné čísla</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Nitra</td>
+                        <td>09.06.1958 - 19.03.1960</td>
+                        <td>1 - 992</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=96&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>TS</td>
+                        <td><abbr title="Správa">S</abbr> <abbr title="Štátna Bezpečnosť">ŠtB</abbr> Nitra</td>
+                        <td>08.06.1954 - 18.03.1960</td>
+                        <td>1 - 3274</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=142&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+    <h3 id="ce">Zoznam zväzkov: II. Správa ZNB</h3>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>séria</th>
+                    <th>vedená</th>
+                    <th>registračné čísla</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>FS-ZS</td>
+                        <td>11.04.1969 - 23.06.1969</td>
+                        <td>1 - 470</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=97&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FS-ZS</td>
+                        <td>16.06.1969 - 01.07.1969</td>
+                        <td>471 - 960</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=98&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FS-ZS</td>
+                        <td>30.06.1969 - 24.09.1969</td>
+                        <td>961 - 1450</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=99&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FS-ZS</td>
+                        <td>25.09.1969 - 01.02.1971</td>
+                        <td>1451 - 1940</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=100&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>26.01.1971 - 09.04.1971</td>
+                        <td>1941 - 2430</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=101&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>17.02.1971 - 05.10.1971</td>
+                        <td>2431 - 2920</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=102&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>04.10.1971 - 00.00.0000</td>
+                        <td>2921 - 3410</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=103&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>21.04.1972 - 16.08.1972</td>
+                        <td>3411 - 3900</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=104&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>16.08.1972 - 02.11.1972</td>
+                        <td>3901 - 4390</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=105&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>02.11.1972 - 00.00.0000</td>
+                        <td>4391 - 5400</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=106&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>14.05.1973 - 16.11.1973</td>
+                        <td>5401 - 6390</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=107&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>16.10.1973 - 21.06.1974</td>
+                        <td>6391 - 7380</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=108&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>21.06.1974 - 13.01.1975</td>
+                        <td>7381 - 8370</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=109&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>13.01.1975 - 23.06.1975</td>
+                        <td>8371 - 9460</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=110&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>23.06.1975 - 05.01.1976</td>
+                        <td>9461 - 10450</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=111&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>05.01.1976 - 19.07.1976</td>
+                        <td>10451 - 11440</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=112&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>19.07.1976 - 31.01.1977</td>
+                        <td>11441 - 12430</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=113&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>11.11.1976 - 01.07.1977</td>
+                        <td>12431 - 13420</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=114&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>04.07.1977 - 27.01.1978</td>
+                        <td>13421 - 14430</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=115&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>30.01.1978 - 09.08.1978</td>
+                        <td>14431 - 15420</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=116&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>09.08.1978 - 28.12.1978</td>
+                        <td>15421 - 16410</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=117&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>28.12.1978 - 23.04.1979</td>
+                        <td>16411 - 17400</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=118&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>24.04.1979 - 07.09.1979</td>
+                        <td>17401 - 18390</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=119&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>07.09.1979 - 24.03.1980</td>
+                        <td>18391 - 19400</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=120&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>24.03.1980 - 03.07.1980</td>
+                        <td>19401 - 19890</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=121&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>03.07.1980 - 16.10.1980</td>
+                        <td>19891 - 20380</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=122&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>16.10.1980 - 27.01.1981</td>
+                        <td>20381 - 20870</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=123&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>27.01.1981 - 13.08.1981</td>
+                        <td>20871 - 21860</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=124&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>13.08.1981 - 01.02.1982</td>
+                        <td>21861 - 22870</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=125&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>01.02.1982 - 09.07.1982</td>
+                        <td>22871 - 23860</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=126&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>09.07.1982 - 10.01.1983</td>
+                        <td>23861 - 24850</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=127&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>01.10.1983 - 08.03.1986</td>
+                        <td>24851 - 25840</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=128&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>08.03.1983 - 22.11.1983</td>
+                        <td>25841 - 26830</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=129&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>22.11.1983 - 10.04.1984</td>
+                        <td>26831 - 27820</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=130&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>10.04.1984 - 27.09.1984</td>
+                        <td>27821 - 28810</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=131&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>28.09.1984 - 18.02.1985</td>
+                        <td>28811 - 29800</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=132&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>18.02.1985 - 14.08.1985</td>
+                        <td>29801 - 30790</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=133&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>14.08.1985 - 15.03.1986</td>
+                        <td>30791 - 31780</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=134&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>15.03.1986 - 22.10.1986</td>
+                        <td>31781 - 32770</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=135&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>22.10.1986 - 02.06.1987</td>
+                        <td>32771 - 33760</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=136&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>02.06.1987 - 05.11.1987</td>
+                        <td>33761 - 34710</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=137&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>05.11.1987 - 15.06.1988</td>
+                        <td>34711 - 35700</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=138&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>15.06.1988 - 26.01.1989</td>
+                        <td>35701 - 36690</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=139&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>27.01.1989 - 21.08.1989</td>
+                        <td>36691 - 37680</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=140&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>FMV</td>
+                        <td>21.08.1989 - 15.02.1990</td>
+                        <td>37681 - 38072</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=141&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RES</td>
+                        <td>28.09.1954 - 15.03.1955</td>
+                        <td>1 - 1776</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=143&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RES</td>
+                        <td>24.03.1955 - 28.12.1957</td>
+                        <td>1777 - 3445</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=144&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RES</td>
+                        <td>24.01.1958 - 30.05.1958</td>
+                        <td>3446 - 3573</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=145&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RKR</td>
+                        <td>06.04.1958 - 02.07.1958</td>
+                        <td>1 - 1030</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=146&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RKR</td>
+                        <td>02.07.1958 - 22.07.1959</td>
+                        <td>1031 - 2070</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=147&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RKR</td>
+                        <td>23.07.1959 - 30.12.1960</td>
+                        <td>10501 - 20510</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=148&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RKR</td>
+                        <td>30.12.1960 - 28.12.1961</td>
+                        <td>20511 - 21154</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=149&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>ROB</td>
+                        <td>29.09.1954 - 20.05.1958</td>
+                        <td>1 - 338</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=150&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>ROS</td>
+                        <td>25.09.1954 - 30.05.1958</td>
+                        <td>1 - 1092</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=151&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RSK</td>
+                        <td>25.09.1954 - 30.05.1958</td>
+                        <td>1 - 91</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=152&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RTS</td>
+                        <td>02.06.1954 - 26.07.1956</td>
+                        <td>1 - 4830</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=153&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RTS</td>
+                        <td>27.07.1956 - 22.05.1958</td>
+                        <td>4831 - 8620</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=154&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RTS</td>
+                        <td>23.05.1958 - 10.07.1959</td>
+                        <td>8621 - 10620</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=155&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>RTS</td>
+                        <td>07.10.1959 - 30.12.1960</td>
+                        <td>10621 - 12388</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=156&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>VR</td>
+                        <td>03.01.1962 - 09.01.1963</td>
+                        <td>21201 - 22210</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=157&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>VR</td>
+                        <td>09.01.1963 - 27.01.1964</td>
+                        <td>22211 - 23220</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=158&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>VR</td>
+                        <td>27.01.1964 - 31.03.1965</td>
+                        <td>23221 - 24230</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=159&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>VR</td>
+                        <td>06.04.1965 - 17.10.1966</td>
+                        <td>24231 - 25240</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=160&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>VR</td>
+                        <td>17.10.1966 - 08.10.1968</td>
+                        <td>25241 - 26250</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=161&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+                    <tr>
+                        <td>VR</td>
+                        <td>09.10.1968 - 25.03.1969</td>
+                        <td>26251 - 26367</td>
+                        <td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=162&amp;strana=1">zobraz strany</a></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+        <h3 id="vkr-ba">Zoznam registračných protokolov 11. brigády Pohraničnej stráže Bratislava</h3>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>číslo knihy</th>
+                        <th>názov</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=1&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=2&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=3&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=4&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=5&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=6&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=7&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>OVKR 11. b PS BA</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=8&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+        <h3 id="vkr-ke">Zoznam registračných protokolov Oddelenia VKR pri Krajskej vojenskej správe v Košiciach</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>číslo knihy</th><th>názov</th><th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>OVKR KVS Košice</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=9&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+        <h3 id="vkr-tn">Zoznam registračných protokolov 1. oddelenia Odboru VKR VVO Trenčín</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>číslo knihy</th>
+                        <th>názov</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>1. oddelenie OdVKR VVO TN</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=10&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1. oddelenie OdVKR VVO TN</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=11&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>1. oddelenie OdVKR VVO TN</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=12&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>1. oddelenie OdVKR VVO TN</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=13&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>1. oddelenie OdVKR VVO TN</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=14&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+        <h3 id="vkr-to">Zoznam registračných protokolov Oddelenia VKR 13. tankovej divízie v Topoľčanoch</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>číslo knihy</th>
+                        <th>názov</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>OVKR 13. td TO</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=15&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>OVKR 13. td TO</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=16&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>OVKR 13. td TO</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=17&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>OVKR 13. td TO</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=18&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>OVKR 13. td TO</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=19&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>OVKR 13. td TO</td>
+                            <td><a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=20&amp;strana=1">zobraz strany</a></td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+    <h3>Počet záznamov v databáze</h3>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td>Košický kraj</td><td>18380</td>
+            </tr>
+            <tr>
+                <td>Banskobystrický kraj</td><td>34236</td>
+            </tr>
+            <tr>
+                <td>Bratislavský kraj</td><td>43804</td>
+            </tr>
+            <tr>
+                <td>Nitriansky kraj</td><td>4324</td>
+            </tr>
+            <tr>
+                <td>II. Správa ZNB</td><td>63091</td>
+            </tr>
+            <tr>
+                <td>11. brigáda Pohraničnej stráže Bratislava</td><td>4445</td>
+            </tr>
+            <tr>
+                <td>Oddelenie VKR pri Krajskej vojenskej správe v Košiciach</td><td>150</td>
+            </tr>
+            <tr>
+                <td>1. oddelenie Odboru VKR VVO Trenčín</td><td>1458</td>
+            </tr>
+            <tr>
+                <td>Oddelenie VKR 13. tankovej divízie v Topoľčanoch</td><td>2243</td>
+            </tr>
+            <tr>
+                <td>Spolu</th><td>172131</td>
+            </tr>    
+        </table>
+    </div>
+    
+<p class="top-navigation">
+    <a href="#top">na začiatok</a>
+</p>
+</div>
+	<div class="footer">
+		<p>Copyright &copy; <a href="//www.upn.gov.sk/">Ústav pamäti národa</a> 2004-2026, Všetky práva vyhradené.</p>
+	</div>
+
+
+	<script type="text/javascript" src="//codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/assets/regpro/js/cookie.js"></script>
+
+</body>
+</html>

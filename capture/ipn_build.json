@@ -1,0 +1,16 @@
+{
+ "read": "2026-11-03",
+ "certificate check skipped": true,
+ "next number": 194401,
+ "highest entry": 164215,
+ "finished": "2026-11-03",
+ "counts": {
+  "no answer": 144,
+  "records show no collaboration": 287647,
+  "missing": 94288,
+  "archive": 5693,
+  "alleged": 894,
+  "court": 134
+ },
+ "drawn": 3363
+}

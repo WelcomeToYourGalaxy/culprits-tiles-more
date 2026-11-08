@@ -1,0 +1,878 @@
+{
+ "choices": [
+  {
+   "label": "Trawlers (bottom and mid-water trawling), 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_trawlers_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "24.2 to 51.1 hours"
+    ],
+    [
+     "#C6E7F0",
+     "51.1 to 107.9 hours"
+    ],
+    [
+     "#9CD6E6",
+     "107.9 to 227.7 hours"
+    ],
+    [
+     "#6FC2DA",
+     "227.7 to 480.4 hours"
+    ],
+    [
+     "#46AACB",
+     "480.4 to 1,013.8 hours"
+    ],
+    [
+     "#2E8FBA",
+     "1,013.8 to 2,139.2 hours"
+    ],
+    [
+     "#2275A8",
+     "2,139.2 to 4,514.1 hours"
+    ],
+    [
+     "#1A5C92",
+     "4,514.1 to 9,525.6 hours"
+    ],
+    [
+     "#13447A",
+     "9,525.6 to 20,100.7 hours"
+    ],
+    [
+     "#0C2E5E",
+     "20,100.7 to 42,415.9 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Dredges, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_dredge_fishing_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "10.3 to 19.3 hours"
+    ],
+    [
+     "#C6E7F0",
+     "19.3 to 36.1 hours"
+    ],
+    [
+     "#9CD6E6",
+     "36.1 to 67.7 hours"
+    ],
+    [
+     "#6FC2DA",
+     "67.7 to 126.9 hours"
+    ],
+    [
+     "#46AACB",
+     "126.9 to 237.9 hours"
+    ],
+    [
+     "#2E8FBA",
+     "237.9 to 445.7 hours"
+    ],
+    [
+     "#2275A8",
+     "445.7 to 835.2 hours"
+    ],
+    [
+     "#1A5C92",
+     "835.2 to 1,565.1 hours"
+    ],
+    [
+     "#13447A",
+     "1,565.1 to 2,932.9 hours"
+    ],
+    [
+     "#0C2E5E",
+     "2,932.9 to 5,496.1 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Drifting longlines, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_drifting_longlines_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "8.3 to 13.0 hours"
+    ],
+    [
+     "#C6E7F0",
+     "13.0 to 20.4 hours"
+    ],
+    [
+     "#9CD6E6",
+     "20.4 to 32.0 hours"
+    ],
+    [
+     "#6FC2DA",
+     "32.0 to 50.2 hours"
+    ],
+    [
+     "#46AACB",
+     "50.2 to 78.9 hours"
+    ],
+    [
+     "#2E8FBA",
+     "78.9 to 123.8 hours"
+    ],
+    [
+     "#2275A8",
+     "123.8 to 194.3 hours"
+    ],
+    [
+     "#1A5C92",
+     "194.3 to 305.0 hours"
+    ],
+    [
+     "#13447A",
+     "305.0 to 478.8 hours"
+    ],
+    [
+     "#0C2E5E",
+     "478.8 to 751.5 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Driftnets, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_driftnets_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "524.5 to 767.1 hours"
+    ],
+    [
+     "#C6E7F0",
+     "767.1 to 1,122.0 hours"
+    ],
+    [
+     "#9CD6E6",
+     "1,122.0 to 1,640.9 hours"
+    ],
+    [
+     "#6FC2DA",
+     "1,640.9 to 2,399.9 hours"
+    ],
+    [
+     "#46AACB",
+     "2,399.9 to 3,509.9 hours"
+    ],
+    [
+     "#2E8FBA",
+     "3,509.9 to 5,133.3 hours"
+    ],
+    [
+     "#2275A8",
+     "5,133.3 to 7,507.6 hours"
+    ],
+    [
+     "#1A5C92",
+     "7,507.6 to 10,980.0 hours"
+    ],
+    [
+     "#13447A",
+     "10,980.0 to 16,058.6 hours"
+    ],
+    [
+     "#0C2E5E",
+     "16,058.6 to 23,486.1 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Fishing, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_fishing_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "13.1 to 27.6 hours"
+    ],
+    [
+     "#C6E7F0",
+     "27.6 to 58.3 hours"
+    ],
+    [
+     "#9CD6E6",
+     "58.3 to 123.3 hours"
+    ],
+    [
+     "#6FC2DA",
+     "123.3 to 260.5 hours"
+    ],
+    [
+     "#46AACB",
+     "260.5 to 550.7 hours"
+    ],
+    [
+     "#2E8FBA",
+     "550.7 to 1,163.9 hours"
+    ],
+    [
+     "#2275A8",
+     "1,163.9 to 2,460.1 hours"
+    ],
+    [
+     "#1A5C92",
+     "2,460.1 to 5,200.0 hours"
+    ],
+    [
+     "#13447A",
+     "5,200.0 to 10,991.0 hours"
+    ],
+    [
+     "#0C2E5E",
+     "10,991.0 to 23,231.4 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Fixed gear, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_fixed_gear_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "14.9 to 25.2 hours"
+    ],
+    [
+     "#C6E7F0",
+     "25.2 to 42.9 hours"
+    ],
+    [
+     "#9CD6E6",
+     "42.9 to 72.9 hours"
+    ],
+    [
+     "#6FC2DA",
+     "72.9 to 123.9 hours"
+    ],
+    [
+     "#46AACB",
+     "123.9 to 210.6 hours"
+    ],
+    [
+     "#2E8FBA",
+     "210.6 to 357.8 hours"
+    ],
+    [
+     "#2275A8",
+     "357.8 to 608.1 hours"
+    ],
+    [
+     "#1A5C92",
+     "608.1 to 1,033.4 hours"
+    ],
+    [
+     "#13447A",
+     "1,033.4 to 1,756.1 hours"
+    ],
+    [
+     "#0C2E5E",
+     "1,756.1 to 2,984.4 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Other fishing, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_other_fishing_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "9.9 to 14.1 hours"
+    ],
+    [
+     "#C6E7F0",
+     "14.1 to 20.2 hours"
+    ],
+    [
+     "#9CD6E6",
+     "20.2 to 28.8 hours"
+    ],
+    [
+     "#6FC2DA",
+     "28.8 to 41.0 hours"
+    ],
+    [
+     "#46AACB",
+     "41.0 to 58.5 hours"
+    ],
+    [
+     "#2E8FBA",
+     "58.5 to 83.5 hours"
+    ],
+    [
+     "#2275A8",
+     "83.5 to 119.0 hours"
+    ],
+    [
+     "#1A5C92",
+     "119.0 to 169.8 hours"
+    ],
+    [
+     "#13447A",
+     "169.8 to 242.2 hours"
+    ],
+    [
+     "#0C2E5E",
+     "242.2 to 345.4 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Other purse seines, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_other_purse_seines_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "15.2 to 19.8 hours"
+    ],
+    [
+     "#C6E7F0",
+     "19.8 to 25.9 hours"
+    ],
+    [
+     "#9CD6E6",
+     "25.9 to 33.8 hours"
+    ],
+    [
+     "#6FC2DA",
+     "33.8 to 44.2 hours"
+    ],
+    [
+     "#46AACB",
+     "44.2 to 57.7 hours"
+    ],
+    [
+     "#2E8FBA",
+     "57.7 to 75.4 hours"
+    ],
+    [
+     "#2275A8",
+     "75.4 to 98.4 hours"
+    ],
+    [
+     "#1A5C92",
+     "98.4 to 128.6 hours"
+    ],
+    [
+     "#13447A",
+     "128.6 to 167.9 hours"
+    ],
+    [
+     "#0C2E5E",
+     "167.9 to 219.3 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Other seines, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_other_seines_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "3.9 to 5.9 hours"
+    ],
+    [
+     "#C6E7F0",
+     "5.9 to 8.8 hours"
+    ],
+    [
+     "#9CD6E6",
+     "8.8 to 13.2 hours"
+    ],
+    [
+     "#6FC2DA",
+     "13.2 to 19.8 hours"
+    ],
+    [
+     "#46AACB",
+     "19.8 to 29.7 hours"
+    ],
+    [
+     "#2E8FBA",
+     "29.7 to 44.6 hours"
+    ],
+    [
+     "#2275A8",
+     "44.6 to 66.8 hours"
+    ],
+    [
+     "#1A5C92",
+     "66.8 to 100.2 hours"
+    ],
+    [
+     "#13447A",
+     "100.2 to 150.2 hours"
+    ],
+    [
+     "#0C2E5E",
+     "150.2 to 225.2 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Pole and line, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_pole_and_line_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "16.2 to 27.3 hours"
+    ],
+    [
+     "#C6E7F0",
+     "27.3 to 46.0 hours"
+    ],
+    [
+     "#9CD6E6",
+     "46.0 to 77.3 hours"
+    ],
+    [
+     "#6FC2DA",
+     "77.3 to 130.0 hours"
+    ],
+    [
+     "#46AACB",
+     "130.0 to 218.6 hours"
+    ],
+    [
+     "#2E8FBA",
+     "218.6 to 367.6 hours"
+    ],
+    [
+     "#2275A8",
+     "367.6 to 618.3 hours"
+    ],
+    [
+     "#1A5C92",
+     "618.3 to 1,039.9 hours"
+    ],
+    [
+     "#13447A",
+     "1,039.9 to 1,748.9 hours"
+    ],
+    [
+     "#0C2E5E",
+     "1,748.9 to 2,941.3 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Pots and traps, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_pots_and_traps_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "7.4 to 11.8 hours"
+    ],
+    [
+     "#C6E7F0",
+     "11.8 to 18.7 hours"
+    ],
+    [
+     "#9CD6E6",
+     "18.7 to 29.6 hours"
+    ],
+    [
+     "#6FC2DA",
+     "29.6 to 47.0 hours"
+    ],
+    [
+     "#46AACB",
+     "47.0 to 74.6 hours"
+    ],
+    [
+     "#2E8FBA",
+     "74.6 to 118.3 hours"
+    ],
+    [
+     "#2275A8",
+     "118.3 to 187.8 hours"
+    ],
+    [
+     "#1A5C92",
+     "187.8 to 298.0 hours"
+    ],
+    [
+     "#13447A",
+     "298.0 to 472.8 hours"
+    ],
+    [
+     "#0C2E5E",
+     "472.8 to 750.2 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Purse seines, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_purse_seines_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "5.6 to 9.1 hours"
+    ],
+    [
+     "#C6E7F0",
+     "9.1 to 14.7 hours"
+    ],
+    [
+     "#9CD6E6",
+     "14.7 to 23.8 hours"
+    ],
+    [
+     "#6FC2DA",
+     "23.8 to 38.6 hours"
+    ],
+    [
+     "#46AACB",
+     "38.6 to 62.5 hours"
+    ],
+    [
+     "#2E8FBA",
+     "62.5 to 101.2 hours"
+    ],
+    [
+     "#2275A8",
+     "101.2 to 163.9 hours"
+    ],
+    [
+     "#1A5C92",
+     "163.9 to 265.4 hours"
+    ],
+    [
+     "#13447A",
+     "265.4 to 429.7 hours"
+    ],
+    [
+     "#0C2E5E",
+     "429.7 to 695.8 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Seiners, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_seiners_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "5.9 to 8.6 hours"
+    ],
+    [
+     "#C6E7F0",
+     "8.6 to 12.5 hours"
+    ],
+    [
+     "#9CD6E6",
+     "12.5 to 18.2 hours"
+    ],
+    [
+     "#6FC2DA",
+     "18.2 to 26.5 hours"
+    ],
+    [
+     "#46AACB",
+     "26.5 to 38.7 hours"
+    ],
+    [
+     "#2E8FBA",
+     "38.7 to 56.5 hours"
+    ],
+    [
+     "#2275A8",
+     "56.5 to 82.4 hours"
+    ],
+    [
+     "#1A5C92",
+     "82.4 to 120.2 hours"
+    ],
+    [
+     "#13447A",
+     "120.2 to 175.4 hours"
+    ],
+    [
+     "#0C2E5E",
+     "175.4 to 255.9 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Set gillnets, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_set_gillnets_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "20.8 to 34.4 hours"
+    ],
+    [
+     "#C6E7F0",
+     "34.4 to 56.8 hours"
+    ],
+    [
+     "#9CD6E6",
+     "56.8 to 93.9 hours"
+    ],
+    [
+     "#6FC2DA",
+     "93.9 to 155.2 hours"
+    ],
+    [
+     "#46AACB",
+     "155.2 to 256.5 hours"
+    ],
+    [
+     "#2E8FBA",
+     "256.5 to 424.1 hours"
+    ],
+    [
+     "#2275A8",
+     "424.1 to 701.0 hours"
+    ],
+    [
+     "#1A5C92",
+     "701.0 to 1,158.7 hours"
+    ],
+    [
+     "#13447A",
+     "1,158.7 to 1,915.4 hours"
+    ],
+    [
+     "#0C2E5E",
+     "1,915.4 to 3,166.3 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Set longlines, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_set_longlines_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "8.2 to 13.5 hours"
+    ],
+    [
+     "#C6E7F0",
+     "13.5 to 22.2 hours"
+    ],
+    [
+     "#9CD6E6",
+     "22.2 to 36.6 hours"
+    ],
+    [
+     "#6FC2DA",
+     "36.6 to 60.3 hours"
+    ],
+    [
+     "#46AACB",
+     "60.3 to 99.4 hours"
+    ],
+    [
+     "#2E8FBA",
+     "99.4 to 163.9 hours"
+    ],
+    [
+     "#2275A8",
+     "163.9 to 270.0 hours"
+    ],
+    [
+     "#1A5C92",
+     "270.0 to 444.9 hours"
+    ],
+    [
+     "#13447A",
+     "444.9 to 733.1 hours"
+    ],
+    [
+     "#0C2E5E",
+     "733.1 to 1,208.1 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Squid jigger, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_squid_jigger_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "24.9 to 40.9 hours"
+    ],
+    [
+     "#C6E7F0",
+     "40.9 to 67.2 hours"
+    ],
+    [
+     "#9CD6E6",
+     "67.2 to 110.3 hours"
+    ],
+    [
+     "#6FC2DA",
+     "110.3 to 181.3 hours"
+    ],
+    [
+     "#46AACB",
+     "181.3 to 297.9 hours"
+    ],
+    [
+     "#2E8FBA",
+     "297.9 to 489.4 hours"
+    ],
+    [
+     "#2275A8",
+     "489.4 to 804.1 hours"
+    ],
+    [
+     "#1A5C92",
+     "804.1 to 1,321.2 hours"
+    ],
+    [
+     "#13447A",
+     "1,321.2 to 2,170.9 hours"
+    ],
+    [
+     "#0C2E5E",
+     "2,170.9 to 3,566.9 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Trollers, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_trollers_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "7.0 to 11.3 hours"
+    ],
+    [
+     "#C6E7F0",
+     "11.3 to 18.2 hours"
+    ],
+    [
+     "#9CD6E6",
+     "18.2 to 29.5 hours"
+    ],
+    [
+     "#6FC2DA",
+     "29.5 to 47.7 hours"
+    ],
+    [
+     "#46AACB",
+     "47.7 to 77.1 hours"
+    ],
+    [
+     "#2E8FBA",
+     "77.1 to 124.6 hours"
+    ],
+    [
+     "#2275A8",
+     "124.6 to 201.5 hours"
+    ],
+    [
+     "#1A5C92",
+     "201.5 to 325.7 hours"
+    ],
+    [
+     "#13447A",
+     "325.7 to 526.5 hours"
+    ],
+    [
+     "#0C2E5E",
+     "526.5 to 851.2 hours"
+    ]
+   ]
+  },
+  {
+   "label": "Tuna purse seines, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_tuna_purse_seines_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "3.8 to 5.3 hours"
+    ],
+    [
+     "#C6E7F0",
+     "5.3 to 7.6 hours"
+    ],
+    [
+     "#9CD6E6",
+     "7.6 to 10.7 hours"
+    ],
+    [
+     "#6FC2DA",
+     "10.7 to 15.2 hours"
+    ],
+    [
+     "#46AACB",
+     "15.2 to 21.5 hours"
+    ],
+    [
+     "#2E8FBA",
+     "21.5 to 30.5 hours"
+    ],
+    [
+     "#2275A8",
+     "30.5 to 43.2 hours"
+    ],
+    [
+     "#1A5C92",
+     "43.2 to 61.2 hours"
+    ],
+    [
+     "#13447A",
+     "61.2 to 86.7 hours"
+    ],
+    [
+     "#0C2E5E",
+     "86.7 to 122.9 hours"
+    ]
+   ]
+  },
+  {
+   "label": "All fishing gear together, 2025",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/gfw_gear_all_2025.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "10.3 to 23.1 hours"
+    ],
+    [
+     "#C6E7F0",
+     "23.1 to 51.5 hours"
+    ],
+    [
+     "#9CD6E6",
+     "51.5 to 114.9 hours"
+    ],
+    [
+     "#6FC2DA",
+     "114.9 to 256.5 hours"
+    ],
+    [
+     "#46AACB",
+     "256.5 to 572.2 hours"
+    ],
+    [
+     "#2E8FBA",
+     "572.2 to 1,276.8 hours"
+    ],
+    [
+     "#2275A8",
+     "1,276.8 to 2,849.0 hours"
+    ],
+    [
+     "#1A5C92",
+     "2,849.0 to 6,357.0 hours"
+    ],
+    [
+     "#13447A",
+     "6,357.0 to 14,184.6 hours"
+    ],
+    [
+     "#0C2E5E",
+     "14,184.6 to 31,650.4 hours"
+    ]
+   ]
+  }
+ ]
+}

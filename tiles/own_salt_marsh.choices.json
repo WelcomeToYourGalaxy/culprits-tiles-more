@@ -1,0 +1,48 @@
+{
+ "choices": [
+  {
+   "label": "Lost, by the period it happened",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_salt_marsh_loss.pmtiles",
+   "key": [
+    [
+     "#8FD6E8",
+     "2000 to 2004"
+    ],
+    [
+     "#3FA9C2",
+     "2005 to 2009"
+    ],
+    [
+     "#1E6FA8",
+     "2010 to 2014"
+    ],
+    [
+     "#0E2F66",
+     "2015 to 2019"
+    ]
+   ]
+  },
+  {
+   "label": "Gained, by the period it happened",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_salt_marsh_gain.pmtiles",
+   "key": [
+    [
+     "#8FD6E8",
+     "2000 to 2004"
+    ],
+    [
+     "#3FA9C2",
+     "2005 to 2009"
+    ],
+    [
+     "#1E6FA8",
+     "2010 to 2014"
+    ],
+    [
+     "#0E2F66",
+     "2015 to 2019"
+    ]
+   ]
+  }
+ ]
+}

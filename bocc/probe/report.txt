@@ -1,0 +1,2426 @@
+===== page 1 =====
+
+===== page 2 =====
+PUBLISHED: June, 2026
+TABLE OF CONTENTS
+Disclaimer 2
+Executive Summary 3
+Introduction 6
+Fossil Fuel Finance Findings 10
+League Table: Banking on Fossil Fuels 10
+Fossil Fuel Financier Trends 14
+Top Fossil Fuel Financing Borrowers 22
+Six Financial Centers Dominate: Fossil Financing by Country and Region 24
+Financing by Deal Types 28
+Fossil Fuel Expansion Finance 31
+League Table: Banking on Fossil Fuel Expansion 32
+Fossil Fuel Financing Drives Dependency and Deepens the Cost of Living Crisis 43
+Bank Policies in 2025 and Early 2026: Promise and Limits of Voluntary Commitments 50
+Shifting Finance Toward a Fossil-Free Future: Conclusion And Demands 54
+Report Scope & Methodology Overview 60
+Endnotes 64
+Widespread Support for This Research 68
+Acknowledgements 71
+DISCLAIMER
+The authors believe the information in this report comes from the most reliable sources and strive to ensure that the data
+and analysis presented in the report are thoroughly researched but we do not guarantee the accuracy, completeness,
+or reliability of the content. Data may change over time or be subject to interpretation, and we encourage users to
+independently verify any information before relying on it. The authors disclaim any liability arising from the use of, or
+reliance on, the information provided in the report.
+The data provided in the report is researched carefully and all the named banks are given an opportunity to review the
+financing that is attributed to their bank prior to the publication of the report. If you believe that the information presented
+may contain some inaccuracies, please reach out to the BOCC team so that they can investigate and make any necessary
+corrections.
+COVER: Thanapipat / Adobe Stock; Suparerk Sirithongsook/ Vecteezy
+2 BANKING ON CLIMATE CHAOS 2026
+===== page 3 =====
+EXECUTIVE SUMMARY
+Affordable energy, environmental justice, respect for human rights, and a livable climate
+are all critical pillars of society, and all profoundly influenced by choices made by the
+world’s largest banks. Many of these banks continue to put their — and our — money into
+the fragile fossil fuel energy system, which has become a source of great wealth for the few
+and a deepening fault line of vulnerability for everyone else.
+At a time of great change in the global energy sector, this 17th edition of the Banking on
+Climate Chaos report tracks these financing choices by the world’s largest banks and
+provides a roadmap of how to phase out bank financing for fossil fuels.
+BANKS ANALYZED FOSSIL FUEL COMPANIES BOCC+ DATASET
+65 ~2,500 ~2,000
+The largest banks by asset size Total companies in full BOCC+ Total banks in full research dataset
+research dataset
+2025 ANNUAL FINANCING SINCE PARIS AGREEMENT US BANK FINANCING EXPANSION FINANCING
+$906 B $8.7 T ~32% $508 B
+▲ Nearly 8% from 2024 Total to oil, gas, and The most financing ▲ Over 27% from 2024
+coal since 2016 out of any region in 2025,
+using the BOCC+ dataset
+PHOTO: Suphanat Khumsap / iStock; NOAA / CIRA; Gary Kavanagh / iStock
+BANKING ON CLIMATE CHAOS 2026 3
+===== page 4 =====
+2026 KEY TAKEAWAYS
+1.
+Even as numerous top banks pull back, nearly two-thirds
+of the world’s largest 65 banks continue to fuel a fragile
+and unstable fossil energy system.
+Twenty-six of the world’s top 65 banks reduced their fossil fuel financing in 2025, yet still the world’s largest banks on
+balance committed $906 billion to companies conducting business in fossil fuels in 2025 — up $64 billion, or an increase
+of nearly 8% from 2024. This increase is directly incompatible with achieving carbon neutrality by 2050 and limiting
+global warming to 1.5°C. Since the International Energy Agency issued its net zero emissions roadmap in 2021, top banks
+committed over $4 trillion in financing outlays to the sector, including over $2 trillion to fossil firms in expansion. In the
+decade since the Paris agreement, top banks — through their lending and underwriting decisions — financed almost
+$9 trillion in oil, gas and coal operations: an unfathomable amount of money that — if instead allocated to lending and
+underwriting renewables over the past decade — would have made our global energy system more affordable, more
+resilient, more secure, and more climate-proof today.
+2.
+Bank financing for fossil fuel expansion jumped over 27%
+in a single year.
+The top 65 banks committed $508 billion to companies expanding fossil fuel developments in 2025 — a $108 billion
+increase since 2024, or roughly 27% in a single year. Expansion finance is uniquely consequential as it locks in decades
+of future carbon emissions, future localized pollution, future supply shocks, and future stranded-asset risk. Every dollar of
+new oil, gas, or coal capacity built now extends a system whose recent shocks — from Ukraine in 2022 to Iran in 2026 —
+have already cost households and economies dearly.
+3.
+“Dirty Dozen” banks now provide more than a third of
+global fossil finance.
+The fact that overall financing rose despite more than a third of major banks pulling back shows how concentrated the
+problem has become: a small group of banks is now driving the global trajectory. Just twelve banks — the “Dirty Dozen”
+— control nearly 39% of all bank fossil deals in 2025, with the vast majority of almost 2,000 global banks (outside the top
+65) providing only approximately 26%. JPMorgan Chase — the world’s largest fossil fuel financier — alone has provided
+4.3% of total bank fossil fuel financing since 2021, MUFG 3.7% and Citigroup 3.6%. While smaller overall, some medium-
+size banks — including Truist, PNC, Scotiabank and CIBC — have especially high fossil fuel exposures relative to their
+assets. Concentration on the bank side, however, is only half the story because capital is flowing not just from fewer
+lenders, but to fewer borrowers.
+4 BANKING ON CLIMATE CHAOS 2026
+===== page 5 =====
+JPMorgan Chase remains the world’s #1 fossil fuel financier,
+committing $58.2 billion in 2025 alone — up 12.5% from 2024.
+4.
+Top banks are concentrating their fossil financing in fewer,
+more leveraged fossil fuel borrowers.
+A small group of the world’s largest banks are funneling more and more of their fossil capital into a shrinking set of
+oil, gas, and coal firms. Since 2021, a mere ten fossil fuel companies have absorbed $718 billion — nearly 13% — of
+total fossil financing. In 2025 alone, three midstream oil and gas companies — Venture Global, Enbridge and Energy
+Transfer — captured $77 billion — or 6.3% of all global bank fossil fuel financing. The growing concentration among
+both dealmakers (banks) and dealtakers (fossil firms) hands a shrinking group of highly indebted firms outsized control
+over fossil supply, pricing, and infrastructure decisions. The result is a more brittle energy system because the supply and
+pricing decisions of an ever smaller group of companies show up directly in higher and more volatile energy costs for the
+households that can least absorb them.
+5.
+Six financial centers hold the keys to phasing out fossil fuel
+financing.
+Nearly all global bank fossil fuel financing flows through just six financial centers — the United States, Canada, Japan,
+China, the United Kingdom and the European Union. Together they account for 87% of total fossil financing across
+the broader universe of roughly 2,000 banks globally. Notable progress among European banks and some Canadian
+banks in 2025 was offset by regression in the US, whose banks now account for over 32% of bank fossil fuel financing
+worldwide. Action in every country and at every bank matters, but progress at the scale and pace required will hinge
+on the regulators, central banks, and legislatures of these “Big Six” jurisdictions who have common but differentiated
+responsibilities.
+6.
+Banks and policymakers are not neutral in this age of fossil
+energy instability. The path forward is clear.
+Banks and policymakers are making active choices in this new age of fossil instability. By directly financing fossil
+expansion, by helping fossil developers raise capital from bond investors, by concentrating debt in a small group of
+overleveraged firms, and by underfinancing the renewable alternatives that are now cheaper and more secure, the
+world’s largest banks are choosing to make our energy system more expensive, more fragile, and more unequal. The twin
+energy shocks of the 2020s — Russia’s invasion of Ukraine and the US-Israel war on Iran — illustrate how fossil fuels are
+now sources of instability, not energy security. With the world’s growth in electricity demand now fully met by renewable
+sources, the choice is clear. A system this concentrated is also a system that is changeable: the choices of a dozen banks,
+supervised by a small number of regulators, will largely determine whether bank fossil financing keeps rising or starts to
+fall. Banks must immediately end financing for fossil expansion, wind down all sector financing and scale capital toward
+proven renewable alternatives. Policymakers, especially in the “Big Six” financial fossil fuel financing centers, must require
+a coordinated phase out of fossil fuels and the financing underlying this high-risk sector.
+BANKING ON CLIMATE CHAOS 2026 5
+===== page 6 =====
+INTRODUCTION
+Fossil fuels have long been sold as the bedrock of stability and These economic stresses are overshadowed by the worsening
+widespread economic prosperity. The evidence of the 2020s so ecological and climate breakdown tied directly to the
+far tells a different story. The communities living next to refineries, production and burning of fossil fuels. The year 2025 marked
+pipelines, and gas terminals have always paid for that “stability” the hottest 11-year stretch on record. Greenhouse gas
+with compromised air, water, and health. The Indigenous Peoples concentrations and ocean heat content rose to record levels
+whose lands sit atop the world’s hydrocarbon basins have paid while sea ice and glaciers continue to retreat.7 Thousands of
+for it with displacement and other human rights violations. lives were lost from hurricanes in the Caribbean, catastrophic
+Households in fossil fuel-importing countries pay for it every time flooding in South and Southeast Asia, and devastating wildfires
+a war or a chokepoint disruption sends prices spiking on the in California and the Iberian Peninsula — all weather events
+bills they cannot avoid. And communities around the world will made more extreme by the burning of fossil fuels.8 Companies
+pay for the climate impacts no economy can absorb. Affordable are expanding fossil fuels at rates that are pushing warm
+energy, environmental justice, respect for human rights, and a water coral reefs past thermal tipping points and toward mass
+livable climate — the values most people across the world share dieback.9 Climatic changes are driving the Amazon rainforest
+— were never delivered by the fossil fuel centric energy system. toward collapse, exacerbating displacement and threatening
+The 2020s prove this reality. the human rights and cultural survival of Indigenous Peoples.10
+Across every continent, the people losing the most to climate
+The US-Israel war on Iran, and the subsequent closure of the breakdown are the people who contributed least to causing it.
+Strait of Hormuz, resulted in the “largest supply disruption in the
+history of the global oil market,” according to the International Together, the twin fossil crises of the 2020s — Russia’s 2022
+Energy Agency (IEA).1 A fifth of global methane gas supply was invasion of Ukraine and the 2026 US-Israel war on Iran — laid
+also knocked offline almost overnight.2 Wholesale gas prices bare a new age of fossil fuel instability, in which dependence
+roughly doubled in the EU,3 with sharp increases across Asia.4 on unreliable oil and gas commodities represents a structural
+The resulting price spikes have meant vast corporate profits and vulnerability for inter-connected economies North and South.
+quick fortunes for the few people owning and running fossil fuel Energy crises — often tied to war — have been a constant
+companies.5 But for the majority of people in fossil-importing since the dawn of the fossil fuel economy.11 But this year might
+countries, this second supply shock of the 2020s has resulted in really be different. The twin fossil fuel crises of the 2020s dent
+steep electricity bills, spiking transport costs, energy rationing, confidence in the stability of oil and gas markets in ways that
+credit downgrading and fiscal tightening.6 may never be repaired.12 What’s more, unlike previous shocks,
+PHOTO: Pgiam / iStock
+6 BANKING ON CLIMATE CHAOS 2026
+===== page 7 =====
+U.S. regulators toss out rules requiring
+banks to prepare for climate change
+5m tonnes of CO2 emitted in just 14 days
+of US war on Iran, analysis finds
+Exclusive: War in the Middle East is draining the global carbon
+budget faster than 84 countries combined
+Trump’s ‘Energy Dominance’ Doctrine Is
+Undermined by Climate Change
+At least one winner emerges from Iran War:
+U.S. natural gas exporters
+Inside Climate News
+Global Finance and Energy Leaders Warn of
+Potentially Dire Impacts From Iran War
+If these banks had allocated nearly $9 trillion in financing towards
+a just energy transition over the past decade, the world would
+today be demonstrably healthier, fairer, and safer.
+PHOTOS: NASA Goddard Institute; Allones Creative / iStock; Sasan / Middle East Images / AFP; D. Myles Cullin / Official White House Photo
+BANKING ON CLIMATE CHAOS 2026 7
+===== page 8 =====
+2026 is the first oil and gas crisis in which renewable energy 65 banks reduced their fossil financing from the previous year,
+alternatives are actually cheaper and more secure once with notable progress among some European banks. But that
+installed.13 Even before the war on Iran, renewable power met progress was eclipsed by backsliding elsewhere — particularly
+all of last year’s growth in global electricity demand for the first by US banks, where bank financing surged. On net, the top
+time ever.14 The transition away from fossil fuel dependence, in 65 banks committed $906 billion to fossil fuel companies in
+other words, is no longer constrained by technology or cost. It is 2025, up nearly 8% from 2024. $508 billion of this finance went
+constrained by where capital flows. to companies expanding oil, gas, and/or coal developments,
+pipeline and LNG operations, or new downstream fossil power
+Coming at a moment of great change in the global energy projects. That’s an over 27% jump in expansion finance in a
+sector, this 17th edition of the Banking on Climate Chaos report single year.
+tracks where the world’s largest banks chose to send that capital
+over the past five years and identifies the government actors Behind those totals is a system growing more concentrated
+with the authority and the responsibility to redirect it. This public on both sides of the deal: a “Dirty Dozen” banks now provide
+record offers the world’s most up-to-date and comprehensive more than a third of global fossil financing, and a shrinking
+open-source data on fossil fuel financing by the world’s largest set of fossil firms now absorb more fossil debt. Since 2016, the
+banks. world’s largest banks have committed $8.7 trillion in lending and
+underwriting to fossil companies. If these banks had allocated
+A decade past the Paris Agreement, overall bank financing nearly $9 trillion in financing towards a just energy transition
+for fossil fuels (both lending and underwriting) continues to over the past decade, the world today would be demonstrably
+rise.15 The trajectory is not uniform, and 2025 brought real healthier, fairer, and safer and less exposed to the energy supply
+movement worth naming: more than a third of the world’s top shocks that define the 2020s.
+How Wall Street Turned Its Back
+on Climate Change
+Six years after the financial industry pledged to use its trillions to fight
+climate change and reshape finance, its efforts have largely collapsed.
+PHOTOS: Chunyip Wong / iStock; Wirestock / iStock
+8 BANKING ON CLIMATE CHAOS 2026
+===== page 9 =====
+Wall Street Will Regret
+Helping the World Burn
+For an industry in the business of money, it sure has
+a funny way of ensuring its destruction.
+PHOTOS: Salameh Dibaei / iStock; Da-kuk / iStock
+Beyond the numbers, this BOCC report also provides insight into the International Court of Justice, this duty includes regulating
+bank policies around fossil fuel financing. While there is notable the corporate conduct driving it — chiefly fossil fuel production,
+progress amongst some EU banks, the top global banks on net consumption, licensing, and subsidies.17 Further, 57 countries
+continued to weaken their climate policies in 2025 and the first met in Santa Marta, Colombia, this past April for the first ever
+half of 2026 amidst intense political pressure and the rapid high-level discussions on how to accelerate government plans
+demise of the Net-Zero Banking Alliance (NZBA). This policy for a coordinated fossil fuel phase-out. This new annual summit
+backsliding reinforces what may have always been the case: is a another sign that nations North and South are turning
+voluntary commitments are useful examples of progress, but their backs on fossil fuels and opting for a renewable-powered
+won’t shift the banking sector’s priorities by themselves and are future.18
+no substitute for comprehensive legislative, regulatory, and tax
+policy measures in the banks’ home jurisdictions. Every dollar of financing is a seed planted which transforms the
+future. Both banks and governments have a choice in this age
+In spite of choices by the world’s largest financiers, people of fossil energy instability. They can continue to lock in fossil
+and governments worldwide are beginning to replace fossil expansion projects which force people into dependency on a
+fragility with renewable energy security.16 Courts around the brittle, unreliable, and expensive fossil energy architecture. Or
+world are beginning to recognize that states have obligations they can, at scale, stop financing the harms of the past and
+to prevent, mitigate and remedy climate harms. As affirmed by pivot toward financing more decentralized, more homegrown
+and more reliable renewable energy sources.
+BANKING ON CLIMATE CHAOS 2026 9
+===== page 10 =====
+FOSSIL FUEL FINANCE FINDINGS
+League Table: Banking on Fossil Fuels
+This league table is based on analysis of bank financing for approximately 2,900 subsidiary-level companies that are either
+independent or a parent company active across the fossil fuel life cycle and approximately 1,700 group-level companies.
+2025 Change in Financing % Change
+Country Bank
+Rank (2024-2025) (2024-2025)
+1 JPMorgan Chase +$6.5 B +12.5%
+2 Bank of America +$2.5 B +5.5%
+3 Mitsubishi UFJ Financial +$8.2 B +21.0%
+4 Mizuho Financial +$5.3 B +12.8%
+5 Citigroup +$1.1 B +2.5%
+6 Wells Fargo +$2.9 B +7.2%
+7 Royal Bank of Canada +$2.8 B +8.2%
+8 Barclays -$1.9 B -5.3%
+9 SMBC Group +$4.6 B +17.5%
+10 Morgan Stanley +$5.7 B +24.2%
+11 Goldman Sachs +$3.3 B +13.0%
+12 Toronto-Dominion Bank -$1.9 B -6.5%
+13 Scotiabank +$439 M +1.6%
+14 Truist Financial +$3.1 B +17.7%
+15 CIBC -$1.9 B -8.5%
+16 CITIC -$1.3 B -6.2%
+17 Bank of China +$2.3 B +14.3%
+18 PNC Financial Services +$1.4 B +8.4%
+19 US Bancorp +$3.5 B +24.2%
+20 Deutsche Bank +$2.9 B +19.9%
+21 Santander +$978 M +6.2%
+22 HSBC +$2.2 B +16.2%
+23 BMO Financial Group -$3.9 B -20.3%
+24 Industrial and Commercial Bank of China +$4.0 B +35.8%
+25 Standard Chartered +$3.1 B +27.9%
+26 China Merchants Bank +$890 M +7.0%
+27 China Construction Bank +$5.5 B +78.4%
+28 ING Group +$1.2 B +11.3%
+29 Société Générale +$807 M +7.7%
+30 Crédit Agricole -$1.0 B -8.4%
+B = Billions M = Millions T = Trillions
+10 BANKING ON CLIMATE CHAOS 2026
+===== page 11 =====
+FOSSIL FUEL FINANCE FINDINGS
+League Table: Banking on Fossil Fuels Banks are ranked by their 2025 financing totals.
+See the Report Scope and Methodology Overview
+on page 60 for further details.
+B = Billions M = Millions T = Trillions
+TOTAL
+2021 2022 2023 2024 2025
+(2021-2025)
+$60.1 B $38.1 B $40.4 B $51.7 B $58.2 B $248.5 B
+$42.3 B $36.8 B $34.1 B $44.8 B $47.3 B $205.3 B
+$46.4 B $43.3 B $35.7 B $38.8 B $47.0 B $211.3 B
+$40.4 B $39.5 B $37.3 B $41.2 B $46.5 B $204.9 B
+$47.6 B $39.4 B $30.6 B $44.1 B $45.3 B $206.9 B
+$40.8 B $36.9 B $31.2 B $39.6 B $42.5 B $191.0 B
+$36.5 B $35.8 B $30.5 B $33.9 B $36.6 B $173.4 B
+$22.1 B $22.0 B $24.1 B $36.0 B $34.1 B $138.3 B
+$29.5 B $30.1 B $29.0 B $26.4 B $31.0 B $146.1 B
+$20.4 B $13.7 B $20.0 B $23.7 B $29.4 B $107.2 B
+$22.5 B $16.7 B $19.6 B $25.6 B $28.9 B $113.3 B
+$23.4 B $26.2 B $20.8 B $29.4 B $27.5 B $127.4 B
+$28.8 B $28.3 B $25.2 B $27.1 B $27.5 B $136.9 B
+$14.9 B $18.0 B $15.4 B $17.7 B $20.9 B $86.9 B
+$23.2 B $24.5 B $16.3 B $22.3 B $20.4 B $106.7 B
+$21.9 B $20.2 B $17.3 B $20.6 B $19.4 B $99.4 B
+$18.4 B $15.9 B $13.9 B $16.2 B $18.5 B $82.8 B
+$11.8 B $18.7 B $12.4 B $17.0 B $18.4 B $78.2 B
+$16.0 B $16.1 B $13.5 B $14.4 B $17.9 B $77.9 B
+$11.1 B $9.7 B $13.4 B $14.8 B $17.7 B $66.6 B
+$8.7 B $7.2 B $13.9 B $15.9 B $16.8 B $62.5 B
+$21.9 B $14.7 B $11.6 B $13.7 B $15.9 B $77.8 B
+$18.8 B $20.7 B $17.4 B $19.4 B $15.4 B $91.6 B
+$15.4 B $17.6 B $12.5 B $11.2 B $15.1 B $71.7 B
+$11.9 B $8.3 B $7.6 B $11.3 B $14.4 B $53.6 B
+$14.3 B $12.1 B $10.4 B $12.8 B $13.6 B $63.2 B
+$8.7 B $8.9 B $5.5 B $7.1 B $12.6 B $42.7 B
+$12.3 B $8.9 B $13.2 B $10.8 B $12.0 B $57.2 B
+$18.5 B $12.7 B $9.5 B $10.5 B $11.3 B $62.5 B
+$15.9 B $15.1 B $13.1 B $12.0 B $11.0 B $67.2 B
+BANKING ON CLIMATE CHAOS 2026 11
+===== page 12 =====
+2025 Change in Financing % Change
+Country Bank
+Rank (2024-2025) (2024-2025)
+31 Banco Bilbao Vizcaya Argentaria (BBVA) +$2.0 B +23.1%
+32 Industrial Bank Company +$695 M +7.0%
+33 BNP Paribas -$3.8 B -27.8%
+34 Agricultural Bank of China +$2.5 B +34.4%
+35 Shanghai Pudong Development Bank +$2.6 B +43.7%
+36 Groupe BPCE -$3.1 B -30.1%
+37 China Everbright -$559 M -8.2%
+38 Capital One Financial +$133 M +2.4%
+39 State Bank of India +$1.9 B +64.2%
+40 Intesa Sanpaolo -$27 M -0.6%
+41 Bank of Beijing -$243 M -5.0%
+42 UniCredit -$1.0 B -18.5%
+43 China Minsheng Banking +$2.1 B +89.0%
+44 DBS +$1.7 B +70.8%
+45 Ping An Insurance Group -$972 M -20.6%
+46 UBS -$2.1 B -36.3%
+47 Bank of Jiangsu +$1.6 B +121.2%
+48 Rabobank -$212 M -6.9%
+49 NatWest -$130 M -4.9%
+50 Commerzbank -$1.6 B -40.8%
+51 ANZ -$235 M -10.5%
+52 Bank of Communications -$205 M -9.3%
+53 KB Financial Group +$97 M +5.7%
+54 Lloyds Banking Group -$156 M -8.3%
+55 DZ Bank +$453 M +37.0%
+56 Postal Savings Bank of China +$246 M +19.9%
+57 Danske Bank +$135 M +10.8%
+58 La Caixa Group -$681 M -34.2%
+59 National Australia Bank -$252 M -16.7%
+60 Hua Xia Bank -$95 M -7.2%
+61 Westpac -$150 M -12.0%
+62 Nordea -$376 M -25.8%
+63 Commonwealth Bank of Australia +$169 M +27.8%
+64 Crédit Mutuel +$144 M +87.6%
+65 La Banque Postale -$90 M -100.0%
+* League tables report on financing from all current bank subsidiaries 2021-2025 aggregated at the parent-level bank.
+Bank financing is adjusted for companies’ total percentage of business done in the fossil fuel sector. See further details
+in the Report Scope and Methodology Overview section on page 60. In some cases, this includes bank financing from +$63.9 B +7.6%
+subsidiaries prior to their acquisition date. A notable example is the 2023 UBS acquisition of Credit Suisse, another bank
+previously reported on in BOCC. In this case, pre-acquisition financing from Credit Suisse is included in UBS’s totals.
+1122 BANKING ON CLIMATE CHAOS 2026
+===== page 13 =====
+B = Billions M = Millions T = Trillions
+TOTAL
+2021 2022 2023 2024 2025
+(2021-2025)
+$5.9 B $9.0 B $6.9 B $8.8 B $10.8 B $41.3 B
+$12.1 B $6.7 B $7.9 B $10.0 B $10.7 B $47.4 B
+$20.5 B $18.7 B $10.5 B $13.8 B $10.0 B $73.5 B
+$9.8 B $9.6 B $3.3 B $7.2 B $9.6 B $39.5 B
+$10.6 B $7.3 B $7.7 B $5.9 B $8.5 B $39.9 B
+$10.2 B $7.3 B $7.4 B $10.3 B $7.2 B $42.5 B
+$9.3 B $7.2 B $7.7 B $6.8 B $6.3 B $37.3 B
+$4.0 B $5.0 B $4.4 B $5.4 B $5.6 B $24.4 B
+$3.5 B $2.0 B $2.5 B $2.9 B $4.8 B $15.8 B
+$5.4 B $3.6 B $5.4 B $4.7 B $4.7 B $23.8 B
+$759 M $3.5 B $5.1 B $4.8 B $4.6 B $18.9 B
+$5.1 B $6.5 B $5.7 B $5.6 B $4.6 B $27.5 B
+$3.4 B $1.9 B $4.9 B $2.4 B $4.6 B $17.1 B
+$4.1 B $3.0 B $3.9 B $2.4 B $4.1 B $17.5 B
+$9.9 B $4.6 B $5.7 B $4.7 B $3.8 B $28.6 B
+$21.1 B $14.9 B $8.3 B $5.8 B $3.7 B $53.8 B
+$1.8 B $2.7 B $1.5 B $1.3 B $2.9 B $10.2 B
+$2.8 B $2.7 B $4.0 B $3.1 B $2.9 B $15.5 B
+$2.8 B $1.8 B $2.3 B $2.7 B $2.5 B $12.1 B
+$2.7 B $2.2 B $2.8 B $3.8 B $2.3 B $13.8 B
+$1.8 B $2.6 B $2.2 B $2.2 B $2.0 B $10.8 B
+$7.6 B $7.6 B $3.7 B $2.2 B $2.0 B $23.1 B
+$1.1 B $1.0 B $1.3 B $1.7 B $1.8 B $7.0 B
+$1.9 B $2.0 B $2.5 B $1.9 B $1.7 B $10.0 B
+$983 M $1.7 B $2.3 B $1.2 B $1.7 B $7.9 B
+$3.7 B $2.5 B $1.6 B $1.2 B $1.5 B $10.5 B
+$1.3 B $790 M $1.3 B $1.3 B $1.4 B $6.0 B
+$6.8 B $2.9 B $2.9 B $2.0 B $1.3 B $16.0 B
+$3.4 B $1.6 B $1.1 B $1.5 B $1.3 B $8.8 B
+$3.1 B $2.1 B $1.6 B $1.3 B $1.2 B $9.3 B
+$730 M $1.6 B $666 M $1.3 B $1.1 B $5.4 B
+$1.5 B $1.2 B $1.7 B $1.5 B $1.1 B $6.9 B
+$1.2 B $456 M $517 M $607 M $775 M $3.6 B
+$317 M $105 M $164 M $164 M $308 M $1.1 B
+$241 M $9 M $66 M $90 M - $406 M
+$906.4 B $804.1 B $726.6 B $842.6 B $906.4 B $4.2 T
+BANKING ON CLIMATE CHAOS 2026 13
+===== page 14 =====
+FOSSIL FUEL FINANCIER TRENDS
+Fossil fuel financing trajectories diverged sharply across the world’s largest banks in 2025
+→
+Over a third of the world’s largest banks (26 of 65) reduced their fossil financing from the previous year,
+with some European banks and some Canadian banks driving most of that progress.
+→
+The remaining 39 banks moved in the opposite direction, and some US, Japanese, and Chinese banks
+were responsible for the largest year-on-year increases.
+→
+On balance, the world’s 65 largest banks committed $906 billion to companies conducting business
+in fossil fuels in 2025, up $64 billion or 7.6% from 2024.
+→
+Since 2021, global banks have funneled over $4.2 trillion in financing to fossil fuels, including $2.1
+trillion to fossil firms in expansion.
+A growing share of that capital is now flowing through a shrinking group of banks. The trends
+that follow trace who progressed, who regressed, and where global fossil financing is now most
+concentrated.
+Bank Fossil Fuel Financing - Top 65 Banks (2021-2025)
+$1000 B
+$906 B $906 B
+$843 B
+$750 B
+$804 B
+$727 B
+$500 B
+$250 B
+$0 B
+2021 2022 2023 2024 2025
+14 BANKING ON CLIMATE CHAOS 2026
+===== page 15 =====
+In the decade since the Paris agreement went into effect,
+top banks financed $8.7 trillion in oil, gas, and coal operations.
+Top 65 Banks' Cumulative Fossil Fuel Financing (2016-2025)
+$ 10 T
+$8.7 T
+$7.8 T
+$ 8 T
+$7.0 T
+$6.2 T
+$ 6 T $5.4 T
+$4.5 T
+$3.7 T
+$ 4 T
+$2.7 T
+$1.8 T
+$ 2 T
+$0.9 T
+$ 0 T
+2016 2018 2020 2022 2024 2025
+Authors’ Note: Leveraging Our Expanded BOCC+ Dataset of Roughly
+2,000 Banks
+Each year the BOCC Coalition produces this flagship report highlighting lending and underwriting to the fossil fuel
+industry by the top banks globally. This year we focus the lion’s share of the analysis on the top 65 banks by asset
+size due to their outsized role in the growth of fossil fuel financing worldwide [see methodology overview on page
+60 for more details.]
+However, the report is underpinned by a wider dataset of lending and underwriting by approximately 2,000
+banks which is used to provide broader analysis. For this 17th edition of the BOCC report, we have chosen to
+leverage this wider dataset to enrich our understanding of certain trends, especially the extent of concentration
+of worldwide fossil fuel financing by certain banks, borrowers, and geographic jurisdictions. We call this dataset
+“BOCC+,” and use this label each time we are referring to the full universe of approximately 2,000 banks in the
+dataset, as opposed to the smaller subset of the top 65 banks.
+PHOTOS: Engel Drohnenpilot / shutterstock; Sergey Nivens / shutterstock; Shchipkova Elena/ shutterstock
+BANKING ON CLIMATE CHAOS 2026 15
+===== page 16 =====
+The Dirty Dozen
+In 2025, as several years previous, JPMorgan Chase remained the worst offender for fossil fuel financing, allocating over $58 billion
+to this sector last year. JPMorgan Chase by itself provided 4.7% of the total fossil fuel financing worldwide by nearly 2,000 banks in
+the BOCC+ dataset [see box and methodology section page 60 for more details].
+Bank of America sits second in 2025 fossil fuel financing, followed by the Japanese banks Mitsubishi UFJ Financial (MUFG) and
+Mizuho.
+2025 Financing % of BOCC+
+Bank
+(USD) 2025 Financing
+JPMorgan Chase $58.2 B 4.7%
+Bank of America $47.3 B 3.8%
+Mitsubishi UFJ Financial $47.0 B 3.8%
+Mizuho Financial $46.5 B 3.8%
+Citigroup $45.3 B 3.7%
+Wells Fargo $42.5 B 3.4%
+Royal Bank of Canada $36.6 B 3.0%
+Barclays $34.1 B 2.8%
+SMBC Group $31.0 B 2.5%
+Morgan Stanley $29.4 B 2.4%
+Goldman Sachs $28.9 B 2.3%
+Toronto-Dominion Bank $27.5 B 2.2%
+TOTAL $474.3 B 38.5%
+16 BANKING ON CLIMATE CHAOS 2026
+===== page 17 =====
+2021-2025 Financing % of BOCC+
+Bank
+(USD) Total Financing
+JPMorgan Chase $248.5 B 4.3%
+Mitsubishi UFJ Financial $211.3 B 3.7%
+Citigroup $206.9 B 3.6%
+Bank of America $205.3 B 3.6%
+Mizuho Financial $204.9 B 3.6%
+Wells Fargo $191.0 B 3.3%
+Royal Bank of Canada $173.4 B 3.0%
+SMBC Group $146.1 B 2.5%
+Barclays $138.3 B 2.4%
+Scotiabank $136.9 B 2.4%
+Toronto-Dominion Bank $127.4 B 2.2%
+Goldman Sachs $113.3 B 2.0%
+TOTAL $2.1 T 36.6%
+PHOTO: Max Zolotukhin
+BANKING ON CLIMATE CHAOS 2026 17
+===== page 18 =====
+Bank Fossil Financing Highly Concentrated
+Amongst a Small Oligopoly
+In 2025, the Dirty Dozen (a mere 0.6% of the almost 2,000 banks in the BOCC+ dataset) account for almost 40% of bank fossil
+fuel financing worldwide. That is, a small oligopoly of banks controls most financing deals across the fossil fuel economy. China
+Construction Bank, MUFG, and Morgan Stanley notably expanded their fossil financing market share in 2025, while the percentage
+of total bank financing reduced in the cases of Bank of Montreal, Barclays, and BNP Paribas.
+Percentage of Total Financing Across BOCC+ Dataset (2025)
+JPMorgan Chase
+Bank of America
+BOCC+ 2,000 Banks
+Mitsubishi UFJ Financial
+(minus Top 65 Banks)
+(26.4%)
+Mizuho Financial
+Citigroup
+Wells Fargo
+2025 Dirty Dozen Banks
+(38.5%)
+Royal Bank of Canada
+Barclays
+Other Top 65 Banks
+(35.1%)
+SMBC Group
+Morgan Stanley
+Goldman Sachs
+Toronto-Dominion Bank
+18 BANKING ON CLIMATE CHAOS 2026
+===== page 19 =====
+$60 B
+JPMorgan Chase
+Mitsubishi UFJ Financial
+Mizuho Financial Bank of America
+Citigroup
+Wells Fargo
+$40 B
+Royal Bank of Canada
+Barclays
+Morgan Stanley
+SMBC Group
+Goldman Sachs
+Scotiabank
+Toronto−Dominion Bank
+Truist Financial
+$20 B CIBC
+Bank of China
+Industrial and Commercial Bank of China
+China Construction Bank
+Agricultural Bank of China
+BNP Paribas
+UBS
+Lloyds Banking Group Bank of Communications
+Postal Savings Bank of China
+0 Crédit Mutuel
+$2,000 B $4,000 B $6,000 B
+Total Assets 2025 (USD)
+BANKING ON CLIMATE CHAOS 2026 19
+)DSU(
+5202
+gnicnaniF
+leuF
+lissoF
+Fossil Financing Intensity:
+Top Banks by Fossil Fuel Financing as Percentage of Assets in 2025
+While the largest banks globally dominate the fossil fuel league tables in an absolute sense, some medium-sized and smaller banks
+play an outsized role relative to their asset size. Truist, for example, provided $21 billion in fossil fuel financing, despite being the 63rd
+bank by asset size of the top 65 banks in the report. Likewise, PNC ranks 18th for 2025 financing, despite being the 61st largest bank
+globally. Canadian banks RBC, Scotiabank and CIBC, Japanese banks Mizuho and MUFG, and US banks US Bancorp and Morgan
+Stanley are also outliers in providing well above-average financing in comparison to their size in 2025. Several EU and Chinese
+banks, by contrast, sit below the average, as can be seen in the scatterplot below. Banks with higher fossil fuel financing intensities
+are both more exposed to transition risk19 and arguably more responsible for correcting their disproportionate tilt toward fossil
+deals.20
+Fossil Fuel Financing by Asset Size - (Top 65 Banks)
+Region
+United States
+Canada
+United Kingdom
+Japan
+China
+Europe
+Other
+Avg. Fossil Fuel Financing as % of Assets
+% of Assets
+1%
+2%
+3%
+4%
+DATA: S&P; BOCC 2026 | Top 15 financiers and outlier banks (>75th percentile) labeled | Diagonal line shows average % of assets devoted
+to fossil fuel financing
+* Bubble size shows fossil fuels as % of total assets (larger = higher exposure)
+===== page 20 =====
+Top 10 Banks Increasing Fossil Fuel Financing 2024 - 2025
+A variety of global banks increased their fossil fuel dealmaking this past year. Japan’s MUFG, US banks JPMorgan Chase and
+Morgan Stanley, and the China Construction Bank sit atop the list of banks increasing fossil fuel financing the most from 2024
+to 2025. MUFG increased by $8.2 billion in a single year; JPMorgan by $6.5 billion, Morgan Stanley by $5.7 billion and China
+Construction Bank by $5.5 billion.
+Top 10 Banks Increasing Fossil Fuel Financing (2024-2025)
+Change in Financing
+Bank % Change 2024-2025
+2024-2025
+Mitsubishi UFJ Financial +$8.2 B +21.0%
+JPMorgan Chase +$6.5 B +12.6%
+Morgan Stanley +$5.7 B +24.2%
+China Construction Bank +$5.5 B +78.4%
+Mizuho Financial +$5.3 B +12.8%
+SMBC Group +$4.6 B +17.5%
+Industrial and Commercial Bank of
++$4 B +35.8%
+China
+US Bancorp +$3.5 B +24.2%
+Goldman Sachs +$3.3 B +13.0%
+Standard Chartered +$3.1 B +27.9%
+It’s worth noting that several of the banks registering the sharpest increases — including JPMorgan Chase, Goldman Sachs, and
+RBC — also weakened or abandoned their fossil fuel financing policies in 2025 (see Bank Policies section on page 50), illustrating
+the link between policy rollback and increased capital flows to the sector.
+20 BANKING ON CLIMATE CHAOS 2026
+===== page 21 =====
+Top 10 Banks Reducing Financing 2024 - 2025
+In the face of policy backsliding in various parts of the banking sector, 26 of the 65 top global banks reduced their fossil fuel
+financing in 2025, up from 23 in 2024. European banks in particular lead this forward momentum, suggesting that a sizable
+segment of the global dealmaking market continues to see the risks of financing fossil fuels and are beginning to respond in kind.
+In a first among top 65 banks tracked by the BOCC Coalition, the French bank La Banque Postale, for example, committed zero
+dollars in financing to in-scope fossil fuel companies in 2025.
+Top 10 Banks Reducing Fossil Fuel Financing (2024-2025)
+Change in Financing
+Bank % Change 2024-2025
+2024-2025
+BMO Financial Group -$3.9 B -20.3%
+BNP Paribas -$3.8 B -27.8%
+Groupe BPCE -$3.1 B -30.1%
+UBS -$2.1 B -36.3%
+Barclays -$1.9 B -5.3%
+Toronto-Dominion Bank -$1.9 B -6.5%
+CIBC -$1.9 B -8.5%
+Commerzbank -$1.6 B -40.8%
+CITIC -$1.3 B -6.2%
+UniCredit -$1 B -18.5%
+While these decreases show progress, many of these banks are still involved in problematic financing support to expansion
+companies and have backslid in their policy commitments, as described in the Bank Policies section below.
+BANKING ON CLIMATE CHAOS 2026 21
+===== page 22 =====
+TOP FOSSIL FUEL FINANCING BORROWERS
+Over the past five years, some fossil fuel companies clearly emerged as the darlings of global banks as they receive vast amounts of
+lending and underwriting services. This financial support upholds their harmful polluting businesses21 while forcing energy consumers
+deeper into fossil fuel dependency. Over the past five years and across a universe of almost 2,500 group-level firms active in the
+fossil fuel industry and almost 2,000 banks, just ten fossil fuel companies received $718 billion, or almost 13% of the total financing.
+At the top of this 5-year list sits Enbridge which is the midstream company building pipelines across North America. This firm
+captured $123 billion in financing over the past half decade, or an astounding 2.1% of the total fossil fuel financing.
+The fact that global banks are providing nearly 13% of bank financing to just ten companies out of nearly 2,500 suggests that
+the fossil fuel debt ecosystem is top-heavy. The fact that each of these ten top fossil fuel borrowers are also associated with fossil
+expansion activities means that a very small number of highly leveraged corporate actors — and an even smaller number of banks
+financing them — are making decisions that will shape the entire global energy system for decades to come.
+Biggest Borrowers (2021-2025)
+% BOCC+
+Parent Company 2021 2022 2023 2024 2025 TOTAL Financing
+2021-2025
+Enbridge Inc $20.5 B $19.6 B $37.5 B $21.1 B $24.0 B $122.7 B 2.1%
+Vitol Holding II SA $15.0 B $28.2 B $17.8 B $14.6 B $15.4 B $91.0 B 1.6%
+Venture Global Inc $6.8 B $18.3 B $17.7 B $4.5 B $32.9 B $80.2 B 1.4%
+Energy Transfer LP $17.4 B $14.4 B $7.7 B $20.4 B $20.3 B $80.1 B 1.4%
+TC Energy Corporation $11.0 B $15.1 B $19.2 B $14.3 B $6.9 B $66.6 B 1.2%
+Trafigura Control Holdings
+$13.3 B $13.1 B $12.8 B $9.0 B $10.6 B $58.9 B 1.0%
+Pte Ltd
+Saudi Arabian Oil Company
+$17.8 B $13.0 B $545 M $16.9 B $9.2 B $57.4 B 1.0%
+(Saudi Aramco)
+Sinochem Group Co Ltd $10.4 B $8.5 B $11.7 B $8.9 B $16.5 B $56.1 B 1.0%
+State Power Investment
+$12.4 B $13.4 B $11.1 B $7.6 B $10.1 B $54.8 B 1.0%
+Corporation Ltd (SPIC)
+Duke Energy Corporation $9.2 B $10.2 B $10.6 B $9.9 B $10.6 B $50.5 B 0.9%
+GRAND TOTAL: Top 10 Clients $133.9 B $153.9 B $146.7 B $127.2 B $156.7 B $718.4 B 12.5%
+22 BANKING ON CLIMATE CHAOS 2026
+===== page 23 =====
+In 2025, fossil fuel deals were more concentrated than before. National Oil Company (ADNOC) and TotalEnergies — jumped
+Banks committed 15.2% of all their fossil fuel deal value to just back into the top 10 borrowers in 2025. ADNOC’s rise in the
+ten fossil companies of the nearly 2,500 fossil fuel firms tracked rankings is, in part, due to a massive $11 billion deal to finance
+in this report. The largest client by far was the US LNG export the development of the offshore Ghasa gas field. It did so in
+company Venture Global, which received $28 billion more in partnership with Eni of Italy, and PTT Exploration and Production
+2025 than 2024. Venture Global in 2025 accounts for 2.7% of all Public Company of Thailand.22 TotalEnergies’ uptick in 2025
+global fossil fuel financing. bank financing relates — amongst other things — is due to its
+development of the controversial East African Crude Oil Pipeline
+Notably, the top three largest clients in 2025 were midstream (EACOP).23
+oil and gas companies. LNG, in particular, is a fast-growing
+segment within midstream firms, yet only five banks have LNG The growing concentration amongst both fossil fuel dealmakers
+export terminal exclusions and even these policies have major and fossil dealtakers over the past five years only underlines
+loopholes allowing financing to flow to import or shipping this new reality: the fragile fossil fuel economy and its attendant
+activities and to the companies that still own and operate export financial risks are more consolidated in fewer and more
+facilities (Bank Policies section below). leveraged actors, who are passing the costs and harms of
+their actions onto the planet, people, and vulnerable frontline
+While midstream players dominated the top 10 fossil fuel populations around the globe.
+clients in 2025, two of the largest oil companies — Abu Dhabi
+Biggest Borrowers (2025)
+Change in Change
+% Change % BOCC+
+Parent Company 2025 Financing Financing in Rank
+2024-2025 Financing 2025
+2024-2025 2024-2025
+Venture Global Inc $32.9 B $28.4 B +58 +631.6% 2.7%
+Enbridge Inc $24.0 B $2.9 B 0 +13.8% 1.9%
+Energy Transfer LP $20.3 B -$39 M 0 -0.2% 1.6%
+Abu Dhabi National Oil Company
+$19.9 B $15.1 B +47 +310.3% 1.6%
+(ADNOC)
+TotalEnergies SE $16.9 B $7.8 B +10 +86.4% 1.4%
+Sinochem Group Co Ltd $16.5 B $7.6 B +11 +84.9% 1.3%
+Vitol Holding II SA $15.4 B $853 M 0 +5.9% 1.3%
+The Southern Company $14.2 B $6.1 B +13 +76.1% 1.2%
+NextDecade Corporation $13.7 B $12.2 B +193 +841.6% 1.1%
+Baker Hughes Co $13.0 B $13.0 B No financing 2024 1.1%
+GRAND TOTAL: Top 10 Clients $186.9 B $94.0 B 15.2%
+BANKING ON CLIMATE CHAOS 2026 23
+===== page 24 =====
+SIX FINANCIAL CENTERS DOMINATE:
+Fossil Financing by Country and Region
+Almost all global bank fossil fuel financing emanates from just six financial centers. As shown below, 87% of fossil fuel deals
+across the BOCC+ dataset of almost 2,000 banks originated in the US, China, Canada, Japan, the UK and the EU. Every country
+suffers from being locked into fossil fuel dependency but not all countries have equal responsibility for phasing out fossil fuel bank
+financing. Real systemic change depends on legislative and policy action in these “Big Six” banking centers. While progress is
+possible and necessary across all jurisdictions, banks, legislators, and regulators in these six jurisdictions have unique opportunities
+and responsibilities to act.
+2025 Financing by Bank Region (BOCC+)
+Other: Europe
+Netherlands Other: South America,
+(3.3%)
+(1.3%) Africa, Oceania (2.8%)
+Germany
+(2.1%)
+Spain
+(2.4%)
+France
+(3.2%)
+Other
+(2.8%)
+United Kingdom United States (32.2%)
+Europe
+(5.8%)
+(18.3%)
+Other: Asia
+(4.0%)
+North
+America
+South Korea (44.1%)
+(1.1%)
+India
+(1.5%)
+United Arab
+Emirates (1.8%)
+Asia
+(34.8%)
+Japan (10.7%)
+Canada (11.8%)
+China (15.6%) Other: North America (.2%)
+* Segments do not add up exactly to 100% due to rounding
+24 BANKING ON CLIMATE CHAOS 2026
+===== page 25 =====
+“Big Six” Fossil Financing by Financial Center Over Time - BOCC+ (2021-2025)
+2021 28.3% 12.5% 10.9% 18.5% 12.0% 5.1% 12.6%
+2022 28.0% 13.9% 11.3% 17.3% 13.4% 4.4% 11.6%
+2023 28.0% 12.7% 10.7% 15.8% 13.0% 4.8% 15.1%
+2024 31.9% 13.9% 10.1% 14.5% 12.3% 5.9% 11.4%
+2025 32.2% 11.8% 14.51% 10.7% 11.1% 5.8% 12.7%
+0% 20% 40% 60% 80% 100%
+United States Canada Japan China
+European Union United Kingdom Other Regions
+Taking each of the Big Six banking blocs in turn, US banks Banks from Canada — whose population accounts for a mere
+committed $396 billion in fossil fuel financing in 2025. That’s 0.5% share of the world’s people24 — contribute 11.8% of bank
+almost one third of the global in-scope financing, and the fossil fuel bank financing. Royal Bank of Canada continues to
+largest uptick of all regions with an increase of $35 billion over dominate fossil fuel debt within this jurisdiction in 2025, followed
+2024. Just the top four US banks, JPMorgan Chase, Bank of by TD Bank and Scotiabank. BMO decreased its fossil financing
+America, Citigroup, and Wells Fargo, represent 15.7% of total by 20.3% in 2025 compared to 2024, CIBC by 8.5%, and TD Bank
+global fossil fuel financing in 2025 across approximately 2,000 by 6.5%. On net, Canadian banks’ market share of the global
+banks. Goldman Sachs and Morgan Stanley increased their fossil fuel dealmaking dropped two percentage points in 2025
+fossil deals last year by $3.3 billion and $5.7 billion, respectively. compared to the previous year.
+Importantly, American banks tend to play leading roles in
+syndicating the bonds and loans for global fossil companies. US Japanese banks now provide 10.7% of the global financing,
+banks’ overall market share of global bank fossil financing has having increased their fossil deals by $17 billion in 2025. MUFG,
+steadily increased from 28.3% in 2021 to 32.2% last year, as seen Mizuho, and SMBC, ranked 3, 4, and 9 for 2025 financing,
+above.
+BANKING ON CLIMATE CHAOS 2026 25
+===== page 26 =====
+respectively, contributing 10.1% of global fossil fuel dealmaking This year revealed an important development in Europe. Various
+last year. Over half of that financing went to companies European banks — in particular French banks BNP Paribas and
+headquartered in the United States, demonstrating how BPCE and Swiss bank UBS — are slowly but surely responding
+important Japanese bank financing is for the US energy sector, to the climate crisis by reducing their financing to fossil fuels.
+especially methane gas export (also known as liquified natural While not at the pace required, EU banks on net show a clear
+gas, or LNG). downward trend from 12.0% of total financing in 2021 to 11.1%
+in 2025: a drop of over $9.4 billion. French banks BNP Paribas
+Chinese banks, meanwhile, decreased their share of bank fossil and Crédit Agricole reduced their fossil deals by 27.8% and 8.4%
+fuel financing more than other financial centers: from 18.5% respectively, compared to 2024. UBS reduced its fossil financing
+in 2021 to 15.7% in 2025. That’s an overall drop of about $33 by 36.3%, Commerzbank by 40.8%, and La Caixa by 34.2% over
+billion across Chinese banks comparing 2021 to 2025. That the same period.
+being said, Chinese banks did increase their financing by $28
+billion in 2025 compared to 2024, and remain critical players At the same time, EU bank regulators still oversee some of the
+in bank fossil fuel financing. CITIC and the Bank of China are largest contributors to climate chaos. EU banks still contribute
+the country’s largest fossil bankers, financing about $19 billion almost 11.1% of bank financing to fossil fuels worldwide. Spain’s
+each in 2025. Two Chinese banks — China Construction Bank Santander almost doubled its fossil debt commitments in
+and Industrial and Commercial Bank of China — registered 2025 compared to 2021, while simultaneously diluting its 2030
+massive upticks in fossil fuel financing between 2024 and 2025 emissions reduction targets and exclusion policies and, in turn,
+(78.4% and 35.8% increases, respectively). While remaining opening a glide path to increase future fossil fuel financing.25
+active in financing all sectors of fossil fuels, Chinese banks are Germany’s Deutsche Bank jumped up 19.9 %and France’s
+consistently the world’s biggest financiers of coal expansion, Société Générale by 7.7% in one year. The Dutch ING Group
+financing over 80% of companies conducting coal mining also increased its fossil debt by 11.3% in 2025 compared to
+expansion in 2025 (see section next page). Urgewald’s Still 2024.
+Banking on Coal report, based on data collected for BOCC,
+underscores China’s role as the world’s top coal financier. Over British debt dealers, for their part, bankroll about 5.8% of global
+86% of Chinese banks’ fossil financing went to Chinese fossil fossil fuel financing, up a bit from 5.1% in 2021. Barclays is the
+firms in 2025. But their international financing — though smaller largest British fossil fuel financier in 2025 with $34 billion, and
+in scale — tends to support key fossil expansion projects. For the only European bank in the Dirty Dozen. Standard Chartered
+example, Chinese banks were prevalent financiers of US- meanwhile increased its fossil financing by 27.9% between 2024
+owned LNG developers, including Cheniere, Venture Global, and 2025.
+Next Decade, and Sempra Infrastructure, all of which received
+Chinese bank support for large LNG project financing in 2025.
+26 BANKING ON CLIMATE CHAOS 2026
+===== page 27 =====
+Dealmakers and Dealtakers: Top Bank Financing by Country 2025
+The US dominates as a financial center providing bank financing for fossil fuels. This petrostate also jumps off the chart (below) as
+the nation receiving the most fossil fuel debt from banks. In fact, US fossil fuel corporations received 45.4% of all fossil fuel financing
+in 2025. Comparing countries’ total bank fossil financing to their fossil fuel company borrowers, the US is an outlier. It is the only
+Big Six financial center whose fossil firms receive more bank financing than its banks provide. Japanese banks, on the other hand,
+provide much more financing than the country’s fossil sector receives. In China, the volume of bank financing to fossil firms is about
+equal to the amount received by fossil firms. This is at least partly explained by China’s more insular financing model: about 86% of
+2025 fossil financing from Chinese banks went to Chinese companies.
+United States
+$400 B
+$200 B
+China
+Canada
+United Arab Emirates
+Saudi Arabia
+India France United Kingdom Japan
+0 Germany
+0 $100 B $200 B $300 B $400 B
+Financing Amount (USD)
+BANKING ON CLIMATE CHAOS 2026 27
+)DSU(
+tnuomA
+tneipiceR
+Fossil Fuel Dealmaking vs Dealtaking Countries - (BOCC+2025)
+All Countries - Top 10 Labeled
+Region
+North America
+Europe
+Asia
+Middle East
+Other
+Total (USD)
+250 B
+500 B
+750 B
+DATA: Banking on Climate Chaos+ 2025 | Points above diagonal: net recipients | Points below: net financiers
+===== page 28 =====
+Financing by Deal Types
+Lending vs Underwriting
+Since 2022, the top 65 global banks have steadily increased the share of fossil fuel financing flowing through underwriting — with
+banks moving financing off their own balance sheets, which conveniently avoids policy scrutiny.26 Where loans made up a clear
+majority of overall bank financing in 2022, the top 65 banks allocated a more even split of financing to bond underwriting and to
+loans last year. Each major category of financing increased or stayed the same between 2024 and 2025: Term loans saw the largest
+increase of $53 billion (38.8%), bonds increased $31 billion (8.7%), and revolving credit facilities (RCF) were relatively flat, seeing a
+modest $7 billion decrease (-2.2%). Share underwriting, which represents less than 2% of the 2025 financing, was the only category
+to meaningfully decrease, by $7 billion (30.6%).
+Fossil Financing by Year and Finance Type
+$500 B
+$400 B
+$300 B
+$200 B
+$100 B
+$0 B
+2021 2022 2023 2024 2025
+Share Issuance Corporate Loan Revolving Credit Facility Bond Issuance
+28 BANKING ON CLIMATE CHAOS 2026
+===== page 29 =====
+Revolving Credit Facilities: Fossil Firms’ Corporate Credit Card of Choice
+A revolving credit facility (RCF) is a line of credit that a company can draw down, repay, and redraw repeatedly up
+to an agreed limit.27 Our database credits banks with the full amount of the RCF each time they make a new credit
+agreement or renew or modify terms of an existing credit agreement. Our database only counts the commitment
+amount of the RCF, not the cumulative amount drawn by the client. Fossil fuel companies may draw on these
+agreements multiple times or not at all.
+The BOCC database illustrates just how pervasively fossil fuel firms use this particular type of credit. In BOCC, RCFs
+are second only to bond issuances for the top financing type, and make up 39.7% of the total adjusted league
+credit, as shown above. Some banks argue that RCFs only represent commitments to finance but not necessarily
+actual dispersals of funds, and thus shouldn’t be included in fossil fuel financing league tables. RCFs are a
+critical part of the fossil fuel financing stack.28 They provide critical liquidity, are an ongoing barometer of bank
+confidence and borrower creditworthiness,29 and provide the type of operational flexibility especially suited to
+companies reliant on volatile cash flows like fossil fuel firms. Each new RCF is a renewed bank commitment which
+upholds the creditworthiness of the fossil client. Ultimately, finance is as much about creditworthiness and access
+to capital as it is about specific outlays, and RCFs provide a critical lifeline to both. What’s more, many bank
+regulators treat RCFs as lower risk than drawn debt, applying credit conversion factors that reduce the regulatory
+capital required.30 RCFs’ role in the climate crisis therefore deserves more — not less — attention from financial
+regulators.
+Merger and Acquisition Finance
+The oil and gas sector experienced major consolidation over the past five years — with fewer players controlling more of the fragile
+fossil fuel architecture.31 The world’s top banks have contributed to this expansion of market power by fewer and fewer fossil firms. In
+2025, the top 65 banks engaged in $52 billion of deals tagged as acquisition financing.32
+Deals Flagged as Acquisition Financing
+$100 B
+$75 B
+$80 B
+$65 B
+$63 B
+$50 B
+$52 B
+$50 B
+$25 B
+$0 B
+2021 2022 2023 2024 2025
+BANKING ON CLIMATE CHAOS 2026 29
+===== page 30 =====
+In an interesting development, some banks in 2025 have begun to finance methane gas merger and acquisition transactions
+explicitly driven by AI data center power demand. Santander, for example, facilitated Blackstone’s September 2025 acquisition of
+Hill Top Energy Center, a 620-megawatt natural gas power plant in Western Pennsylvania.33 The reason? The plant is “situated in
+an area of the country that is well suited to serve as a strategic hub to power America’s AI future.”34 Citi and Goldman Sachs also
+facilitated NRG Energy’s acquisition of natural gas generation facilities primed to tap into the “early stages of a power demand
+supercycle,” driven by AI and cryptocurrency.35 Critically here, banks in 2025 are not just financing fossil fuel extraction for traditional
+use, but now actively finance the infrastructure that locks in natural gas demand for decades to power AI data centers.
+Project vs Corporate Financing
+In 2025, just as in previous years, corporate-level financing makes up the grand majority of fossil fuel financing by commercial
+and investment banks. In fact, in 2025, only 4.2% of BOCC deals were flagged purely as project financing. This maintains a large
+loophole for banks which have fossil fuel policies which only exclude financing at the project level.
+Fossil Fuel Corporate Loans Post-2050
+Across the full BOCC+ dataset we found close to $8 billion in corporate loans with maturity dates beyond 2050. This includes a $1.7
+billion term loan to the oil and gas company Remal Energy with a maturity date of May 31, 2053 - led by the UK bank Standard
+Chartered.36 That so many banks think that oil and gas companies will be able to service their loans 25 years from now suggests a
+clear disregard for climate science.
+PHOTO: Grandriver / iStock
+30 BANKING ON CLIMATE CHAOS 2026
+===== page 31 =====
+FOSSIL FUEL EXPANSION FINANCE
+In 2025, bank financiers provided $508 billion to companies expanding fossil fuel developments — up a full $108 billion since
+2024. That’s a 27.1% hike in one year to support an extension and potential lock-in of decades of future climate emissions and
+energy instability. In 2025, top banks increased expansion financing across the oil and gas value chain, especially in the midstream
+and power sectors. In another regressive trend, financiers also increased lending and underwriting to coal power and coal mining
+expansion companies.
+Geographically, much of the financing dedicated to oil and gas companies expanding fossil fuel projects occurs in the United
+States. Chinese coal companies, at least for now, receive the grand majority of new coal expansion financing. This growth in fossil
+fuel expansion finance is troubling because new developments lock in decades of fossil fuel dependence and climate emissions.37
+In 2025, bank financiers provided $508 billion
+to companies expanding fossil fuel developments -
+up a full $108 billion since 2024.
+PHOTO: Collab Media / iStock
+BANKING ON CLIMATE CHAOS 2026 31
+===== page 32 =====
+League Table: Expansion Financing38
+* This league table presents analysis of 2021-2025 bank financing for 860 oil, gas, and coal companies actively expanding fossil fuels, ranked by 5 year finance totals.
+The companies list includes all companies with oil, gas, and coal expansion plans according to Urgewald’s Global Oil and Gas Exit List (GOGEL), Global Coal Exit List
+(GCEL), and Metallurgical Coal Exit List (MCEL). As such, it is a subset of the approximately 2,900 companies in the overall fossil fuel finance league table on pages
+10-13. Bank financing is adjusted for companies’ total percentage of business done in the fossil fuel sector. See further details in the Report Scope and Methodology
+Overview section on page 60. League tables report on financing from all current bank subsidiaries 2021-2025 aggregated at the parent-level bank. In some cases,
+this includes bank financing from subsidiaries prior to their acquisition date. A notable example is the 2023 UBS acquisition of Credit Suisse, another bank previously
+reported in BOCC. In this case, pre-acquisition financing from Credit Suisse is included in UBS’s totals.
+Red text represents an increase. Green text represents a decrease.
+2025 Change in Financing % Change
+Country Bank
+Rank (2024-2025) (2024-2025)
+1 JPMorgan Chase +$6.6 B +25.1 %
+2 Mizuho Financial +$5.5 B +25.4 %
+3 Citigroup +$6.7 B +34.7 %
+4 Mitsubishi UFJ Financial +$10.2 B +63.6 %
+5 Bank of America +$3.7 B +16.7 %
+6 Wells Fargo +$8.2 B +60.0 %
+7 Royal Bank of Canada +$5.3 B +35.2 %
+8 Barclays +$5.1 B +40.3 %
+9 SMBC Group +$3.6 B +29.1 %
+10 Scotiabank +$4.2 B +36.6 %
+11 CITIC -$1.3 B -7.9 %
+12 Morgan Stanley +$4.4 B +42.8 %
+13 Toronto-Dominion Bank +$2.4 B +19.7 %
+14 Goldman Sachs +$1.4 B +10.7 %
+15 Bank of China +$3.1 B +31.5 %
+16 CIBC +$2.8 B +31.3 %
+17 China Merchants Bank +$708 M +6.5 %
+18 Truist Financial +$4.2 B +60.0 %
+19 Deutsche Bank +$2.5 B +30.4 %
+20 Industrial and Commercial Bank of China +$2.7 B +34.5 %
+21 China Construction Bank +$5.0 B +118.0 %
+22 Santander +$2.1 B +28.5 %
+23 PNC Financial Services +$2.3 B +33.5 %
+24 Industrial Bank Company +$1.3 B +17.5 %
+25 HSBC +$2.3 B +36.2 %
+26 Standard Chartered +$2.3 B +41.7 %
+27 BMO Financial Group +$969 M +14.4 %
+28 US Bancorp +$2.7 B +54.7 %
+29 Banco Bilbao Vizcaya Argentaria (BBVA) +$1.3 B +25.7 %
+30 Agricultural Bank of China +$562 M +10.1 %
+B = Billions M = Millions T = Trillions
+32 BANKING ON CLIMATE CHAOS 2026
+===== page 33 =====
+League Table: Expansion Financing38
+Banks are ranked by their 2025 financing totals.
+See the Report Scope and Methodology Overview
+on page 60 for further details.
+B = Billions M = Millions T = Trillions
+TOTAL
+2021 2022 2023 2024 2025
+(2021-2025)
+$25.7 B $17.1 B $18.5 B $26.1 B $32.7 B $120.0 B
+$20.4 B $18.7 B $18.9 B $21.5 B $27.0 B $106.5 B
+$27.1 B $18.8 B $14.8 B $19.4 B $26.2 B $106.3 B
+$20.0 B $16.0 B $15.2 B $16.0 B $26.2 B $93.4 B
+$19.7 B $16.0 B $14.8 B $22.1 B $25.8 B $98.5 B
+$14.8 B $13.9 B $12.5 B $13.7 B $21.9 B $76.8 B
+$15.4 B $17.5 B $15.8 B $15.2 B $20.5 B $84.3 B
+$9.6 B $10.5 B $8.5 B $12.6 B $17.6 B $58.7 B
+$13.3 B $15.0 B $13.1 B $12.4 B $16.0 B $69.9 B
+$12.2 B $15.4 B $15.0 B $11.4 B $15.6 B $69.6 B
+$16.4 B $15.8 B $12.6 B $16.6 B $15.3 B $76.7 B
+$10.6 B $6.2 B $11.4 B $10.2 B $14.6 B $53.0 B
+$10.2 B $11.2 B $9.9 B $11.9 B $14.3 B $57.5 B
+$12.9 B $7.0 B $9.7 B $12.7 B $14.1 B $56.4 B
+$10.1 B $9.7 B $8.3 B $10.0 B $13.1 B $51.1 B
+$10.7 B $16.0 B $9.7 B $9.0 B $11.8 B $57.2 B
+$11.2 B $10.2 B $8.8 B $10.9 B $11.6 B $52.7 B
+$5.3 B $6.9 B $5.0 B $6.9 B $11.1 B $35.3 B
+$6.4 B $4.9 B $5.9 B $8.2 B $10.7 B $36.0 B
+$10.8 B $14.6 B $9.1 B $7.8 B $10.4 B $52.7 B
+$5.4 B $6.3 B $3.6 B $4.3 B $9.3 B $28.9 B
+$5.2 B $4.1 B $9.5 B $7.2 B $9.2 B $35.2 B
+$4.0 B $7.0 B $4.4 B $6.9 B $9.2 B $31.4 B
+$9.3 B $5.2 B $6.5 B $7.7 B $9.0 B $37.7 B
+$12.2 B $7.8 B $4.8 B $6.4 B $8.7 B $39.9 B
+$5.8 B $5.8 B $2.8 B $5.6 B $7.9 B $27.9 B
+$7.7 B $12.0 B $7.8 B $6.7 B $7.7 B $41.9 B
+$5.4 B $5.8 B $4.7 B $5.0 B $7.7 B $28.6 B
+$2.6 B $4.1 B $4.0 B $5.1 B $6.5 B $22.3 B
+$6.3 B $8.1 B $2.2 B $5.6 B $6.1 B $28.3 B
+BANKING ON CLIMATE CHAOS 2026 33
+===== page 34 =====
+2025 Change in Financing % Change
+Country Bank
+Rank (2024-2025) (2024-2025)
+31 Shanghai Pudong Development Bank +$1.3 B +28.3 %
+32 China Everbright +$213 M +4.1 %
+33 ING Group +$1.5 B +40.7 %
+34 Société Générale +$221 M +5.0 %
+35 Crédit Agricole -$776 M -15.6 %
+36 Capital One Financial +$2.1 B +117.0 %
+37 State Bank of India +$2.4 B +162.9 %
+38 Bank of Beijing -$309 M -7.5 %
+39 Groupe BPCE -$470 M -11.4 %
+40 BNP Paribas -$1.0 B -22.2 %
+41 China Minsheng Banking +$1.4 B +73.0 %
+42 Ping An Insurance Group -$606 M -16.0 %
+43 Intesa Sanpaolo -$179 M -6.8 %
+44 Bank of Jiangsu +$1.3 B +139.7 %
+45 UniCredit -$512 M -19.2 %
+46 UBS -$253 M -12.3 %
+47 Bank of Communications +$180 M +16.2 %
+48 NatWest +$54 M +4.4 %
+49 Postal Savings Bank of China +$765 M +169.8 %
+50 KB Financial Group -$227 M -17.2 %
+51 DBS +$499 M +102.5 %
+52 DZ Bank +$546 M +255.6 %
+53 Commerzbank -$1.5 B -66.1 %
+54 Hua Xia Bank -$159 M -18.6 %
+55 La Caixa Group -$346 M -35.1 %
+56 Nordea +$66 M +15.8 %
+57 Rabobank +$166 M +55.9 %
+58 National Australia Bank +$192 M +71.2 %
+59 ANZ -$202 M -35.8 %
+60 Lloyds Banking Group -$526 M -60.0 %
+61 Westpac -$37 M -13.3 %
+62 Commonwealth Bank of Australia +$53 M +38.9 %
+63 Danske Bank -$193 M -84.6 %
+64 Crédit Mutuel +$12 M +92.8 %
+65 La Banque Postale -$6 M -100.0 %
+* League tables report on financing from all current bank subsidiaries
+2021-2025, aggregated at the parent-level bank. In some cases, this +$108.5 B +27.12%
+includes bank financing from subsidiaries prior to their acquisition date.
+3124 BANKING ON CLIMATE CHAOS 2026
+===== page 35 =====
+B = Billions M = Millions T = Trillions
+TOTAL
+2021 2022 2023 2024 2025
+(2021-2025)
+$8.4 B $6.7 B $6.7 B $4.7 B $6.0 B $32.4 B
+$5.8 B $4.4 B $5.5 B $5.2 B $5.4 B $26.2 B
+$5.3 B $4.4 B $3.7 B $3.6 B $5.1 B $22.1 B
+$8.5 B $6.5 B $3.1 B $4.4 B $4.6 B $27.1 B
+$7.5 B $7.6 B $4.9 B $5.0 B $4.2 B $29.1 B
+$1.6 B $1.9 B $1.1 B $1.8 B $4.0 B $10.4 B
+$1.9 B $1.6 B $905 M $1.5 B $3.9 B $9.8 B
+$656 M $3.2 B $4.4 B $4.1 B $3.8 B $16.2 B
+$4.4 B $3.5 B $2.5 B $4.1 B $3.7 B $18.2 B
+$9.0 B $10.4 B $3.7 B $4.5 B $3.5 B $31.2 B
+$1.9 B $1.1 B $3.8 B $1.9 B $3.3 B $12.0 B
+$8.0 B $3.9 B $3.8 B $3.8 B $3.2 B $22.7 B
+$3.0 B $1.9 B $4.0 B $2.6 B $2.4 B $14.0 B
+$829 M $1.8 B $902 M $920 M $2.2 B $6.7 B
+$2.4 B $2.7 B $2.7 B $2.7 B $2.2 B $12.6 B
+$9.5 B $5.5 B $2.6 B $2.1 B $1.8 B $21.4 B
+$5.5 B $5.8 B $2.5 B $1.1 B $1.3 B $16.3 B
+$1.4 B $920 M $301 M $1.2 B $1.3 B $5.1 B
+$2.7 B $1.9 B $998 M $451 M $1.2 B $7.2 B
+$514 M $482 M $969 M $1.3 B $1.1 B $4.4 B
+$650 M $1.2 B $474 M $487 M $986 M $3.8 B
+$308 M $322 M $986 M $214 M $760 M $2.6 B
+$1.6 B $675 M $385 M $2.2 B $755 M $5.6 B
+$2.2 B $1.5 B $934 M $854 M $695 M $6.2 B
+$561 M $1.2 B $1.3 B $985 M $639 M $4.7 B
+$819 M $89 M $585 M $419 M $486 M $2.4 B
+$237 M $507 M $319 M $297 M $463 M $1.8 B
+$700 M $407 M $346 M $270 M $462 M $2.2 B
+$330 M $779 M $316 M $563 M $361 M $2.3 B
+$632 M $571 M $274 M $876 M $350 M $2.7 B
+$90 M $311 M $105 M $277 M $240 M $1.0 B
+$619 M $165 M $176 M $137 M $190 M $1.3 B
+$647 M $94 M $165 M $228 M $35 M $1.2 B
+$50 M $30 M $149 M $13 M $24 M $266 M
+$241 M - $66 M $6 M - $313 M
+$445.1 B $411.5 B $353.5 B $400.0 B $508.4 B $2.1 T
+BANKING ON CLIMATE CHAOS 2026 35
+===== page 36 =====
+Top 10 Banks Increasing Fossil Fuel Expansion Financing
+Last year saw 47 banks contribute more financing to companies expanding fossil fuels than 2024. The top 10 banks increasing
+financing to companies expanding fossil fuels, listed below, increased their financing by a total of $61 billion. MUFG tops this list,
+having increased its expansion financing by $10 billion since 2024. The Japanese megabank financed 135 unique companies
+expanding fossil fuels across the oil, gas, and coal sectors last year. Over 60% of MUFG’s total expansion financing was committed
+to companies actively expanding midstream oil and gas pipelines or LNG.
+Top 10 Banks Increasing Fossil Fuel Expansion Financing (2024-2025)
+Change in Financing
+Bank % Change 2024-2025
+2024-2025
+Mitsubishi UFJ Financial +$10.2 B +63.6%
+Wells Fargo +$8.2 B +60.0%
+Citigroup +$6.7 B +34.7%
+JPMorgan Chase +$6.6 B +25.1%
+Mizuho Financial +$5.5 B +25.4%
+Royal Bank of Canada +$5.3 B +35.2%
+Barclays +$5.1 B +40.3%
+China Construction Bank +$5 B +118.0%
+Morgan Stanley +$4.4 B +42.8%
+Scotiabank +$4.2 B +36.6%
+36 BANKING ON CLIMATE CHAOS 2026
+===== page 37 =====
+Top 10 Banks Reducing Fossil Fuel Expansion Financing
+Rapidly reducing and ending support for the companies expanding fossil fuel production, assets, and infrastructure is one of the
+most important steps banks can take to reduce the risk of catastrophic climate change. In 2025, 18 banks out of the top 65 (listed
+below) moved closer to this objective by reducing their financing to the universe of companies expanding fossil fuels.
+Top 10 Banks Reducing Fossil Fuel Expansion Financing (2024-2025)
+Change in Financing
+Bank % Change 2024-2025
+2024-2025
+Commerzbank -$1.5 B -66.1%
+CITIC -$1.3 B -7.9%
+BNP Paribas -$1 B -22.2%
+Crédit Agricole -$0.8 B -15.6%
+Ping An Insurance Group -$0.6 B -16.0%
+Lloyds Banking Group -$0.5 B -60.0%
+UniCredit -$0.5 B -19.2%
+Groupe BPCE -$0.5 B -11.4%
+La Caixa Group -$0.3 B -35.1%
+Bank of Beijing -$0.3 B -7.5%
+BANKING ON CLIMATE CHAOS 2026 37
+===== page 38 =====
+Fossil Fuel Expansion Finance Trends Across Oil and Gas Value
+Chain
+In a troubling development this past year, the top 65 banks have provided more financing to companies expanding oil, gas, and
+coal projects than any time in the past 5 years.
+In the oil and gas sector specifically, the top 65 banks provided $481 billion to expansion companies. This included $217 billion in
+financing to upstream expansion, $255 billion to midstream expansion, $199 billion to downstream power expansion.39 Top banks
+especially doubled down their financing to companies developing new midstream oil and gas projects, including the transportation,
+storage, and processing of oil and gas via pipelines, storage terminals, processing plants, and LNG facilities. Compared to 2024,
+top 65 banks increased their financing to midstream expansion companies by an astounding 83.8%, or $116 billion. Out of all
+expansion financing from the top 65 banks in 2025, half (50.1%) was to a company with at least one significant LNG or oil or gas
+pipeline expansion project. This figure is up from 34.7% in 2024.
+This expansion surge is particularly alarming in the midstream sector, where LNG terminals, storage, and shipping activities represent
+one of the fastest-growing and most carbon-intensive fossil infrastructure categories.40 Banks have virtually no safeguards in place:
+only 5 of the top 65 global banks exclude financing for new LNG export terminals.41 This LNG policy vacuum reveals a blind spot in
+banking sector climate commitments. LNG export terminals are typically financed against 15-to-20 year sales contracts42 that bind
+Financing to Companies Expanding Oil & Gas Projects in the Upstream,
+Midstream and Power Sectors (2021-2025)
+$300 B
+$200 B
+$100 B
+$0 B
+2021 2022 2023 2024 2025
+Upstream Midstream Power
+NOTE: Some companies have expansion activity in upstream, midstream and power sectors. Thus, the sum of sectors will be larger than
+the total yearly expansion financing.
+38 BANKING ON CLIMATE CHAOS 2026
+===== page 39 =====
+supplying countries to long-term gas extraction and import countries to long-term gas demand. Every new terminal financed today
+is therefore a multi-decade commitment to fossil gas in both exporting and importing countries, well past mid-century climate
+targets. By financing LNG expansion, banks are fueling the new development of some of the most capital-intensive and longest-
+duration fossil fuel projects, which themselves apply continual pressure on upstream operations to also expand in order to feed a
+growing number of mammoth, long duration midstream facilities.
+Fossil Fuel Expansion Finance Trends Across Coal Power and Coal
+Mining Sectors
+In the coal segment, there is a clear upward shift in both coal power and coal mining expansion financing in 2025. The top 65
+global banks increased their coal power expansion financing by $23 billion (40%) in just one year, and coal mining expansion
+financing by $37 billion (nearly 77%). Both of these stepchanges in increased coal expansion financing are driven by Chinese coal
+mining and coal power expansion companies, which received around 83% and 87%, respectively, of these loans and underwriting.
+While renewables have pushed coal’s share of power generation to below 50%,43 and the Chinese government recently pledged to
+plateau coal consumption,44 top Chinese and other banks continue to finance expansion in this critical sector.
+For further robust analysis on bank financing to the coal sector, see BOCC co-authoring organization Urgewald’s Still Banking on
+Coal, which will contain updated 2025 data later in 2026.
+Coal Mining & Power Expansion Financing (2021-2025)
+$100 B
+$84 B
+$81 B
+$75 B
+$69 B
+$60 B
+$58 B $58 B
+$50 B $54 B
+$48 B
+$46 B
+$41 B
+$25 B
+$0 B
+2021 2022 2023 2024 2025
+Coal Power Expansion Coal Mining Expansion
+NOTE: Some companies have expansion activity in coal mining and coal power sectors. Thus, the sum of sectors will be
+larger than the total yearly expansion financing.
+BANKING ON CLIMATE CHAOS 2026 39
+===== page 40 =====
+Fossil Fuel Expansion Finance Geographic Trends
+US fossil fuel expansion companies are far and away the biggest borrowers from the top global banks, followed by Chinese and
+Canadian fossil firms. US companies engaged in expansion projects captured $282 billion in 2025, which is 54.8% more bank
+financing than in the preceding year. And US fossil expanders received nearly twice the amount of financing that Chinese expansion
+companies received in 2025, and over three times the amount European (including the UK) expansion companies received.
+Financing to Expansion Clients by Parent Region (2021-2025)
+$300 B
+$200 B
+$100 B
+$0 B
+2021 2022 2023 2024 2025
+United States Canada Japan China
+European Union United Kingdom All Other Regions Combined
+40 BANKING ON CLIMATE CHAOS 2026
+===== page 41 =====
+US oil and gas expansion financing is particularly driven by midstream and also some power expansion companies, as
+shown in the next two charts. Companies based in the US take the most financing in the midstream sector, $137 billion
+in 2025, and saw the largest increase of $80 billion between 2024 and 2025 in any region in the sector.
+Financing of US-based Midstream Expansionists Doubles 2024-2025,
+Outpacing all Other Regions (2021-2025)
+$150 B
+$100 B
+$50 B
+$0 B
+2021 2022 2023 2024 2025
+United States Canada European Union China All Other Regions Combined
+BANKING ON CLIMATE CHAOS 2026 41
+===== page 42 =====
+100% $125 B
+80% $100 B
+60% $75 B
+40% $50 B
+20% $25 B
+0% $0 B
+2021 2022 2023 2024 2025
+United States China All Other Regions Combined
+PHOTO: Kadnikov Valerii / iStock
+42 BANKING ON CLIMATE CHAOS 2026
+latoT
+fo
+erahS
+Financing
+(USD)
+Likewise, China and the US take the largest share by far of oil and gas power expansion financing. In 2025, from all 2,000 global
+banks, Chinese oil and gas power expansionists received $82 billion, US companies received $90 billion, and companies in all other
+regions combined received $95 billion.
+US and Chinese Companies Expanding Oil & Gas Power
+are the Largest Bank Clients in the Sector
+SOURCE: BOCC+ dataset. Bars = % share of annual total (left axis). Lines = USD billions (right axis)
+===== page 43 =====
+FOSSIL FUEL FINANCING DRIVES DEPENDENCY
+and Deepens the Cost of Living Crisis
+The continued financing of fossil fuels is routinely justified in the name of energy security — the argument that oil and gas, whatever
+their climate and environmental costs, are necessary to keep prices stable and energy supply reliable. Banks lean on this argument
+when defending their fossil portfolios;45 fossil fuel companies lean on it when defending their windfall profits;46 and governments
+lean on it when subsidizing both.47 The 2020s so far have made the argument increasingly hard to defend. The International Energy
+Agency — itself created by oil-importing governments in response to the energy crises of the 1970s — defines energy security as
+reliable and affordable access to energy supply over time.48 Unreliable supply, dramatic price volatility, and steady inflationary
+pressures on households and economies do not, by any definition, meet that standard.
+Yet, the twin fossil energy shocks of the 2020s resulted in precisely this pattern. Decades of fossil fuel dependence have created
+a centralized, fragile energy architecture that seems every year to be more vulnerable to disruption.49 As shown below, the same
+price shocks, supply disruptions, and stranded asset risks that drag on fossil fuel consumers are the ones which provide enormous
+economic rents50 for those controlling the fossil supply chain.
+Instability, in this sense, is not an aberration but a source of fossil fuel windfalls. In this new age of fossil energy instability, fossil fuel
+dependence is a structural source of great wealth for the few and deep economic vulnerability for the many. While oil and gas
+companies capture windfall profits by controlling critical bottlenecks along the energy supply chain, this gated architecture poses
+deep economic costs to those on the wrong end of the pipe, as shown on the next page. Under the reigning fossil energy paradigm,
+people’s access to affordable energy remains fundamentally out of their own control — dependent on the decisions of a very small
+group of fossil firms, governments, and bank executives. In this sense, private financial institutions are not neutral players in this new
+age of fossil energy instability but actively fuel this fragility.
+PHOTO: Sasacvetkovic33 / iStock
+BANKING ON CLIMATE CHAOS 2026 43
+===== page 44 =====
+$250B
+$200 B
+140
+$150 B
+120
+100
+$100 B 80
+60
+$50 B 40
+20
+0 0
+$-50 B
+$-100 B
+1990 1995 2000 2005 2010 2015 2020 2026E
+44 BANKING ON CLIMATE CHAOS 2026
+)DSU
+6202(
+emocnI
+teN
+laeR
+Brent
+Crude
+($/bbl)
+A New Age of Energy Instability:
+Upswings in Fossil Fuel Business Cycle Tied to War
+Several major geopolitical crises since the end of the Cold War have enriched fossil fuel companies while burdening consumers
+and energy-importing countries. The chart below illustrates this starkly: the oil supermajors’ net profits spike as price levels rise
+during the onsets of the major wars of the last thirty years, including most recently with Iran. These companies experience a unique
+kind of business cycle in which war drives the price upswings and the excess profits needed to remain viable during the inevitable
+downturns.
+Fossil fuel executives argue these windfall profits are essential for energy security.51 But, who actually benefits and who is burdened
+by our economic addiction to fossil fuels?
+Oil & Gas Supermajor Profits vs. War Onsets
+Real Net Income with Crude Oil Price Overlay; 2026 Bloomberg Consensus Estimates
+ExxonMobil Shell BP Chevron TotalEnergies Eni
+SOURCE: Authors’ analysis based on S&P Capital IQ, Bloomberg Mean Consensus Estimates, EIA crude price data, and CPI adjustments via FRED.
+War onsets: 1990 Gulf War I | 2003 Iraq | 2011 Libya | 2022 Russia-Ukraine | 2026 Iran. Last accessed on May 6, 2026.
+===== page 45 =====
+Upward Distribution of Reward:
+Who Benefits from Fossil Fuel Dependence?
+The fossil fuel sector is probably one of the most lucrative industries of all time,52 and the economic benefits of oil and gas windfalls
+are extremely concentrated. In a detailed study of excess profits following Russia’s invasion of Ukraine, the wealthiest 1% of
+individuals captured 50% of US oil and gas companies’ earnings, predominantly through direct shareholdings and private company
+ownership. The top 10% received 84% of these profits as illustrated below.53 Bank and insurance company shareholders meanwhile
+made over $50 billion following the Ukraine invasion, or a full eleven percent of oil and gas windfalls.54 In the United States, the
+bottom 90% of people by wealth only received 16% of oil and gas profits through their participation in pensions and mutual funds.55
+White households — 64% of the total population in the study — enjoyed almost 90% of fossil fuel windfalls compared to only 1.4%
+by Black households in the US.56 The windfall profits the oil and gas sector is receiving from the war on Iran are likely to remain just as
+unequal, as little has changed structurally in the ownership of this sector.
+Extremely Unequal Benefits from Oil/Gas Excess Profits Following Ukraine Invasion
+Rest of World No US Personal Wealth ($12.2 B)
+Nonprofits
+Rest-of-world Owners Government
+Ultra-high-net-worth-individuals
+Top 0.1% ($92.2 B)
+Hedge Funds
+Business Owners
+Private Equity
+Shareholders in Banks & Insurers Remaining Top 1% ($98.0 B)
+US Oil & Gas
+Shareholders in Non-financial
+Firms
+Next Top 9% ($126.2 B)
+Mutual Fund Holders
+Asset Managers
+Middle 40% ($57.3 B)
+Rest-of-world Oil & Gas Pension Funds
+Bottom 50% ($3.7 B)
+SOURCE: Semieniuk et al. 2025, used with permission.
+BANKING ON CLIMATE CHAOS 2026 45
+===== page 46 =====
+Downward Distribution of Risk:
+Heightened Costs of Living, Especially Amongst the Poorest
+In this new era of global fossil energy instability, the profits The 2026 energy shock hasn’t just hit households hard, but whole
+enjoyed by the wealthy few are paid by ordinary people and economies. Fossil fuel-importing countries have responded with
+their governments in the form of higher prices, energy shortages, subsidies of different kinds to cushion the shock.72 But this is an
+and fiscal imbalances. In this sense, fossil fuel price shocks are expensive task. For every $10 per barrel increase in the price of
+reverse redistribution shocks,57 worsening the cost of living crisis oil, met oil import costs rise by around $160 billion a year. And
+and causing wide macroeconomic harm. for every $1 per million British thermal unit (MMBtu) increase in
+gas price, LNG import costs jump about $20 billion per year.73
+Around three of every four people across the globe now live
+in fossil-importing countries; six of ten people live in countries More costly fossil imports lead to fiscal tightening and increased
+which are LNG-net importers.58 The twin 2020s fossil fuel shocks sovereign debt. The Iran oil shock has already hit local
+of Ukraine and Iran have hit people differently but the pattern government bond yields and 5-year credit default spreads in
+is clearly shown on the previous page: supply disruption drives Asian countries.74 As net oil importers, the Philippines, Malaysia,
+energy prices higher, with knock-on effects across the economy. Thailand, and India have all faced a weakened sovereign debt
+Households and local businesses pay higher energy and environment because they are forced to absorb the oil shock
+transport prices where they can, and suffer shortages where they through government balance sheets, weakening their fiscal
+must. positions.75 Fossil fuel imports — paid in US dollars — are a
+persistent drag on balance of payments and government
+With the dawn of the new Persian Gulf war and the closure of spending, and thoroughly inefficient compared to cheaper,
+Hormuz Strait, wholesale gas prices roughly doubled in the EU,59 fuel-free renewable alternatives. In a recent analysis by Ember
+with sharp increases across Asia.60 Electricity costs, especially with the Climate Vulnerable Forum and V20 Finance Ministers
+for those countries dependent on imported gas to fire power (CVF-V20), the authors found that “such expenditure is, in an
+generation, have jumped in turn.61 Europe’s electricity prices, economic sense, non-productive: a recurring leakage rather
+for example, are still closely tied to the price of gas: a structural than a one-time capital investment on home soil…Fossil
+vulnerability to the whole region.62 Egypt’s energy import bill, dependency also leaves these economies exposed to price
+as another example, more than doubled since the outbreak shocks beyond their control.”76
+of the U.S.-Israeli war with Iran,63 and electricity prices in turn
+skyrocketed.64 Higher prices hit the poorest hardest in every These macroeconomic effects have already begun to cascade,
+country.65 pushing up inflation expectations especially in low and middle-
+income countries.77 The European Central Bank concluded
+Unable to bear higher prices, many people and many in response that, “fossil fuel dependence poses risks to price
+governments have resorted to energy rationing. Gas stations in stability.” The Vice-Chair of the Supervisory Board of the
+Vietnam and Thailand faced shortages and refused customers.66 preeminent macroprudential body in Europe stated simply, “the
+Several energy-importing countries have reduced work weeks,67 most effective way to [reduce geopolitical risk] is by cutting
+closed universities and started rationing petrol.68 Fuel shortages reliance on imported fossil fuels and accelerating an orderly
+have pushed up travel and transport costs. In the Philippines, shift to home-grown clean energy.”78
+spiking fuel costs led transport workers to consider strikes.69
+There are reports of shortages of cooking gas in India70 and jet
+fuel in Southeast Asia.71
+PHOTOS: Toben Dilworth / RAN
+46 BANKING ON CLIMATE CHAOS 2026
+===== page 47 =====
+Global Banks:
+Amplifying Fossil Fuel Fragility and Economic Instability
+Banks are not neutral in this age of fossil energy instability. This Third, and consequently, this concentrated, debt-heavy
+year’s BOCC data reveals three interconnected mechanisms financing architecture amplifies inequality when supply shocks
+through which banks play a key role in amplifying energy occur. As we saw in 2022 (illustrated on page 44) and will likely
+inequality and fragility. see again in 2026, the economic benefits of oil and gas shocks
+are heavily concentrated amongst the wealthiest, and are paid
+First, a tiny number of global banks from a tiny number of for by the most vulnerable in all countries, especially in fossil
+countries provide the lion’s share of fossil fuel financing to an fuel-importing countries.
+increasingly smaller number of fossil fuel borrowers, as shown
+above. Just twelve banks provide 38.5% of fossil fuel financing, Banks could choose to finance multiple, smaller and more
+and the top ten fossil firm borrowers capture 15% of this credit resilient renewable energy competitors instead. Yet banks
+across a universe of around 2,500 fossil companies. This instead seem to prioritize long-term relationships and larger
+concentration in financing means that decisions about which fossil fuel deals — deals whose scale generates lower per-
+fossil projects receive capital — and on what terms — are made dollar transaction costs, larger fees, and larger debt service
+by just a handful of financial institutions. This concentrated obligations.79
+financing is then utilized by a smaller number of fossil fuel firms.
+By nature of these companies being highly-leveraged, they are In this way, banks actively amplify today’s centralized,
+structurally incentivized to expand and grow their earnings to overleveraged and structurally high risk fossil energy model.
+service that debt burden. By actively financing fossil fuel expansion, loading the system
+with debt, incentivizing fossil firms to rapidly grow and profit
+Second, banks are in turn actively financing fossil fuel expansion, and underfinancing renewable alternatives,80 banks are
+not simply refinancing existing operations. In 2025, bank actively contributing to making the global energy system more
+financiers provided $508 billion to companies expanding fossil expensive, more fragile, and more unequal. The consequence
+fuel production, up 27% in just one year. By providing the loans is an energy system that locks in volatility, concentrates wealth,
+and underwriting fossil firms use to expand, banks not only lock and makes entire economies vulnerable to shocks they cannot
+in this infrastructure for decades. They also load the energy control.
+system with debt. This makes people more dependent on a more
+financially fragile fossil fuel architecture.
+BANKING ON CLIMATE CHAOS 2026 47
+===== page 48 =====
+Bank Client Profile: Venture Global
+Highly Leveraged LNG Export Company Captures War Profits and Minted
+Billionaires While Avoiding Taxes and Driving Energy Inflation
+US-based Venture Global (VG) — a relative newcomer in midstream operations and the single largest recipient of bank fossil fuel
+financing in 2025 — is a microcosm of how the fossil fuel sector seizes on geopolitical conflict, instability, and war to reap windfall
+profits at the expense of marginalized communities and vulnerable economies. The company’s profit dynamics during conflict
+periods also reveal the mechanisms through which financial institutions amplify energy market vulnerability.
+The Iran war and the closure of the Strait of Hormuz disrupted roughly 20% of global LNG supplies by knocking Qatari LNG offline.81
+With its main competitor offline and 30% of its cargoes available for volatile spot-market sales this year,82 Venture Global stands
+especially poised to capture market share and reap enormous earnings — directly as a result of the conflict. Wall Street consensus
+estimates Venture Global will generate $3.3 billion in profit in 2026, up from 2.26 billion in 2025 and 1.48 billion in 2024.83 One
+estimate indicates that VG could potentially reach $870 million per week above pre-crisis baselines in the near term.84 This mirrors
+VG’s profit windfall following Russia’s invasion of Ukraine.85
+“They keep getting bailed out by wars,” said head of research at the energy investment firm, Energy Income Partners.86
+These price and profit movements compound shareholder and company executive wealth directly. In the case of Venture Global,
+these are largely the same as the two founders and primary blockholders — Mike Sabel and Bob Pender — own about 80% of VG
+shares.87 Between the start of Persian Gulf hostilities on February 28th and the stock’s March 27 peak, these billionaires Mike Sabel88
+and Bob Pender89 became approximately $16 billion wealthier — a gain of roughly 80% on their prior $10 billion valuations, without
+any substantive changes to the company’s operations. Even after the stock price descended since its post-Hormuz peak, both VG
+billionaires are roughly 45% more wealthy as of the time of this writing than the Friday before the US intervened.90 Meanwhile, Venture
+Global senior executives — including the Chief Financial Officer,91 Chief Accounting Officer,92 and General Counsel93 — sold tens
+of millions of dollars in shares in the days after the February 28, 2026 US and Israeli strikes on Iran triggered a sharp rise in Venture
+Global’s stock price.94
+PHOTO: James H / Better Bayou; Kyle McCoy / Texas Campaign for the Environment
+48 BANKING ON CLIMATE CHAOS 2026
+===== page 49 =====
+“They keep getting bailed out by wars”
+- head of research at the energy investment firm,
+Energy Income Partners
+Excess war profits and billionaire wealth appreciation are not victimless. This fiscal transfer has been paid — very directly — by
+LNG-importing countries, particularly in Asia and Europe, already battered by supply disruptions, gas, and electricity price spikes
+and shortages. Soaring prices of gas imports pose serious macroeconomic and cost of living disruptions for the three-fourths
+of humanity living in energy-importing countries. More locally, Venture Global’s growth has reportedly overwhelmed the fishing
+industry in Cameron, Louisiana. Generations of fisherfolk have documented severe loss of catch, and loss of livelihood, since
+commencement of LNG export terminal construction, shipping, and operations.95 What’s more, Venture Global routinely fails to pay
+its fair share of state and Federal tax. The firm avoided paying hundreds of millions of dollars through state tax subsidies, according
+to reports.96 VG is also one of the 88 US corporations paying zero Federal corporate income tax in 2025, according to experts.97
+Venture Global is one of the top recipients of bank financing in this year’s BOCC report and highly-leveraged, even compared to
+competitors.98 In this sense, the story of Venture Global in this emerging age of energy instability thoroughly implicates Wall Street.
+The world’s largest commercial banks — featured prominently in this report — have structured multiple rounds of project and
+corporate financing around Venture Global’s model. VG’s ability to service its debt is greatly aided by the type of excess profits
+which volatile energy prices have provided the company in 2022 and now in 2026. By underwriting large debt loads contingent on
+volatile cash flows, banks are arguably locking in an unstable financial structure dependent on windfalls. By doing so, banks are
+simultaneously loading the financial system with tail-risk exposure. When volatile prices normalize — as they inevitably will — the
+same highly-leveraged operators face margin compression and debt service pressure simultaneously. Banks earn fees on every new
+round of refinancing,99 while LNG executives see their compensation awards grow with every new final investment decision.100 But the
+cost of this fossil energy model falls on neighboring communities and fisherfolk, on importing economies experiencing volatile prices
+and shortages, and on everyone experiencing climate-driven extreme weather events.
+PHOTO: Karen Foley Photography / iStock
+BANKING ON CLIMATE CHAOS 2026 49
+===== page 50 =====
+BANK POLICIES IN 2025 AND EARLY 2026:
+Promise and Limits of Voluntary Commitments
+This year’s BOCC report observes a second consecutive year of increased financing for fossil fuels and a third consecutive year
+of banks tending to backslide on their climate policies.101 While banks maintain and are expected to uphold climate policies
+independent of the Net-Zero Banking Alliance (NZBA), the collapse of the NZBA — culminating in its cessation of operations in
+October 2025102 — freed banks to further unwind from climate targets and other elements of their climate strategies. Notably,
+throughout 2025 and the first half of 2026, banks have further weakened their commitments to uphold 1.5˚C temperature rise
+limits, widened loopholes, and undercut sector policies for coal, oil, and gas energy or power supply primarily by removing or
+diluting exclusion criteria and commitments. Most policy changes in the past year were downgrades of existing policies rather than
+improvements. Anti-climate political pressure — particularly acute in the United States — seems to have also played a part. The US
+Trump Administration issued executive orders103 and other measures104 which pressure companies, including financial institutions, to
+maintain service to fossil fuel interests and disregard social or environmental considerations — even if material. This backlash seems
+to have scared financial institutions into exiting the NZBA,105 weakening their climate policies, and provided a convenient social
+license for banks to ramp up their fossil fuel financing.
+The soft nature of voluntary target-setting and existing flaws in the design of decarbonization targets106 had already hampered the
+effectiveness of bank climate policies to accomplish meaningful climate action.107 But the dual developments over the last year of
+the NZBA’s collapse and the anti-climate agenda waged by the US Trump Administration further eroded the incentives for banks to
+accelerate their transition away from fossil fuels.
+PHOTO: Masaya Noda / RAN
+50 BANKING ON CLIMATE CHAOS 2026
+===== page 51 =====
+Weakening Decarbonization Targets and Widening Loopholes
+In a move that echoes Wells Fargo’s wholesale abandonment of its emission and net-zero targets in February 2025,108 Canadian
+banks RBC and Scotiabank also dropped their 2030 decarbonization targets, with Scotiabank canceling its 2050 net-zero
+target.109 Meanwhile, Santander took several steps to dilute its decarbonization goals. The Spanish bank loosened the temperature
+benchmarking of its targets from 1.5˚C to an upper range limit of 1.7˚C of temperature rise. At the same time, Santander converted
+its 2030 absolute emissions reduction target for the oil and gas sector into a weaker physical emissions intensity target, and
+dropped scope 3 emissions (where the bulk of the bank’s emissions are sourced) as being considered covered by the target.110
+JPMorgan Chase also seems to be backsliding on its emissions targets.111 Diluting or outright abandoning near-term emission
+reduction targets and net zero targets is no longer a development isolated to just one or two banks, but a worrying pattern spanning
+multiple geographies and financial institutions and must be called out by government regulators, supervisory authorities, investors,
+shareholders, and clients as an erosion of the fiduciary duties of these banks to manage their climate financial risk.
+Many major financial institutions claim that they have already sufficiently addressed fossil fuels in their institutional positions and
+risk frameworks, even though their policies still contain significant loopholes, as discussed in this report. Banks rarely require that
+their clients — even their heavy emitting clients — have transition plans which are current, scientifically-aligned, and assessed
+as credible by a neutral third party. This “transition plan” loophole is still present in some policies and banks use it to justify
+continued business with certain companies under the guise of supporting their energy transitions without requiring credible plans
+or demonstrable evidence of progress towards reduced emissions.112 Major clients, such as integrated oil and gas companies, have
+been portrayed as key drivers of the energy transition, even though assessments show the stark shortfalls and greenwashing of
+these transition roadmaps.113 Interestingly, as some large clients can no longer credibly claim to be transitioning, some banks have
+fully scrapped or reworded their policies. A notable example is NatWest. This bank removed its criterion that clients should have a
+detailed “transition plan” around the same time that its client — the oil giant BP — announced it was refocusing on core oil and
+gas activities in February 2025.114 Some banks have also introduced wider loopholes through the insertion of vague or confusing
+language. For instance, HSBC kept its commitments in place, but inserted a foreword to its transition plan stating that exceptions
+to it could be made if deemed “within the intention of the policy.”115 These deliberate word choices seem minor, but work to limit the
+effectiveness of bank policies.
+Carbon Measures, Climate Cover
+The backsliding extends beyond tweaked language, withdrawn sector exclusion policies, and net-zero pledges.
+Both Santander and Bank of America have also signed onto Carbon Measures,116 an emissions-accounting
+initiative117 spearheaded by ExxonMobil118 and other large industrial emitters. The initiative promotes an “e-liability”
+model in which emissions are passed down the supply chain with each transaction, effectively erasing Scope 3
+emissions — the indirect emissions from the use of a company’s products, which for fossil fuel producers and
+financiers make up the vast majority of their climate footprint — from corporate ledgers and shifting responsibility
+onto end use consumers. In backing a privately-governed alternative to the GHG Protocol (the globally recognized
+standard for corporate carbon accounting), both Santander and Bank of America are lending credibility to a
+framework which helps heavy emitters sidestep accountability for the bulk of their climate impacts.119
+BANKING ON CLIMATE CHAOS 2026 51
+===== page 52 =====
+Sector-specific Policies Undone
+Sector-specific policies have consistently been regarded as stronger commitments than broad decarbonization targets. If robustly
+designed, sector exclusion policies — particularly coal policies — have tangible effects on the real economy by restricting fossil fuel
+companies’ access to financing.120
+After a third consecutive year of climate backtracking by the largest global banks, only 34 of the 65 banks examined in this report
+still have oil and gas sector policies as of May 2026121 — fewer than in previous years. The number of coal policies also declined over
+the last year — from 46 to 44 out of 65122 — demonstrating that even well-established restrictions can be rolled back. Of critical
+note, the shrinking number of meaningful sector-specific policies for oil, gas, and coal between 2024 and 2026 indicates a trend
+that more banks are undoing their policies faster than other banks are addressing policy gaps and setting restrictions for these
+sectors.
+Since the publication of last year’s BOCC report in June 2025, at least 12 banks covered in this report updated their policies
+concerning the oil and gas sector. Out of these, 8 banks removed or weakened language compared to past commitments.123 Half
+of this number have their headquarters in North America (Goldman Sachs, JPMorgan Chase, BMO, RBC), and the other half in
+the EU and the UK (NatWest, HSBC, Santander, Nordea).124 After careful analysis and comparison with previous versions of these
+policies, the changes reveal that all four North American banks made to their policies removed specific constraints on oil and gas
+activities. As a result, these banks have now been re-scored in the Oil and Gas Tracker with a zero (a determination that no effective
+policy is in place).125 Most of these banks (including JPMorgan Chase, Goldman Sachs, Bank of Montreal (BMO) and Royal Bank of
+Canada) dropped their exclusion commitments regarding hydrocarbon activities in the Arctic.126 These banks rewrote the policy
+with weaker language — for instance, that support for these activities will be assessed on a case-by-case basis, or will undergo (an
+nontransparent and non-participatory) due diligence review.127 Out of the 15 North-American banks in scope of the report, 12 now
+receive a zero in the oil and gas policy tracker and are no longer considered to have restrictions on the support they can provide to
+oil and gas activities.128 This shift is occurring in a context where the Trump administration is planning to reopen the Arctic National
+Wildlife Refuge to oil and gas drilling,129 underscoring the need for robust safeguards in this subsector.
+In light of the alarming surge in 2025 financing to this sector documented above, the midstream segment of the oil & gas value
+chain remains largely absent from bank policies. Despite the fact that LNG is one of the fastest-growing expansion segments of the
+gas value chain, only 5 bank policies130 out of 65 exclude direct project financing support for all new LNG export terminals, while an
+additional 8 address some LNG export terminals only partially.131 This gap has persisted for several years and remains unaddressed,
+despite the documented impacts of LNG on the climate, the environment, and public health.132 Moreover, only two banks have
+policies that restrict (partially or fully) corporate financing to companies developing new LNG terminals.133 LNG import terminals
+— despite their role in driving the LNG boom — also remain largely unaddressed in oil and gas policies.134 In the absence of robust
+safeguards, it is therefore unsurprising that financing directed toward companies expanding midstream oil and gas projects surged
+again in 2025.
+Backtracking is also evident across the coal sector, a sector for which bank policies had become more widely adopted and where
+constraints achieved notable real world decreases in financial support for coal activities.135 This past year, two Spanish banks,
+Santander136 and CaixaBank, diluted their coal commitments. CaixaBank backtracked on metallurgical coal primarily used for
+steelmaking137 while Santander’s policy rewrite now permits the bank to finance more companies that derive over 25% of their
+revenue from thermal coal generation.138 In North America, JPMorgan Chase and Goldman Sachs abandoned their coal exclusions,
+converting them into simple due diligence processes like for oil and gas.139
+52 BANKING ON CLIMATE CHAOS 2026
+===== page 53 =====
+Limits of Voluntary Commitments Exposed: the Need for Stronger Regulatory Action
+Robust bank commitments to restrict corporate and project financing to fossil fuels matter, and have been consistently
+demonstrated in recent years.140 For example, Crédit Mutuel141 maintains very low levels of fossil fuel financing compared to peers,
+and also maintains an ambitious policy adopted as early as 2021, aligning with — or even exceeding — the projections set out by
+the IEA.142 La Banque Postale — who also has similar policies in place143 — committed zero fossil fuel financing in 2025, according
+to BOCC research. While further analysis is needed to firmly establish a causal link, the correlation between a net weakening of
+bank climate policies across the banking sector over the last two years and a resurgence of financing to fossil fuels–following year-
+on-year decreases between 2021 and 2023 — is nonetheless suggestive. It is reasonable to conclude that the erosion of safeguards
+restricting financing for certain projects and companies is an important contributing factor behind the observed rise in fossil fuel
+and fossil fuel expansion financing.
+Voluntary commitments from banks are important first steps and can be meaningful when banks design them to have teeth. But
+the past year shows that these policies can too easily be undone, can be eroded through competitive pressures, and therefore must
+be backed by state regulation and mechanisms for legal enforcement. Voluntary action by banks and private financial institutions
+is insufficient, by themselves, to keep certain banks from continuing to pour billions into the fossil fuel sector and load the financial
+system with ever more unsustainable climate risk. Legislators, banking regulators, supervisors, and policymakers must learn these
+lessons now and take urgent and sustained measures to align financial activities with climate goals for economic stability in the face
+of the worsening climate and energy emergencies.
+PHOTO: Michael Warren Pix / iStock
+BANKING ON CLIMATE CHAOS 2026 53
+===== page 54 =====
+Shifting Finance Toward a Fossil-Free Future:
+Conclusion And Demands
+Fossil fuel companies and their financiers seem intent on locking in fossil fuel
+dependency for another generation. But people and governments worldwide are just
+in the beginning phases of replacing fossil fragility with renewable energy security.
+True economic stability and energy resilience mean a sharp turn away from fossil dependency and toward renewable energy
+independence.
+The twin fossil crises of the 2020s dent confidence in the stability of oil and gas markets in ways that may never be repaired. But
+unlike previous shocks, 2026 is the first oil and gas crisis where renewable energy alternatives are actually cheaper and more secure
+once installed.144 Even before the crisis in the Strait of Hormuz, clean power met all of last year’s growth in global electricity demand
+for the first time.145 Solar, wind, and other renewable sources contributed more than a third of global electricity generation for the
+first time, overtaking coal power in 2025.146 And last year was also the first year this century when fossil fuel generation fell in both
+China and India.147
+Fossil fuel companies and their financiers seem intent on locking in fossil fuel dependency for another generation. But people and
+governments worldwide are just in the beginning phases of replacing fossil fragility with renewable energy security.
+PHOTO: Kyle McCoy / Texas Campaign for the Environment
+54 BANKING ON CLIMATE CHAOS 2026
+===== page 55 =====
+Demands on Banks
+The organizations authoring and endorsing this report demand that banks:
+1.
+Exclude all finance for fossil fuel expansion immediately.
+Banks must end lending and underwriting for any company expanding fossil fuels and related infrastructure across the
+upstream, midstream and downstream oil and gas sectors as well as coal power and coal mining.148 This exclusion must
+include project finance and general corporate finance as well as capital market transactions for any company with
+expansion plans, regardless of the scope of the expansion project. This is the most urgent step banks must take to enact
+their climate pledges.
+2. Adopt targets to steeply reduce volumes of finance through
+lending and capital markets issuances to oil, gas and coal
+supply companies.
+In combination with robust sectoral and expansion exclusions, banks must adopt binding financing reduction targets for
+companies involved in the upstream, midstream, and downstream parts of the fossil fuel value chain. Finance reduction
+targets must be aligned with a rigorous 1.5° C scenario, including ambitious targets for 2030 and 2035, culminating in
+an end to all fossil fuel financing by 2050 at the latest. Coal finance must be phased out sooner — by 2030 for OECD
+countries and 2040 for all others. Banks should maintain, reinstate, or set emissions reduction targets for their portfolios,
+tied to ambitious 2030 and 2050 benchmarks which must also be aligned with a rigorous 1.5C scenario. These targets
+should be based on actual, absolute (and not carbon intensity) emission reductions for portfolio companies, and not on
+attribution formulas that use a fluctuating metric like the market value of a company to compute a bank’s financed or
+facilitated emissions.149 Emissions reduction targets must not use false solutions such as carbon offsets or carbon dioxide
+removals, or misleading energy-mix ratios. Banks must fully disclose the methodologies behind targets and publish
+annually an attribution analysis that clearly explains the factors behind changes in the financing and emission data
+under each target.
+3. Require robust, 1.5º C-aligned transition plans from all
+existing fossil fuel clients.
+Banks must require all of their clients with any fossil fuel exposure to publish robust plans to zero out fossil fuel activity on
+a 1.5° C-aligned timeline. Banks should end financing for clients that fail to align their activities with a credible 1.5° C
+pathway. Any fossil fuel expansion in supply or infrastructure is incompatible with 1.5° C.
+BANKING ON CLIMATE CHAOS 2026 55
+===== page 56 =====
+4.
+Respect human rights and protect the rights of Indigenous
+Peoples.
+Banks must respect international human rights law, including by ensuring that their financing does not cause or
+contribute to climate-related or other human rights violations and seeking to prevent or mitigate adverse human rights
+impacts linked to their clients. Accordingly, banks must ensure that their clients respect human rights, and specifically
+safeguard Indigenous Rights and sovereignty and guarantee free, prior and informed consent (FPIC) for Indigenous
+Peoples as defined by the UN Declaration on the Rights of Indigenous Peoples. They must establish zero-tolerance
+policies to prevent violence towards Indigenous Peoples and frontline communities, as well as integrate human rights due
+diligence mechanisms into their policies and risk management approach. Decisions must respect frontline communities’
+right to a healthy environment and to a just livelihood without coercion, violence, and ongoing colonial practices that
+divide communities.
+5.
+Scale up financing for a just and fair energy transition.
+Financing for sustainable solutions must massively increase to triple sustainable power capacity by 2030.150 Banks
+in particular have a central role here, including by drastically increasing financing to sustainable power supply to
+reach a 6:1 ratio by 2030.151 Banks should remove barriers to financing for such projects, prioritizing local initiatives
+that uplift marginalized and impacted communities. Vulnerable communities and countries must have access to
+sufficient financing to achieve a just and equitable transition. Plans for a just phaseout of fossil fuel financing must
+avoid replicating the extractivist nature of fossil fuel-based energy generation and take into account the social costs of
+transition by supporting local economic diversification and, with workers and communities, co-creating a new, people-
+centered, open-source energy system.
+Demands on governments
+The organizations authoring and endorsing this report demand that governments:
+After two consecutive years of fossil fuel finance increases by global banks — especially the increase in fossil fuel expansion finance
+and the continued backtracking from banks on their climate pledges — it is clear that the banking sector will not voluntarily take the
+necessary steps to transition out of fossil fuel finance at the pace and scale needed for the world to deliver on the Paris Agreement
+goals and align around IPCC recommendations. Individual bank actions can make a difference.
+Regardless of bank action, government policymakers, central banks, and regulatory and supervisory bodies have clear legal duties
+— affirmed by the International Court of Justice — to protect people and the environment from the “urgent and existential threat”
+of climate change by phasing out fossil fuels.152 This includes an affirmative obligation to regulate private banks’ fossil fuel activities.
+Failure to do so could be considered a wrongful act under international law.153 Given their disproportionate roles, the “Big Six”
+fossil fuel financial centers — US, Canada, Japan, China, the EU and the UK — in particular bear heightened and differentiated
+responsibilities to phase out fossil fuel finance.
+56 BANKING ON CLIMATE CHAOS 2026
+===== page 57 =====
+We call on policymakers at all levels and all geographies — in particular finance policymakers
+from the “Big Six” fossil fuel finance centers — to put financial regulatory muscle behind the
+1.5° C goals of the Paris Agreement. Efforts to use the pretext of the Persian Gulf crisis to weaken
+fossil fuel regulations will only deepen dependency and vulnerability. Instead, policymakers must seize
+on this seminal moment to reshape finance toward a new clean energy future. In particular, we call on
+legislators, policymakers, regulators and central bank authorities to:154
+1.
+Engage in macroprudential, monetary policy and financial
+regulatory reforms which incorporate true risks of fossil
+fuel dependency and prioritize clean energy stability.
+» Require comprehensive disclosures of climate risk and integration of climate risk into supervisory frameworks with
+clear and binding expectations for how financial institutions must identify, assess, and mitigate climate-related risks
+across their activities.
+» Integrate climate and biodiversity risks into prudential requirements. Climate and biodiversity risks create real
+exposure to stranded assets, excessive concentration in fossil assets, and balance sheet vulnerability. Central banks
+and financial regulators should consider whether existing capital and liquidity requirements adequately address
+climate risk and apply precautionary prudential tools — such as higher capital buffers for high-risk activities and for
+loans and investments in high-emitting sectors.
+» Ensure robust climate stress testing. Regular climate stress testing to assess how financial institutions’ portfolios would
+perform under various scenarios needs to be accompanied by continued efforts to strengthen climate modeling.
+Current models used for stress testing significantly underestimate climate risk and regulators should provide greater
+clarity on the limitations of their models. Stress testing should include biodiversity risks.
+» Mandate transition planning by banks, non-banks, and insurers. Financial institutions should be required to develop
+credible Paris-aligned transition plans with clear targets, including policies that restrict financing to fossil fuels,
+notably ruling out support to new coal, oil, and gas projects and the companies that develop them, particularly in
+biodiverse regions such as the Amazon. Transition plans must be actionable and timebound with clear criteria that
+apply at the client level, and clearly require fossil fuel phase-outs and scaling up of climate solutions (e.g., renewable
+energy, agroecological approaches).
+» Extend many of these requirements to private equity holders, private creditors, asset managers, and other non-bank
+entities driving fossil fuel finance.
+» Ensure greater transparency and regulatory oversight of credit rating methodologies, and integrate climate and
+biodiversity risk factors into fossil fuel expansion companies’ assessments and bond ratings.
+BANKING ON CLIMATE CHAOS 2026 57
+===== page 58 =====
+2.
+Reduce public financial support and tax incentives for
+fossil fuels.
+Instead of incentivizing further expansion, governments should be rewriting their tax codes and implementing policies to
+discourage fossil fuels and rebuild the fiscal capacity to invest in climate resilience and renewable alternatives. This would
+mean:
+» A rapid wind down of supply-side fossil fuel subsidies, tax exemptions, subsidies, guarantees or other public assistance
+for new oil, gas, and coal projects. This would include transparent, time-bound plans for winding down existing
+exposures.
+» Ending multilateral development bank, bilateral development finance, and export credit agency support for fossil
+fuels.
+» Demonstrating international leadership by signing onto the Clean Energy Transition Partnership to phase out
+international support for fossil fuels and transition public finance to renewables; and support an agreement at the
+Organization for Economic Cooperation and Development Export Credit Group to phase out export credit agency
+support for fossil fuels.
+» Making polluters pay for climate damages, including through domestic and global excess profit taxes on fossil fuel
+corporations which are fairly captured for public benefit, helping finance diversification and just transition measures.
+» Redirecting this public financial support toward renewable, decentralized, and community-led distributed energy
+systems which support climate resilience, broaden participation, and reduce long-term fiscal risk.
+An historic opportunity is unfolding as we enter an age of fossil energy
+instability. Renewable energy is surging. Clean power met all growth in global
+electricity demand in 2025, solar and wind now outpace coal, and renewable
+capacity expansion continues to accelerate worldwide. The falling costs
+and rising reliability of renewables have fundamentally altered the economic
+calculus of energy transition. Yet the world’s top banks remain locked in the
+old paradigm, pouring nearly $1 trillion annually into fossil fuel financing as
+the real productive economy pivots toward clean energy.
+58 BANKING ON CLIMATE CHAOS 2026
+===== page 59 =====
+3.
+Align finance with just transition principles of human
+rights, ecological integrity and accountability.
+While there is no one-size-fits-all approach to what a just fossil fuel phase-out entails, human rights, ecological integrity
+and accountability anchor a vision of a financial system fundamentally different from the one we inhabit today. A
+sustainable and just phaseout cannot be achieved by shifting costs onto forests, land, or human rights — especially
+Indigenous Peoples’ Rights. Land-based carbon offsets should not be used and carry significant risks of dispossession.
+The financial transition away from fossil fuels must be governed by binding safeguards that protect human rights, forests
+and ecological integrity. This includes:
+» Ensuring policies are in line with internationally recognized Indigenous Peoples rights, such as the United Nations
+Declaration on the Rights of Indigenous Peoples (UNDRIP)–which expresses the recognition of the right to self-
+determination, right to “say no,” and FPIC–and the International Labor Organization’s Indigenous and Tribal Peoples
+Convention No. 169 (ILO Convention 169).
+» Integrating robust human rights and environmental due diligence, accountability and remedy mechanisms in
+transition planning and implementation at national and international levels, strengthening protections for affected
+communities.
+» Mandating human rights due diligence requirements for the financial sector to actively identify, prevent, and
+mitigate adverse impacts on human rights and the environment across operations and value chains. This should
+include establishment of independent grievance and remedy mechanisms for affected communities, in line with the
+UN Guiding Principles on Business and Human Rights.
+» Ensuring public finance institutions also are subject to transparent reporting, redress mechanisms, and legal
+accountability to international human rights standards and law, including women’s rights, Indigenous Peoples’ rights,
+and workers’ rights.
+This contradiction cannot persist. The banking sector has a choice: continue
+amplifying the fragility, inequality, and climate destruction of the fossil era,
+or align capital flows with the reality that renewable energy is now cheaper,
+faster, more secure, and irreversible. The momentum of clean energy
+deployment and the lived experience of fossil fuel instability facing billions of
+people demand that banks finally make that choice — and that governments
+enforce it. The age of fossil fuel finance must end. The age of just energy
+transition finance is only beginning.
+BANKING ON CLIMATE CHAOS 2026 59
+===== page 60 =====
+report scope & Methodology Overview
+Banking Industry Scope
+Like last year, this report analyzes the world’s 65 largest banks by assets according to S&P Global’s annual rankings. Due to year-on-
+year changes in bank sizes, 2 banks have been newly included in this year’s list: the Bank of Beijing and the Bank of Jiangsu. Banks
+with less than $150 million league credit reported in Bloomberg LP for economy-wide financing in 2025 were deemed irrelevant to
+this analysis. This excludes Japan Post Bank Co. Ltd. (S&P assets rank 24) and Norinchukin Bank (S&P assets rank 62), which were
+replaced by the next two banks on the S&P Global’s list to bring the total to 65 banks.
+This does not mean that these are the only fossil fuel-financing banks. We develop a much larger “BOCC+” dataset with roughly
+2,000 medium-sized and smaller banks which provide substantial fossil fuel finance. We choose the top 65 banks as the primary
+focus for this report because they provide most of the financing and drive most of the increase, as seen below. That said, we
+have chosen for this year’s report to layer in trends from the full BOCC+ dataset when appropriate, especially when exploring the
+concentration of fossil fuel financing amongst banks and borrowers of different sizes or in different jurisdictions.
+Top 65 Banks Drive Most of the Financing and its 2025 Growth
+Across Roughly 2,000 Banks in BOCC+
+$1000 B
+$750 B
+$500 B
+$250 B
+$0 B
+2021 2022 2023 2024 2025
+Top 65 Banks Other Banks
+Date range analyzed: The bulk of our analysis includes the five years since the IEA issued its NZE by 2050 roadmap: 2021 through
+the end of 2025. In some areas, we do provide trend analysis on overall fossil fuel finance numbers since the Paris Agreement went
+into effect ten years ago.
+60 BANKING ON CLIMATE CHAOS 2026
+===== page 61 =====
+Fossil Fuel Company Scope
+Banking on Climate Chaos 2026 estimates the financing commitments from financial institutions to companies active across the
+fossil fuel industry.
+The all-fossil fuels league table is based on analysis of bank financing for approximately 2,900 subsidiary-level companies that
+are active across the fossil fuel life cycle. This includes companies and their relevant subsidiaries that are involved in the extraction,
+transportation, transmission (excluding pure transmission of electricity), distribution, combustion, trade, or storage of any fossil fuels
+or fossil-based electricity, globally, according to the Bloomberg Industry Classification Standard, or are on Urgewald’s Global Oil
+and Gas Exit List (GOGEL), Global Coal Exit List (GCEL), and Metallurgical Coal Exit List (MCEL). Additional companies are identified
+using Global Energy Monitor, IJGlobal, Enerdata, and our own research. Both pure play and diversified fossil fuel companies are
+included in the report scope, with the latter adjusted to account for non-fossil fuel business.
+The fossil fuel expansion league table reports financing for any company that the GOGEL, GCEL, or MCEL indicates has expansion
+plans. This year’s expansion league table covers approximately 860 subsidiary-level companies that have expansion plans and
+includes upstream oil and gas companies with expansion plans as listed on the GOGEL, midstream pipeline and liquefied methane
+gas (LNG) companies listed on the GOGEL, downstream gas-fired power expansion companies listed on the GOGEL, and coal
+expansion companies listed on the GCEL and MCEL. A downloadable list of these companies is available on our website.
+Sectors analyzed: This report focuses on overall fossil fuel finance and fossil fuel expansion. Unlike in previous years, this report
+does not include league tables for sub sectors like LNG, tar sands, Amazon oil, etc. We have, however, provided disaggregated
+analysis across upstream, midstream and downstream sectors, as well as by fuel source (oil/gas and coal).
+Fossil Fuel Adjusters
+As in previous years, to address the fact that some companies have comparatively small fossil business lines, we apply adjusters
+to reduce the fossil fuel deal value for diversified companies. Adjusters reflect the estimated proportion of the company’s business
+devoted to fossil fuels. To determine the proper adjuster, the BOCC Coalition draws on Urgewald’s research for the GOGEL, MCEL,
+and GCEL, as well as revenue, assets, and income data derived either from our data provider(s) or directly from company reports,
+websites, and other appropriate third-party sources. When data on a company is not readily available, parent company data is
+used to adjust and, in select cases where even that data is unavailable, averages are derived from Bloomberg data and industry
+classifications.
+BANKING ON CLIMATE CHAOS 2026 61
+===== page 62 =====
+Finance Data
+This report assesses each bank’s financial involvement in corporate lending and underwriting transactions on public and syndicated
+lending and capital markets. That includes corporate and project finance where data is available for companies (and subsidiaries)
+that are involved globally in the extraction, transportation, transmission, distribution, combustion, trade, or storage of any fossil fuels
+or fossil-based electricity. The BOCC data also includes syndicated finance, e.g. finance that banks provide in groups, or syndicates,
+and also encompasses bond and share issuances, project and corporate loans, and revolving credit facilities.
+BOCC does not aim to report on private equity or private credit, both of which are important sources of fossil fuel funding. If
+financing on public syndicated lending and capital markets is raised to support private equity fossil fuel deals, that financing may
+show up in BOCC. For further research on the role of private equity in the climate crisis, see Private Equity Climate Risks, which is
+created by The Private Equity Stakeholder Project, Global Energy Monitor, and Americans for Financial Reform Education Fund.
+Banks are credited in BOCC with each new financing and refinancing commitment, similar to industry-standard league table
+approaches. This means that BOCC tracks the flow of bank financing. These league tables, therefore, reflect the volume of deals
+banks participate in, regardless of whether those deals are drawn, matured, or repaid. Finance flow data is not the same as
+investment data. See Investing on Climate Chaos for further data on fossil fuel investments.
+The bank financing covered in this report includes:
+Lending. Banks provide a set amount of money, or a loan, to be paid back by a specific date along with interest. These
+loans can be structured in multiple ways: Term loans are when the borrower gets a lump sum of money and agrees to pay
+back the loan by a certain date. Revolving credit facilities are financing instruments that allow companies to borrow money,
+repay it, and borrow again, repeatedly, up to a certain limit.
+Bond issuances. Bonds are debt issued by corporations or governments to finance their activities, in which the issuer
+promises to pay back the debt at a specific date along with periodic interest payments. Bond issuances wouldn’t be
+possible without banks facilitating them — they are critical intermediaries that advise, underwrite risk, and market the
+issuances and earn significant profits and fees from these transactions. Typically, bonds are sold to investors, who trade
+them.
+Share issuances. Shares allow companies to raise capital by selling equity i.e., an ownership stake in the company, to
+investors via the stock markets. Like with bond issuances, banks play key facilitation roles in this process.
+The above types of financing may be categorized in several ways, including:
+Corporate financing, which involves financing that can be used for a variety of purposes across a company.
+Project financing, which encompasses financing earmarked for use on a specific project.
+Merger and acquisition financing, which is used to fund a company merging with or acquiring another company.
+Because an acquisition usually requires equity or asset purchases, financing is often required for the acquiring company to
+have enough cash on hand for the purchase.
+62 BANKING ON CLIMATE CHAOS 2026
+===== page 63 =====
+BOCC strives to capture as much bank financing within scope as possible in order to provide transparency into otherwise opaque
+markets. However, certain limits to the visibility of certain deals prevent the authors from capturing all financing information. In many
+ways, this makes the BOCC report an undercount of true fossil fuel financing commitments. As a result of these limits, the BOCC
+report does not systematically include:
+» Most bilateral lending, since it is not typically reported in syndicated finance databases
+» Deals for which parties do not disclose bookrunner and participant information, or only partially disclose it
+» Deals for which there are market sanctions that prevent them from showing up in our data providers
+» Financing from sovereign wealth funds, or public finance institutions
+» Deals on which our data providers have not reported, for whatever reason
+» Deals by holding companies, SPVs, highly diversified companies, and other financial vehicles that are not clearly
+identifiable as fossil fuel-related based on our research
+The amount of credit that each bank is allocated for each deal is determined in three possible ways. In cases where the actual bank
+contribution is known, that value is used. If the percentage of fees earned by each bank is reported, that percentage is imputed
+to represent the percentage of their participation. Otherwise, the value of the deal is divided among all known participants, with a
+greater share allocated to the banks in leading roles (bookrunners), using the book ratio methodology, an approach developed by
+the research consultancy Profundo.
+Note
+Report authors strive to ensure that the information presented in the report is accurate to the extent feasible. The
+data used in the research is researched carefully and all banks are given an opportunity to review the financing
+that is attributed to their bank prior to the publication of the report. If you believe that the information presented
+may contain some inaccuracies, please reach out to the BOCC team so that they can investigate it and make
+any necessary corrections.
+Note: Unless otherwise noted, all bank financing information in this report comes from data that has been
+derived from BOCC Coalition research. All financing values are in nominal USD, unless otherwise noted.
+Additional details on the methodology are provided in the separate Methodology FAQ document at:
+BankingonClimateChaos.org/methodology-2026.
+BANKING ON CLIMATE CHAOS 2026 63
+===== page 64 =====
+ENDNOTES
+1 International Energy Agency. “Oil Market Report – March 2026.” 25 See policy section p. XX
+March 2026
+26 Sierra Club. “Capital Markets: The Hidden Pipeline for Fossil Fuel
+2 International Energy Agency. “The Middle East and Global Energy Financing.” July 2023.
+Markets.” Accessed May 14, 2026.
+27 Legal Information Institute. “Revolving credit facility.” Cornell Law
+3 Bloomberg TTF Price Data. Accessed April 6, 2026. School, Wex Legal Encyclopedia.
+4 Bloomberg JKM Price Data. Accessed April 6, 2026. 28 Financing a Fossil Free Future: A roadmap for realigning public and
+private finance with a just and managed fossil fuel phase out.
+5 See section entitled, “Fossil Fuel Financing Drives Dependency and
+Deepens the Cost of Living Crisis” below. 29 Acharya, Viral V., Heitor Almeida, Filippo Ippolito, and Ander Perez-
+Orive. “Credit Lines as Monitored Liquidity Insurance: Theory and
+6 See section entitled, “Fossil Fuel Financing Drives Dependency and
+Evidence.” National Bureau of Economic Research, Working Paper No.
+Deepens the Cost of Living Crisis” below.
+18892, March 2013. Published in Journal of Financial Economics 112,
+7 World Meteorological Organization. “State of the Global Climate no. 3 (June 2014): 287–319
+2025.” March 23, 2026.
+30 Basel Committee on Banking Supervision. “CRE20 – Standardised
+8 IPCC Working Group I. “Climate Change 2021: The Physical Science Approach: Individual Exposures.” Bank for International Settlements,
+Basis.” Intergovernmental Panel on Climate Change, August 9, 2021. Basel Framework.
+9 Lenton, Timothy M., et al., eds. “Global Tipping Points Report 2025.” 31 EY Americas. “Consolidation Reshapes the U.S. Oil and Gas Industry:
+Global Tipping Points, University of Exeter. EY Study Finds the Sector Shrinking from Top 50 to Top 40 Players.”
+Ernst & Young LLP. August 19, 2025.
+10 Lenton, Timothy M., et al., eds. “Global Tipping Points Report 2025.”
+Global Tipping Points, University of Exeter. 32 Deals flagged as acquisition financing include deals with diversified
+use of proceeds.
+11 Hamilton, James D. “Historical Oil Shocks.” National Bureau of
+Economic Research, Working Paper No. 16790, February 2011. 33 Blackstone. “Blackstone Announces Agreement to Acquire Hill
+Top Energy Center in Western Pennsylvania for Nearly $1 Billion.”
+12 Butler-Sloss, Sam, Kingsmill Bond, Daan Walter, and Antoine Issac.
+September 15, 2025.
+“The New Twin Fossil Shock.” Ember, April 14, 2026.
+34 Blackstone. “Blackstone Announces Agreement to Acquire Hill
+13 Butler-Sloss, Sam, Kingsmill Bond, Daan Walter, and Antoine Issac.
+Top Energy Center in Western Pennsylvania for Nearly $1 Billion.”
+“The New Twin Fossil Shock.” Ember, April 14, 2026.
+September 15, 2025.
+14 Fulghum, Nicolas, Daan Walter, and Kostantsa Rangelova. “Global
+35 Reuters. “NRG Energy Bets on Growing Power Demand with $12 Billion
+Electricity Review 2026.” Ember, April 2026.
+Assets Deal.” EnergyNow, May 12, 2025.
+15 See Methodlogy FAQ below for more details on the scope of
+36 EnergyConnects. “ACWA Power Secures $3.4bn Financing for Two
+financing included.
+Major Power Projects in Saudi Arabia.” EnergyConnects, August 1,
+16 Walter, Daan, Sam Butler-Sloss, and Dave Jones. “The Energy Security 2025.
+Fallout: From Fossil Fuel Fragility to Electric Independence.” Ember
+37 Quesada, Kenneth Daniel, and Jethro El Camara. “Southeast Asia at
+Energy, March 18, 2026.
+a Crossroads: Deterring SEA’s Fossil Future with Renewables.” Center
+17 International Court of Justice, Advisory Opinion on Climate Change for Energy, Ecology, and Development (CEED), November 2024.
+and International Law July 23, 2025; On bank litigation specifically,
+38 For a disaggregated look at expansion financing by bank across
+see, for example, Milieudefensie v. Royal Dutch Shell plc, District
+the oil & gas value chain, see the appendix to this report, “Oil &
+Court of The Hague (Netherlands).
+Gas Expansion - Expansion Sector League Tables,” available here:
+18 Dunne, Daisy. “Santa Marta: Key Outcomes from First Summit on bankingonclimatechaos.org/sector-tables-2026
+‘Transitioning Away’ from Fossil Fuels.” Carbon Brief, April 30, 2026.
+39 Note: Some companies have expansion activity in more than one
+19 European Central Bank. “Risks from misalignment of banks’ financing sector among upstream, midstream and power sectors. Thus, the sum
+with the EU climate objectives – Assessment of the alignment of of sectors will be larger than the total yearly expansion financing.
+the European banking sector.” European Central Bank Banking
+40 Howarth, Robert W. “The Greenhouse Gas Footprint of Liquefied
+Supervision, January 2024;
+Natural Gas (LNG) Exported from the United States.” Energy Science
+20 Morgera, Elisa. “The imperative of defossilizing our economies.” UN & Engineering 12, no. 11 (October 2024): 4843–4859; Exit LNG. “The
+Special Rapporteur on the promotion and protection of human Impacts of LNG.” Accessed May 14, 2026.
+rights in the context of climate change, Human Rights Council, A/
+41 See Bank Policy section below.
+HRC/59/42, May 2025.
+42 Schwartz, Caleb and Niko Lusiani. “Doubling Down on Sinking
+21 Intergovernmental Panel on Climate Change. “Climate Change
+Ground: The Financial Risks of US Gulf Coast LNG Export.” Rainforest
+2023: Synthesis Report. Summary for Policymakers.” IPCC, March
+Action Network, March 2026; U.S. Energy Information Administration.
+2023.
+“LNG Sale and Purchase Agreements Signed in 2023 Support U.S.
+22 Cavcic, Melisa. “$11 billion financing in place for giant offshore gas LNG Projects.” February 7, 2024.
+project.” Offshore Energy, January 6, 2026.
+43 Benham, Harry, and Guy Prince. “The Quiet Retreat: Why the Oil
+23 BankTrack et al. “TotalEnergies Financiers Beware: EACOP Is Eating and Gas Industry Is Implementing Its Own Decline, Even as the
+Up Money, Nature and Livelihoods.” BankTrack, October 23, 2025. IEA Resurrects an Old Growth Scenario.” Carbon Tracker Initiative,
+November 12, 2025.
+24 Worldometer. “Population by Country.” Worldometer, accessed May
+14, 2026. 44 Patel, Anika. “Q&A: China’s Leadership Calls for ‘Strict Control’ of
+Fossil Fuels.” Carbon Brief, April 24, 2026.
+64 BANKING ON CLIMATE CHAOS 2026
+===== page 65 =====
+45 See, for example, Dimon, Jamie. “Annual Report 2021: Chairman & 67 International Energy Agency (IEA). “2026 Energy Crisis Policy
+CEO Letter to Shareholders.” JPMorgan Chase & Co., April 2022; U.S. Response Tracker.” IEA Data Tools, May 6, 2026.
+House of Representatives, Committee on Financial Services. “Holding
+68 Anadolu and Reuters. “Bangladesh Shuts Universities, Limits Fuel Sale
+Megabanks Accountable: Oversight of America’s Largest Consumer
+as Iran War Causes Shortage.” Al Jazeera, March 9, 2026.
+Facing Banks.” Hearing, 117th Congress, September 21, 2022.
+69 Wong, Susanne. “The Iran Crisis Is Exposing Japan’s Flawed
+46 See, for example, Euronews. “EU Considering Excessive Profit Taxes on
+Energy Strategy. Southeast Asia is Paying the Price.” Oil Change
+Oil and Gas Companies, Foreign Profits Remain Unclear.” Euronews,
+International, April 1, 2026.
+April 10, 2026; McCormick, Miles. “Oil executives talk down rapid shift
+to green energy as profits boom.” Financial Times. March 23, 2024. 70 K.B., Pragati, and Alex Travelli. “War in Iran Has India Wondering How
+to Keep Its Stovetops Lit.” The New York Times, March 12, 2026.
+47 The White House. “Declaring a National Energy Emergency (Executive
+Order 14156).” The White House, January 20, 2025; Ministry of 71 Wee, Sui-Lee, Aaron Krolik, Tung Ngo, and Victoria Kim. “If You Want
+Economy, Trade and Industry. “The 7th Strategic Energy Plan to Know What Happens in an Oil Crisis, Look at Asia.” The New York
+(Outline).” Government of Japan, February 18, 2025. Times, March 20, 2026.
+48 International Energy Agency. “Energy Security.” Accessed May 14, 72 Choy, Rose. “Pricing Oil Risk: Southeast Asia’s Sovereign Markets.”
+2026. Anthropocene Fixed Income Institute (AFII), April 14, 2026.
+49 International Renewable Energy Agency. “Moving from Energy Crisis 73 Walter, Daan, Sam Butler-Sloss, and Dave Jones. “The Energy Security
+to Energy Security with Renewables.” IRENA, April 2026. Fallout: From Fossil Fuel Fragility to Electric Independence.” Ember,
+March 18, 2026.
+50 Baunsgaard, Thomas, and Nate Vernon. “Taxing Windfall Profits in
+the Energy Sector.” International Monetary Fund, IMF Note 2022/002, 74 Choy, Rose. “Pricing Oil Risk: Southeast Asia’s Sovereign Markets.”
+August 30, 2022. Anthropocene Fixed Income Institute (AFII), April 14, 2026.
+51 See, for example, Euronews. “EU Considering Excessive Profit Taxes on 75 Choy, Rose. “Pricing Oil Risk: Southeast Asia’s Sovereign Markets.”
+Oil and Gas Companies, Foreign Profits Remain Unclear.” Euronews, Anthropocene Fixed Income Institute (AFII), April 14, 2026.
+April 10, 2026.
+76 Walter, Daan, Sam Butler-Sloss, Antoine Issac, and Kingsmill Bond.
+52 Carrington, Damian. “Revealed: Oil Sector’s ‘Staggering’ $3bn-a-day “The Electric Fast-Track for Emerging Markets.” Ember, April 2, 2026.
+Profits for Last 50 Years.” The Guardian, July 21, 2022.
+77 International Monetary Fund (IMF). “World Economic Outlook, April
+53 Semieniuk, Gregor, Isabella M. Weber, Iain S. Weaver, Evan Wasner, 2026: Global Economy in the Shadow of War.” IMF, April 14, 2026.
+Benjamin Braun, Philip B. Holden, Pablo Salas, Jean-Francois Mercure,
+78 Elderson, Frank. “Europe’s Fossil Fuel Dependence Poses Risks to Price
+Neil R. Edwards. “Best of times, worst of times: record fossil-fuel
+Stability.” The European Central Bank Blog, April 7, 2026.
+profits, inflation and inequality.” Energy Research & Social Science,
+Vol. 127, September, 2025. 79 Degryse, H., Roukny, T., & Tielens, J. “Banking barriers to the green
+economy” (Working Paper Research 391). National Bank of Belgium.
+54 Ibid.
+October 26, 2020; Aguila, Nicolás, Paula Haufe, Riccardo Baioni,
+55 Ibid. Jan Fichtner, Janina Urban, Simon Schairer, and Joscha Wullweber.
+“The Green Banking Gap: How Bankability, Business Models, and
+56 Ibid.
+Regulations Challenge Banks’ Decarbonisation.” Competition
+57 Jáuregui, Jesús Lara, Isabella M. Weber, Luiza Nassif Pires, and and Change. March 10, 2026; Esty, Benjamin C. “Why Study Large
+Lucas Teixeira. “Price Shocks are Redistribution Shocks: Systemically Projects? An Introduction to Research on Project Finance” European
+Significant Prices for Inequality in the United States.” UMass Financial Management 10, no. 2. June 2004.
+ScholarWorks, November 3, 2025
+80 Reclaim Finance et al. “Banking on Business as Usual: The Energy
+58 Walter, Daan, Sam Butler-Sloss, and Dave Jones. “The Energy Security Finance Imbalance.” September 23, 2025.
+Fallout: From Fossil Fuel Fragility to Electric Independence.” Ember,
+81 International Energy Agency. “The Middle East and Global Energy
+March 18, 2026.
+Markets.” Accessed May 14, 2026.
+59 Bloomberg TTF Price Data. Accessed April 6, 2026
+82 Morenne, Benoît. “The American Gas Exporter That Pulls In Billions
+60 Bloomberg JKM Price Data. Accessed April 6, 2026 During the Iran Energy Shock.” The Wall Street Journal, April 7, 2026.
+61 Gross, Samantha. “The Iran Conflict’s Energy Shocks are Not Yet Fully 83 Bloomberg, “Venture Global Net Income (GAAP), Actual through Q1
+Realized.” Brookings, April 1, 2026. 2026, and Q2-4 2026 Consensus Estimates.” Accessed May 12, 2026.
+62 Bruegel, Jonathan. “Europe’s Electricity Prices Are Still Tied to Gas, 84 Kennedy, Seb. “War Profits, Quantified.” Energy Flux, March 4, 2026.
+Making Geopolitics a Structural Vulnerability.” Institute for Energy
+85 Morenne, Benoît. “The American Gas Exporter That Pulls In Billions
+Economics and Financial Analysis (IEEFA), April 20, 2026.
+During the Iran Energy Shock.” The Wall Street Journal, April 7, 2026.
+63 Ezz, Mohamed. “Egypt’s Energy Import Bill More Than Doubles as
+86 Morenne, Benoît. “The American Gas Exporter That Pulls In Billions
+Global Prices Surge.” Reuters, March 18, 2026.
+During the Iran Energy Shock.” The Wall Street Journal, April 7, 2026.
+64 Atallah, Momen Saeed. “Egypt Raises Electricity Prices for Higher-Use
+87 Forbes. “Robert Pender.” Forbes Profile, May 15, 2026.
+Households, Businesses from April.” Reuters, April 4, 2026.
+88 Bloomberg. “Mike Sabel.” Bloomberg Billionaires Index, May 14, 2026.
+65 Walter, Daan, Sam Butler-Sloss, and Dave Jones. “The Energy Security
+Fallout: From Fossil Fuel Fragility to Electric Independence.” Ember, 89 Bloomberg. “Bob Pender.” Bloomberg Billionaires Index, May 15, 2026.
+March 18, 2026.
+90 According to Bloomberg Billionaires Index, the wealth of both VG
+66 Wee, Sui-Lee, Aaron Krolik, Tung Ngo, and Victoria Kim. “If You Want founders is almost entirely dependent on VG stock. VG stock price
+to Know What Happens in an Oil Crisis, Look at Asia.” The New York
+Times, March 20, 2026.
+BANKING ON CLIMATE CHAOS 2026 65
+===== page 66 =====
+on Feb 27: $9.69, March 27 (2026 peak): $17.53, May 15: $14.06. March 2, 2026; ShareAction. “Director Voting Research Note: Banco
+Accessed May 15, 2026. Santander, S.A.” ShareAction, March 27, 2026.
+91 Thayer Jonathan W. “SEC Form 4: Statement of Changes in Beneficial 111 Clancy, Heather. “Why JPMorgan Dropped Its ‘Time-Bound’ 2030
+Ownership.”. “” US Securities and Exchange Commission (SEC). March Emissions Reduction Goal.” Trellis, October 17, 2025.
+19, 2026; April 21, 2026. Accessed May 15, 2026. See also, Investing.
+112 See for example Nordea or CaixaBank in Reclaim Finance. “Oil and
+com. “Venture global CFO Jonathan W Thayer sells $2.6 million in
+Gas Policy Tracker.” Accessed on May 18, 2026.
+stock.” April 21, 2026.
+113 Reclaim Finance. “Assessment of Oil and Gas Companies’ Climate
+92 Blake, Sarah. SEC Form 4: Statement of Changes in Beneficial
+Strategy.” Reclaim Finance. Accessed May 2026.
+Ownership. US Securities and Exchange Commission (SEC). March 9,
+2026; March 12, 2026; March 19, 2026. Accessed May 15, 2026. 114 Ferris, Nick. “NatWest Changes Its Policy Over Investing in Oil and Gas
+Companies.” The Independent, April 22, 2025.
+93 Larson, Keith D. “SEC Form 4: Statement of Changes in Beneficial
+Ownership.” US Securities and Exchange Commission (SEC). March 115 BankTrack. “Bank Policy Scan: HSBC Accelerates Backsliding on Fossil
+19, 2026; April 16, 2026. Accessed May 15, 2026. Fuel Commitments.” December 1, 2025.
+94 VG stock price on Feb 27: $9.69, March 27 (2026 peak): $17.53, May 116 Carbon Measures official site. Accessed May 15, 2026.
+15: $14.06. Accessed May 15, 2026.
+117 Marsh, Alistair. “BlackRock’s GIP Joins Exxon in Backing New CO2
+95 SELC Staff. “Fisherfolk are on the frontlines of the gas export boom.” Accounting Model.” Bloomberg, October 20, 2025.
+Southern Environmental Law Center. January 25, 2025. McKenna, P.
+118 Kelly, Sharon. “After Decades of Deflection, ExxonMobil Moves to
+“Fishermen in southwest Louisiana say LNG terminals are to blame for
+Reshape Global Climate Accounting.” DeSmog, January 23, 2026.
+shrimp harvest decline.” Inside Climate News. September 7, 2025.
+119 BankTrack. “Santander’s Support for Carbon Measures Risks Enabling
+96 Dorner, Claire, Roddy Hughes, and Alison Kirsch. “The People Always
+a Major Setback for Climate Accountability.” January 6, 2026.
+Pay: Tax Breaks Force Gulf Communities to Subsidize the LNG
+Industry.” Sierra Club, December 2024. 120 Green D. and Boris Vallée, “Can Finance Save the World?
+Measurement and Effects of Coal Divestment Policies by Banks”,
+97 Gardner, Matthew and Spandan Marasini. “At Least 88 Profitable
+Harvard Business School, 2022.
+U.S. Corporations Paid Zero Federal Income Tax in 2025.” Institute on
+Taxation and Economic Policy, April 2026. 121 Reclaim Finance. “Oil and Gas Policy Tracker.” Accessed on May 18,
+2026.
+98 Schwartz, Caleb and Niko Lusiani. “Doubling Down on Sinking
+Ground: The Financial Risks of US Gulf Coast LNG Export.” Rainforest 122 Reclaim Finance. “Coal Policy Tracker.” Accessed on May 18, 2026.
+Action Network, March 2026.
+123 Reclaim Finance. “Oil and Gas Policy Tracker.” Accessed on May 18,
+99 Gatti, Stefano. Project Finance in Theory and Practice: Designing, 2026.
+Structuring, and Financing Private and Public Projects. 3rd ed.
+124 Nordea is an interesting case as the bank actually weakened and
+London: Academic Press, 2018.
+strengthened different areas of its oil and gas policies between
+100 For example, Venture Global, Inc. “Definitive Proxy Statement (Form 2025 and mid-2026. The bank weakened its policy by removing
+DEF 14A).” US Securities and Exchange Commission, April 7, 2026. p. previously stated corporate financing restrictions for companies
+20. “Project Milestone Bonuses” are tied to three triggers — FID, LPS deriving more than 5% of their revenue from Arctic oil and gas and
+(Liquefaction Production Start), and COD (Commercial Operations shale oil and gas activities, leaving only project financing restrictions
+Date). intact. (For previous language on corporate finance restrictions see
+Nordea Bank. “Sector Guidelines for Fossil Fuel Industries.” June 2022.
+101 Rainforest Action Network et al. “Banking on Climate Chaos: Fossil
+p.7). However, the bank tweaked its policy in May 2026 making no
+Fuel Finance Report 2024.” Banking on Climate Chaos Coalition;
+further changes on Arctic or shale drilling but instead extending
+Rainforest Action Network et al. “Banking on Climate Chaos: Fossil
+its financing and facilitation restrictions for oil and gas exploration
+Fuel Finance Report 2025.” Banking on Climate Chaos Coalition. See
+and production and related infrastructure to cover “new Liquified
+also Brochard A, Diaz Puerto N, Hajagos-Tóth Á, Jahn V and Dietz S.
+Natural Gas (LNG) import (regasification) and export (liquefication)
+“State of the Banking Transition 2025.” TPI Global Climate Transition
+terminals.” (p.7) This change strengthened the policy (See Nordea
+Centre, London School of Economics and Political Science. 2025.
+Bank, “Sector Guidelines for Fossil Fuel Industries.” March 2026).
+102 Jessop, Simon, and Virginia Furness. “Net-Zero Banking Alliance Folds
+125 Reclaim Finance. “Oil and Gas Policy Tracker.” Accessed on May 18,
+After Mass Exodus by Members.” Reuters, October 3, 2025.
+2026.
+103 See for example: The White House. “Unleashing American Energy.”
+126 Most often defined as the Arctic National Wildlife Refuge only.
+The White House, January 20, 2025; The White House. “Guaranteeing
+Fair Banking for All Americans.” The White House, August 7, 2025. 127 JPMorgan Chase and Goldman Sachs downgraded their exclusions,
+turning them into due diligence, while RBC’s policy document is no
+104 Morrow, Allison. “What Trump’s Public Scolding of Bank of America’s
+longer available on their website, and BMO added a footnote to its
+CEO Was Really About.” CNN, January 25, 2025; Jessop, Simon, and
+commitments, introducing major exceptions to them.
+Ross Kerber. “US Fund Firms Face Fresh Probe by Lawmakers Over
+Climate Group Roles.” Reuters, February 26, 2025. 128 Reclaim Finance. “Oil and Gas Policy Tracker.” Accessed on May 18,
+2026.
+105 Hawser, Anita. “Trump’s Climate Rollback: Will US Banks Hold Their
+Ground?” The Banker, February 17, 2025. 129 Groom, Nichola. “US Reopens Alaska Wildlife Refuge to Oil and Gas
+Development.” Reuters, October 23, 2025.
+106 Reclaim Finance. “The need to redesign bank decarbonization
+targets.” Accessed May 29, 2026. 130 Specifically, La Banque Postale, Crédit Mutuel, Rabobank, Nordea
+and ING.
+107 See for example: Sastry, Parinitha, Emil Verner, and David Marqués-
+Ibáñez. “Business as Usual: Bank Climate Commitments, Lending, 131 Specifically, Crédit Agricole, HSBC, BNP Paribas, Westpac, National
+and Engagement.” Working Paper Series 2921. European Central Australia Bank, BPCE-Natixis, ANZ, Société Générale. These “partial”
+Bank, 2024. restrictions include for example the exclusion of new LNG terminals
+linked to new gas fields only.
+108 Wells Fargo. “Statement on Wells Fargo’s Climate Goals and Targets.”
+Wells Fargo, February 28, 2025. 132 Exit LNG. “The Impacts of LNG.” Accessed May 14, 2026.
+109 Deshmukh, Atharva. “Scotiabank, RBC Retire 2030 Emissions Targets 133 Notably, La Banque Postale, BNP Paribas.
+in Climate Strategy Overhaul.” Net Zero Investor, April 20, 2026.
+134 Only La Banque Postale, Nordea (complete exclusions) and
+110 Wise, Anna, and Rebecca Speare-Cole. “Santander ‘Quietly Dilutes’
+Targets to Cut Emissions in Oil and Gas Financing.” Yahoo Finance,
+66 BANKING ON CLIMATE CHAOS 2026
+===== page 67 =====
+Rabobank (partial exclusion), address LNG import terminals in their Financials (PCAF) for calculating financed and facilitated emissions.
+oil and gas policies. As stated in the footnote above, Nordea tweaked These are deeply problematic, especially because they attribute
+its policy in May 2026 to include LNG export and import terminals. corporate emissions to financial institutions using a formula which
+(see Sector Guidelines for Fossil Fuel Industries, Nordea Bank, March means that as corporate values rise, financed and facilitated
+2026 (p.7)). emissions will fall even if actual corporate emissions and bank
+financing portfolios remain the same. One result of the use of PCAF
+135 Green D. and Boris Vallée, “Measurement and effects of bank exit
+methodologies is that many banks were able to meet or exceed their
+policies.” Journal of Financial Economics, Volume 172. October 2025.
+2030 oil and gas targets by 2022/2023 due solely to the rise in oil and
+136 BankTrack. “Bank Policy Scan: Banco Santander Is Backtracking on Its gas company values after Russia’s full-scale invasion of Ukraine (See
+Fossil Fuel Commitments.” BankTrack, July 30, 2025. e.g. Reclaim Finance. “The need to redesign bank decarbonization
+targets.” Accessed May 29, 2026.). The recent spike in oil and gas
+137 CaixaBank. “Principles of Action in Corporate Policy on Sustainability/
+company shares after the US-Israel attack on Iran can also be
+ESG Risk Management.” CaixaBank, March 2025. (p. 28)
+presumed to have caused bank oil and gas financed and facilitated
+138 BankTrack. “Bank Policy Scan: Banco Santander Is Backtracking on Its emission levels to drop sharply.
+Fossil Fuel Commitments.” BankTrack, July 30, 2025.
+150 International Energy Agency. “Renewables 2023.” January 2024.
+139 See Goldman Sachs Group, Inc. “Sustainability Report.” Goldman
+151 Reclaim Finance et al. “Banking on Business as Usual: The Energy
+Sachs Group, Inc., December 2025.(p. 53). For JPMorgan Chase,
+Finance Imbalance.” September 23, 2025.
+see JPMorgan Chase & Co. “2024 Sustainability Report Highlights.”
+October, 2025.(p. 2) 152 International Court of Justice, Advisory Opinion on Climate Change
+and International Law July 23, 2025
+140 Green D. and Boris Vallée, “Measurement and effects of bank exit
+policies.” Journal of Financial Economics, Volume 172. October 2025. 153 International Court of Justice, Advisory Opinion on Climate Change
+and International Law July 23, 2025. See para. 428: “A State may be
+141 Crédit Mutuel Alliance Fédérale. “Politique Sectorielle — Secteur
+responsible where, for example, it has failed to exercise due diligence
+Hydrocarbures (Pétrole & Gaz).” October, 2023. Accessed May 2026.
+by not taking the necessary regulatory and legislative measures to
+142 International Energy Agency. “World Energy Outlook 2021.” IEA, limit the quantity of emissions caused by private actors under its
+October 2021. jurisdiction.”
+143 La Banque Postale. “Risk Management Policy: Oil and Gas Sector.” 154 For more details, see Amazon Watch, Banktrack, Friends of the
+March 2023. Accessed May 2026. Earth US, Rainforest Action Network, ReCommon, Stand.Earth and
+Urgewald, Financing a Fossil Free Future: A roadmap for realigning
+144 Butler-Sloss, Sam, Kingsmill Bond, Daan Walter, and Antoine Issac.
+public and private finance with a just and managed fossil fuel phase
+“The New Twin Fossil Shock.” Ember, April 14, 2026.
+out.” April 2026.
+145 Fulghum, Nicolas, Daan Walter, and Kostantsa Rangelova. “Global
+Electricity Review 2026.” Ember, April 2026.
+146 Ibid.
+147 Ibid.
+148 These companies expanding fossil fuels are tracked on Urgewald’s
+Global Oil and Gas Exit List, Global Coal Exit List, and Metallurgical
+Coal Exit List.
+149 Almost all bank absolute oil and gas emissions targets use the
+methodologies proposed by the Partnership for Carbon Accounting
+Climate crisis will increase frequency of
+lightning-sparked wildfires, study finds
+These wildfires tend to burn in more remote areas and grow
+larger faster, posing a higher risk to public safety and health
+PHOTO: Brasil2 / iStock
+BANKING ON CLIMATE CHAOS 2026 67
+===== page 68 =====
+WIDESPREAD SUPPORT FOR THIS RESEARCH
+The BOCC Coalition is proud that hundreds of organizations from 55 countries have endorsed this year’s report, demonstrating the
+widespread civil society attention to banks’ climate chaos financing.
+For the full list of endorsing organizations, visit: www.bankingonclimatechaos.org.
+@SriEvent Development (APMDD) Citizens’ Climate Lobby
+11.11.11 Association for Farmers Rights Defense, AFRD Cittadini Sostenibili - APS
+198 methods Association of Ethical Shareholders Germany Clean Air Action Group
+350 Aotearoa Association pour la Défense des Droits à l’Eau CleanEarth4Kids.org
+350 Chicago et à l’Assainissement ClimaFinLex
+350 Colorado Attac Austria Climate Acceptance Studios
+350 Conejo / San Fernando Valley Australian Youth Climate Coalition Climate Action Campaign at Humboldt UU
+350 Corvallis Austrian Alliance for Climate Justice Fellowship
+350 Eugene Bank Better Climate Action Network Southeast Asia
+350 New Hampshire Bank Climate Advocates (CANSEA)
+350 Silicon Valley Bank.Green Climate and Community Institute
+350 Triangle BankTrack Climate Clock DRC
+350 Wenatchee Bargny Coast Zaterkeeper Climate Conversation Brazoria County
+350 Wisconsin Better Brazoria: Clean Air & Water Climate Families NYC
+350 Yakima Climate Action Beyond Fossil Fuels Climate First!, Inc.
+350.org Biodiversity Conservation Center Climate Hawks Vote
+350NYC Bold Alliance Climate Organizing Hub
+7 Directions of Service Boycott Bloody Insurance Climáximo
+AA+ green forum BreakFree Suisse Co-ordination Office of the Austrian Bishops’
+Accountability Counsel CADTM Conference for International Cooperation
+Action for Ecology and People Emancipation Campax and Global Church (KOO)
+(AEER) Campus Climate Network Coal Action Network Aotearoa
+Action for Research and Support for Local Canadian Association of Physicians for the Colectivo comunicacional PA’ Contarte
+Development Initiatives (ARAILD) Environment Community Action Against Plastic Waste
+Action non-violente COP21 (ANV-COP21) Canadian Association of the Club of Rome (CAPws)
+ActionAid International (CACOR) Community Action for Health and
+African Law Foundation (AFRILAW) Canadian Unitarians for Social Justice Development
+Afro - Asian Green Forum Carbon Market Watch Concerned Health Professionals of
+Aid Life Learn Environment CEE Bankwatch Network Pennsylvania
+Aid Organization CELIOS Conexiones Climáticas
+AJVDC Brigade Verte Center for Energy, Ecology & Development Connecticut Citizen Action Group
+Alliance for Empowering Rural Communities Center for International Environmental Law Conservation Action Trust
+Alliance For Just Money, Inc. (CIEL) Contra Costa MoveOn
+Amazon Watch Center for International Humanitarian Law Corporate Europe Observatory
+Americans for Financial Reform Education and Human Rights Corvallis Interfaith Climate Justice Committee
+Fund Center for Oil & Gas Organizing Cowichan Climate Hub
+Andy Gheorghiu Consulting Centre for Citizens Conserving Environment & Culture Unstained
+Animals Are Sentient Beings, Inc. Management (CECIC) Deforestation Treaty initiative (DTi)
+AnsvarligFremtid Centre for Environmental Law & Community Disability Peoples Forum Uganda
+Apel Green Aceh Rights Inc Divest Oregon: Reinvest in a Fossil Free Future
+ARAYARA International Institute CESU-UMSS Dogwood
+ARTivism Virginia Change Course DUKINGIRE ISI YACU (DIY)
+Asian Peoples’ Movement on Debt and Chikulamayembe Women Forum Earth Ethics, Inc.
+68 BANKING ON CLIMATE CHAOS 2026
+===== page 69 =====
+Earth Guardians Green Camel Bell Laudato SI’ Movement
+Earth Neighborhood Productions Green Party of Seattle League of Conservation Voters
+Earthlife Africa Green Party of Washington State Leave it in the Ground Initiative (LINGO)
+EcoEquity Green Step Forward Linha Vermelha
+Ecojustice Ireland GreenFaith LittleSis
+Egyptian Green Party Greenleaf Advocacy and Empowerment Living Rivers Movement, Costa Rica
+Eko Center Long Beach Alliance for Clean Energy
+Eko Kvarner groundWork MARBE SA
+EKOenergy ecolabel Growthwatch Marginalized Birmal Relief And Development
+Emonyo Yefwe International Gulf South Fossil Finance Hub Organization (MBRDO)
+Enternusantara Habitat Recovery Project Market Forces
+Environment Governance Institute Uganda Harrington Investments, Inc. Mazaska Talks
+Environmental Defence Canada Hawai’i Institute for Human Rights Media Alliance
+Ethical Consumer Hawkmoth Mekong Watch
+EXTINCTION RÉBELLION GRABEN-LUBERO Health for XR Milieudefensie - Friend of the Earth
+Extinction Rebellion Tãmaki Makaurau Help Initiative for Social Justice and Netherlands
+Fair Finance Guide - Sweden Humanitarian Development Mímesis Think Tank
+Fair Finance International Hip Hop Caucus Mindful Money
+FairFin Houston Climate Justice Museum Money Justice Collaborative
+Faith for the Climate ICENECDEV-International Centre for Mother Care 4 Hope Outreach (Mocaho)
+Fashion Declares / REAL CIC Environmental Education and Community Mother Earth Project
+FEBEA Development Mothers Rise Up
+FETS - Finançament Ètic i Solidari Indian Social Action Forum Move Past Plastic (MPP)
+Finance Watch Indigenous Climate Action New Energy Economy
+Financité Indigenous Environmental Network New Mexico Climate Justice
+Finanzwende e.V. Inisiasi Masyarakat Adat (IMA) Nigerian Women Agro Allied Farmers
+Fondazione Finanza Etica Innovation pour le Développement et la Association
+For a Better Bayou Protection de l’Environnement Nillumbik Climate Action Team
+For Our Kids International Accountability Project Nordic Center for Sustainable Finance
+Forum Ökologie & Papier International Rivers North American Climate, Conservation and
+Fossil Free California International Work Group for Indigenous Environment (NACCE)
+FracTracker Alliance Affairs - IWGIA NotAid.org
+Framtiden i våre hender Jamaa Resource Initiatives Notre Affaire à Tous
+FreshWater Accountability Project Japan Center for a Sustainable Environment Oasis Earth
+Fridays For Future Bari and Society (JACSES) Oasis India
+Fridays For Future Madrid Just Shift Occupy Bergen County
+Friends of the Earth France / Les Amis de la Just Transition Alliance Ocean. Now!
+Terre France JustMoney Movement Oceania Pride
+Fuerza Mundial Global Juventud por el Clima - Fridays For Future Oil and Gas Action Network
+Fundación Ambiente y Recursos Naturales España Oil Change International
+(FARN) Kanopi HIjau Indonesia Oilfield Witness
+GEE-21 候ネットワーク (Kiko Network) Olympic Climate Action
+Giniw Collective Klimakultur Operation Noah
+Glasgow Actions Team KoalaKollektiv Oregon Physicians for Social Responsibility
+Global Alliance for Banking on Values (GABV) KRuHA Pacific Green Party, Linn-Benton (OR)
+Global Justice Now LacheRBC/QuitRBC Chapter
+Grassroots Global Justice Alliance Landelijk Netwerk Bossen- en Pacific Youth Platform
+Green America Bomenbescherming.nl Parents For Climate
+BANKING ON CLIMATE CHAOS 2026 69
+===== page 70 =====
+ENDORSEMENTS
+(CONT’D)
+Parents for Future UK RootsAction Third Act
+Pelea Movement SAVE THE FROGS! Third Act SoCal
+People of Asia for Climate Solutions Say No to LNG Third Act Texas
+Peoples Climate Assembly SCMAC THIS! Is What We Did
+Physicians For Social Responsibility of ShareAction Tipping Point
+Pennsylvania Shifting Advocacy Tools For Solidarity
+Physicians for Social Responsibility, San Sierra Club Toronto350
+Francisco Bay Society for Women and Youths Affairs (SWAYA) TRAFFED RDC
+Plataforma CIPÓ Society for Women Rights and Development Transformative Wealth Management
+Port Arthur Community Action Network (SWoRD) Turtle Island Restoration Network
+(PACAN) Society of Native Nations Unitarian Universalist Fellowship Corvallis
+Positive Money Solarize Albany Climate Action Team
+Private Equity Stakeholder Project Solidarité ci Sutura Unitarian Universalists for a Just Economic
+Profundo Solutions for Our Climate Community
+Progressives for Climate SOMO - Centre for Research on Multinational United Future - Think Tank
+Projeto Saude e Alegria Corporations University of Padova - Jean Monnet Centre of
+Protect Our Water, Heritage, Rights Sonoma County Climate Activist Network Excellence on Just Fossil Fuel Transition
+Protectors of the Salish Sea (SoCoCAN!) urgewald
+Public Citizen South Durban Community Environmental Valuing Voices at Cekan Consulting LLC
+Quest For Growth and Development Alliance Veblen Institute for Economic Reforms
+Foundation South Texas Environmental Justice Network Vessel Project of Louisiana
+Rainforest Action Network Stand.earth Vote Earth now
+Re-set: Platforma Pro Sociálnê-Ekologickou Stop the Money Pipeline Water Protector Legal Collective
+transformaci Sunflower Alliance Waterspirit
+Reclaim Finance Surge Africa Organisation WELL Trust
+ReCommon Sustainable Strategic Solutions West Coast Environmental Law
+Recourse Sym.Bio.Sys Women Against Nuclear Power - Finland
+Réseau Action Climat Synergie des Jeunes pour le Développement Women for Peace
+Resguardo Gran Tescual et les Droits Humains (SJDDH) Women Reign
+Resilient40 Tallgrass Institute Women’s Earth and Climate Action Network
+Resource Renewal Institute Terra Advocati (WECAN)
+Rettet den Regenwald Texas Campaign for the Environment Women’s International League for Peace and
+Revolving Door Project The Climate Reality Project Europe Freedom UK
+Rights and Roots The Phoenix Group World Animal Protection
+RimbaWatch The Shame Free Zone World’s Youth for Climate Justice
+Rise for Climate Belgium The Sunrise Project Inc. Yayasan Srikandi Lestari
+Rising Tide Australia The Wei LLC Youth Climate Finance Alliance
+Rivers & Mountains GreenFaith The YEARS Project Zero Hour
+70 BANKING ON CLIMATE CHAOS 2026
+===== page 71 =====
+ACKNOWLEDGEMENTS
+© 2026 Banking on Climate Chaos. All rights reserved.
+The Banking on Climate Chaos: Fossil Fuel Finance Report 2026 is produced by the Banking on Climate Chaos (BOCC)
+Coalition which includes Rainforest Action Network (RAN), BankTrack, Center for Energy, Ecology, and Development
+(CEED), Indigenous Environmental Network (IEN), Oil Change International (OCI), Reclaim Finance, the Sierra Club, and
+Urgewald.
+Contributors:
+Niko Lusiani, Rainforest Action Network Marla Feldwisch, Urgewald
+Caleb Schwartz, Rainforest Action Network Philipp Noack, Urgewald
+Kaylee Kobashigawa, Rainforest Action Network Ida Mielke, Urgewald
+Allison Fajans-Turner, Rainforest Action Network
+Ruth Breech, Rainforest Action Network Camilla Perotti, BankTrack
+Shawna Ambrose, Rainforest Action Network Diogo Silva, BankTrack
+Aditi Sen, Rainforest Action Network
+Toben Dilworth, Rainforest Action Network Collin Rees, Oil Change International
+Bree Flory, Rainforest Action Network
+Mahima Dave, Sierra Club
+Léa Miomandre, Reclaim Finance Jessye Waxman, Sierra Club
+Augustin Durivault, Reclaim Finance
+Noam-Pierre Werlé, Reclaim Finance Gerry Arances, CEED
+Helen Burley, Reclaim Finance Angelica Dacanay, CEED
+Louise Wagner, Reclaim Finance
+Tom Goldtooth, IEN
+Pia Wiesner, Urgewald
+Signe Moe, Urgewald Rex Foster, Volunteer
+Editor and Report Coordinator: Research:
+Niko Lusiani, Rainforest Action Network Data research for Banking on Climate Chaos (BOCC) was led
+by the Rainforest Action Network (RAN), Reclaim Finance and
+Report Design: Urgewald with contributions from all authoring organizations.
+Toben Dilworth, Rainforest Action Network
+Additional research was provided by Profundo which contributed
+Web Design: to the data collection, processing, cleaning and verification.
+Jake Conroy, Rainforest Action Network, and 4Site Studios This report also uses Profundo’s book ratio methodology for
+allocating league credit.
+BANKING ON CLIMATE CHAOS 2026 71
+===== page 72 =====
+BankingonClimateChaos.org
+PHOTOS: NOAA / CIRA; Suparerk Sirithongsook / Vecteezy; Roishetta Ozane / Vessel Project

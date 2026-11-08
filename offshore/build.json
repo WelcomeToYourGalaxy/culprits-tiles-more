@@ -1,0 +1,21 @@
+{
+ "read": "2026-11-08",
+ "platforms": 6305,
+ "kinds": {
+  "gas": 139,
+  "oil": 1145,
+  "not stated": 3619,
+  "oil and gas": 1365,
+  "wind": 37
+ },
+ "slices_not_answered": [
+  {
+   "slice": "-60,-30,-30,0",
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+  },
+  {
+   "slice": "-30,90,0,120",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  }
+ ]
+}

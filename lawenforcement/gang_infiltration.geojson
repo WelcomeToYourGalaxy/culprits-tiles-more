@@ -1,0 +1,487 @@
+{
+ "type": "FeatureCollection",
+ "name": "gang_infiltration",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.2437,
+     34.0522
+    ]
+   },
+   "properties": {
+    "name": "Los Angeles County Sheriff's Department deputy gangs",
+    "group": "Officers running a gang or crime ring of their own",
+    "country": "United States",
+    "placed at": "Los Angeles (the department's head office city)",
+    "when": "1970s on",
+    "status": "Described by a federal judge and county reports",
+    "what": "Wikipedia: \"numerous separate gangs of deputy sheriffs within the LASD had been known to be operating since the 1970s\"; \"there are at least 18 active deputy gangs\" in the department, among them the Executioners, \"a violent deputy gang...running the Compton station\", and the Lynwood Vikings, whom \"a federal judge described ... as a neo-Nazi and white supremacist gang\".",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_County_Sheriff%27s_Department"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.2437,
+     34.0522
+    ]
+   },
+   "properties": {
+    "name": "LAPD Rampart Division CRASH unit (Rampart scandal)",
+    "group": "A crime group working through police or officials",
+    "country": "United States",
+    "placed at": "Los Angeles (the city)",
+    "when": "late 1990s",
+    "status": "More than 70 officers implicated",
+    "what": "Wikipedia: \"More than 70 police officers were initially implicated\"; \"Death Row Records, which was alleged to be associated with the Bloods street gang, was hiring off-duty LAPD officers to serve as security guards\", among them Rampart officers Nino Durden, Kevin Gaines, David Mack and Rafael Pérez.",
+    "source": "https://en.wikipedia.org/wiki/Rampart_scandal"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.006,
+     40.7128
+    ]
+   },
+   "properties": {
+    "name": "NYPD detectives Louis Eppolito and Stephen Caracappa (the \"Mafia cops\")",
+    "group": "A crime group working through police or officials",
+    "country": "United States",
+    "placed at": "New York (the city)",
+    "when": "1985 on; convicted 2006",
+    "status": "Convicted",
+    "what": "Wikipedia: they \"committed various illegal activities on behalf of the Five Families of the American Mafia, principally the Lucchese and Gambino crime families\"; the Lucchese leaders \"paid Eppolito and Caracappa $375,000 in bribes – and payments for murder contracts – beginning in 1985\". \"Both were convicted in 2006\"; life sentences.",
+    "source": "https://en.wikipedia.org/wiki/Louis_Eppolito"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.0589,
+     42.3601
+    ]
+   },
+   "properties": {
+    "name": "FBI agent John Connolly and the Winter Hill Gang (Whitey Bulger)",
+    "group": "A crime group working through police or officials",
+    "country": "United States",
+    "placed at": "Boston (the city)",
+    "when": "1970s to 1990s; convicted 2002 and 2008",
+    "status": "Convicted",
+    "what": "Wikipedia: Connolly \"had been protecting them from prosecution by supplying Bulger with information\"; Flemmi testified \"he and Bulger paid Connolly $235,000\". \"Connolly was convicted of racketeering, obstruction of justice and murder charges stemming from his relationship with Boston mobsters.\"",
+    "source": "https://en.wikipedia.org/wiki/John_Connolly_(FBI)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.6298,
+     41.8781
+    ]
+   },
+   "properties": {
+    "name": "Chicago police officer Joseph Miedzianowski's drug ring",
+    "group": "A crime group working through police or officials",
+    "country": "United States",
+    "placed at": "Chicago (the city)",
+    "when": "1990s; sentenced 2003",
+    "status": "Convicted",
+    "what": "Wikipedia: ran a \"cocaine sales ring with street gang members and other corrupt police officers\", \"leaking the identity of undercover police officers to gang members, extorting protection money from drug organizations, distributing crack cocaine, and supplying gang members with ammunition\"; \"sentenced to life in prison without the possibility of parole for racketeering and drug conspiracy\".",
+    "source": "https://en.wikipedia.org/wiki/Joseph_Miedzianowski"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.6122,
+     39.2904
+    ]
+   },
+   "properties": {
+    "name": "Baltimore Police Gun Trace Task Force",
+    "group": "Officers running a gang or crime ring of their own",
+    "country": "United States",
+    "placed at": "Baltimore (the city)",
+    "when": "convicted 2018",
+    "status": "Convicted (racketeering)",
+    "what": "PBS NewsHour: officers \"used force to extort people for cash and drugs, among other abuses of their power, including over-time fraud, robbery and planting evidence\"; two detectives were \"found guilty of racketeering charges\" and \"six other officers on the task force had pleaded guilty to similar racketeering charges\".",
+    "source": "https://www.pbs.org/newshour/nation/2-baltimore-police-officers-found-guilty-in-federal-corruption-case"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.6122,
+     39.2904
+    ]
+   },
+   "properties": {
+    "name": "Baltimore City Detention Center officers and the Black Guerrilla Family",
+    "group": "A crime group working through police or officials",
+    "country": "United States",
+    "placed at": "Baltimore (the city)",
+    "when": "indicted 2013",
+    "status": "Indicted (federal racketeering)",
+    "what": "US Attorney, District of Maryland: \"13 correctional officers with the Maryland Department of Public Safety and Correctional Services\" were indicted with alleged BGF members; they \"smuggled drugs, cell phones and other contraband\" and \"arranged favored treatment and privileges for imprisoned BGF gang members\".",
+    "source": "https://www.justice.gov/usao-md/pr/13-correctional-officers-among-25-alleged-bgf-gang-members-and-associates-indicted"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.5395,
+     18.3448
+    ]
+   },
+   "properties": {
+    "name": "Iguala municipal police and Guerreros Unidos (the 43 Ayotzinapa students)",
+    "group": "A crime group working through police or officials",
+    "country": "Mexico",
+    "placed at": "Iguala (the city)",
+    "when": "26 September 2014",
+    "status": "Arrests and convictions",
+    "what": "Wikipedia: \"corrupt municipal police from Iguala and neighboring towns, following orders from mayor José Luis Abarca Velázquez, had turned 43 of the students over to the local Guerreros Unidos drug cartel\"; 22 officers were arrested, and the Iguala police chief \"was sentenced to prison for his involvement\" in 2021.",
+    "source": "https://en.wikipedia.org/wiki/2014_Iguala_mass_kidnapping"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.1332,
+     19.4326
+    ]
+   },
+   "properties": {
+    "name": "Genaro García Luna, Mexico's Secretary of Public Security, and the Sinaloa Cartel",
+    "group": "A crime group working through police or officials",
+    "country": "Mexico",
+    "placed at": "Mexico City (the city)",
+    "when": "2001 to 2012; convicted 2023",
+    "status": "Convicted (38 years)",
+    "what": "Wikipedia: founder and head of the Federal Investigation Agency from 2001, then \"secretary of public security\" 2006 to 2012. Trial testimony: he \"had been bribed with suitcases containing US$3 million in cash on two occasions\" by Sinaloa Cartel associates. \"On 21 February 2023, a Brooklyn jury found him guilty of all charges\"; sentenced to 38 years.",
+    "source": "https://en.wikipedia.org/wiki/Genaro_Garc%C3%ADa_Luna"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.1921,
+     14.0723
+    ]
+   },
+   "properties": {
+    "name": "Juan Carlos Bonilla, chief of Honduras's National Police",
+    "group": "A crime group working through police or officials",
+    "country": "Honduras",
+    "placed at": "Tegucigalpa (the capital)",
+    "when": "sentenced 2024",
+    "status": "Pleaded guilty (19 years)",
+    "what": "AP: \"The former chief of the Honduran National Police was sentenced ... to 19 years in prison after he pleaded guilty in a conspiracy to protect shipments of cocaine destined for the United States\"; prosecutors named him a co-conspirator of former President Juan Orlando Hernández and his brother Tony Hernández.",
+    "source": "https://abcnews.go.com/US/wireStory/former-honduras-national-police-chief-gets-19-years-112489834"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.3074,
+     18.5944
+    ]
+   },
+   "properties": {
+    "name": "Jimmy \"Barbecue\" Chérizier, Haitian police officer turned head of the G9 gang federation",
+    "group": "Officers running a gang or crime ring of their own",
+    "country": "Haiti",
+    "placed at": "Port-au-Prince (the capital)",
+    "when": "fired from the police December 2018",
+    "status": "Fired from the police; named by rights groups",
+    "what": "Wikipedia: \"Chérizier was a police officer for the Haitian National Police\", in its UDMO unit; \"In December 2018, Chérizier was fired\". He leads the G9 federation of armed groups; the rights network RNDDH found \"police equipment was used to conduct the massacres\" in Bel Air and Cité Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Jimmy_Ch%C3%A9rizier"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.1729,
+     -22.9068
+    ]
+   },
+   "properties": {
+    "name": "Rio de Janeiro's milícias",
+    "group": "Officers running a gang or crime ring of their own",
+    "country": "Brazil",
+    "placed at": "Rio de Janeiro (the city)",
+    "when": "1990s on",
+    "status": "Reported; members prosecuted",
+    "what": "Brazilian Report: \"these groups were a kind of security patrol unit acting against drug traffickers – and were formed by police officers, firefighters, and prison guards\"; the largest, the \"Justice League\", was \"created back in the 1990s by two former police officers\".",
+    "source": "https://brazilian.report/society/2018/03/26/armed-militias-rio-de-janeiro/amp/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -43.1729,
+     -22.9068
+    ]
+   },
+   "properties": {
+    "name": "Ex-police officers Ronnie Lessa and Élcio de Queiroz (the killing of Marielle Franco)",
+    "group": "Officers running a gang or crime ring of their own",
+    "country": "Brazil",
+    "placed at": "Rio de Janeiro (the city)",
+    "when": "killing 14 March 2018; convicted 2024",
+    "status": "Convicted October 2024 (78 and 59 years)",
+    "source2": "https://www.ksat.com/news/world/2024/10/31/brazil-judge-gives-2-former-cops-long-sentence-for-the-2018-killing-of-leftist-icon-marielle-franco/",
+    "what": "Irish Times: \"Retired police officer Ronnie Lessa (48) and Élcio Vieira de Queiroz (46), who was expelled from the force in 2015, were detained\"; the arrests turned attention to \"Rio's illegal militias composed of corrupt serving and former police officers\".",
+    "source": "https://irishtimes.com/news/world/former-police-officers-in-rio-charged-with-politician-s-murder-1.3823439"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -46.4731,
+     -23.4356
+    ]
+   },
+   "properties": {
+    "name": "São Paulo military police charged in the killing of PCC informant Vinícius Gritzbach",
+    "group": "A crime group working through police or officials",
+    "country": "Brazil",
+    "placed at": "Guarulhos (outside São Paulo's international airport)",
+    "when": "killing November 2024",
+    "status": "Charged",
+    "what": "SBT News: São Paulo's prosecutors \"denunciou 18 policiais militares\" (charged 18 military police) for killing Gritzbach, \"ex-advogado e delator do Primeiro Comando da Capital (PCC)\" (a former lawyer and informant against the PCC); investigators say it was planned in revenge for the killing of two PCC members attributed to him.",
+    "source": "https://sbtnews.sbt.com.br/noticia/policia/caso-gritzbach-ministerio-publico-denuncia-18-p-ms-por-assassinato-de-delator-do-pcc-em-guarulhos"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.6505,
+     -32.9442
+    ]
+   },
+   "properties": {
+    "name": "Santa Fe police officers in Los Monos (Rosario)",
+    "group": "A crime group working through police or officials",
+    "country": "Argentina",
+    "placed at": "Rosario (the city)",
+    "when": "convicted 9 April 2018",
+    "status": "Convicted (nine officers)",
+    "what": "InSight Crime: at the Los Monos trial \"nine police officers were found guilty of membership in the group while four others were acquitted\".",
+    "source": "https://insightcrime.org/news/trial-monos-historic-blow-argentinas-underworld/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.7247,
+     -1.9628
+    ]
+   },
+   "properties": {
+    "name": "Ecuadorian police in Leandro Norero's network (the Metástasis case)",
+    "group": "A crime group working through police or officials",
+    "country": "Ecuador",
+    "placed at": "Samborondón (the district one of them commanded)",
+    "when": "sentenced January 2025",
+    "status": "Convicted (four officers, 40 months)",
+    "what": "Radio Macarena: a lieutenant colonel, Samborondón's district police chief, \"puso a agentes de su jurisdicción al servicio del crimen organizado\" (put his officers at organised crime's service); an anti-drug officer blocked the extraction of data from Norero's phone; two money-laundering unit officers handed the network a draft report. The network served Norero, \"financista de bandas criminales\", and Los Choneros.",
+    "source": "https://radiomacarena.com/cuatro-policias-sentenciados-en-el-caso-metastasis-pidieron-disculpas"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.514,
+     54.2386
+    ]
+   },
+   "properties": {
+    "name": "The Glenanne gang: RUC police officers and UDR soldiers with the UVF",
+    "group": "A crime group working through police or officials",
+    "country": "United Kingdom (Northern Ireland)",
+    "placed at": "Glenanne, County Armagh (the farm the gang was named for)",
+    "when": "1970s",
+    "status": "Found by inquiry (Cassel Report)",
+    "what": "Wikipedia: the gang included \"police officers from the Royal Ulster Constabulary (RUC) and members of the Mid-Ulster Brigade of the Ulster Volunteer Force (UVF)\" and UDR soldiers; it \"killed about 120 people – almost all of whom were Catholic civilians\". The Cassel Report \"investigated 76 killings attributed to the group and found evidence that UDR soldiers and RUC police officers were involved in 74 of those\".",
+    "source": "https://en.wikipedia.org/wiki/Glenanne_gang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.1214,
+     52.0907
+    ]
+   },
+   "properties": {
+    "name": "Utrecht police officer bribed by Ridouan Taghi's network; 19 officers with criminal links",
+    "group": "A crime group working through police or officials",
+    "country": "Netherlands",
+    "placed at": "Utrecht (the city)",
+    "when": "dismissed 2019",
+    "status": "Dismissed",
+    "what": "OCCRP: \"19 officers… in Utrecht found to have criminal links\"; a senior officer was allegedly bribed to \"search the police systems for specific persons or photographs and hand them over to the gang\" of Ridouan Taghi, and was dismissed.",
+    "source": "https://www.occrp.org/en/news/the-netherlands-policeman-sinks-into-crime-cleanup-starts"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.0686,
+     59.3293
+    ]
+   },
+   "properties": {
+    "name": "Swedish police staff leaking to gangs",
+    "group": "A crime group working through police or officials",
+    "country": "Sweden",
+    "placed at": "Stockholm (the capital; the cases are nationwide)",
+    "when": "2018 to 2024",
+    "status": "Reported (Dagens Nyheter); staff forced out",
+    "what": "The Local, from Dagens Nyheter: \"over 514 suspected leaks of sensitive information from at least 30 members of the police force to criminals since 2018\"; \"gang members have infiltrated the police force by, for example, dating police employees, or using family connections\"; leaks \"preceded revenge attacks on enemies of the gang member\".",
+    "source": "https://www.thelocal.se/20240430/what-do-we-know-so-far-about-swedens-police-leaks"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     19.2594,
+     42.4304
+    ]
+   },
+   "properties": {
+    "name": "Montenegrin police officers in the Kavač clan",
+    "group": "A crime group working through police or officials",
+    "country": "Montenegro",
+    "placed at": "Podgorica (the capital)",
+    "when": "Europol file July 2021",
+    "status": "Accused (Europol file)",
+    "what": "Radio Free Europe, from a Europol file: serving officer Petar Lazović \"bio je u svakodnevnom kontaktu sa Zvicerom i obavještavao ga o svemu što je dogovoreno u policiji\" (was in daily contact with the clan's leader and told him everything agreed in the police); officer Ljubo Milović is accused of cocaine and weapons trafficking for the clan.",
+    "source": "https://www.slobodnaevropa.org/a/kavacki-klan-crna-gora-policija/31832879.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     20.4489,
+     44.7866
+    ]
+   },
+   "properties": {
+    "name": "Serbian police officer Nenad Vučković and the Belivuk group",
+    "group": "A crime group working through police or officials",
+    "country": "Serbia",
+    "placed at": "Belgrade (the capital)",
+    "when": "reported October 2023",
+    "status": "Reported (KRIK investigation)",
+    "what": "N1, from KRIK: \"Vuckovic commanded the organized crime group for years, monitored their activities and instructed them on dealing with other organized crime group\"; recordings have him saying the group \"had the entire police in its hands\".",
+    "source": "https://n1info.rs/english/news/krik-ranking-policeman-headed-organized-crime-group/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.2293,
+     -25.7479
+    ]
+   },
+   "properties": {
+    "name": "Jackie Selebi, National Commissioner of the South African Police Service",
+    "group": "A crime group working through police or officials",
+    "country": "South Africa",
+    "placed at": "Pretoria (the police service's head office city)",
+    "when": "2000 to 2008; convicted 2010",
+    "status": "Convicted (corruption)",
+    "what": "Wikipedia: National Commissioner \"from January 2000 to January 2008\"; drug trafficker Glenn Agliotti testified \"he had paid Selebi over R1.2 million in bribes\"; the judge found Selebi took bribes \"in exchange for information about police investigations and preferential police treatment\".",
+    "source": "https://en.wikipedia.org/wiki/Jackie_Selebi"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.7198,
+     15.0646
+    ]
+   },
+   "properties": {
+    "name": "The \"ninja cops\" of Pampanga",
+    "group": "A crime group working through police or officials",
+    "country": "Philippines",
+    "placed at": "Mexico, Pampanga (the town of the 2013 raid)",
+    "when": "29 November 2013; charged 2019",
+    "status": "Charged; Senate inquiry",
+    "what": "Wikipedia: police \"involved in the illegal drug trade themselves by reselling portion of the contraband seized\"; in a 2013 raid officers seized 36.68 kg of methamphetamine and the targeted drug lord allegedly \"paid the police officers a P50 million\" to escape; the national police chief Oscar Albayalde, then Pampanga's chief, resigned in 2019 and was charged with 13 others.",
+    "source": "https://en.wikipedia.org/wiki/Ninja_cops_of_the_Philippine_drug_war"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2093,
+     -33.8688
+    ]
+   },
+   "properties": {
+    "name": "NSW detective Roger Rogerson and the Sydney underworld",
+    "group": "A crime group working through police or officials",
+    "country": "Australia",
+    "placed at": "Sydney (the city)",
+    "when": "1980s; murder conviction 2016",
+    "status": "Convicted",
+    "what": "Wikipedia: Arthur \"Neddy\" Smith, \"a convicted heroin dealer, rapist and armed robber ... claimed Rogerson gave him the 'green light' to commit crimes in New South Wales\"; Rogerson was convicted in 1999 of perverting the course of justice, and in 2016 of murder, with a life sentence.",
+    "source": "https://en.wikipedia.org/wiki/Roger_Rogerson"
+   }
+  }
+ ]
+}

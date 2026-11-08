@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "OOIL"
+ ],
+ "hectares": 21272320.0,
+ "to_zoom": 5,
+ "squares": 254,
+ "bytes": 580683,
+ "how": "max"
+}

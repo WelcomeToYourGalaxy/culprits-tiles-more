@@ -1,0 +1,10 @@
+{
+ "read": "2026-10-01 17:41 UTC",
+ "from": "Parquet",
+ "files": 4,
+ "pictures": 114300,
+ "labels_read_from": {
+  "null": 41070,
+  "dotalabel": 73230
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "MILL"
+ ],
+ "hectares": 4316214.5,
+ "to_zoom": 5,
+ "squares": 145,
+ "bytes": 301602,
+ "how": "max"
+}

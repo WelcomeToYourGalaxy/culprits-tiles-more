@@ -1,0 +1,23 @@
+{
+ "ea_enforcement": {
+  "rows": 7697,
+  "placed": 7080,
+  "no_postcode_in_address": 497,
+  "postcode_not_found": 120,
+  "licence": "Open Government Licence v3.0 (the download's own licence file)"
+ },
+ "epa_cases": {
+  "cases": 137143,
+  "points": 190614,
+  "cases_placed": 127109,
+  "no_facility_named": 997,
+  "no_zip_found": 9037,
+  "zip_centres": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
+  "licence": "US government work (public domain)"
+ },
+ "at": 0,
+ "when": "2026-11-08",
+ "errors": {
+  "canada_offenders": "No module named 'openpyxl'"
+ }
+}

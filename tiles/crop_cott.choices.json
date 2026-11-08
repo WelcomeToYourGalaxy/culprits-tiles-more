@@ -1,0 +1,31 @@
+{
+ "choices": [
+  {
+   "label": "cotton",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/spam_cott.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "grown on under 1% of the square"
+    ],
+    [
+     "#8FD6E8",
+     "grown on 1 to 5% of the square"
+    ],
+    [
+     "#3FA9C2",
+     "grown on 5 to 10% of the square"
+    ],
+    [
+     "#1E6FA8",
+     "grown on 10 to 25% of the square"
+    ],
+    [
+     "#0E2F66",
+     "grown on 25% or more of the square"
+    ]
+   ],
+   "hint": "cotton: the share of each square of about 9 km the crop is grown on, around 2020 (SPAM 2020, version 2.2)"
+  }
+ ]
+}

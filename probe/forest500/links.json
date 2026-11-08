@@ -1,0 +1,10 @@
+{
+ "https://forest500.org/data": [],
+ "https://forest500.org/rankings/companies": [],
+ "https://forest500.org/rankings/financial-institutions": {
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://forest500.org/forest-500-data-methods/": [
+  "https://forest500.org/wp-content/themes/forest-500/dist/icons/icons.svg?v=1748859549#icon-download"
+ ]
+}
