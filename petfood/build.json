@@ -1,6 +1,7 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-09",
  "products": {
+  "Q141985498": "Q141985498",
   "Q1736906": "cat food",
   "Q5442115": "Felix",
   "Q11328562": "Q11328562",
@@ -30,6 +31,7 @@
   "Q42950896": "Moist food for reptiles",
   "Q42950959": "Moist food for cats",
   "Q42950965": "Moist food for dogs",
+  "Q48698707": "Senior dog diet",
   "Q20897": "dogs chocolate",
   "Q54821098": "CIAO Churu",
   "Q105091003": "Nutrish",
@@ -47,8 +49,8 @@
  "kinds": {
   "Q136305047": "pet food brand"
  },
- "items": 80,
- "placed": 65,
+ "items": 78,
+ "placed": 64,
  "not_placed": [
   "Alpo",
   "Beneful",
@@ -59,7 +61,6 @@
   "Health Extension",
   "Kitekat",
   "Nature Magic",
-  "Nádúr",
   "Orijen",
   "Purina One",
   "Schesir",
