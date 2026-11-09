@@ -1,12 +1,12 @@
 {
  "layer": "schools",
- "schools": 2272840,
+ "schools": 2336677,
  "detail_from": 8,
  "fields": {
-  "id": 2272840,
-  "coverage_type": 2272840,
-  "coverage_status": 2272840,
-  "connectivity_status": 2272840
+  "id": 2336677,
+  "coverage_type": 2336677,
+  "coverage_status": 2336677,
+  "connectivity_status": 2336677
  },
  "id_field": "id",
  "squares": [
@@ -41,113 +41,40 @@
  ],
  "from": "https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z={z}&x={x}&y={y}.mvt",
  "read_at_zoom": 7,
- "squares_failed": [
-  "7/14/36: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=14&y=36.mvt: HTTP Error 429: Too Many Requests",
-  "7/14/38: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=14&y=38.mvt: HTTP Error 429: Too Many Requests",
-  "7/14/39: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=14&y=39.mvt: HTTP Error 429: Too Many Requests",
-  "7/15/34: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=15&y=34.mvt: HTTP Error 429: Too Many Requests",
-  "7/8/59: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=8&y=59.mvt: HTTP Error 429: Too Many Requests",
-  "7/8/60: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=8&y=60.mvt: HTTP Error 429: Too Many Requests",
-  "7/8/63: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=8&y=63.mvt: HTTP Error 429: Too Many Requests",
-  "7/9/56: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=9&y=56.mvt: HTTP Error 429: Too Many Requests",
-  "7/9/59: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=9&y=59.mvt: HTTP Error 429: Too Many Requests",
-  "7/9/60: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=9&y=60.mvt: HTTP Error 429: Too Many Requests",
-  "7/9/62: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=9&y=62.mvt: HTTP Error 429: Too Many Requests",
-  "7/9/63: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=9&y=63.mvt: HTTP Error 429: Too Many Requests",
-  "7/24/61: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=24&y=61.mvt: HTTP Error 429: Too Many Requests",
-  "7/25/56: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=25&y=56.mvt: HTTP Error 429: Too Many Requests",
-  "7/25/61: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=25&y=61.mvt: HTTP Error 429: Too Many Requests",
-  "7/26/58: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=26&y=58.mvt: HTTP Error 429: Too Many Requests",
-  "7/26/59: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=26&y=59.mvt: HTTP Error 429: Too Many Requests",
-  "7/26/62: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=26&y=62.mvt: HTTP Error 429: Too Many Requests",
-  "7/27/56: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=27&y=56.mvt: HTTP Error 429: Too Many Requests",
-  "7/27/57: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=27&y=57.mvt: HTTP Error 429: Too Many Requests",
-  "7/27/58: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=27&y=58.mvt: HTTP Error 429: Too Many Requests",
-  "7/27/59: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=27&y=59.mvt: HTTP Error 429: Too Many Requests",
-  "7/27/60: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=27&y=60.mvt: HTTP Error 429: Too Many Requests",
-  "7/42/27: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=42&y=27.mvt: HTTP Error 429: Too Many Requests",
-  "7/42/30: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=42&y=30.mvt: HTTP Error 429: Too Many Requests",
-  "7/42/31: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=42&y=31.mvt: HTTP Error 429: Too Many Requests",
-  "7/43/24: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=43&y=24.mvt: HTTP Error 429: Too Many Requests",
-  "7/43/29: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=43&y=29.mvt: HTTP Error 429: Too Many Requests",
-  "7/44/27: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=44&y=27.mvt: HTTP Error 429: Too Many Requests",
-  "7/44/30: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=44&y=30.mvt: HTTP Error 429: Too Many Requests",
-  "7/44/31: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=44&y=31.mvt: HTTP Error 429: Too Many Requests",
-  "7/45/25: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=45&y=25.mvt: HTTP Error 429: Too Many Requests",
-  "7/45/26: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=45&y=26.mvt: HTTP Error 429: Too Many Requests",
-  "7/60/29: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=60&y=29.mvt: HTTP Error 429: Too Many Requests",
-  "7/60/30: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=60&y=30.mvt: HTTP Error 429: Too Many Requests",
-  "7/61/24: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=61&y=24.mvt: HTTP Error 429: Too Many Requests",
-  "7/61/29: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=61&y=29.mvt: HTTP Error 429: Too Many Requests",
-  "7/62/24: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=62&y=24.mvt: HTTP Error 429: Too Many Requests",
-  "7/62/26: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=62&y=26.mvt: HTTP Error 429: Too Many Requests",
-  "7/62/28: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=62&y=28.mvt: HTTP Error 429: Too Many Requests",
-  "7/62/29: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=62&y=29.mvt: HTTP Error 429: Too Many Requests",
-  "7/74/65: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=74&y=65.mvt: HTTP Error 429: Too Many Requests",
-  "7/74/66: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=74&y=66.mvt: HTTP Error 429: Too Many Requests",
-  "7/75/68: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=75&y=68.mvt: HTTP Error 429: Too Many Requests",
-  "7/75/71: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=75&y=71.mvt: HTTP Error 429: Too Many Requests",
-  "7/76/64: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=76&y=64.mvt: HTTP Error 429: Too Many Requests",
-  "7/76/65: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=76&y=65.mvt: HTTP Error 429: Too Many Requests",
-  "7/76/67: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=76&y=67.mvt: HTTP Error 429: Too Many Requests",
-  "7/76/69: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=76&y=69.mvt: HTTP Error 429: Too Many Requests",
-  "7/76/70: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=76&y=70.mvt: HTTP Error 429: Too Many Requests",
-  "7/77/66: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=77&y=66.mvt: HTTP Error 429: Too Many Requests",
-  "7/77/67: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=77&y=67.mvt: HTTP Error 429: Too Many Requests",
-  "7/77/68: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=77&y=68.mvt: HTTP Error 429: Too Many Requests",
-  "7/93/59: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=93&y=59.mvt: HTTP Error 429: Too Many Requests",
-  "7/93/63: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=93&y=63.mvt: HTTP Error 429: Too Many Requests",
-  "7/94/58: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=94&y=58.mvt: HTTP Error 429: Too Many Requests",
-  "7/94/59: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=94&y=59.mvt: HTTP Error 429: Too Many Requests",
-  "7/106/28: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=106&y=28.mvt: HTTP Error 429: Too Many Requests",
-  "7/106/29: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=106&y=29.mvt: HTTP Error 429: Too Many Requests",
-  "7/106/31: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=106&y=31.mvt: HTTP Error 429: Too Many Requests",
-  "7/107/27: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=107&y=27.mvt: HTTP Error 429: Too Many Requests",
-  "7/107/28: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=107&y=28.mvt: HTTP Error 429: Too Many Requests",
-  "7/107/30: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=107&y=30.mvt: HTTP Error 429: Too Many Requests",
-  "7/107/31: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=107&y=31.mvt: HTTP Error 429: Too Many Requests",
-  "7/108/25: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=108&y=25.mvt: HTTP Error 429: Too Many Requests",
-  "7/115/73: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=115&y=73.mvt: HTTP Error 429: Too Many Requests",
-  "7/115/74: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=115&y=74.mvt: HTTP Error 429: Too Many Requests",
-  "7/115/76: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=115&y=76.mvt: HTTP Error 429: Too Many Requests",
-  "7/116/76: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=116&y=76.mvt: HTTP Error 429: Too Many Requests",
-  "7/116/78: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=116&y=78.mvt: HTTP Error 429: Too Many Requests",
-  "7/116/79: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=116&y=79.mvt: HTTP Error 429: Too Many Requests",
-  "7/117/75: https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z=7&x=117&y=75.mvt: HTTP Error 429: Too Many Requests"
- ],
- "squares_failed_count": 72,
+ "squares_failed": [],
+ "squares_failed_count": 0,
  "parts": [
   {
    "file": "giga_points.pmtiles",
    "from": 0,
    "to": 1,
-   "bytes": 80374
+   "bytes": 81059
   },
   {
    "file": "giga_points_z2.pmtiles",
    "from": 2,
    "to": 3,
-   "bytes": 499531
+   "bytes": 507731
   },
   {
    "file": "giga_points_z4.pmtiles",
    "from": 4,
    "to": 5,
-   "bytes": 3165184
+   "bytes": 3244416
   },
   {
    "file": "giga_points_z6.pmtiles",
    "from": 6,
    "to": 7,
-   "bytes": 10406661
+   "bytes": 10722202
   },
   {
    "file": "giga_points_z8.pmtiles",
    "from": 8,
    "to": 8,
-   "bytes": 24194442
+   "bytes": 24861421
   }
  ],
- "date": "2026-11-02",
- "seconds": 1085
+ "date": "2026-11-09",
+ "seconds": 422
 }
