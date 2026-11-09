@@ -1,10 +1,10 @@
 {
  "read": 22729,
  "total_said": 22729,
- "rated": 1322,
- "points": 8618,
- "placed_by_aiddata": 480,
- "placed_at_country": 768,
+ "rated": 1308,
+ "points": 8604,
+ "placed_by_aiddata": 479,
+ "placed_at_country": 755,
  "aiddata": "https://raw.githubusercontent.com/AidData-WM/public_datasets/master/geocoded/WorldBank_GeocodedResearchRelease_Level1_v1.4.2.zip",
  "not_placed": 74,
  "fields": [
@@ -32,5 +32,5 @@
   "totalcommamt",
   "url"
  ],
- "date": "2026-11-02"
+ "date": "2026-11-09"
 }
