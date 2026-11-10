@@ -1,5 +1,5 @@
 {
- "built": "2026-11-09T17:09:19Z",
+ "built": "2026-11-10T15:26:52Z",
  "failed": {},
  "moon_objects": {
   "rows": 71,
@@ -162,8 +162,8 @@
  "rovers": {
   "M20/Layers/json/M20_waypoints.json": 708,
   "M20/Layers/json/M20_traverse.json": 559,
-  "MSL/Layers/json/MSL_waypoints.json": 1386,
-  "MSL/Layers/json/MSL_traverse.json": 1314
+  "MSL/Layers/json/MSL_waypoints.json": 1387,
+  "MSL/Layers/json/MSL_traverse.json": 1315
  },
  "globe_pictures": {
   "moon": "128 of 128 squares",
