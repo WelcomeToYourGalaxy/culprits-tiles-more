@@ -40,6 +40,8 @@ NAME = "oilgas"
 RECORD = "https://zenodo.org/api/records/7466758/versions/latest"
 START, BUDGET = time.time(), 130 * 60
 CHUNK = 400_000
+# Above this many sites in a layer, let the protected areas go before tiling it.
+RELEASE_ABOVE = 500_000
 ID_COLS = re.compile(r"(^|_)(ogim_?id|fac_?id|fac_?name|fac_?type|fac_?status|ogim_?status|status|operator|country|state_?prov|src_?ref_?id|src_?date|category)$", re.I)
 
 
@@ -132,11 +134,14 @@ def main():
             report["stopped"] = f"time budget reached {min(s0, n):,} of {n:,} into {lname}; the next run starts it again"
             print(f"oilgas: {report['stopped']}", flush=True)
             break
-        # The measuring for this layer is done, so the protected areas can go:
-        # tiling millions of points needs the room, and the next layer builds
-        # them again. (Round nh11: the run was shut down holding both.)
-        nhwdpa.forget()
-        print(f"oilgas: protected areas released before tiling (memory in use {nhwdpa._mem()})", flush=True)
+        # Tiling millions of points needs the room, so for a layer that big the
+        # protected areas go now that its measuring is done, and the next layer
+        # builds them again, which costs a few minutes. A small layer tiles in
+        # almost no memory and keeps them, saving that rebuild. (Round nh11: the
+        # run was shut down holding the areas and 4.5 million wells at once.)
+        if sum(counts.values()) >= RELEASE_ABOVE:
+            nhwdpa.forget()
+            print(f"oilgas: protected areas released before tiling {lname} (memory in use {nhwdpa._mem()})", flush=True)
         sets = {}
         for b, p in files.items():
             if not counts[b]:
