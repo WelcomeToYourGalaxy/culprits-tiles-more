@@ -195,6 +195,18 @@ def get(work, want=("pa_id", "pa_name", "pa_desig", "pa_iucn"), near=None, keep=
 _TREES = {}
 
 
+def forget():
+    """Let go of the mended outlines, the pieces they were cut into and the two
+    indexes over them. They are the biggest thing these scripts hold - for the
+    world's 508,000 protected areas, several gigabytes - and nothing else needs
+    them between layers. nearest() builds them again from P and Q the next time
+    it is called, which costs a few minutes. Call it when a long job is about to
+    do something else heavy, such as tiling millions of points (round nh11: the
+    oil and gas run was shut down holding both at once)."""
+    _TREES.clear()
+    gc.collect()
+
+
 def _mem():
     """The memory this process holds now, for the log."""
     try:

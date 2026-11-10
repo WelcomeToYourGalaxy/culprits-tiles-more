@@ -132,15 +132,21 @@ def main():
             report["stopped"] = f"time budget reached {min(s0, n):,} of {n:,} into {lname}; the next run starts it again"
             print(f"oilgas: {report['stopped']}", flush=True)
             break
+        # The measuring for this layer is done, so the protected areas can go:
+        # tiling millions of points needs the room, and the next layer builds
+        # them again. (Round nh11: the run was shut down holding both.)
+        nhwdpa.forget()
+        print(f"oilgas: protected areas released before tiling (memory in use {nhwdpa._mem()})", flush=True)
         sets = {}
         for b, p in files.items():
             if not counts[b]:
                 continue
             out = nh.OUT / "oilgas" / f"{nh.slug(lname)}_{nh.slug(b)}.pmtiles"
             if kind == "point":
-                pts = [tuple(json.loads(l)) for l in p.open()]
+                # A line at a time, not into a list: the wells layer alone is
+                # 4.5 million points and the list ran the runner out of memory.
+                pts = (tuple(json.loads(l)) for l in p.open())
                 parts = pointtiles.build(pts, out, "oilgas", "layer", attribution="OGIM (Environmental Defense Fund), CC BY 4.0; WDPA (UNEP-WCMC and IUCN)")
-                del pts
                 sets[b] = [dict(x, file="oilgas/" + x["file"]) for x in parts]
             else:
                 out.parent.mkdir(parents=True, exist_ok=True)

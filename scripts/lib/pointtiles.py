@@ -28,15 +28,26 @@ def build(points, out, layer, kind_field, squares=SQUARES, detail=8, attribution
     import mines
     mines.tools()
     work = pathlib.Path(tempfile.mkdtemp())
-    pts = list(points)
+    # points is read once, straight to disk, and every pass after that reads it
+    # back a line at a time. Holding them all (4.5 million oil and gas wells,
+    # each with its own fields) ran the runner out of memory on top of the
+    # protected areas it was still holding.
     detail_f = work / "detail.ndjson"
     with detail_f.open("w") as w:
-        for lon, lat, p in pts:
+        for lon, lat, p in points:
             w.write(json.dumps({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]}, "properties": p}, ensure_ascii=False) + "\n")
+
+    def each_point():
+        with detail_f.open() as r:
+            for line in r:
+                f = json.loads(line)
+                lon, lat = f["geometry"]["coordinates"]
+                yield lon, lat, f["properties"]
+
     runs = []
     for (z0, z1), deg in squares:
         sq = {}
-        for lon, lat, p in pts:
+        for lon, lat, p in each_point():
             k = (math.floor(lon / deg), math.floor(lat / deg))
             e = sq.setdefault(k, {"n": 0, "by": {}, "x": 0.0, "y": 0.0})
             e["n"] += 1
