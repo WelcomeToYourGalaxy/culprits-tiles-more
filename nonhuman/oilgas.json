@@ -2253,10 +2253,983 @@
      }
     ]
    }
+  },
+  {
+   "name": "Oil_and_Natural_Gas_Wells",
+   "label": "Oil and Natural Gas Wells",
+   "kind": "point",
+   "count": 4537369,
+   "counts": {
+    "inside a protected area": 84717,
+    "within 1 km": 164934,
+    "within 10 km": 1672908,
+    "within 20 km": 1108001,
+    "further than 20 km": 1506809
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "DRILL_TYPE",
+    "SPUD_DATE",
+    "COMP_DATE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR",
+    "LATITUDE",
+    "LONGITUDE"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 9853
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_inside_a_protected_area_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 33506
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_inside_a_protected_area_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 109125
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_inside_a_protected_area_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 323615
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_inside_a_protected_area_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 4972177
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_1_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 9050
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_1_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 37997
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_1_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 145049
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_1_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 458979
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_1_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 10213017
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_10_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 13051
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_10_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 65881
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_10_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 405574
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_10_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 2334160
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_10_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 85832585
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 11709
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 56049
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 302314
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 1647388
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_within_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 57933315
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 14460
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_further_than_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 64130
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_further_than_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 350562
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_further_than_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 2113673
+     },
+     {
+      "file": "oilgas/oil_and_natural_gas_wells_further_than_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 40613870
+     }
+    ]
+   }
+  },
+  {
+   "name": "Petroleum_Terminals",
+   "label": "Petroleum Terminals",
+   "kind": "point",
+   "count": 3661,
+   "counts": {
+    "inside a protected area": 66,
+    "within 1 km": 358,
+    "within 10 km": 2083,
+    "within 20 km": 660,
+    "further than 20 km": 494
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR",
+    "INSTALL_DATE",
+    "COMMODITY",
+    "LIQ_CAPACITY_BPD",
+    "LIQ_THROUGHPUT_BPD",
+    "GAS_CAPACITY_MMCFD",
+    "GAS_THROUGHPUT_MMCFD",
+    "NUM_STORAGE_TANKS",
+    "LATITUDE",
+    "LONGITUDE"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/petroleum_terminals_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 1921
+     },
+     {
+      "file": "oilgas/petroleum_terminals_inside_a_protected_area_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 3987
+     },
+     {
+      "file": "oilgas/petroleum_terminals_inside_a_protected_area_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 7458
+     },
+     {
+      "file": "oilgas/petroleum_terminals_inside_a_protected_area_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 9596
+     },
+     {
+      "file": "oilgas/petroleum_terminals_inside_a_protected_area_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 34866
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/petroleum_terminals_within_1_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3086
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_1_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 6803
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_1_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 13205
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_1_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 28689
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_1_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 154897
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/petroleum_terminals_within_10_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 5583
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_10_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 13396
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_10_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 29974
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_10_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 70529
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_10_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 529664
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/petroleum_terminals_within_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3478
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 7173
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 15969
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 34086
+     },
+     {
+      "file": "oilgas/petroleum_terminals_within_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 198736
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/petroleum_terminals_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3194
+     },
+     {
+      "file": "oilgas/petroleum_terminals_further_than_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 6406
+     },
+     {
+      "file": "oilgas/petroleum_terminals_further_than_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 15555
+     },
+     {
+      "file": "oilgas/petroleum_terminals_further_than_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 31829
+     },
+     {
+      "file": "oilgas/petroleum_terminals_further_than_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 90090
+     }
+    ]
+   }
+  },
+  {
+   "name": "Stations_Other",
+   "label": "Stations Other",
+   "kind": "point",
+   "count": 8468,
+   "counts": {
+    "inside a protected area": 124,
+    "within 1 km": 253,
+    "within 10 km": 3037,
+    "within 20 km": 2222,
+    "further than 20 km": 2832
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR",
+    "INSTALL_DATE",
+    "COMMODITY",
+    "LATITUDE",
+    "LONGITUDE"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/stations_other_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 1752
+     },
+     {
+      "file": "oilgas/stations_other_inside_a_protected_area_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 2942
+     },
+     {
+      "file": "oilgas/stations_other_inside_a_protected_area_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 5580
+     },
+     {
+      "file": "oilgas/stations_other_inside_a_protected_area_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 8376
+     },
+     {
+      "file": "oilgas/stations_other_inside_a_protected_area_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 33827
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/stations_other_within_1_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 2415
+     },
+     {
+      "file": "oilgas/stations_other_within_1_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 4327
+     },
+     {
+      "file": "oilgas/stations_other_within_1_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 8337
+     },
+     {
+      "file": "oilgas/stations_other_within_1_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 18373
+     },
+     {
+      "file": "oilgas/stations_other_within_1_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 99277
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/stations_other_within_10_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 4247
+     },
+     {
+      "file": "oilgas/stations_other_within_10_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 12249
+     },
+     {
+      "file": "oilgas/stations_other_within_10_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 27576
+     },
+     {
+      "file": "oilgas/stations_other_within_10_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 56869
+     },
+     {
+      "file": "oilgas/stations_other_within_10_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 437126
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/stations_other_within_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3391
+     },
+     {
+      "file": "oilgas/stations_other_within_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 8386
+     },
+     {
+      "file": "oilgas/stations_other_within_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 20837
+     },
+     {
+      "file": "oilgas/stations_other_within_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 43606
+     },
+     {
+      "file": "oilgas/stations_other_within_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 303731
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/stations_other_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3161
+     },
+     {
+      "file": "oilgas/stations_other_further_than_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 7930
+     },
+     {
+      "file": "oilgas/stations_other_further_than_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 20111
+     },
+     {
+      "file": "oilgas/stations_other_further_than_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 38175
+     },
+     {
+      "file": "oilgas/stations_other_further_than_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 149172
+     }
+    ]
+   }
+  },
+  {
+   "name": "Tank_Battery",
+   "label": "Tank Battery",
+   "kind": "point",
+   "count": 132220,
+   "counts": {
+    "inside a protected area": 1599,
+    "within 1 km": 2929,
+    "within 10 km": 40794,
+    "within 20 km": 36253,
+    "further than 20 km": 50645
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR",
+    "INSTALL_DATE",
+    "COMMODITY",
+    "LIQ_CAPACITY_BPD",
+    "LIQ_THROUGHPUT_BPD",
+    "GAS_CAPACITY_MMCFD",
+    "GAS_THROUGHPUT_MMCFD",
+    "NUM_STORAGE_TANKS",
+    "LATITUDE",
+    "LONGITUDE"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "FAC_NAME",
+    "FAC_ID",
+    "FAC_TYPE",
+    "FAC_STATUS",
+    "OGIM_STATUS",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/tank_battery_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 2236
+     },
+     {
+      "file": "oilgas/tank_battery_inside_a_protected_area_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 4259
+     },
+     {
+      "file": "oilgas/tank_battery_inside_a_protected_area_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 9088
+     },
+     {
+      "file": "oilgas/tank_battery_inside_a_protected_area_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 17738
+     },
+     {
+      "file": "oilgas/tank_battery_inside_a_protected_area_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 142925
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/tank_battery_within_1_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 2648
+     },
+     {
+      "file": "oilgas/tank_battery_within_1_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 6392
+     },
+     {
+      "file": "oilgas/tank_battery_within_1_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 15551
+     },
+     {
+      "file": "oilgas/tank_battery_within_1_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 32463
+     },
+     {
+      "file": "oilgas/tank_battery_within_1_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 325508
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/tank_battery_within_10_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 4056
+     },
+     {
+      "file": "oilgas/tank_battery_within_10_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 12146
+     },
+     {
+      "file": "oilgas/tank_battery_within_10_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 52730
+     },
+     {
+      "file": "oilgas/tank_battery_within_10_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 183849
+     },
+     {
+      "file": "oilgas/tank_battery_within_10_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 2505033
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/tank_battery_within_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3236
+     },
+     {
+      "file": "oilgas/tank_battery_within_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 9539
+     },
+     {
+      "file": "oilgas/tank_battery_within_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 41627
+     },
+     {
+      "file": "oilgas/tank_battery_within_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 148399
+     },
+     {
+      "file": "oilgas/tank_battery_within_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 2172625
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/tank_battery_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 1,
+      "bytes": 3681
+     },
+     {
+      "file": "oilgas/tank_battery_further_than_20_km_z2.pmtiles",
+      "from": 2,
+      "to": 3,
+      "bytes": 12866
+     },
+     {
+      "file": "oilgas/tank_battery_further_than_20_km_z4.pmtiles",
+      "from": 4,
+      "to": 5,
+      "bytes": 54730
+     },
+     {
+      "file": "oilgas/tank_battery_further_than_20_km_z6.pmtiles",
+      "from": 6,
+      "to": 7,
+      "bytes": 186544
+     },
+     {
+      "file": "oilgas/tank_battery_further_than_20_km_z8.pmtiles",
+      "from": 8,
+      "to": 8,
+      "bytes": 1399648
+     }
+    ]
+   }
+  },
+  {
+   "name": "Data_Catalog",
+   "label": "Data Catalog",
+   "kind": "shape",
+   "count": 0,
+   "counts": {
+    "inside a protected area": 0,
+    "within 1 km": 0,
+    "within 10 km": 0,
+    "within 20 km": 0,
+    "further than 20 km": 0
+   },
+   "columns": [
+    "SRC_ID",
+    "SRC_URL",
+    "SRC_NAME",
+    "SRC_ALIAS",
+    "SRC_TYPE",
+    "SRC_YEAR",
+    "SRC_MNTH",
+    "PUB_PRIV",
+    "PROD_DATA",
+    "UPDATE_FREQ",
+    "LASTVISIT",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "NOTES",
+    "HAS_WELLS",
+    "HAS_PLATFORMS",
+    "HAS_COMPRESSORS",
+    "HAS_PROCESSING",
+    "HAS_REFINERIES",
+    "HAS_TERMINALS",
+    "HAS_LNG",
+    "HAS_INJ_DISP",
+    "HAS_TANKS",
+    "HAS_EQUIP_COMP",
+    "HAS_OTHER",
+    "HAS_PIPELINES",
+    "HAS_BASINS",
+    "HAS_FIELDS",
+    "HAS_BLOCKS",
+    "HAS_PRODUCTION",
+    "HAS_FLARES"
+   ],
+   "columns kept beyond 20 km": [
+    "COUNTRY",
+    "STATE_PROV"
+   ],
+   "sets": {}
+  },
+  {
+   "name": "ML_Oil_and_Natural_Gas_Well_Pads",
+   "label": "ML Oil and Natural Gas Well Pads",
+   "kind": "shape",
+   "count": 8992,
+   "counts": {
+    "inside a protected area": 420,
+    "within 1 km": 10,
+    "within 10 km": 74,
+    "within 20 km": 110,
+    "further than 20 km": 8378
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "BBOX_SCORE_GOOGLE",
+    "VERIFIED_ML_GOOGLE",
+    "LATITUDE",
+    "LONGITUDE"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/ml_oil_and_natural_gas_well_pads_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 168887
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/ml_oil_and_natural_gas_well_pads_within_1_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 10837
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/ml_oil_and_natural_gas_well_pads_within_10_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 58874
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/ml_oil_and_natural_gas_well_pads_within_20_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 49349
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/ml_oil_and_natural_gas_well_pads_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 567839
+     }
+    ]
+   }
   }
  ],
  "source": "OGIM OGIM_v3.0 (Environmental Defense Fund), Zenodo record 7466758, CC BY 4.0",
- "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "wdpa": "WDPA_WDOECM_Nov2026_Public_all_shp.zip",
  "bands": [
   "inside a protected area",
   "within 1 km",
@@ -2265,6 +3238,6 @@
   "further than 20 km"
  ],
  "detail": 8,
- "made": "2026-10-31",
- "complete": false
+ "made": "2026-11-10",
+ "complete": true
 }
