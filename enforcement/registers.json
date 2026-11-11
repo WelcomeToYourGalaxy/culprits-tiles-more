@@ -16,8 +16,10 @@
   "licence": "US government work (public domain)"
  },
  "at": 0,
- "when": "2026-11-10",
+ "when": "2026-11-11",
  "errors": {
-  "canada_offenders": "No module named 'openpyxl'"
+  "ea_enforcement": "Command '('sudo', 'apt-get', 'install', '-y', '-qq', 'gdal-bin', 'libsqlite3-dev', 'zlib1g-dev', 'build-essential')' returned non-zero exit status 100.",
+  "canada_offenders": "No module named 'openpyxl'",
+  "epa_cases": "Command '('sudo', 'apt-get', 'install', '-y', '-qq', 'gdal-bin', 'libsqlite3-dev', 'zlib1g-dev', 'build-essential')' returned non-zero exit status 100."
  }
 }
