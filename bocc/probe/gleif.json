@@ -1179,8 +1179,8 @@
    }
   },
   {
-   "lei": "213800Y9PAZTWQCYVS21",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
+   "lei": "213800LNBAJFZBEP1196",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -1211,8 +1211,8 @@
    }
   },
   {
-   "lei": "213800LNBAJFZBEP1196",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
+   "lei": "213800Y9PAZTWQCYVS21",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6023,39 +6023,6 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
    "lei": "2138007AN6K7FAAWVY22",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
@@ -6089,8 +6056,8 @@
    }
   },
   {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6124,6 +6091,39 @@
   {
    "lei": "213800HVQMZIPOGSN251",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7026,8 +7026,8 @@
    }
   },
   {
-   "lei": "213800SJ9EDGYZ296T83",
-   "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "lei": "213800PHORTTEXG59989",
+   "legal_name": "RBS HOLDINGS USA INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7059,8 +7059,8 @@
    }
   },
   {
-   "lei": "213800PHORTTEXG59989",
-   "legal_name": "RBS HOLDINGS USA INC.",
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7125,8 +7125,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800SJ9EDGYZ296T83",
+   "legal_name": "RBS AMERICAS PROPERTY CORP.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7727,8 +7727,8 @@
    }
   },
   {
-   "lei": "213800RN8G8WGY7GS835",
-   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
+   "lei": "213800L6AFRWDKEU5W12",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7760,8 +7760,8 @@
    }
   },
   {
-   "lei": "213800L6AFRWDKEU5W12",
-   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
+   "lei": "213800RN8G8WGY7GS835",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
