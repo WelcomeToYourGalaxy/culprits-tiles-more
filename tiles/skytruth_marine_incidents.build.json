@@ -1,11 +1,11 @@
 {
  "points_merged": false,
  "slim": true,
- "from": "2cc0ed001d8fc67465e6fce462b78b9e8f83fdfd",
+ "from": "0cf2ea069bd97bafe069705faa9b7190499cce84",
  "row": "skytruth_marine_incidents",
  "feed": "feed_3",
  "alerts_with_position": 156,
  "no_position": 0,
- "bytes": 178472,
+ "bytes": 178474,
  "boxes": "skytruth/feed_3"
 }
