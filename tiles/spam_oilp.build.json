@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "OILP"
+ ],
+ "hectares": 27359832.0,
+ "to_zoom": 5,
+ "squares": 89,
+ "bytes": 187038,
+ "how": "max"
+}

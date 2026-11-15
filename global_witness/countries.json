@@ -1,0 +1,380 @@
+{
+ "COL": {
+  "value": 548.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "548",
+  "x_country": "Colombia"
+ },
+ "BRA": {
+  "value": 439.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "439",
+  "x_country": "Brazil"
+ },
+ "PHL": {
+  "value": 318.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "318",
+  "x_country": "Philippines"
+ },
+ "MEX": {
+  "value": 230.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "230",
+  "x_country": "Mexico"
+ },
+ "HND": {
+  "value": 167.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "167",
+  "x_country": "Honduras"
+ },
+ "GTM": {
+  "value": 114.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "114",
+  "x_country": "Guatemala"
+ },
+ "IND": {
+  "value": 88.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "88",
+  "x_country": "India"
+ },
+ "NIC": {
+  "value": 77.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "77",
+  "x_country": "Nicaragua"
+ },
+ "PER": {
+  "value": 66.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "66",
+  "x_country": "Peru"
+ },
+ "IDN": {
+  "value": 26.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "26",
+  "x_country": "Indonesia"
+ },
+ "VEN": {
+  "value": 23.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "23",
+  "x_country": "Venezuela"
+ },
+ "PRY": {
+  "value": 18.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "18",
+  "x_country": "Paraguay"
+ },
+ "THA": {
+  "value": 13.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "13",
+  "x_country": "Thailand"
+ },
+ "ECU": {
+  "value": 12.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "12",
+  "x_country": "Ecuador"
+ },
+ "KHM": {
+  "value": 11.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "11",
+  "x_country": "Cambodia"
+ },
+ "IRN": {
+  "value": 9.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "9",
+  "x_country": "Iran"
+ },
+ "ARG": {
+  "value": 8.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "8",
+  "x_country": "Argentina"
+ },
+ "MMR": {
+  "value": 8.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "8",
+  "x_country": "Myanmar"
+ },
+ "BGD": {
+  "value": 7.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "7",
+  "x_country": "Bangladesh"
+ },
+ "KEN": {
+  "value": 6.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "6",
+  "x_country": "Kenya"
+ },
+ "LBR": {
+  "value": 6.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "6",
+  "x_country": "Liberia"
+ },
+ "ZAF": {
+  "value": 6.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "6",
+  "x_country": "South Africa"
+ },
+ "TCD": {
+  "value": 5.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "5",
+  "x_country": "Chad"
+ },
+ "CHL": {
+  "value": 5.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "5",
+  "x_country": "Chile"
+ },
+ "PAK": {
+  "value": 5.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "5",
+  "x_country": "Pakistan"
+ },
+ "PAN": {
+  "value": 5.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "5",
+  "x_country": "Panama"
+ },
+ "RUS": {
+  "value": 5.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "5",
+  "x_country": "Russia"
+ },
+ "UGA": {
+  "value": 5.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "5",
+  "x_country": "Uganda"
+ },
+ "CRI": {
+  "value": 4.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "4",
+  "x_country": "Costa Rica"
+ },
+ "DOM": {
+  "value": 4.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "4",
+  "x_country": "Dominican Republic"
+ },
+ "PNG": {
+  "value": 4.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "4",
+  "x_country": "Papua New Guinea"
+ },
+ "TZA": {
+  "value": 4.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "4",
+  "x_country": "Tanzania"
+ },
+ "TUR": {
+  "value": 4.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "4",
+  "x_country": "Türkiye"
+ },
+ "UKR": {
+  "value": 4.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "4",
+  "x_country": "Ukraine"
+ },
+ "KAZ": {
+  "value": 3.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "3",
+  "x_country": "Kazakhstan"
+ },
+ "MDG": {
+  "value": 3.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "3",
+  "x_country": "Madagascar"
+ },
+ "BOL": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Bolivia"
+ },
+ "BFA": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Burkina Faso"
+ },
+ "CMR": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Cameroon"
+ },
+ "FRA": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "France"
+ },
+ "GMB": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Gambia"
+ },
+ "GHA": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Ghana"
+ },
+ "ROU": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Romania"
+ },
+ "ESP": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "Spain"
+ },
+ "USA": {
+  "value": 2.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "2",
+  "x_country": "United States of America"
+ },
+ "AUS": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Australia"
+ },
+ "CAN": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Canada"
+ },
+ "GAB": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Gabon"
+ },
+ "IRQ": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Iraq"
+ },
+ "IRL": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Ireland"
+ },
+ "KIR": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Kiribati"
+ },
+ "LAO": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Laos"
+ },
+ "MWI": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Malawi"
+ },
+ "MYS": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Malaysia"
+ },
+ "MOZ": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Mozambique"
+ },
+ "NPL": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Nepal"
+ },
+ "RWA": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Rwanda"
+ },
+ "SAU": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Saudi Arabia"
+ },
+ "SEN": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Senegal"
+ },
+ "LKA": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Sri Lanka"
+ },
+ "VNM": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Vietnam"
+ },
+ "ZMB": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Zambia"
+ },
+ "ZWE": {
+  "value": 1.0,
+  "unit": "defenders killed or disappeared",
+  "x_killed or disappeared, 2012 to the latest year (Global Witness chart)": "1",
+  "x_country": "Zimbabwe"
+ }
+}

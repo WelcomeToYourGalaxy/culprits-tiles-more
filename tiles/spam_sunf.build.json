@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "SUNF"
+ ],
+ "hectares": 27897128.0,
+ "to_zoom": 5,
+ "squares": 212,
+ "bytes": 495786,
+ "how": "max"
+}

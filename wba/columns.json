@@ -1,0 +1,294 @@
+{
+ "benchmarks": [
+  {
+   "name": "benchmark_score_id",
+   "title": "Benchmark Score ID",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_id",
+   "title": "Company ID",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_name",
+   "title": "Company Name",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_ownership",
+   "title": "Company Ownership",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_isin",
+   "title": "Company ISIN",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_lei",
+   "title": "Company LEI",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_location_hq_country_iso",
+   "title": "Company Location HQ Country ISO",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_location_hq_region",
+   "title": "Company Location HQ Region",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_location_hq_country_name",
+   "title": "Company Location HQ Country Name",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_industry_isic",
+   "title": "Company Industry ISIC",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_wba_industry",
+   "title": "Company WBA Industry",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_location_oecd",
+   "title": "Company Location OECD",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_g20",
+   "title": "Company Location G20",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_g7",
+   "title": "Company Location G7",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_eu",
+   "title": "Company Location EU",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "transformation_id",
+   "title": "Transformation ID",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "transformation_name",
+   "title": "Transformation Name",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "benchmark_id",
+   "title": "Benchmark ID",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "benchmark_name",
+   "title": "Benchmark Name",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "methodology_id",
+   "title": "Methodology ID",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "methodology_code",
+   "title": "Methodology Code",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "methodology_name",
+   "title": "Methodology Name",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "methodology_year",
+   "title": "Methodology Year",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "benchmark_score_numerical",
+   "title": "Benchmark Score Numerical",
+   "type": "Decimal",
+   "display": true
+  },
+  {
+   "name": "benchmark_score_categorical",
+   "title": "Benchmark Score Categorical",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "updated",
+   "title": "Updated",
+   "type": "datetime",
+   "display": false
+  }
+ ],
+ "companies": [
+  {
+   "name": "created_time",
+   "title": "Created Time",
+   "type": "datetime",
+   "display": false
+  },
+  {
+   "name": "company_id",
+   "title": "Company ID",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_name",
+   "title": "Company Name",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_website",
+   "title": "Company Website",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_full_name",
+   "title": "Company Full Name",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_ownership",
+   "title": "Company Ownership",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_wba_industry",
+   "title": "Company WBA Industry",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_assessment_years",
+   "title": "Company Assessment Years",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_isin",
+   "title": "Company ISIN",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_lei",
+   "title": "Company LEI",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_wikidata_qid",
+   "title": "Company Wikidata QID",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_location_hq_region",
+   "title": "Company Location HQ Region",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_location_hq_country_iso",
+   "title": "Company Location HQ Country ISO",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_location_hq_country_name",
+   "title": "Company Location HQ Country Name",
+   "type": "str",
+   "display": true
+  },
+  {
+   "name": "company_industry_isic",
+   "title": "Company Industry ISIC",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "company_location_oecd",
+   "title": "Company Location OECD",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_g20",
+   "title": "Company Location G20",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_g7",
+   "title": "Company Location G7",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_eu",
+   "title": "Company Location EU",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_location_paris_aligned",
+   "title": "Company Location Paris Aligned",
+   "type": "bool",
+   "display": false
+  },
+  {
+   "name": "company_wba_website_url",
+   "title": "Company WBA Website URL",
+   "type": "str",
+   "display": false
+  },
+  {
+   "name": "updated",
+   "title": "Updated",
+   "type": "datetime",
+   "display": false
+  }
+ ]
+}

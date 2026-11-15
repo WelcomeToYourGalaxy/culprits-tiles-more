@@ -1,0 +1,41 @@
+{
+ "read": "2026-11-15",
+ "platforms": 6340,
+ "kinds": {
+  "gas": 141,
+  "oil": 1147,
+  "not stated": 3616,
+  "oil and gas": 1399,
+  "wind": 37
+ },
+ "slices_not_answered": [
+  {
+   "slice": "-90,-150,-60,-120",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  {
+   "slice": "-90,0,-60,30",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  {
+   "slice": "-60,90,-30,120",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "slice": "0,-180,30,-150",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "slice": "0,-30,30,0",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  {
+   "slice": "60,30,90,60",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  {
+   "slice": "60,60,90,90",
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+  }
+ ]
+}

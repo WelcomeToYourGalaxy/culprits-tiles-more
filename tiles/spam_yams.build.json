@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "YAMS"
+ ],
+ "hectares": 6122150.5,
+ "to_zoom": 5,
+ "squares": 95,
+ "bytes": 198669,
+ "how": "max"
+}

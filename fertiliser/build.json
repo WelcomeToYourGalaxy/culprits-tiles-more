@@ -1,0 +1,39 @@
+{
+ "built": "2026-10-08 21:10 UTC",
+ "file": "FUBC_1_to_9_data.csv",
+ "address": "fertiliser/download (uploaded by hand): FUBC_1_to_9_data.csv",
+ "licence": "as on the Dryad page (the copy uploaded by hand)",
+ "columns": [
+  "Original_country_name_in_FUBC_report",
+  "Country",
+  "ISO3_code",
+  "Region_IFA",
+  "Year",
+  "FUBC_report_number",
+  "Year_FUBC_publication",
+  "Crop",
+  "Crop_area_k_ha",
+  "N_k_t",
+  "P2O5_k_t",
+  "K2O_k_t",
+  "N_P2O5_K2O_k_t",
+  "N_rate_kg_ha",
+  "P2O5_rate_kg_ha",
+  "K2O_rate_kg_ha",
+  "N_pc_fert",
+  "P2O5_pc_fert",
+  "K2O_pc_fert",
+  "Aver_N_rate_kg_ha",
+  "Aver_P2O5_rate_kg_ha",
+  "Aver_K2O_rate_kg_ha",
+  "Aver_N_P2O5_K2O_rate_kg_ha"
+ ],
+ "used": {
+  "crop": "Crop",
+  "nitrogen": "N_k_t",
+  "iso": "ISO3_code",
+  "country": "Country"
+ },
+ "countries": 111,
+ "not placed": []
+}

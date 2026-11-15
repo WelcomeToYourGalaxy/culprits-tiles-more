@@ -1,0 +1,39 @@
+[
+ {
+  "key": "global-catch-data/",
+  "size": 0
+ },
+ {
+  "key": "global-catch-data/csv/",
+  "size": 0
+ },
+ {
+  "key": "global-catch-data/csv/rfmo_12.csv",
+  "size": 203326590,
+  "columns": [
+   "rfmo_id",
+   "rfmo_name",
+   "layer_name",
+   "year",
+   "scientific_name",
+   "common_name",
+   "functional_group",
+   "commercial_group",
+   "fishing_entity",
+   "sector_type",
+   "catch_status",
+   "reporting_status",
+   "gear_name",
+   "catch_sum",
+   "real_value"
+  ]
+ },
+ {
+  "key": "spatial-catch-maps/",
+  "size": 0
+ },
+ {
+  "key": "spatial-catch-maps/csv/",
+  "size": 0
+ }
+]

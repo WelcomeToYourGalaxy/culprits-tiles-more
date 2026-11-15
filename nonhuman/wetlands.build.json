@@ -1,0 +1,164 @@
+{
+ "files in the record": [
+  "wetland_loss.zip"
+ ],
+ "version": "1.01",
+ "bands found": 4158,
+ "with a year": 4158,
+ "examples": [
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 1,
+   "year": 1700,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1700\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 2,
+   "year": 1710,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1710\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 3,
+   "year": 1720,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1720\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 4,
+   "year": 1730,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1730\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 5,
+   "year": 1740,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1740\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 6,
+   "year": 1750,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1750\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 7,
+   "year": 1760,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1760\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 8,
+   "year": 1770,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1770\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 9,
+   "year": 1780,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1780\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 10,
+   "year": 1790,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1790\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 11,
+   "year": 1800,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1800\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 12,
+   "year": 1810,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1810\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 13,
+   "year": 1820,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1820\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 14,
+   "year": 1830,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1830\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 15,
+   "year": 1840,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1840\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 16,
+   "year": 1850,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1850\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 17,
+   "year": 1860,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1860\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 18,
+   "year": 1870,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1870\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 19,
+   "year": 1880,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1880\"} wetland_loss_1",
+   "units": "km^2"
+  },
+  {
+   "path": "netcdf:\"/home/runner/work/_temp/wetlands/unzipped/grid_ncdf/ensemblemean/wetland_loss_1700-2020_ensemblemean_v10.nc\":wetland_loss",
+   "band": 20,
+   "year": 1890,
+   "label": " {\"NETCDF_VARNAME\": \"wetland_loss\", \"units\": \"km^2\", \"_FillValue\": \"-999\", \"long_name\": \"Cumulative wetland area lost (equivalent to cumulative drained area\", \"NETCDF_DIM_Time\": \"1890\"} wetland_loss_1",
+   "units": "km^2"
+  }
+ ],
+ "complete": true,
+ "variables": [
+  "wetland_loss",
+  "wetland_area",
+  "cropland",
+  "forestry",
+  "peatextr",
+  "wetcultiv",
+  "ir_rice",
+  "pasture",
+  "urban"
+ ],
+ "failed": false,
+ "made": "2026-10-17T05:10:35Z"
+}

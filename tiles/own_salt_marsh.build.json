@@ -1,0 +1,35 @@
+{
+ "read": "2026-10-05",
+ "source": "Campbell, Fatoyinbo and Goldberg 2022, Global Salt Marsh Change 2000-2019, ORNL DAAC, doi:10.3334/ORNLDAAC/2122",
+ "collection": "C2575421513-ORNL_CLOUD",
+ "files": [
+  "https://data.ornldaac.earthdata.nasa.gov/protected/cms/Global_Salt_Marsh_Change/data/sm_gain.tif",
+  "https://data.ornldaac.earthdata.nasa.gov/protected/cms/Global_Salt_Marsh_Change/data/sm_loss.tif"
+ ],
+ "coastal_squares": 15649,
+ "loss_bytes": 8633311579,
+ "loss": {
+  "values_seen": [
+   0,
+   2000,
+   2005,
+   2010,
+   2015
+  ],
+  "squares_read": 11354,
+  "cells": 168052
+ },
+ "gain_bytes": 8630895215,
+ "gain": {
+  "values_seen": [
+   0,
+   2000,
+   2005,
+   2010,
+   2015
+  ],
+  "squares_read": 11354,
+  "cells": 93379
+ },
+ "built": true
+}

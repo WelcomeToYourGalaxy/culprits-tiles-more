@@ -1,0 +1,14 @@
+{
+ "choices": [
+  {
+   "label": "2020",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/own_mangroves.pmtiles",
+   "key": [
+    [
+     "#3FC0C9",
+     "mangrove anywhere under the pixel"
+    ]
+   ]
+  }
+ ]
+}

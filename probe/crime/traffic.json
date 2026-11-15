@@ -1,0 +1,22 @@
+{
+ "pages": {
+  "https://www.wildlifetradeportal.org/about": {
+   "final": "https://www.wildlifetradeportal.org/about",
+   "text": "",
+   "scripts": [],
+   "calls": []
+  },
+  "https://www.wildlifetradeportal.org/terms": {
+   "error": "HTTP Error 404: Not Found"
+  },
+  "https://www.wildlifetradeportal.org/terms-of-use": {
+   "error": "HTTP Error 404: Not Found"
+  },
+  "https://www.wildlifetradeportal.org/": {
+   "final": "https://www.wildlifetradeportal.org/",
+   "text": "",
+   "scripts": [],
+   "calls": []
+  }
+ }
+}

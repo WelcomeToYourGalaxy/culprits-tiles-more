@@ -1,0 +1,1293 @@
+{
+"AFG": {
+"country": "Afghanistan",
+"x_rate per 100,000, 2021": 4.03,
+"rate": 4.03,
+"year": 2021,
+"x_rate per 100,000, 2020": 6.58,
+"x_rate per 100,000, 2019": 7.16
+},
+"ALB": {
+"country": "Albania",
+"x_rate per 100,000, 2023": 1.39,
+"rate": 1.39,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.7,
+"x_rate per 100,000, 2021": 2.32,
+"x_rate per 100,000, 2020": 2.12,
+"x_rate per 100,000, 2019": 2.25
+},
+"DZA": {
+"country": "Algeria",
+"x_rate per 100,000, 2023": 1.16,
+"rate": 1.16,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.75,
+"x_rate per 100,000, 2021": 1.55,
+"x_rate per 100,000, 2020": 1.48,
+"x_rate per 100,000, 2019": 1.2
+},
+"AND": {
+"country": "Andorra",
+"x_rate per 100,000, 2020": 2.58,
+"rate": 2.58,
+"year": 2020
+},
+"ATG": {
+"country": "Antigua and Barbuda",
+"x_rate per 100,000, 2023": 10.72,
+"rate": 10.72,
+"year": 2023,
+"x_rate per 100,000, 2022": 10.77,
+"x_rate per 100,000, 2021": 17.33,
+"x_rate per 100,000, 2020": 9.8,
+"x_rate per 100,000, 2019": 3.28
+},
+"ARG": {
+"country": "Argentina",
+"x_rate per 100,000, 2023": 4.49,
+"rate": 4.49,
+"year": 2023,
+"x_rate per 100,000, 2022": 4.31,
+"x_rate per 100,000, 2021": 4.62,
+"x_rate per 100,000, 2020": 5.35,
+"x_rate per 100,000, 2019": 5.13
+},
+"ARM": {
+"country": "Armenia",
+"x_rate per 100,000, 2023": 2.21,
+"rate": 2.21,
+"year": 2023,
+"x_rate per 100,000, 2022": 2.74,
+"x_rate per 100,000, 2021": 3.14,
+"x_rate per 100,000, 2020": 2.59,
+"x_rate per 100,000, 2019": 2.51
+},
+"AUS": {
+"country": "Australia",
+"x_rate per 100,000, 2023": 0.85,
+"rate": 0.85,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.84,
+"x_rate per 100,000, 2021": 0.74,
+"x_rate per 100,000, 2020": 0.86,
+"x_rate per 100,000, 2019": 0.88
+},
+"AUT": {
+"country": "Austria",
+"x_rate per 100,000, 2023": 0.88,
+"rate": 0.88,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.87,
+"x_rate per 100,000, 2021": 0.72,
+"x_rate per 100,000, 2020": 0.73,
+"x_rate per 100,000, 2019": 0.87
+},
+"AZE": {
+"country": "Azerbaijan",
+"x_rate per 100,000, 2023": 2.16,
+"rate": 2.16,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.79,
+"x_rate per 100,000, 2021": 1.7,
+"x_rate per 100,000, 2020": 2.15,
+"x_rate per 100,000, 2019": 1.66
+},
+"BHS": {
+"country": "Bahamas, The",
+"x_rate per 100,000, 2022": 32.2,
+"rate": 32.2,
+"year": 2022,
+"x_rate per 100,000, 2021": 30.02,
+"x_rate per 100,000, 2020": 18.44,
+"x_rate per 100,000, 2019": 24.07
+},
+"BHR": {
+"country": "Bahrain",
+"x_rate per 100,000, 2022": 0.2,
+"rate": 0.2,
+"year": 2022,
+"x_rate per 100,000, 2021": 0.07,
+"x_rate per 100,000, 2019": 0.27
+},
+"BRB": {
+"country": "Barbados",
+"x_rate per 100,000, 2023": 7.44,
+"rate": 7.44,
+"year": 2023,
+"x_rate per 100,000, 2022": 15.23,
+"x_rate per 100,000, 2021": 11.34,
+"x_rate per 100,000, 2020": 14.55,
+"x_rate per 100,000, 2019": 17.07
+},
+"BLR": {
+"country": "Belarus",
+"x_rate per 100,000, 2019": 2.38,
+"rate": 2.38,
+"year": 2019
+},
+"BEL": {
+"country": "Belgium",
+"x_rate per 100,000, 2021": 1.08,
+"rate": 1.08,
+"year": 2021
+},
+"BLZ": {
+"country": "Belize",
+"x_rate per 100,000, 2022": 28.06,
+"rate": 28.06,
+"year": 2022,
+"x_rate per 100,000, 2021": 31.62,
+"x_rate per 100,000, 2020": 26.1,
+"x_rate per 100,000, 2019": 34.73
+},
+"BMU": {
+"country": "Bermuda",
+"x_rate per 100,000, 2023": 6.18,
+"rate": 6.18,
+"year": 2023,
+"x_rate per 100,000, 2022": 13.9,
+"x_rate per 100,000, 2021": 10.83,
+"x_rate per 100,000, 2020": 10.87
+},
+"BTN": {
+"country": "Bhutan",
+"x_rate per 100,000, 2020": 2.47,
+"rate": 2.47,
+"year": 2020,
+"x_rate per 100,000, 2019": 1.05
+},
+"BOL": {
+"country": "Bolivia",
+"x_rate per 100,000, 2023": 4.42,
+"rate": 4.42,
+"year": 2023,
+"x_rate per 100,000, 2022": 4.02,
+"x_rate per 100,000, 2021": 3.5,
+"x_rate per 100,000, 2020": 3.62,
+"x_rate per 100,000, 2019": 4.26
+},
+"BIH": {
+"country": "Bosnia and Herzegovina",
+"x_rate per 100,000, 2023": 1.22,
+"rate": 1.22,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.09,
+"x_rate per 100,000, 2021": 0.99,
+"x_rate per 100,000, 2020": 1.3,
+"x_rate per 100,000, 2019": 1.26
+},
+"BWA": {
+"country": "Botswana",
+"x_rate per 100,000, 2021": 11.37,
+"rate": 11.37,
+"year": 2021,
+"x_rate per 100,000, 2020": 9.34
+},
+"BRA": {
+"country": "Brazil",
+"x_rate per 100,000, 2023": 19.28,
+"rate": 19.28,
+"year": 2023,
+"x_rate per 100,000, 2022": 20.08,
+"x_rate per 100,000, 2021": 20.5,
+"x_rate per 100,000, 2020": 21.81,
+"x_rate per 100,000, 2019": 21.24
+},
+"BGR": {
+"country": "Bulgaria",
+"x_rate per 100,000, 2023": 1.09,
+"rate": 1.09,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.11,
+"x_rate per 100,000, 2021": 1.29,
+"x_rate per 100,000, 2020": 1.0,
+"x_rate per 100,000, 2019": 1.19
+},
+"CPV": {
+"country": "Cabo Verde",
+"x_rate per 100,000, 2020": 6.99,
+"rate": 6.99,
+"year": 2020,
+"x_rate per 100,000, 2019": 6.42
+},
+"CMR": {
+"country": "Cameroon",
+"x_rate per 100,000, 2022": 6.76,
+"rate": 6.76,
+"year": 2022,
+"x_rate per 100,000, 2020": 4.59
+},
+"CAN": {
+"country": "Canada",
+"x_rate per 100,000, 2023": 1.98,
+"rate": 1.98,
+"year": 2023,
+"x_rate per 100,000, 2022": 2.27,
+"x_rate per 100,000, 2021": 2.08,
+"x_rate per 100,000, 2020": 2.0,
+"x_rate per 100,000, 2019": 1.82
+},
+"CYM": {
+"country": "Cayman Islands",
+"x_rate per 100,000, 2020": 4.37,
+"rate": 4.37,
+"year": 2020,
+"x_rate per 100,000, 2019": 2.97
+},
+"CHL": {
+"country": "Chile",
+"x_rate per 100,000, 2023": 6.35,
+"rate": 6.35,
+"year": 2023,
+"x_rate per 100,000, 2022": 6.8,
+"x_rate per 100,000, 2021": 4.66,
+"x_rate per 100,000, 2020": 5.76,
+"x_rate per 100,000, 2019": 4.81
+},
+"CHN": {
+"country": "China",
+"x_rate per 100,000, 2020": 0.5,
+"rate": 0.5,
+"year": 2020,
+"x_rate per 100,000, 2019": 0.52
+},
+"COL": {
+"country": "Colombia",
+"x_rate per 100,000, 2023": 24.91,
+"rate": 24.91,
+"year": 2023,
+"x_rate per 100,000, 2022": 24.95,
+"x_rate per 100,000, 2021": 25.58,
+"x_rate per 100,000, 2020": 22.64,
+"x_rate per 100,000, 2019": 23.4
+},
+"CRI": {
+"country": "Costa Rica",
+"x_rate per 100,000, 2023": 17.75,
+"rate": 17.75,
+"year": 2023,
+"x_rate per 100,000, 2022": 12.91,
+"x_rate per 100,000, 2021": 11.62,
+"x_rate per 100,000, 2020": 11.32,
+"x_rate per 100,000, 2019": 11.26
+},
+"HRV": {
+"country": "Croatia",
+"x_rate per 100,000, 2023": 0.67,
+"rate": 0.67,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.79,
+"x_rate per 100,000, 2021": 0.84,
+"x_rate per 100,000, 2020": 1.01,
+"x_rate per 100,000, 2019": 0.83
+},
+"CUB": {
+"country": "Cuba",
+"x_rate per 100,000, 2019": 4.46,
+"rate": 4.46,
+"year": 2019
+},
+"CYP": {
+"country": "Cyprus",
+"x_rate per 100,000, 2023": 0.82,
+"rate": 0.82,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.6,
+"x_rate per 100,000, 2021": 1.21,
+"x_rate per 100,000, 2020": 1.15,
+"x_rate per 100,000, 2019": 1.17
+},
+"CZE": {
+"country": "Czechia",
+"x_rate per 100,000, 2023": 0.77,
+"rate": 0.77,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.82,
+"x_rate per 100,000, 2021": 0.45,
+"x_rate per 100,000, 2020": 0.73,
+"x_rate per 100,000, 2019": 0.86
+},
+"DNK": {
+"country": "Denmark",
+"x_rate per 100,000, 2023": 0.84,
+"rate": 0.84,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.98,
+"x_rate per 100,000, 2021": 0.63,
+"x_rate per 100,000, 2020": 0.82,
+"x_rate per 100,000, 2019": 0.86
+},
+"DMA": {
+"country": "Dominica",
+"x_rate per 100,000, 2023": 27.06,
+"rate": 27.06,
+"year": 2023,
+"x_rate per 100,000, 2022": 28.43,
+"x_rate per 100,000, 2021": 14.88,
+"x_rate per 100,000, 2020": 22.2,
+"x_rate per 100,000, 2019": 19.15
+},
+"DOM": {
+"country": "Dominican Republic",
+"x_rate per 100,000, 2023": 10.92,
+"rate": 10.92,
+"year": 2023,
+"x_rate per 100,000, 2022": 12.37,
+"x_rate per 100,000, 2021": 10.54,
+"x_rate per 100,000, 2020": 8.73,
+"x_rate per 100,000, 2019": 9.42
+},
+"ECU": {
+"country": "Ecuador",
+"x_rate per 100,000, 2023": 45.72,
+"rate": 45.72,
+"year": 2023,
+"x_rate per 100,000, 2022": 27.41,
+"x_rate per 100,000, 2021": 14.12,
+"x_rate per 100,000, 2020": 7.82,
+"x_rate per 100,000, 2019": 6.85
+},
+"SLV": {
+"country": "El Salvador",
+"x_rate per 100,000, 2022": 7.9,
+"rate": 7.9,
+"year": 2022,
+"x_rate per 100,000, 2021": 17.34,
+"x_rate per 100,000, 2020": 21.51,
+"x_rate per 100,000, 2019": 38.54
+},
+"EST": {
+"country": "Estonia",
+"x_rate per 100,000, 2023": 1.54,
+"rate": 1.54,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.48,
+"x_rate per 100,000, 2021": 1.95,
+"x_rate per 100,000, 2020": 3.16,
+"x_rate per 100,000, 2019": 1.96
+},
+"SWZ": {
+"country": "Eswatini",
+"x_rate per 100,000, 2021": 12.51,
+"rate": 12.51,
+"year": 2021
+},
+"FJI": {
+"country": "Fiji",
+"x_rate per 100,000, 2023": 2.06,
+"rate": 2.06,
+"year": 2023,
+"x_rate per 100,000, 2022": 3.92,
+"x_rate per 100,000, 2021": 1.75,
+"x_rate per 100,000, 2020": 2.95
+},
+"FIN": {
+"country": "Finland",
+"x_rate per 100,000, 2023": 0.98,
+"rate": 0.98,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.24,
+"x_rate per 100,000, 2021": 1.28,
+"x_rate per 100,000, 2020": 1.75,
+"x_rate per 100,000, 2019": 1.47
+},
+"FRA": {
+"country": "France",
+"x_rate per 100,000, 2023": 1.34,
+"rate": 1.34,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.24,
+"x_rate per 100,000, 2021": 1.11,
+"x_rate per 100,000, 2020": 1.05,
+"x_rate per 100,000, 2019": 1.15
+},
+"GEO": {
+"country": "Georgia",
+"x_rate per 100,000, 2019": 2.03,
+"rate": 2.03,
+"year": 2019
+},
+"DEU": {
+"country": "Germany",
+"x_rate per 100,000, 2023": 0.91,
+"rate": 0.91,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.82,
+"x_rate per 100,000, 2021": 0.83,
+"x_rate per 100,000, 2020": 0.94,
+"x_rate per 100,000, 2019": 0.75
+},
+"GHA": {
+"country": "Ghana",
+"x_rate per 100,000, 2022": 1.83,
+"rate": 1.83,
+"year": 2022,
+"x_rate per 100,000, 2021": 1.85,
+"x_rate per 100,000, 2020": 1.74,
+"x_rate per 100,000, 2019": 1.83
+},
+"GRC": {
+"country": "Greece",
+"x_rate per 100,000, 2023": 0.84,
+"rate": 0.84,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.12,
+"x_rate per 100,000, 2021": 0.84,
+"x_rate per 100,000, 2020": 0.73,
+"x_rate per 100,000, 2019": 0.73
+},
+"GRD": {
+"country": "Grenada",
+"x_rate per 100,000, 2023": 13.67,
+"rate": 13.67,
+"year": 2023,
+"x_rate per 100,000, 2022": 6.84,
+"x_rate per 100,000, 2021": 4.28,
+"x_rate per 100,000, 2020": 12.03,
+"x_rate per 100,000, 2019": 13.8
+},
+"GUM": {
+"country": "Guam",
+"x_rate per 100,000, 2019": 4.33,
+"rate": 4.33,
+"year": 2019
+},
+"GTM": {
+"country": "Guatemala",
+"x_rate per 100,000, 2023": 23.37,
+"rate": 23.37,
+"year": 2023,
+"x_rate per 100,000, 2022": 22.05,
+"x_rate per 100,000, 2021": 20.25,
+"x_rate per 100,000, 2020": 18.19,
+"x_rate per 100,000, 2019": 25.94
+},
+"GUY": {
+"country": "Guyana",
+"x_rate per 100,000, 2023": 19.12,
+"rate": 19.12,
+"year": 2023,
+"x_rate per 100,000, 2022": 15.94,
+"x_rate per 100,000, 2021": 16.06,
+"x_rate per 100,000, 2020": 19.44,
+"x_rate per 100,000, 2019": 16.84
+},
+"HTI": {
+"country": "Haiti",
+"x_rate per 100,000, 2023": 41.15,
+"rate": 41.15,
+"year": 2023,
+"x_rate per 100,000, 2022": 18.98,
+"x_rate per 100,000, 2021": 14.2,
+"x_rate per 100,000, 2020": 11.38
+},
+"HND": {
+"country": "Honduras",
+"x_rate per 100,000, 2023": 31.44,
+"rate": 31.44,
+"year": 2023,
+"x_rate per 100,000, 2022": 34.97,
+"x_rate per 100,000, 2021": 38.2,
+"x_rate per 100,000, 2020": 35.7,
+"x_rate per 100,000, 2019": 41.01
+},
+"HKG": {
+"country": "Hong Kong SAR, China",
+"x_rate per 100,000, 2023": 0.38,
+"rate": 0.38,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.4,
+"x_rate per 100,000, 2021": 0.31,
+"x_rate per 100,000, 2020": 0.29,
+"x_rate per 100,000, 2019": 0.32
+},
+"HUN": {
+"country": "Hungary",
+"x_rate per 100,000, 2023": 0.72,
+"rate": 0.72,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.97,
+"x_rate per 100,000, 2021": 0.77,
+"x_rate per 100,000, 2020": 0.82,
+"x_rate per 100,000, 2019": 0.67
+},
+"ISL": {
+"country": "Iceland",
+"x_rate per 100,000, 2023": 1.29,
+"rate": 1.29,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.05,
+"x_rate per 100,000, 2021": 0.54,
+"x_rate per 100,000, 2020": 1.36,
+"x_rate per 100,000, 2019": 0.28
+},
+"IND": {
+"country": "India",
+"x_rate per 100,000, 2022": 2.82,
+"rate": 2.82,
+"year": 2022,
+"x_rate per 100,000, 2021": 2.92,
+"x_rate per 100,000, 2020": 2.94,
+"x_rate per 100,000, 2019": 2.95
+},
+"IDN": {
+"country": "Indonesia",
+"x_rate per 100,000, 2022": 0.3,
+"rate": 0.3,
+"year": 2022
+},
+"IRL": {
+"country": "Ireland",
+"x_rate per 100,000, 2023": 0.65,
+"rate": 0.65,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.86,
+"x_rate per 100,000, 2021": 0.44,
+"x_rate per 100,000, 2020": 0.62,
+"x_rate per 100,000, 2019": 0.65
+},
+"ISR": {
+"country": "Israel",
+"x_rate per 100,000, 2022": 1.63,
+"rate": 1.63,
+"year": 2022,
+"x_rate per 100,000, 2021": 1.93,
+"x_rate per 100,000, 2020": 1.67,
+"x_rate per 100,000, 2019": 1.64
+},
+"ITA": {
+"country": "Italy",
+"x_rate per 100,000, 2023": 0.57,
+"rate": 0.57,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.54,
+"x_rate per 100,000, 2021": 0.51,
+"x_rate per 100,000, 2020": 0.48,
+"x_rate per 100,000, 2019": 0.53
+},
+"JAM": {
+"country": "Jamaica",
+"x_rate per 100,000, 2023": 49.44,
+"rate": 49.44,
+"year": 2023,
+"x_rate per 100,000, 2022": 53.11,
+"x_rate per 100,000, 2021": 51.94,
+"x_rate per 100,000, 2020": 47.09,
+"x_rate per 100,000, 2019": 47.46
+},
+"JPN": {
+"country": "Japan",
+"x_rate per 100,000, 2023": 0.23,
+"rate": 0.23,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.23,
+"x_rate per 100,000, 2021": 0.23,
+"x_rate per 100,000, 2020": 0.25,
+"x_rate per 100,000, 2019": 0.25
+},
+"JOR": {
+"country": "Jordan",
+"x_rate per 100,000, 2023": 0.99,
+"rate": 0.99,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.12,
+"x_rate per 100,000, 2021": 1.03,
+"x_rate per 100,000, 2020": 0.99,
+"x_rate per 100,000, 2019": 1.14
+},
+"KAZ": {
+"country": "Kazakhstan",
+"x_rate per 100,000, 2022": 2.55,
+"rate": 2.55,
+"year": 2022,
+"x_rate per 100,000, 2021": 2.85,
+"x_rate per 100,000, 2020": 3.11
+},
+"KEN": {
+"country": "Kenya",
+"x_rate per 100,000, 2022": 4.87,
+"rate": 4.87,
+"year": 2022,
+"x_rate per 100,000, 2021": 5.25,
+"x_rate per 100,000, 2020": 3.56,
+"x_rate per 100,000, 2019": 3.08
+},
+"KOR": {
+"country": "Korea, Rep.",
+"x_rate per 100,000, 2023": 0.48,
+"rate": 0.48,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.5,
+"x_rate per 100,000, 2021": 0.47,
+"x_rate per 100,000, 2020": 0.59,
+"x_rate per 100,000, 2019": 0.57
+},
+"XKX": {
+"country": "Kosovo",
+"x_rate per 100,000, 2021": 1.89,
+"rate": 1.89,
+"year": 2021,
+"x_rate per 100,000, 2020": 2.11,
+"x_rate per 100,000, 2019": 1.37
+},
+"KWT": {
+"country": "Kuwait",
+"x_rate per 100,000, 2020": 0.25,
+"rate": 0.25,
+"year": 2020,
+"x_rate per 100,000, 2019": 0.36
+},
+"KGZ": {
+"country": "Kyrgyz Republic",
+"x_rate per 100,000, 2020": 1.75,
+"rate": 1.75,
+"year": 2020,
+"x_rate per 100,000, 2019": 2.2
+},
+"LVA": {
+"country": "Latvia",
+"x_rate per 100,000, 2023": 2.5,
+"rate": 2.5,
+"year": 2023,
+"x_rate per 100,000, 2022": 3.56,
+"x_rate per 100,000, 2021": 3.02,
+"x_rate per 100,000, 2020": 3.68,
+"x_rate per 100,000, 2019": 3.4
+},
+"LBN": {
+"country": "Lebanon",
+"x_rate per 100,000, 2020": 2.24,
+"rate": 2.24,
+"year": 2020,
+"x_rate per 100,000, 2019": 3.14
+},
+"LIE": {
+"country": "Liechtenstein",
+"x_rate per 100,000, 2021": 5.12,
+"rate": 5.12,
+"year": 2021,
+"x_rate per 100,000, 2020": 2.58,
+"x_rate per 100,000, 2019": 2.6
+},
+"LTU": {
+"country": "Lithuania",
+"x_rate per 100,000, 2023": 2.63,
+"rate": 2.63,
+"year": 2023,
+"x_rate per 100,000, 2022": 2.38,
+"x_rate per 100,000, 2021": 2.58,
+"x_rate per 100,000, 2020": 3.61,
+"x_rate per 100,000, 2019": 3.36
+},
+"LUX": {
+"country": "Luxembourg",
+"x_rate per 100,000, 2022": 1.53,
+"rate": 1.53,
+"year": 2022,
+"x_rate per 100,000, 2021": 0.62,
+"x_rate per 100,000, 2020": 0.48,
+"x_rate per 100,000, 2019": 0.64
+},
+"MAC": {
+"country": "Macao SAR, China",
+"x_rate per 100,000, 2023": 0.56,
+"rate": 0.56,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.28,
+"x_rate per 100,000, 2021": 0.43,
+"x_rate per 100,000, 2020": 0.29,
+"x_rate per 100,000, 2019": 0.3
+},
+"MYS": {
+"country": "Malaysia",
+"x_rate per 100,000, 2023": 0.73,
+"rate": 0.73,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.69,
+"x_rate per 100,000, 2021": 0.71,
+"x_rate per 100,000, 2020": 0.75,
+"x_rate per 100,000, 2019": 0.93
+},
+"MDV": {
+"country": "Maldives",
+"x_rate per 100,000, 2019": 0.62,
+"rate": 0.62,
+"year": 2019
+},
+"MLT": {
+"country": "Malta",
+"x_rate per 100,000, 2023": 0.56,
+"rate": 0.56,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.51,
+"x_rate per 100,000, 2021": 0.38,
+"x_rate per 100,000, 2020": 1.35,
+"x_rate per 100,000, 2019": 0.99
+},
+"MRT": {
+"country": "Mauritania",
+"x_rate per 100,000, 2020": 1.0,
+"rate": 1.0,
+"year": 2020,
+"x_rate per 100,000, 2019": 1.07
+},
+"MUS": {
+"country": "Mauritius",
+"x_rate per 100,000, 2022": 2.27,
+"rate": 2.27,
+"year": 2022,
+"x_rate per 100,000, 2021": 2.66,
+"x_rate per 100,000, 2020": 2.73,
+"x_rate per 100,000, 2019": 2.1
+},
+"MEX": {
+"country": "Mexico",
+"x_rate per 100,000, 2023": 24.86,
+"rate": 24.86,
+"year": 2023,
+"x_rate per 100,000, 2022": 25.88,
+"x_rate per 100,000, 2021": 27.97,
+"x_rate per 100,000, 2020": 29.0,
+"x_rate per 100,000, 2019": 29.15
+},
+"FSM": {
+"country": "Micronesia, Fed. Sts.",
+"x_rate per 100,000, 2019": 0.91,
+"rate": 0.91,
+"year": 2019
+},
+"MDA": {
+"country": "Moldova",
+"x_rate per 100,000, 2023": 2.54,
+"rate": 2.54,
+"year": 2023,
+"x_rate per 100,000, 2022": 2.47,
+"x_rate per 100,000, 2021": 2.18,
+"x_rate per 100,000, 2020": 3.03,
+"x_rate per 100,000, 2019": 3.89
+},
+"MNG": {
+"country": "Mongolia",
+"x_rate per 100,000, 2023": 5.92,
+"rate": 5.92,
+"year": 2023,
+"x_rate per 100,000, 2022": 5.97,
+"x_rate per 100,000, 2021": 6.17,
+"x_rate per 100,000, 2020": 6.23,
+"x_rate per 100,000, 2019": 6.34
+},
+"MNE": {
+"country": "Montenegro",
+"x_rate per 100,000, 2023": 0.79,
+"rate": 0.79,
+"year": 2023,
+"x_rate per 100,000, 2022": 2.6,
+"x_rate per 100,000, 2021": 2.48,
+"x_rate per 100,000, 2020": 2.96,
+"x_rate per 100,000, 2019": 3.76
+},
+"MAR": {
+"country": "Morocco",
+"x_rate per 100,000, 2023": 1.71,
+"rate": 1.71,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.66,
+"x_rate per 100,000, 2021": 1.94,
+"x_rate per 100,000, 2020": 2.93,
+"x_rate per 100,000, 2019": 2.77
+},
+"MMR": {
+"country": "Myanmar",
+"x_rate per 100,000, 2023": 2.58,
+"rate": 2.58,
+"year": 2023,
+"x_rate per 100,000, 2022": 3.9,
+"x_rate per 100,000, 2021": 28.66,
+"x_rate per 100,000, 2020": 2.96,
+"x_rate per 100,000, 2019": 2.89
+},
+"NAM": {
+"country": "Namibia",
+"x_rate per 100,000, 2021": 11.21,
+"rate": 11.21,
+"year": 2021,
+"x_rate per 100,000, 2020": 11.1,
+"x_rate per 100,000, 2019": 12.04
+},
+"NPL": {
+"country": "Nepal",
+"x_rate per 100,000, 2020": 2.13,
+"rate": 2.13,
+"year": 2020,
+"x_rate per 100,000, 2019": 1.95
+},
+"NLD": {
+"country": "Netherlands",
+"x_rate per 100,000, 2023": 0.69,
+"rate": 0.69,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.8,
+"x_rate per 100,000, 2021": 0.71,
+"x_rate per 100,000, 2020": 0.69,
+"x_rate per 100,000, 2019": 0.71
+},
+"NZL": {
+"country": "New Zealand",
+"x_rate per 100,000, 2022": 1.46,
+"rate": 1.46,
+"year": 2022,
+"x_rate per 100,000, 2021": 1.16,
+"x_rate per 100,000, 2020": 1.03,
+"x_rate per 100,000, 2019": 2.28
+},
+"NIC": {
+"country": "Nicaragua",
+"x_rate per 100,000, 2021": 11.35,
+"rate": 11.35,
+"year": 2021,
+"x_rate per 100,000, 2019": 7.94
+},
+"NGA": {
+"country": "Nigeria",
+"x_rate per 100,000, 2023": 15.75,
+"rate": 15.75,
+"year": 2023,
+"x_rate per 100,000, 2019": 21.1
+},
+"MKD": {
+"country": "North Macedonia",
+"x_rate per 100,000, 2023": 1.53,
+"rate": 1.53,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.98,
+"x_rate per 100,000, 2021": 0.76,
+"x_rate per 100,000, 2020": 0.59,
+"x_rate per 100,000, 2019": 1.21
+},
+"NOR": {
+"country": "Norway",
+"x_rate per 100,000, 2023": 0.72,
+"rate": 0.72,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.55,
+"x_rate per 100,000, 2021": 0.54,
+"x_rate per 100,000, 2020": 0.58,
+"x_rate per 100,000, 2019": 0.52
+},
+"OMN": {
+"country": "Oman",
+"x_rate per 100,000, 2023": 0.14,
+"rate": 0.14,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.25,
+"x_rate per 100,000, 2021": 0.24,
+"x_rate per 100,000, 2020": 0.31,
+"x_rate per 100,000, 2019": 0.5
+},
+"PAK": {
+"country": "Pakistan",
+"x_rate per 100,000, 2023": 4.33,
+"rate": 4.33,
+"year": 2023,
+"x_rate per 100,000, 2022": 4.08,
+"x_rate per 100,000, 2021": 3.79,
+"x_rate per 100,000, 2020": 3.55,
+"x_rate per 100,000, 2019": 3.47
+},
+"PAN": {
+"country": "Panama",
+"x_rate per 100,000, 2023": 11.71,
+"rate": 11.71,
+"year": 2023,
+"x_rate per 100,000, 2022": 11.34,
+"x_rate per 100,000, 2021": 12.66,
+"x_rate per 100,000, 2020": 11.65,
+"x_rate per 100,000, 2019": 11.33
+},
+"PRY": {
+"country": "Paraguay",
+"x_rate per 100,000, 2023": 6.78,
+"rate": 6.78,
+"year": 2023,
+"x_rate per 100,000, 2022": 7.57,
+"x_rate per 100,000, 2021": 7.85,
+"x_rate per 100,000, 2020": 7.28,
+"x_rate per 100,000, 2019": 8.5
+},
+"PER": {
+"country": "Peru",
+"x_rate per 100,000, 2021": 8.6,
+"rate": 8.6,
+"year": 2021,
+"x_rate per 100,000, 2020": 5.8,
+"x_rate per 100,000, 2019": 7.35
+},
+"PHL": {
+"country": "Philippines",
+"x_rate per 100,000, 2023": 4.35,
+"rate": 4.35,
+"year": 2023,
+"x_rate per 100,000, 2019": 4.3
+},
+"POL": {
+"country": "Poland",
+"x_rate per 100,000, 2023": 0.8,
+"rate": 0.8,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.7,
+"x_rate per 100,000, 2021": 0.72,
+"x_rate per 100,000, 2020": 0.7,
+"x_rate per 100,000, 2019": 0.66
+},
+"PRT": {
+"country": "Portugal",
+"x_rate per 100,000, 2022": 0.72,
+"rate": 0.72,
+"year": 2022,
+"x_rate per 100,000, 2021": 0.79,
+"x_rate per 100,000, 2020": 0.78,
+"x_rate per 100,000, 2019": 0.71
+},
+"PRI": {
+"country": "Puerto Rico (US)",
+"x_rate per 100,000, 2023": 14.59,
+"rate": 14.59,
+"year": 2023,
+"x_rate per 100,000, 2022": 17.65,
+"x_rate per 100,000, 2021": 19.43,
+"x_rate per 100,000, 2020": 16.97,
+"x_rate per 100,000, 2019": 19.25
+},
+"QAT": {
+"country": "Qatar",
+"x_rate per 100,000, 2022": 0.07,
+"rate": 0.07,
+"year": 2022,
+"x_rate per 100,000, 2021": 0.32,
+"x_rate per 100,000, 2020": 0.43,
+"x_rate per 100,000, 2019": 0.39
+},
+"ROU": {
+"country": "Romania",
+"x_rate per 100,000, 2023": 1.11,
+"rate": 1.11,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.29,
+"x_rate per 100,000, 2021": 1.27,
+"x_rate per 100,000, 2020": 1.45,
+"x_rate per 100,000, 2019": 1.25
+},
+"RUS": {
+"country": "Russian Federation",
+"x_rate per 100,000, 2021": 6.77,
+"rate": 6.77,
+"year": 2021,
+"x_rate per 100,000, 2020": 7.31,
+"x_rate per 100,000, 2019": 7.64
+},
+"RWA": {
+"country": "Rwanda",
+"x_rate per 100,000, 2020": 3.61,
+"rate": 3.61,
+"year": 2020,
+"x_rate per 100,000, 2019": 3.16
+},
+"SAU": {
+"country": "Saudi Arabia",
+"x_rate per 100,000, 2019": 0.94,
+"rate": 0.94,
+"year": 2019
+},
+"SRB": {
+"country": "Serbia",
+"x_rate per 100,000, 2023": 1.31,
+"rate": 1.31,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.09,
+"x_rate per 100,000, 2021": 1.13,
+"x_rate per 100,000, 2020": 1.22,
+"x_rate per 100,000, 2019": 1.26
+},
+"SYC": {
+"country": "Seychelles",
+"x_rate per 100,000, 2022": 7.97,
+"rate": 7.97,
+"year": 2022,
+"x_rate per 100,000, 2021": 4.07,
+"x_rate per 100,000, 2020": 7.48,
+"x_rate per 100,000, 2019": 8.5
+},
+"SLE": {
+"country": "Sierra Leone",
+"x_rate per 100,000, 2020": 2.22,
+"rate": 2.22,
+"year": 2020
+},
+"SGP": {
+"country": "Singapore",
+"x_rate per 100,000, 2023": 0.07,
+"rate": 0.07,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.12,
+"x_rate per 100,000, 2021": 0.11,
+"x_rate per 100,000, 2020": 0.18,
+"x_rate per 100,000, 2019": 0.21
+},
+"SVK": {
+"country": "Slovak Republic",
+"x_rate per 100,000, 2023": 1.12,
+"rate": 1.12,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.77,
+"x_rate per 100,000, 2021": 1.01,
+"x_rate per 100,000, 2020": 1.15,
+"x_rate per 100,000, 2019": 1.39
+},
+"SVN": {
+"country": "Slovenia",
+"x_rate per 100,000, 2023": 0.57,
+"rate": 0.57,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.61,
+"x_rate per 100,000, 2021": 0.43,
+"x_rate per 100,000, 2020": 0.52,
+"x_rate per 100,000, 2019": 0.67
+},
+"ZAF": {
+"country": "South Africa",
+"x_rate per 100,000, 2022": 43.72,
+"rate": 43.72,
+"year": 2022,
+"x_rate per 100,000, 2021": 40.94,
+"x_rate per 100,000, 2020": 32.98,
+"x_rate per 100,000, 2019": 35.79
+},
+"ESP": {
+"country": "Spain",
+"x_rate per 100,000, 2023": 0.69,
+"rate": 0.69,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.68,
+"x_rate per 100,000, 2021": 0.61,
+"x_rate per 100,000, 2020": 0.69,
+"x_rate per 100,000, 2019": 0.7
+},
+"LKA": {
+"country": "Sri Lanka",
+"x_rate per 100,000, 2019": 3.31,
+"rate": 3.31,
+"year": 2019
+},
+"KNA": {
+"country": "St. Kitts and Nevis",
+"x_rate per 100,000, 2023": 64.16,
+"rate": 64.16,
+"year": 2023,
+"x_rate per 100,000, 2022": 23.55,
+"x_rate per 100,000, 2021": 29.94,
+"x_rate per 100,000, 2020": 21.34,
+"x_rate per 100,000, 2019": 25.56
+},
+"LCA": {
+"country": "St. Lucia",
+"x_rate per 100,000, 2023": 39.04,
+"rate": 39.04,
+"year": 2023,
+"x_rate per 100,000, 2022": 36.92,
+"x_rate per 100,000, 2021": 39.21,
+"x_rate per 100,000, 2020": 29.17,
+"x_rate per 100,000, 2019": 25.89
+},
+"VCT": {
+"country": "St. Vincent and the Grenadines",
+"x_rate per 100,000, 2023": 51.32,
+"rate": 51.32,
+"year": 2023,
+"x_rate per 100,000, 2022": 41.16,
+"x_rate per 100,000, 2021": 31.12,
+"x_rate per 100,000, 2020": 31.88,
+"x_rate per 100,000, 2019": 18.24
+},
+"SUR": {
+"country": "Suriname",
+"x_rate per 100,000, 2023": 6.52,
+"rate": 6.52,
+"year": 2023,
+"x_rate per 100,000, 2022": 7.22,
+"x_rate per 100,000, 2021": 5.66,
+"x_rate per 100,000, 2020": 8.98,
+"x_rate per 100,000, 2019": 4.95
+},
+"SWE": {
+"country": "Sweden",
+"x_rate per 100,000, 2023": 1.15,
+"rate": 1.15,
+"year": 2023,
+"x_rate per 100,000, 2022": 1.11,
+"x_rate per 100,000, 2021": 1.08,
+"x_rate per 100,000, 2020": 1.2,
+"x_rate per 100,000, 2019": 1.08
+},
+"CHE": {
+"country": "Switzerland",
+"x_rate per 100,000, 2023": 0.6,
+"rate": 0.6,
+"year": 2023,
+"x_rate per 100,000, 2022": 0.48,
+"x_rate per 100,000, 2021": 0.48,
+"x_rate per 100,000, 2020": 0.54,
+"x_rate per 100,000, 2019": 0.54
+},
+"TJK": {
+"country": "Tajikistan",
+"x_rate per 100,000, 2020": 0.89,
+"rate": 0.89,
+"year": 2020
+},
+"TZA": {
+"country": "Tanzania",
+"x_rate per 100,000, 2020": 3.75,
+"rate": 3.75,
+"year": 2020,
+"x_rate per 100,000, 2019": 4.59
+},
+"TON": {
+"country": "Tonga",
+"x_rate per 100,000, 2019": 0.95,
+"rate": 0.95,
+"year": 2019
+},
+"TTO": {
+"country": "Trinidad and Tobago",
+"x_rate per 100,000, 2022": 40.44,
+"rate": 40.44,
+"year": 2022,
+"x_rate per 100,000, 2021": 30.11,
+"x_rate per 100,000, 2020": 26.94,
+"x_rate per 100,000, 2019": 36.3
+},
+"TUN": {
+"country": "Tunisia",
+"x_rate per 100,000, 2020": 4.69,
+"rate": 4.69,
+"year": 2020,
+"x_rate per 100,000, 2019": 4.81
+},
+"TUR": {
+"country": "Turkiye",
+"x_rate per 100,000, 2023": 3.23,
+"rate": 3.23,
+"year": 2023,
+"x_rate per 100,000, 2022": 2.62,
+"x_rate per 100,000, 2021": 2.5,
+"x_rate per 100,000, 2020": 2.49,
+"x_rate per 100,000, 2019": 2.4
+},
+"TCA": {
+"country": "Turks and Caicos Islands",
+"x_rate per 100,000, 2022": 76.34,
+"rate": 76.34,
+"year": 2022,
+"x_rate per 100,000, 2021": 30.94,
+"x_rate per 100,000, 2020": 51.82,
+"x_rate per 100,000, 2019": 30.12
+},
+"UGA": {
+"country": "Uganda",
+"x_rate per 100,000, 2023": 8.97,
+"rate": 8.97,
+"year": 2023,
+"x_rate per 100,000, 2022": 8.76,
+"x_rate per 100,000, 2021": 8.52,
+"x_rate per 100,000, 2020": 10.03,
+"x_rate per 100,000, 2019": 10.97
+},
+"UKR": {
+"country": "Ukraine",
+"x_rate per 100,000, 2021": 3.78,
+"rate": 3.78,
+"year": 2021,
+"x_rate per 100,000, 2020": 3.8,
+"x_rate per 100,000, 2019": 4.05
+},
+"ARE": {
+"country": "United Arab Emirates",
+"x_rate per 100,000, 2022": 0.69,
+"rate": 0.69,
+"year": 2022,
+"x_rate per 100,000, 2021": 0.45,
+"x_rate per 100,000, 2020": 0.69,
+"x_rate per 100,000, 2019": 0.68
+},
+"GBR": {
+"country": "United Kingdom",
+"x_rate per 100,000, 2021": 1.12,
+"rate": 1.12,
+"year": 2021,
+"x_rate per 100,000, 2020": 0.95,
+"x_rate per 100,000, 2019": 1.15
+},
+"USA": {
+"country": "United States",
+"x_rate per 100,000, 2023": 5.76,
+"rate": 5.76,
+"year": 2023,
+"x_rate per 100,000, 2022": 6.51,
+"x_rate per 100,000, 2021": 6.78,
+"x_rate per 100,000, 2020": 6.35,
+"x_rate per 100,000, 2019": 4.93
+},
+"URY": {
+"country": "Uruguay",
+"x_rate per 100,000, 2023": 11.25,
+"rate": 11.25,
+"year": 2023,
+"x_rate per 100,000, 2022": 11.29,
+"x_rate per 100,000, 2021": 9.01,
+"x_rate per 100,000, 2020": 10.03,
+"x_rate per 100,000, 2019": 11.6
+},
+"UZB": {
+"country": "Uzbekistan",
+"x_rate per 100,000, 2021": 1.4,
+"rate": 1.4,
+"year": 2021,
+"x_rate per 100,000, 2020": 1.34,
+"x_rate per 100,000, 2019": 1.2
+},
+"VUT": {
+"country": "Vanuatu",
+"x_rate per 100,000, 2020": 0.33,
+"rate": 0.33,
+"year": 2020,
+"x_rate per 100,000, 2019": 0.68
+},
+"VEN": {
+"country": "Venezuela, RB",
+"x_rate per 100,000, 2022": 12.65,
+"rate": 12.65,
+"year": 2022,
+"x_rate per 100,000, 2021": 19.28,
+"x_rate per 100,000, 2020": 29.48,
+"x_rate per 100,000, 2019": 41.03
+},
+"PSE": {
+"country": "West Bank and Gaza",
+"x_rate per 100,000, 2022": 0.62,
+"rate": 0.62,
+"year": 2022,
+"x_rate per 100,000, 2021": 0.66,
+"x_rate per 100,000, 2020": 0.36,
+"x_rate per 100,000, 2019": 0.32
+},
+"ZWE": {
+"country": "Zimbabwe",
+"x_rate per 100,000, 2022": 6.76,
+"rate": 6.76,
+"year": 2022,
+"x_rate per 100,000, 2021": 6.22,
+"x_rate per 100,000, 2020": 5.02,
+"x_rate per 100,000, 2019": 5.17
+}
+}

@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "ONIO"
+ ],
+ "hectares": 4691002.5,
+ "to_zoom": 5,
+ "squares": 291,
+ "bytes": 610872,
+ "how": "max"
+}

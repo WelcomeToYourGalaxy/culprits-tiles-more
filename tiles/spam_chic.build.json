@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "CHIC"
+ ],
+ "hectares": 13261851.0,
+ "to_zoom": 5,
+ "squares": 183,
+ "bytes": 369358,
+ "how": "max"
+}

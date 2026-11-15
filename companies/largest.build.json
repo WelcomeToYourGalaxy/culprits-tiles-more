@@ -1,0 +1,202 @@
+{
+ "ranked": 3625,
+ "top": 500,
+ "placed": 490,
+ "not_placed": [
+  {
+   "rank": 45,
+   "name": "Cargill Aqua Nutrition",
+   "wikidata": "https://www.wikidata.org/wiki/Q133797382"
+  },
+  {
+   "rank": 119,
+   "name": "China Pacific Construction Group",
+   "wikidata": "https://www.wikidata.org/wiki/Q63148388"
+  },
+  {
+   "rank": 146,
+   "name": "Amer International Group Limited",
+   "wikidata": "https://www.wikidata.org/wiki/Q16926201"
+  },
+  {
+   "rank": 280,
+   "name": "Xiamen C&D",
+   "wikidata": "https://www.wikidata.org/wiki/Q10911437"
+  },
+  {
+   "rank": 293,
+   "name": "StoneX",
+   "wikidata": "https://www.wikidata.org/wiki/Q1666331"
+  },
+  {
+   "rank": 408,
+   "name": "Corebridge Financial",
+   "wikidata": "https://www.wikidata.org/wiki/Q115803672"
+  },
+  {
+   "rank": 413,
+   "name": "Xinxing Jihua Group",
+   "wikidata": "https://www.wikidata.org/wiki/Q11084189"
+  },
+  {
+   "rank": 420,
+   "name": "Henan Energy & Chemical Industry Group (China)",
+   "wikidata": "https://www.wikidata.org/wiki/Q52849120"
+  },
+  {
+   "rank": 421,
+   "name": "China General Technology Group",
+   "wikidata": "https://www.wikidata.org/wiki/Q10874142"
+  },
+  {
+   "rank": 443,
+   "name": "Shanghai Pharmaceuticals",
+   "wikidata": "https://www.wikidata.org/wiki/Q104876809"
+  }
+ ],
+ "no_rate": 904,
+ "not_a_business_above_the_500th": [
+  {
+   "wikidata": "Q3516355",
+   "revenue_usd": 214163789298
+  },
+  {
+   "wikidata": "Q126962479",
+   "revenue_usd": 158800543758
+  },
+  {
+   "wikidata": "Q2996030",
+   "revenue_usd": 148774826960
+  },
+  {
+   "wikidata": "Q1308189",
+   "revenue_usd": 111512199967
+  },
+  {
+   "wikidata": "Q3149562",
+   "revenue_usd": 109251949221
+  },
+  {
+   "wikidata": "Q1705091",
+   "revenue_usd": 106754002663
+  },
+  {
+   "wikidata": "Q51763892",
+   "revenue_usd": 100000000000
+  },
+  {
+   "wikidata": "Q1073501",
+   "revenue_usd": 91937884762
+  },
+  {
+   "wikidata": "Q20731617",
+   "revenue_usd": 91172912318
+  },
+  {
+   "wikidata": "Q130894920",
+   "revenue_usd": 82490440881
+  },
+  {
+   "wikidata": "Q4854089",
+   "revenue_usd": 57498482624
+  },
+  {
+   "wikidata": "Q491748",
+   "revenue_usd": 50200000000
+  },
+  {
+   "wikidata": "Q22723716",
+   "revenue_usd": 49731420655
+  },
+  {
+   "wikidata": "Q489097",
+   "revenue_usd": 39959000000
+  },
+  {
+   "wikidata": "Q98496738",
+   "revenue_usd": 39675211106
+  },
+  {
+   "wikidata": "Q493751",
+   "revenue_usd": 38400000000
+  },
+  {
+   "wikidata": "Q130894821",
+   "revenue_usd": 38196336924
+  },
+  {
+   "wikidata": "Q1023930",
+   "revenue_usd": 37831463237
+  },
+  {
+   "wikidata": "Q407237",
+   "revenue_usd": 37224350676
+  },
+  {
+   "wikidata": "Q866",
+   "revenue_usd": 31500000000
+  },
+  {
+   "wikidata": "Q849837",
+   "revenue_usd": 27709081324
+  },
+  {
+   "wikidata": "Q98804833",
+   "revenue_usd": 27675900842
+  },
+  {
+   "wikidata": "Q1302944",
+   "revenue_usd": 25352552460
+  },
+  {
+   "wikidata": "Q806941",
+   "revenue_usd": 25212961386
+  },
+  {
+   "wikidata": "Q98797102",
+   "revenue_usd": 25077285089
+  },
+  {
+   "wikidata": "Q509404",
+   "revenue_usd": 24358414662
+  },
+  {
+   "wikidata": "Q7896131",
+   "revenue_usd": 24322528674
+  },
+  {
+   "wikidata": "Q130896297",
+   "revenue_usd": 23474745033
+  },
+  {
+   "wikidata": "Q484233",
+   "revenue_usd": 22000000000
+  },
+  {
+   "wikidata": "Q917524",
+   "revenue_usd": 21235672989
+  },
+  {
+   "wikidata": "Q130894743",
+   "revenue_usd": 18985204861
+  },
+  {
+   "wikidata": "Q2998577",
+   "revenue_usd": 18099334337
+  },
+  {
+   "wikidata": "Q3516342",
+   "revenue_usd": 17697399982
+  },
+  {
+   "wikidata": "Q120908545",
+   "revenue_usd": 17206708633
+  }
+ ],
+ "no_year": 106,
+ "sources": [
+  "Wikidata (CC0)",
+  "European Central Bank",
+  "World Bank"
+ ]
+}

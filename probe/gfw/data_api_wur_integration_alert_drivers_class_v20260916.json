@@ -1,0 +1,42 @@
+{
+ "data": {
+  "created_on": "2026-09-16T20:33:38.531977",
+  "updated_on": "2026-09-17T17:30:58.761084",
+  "dataset": "wur_integration_alert_drivers_class",
+  "version": "v20260916",
+  "is_latest": true,
+  "is_mutable": false,
+  "metadata": {
+   "created_on": "2026-09-17T15:25:00.186443",
+   "updated_on": "2026-09-17T15:25:00.186449",
+   "spatial_resolution": null,
+   "resolution_description": null,
+   "geographic_coverage": null,
+   "update_frequency": null,
+   "scale": null,
+   "citation": null,
+   "content_date": "2026-08-31",
+   "content_date_range": {
+    "start_date": "2014-12-31",
+    "end_date": "2026-08-31"
+   },
+   "content_date_description": null,
+   "last_update": "2026-08-31",
+   "id": "fb305201-01fe-4c8b-aa07-17c5e779c1d1"
+  },
+  "status": "saved",
+  "assets": [
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/wur_integration_alert_drivers_class/v20260916/raster/epsg-4326/10/100000/class/geotiff/{tile_id}.tif",
+    "7f9d92dc-c7a9-4fe7-a438-9e56fd8cb25a"
+   ],
+   [
+    "COG",
+    "s3://gfw-data-lake/wur_integration_alert_drivers_class/v20260916/raster/epsg-4326/cog/class.tif",
+    "c4c69e52-5e9c-46d5-a2a7-b7293ef9da4b"
+   ]
+  ]
+ },
+ "status": "success"
+}

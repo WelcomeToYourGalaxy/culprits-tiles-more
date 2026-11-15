@@ -1,0 +1,1443 @@
+[
+ {
+  "id": "gadm__burned_areas__adm1_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_weekly_alerts/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_weekly_alerts/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_weekly_alerts/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_weekly_alerts/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_weekly_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_weekly_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v202207.2/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm1_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm1_whitelist/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_daily_alerts/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_daily_alerts/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_daily_alerts/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_daily_alerts/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_daily_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_daily_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_weekly_alerts/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_weekly_alerts/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_weekly_alerts/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_weekly_alerts/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_weekly_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_weekly_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_whitelist/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_whitelist/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_whitelist/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_whitelist/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_whitelist/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__adm2_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__adm2_whitelist/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_weekly_alerts/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_weekly_alerts/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_weekly_alerts/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_weekly_alerts/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_weekly_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_weekly_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_whitelist/v20210620/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_whitelist/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_whitelist/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_whitelist/v202207.1/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_whitelist/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gadm__burned_areas__iso_whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gadm__burned_areas__iso_whitelist/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__daily_alerts/v20210622/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__daily_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__daily_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__weekly_alerts/v20210621/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__weekly_alerts/v20210622/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__weekly_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__weekly_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__whitelist/v20210621/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__whitelist/v20210622/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__whitelist/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__whitelist/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "geostore__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/geostore__burned_areas__whitelist/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "gfw_logging",
+  "title": "GNW Logging concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_logging/v2020/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_logging",
+  "title": "GNW Logging concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_logging/v202106/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_logging",
+  "title": "GNW Logging concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_logging/v2020/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_logging",
+  "title": "GNW Logging concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_logging/v202106/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_logging_download",
+  "title": "GNW Logging concessions (downloadable)",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_logging_download/v2020/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_logging_download",
+  "title": "GNW Logging concessions (downloadable)",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_logging_download/v2020/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_managed_forests",
+  "title": "Logging concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_managed_forests/v202106/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_managed_forests",
+  "title": "Logging concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_managed_forests/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_managed_forests",
+  "title": "Logging concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_managed_forests/v202106/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_managed_forests",
+  "title": "Logging concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_managed_forests/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v20201214/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v202106/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v202203/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v202408/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v20201214/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v202106/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v202203/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v202408/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_mining_concessions",
+  "title": "Mining concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_mining_concessions/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_oil_gas",
+  "title": "Oil and gas concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_gas/v20190321/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_oil_gas",
+  "title": "Oil and gas concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_gas/v20221024/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_oil_gas",
+  "title": "Oil and gas concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_gas/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_oil_gas",
+  "title": "Oil and gas concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_gas/v20190321/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_oil_gas",
+  "title": "Oil and gas concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_gas/v20221024/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_oil_gas",
+  "title": "Oil and gas concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_gas/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_oil_palm",
+  "title": "Oil palm concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_palm/v20191031/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_oil_palm",
+  "title": "Oil palm concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_palm/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_oil_palm",
+  "title": "Oil palm concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_palm/v20191031/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_oil_palm",
+  "title": "Oil palm concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_oil_palm/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_wood_fiber",
+  "title": "Wood fiber concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber/v20200725/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_wood_fiber",
+  "title": "Wood fiber concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber/v202106/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_wood_fiber",
+  "title": "Wood fiber concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "gfw_wood_fiber",
+  "title": "Wood fiber concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber/v20200725/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_wood_fiber",
+  "title": "Wood fiber concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber/v202106/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_wood_fiber",
+  "title": "Wood fiber concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gfw_wood_fiber_downloadable",
+  "title": "GNW Wood Fiber Concessions (downloadable)",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gfw_wood_fiber_downloadable/v2021/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "gmw_global_mangrove_extent",
+  "title": "Global Mangrove Extent",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/gmw_global_mangrove_extent/v3/default/3/5/3.png",
+  "status": 200,
+  "bytes": 262556
+ },
+ {
+  "id": "gmw_global_mangrove_extent_1996",
+  "title": "GMW Global Mangrove Extent 1996",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gmw_global_mangrove_extent_1996/v2/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 114148
+ },
+ {
+  "id": "gmw_global_mangrove_extent_2016",
+  "title": "Global Mangrove Extent",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gmw_global_mangrove_extent_2016/v20201210/default/3/5/3.pbf",
+  "status": 200,
+  "bytes": 26171
+ },
+ {
+  "id": "gmw_global_mangrove_extent_2016",
+  "title": "Global Mangrove Extent",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/gmw_global_mangrove_extent_2016/v20201210/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 109912
+ },
+ {
+  "id": "idn_wood_fiber",
+  "title": "Indonesia wood fiber concessions ",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/idn_wood_fiber/v20200725/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "licadho_khm_economic_land_concessions",
+  "title": "Cambodia Land Concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/licadho_khm_economic_land_concessions/v20200623/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "licadho_khm_economic_land_concessions",
+  "title": "Cambodia Land Concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/licadho_khm_economic_land_concessions/v202106/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "licadho_khm_economic_land_concessions",
+  "title": "Cambodia Land Concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/licadho_khm_economic_land_concessions/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "licadho_khm_economic_land_concessions",
+  "title": "Cambodia Land Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/licadho_khm_economic_land_concessions/v20200623/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "licadho_khm_economic_land_concessions",
+  "title": "Cambodia Land Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/licadho_khm_economic_land_concessions/v202106/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "licadho_khm_economic_land_concessions",
+  "title": "Cambodia Land Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/licadho_khm_economic_land_concessions/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20230901/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20240118/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20240815/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 91265
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20241209/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20250127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20250131/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20250206/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "nasa_viirs_fire_alerts",
+  "title": "VIIRS active fires",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/nasa_viirs_fire_alerts/v20250425/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "osinfor_per_forest_concessions",
+  "title": "Peru forest concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_per_forest_concessions/v2015/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "osinfor_per_forest_concessions",
+  "title": "Peru forest concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_per_forest_concessions/v2023/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "osinfor_per_forest_concessions",
+  "title": "Peru forest concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_per_forest_concessions/v2025/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "osinfor_per_forest_concessions",
+  "title": "Peru forest concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_per_forest_concessions/v2015/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "osinfor_per_forest_concessions",
+  "title": "Peru forest concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_per_forest_concessions/v2023/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "osinfor_per_forest_concessions",
+  "title": "Peru forest concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_per_forest_concessions/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "osinfor_peru_permanent_production_forests",
+  "title": "Peru permanent production forests",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_peru_permanent_production_forests/v2015/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "osinfor_peru_permanent_production_forests",
+  "title": "Peru permanent production forests",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osinfor_peru_permanent_production_forests/v2015/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "osm_congo_basin_logging_roads",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/osm_congo_basin_logging_roads/v2014/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "per_forest_concessions",
+  "title": "Peru Forest Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/per_forest_concessions/v201610/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "per_forest_concessions",
+  "title": "Peru Forest Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/per_forest_concessions/v2016/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "per_protected_areas",
+  "title": "Peru protected areas",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/per_protected_areas/v2016/default/3/5/3.pbf",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "id": "per_protected_areas",
+  "title": "Peru protected areas",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/per_protected_areas/v2016/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 0
+ },
+ {
+  "id": "rspo_oil_palm",
+  "title": "RSPO Member Concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/rspo_oil_palm/v20200114/default/3/5/3.pbf",
+  "status": 200,
+  "bytes": 326
+ },
+ {
+  "id": "rspo_oil_palm",
+  "title": "RSPO Member Concessions",
+  "type": "Static vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/rspo_oil_palm/v2025/default/3/5/3.pbf",
+  "status": 200,
+  "bytes": 788
+ },
+ {
+  "id": "rspo_oil_palm",
+  "title": "RSPO Member Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/rspo_oil_palm/v20200114/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 621
+ },
+ {
+  "id": "rspo_oil_palm",
+  "title": "RSPO Member Concessions",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/rspo_oil_palm/v2025/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 1908
+ },
+ {
+  "id": "tropomi_avg_nitrogen_dioxide_last_month",
+  "title": "Air Quality: Nitrogen Dioxide (NO₂) Satellite Measurements",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/tropomi_avg_nitrogen_dioxide_last_month/v20211015/default/3/5/3.png",
+  "status": 200,
+  "bytes": 99497
+ },
+ {
+  "id": "tropomi_avg_nitrogen_dioxide_last_month",
+  "title": "Air Quality: Nitrogen Dioxide (NO₂) Satellite Measurements",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/tropomi_avg_nitrogen_dioxide_last_month/v20220123/default/3/5/3.png",
+  "status": 200,
+  "bytes": 106358
+ },
+ {
+  "id": "tropomi_avg_nitrogen_dioxide_last_month",
+  "title": "Air Quality: Nitrogen Dioxide (NO₂) Satellite Measurements",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/tropomi_avg_nitrogen_dioxide_last_month/v20220614/default/3/5/3.png",
+  "status": 200,
+  "bytes": 196993
+ },
+ {
+  "id": "tropomi_avg_nitrogen_dioxide_last_month",
+  "title": "Air Quality: Nitrogen Dioxide (NO₂) Satellite Measurements",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/tropomi_avg_nitrogen_dioxide_last_month/v20220715/default/3/5/3.png",
+  "status": 200,
+  "bytes": 96748
+ },
+ {
+  "id": "umd_modis_burned_areas",
+  "title": "Global Burned Areas",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_modis_burned_areas/v2021060/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 500: Internal Server Error"
+ },
+ {
+  "id": "umd_modis_burned_areas",
+  "title": "Global Burned Areas",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_modis_burned_areas/v20220129/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 500: Internal Server Error"
+ },
+ {
+  "id": "umd_modis_burned_areas",
+  "title": "Global Burned Areas",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_modis_burned_areas/v202207/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 500: Internal Server Error"
+ },
+ {
+  "id": "umd_modis_burned_areas",
+  "title": "Global Burned Areas",
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_modis_burned_areas/v20221104/dynamic/3/5/3.pbf",
+  "status": 200,
+  "bytes": 1359
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_75/3/5/3.png",
+  "status": 200,
+  "bytes": 7522
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_50/3/5/3.png",
+  "status": 200,
+  "bytes": 9593
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_30/3/5/3.png",
+  "status": 200,
+  "bytes": 10725
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_25/3/5/3.png",
+  "status": 200,
+  "bytes": 10828
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_15/3/5/3.png",
+  "status": 200,
+  "bytes": 11180
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_10/3/5/3.png",
+  "status": 200,
+  "bytes": 11378
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220309/tcd_20/3/5/3.png",
+  "status": 200,
+  "bytes": 10980
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_20/3/5/3.png",
+  "status": 200,
+  "bytes": 10967
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_10/3/5/3.png",
+  "status": 200,
+  "bytes": 11371
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_15/3/5/3.png",
+  "status": 200,
+  "bytes": 11154
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_25/3/5/3.png",
+  "status": 200,
+  "bytes": 10800
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_30/3/5/3.png",
+  "status": 200,
+  "bytes": 10694
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_50/3/5/3.png",
+  "status": 200,
+  "bytes": 9543
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20220324/tcd_75/3/5/3.png",
+  "status": 200,
+  "bytes": 7475
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_15/3/5/3.png",
+  "status": 200,
+  "bytes": 11249
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_20/3/5/3.png",
+  "status": 200,
+  "bytes": 11073
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_25/3/5/3.png",
+  "status": 200,
+  "bytes": 10945
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_30/3/5/3.png",
+  "status": 200,
+  "bytes": 10822
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_50/3/5/3.png",
+  "status": 200,
+  "bytes": 9681
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_75/3/5/3.png",
+  "status": 200,
+  "bytes": 7613
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230315/tcd_10/3/5/3.png",
+  "status": 200,
+  "bytes": 11472
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_30/3/5/3.png",
+  "status": 200,
+  "bytes": 262556
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_10/3/5/3.png",
+  "status": 200,
+  "bytes": 11865
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_15/3/5/3.png",
+  "status": 200,
+  "bytes": 11679
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_20/3/5/3.png",
+  "status": 200,
+  "bytes": 11471
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_25/3/5/3.png",
+  "status": 200,
+  "bytes": 11323
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_50/3/5/3.png",
+  "status": 200,
+  "bytes": 9970
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20230424/tcd_75/3/5/3.png",
+  "status": 200,
+  "bytes": 7800
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_10/3/5/3.png",
+  "status": 200,
+  "bytes": 12166
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_15/3/5/3.png",
+  "status": 200,
+  "bytes": 11852
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_20/3/5/3.png",
+  "status": 200,
+  "bytes": 11620
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_25/3/5/3.png",
+  "status": 200,
+  "bytes": 11452
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_30/3/5/3.png",
+  "status": 200,
+  "bytes": 11247
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_50/3/5/3.png",
+  "status": 200,
+  "bytes": 262556
+ },
+ {
+  "id": "umd_tree_cover_loss_from_fires",
+  "title": "Tree cover loss due to fire",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/umd_tree_cover_loss_from_fires/v20240301/tcd_75/3/5/3.png",
+  "status": 200,
+  "bytes": 7832
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__daily_alerts/v20210622/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__daily_alerts/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__daily_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__daily_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__daily_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__weekly_alerts/v20210622/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__weekly_alerts/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__weekly_alerts/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__weekly_alerts",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__weekly_alerts/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__whitelist/v20210621/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__whitelist/v20210622/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__whitelist/v20220127/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__whitelist/v20220713/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wdpa_protected_areas__burned_areas__whitelist",
+  "title": null,
+  "type": "Dynamic vector tile cache",
+  "url": "https://tiles.globalforestwatch.org/wdpa_protected_areas__burned_areas__whitelist/v20221104/dynamic/3/5/3.pbf",
+  "error": "HTTP Error 422: Unknown"
+ },
+ {
+  "id": "wri_trees_in_complex_landscapes",
+  "title": "Trees in Complex Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_complex_landscapes/v20210915/default/3/5/3.png",
+  "status": 200,
+  "bytes": 262556
+ },
+ {
+  "id": "wri_trees_in_complex_landscapes",
+  "title": "Trees in Complex Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_complex_landscapes/v20210915/tcd_20/3/5/3.png",
+  "status": 200,
+  "bytes": 385
+ },
+ {
+  "id": "wri_trees_in_complex_landscapes",
+  "title": "Trees in Complex Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_complex_landscapes/v20210915/tcd_40/3/5/3.png",
+  "status": 200,
+  "bytes": 385
+ },
+ {
+  "id": "wri_trees_in_complex_landscapes",
+  "title": "Trees in Complex Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_complex_landscapes/v20210915/tcd_60/3/5/3.png",
+  "status": 200,
+  "bytes": 382
+ },
+ {
+  "id": "wri_trees_in_complex_landscapes",
+  "title": "Trees in Complex Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_complex_landscapes/v20210915/tcd_80/3/5/3.png",
+  "status": 200,
+  "bytes": 382
+ },
+ {
+  "id": "wri_trees_in_complex_landscapes",
+  "title": "Trees in Complex Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_complex_landscapes/v20210915/tcd_0/3/5/3.png",
+  "status": 200,
+  "bytes": 385
+ },
+ {
+  "id": "wri_trees_in_mosaic_landscapes_coverage",
+  "title": "Coverage Layer for WRI Trees in Mosaic Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_mosaic_landscapes_coverage/v20211013/coverage/3/5/3.png",
+  "status": 200,
+  "bytes": 845
+ },
+ {
+  "id": "wri_trees_in_mosaic_landscapes_coverage",
+  "title": "Coverage Layer for WRI Trees in Mosaic Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_mosaic_landscapes_coverage/v20220228/coverage/3/5/3.png",
+  "status": 200,
+  "bytes": 840
+ },
+ {
+  "id": "wri_trees_in_mosaic_landscapes_coverage",
+  "title": "Coverage Layer for WRI Trees in Mosaic Landscapes",
+  "type": "Raster tile cache",
+  "url": "https://tiles.globalforestwatch.org/wri_trees_in_mosaic_landscapes_coverage/v20220228/default/3/5/3.png",
+  "status": 200,
+  "bytes": 855
+ }
+]

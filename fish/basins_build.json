@@ -1,0 +1,17 @@
+{
+ "file": "data to Figshare.zip",
+ "occurrences": 110569,
+ "columns": {
+  "basin": "1.Basin.Name",
+  "species": "6.Fishbase.Valid.Species.Name",
+  "status": "3.Native.Exotic.Status"
+ },
+ "status_values": {
+  "native": 102441,
+  "exotic": 8128
+ },
+ "basins_with_fish": 3119,
+ "shapes": 3119,
+ "shapes_matched": 3119,
+ "to_zoom": 8
+}

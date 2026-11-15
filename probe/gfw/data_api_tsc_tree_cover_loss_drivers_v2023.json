@@ -1,0 +1,1262 @@
+{
+ "data": {
+  "created_on": "2024-04-02T20:21:29.082398",
+  "updated_on": "2025-03-07T18:30:18.877961",
+  "dataset": "tsc_tree_cover_loss_drivers",
+  "version": "v2023",
+  "is_latest": true,
+  "is_mutable": false,
+  "metadata": {
+   "created_on": "2024-09-03T19:29:00.976109",
+   "updated_on": "2024-09-03T20:50:13.139427",
+   "spatial_resolution": null,
+   "resolution_description": null,
+   "geographic_coverage": null,
+   "update_frequency": null,
+   "scale": null,
+   "citation": null,
+   "content_date": "2022-01-01",
+   "content_date_range": {
+    "start_date": "2001-01-01",
+    "end_date": "2023-12-31"
+   },
+   "content_date_description": null,
+   "last_update": null,
+   "id": "336cb4d8-a036-4be9-9ff5-13b4dceb9ac8"
+  },
+  "status": "saved",
+  "assets": [
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/driver/geotiff/{tile_id}.tif",
+    "9ade9524-395b-497c-8201-6f48862855af"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_10/geotiff/{tile_id}.tif",
+    "3ab70af7-dd7b-47af-9b7c-c41f3f01bbdf"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_15/geotiff/{tile_id}.tif",
+    "fad8f8bc-567a-47fd-a929-496aa584ae1c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_20/geotiff/{tile_id}.tif",
+    "885c96da-2e38-43fd-98f9-de9dcdf2b86d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_25/geotiff/{tile_id}.tif",
+    "8cd68419-6b81-4e85-931e-68d06b6d3998"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_30/geotiff/{tile_id}.tif",
+    "c6616d89-27e8-478d-b197-96c04ece606c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_50/geotiff/{tile_id}.tif",
+    "914250c5-b7fa-46e1-9ea9-263a80a32e0d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-4326/10/40000/tcl_year__driver__tcd_75/geotiff/{tile_id}.tif",
+    "987e13b7-5bfb-4416-9728-ebc5beea93df"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_10/{z}/{x}/{y}.png",
+    "249d095e-9ea1-481d-af80-5816088d9db7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "b6f5c3fd-30b2-4319-874c-bc4cb94acbb2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "6ad0c50d-f481-437e-a676-a3eeac4393d1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_10/geotiff/{tile_id}.tif",
+    "c42018e8-e207-4fed-94e1-cd591fbe2fac"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "85e3afec-ce87-4b9e-a678-7c32ada2d2f0"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "e9f5b797-1770-4b1f-bf67-b1d1c2b1b471"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_10/geotiff/{tile_id}.tif",
+    "fcb23dcd-0591-407c-b848-8ed8d02c26b7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "b264bdd6-ff96-4915-99c4-3fe5574e693c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "2035ba5d-26a0-49b5-912c-1c04a0307608"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_10/geotiff/{tile_id}.tif",
+    "1d13bb46-fea0-4252-9f19-1431aa6e2be9"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "56fd138b-5351-4552-a430-f2bfa8a10320"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "92599bbe-4b1d-4dd4-84b8-dd3c12ca740a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_10/geotiff/{tile_id}.tif",
+    "49c6065d-5c9b-4a73-ac9a-9bcab5a87b8b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "312ce910-f530-49b2-a44b-54d17ce6f1aa"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "78f6faac-835f-4873-8ebd-2c77605dd7df"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_10/geotiff/{tile_id}.tif",
+    "0cce07d3-91e8-4a91-ae80-dafde82f61fb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "dac85493-a6c9-4cdc-96ff-c5496c8ae955"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "bce23ae4-35ea-4c89-b3df-ad3ddaeefbc6"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_10/geotiff/{tile_id}.tif",
+    "e1579f93-3091-4363-8748-8f8a2d394dcd"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "f78cf3cb-3ec7-4996-9cc0-1eee8e11ee4a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "09b5244e-264a-43e3-82c3-2e93812c4e8b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_10/geotiff/{tile_id}.tif",
+    "e35bc6f3-384c-421f-be40-b3f53e3d7cf3"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "15882edc-32ea-426b-8726-c1ea41fa6055"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "009e60ed-5de6-49c6-b5a1-d968fb3d0f30"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_10/geotiff/{tile_id}.tif",
+    "5550bc2b-4819-42f5-bbe7-17216a4ffec2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "998d55a8-696d-4fc1-88e0-9b2bf153ebc9"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "36c634b6-88ed-4aa2-b767-b79c908b9135"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_10/geotiff/{tile_id}.tif",
+    "8a777480-de5a-4222-b886-4ff090a41dc0"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "7972fa12-0502-4fef-9e82-b2dcb1f89287"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "6033ca4c-8e53-4351-998a-9a531b2e2874"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_10/geotiff/{tile_id}.tif",
+    "ad641fa6-c31c-4c67-b6d8-ea38485903b7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_10_tcd_10/geotiff/{tile_id}.tif",
+    "be116d74-f632-4d3e-aa8d-da97f881505d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_10/geotiff/{tile_id}.tif",
+    "17e99957-50ac-4f0e-8107-59a57281ab5c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_10/geotiff/{tile_id}.tif",
+    "8e3d02cb-3932-4249-b29a-898cc84dd658"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_15/{z}/{x}/{y}.png",
+    "e0059955-7b16-4afe-a175-e3ea5b104273"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "28ff4e03-d012-44b7-9daf-b2da30aa41c2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "6554fe94-42c8-4931-ac14-d507ed910616"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_15/geotiff/{tile_id}.tif",
+    "d2a070eb-c5dc-4f84-96bd-8add956c0789"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "91d69f7d-b56f-4f2a-a79c-e322aed74f3b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "e1218280-8a4e-4d91-b385-57b1013a1222"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_15/geotiff/{tile_id}.tif",
+    "022b5190-adf2-45f5-bcd3-a832316d8d1c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "86b09669-20fb-4670-a854-358d74d91b67"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "a5c9d1e5-e52c-4a33-8ca2-59fa82c3086f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_15/geotiff/{tile_id}.tif",
+    "f61aca67-79cb-485a-9964-8152e3e1fcf9"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "09bbb3ca-dd7c-47c4-b33e-042912658a7b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "adc7747c-b72c-4ce3-a05b-67bab5fa0709"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_15/geotiff/{tile_id}.tif",
+    "2bd48837-8e19-41b9-b7e9-e6b07dbb7b01"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "1c97345b-7ead-478e-b2b2-7c70886424c2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "0ba5bbd8-680f-4a2c-b351-74940791b78a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_15/geotiff/{tile_id}.tif",
+    "e324dd58-7bd0-452a-84a9-1dae0e4532ef"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "95eb1d62-e124-4102-af0b-bf12a6c1be2a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "8b196d67-ce55-466a-a068-6510bbe70d34"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_15/geotiff/{tile_id}.tif",
+    "0d14fd9b-e45b-4a77-ab4c-2dd533ffb079"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "2ea90c03-5d6b-479d-b618-b76165251f22"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "a2c9e4ff-4649-44b7-9f8a-bbf4f22cd096"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_15/geotiff/{tile_id}.tif",
+    "d10a7f18-af02-413a-9e32-e2ad7d5fca2e"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "c2fabc5a-53d1-48a2-bbb4-848eccf0c6fd"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "cc63627c-931d-4260-8556-d638c52c4be6"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_15/geotiff/{tile_id}.tif",
+    "0c5c874f-126c-4121-9578-9c38bf77058c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "3b18e37f-22c2-494d-b509-6ddea9d75418"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "04555122-b618-4177-849b-96be9b995431"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_15/geotiff/{tile_id}.tif",
+    "8e18c619-ffb1-45f9-9697-7a77b8e0aabc"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "ea5c3a62-d28f-4766-860c-ff0aedc31f15"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "8362a1f6-009e-4628-8655-8a674413002e"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_15/geotiff/{tile_id}.tif",
+    "9115c067-e275-4e29-a193-9c381dd9ff28"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_15_tcd_15/geotiff/{tile_id}.tif",
+    "5bfce7b2-48b4-4dda-99ad-500babd409b2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_15/geotiff/{tile_id}.tif",
+    "c8815bf5-07fd-4d83-8d32-512674d20a24"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_15/geotiff/{tile_id}.tif",
+    "2ccd95b1-59b8-499f-a9c6-826ddb3e303c"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_20/{z}/{x}/{y}.png",
+    "0681b9ed-562a-4c1c-a10e-b98d81d874e0"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "84276e44-0117-44f1-af23-a425940b4e06"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "0c1993ae-e419-4ca2-82b4-b3d2a05b0abc"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_20/geotiff/{tile_id}.tif",
+    "efaae652-df93-4ec5-96d2-0de79fc2a9b6"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "a640d14b-6396-46da-b193-e5ec5294d892"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "2a9561c1-60ae-4a04-a42c-7334085849d4"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_20/geotiff/{tile_id}.tif",
+    "78c4200d-ffba-449e-8772-09b58f7ee392"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "1abf6be2-007f-48c0-9f90-f9447f3eca43"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "00892c60-c17b-4911-b523-97725dda28cb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_20/geotiff/{tile_id}.tif",
+    "e7c5fe55-2a8f-488e-9cf1-9aab6423239c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "e4b54b3a-b016-423e-88f1-0cb3cd7ffbd5"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "537de3a7-ce42-48f5-bc64-c4d4f2e9205d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_20/geotiff/{tile_id}.tif",
+    "b626b73c-2a14-4156-ab9f-24783912a044"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "42c7ee34-9d62-4468-ba1e-fd516c13ff37"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "fcfa2fe7-4cb8-477f-9461-60d3c954be36"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_20/geotiff/{tile_id}.tif",
+    "97e5fcfa-734e-4fbc-a5cd-c449f5b29c96"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "1d81170d-6329-484d-891a-48fa98e1ea38"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "03c75892-d9ea-4b60-a9be-89e568bad40f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_20/geotiff/{tile_id}.tif",
+    "fa42daf3-8f43-4ae4-ba07-1ed50d1e7a23"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "cf12a8d7-ec7d-439b-83c8-ab7c217bea8e"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "294fc56e-67fc-4061-8084-87f6aa3d6507"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_20/geotiff/{tile_id}.tif",
+    "2cde12b5-044d-430c-8b1b-d337f4590388"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "62182018-cb24-4a1d-a021-54003c769085"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "75ddd14b-92ad-4e6f-8ce5-8009c4c9f907"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_20/geotiff/{tile_id}.tif",
+    "6cd5a8c6-401d-4714-8672-2448395d5a4b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "1c9856b7-859e-49a1-b366-14cd7337e9d1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "c96463a5-c15f-48c2-bee0-8e7bc8aaf510"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_20/geotiff/{tile_id}.tif",
+    "81062fbb-9d28-41f0-b957-af7abb2a8d17"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "375f2d01-d779-43b9-b3ce-4b280bba95f4"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "3788d4fa-641a-42bb-b3f8-92ee9bb1398d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_20/geotiff/{tile_id}.tif",
+    "27f787cd-d37a-4b7c-b571-1333e2be4b58"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_20_tcd_20/geotiff/{tile_id}.tif",
+    "e789ee19-64b1-4d0a-bfa5-0c2d90ac74b5"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_20/geotiff/{tile_id}.tif",
+    "f328fd80-6673-4852-ab5c-f7d9311936da"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_20/geotiff/{tile_id}.tif",
+    "c13a8616-3056-4ab6-b6c1-5c987c93be8b"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_25/{z}/{x}/{y}.png",
+    "139fae51-ae98-4cd4-b20a-470fca437d30"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "7a65ea17-8fc6-4eea-b774-335aded680e4"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "fe3580ac-5d8f-4eef-8f8b-fbfe675230eb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_25/geotiff/{tile_id}.tif",
+    "a03ae798-0bcb-4fa1-80c0-7928f6db2502"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "55612551-12f5-447b-93f9-41d5d56ea576"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "0346a2b6-36bd-45d2-9948-ac545f1c8c2f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_25/geotiff/{tile_id}.tif",
+    "3d260223-f2fa-4f28-a9f5-3ecde162770f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "a8fba7ce-645d-460f-a386-07a747fee3c5"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "b5dcb9d1-1e82-492c-a6de-fe656b981d2a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_25/geotiff/{tile_id}.tif",
+    "2d08f680-b138-42e5-9e37-42668beb3d71"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "1fdb8c67-13b0-403f-b90f-f04a82aea99b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "5fe813a5-3d9e-4bad-9f34-c741c7137518"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_25/geotiff/{tile_id}.tif",
+    "a0c16a67-0173-4507-95df-3d82f7f3350f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "26256b07-bd34-413c-bac4-9e6af796f4fb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "c32a59c3-eb7b-4c4c-a1c7-cfb8d5f6bdfc"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_25/geotiff/{tile_id}.tif",
+    "f8f11204-0bfa-4b8d-b750-0169126ae6ec"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "e99c02b0-8416-40e0-899f-c2308f05b1e7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "495b0777-eb42-4a26-b9e4-0ad4af44d2e9"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_25/geotiff/{tile_id}.tif",
+    "76b6d8a8-40f5-48a2-8c37-5abdb3b1718e"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "9d3e50d0-71af-4e1c-8c85-acc916d4b761"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "ad4eec97-8a67-4549-8ebc-21c6ef664fc2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_25/geotiff/{tile_id}.tif",
+    "9bf00acc-25cb-4ee9-98c0-37a1f8b0984c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "360e3329-6183-4119-85f5-c93beed0d7f2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "72e71beb-9019-4c60-97d0-fdc9e077d780"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_25/geotiff/{tile_id}.tif",
+    "d857dcf4-4f94-4778-b007-1061c915ef9d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "63293082-f6ce-4c6e-b6e7-bf9769d2e5b2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "aaeb81ba-05fc-40f7-9c86-4ecf863f7e26"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_25/geotiff/{tile_id}.tif",
+    "97b9b67e-6813-40ac-ba1f-441e70bb65b2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "50d7cb1a-f3f3-4fd7-8a04-284123bdfccb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "255d4c16-cce6-4e8f-bf07-8062f149339e"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_25/geotiff/{tile_id}.tif",
+    "ff65469b-6c97-4b22-b5c4-20c6861e48f2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_25_tcd_25/geotiff/{tile_id}.tif",
+    "79df0a06-68a7-4360-9e47-8fb12382ede8"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_25/geotiff/{tile_id}.tif",
+    "281e4ace-fc6a-4848-8bfb-cda19bdd63a1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_25/geotiff/{tile_id}.tif",
+    "8598eb54-d06d-4d50-8e50-54af618c1009"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_30/{z}/{x}/{y}.png",
+    "a56cbd2a-ff1c-441c-b829-8af33139e807"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "69d29a77-4daa-4dd5-b999-0bc04971c453"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "63e005c7-f08f-49cf-99a2-685615022dd8"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_30/geotiff/{tile_id}.tif",
+    "206b663a-dc69-4fb4-baf9-11d662428084"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "04c34031-799b-4282-8a67-75960114d817"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "c624ca51-9b1d-4e92-9324-4022cfbbdb68"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_30/geotiff/{tile_id}.tif",
+    "b724dc44-6a9c-4606-aef3-9ce7ddd0175a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "428b9e56-a708-471e-b07c-6b9a394b2e1d"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "64d5a57a-8bd4-4014-af9d-76939ef18e27"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_30/geotiff/{tile_id}.tif",
+    "5c3b27ab-f3ef-46b9-af26-4d16f315afbd"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "1351fcd3-9110-4bd8-b85a-ac851b005328"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "6c812ac7-d1fe-4167-85f9-a7933c37811a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_30/geotiff/{tile_id}.tif",
+    "d9c26960-24b8-4b76-a16a-9b2ee3d367a4"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "81b85d8e-a213-4104-a2c9-b3d7cb889dc3"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "02036087-8e7f-4852-ba59-2b0eeff2830e"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_30/geotiff/{tile_id}.tif",
+    "3cd4d521-0b29-4f2f-a08e-84ddbc8985cf"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "ca796c86-7223-4817-9af4-5639331ca462"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "8c17f341-5dd8-4072-881d-b0b9516203cb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_30/geotiff/{tile_id}.tif",
+    "442dad98-03e1-4955-8b44-8c34f1f19430"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "5718af81-6f1e-4067-9f51-15213c7268e3"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "ece2a3de-427a-4335-9fab-87bf9d4b72bd"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_30/geotiff/{tile_id}.tif",
+    "860c7a4c-d8a2-4b70-9fb6-6afb6f778bc7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "d1c8db6c-535c-4925-aef6-9875b778fd4a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "a46ce30b-1b2e-4d6c-9e16-94394b897789"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_30/geotiff/{tile_id}.tif",
+    "86aa0299-2be6-4fae-a7e0-1cee74cd55d0"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "db300066-4e08-463e-90b0-b2b751b915a1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "68a631f1-40ae-44f3-9896-1ea5b0cc72d5"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_30/geotiff/{tile_id}.tif",
+    "a9c684fc-3dbb-4dab-b11c-fbb7496f4fbd"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "11208413-dd8a-4b66-9a61-e2c343e8045c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "60ccbedc-de8e-4023-9363-85fc3d947152"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_30/geotiff/{tile_id}.tif",
+    "59ebcf4b-994b-4281-8dbb-5a073cbbb6a1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_30_tcd_30/geotiff/{tile_id}.tif",
+    "8edd4d3f-d427-4697-af93-8d8205967a86"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_30/geotiff/{tile_id}.tif",
+    "b92ae60f-c9bf-4187-8eb2-7370946b0c13"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_30/geotiff/{tile_id}.tif",
+    "277ab4ef-79b2-4528-ae8f-ab60c73be542"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_50/{z}/{x}/{y}.png",
+    "4af1531e-7a56-4917-b0f4-7790eeab2d82"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "ffba02ef-01f7-4612-98e4-5e1aeac09c03"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "1994088c-0b7b-476a-bb9c-31dabded1b78"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_50/geotiff/{tile_id}.tif",
+    "62717dc6-ed04-4ef9-8bcd-90c89b35ea75"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "9aed284a-1cd0-426f-ae22-37dad73b7445"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "4566e126-b854-4d58-a76c-2acac4a7ed85"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_50/geotiff/{tile_id}.tif",
+    "70e14fd9-7796-49b7-8fb8-a2676a6c262c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "24bae298-9c66-440f-bb12-737ba99c9b2a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "b41bf1a1-5a84-40ed-8c44-3ac53d0f6683"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_50/geotiff/{tile_id}.tif",
+    "20b42b2f-4c62-4ff2-88fd-6f48df0cab15"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "38d871e6-af06-4242-bb38-836bfab3caf8"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "0b614272-70d6-4ba4-b8d9-957950b2b2bb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_50/geotiff/{tile_id}.tif",
+    "87311722-8d63-4e99-8f65-91a48e8361f8"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "72add50e-1a92-43ce-b6b9-176759bfaf2f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "b6cc1ba7-00f3-4e5d-93bd-e710bf105f1c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_50/geotiff/{tile_id}.tif",
+    "a4573811-7967-4646-a6ac-518ac55c4557"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "3b259ed8-8d3c-44c1-b039-3958a497ac80"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "111c9498-761a-448a-a9c6-ebcf58ac61e7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_50/geotiff/{tile_id}.tif",
+    "e1fbbf2e-8398-4be6-bc62-fda46c0a508c"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "196b0f74-4ed1-41a4-8fad-7138d4c36309"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "cc1c8333-200b-4fbb-9c38-9147ba566aaf"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_50/geotiff/{tile_id}.tif",
+    "bdc5e861-b120-4c7c-afa8-4bd2c0b60847"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "72012f2d-a063-4b64-9824-d89ef21d76ee"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "70c78ca8-f968-4b6f-af59-3f60eb0f2517"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_50/geotiff/{tile_id}.tif",
+    "b5cca228-a227-4b97-8f1f-e5176a8e00ea"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "1b0dd9fe-fc89-4f7a-9cc2-1dd0c59b84f1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "77beac4b-6577-4679-95c3-bf04b511d239"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_50/geotiff/{tile_id}.tif",
+    "10726b61-0740-4332-9ea4-605b63abcb59"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "88eed507-d5f1-48ce-a750-042220fb2c68"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "382407c8-e3c3-4903-a225-f8a6ee20de64"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_50/geotiff/{tile_id}.tif",
+    "533ac2e6-da00-4b1e-8aed-78748982d208"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_50_tcd_50/geotiff/{tile_id}.tif",
+    "76f865e7-2361-482c-b1b3-f79bd1c2e979"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_50/geotiff/{tile_id}.tif",
+    "50973ec6-80ce-400d-aa64-cf1a5a548814"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_50/geotiff/{tile_id}.tif",
+    "b995ad21-4c2f-47c0-961d-2437d4b177ac"
+   ],
+   [
+    "Raster tile cache",
+    "https://tiles.globalforestwatch.org/tsc_tree_cover_loss_drivers/v2023/tcd_75/{z}/{x}/{y}.png",
+    "58bec999-3cdb-44f0-aea6-040162566fa0"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "7b9b0315-7dda-4d74-a999-3baf547474c4"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "bd461821-68c0-4468-bbce-f47afa62bb82"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_10/tcd_75/geotiff/{tile_id}.tif",
+    "be6cca8e-d255-4004-bb74-4d96b0dae3f7"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "b7ec04fb-3ba1-4746-8eab-35ae9c74c416"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "22f7027d-c29f-4eb5-8e2d-2c28521837bf"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_9/tcd_75/geotiff/{tile_id}.tif",
+    "923fd882-181b-4cc7-bafe-334283f6ff56"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "a967038c-065f-4ef1-b01a-837da326daf0"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "c8861534-7a5e-43fa-bc35-37f403b9b4b2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_8/tcd_75/geotiff/{tile_id}.tif",
+    "0d1655eb-4736-4f91-ab38-684ff68773da"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "69b632d7-0ce0-483b-b9f4-429d7fd35db9"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "c82de737-92dc-458b-96a0-31405c1680c5"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_7/tcd_75/geotiff/{tile_id}.tif",
+    "340a102f-d9c8-4bcd-b78d-329d596d49b6"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "50609d32-b28d-47d5-8213-59d705bb2aad"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "d0720156-927c-4d08-94e1-01bf77862836"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_6/tcd_75/geotiff/{tile_id}.tif",
+    "0ad1ee44-f451-4d23-918b-c6c361b9233f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "8157e76d-7370-4fae-affb-da07573ca6d2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "7b52cc66-baeb-45dc-9a25-3892b1e4a7a6"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_5/tcd_75/geotiff/{tile_id}.tif",
+    "109abd19-c76a-4ee0-89e8-97621158a47b"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "0321004c-fdec-4d86-b7c3-bb8c28e89b55"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "1bba1112-8c8b-4088-a4e2-bb18c977d54a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_4/tcd_75/geotiff/{tile_id}.tif",
+    "0fd15e9d-ddfc-41d4-8fbc-e352595056fb"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "b242a11a-d6de-4731-a51b-635c72e70b55"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "ca3b44ee-205b-4add-a897-7e2dc938a03f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_3/tcd_75/geotiff/{tile_id}.tif",
+    "c6effae9-fbdf-4a3a-adbc-22cb2014b474"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "b0359f67-d821-445a-a9bf-411dda78183a"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "1564a894-cc5e-4360-8a4b-0a10dcd6ff44"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_2/tcd_75/geotiff/{tile_id}.tif",
+    "9b56beab-6b37-4886-b701-81bbead201f2"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "0dfaf25c-3fbf-4605-a6bd-45b197bd5da5"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "45fe19ad-48ee-494f-b878-ed49ea91e002"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_1/tcd_75/geotiff/{tile_id}.tif",
+    "92336d6f-40e1-46f2-871d-229ce72fad1f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcl_year__driver__tcd_75_tcd_75/geotiff/{tile_id}.tif",
+    "6452eac5-7d19-49ed-9092-942dcc92b41f"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/intensity_tcd_75/geotiff/{tile_id}.tif",
+    "373929f7-d7e8-4a10-b77d-2206644434e1"
+   ],
+   [
+    "Raster tile set",
+    "s3://gfw-data-lake/tsc_tree_cover_loss_drivers/v2023/raster/epsg-3857/zoom_0/tcd_75/geotiff/{tile_id}.tif",
+    "bc741122-a6c1-48f2-9483-7569f1dfd9cd"
+   ]
+  ]
+ },
+ "status": "success"
+}

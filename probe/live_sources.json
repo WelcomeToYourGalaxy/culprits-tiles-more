@@ -1,0 +1,129 @@
+{
+ "asked": "2026-09-27 03:38 UTC",
+ "origin": "https://welcometoyourgalaxy.github.io",
+ "sources": {
+  "owid_aid (Our World in Data chart data)": {
+   "url": "https://ourworldindata.org/grapher/foreign-aid-received-as-a-share-of-national-income-net.csv?v=1&csvType=full&useColumnShortNames=true",
+   "status": 200,
+   "seconds": 0.9,
+   "type": "text/csv",
+   "allow_origin": "*",
+   "bytes_read": 200000,
+   "starts": "entity,code,year,oda_share_gni_recipient__donor_official_donors,owid_region\nAfghanistan,AFG,1960,3.129,Asia\nAfghanistan,AFG,1961,6.191,Asia\nAfghanistan,AFG,1962"
+  },
+  "owid_aid (chart metadata)": {
+   "url": "https://ourworldindata.org/grapher/foreign-aid-received-as-a-share-of-national-income-net.metadata.json?v=1&csvType=full&useColumnShortNames=true",
+   "status": 200,
+   "seconds": 0.6,
+   "type": "application/json",
+   "allow_origin": "*",
+   "bytes_read": 3818,
+   "starts": "{\"chart\":{\"title\":\"Foreign aid received as a share of national income\",\"subtitle\":\"Net official development assistance (ODA) divided by gross national income.\","
+  },
+  "ejatlas (GeoJSON list)": {
+   "url": "https://ejatlas.org/api/v1/conflicts/?format=geojson",
+   "status": 200,
+   "seconds": 5.3,
+   "type": "application/json",
+   "allow_origin": "https://welcometoyourgalaxy.github.io",
+   "bytes_read": 200000,
+   "starts": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[9.197359085,48.796404684]},\"properties\":{\"id\":3,\"category\":7"
+  },
+  "ejatlas (plain list)": {
+   "url": "https://ejatlas.org/api/v1/conflicts/?limit=500&offset=0",
+   "status": 200,
+   "seconds": 6.6,
+   "type": "application/json",
+   "allow_origin": "https://welcometoyourgalaxy.github.io",
+   "bytes_read": 200000,
+   "starts": "{\"count\":4586,\"next\":\"http://ejatlas.org/api/v1/conflicts/?limit=500&offset=500\",\"previous\":null,\"results\":[{\"id\":7079,\"slug\":\"conflicto-ambiental-en-comunidade"
+  },
+  "ejatlas (data policy page)": {
+   "url": "https://ejatlas.org/datapolicy",
+   "status": 200,
+   "seconds": 0.5,
+   "type": "text/html",
+   "allow_origin": "https://welcometoyourgalaxy.github.io",
+   "bytes_read": 1004,
+   "starts": "<!doctype html><html lang=\"es\"><head><script async src=\"https://www.googletagmanager.com/gtag/js?id=G-X1PDDW7LYE\"></script><script>function gtag(){dataLayer.pus"
+  },
+  "gsn (layer list)": {
+   "url": "https://api.gsn.naturedatalab.org/geo-analysis/layers",
+   "status": 200,
+   "seconds": 0.9,
+   "type": "application/json; charset=utf-8",
+   "allow_origin": "*",
+   "bytes_read": 52425,
+   "starts": "[{\"id\":1,\"name\":\"Strictly Protected\",\"key\":\"strictly_protected\",\"gee_layer_asset_path\":\"projects/global-safety-net/assets/protection-level/strictly-protected-no"
+  },
+  "usda_corn (map server)": {
+   "url": "https://gis.ipad.fas.usda.gov/arcgis/rest/services/CommodityExplorerCorn/MapServer?f=json",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+   "seconds": 0.2
+  },
+  "usda_soybean (map server)": {
+   "url": "https://gis.ipad.fas.usda.gov/arcgis/rest/services/CommodityExplorerSoybean/MapServer?f=json",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+   "seconds": 0.2
+  },
+  "gfw (dataset list)": {
+   "url": "https://data-api.globalforestwatch.org/datasets?page[size]=100&page[number]=1",
+   "status": 200,
+   "seconds": 0.5,
+   "type": "application/json",
+   "allow_origin": "*",
+   "bytes_read": 81418,
+   "starts": "{\"data\":[{\"created_on\":\"2024-08-21T19:47:19.461669\",\"updated_on\":\"2024-08-21T19:47:19.461675\",\"dataset\":\"aqueduct_crop_baseline_2020\",\"is_downloadable\":true,\"me"
+  },
+  "trase (regions)": {
+   "url": "https://resources.trase.earth/data/trase-regions",
+   "status": 403,
+   "seconds": 0.9,
+   "allow_origin": "*",
+   "starts": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>M2758PYFVP518PV0</RequestId><HostId>OE6J3+wgdJkRQMv4UCWlarn4Iz07/De/NRIVfE6bvFj3fUbdJce+rZ3tBEUTV3ybDrYvQz9J7KWZ/eopTS+A3wgfgNY9FDBv</HostId></Error>"
+  },
+  "umap wreckers (map settings)": {
+   "url": "https://umap.openstreetmap.fr/en/map/409815/geojson/",
+   "status": 200,
+   "seconds": 0.7,
+   "type": "application/json",
+   "allow_origin": "*",
+   "bytes_read": 24393,
+   "starts": "{\"type\": \"Feature\", \"geometry\": {\"type\": \"Point\", \"coordinates\": [-0.12342453002929689, 51.52220246372816]}, \"properties\": {\"name\": \"Wreckers of the earth 2021\""
+  },
+  "launch library (upcoming)": {
+   "url": "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=1",
+   "status": 200,
+   "seconds": 0.4,
+   "type": "application/json",
+   "allow_origin": "*",
+   "bytes_read": 4906,
+   "starts": "{\"count\":368,\"next\":\"https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=1&offset=1\",\"previous\":null,\"results\":[{\"id\":\"7330d83b-c478-426c-8859-f9e3a335876d"
+  },
+  "carbon mapper": {
+   "url": "https://api.carbonmapper.org/api/v1/catalog/plumes/annotated?limit=1",
+   "status": 200,
+   "seconds": 0.8,
+   "type": "application/json",
+   "allow_origin": null,
+   "bytes_read": 4320,
+   "starts": "{\"bbox_count\": 44494, \"total_count\": 44494, \"limit\": 1, \"offset\": 0, \"items\": [{\"id\": \"c6ecac26-5e6b-4773-9590-f6d42a7b64b6\", \"plume_id\": \"tan20260828t030113c03"
+  },
+  "nusantara (WMS capabilities)": {
+   "url": "https://map.nusantara-atlas.org/geoserver/atlas-workspace-v3/wms?service=WMS&request=GetCapabilities",
+   "status": 200,
+   "seconds": 2.0,
+   "type": "text/xml",
+   "allow_origin": "https://welcometoyourgalaxy.github.io",
+   "bytes_read": 200000,
+   "starts": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><WMS_Capabilities version=\"1.3.0\" updateSequence=\"8939\" xmlns=\"http://www.opengis.net/wms\" xmlns:xlink=\"http://www.w3.org/"
+  },
+  "wastewater model tiles": {
+   "url": "https://mazu.nceas.ucsb.edu/wastewater/N_effluent/0/0/0.png",
+   "status": 404,
+   "seconds": 0.2,
+   "allow_origin": null,
+   "starts": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+  }
+ }
+}

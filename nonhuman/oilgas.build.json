@@ -1,0 +1,214 @@
+{
+ "version": "OGIM_v3.0",
+ "layers in the file": [
+  [
+   "Crude_Oil_Refineries",
+   "Point"
+  ],
+  [
+   "Equipment_and_Components",
+   "Point"
+  ],
+  [
+   "Gathering_and_Processing",
+   "Point"
+  ],
+  [
+   "Injection_and_Disposal",
+   "Point"
+  ],
+  [
+   "LNG_Facilities",
+   "Point"
+  ],
+  [
+   "Natural_Gas_Compressor_Stations",
+   "Point"
+  ],
+  [
+   "Natural_Gas_Flaring_Detections",
+   "Point"
+  ],
+  [
+   "Offshore_Platforms",
+   "Point"
+  ],
+  [
+   "Oil_and_Natural_Gas_Basins",
+   "MultiPolygon"
+  ],
+  [
+   "Oil_and_Natural_Gas_Fields",
+   "MultiPolygon Z"
+  ],
+  [
+   "Oil_and_Natural_Gas_License_Blocks",
+   "MultiPolygon Z"
+  ],
+  [
+   "Oil_and_Natural_Gas_Pipelines",
+   "MultiLineString Z"
+  ],
+  [
+   "Oil_and_Natural_Gas_Production",
+   "Point"
+  ],
+  [
+   "Oil_and_Natural_Gas_Wells",
+   "Point"
+  ],
+  [
+   "Petroleum_Terminals",
+   "Point"
+  ],
+  [
+   "Stations_Other",
+   "Point"
+  ],
+  [
+   "Tank_Battery",
+   "Point"
+  ],
+  [
+   "Data_Catalog",
+   "Unknown"
+  ],
+  [
+   "ML_Oil_and_Natural_Gas_Well_Pads",
+   "Polygon"
+  ]
+ ],
+ "wdpa": "WDPA_WDOECM_Nov2026_Public_all_shp.zip",
+ "wdpa layers read": [
+  {
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2629,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2629,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2628,
+   "kept": 2628,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  }
+ ],
+ "this run": {
+  "Oil_and_Natural_Gas_Wells": {
+   "inside a protected area": 84717,
+   "within 1 km": 164934,
+   "within 10 km": 1672908,
+   "within 20 km": 1108001,
+   "further than 20 km": 1506809
+  },
+  "Petroleum_Terminals": {
+   "inside a protected area": 66,
+   "within 1 km": 358,
+   "within 10 km": 2083,
+   "within 20 km": 660,
+   "further than 20 km": 494
+  },
+  "Stations_Other": {
+   "inside a protected area": 124,
+   "within 1 km": 253,
+   "within 10 km": 3037,
+   "within 20 km": 2222,
+   "further than 20 km": 2832
+  },
+  "Tank_Battery": {
+   "inside a protected area": 1599,
+   "within 1 km": 2929,
+   "within 10 km": 40794,
+   "within 20 km": 36253,
+   "further than 20 km": 50645
+  },
+  "Data_Catalog": {
+   "inside a protected area": 0,
+   "within 1 km": 0,
+   "within 10 km": 0,
+   "within 20 km": 0,
+   "further than 20 km": 0
+  },
+  "ML_Oil_and_Natural_Gas_Well_Pads": {
+   "inside a protected area": 420,
+   "within 1 km": 10,
+   "within 10 km": 74,
+   "within 20 km": 110,
+   "further than 20 km": 8378
+  }
+ },
+ "complete": true,
+ "made": "2026-11-10T22:16:19Z"
+}

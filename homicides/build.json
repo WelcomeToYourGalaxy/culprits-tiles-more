@@ -1,0 +1,24 @@
+{
+ "built": "2026-11-09 19:02 UTC",
+ "countries": 145,
+ "wikidata": 6021,
+ "colombia": {
+  "towns": 1108,
+  "records read": 345195,
+  "homicides not placed (town code not in DANE's list)": 0
+ },
+ "chicago": 14449,
+ "los_angeles": 1566,
+ "new_york": {
+  "placed": 8394,
+  "read": {
+   "https://data.cityofnewyork.us/resource/qgea-i56i.json": 8284,
+   "https://data.cityofnewyork.us/resource/5uac-w243.json": 204
+  }
+ },
+ "washington_post": 52119,
+ "case archive": {
+  "points": 76528,
+  "files": 5
+ }
+}

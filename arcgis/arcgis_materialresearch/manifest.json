@@ -1,0 +1,227 @@
+{
+ "item": "3ff82579637f4c7a96bd62d039ac3e00",
+ "title": "Material Research World Atlas",
+ "layers": [
+  {
+   "i": 0,
+   "title": "US Facilities w/ Census Tracts ",
+   "url": "https://services7.arcgis.com/dOO3olJvr8olApEg/arcgis/rest/services/Toxic_Facility_Locations_United_States/FeatureServer/0",
+   "features": 504,
+   "popupInfo": null
+  },
+  {
+   "i": 1,
+   "title": "PublicSchoolsw_ExportFeature",
+   "url": "https://services7.arcgis.com/dOO3olJvr8olApEg/arcgis/rest/services/Public_schools_within_3_miles_of_a_facility/FeatureServer/0",
+   "features": 2960,
+   "popupInfo": null
+  },
+  {
+   "i": 2,
+   "title": "PrivateSchools_ExportFeature",
+   "url": "https://services7.arcgis.com/dOO3olJvr8olApEg/arcgis/rest/services/Private_schools_with_a_3_mile_radius/FeatureServer/0",
+   "features": 597,
+   "popupInfo": null
+  },
+  {
+   "i": 3,
+   "title": "SVI2020_US_county",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/1",
+   "features": 3143,
+   "popupInfo": null
+  },
+  {
+   "i": 4,
+   "title": "SVI2020_US_tract",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/2",
+   "features": 84122,
+   "popupInfo": null
+  },
+  {
+   "i": 5,
+   "title": "SVI2020_US_county - Theme 1",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/4",
+   "features": 3143,
+   "popupInfo": null
+  },
+  {
+   "i": 6,
+   "title": "SVI2020_US_tract - Theme 1",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/5",
+   "features": 84122,
+   "popupInfo": null
+  },
+  {
+   "i": 7,
+   "title": "SVI2020_US_county - Theme 2",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/7",
+   "features": 3143,
+   "popupInfo": null
+  },
+  {
+   "i": 8,
+   "title": "SVI2020_US_tract - Theme 2",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/8",
+   "features": 84122,
+   "popupInfo": null
+  },
+  {
+   "i": 9,
+   "title": "SVI2020_US_county - Theme 3",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/10",
+   "features": 3143,
+   "popupInfo": null
+  },
+  {
+   "i": 10,
+   "title": "SVI2020_US_tract - Theme 3",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/11",
+   "features": 84122,
+   "popupInfo": null
+  },
+  {
+   "i": 11,
+   "title": "SVI2020_US_county - Theme 4",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/13",
+   "features": 3143,
+   "popupInfo": null
+  },
+  {
+   "i": 12,
+   "title": "SVI2020_US_tract - Theme 4",
+   "url": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2020_USA/FeatureServer/14",
+   "features": 84122,
+   "popupInfo": null
+  },
+  {
+   "i": 13,
+   "title": "USA_Detailed_Water_Bodies",
+   "url": "https://services7.arcgis.com/dOO3olJvr8olApEg/arcgis/rest/services/USA_Detailed_Water_Bodies/FeatureServer/0",
+   "features": 463591,
+   "popupInfo": null
+  },
+  {
+   "i": 14,
+   "title": "Toxic Facilities Locations Global",
+   "url": "https://services7.arcgis.com/dOO3olJvr8olApEg/arcgis/rest/services/Atlas_of_Toxic_Manufacturing_Plant_Locations_Global_/FeatureServer/0",
+   "features": 162,
+   "popupInfo": {
+    "popupElements": [
+     {
+      "type": "text",
+      "text": "<p><span style='font-family:Verdana;font-size:14px;'><strong>{Parent_Company}</strong> owns this toxic chemical production facility in <strong>{City___Town}</strong>, <strong>{State___Province}</strong>, <strong>{Country}</strong>.</span></p><p><span style='font-family:Verdana;font-size:14px;'>Further information about this plant is available from these reports:&nbsp;</span></p><p><a href='{Report_Link_1}' rel='nofollow ugc'><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>{Report_Link_1}</span></a><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>&nbsp;</span></p><p><a href='{Report_Link_2}' rel='nofollow ugc'><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>{Report_Link_2}</span></a><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>&nbsp;</span></p>"
+     }
+    ],
+    "description": "<p><span style='font-family:Verdana;font-size:14px;'><strong>{Parent_Company}</strong> owns this toxic chemical production facility in <strong>{City___Town}</strong>, <strong>{State___Province}</strong>, <strong>{Country}</strong>.</span></p><p><span style='font-family:Verdana;font-size:14px;'>Further information about this plant is available from these reports:&nbsp;</span></p><p><a href='{Report_Link_1}' rel='nofollow ugc'><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>{Report_Link_1}</span></a><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>&nbsp;</span></p><p><a href='{Report_Link_2}' rel='nofollow ugc'><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>{Report_Link_2}</span></a><span style='color:#80b3d6;font-family:Verdana;font-size:14px;'>&nbsp;</span></p>",
+    "expressionInfos": [],
+    "fieldInfos": [
+     {
+      "fieldName": "OBJECTID",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": false,
+      "label": "OBJECTID",
+      "visible": true
+     },
+     {
+      "fieldName": "Facility_ID",
+      "isEditable": true,
+      "label": "Facility ID",
+      "visible": true
+     },
+     {
+      "fieldName": "Parent_Company",
+      "isEditable": true,
+      "label": "Parent Company",
+      "visible": true
+     },
+     {
+      "fieldName": "Plant_Name",
+      "isEditable": true,
+      "label": "Plant Name",
+      "visible": true
+     },
+     {
+      "fieldName": "Latitude",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Latitude",
+      "visible": true
+     },
+     {
+      "fieldName": "Longitude",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Longitude",
+      "visible": true
+     },
+     {
+      "fieldName": "City___Town",
+      "isEditable": true,
+      "label": "City / Town",
+      "visible": true
+     },
+     {
+      "fieldName": "State___Province",
+      "isEditable": true,
+      "label": "State / Province",
+      "visible": true
+     },
+     {
+      "fieldName": "Country",
+      "isEditable": true,
+      "label": "Country",
+      "visible": true
+     },
+     {
+      "fieldName": "Report_Link_1",
+      "isEditable": true,
+      "label": "Report Link 1",
+      "visible": true
+     },
+     {
+      "fieldName": "Report_Link_2",
+      "isEditable": true,
+      "label": "Report Link 2",
+      "visible": true
+     },
+     {
+      "fieldName": "NEAR_FID",
+      "isEditable": true,
+      "label": "NEAR_FID",
+      "visible": false
+     },
+     {
+      "fieldName": "NEAR_DIST",
+      "isEditable": true,
+      "label": "NEAR_DIST",
+      "visible": false
+     },
+     {
+      "fieldName": "NEAR_X",
+      "isEditable": true,
+      "label": "NEAR_X",
+      "visible": false
+     },
+     {
+      "fieldName": "NEAR_Y",
+      "isEditable": true,
+      "label": "NEAR_Y",
+      "visible": false
+     }
+    ],
+    "title": "{Plant_Name}"
+   }
+  }
+ ],
+ "skipped": [],
+ "features": 904139
+}

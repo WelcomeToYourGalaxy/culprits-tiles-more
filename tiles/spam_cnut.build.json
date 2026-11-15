@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "CNUT"
+ ],
+ "hectares": 10744102.0,
+ "to_zoom": 5,
+ "squares": 126,
+ "bytes": 261883,
+ "how": "max"
+}

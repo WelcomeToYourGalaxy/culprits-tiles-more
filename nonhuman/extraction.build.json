@@ -1,0 +1,105 @@
+{
+ "mines": 192584,
+ "counts": {
+  "inside a protected area": 30502,
+  "within 1 km": 26782,
+  "within 10 km": 66115,
+  "within 20 km": 20171,
+  "further than 20 km": 49014
+ },
+ "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "wdpa layers read": [
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 164238,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2430,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 164515,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2514,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 154839,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2628,
+   "kept": 2196,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID",
+    "pa_name": "NAME_ENG",
+    "pa_desig": "DESIG_ENG",
+    "pa_iucn": "IUCN_CAT"
+   }
+  }
+ ],
+ "mine columns": [
+  "id",
+  "isoa3",
+  "country",
+  "area",
+  "geometry"
+ ],
+ "made": "2026-10-17T07:04:14Z"
+}

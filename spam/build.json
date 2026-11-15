@@ -1,0 +1,127 @@
+{
+ "version": "2.2",
+ "files": 139,
+ "crops": [
+  "COFF",
+  "BANA",
+  "BARL",
+  "BEAN",
+  "CASS",
+  "CHIC",
+  "CITR",
+  "COCO",
+  "CNUT",
+  "COTT",
+  "COWP",
+  "GROU",
+  "LENT",
+  "MAIZ",
+  "MILL",
+  "OILP",
+  "ONIO",
+  "OCER",
+  "REST",
+  "OFIB",
+  "OOIL",
+  "OPUL",
+  "ORTS",
+  "TROF",
+  "VEGE",
+  "PMIL",
+  "PIGE",
+  "PLNT",
+  "POTA",
+  "RAPE",
+  "RICE",
+  "RCOF",
+  "RUBB",
+  "SESA",
+  "SORG",
+  "SOYB",
+  "SUGB",
+  "SUGC",
+  "SUNF",
+  "SWPO",
+  "TEAS",
+  "TEMF",
+  "TOBA",
+  "TOMA",
+  "WHEA",
+  "YAMS"
+ ],
+ "hectares": {
+  "COFF": 6503789,
+  "BANA": 4987288,
+  "BARL": 50146692,
+  "BEAN": 30106728,
+  "CASS": 21997196,
+  "CHIC": 13261851,
+  "CITR": 9851954,
+  "COCO": 7989680,
+  "CNUT": 10744102,
+  "COTT": 32068412,
+  "COWP": 12883626,
+  "GROU": 29665040,
+  "LENT": 5043740,
+  "MAIZ": 176535856,
+  "MILL": 4316214,
+  "OILP": 27359832,
+  "ONIO": 4691002,
+  "OCER": 24818916,
+  "REST": 19729296,
+  "OFIB": 2707673,
+  "OOIL": 21272320,
+  "OPUL": 15924497,
+  "ORTS": 1808617,
+  "TROF": 17868736,
+  "VEGE": 39016552,
+  "PMIL": 22598054,
+  "PIGE": 5578580,
+  "PLNT": 5028482,
+  "POTA": 16842100,
+  "RAPE": 35682240,
+  "RICE": 109475664,
+  "RCOF": 4377867,
+  "RUBB": 11943576,
+  "SESA": 12869655,
+  "SORG": 37101216,
+  "SOYB": 119458288,
+  "SUGB": 4464877,
+  "SUGC": 26065116,
+  "SUNF": 27897128,
+  "SWPO": 6374178,
+  "TEAS": 4806458,
+  "TEMF": 24858212,
+  "TOBA": 3107450,
+  "TOMA": 4039357,
+  "WHEA": 194392432,
+  "YAMS": 6122150
+ },
+ "own_rows": {
+  "oilp": [
+   "OILP"
+  ],
+  "soyb": [
+   "SOYB"
+  ],
+  "coco": [
+   "COCO"
+  ],
+  "sugc": [
+   "SUGC"
+  ],
+  "maiz": [
+   "MAIZ"
+  ],
+  "rice": [
+   "RICE"
+  ],
+  "cott": [
+   "COTT"
+  ],
+  "cnut": [
+   "CNUT"
+  ]
+ },
+ "readme": {}
+}

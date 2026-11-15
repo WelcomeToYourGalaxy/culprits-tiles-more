@@ -1,0 +1,77 @@
+{
+ "file": "gHM.zip",
+ "raster crs": "ESRI:54009",
+ "areas with a boundary": 507966,
+ "areas measured": 503030,
+ "areas given only as a point (not measured)": 7886,
+ "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "wdpa layers read": [
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2629,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2629,
+   "kept": 2629,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "layer": null,
+   "geometry": "Polygon",
+   "rows": 169322,
+   "kept": 169322,
+   "as": "poly",
+   "columns": {
+    "pa_id": "SITE_ID"
+   }
+  },
+  {
+   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "layer": null,
+   "geometry": "MultiPoint",
+   "rows": 2628,
+   "kept": 2628,
+   "as": "point",
+   "columns": {
+    "pa_id": "SITE_ID"
+   }
+  }
+ ],
+ "made": "2026-10-17T05:31:31Z"
+}

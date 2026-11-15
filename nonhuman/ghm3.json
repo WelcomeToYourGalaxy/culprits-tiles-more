@@ -1,0 +1,457 @@
+{
+ "source": "Theobald et al. 2025, Scientific Data 12: 489; Global Human Modification v3, Zenodo 14449495 and 14502573",
+ "licence": "CC BY 4.0",
+ "years": [
+  1990,
+  1995,
+  2000,
+  2005,
+  2010,
+  2015,
+  2020,
+  2022
+ ],
+ "key": [
+  [
+   "#E4F3F8",
+   "0 to under 0.1"
+  ],
+  [
+   "#C6E7F0",
+   "0.1 to under 0.2"
+  ],
+  [
+   "#9CD6E6",
+   "0.2 to under 0.3"
+  ],
+  [
+   "#6FC2DA",
+   "0.3 to under 0.4"
+  ],
+  [
+   "#46AACB",
+   "0.4 to under 0.5"
+  ],
+  [
+   "#2E8FBA",
+   "0.5 to under 0.6"
+  ],
+  [
+   "#2275A8",
+   "0.6 to under 0.7"
+  ],
+  [
+   "#1A5C92",
+   "0.7 to under 0.8"
+  ],
+  [
+   "#13447A",
+   "0.8 to under 0.9"
+  ],
+  [
+   "#0C2E5E",
+   "0.9 to 1"
+  ]
+ ],
+ "kinds": [
+  {
+   "code": "AA",
+   "label": "All threats combined",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/aa_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "AG",
+   "label": "Agriculture",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ag_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "BU",
+   "label": "Built-up land",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/bu_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "EX",
+   "label": "Energy production and mining",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ex_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "FR",
+   "label": "Biological resource use (logging, hunting, fishing)",
+   "steps": [
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/fr_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/fr_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/fr_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/fr_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/fr_2022.pmtiles"
+    }
+   ],
+   "empty": [
+    1990,
+    1995,
+    2000
+   ]
+  },
+  {
+   "code": "HI",
+   "label": "Human accessibility",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/hi_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "NS",
+   "label": "Natural system modification (dams, reservoirs, water taken)",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ns_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "PO",
+   "label": "Pollution",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_2010.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/po_2022.pmtiles"
+    }
+   ]
+  },
+  {
+   "code": "TI",
+   "label": "Transportation and service corridors (roads, railways, power lines)",
+   "steps": [
+    {
+     "year": 1990,
+     "label": "1990",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_1990.pmtiles"
+    },
+    {
+     "year": 1995,
+     "label": "1995",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_1995.pmtiles"
+    },
+    {
+     "year": 2000,
+     "label": "2000",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_2000.pmtiles"
+    },
+    {
+     "year": 2005,
+     "label": "2005",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_2005.pmtiles"
+    },
+    {
+     "year": 2010,
+     "label": "2010",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_2010.pmtiles"
+    },
+    {
+     "year": 2015,
+     "label": "2015",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_2015.pmtiles"
+    },
+    {
+     "year": 2020,
+     "label": "2020",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_2020.pmtiles"
+    },
+    {
+     "year": 2022,
+     "label": "2022",
+     "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/ghm3/ti_2022.pmtiles"
+    }
+   ]
+  }
+ ]
+}
