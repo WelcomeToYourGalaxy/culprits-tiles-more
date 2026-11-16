@@ -1,8 +1,8 @@
 {
- "read": "2026-11-09",
- "features": 3722,
- "wikidata": 948,
- "lists": 34403,
+ "read": "2026-11-16",
+ "features": 3726,
+ "wikidata": 949,
+ "lists": 34419,
  "compiled": 61,
  "by_tier_and_branch": {
   "Admitted by the person, or by the side that paid or ran them | company": 13,
@@ -25,13 +25,13 @@
   "Held office and worked for a spy service or secret police (Wikidata) | courts": 26,
   "Held office and worked for a spy service or secret police (Wikidata) | lawmaking": 216,
   "Held office and worked for a spy service or secret police (Wikidata) | other office": 163,
-  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 294,
+  "Held office and worked for a spy service or secret police (Wikidata) | ruling and running": 295,
   "Named in opened secret-police or spy-service files | company": 2,
   "Named in opened secret-police or spy-service files | courts": 14,
   "Named in opened secret-police or spy-service files | lawmaking": 276,
-  "Named in opened secret-police or spy-service files | no office recorded": 1125,
-  "Named in opened secret-police or spy-service files | other office": 170,
-  "Named in opened secret-police or spy-service files | ruling and running": 465,
+  "Named in opened secret-police or spy-service files | no office recorded": 1126,
+  "Named in opened secret-police or spy-service files | other office": 171,
+  "Named in opened secret-police or spy-service files | ruling and running": 466,
   "Settled bribery charges with a regulator (often without admitting or denying) | company": 229
  },
  "found": {
@@ -253,6 +253,7 @@
    "Q109547607 Q109547607",
    "Q109598177 Q109598177",
    "Q109599626 Q109599626",
+   "Q109602771 Q109602771",
    "Q109649772 Q109649772",
    "Q109718018 Q109718018",
    "Q109744578 Q109744578",
@@ -419,6 +420,7 @@
    "Q11492811 Q11492811",
    "Q114929905 Q114929905",
    "Q11494895 Q11494895",
+   "Q11496062 Q11496062",
    "Q11496098 Q11496098",
    "Q11497403 Q11497403",
    "Q11497444 Q11497444",
@@ -2747,7 +2749,6 @@
    "Q138757416 Q138757416",
    "Q138801644 Q138801644",
    "Q138948737 Q138948737",
-   "Q1391285 Q1391285",
    "Q1391482 Q1391482",
    "Q139268350 Q139268350",
    "Q139501270 Q139501270",
@@ -2818,6 +2819,8 @@
    "Q141915782 Q141915782",
    "Q141961914 Q141961914",
    "Q142076330 Q142076330",
+   "Q142109687 Q142109687",
+   "Q142111097 Q142111097",
    "Q14318888 Q14318888",
    "Q144145 Q144145",
    "Q14435371 Q14435371",
@@ -2981,7 +2984,6 @@
    "Q19921688 Q19921688",
    "Q1994834 Q1994834",
    "Q1995157 Q1995157",
-   "Q19971676 Q19971676",
    "Q20063108 Q20063108",
    "Q20064797 Q20064797",
    "Q20103402 Q20103402",
@@ -3083,7 +3085,6 @@
    "Q2452169 Q2452169",
    "Q2479806 Q2479806",
    "Q2481653 Q2481653",
-   "Q24886243 Q24886243",
    "Q24899439 Q24899439",
    "Q2493155 Q2493155",
    "Q2496895 Q2496895",
@@ -3253,7 +3254,6 @@
    "Q3684638 Q3684638",
    "Q3726226 Q3726226",
    "Q37983941 Q37983941",
-   "Q3803846 Q3803846",
    "Q3831930 Q3831930",
    "Q3862177 Q3862177",
    "Q3963766 Q3963766",
@@ -3420,6 +3420,7 @@
    "Q80923974 Q80923974",
    "Q81093109 Q81093109",
    "Q81308129 Q81308129",
+   "Q814878 Q814878",
    "Q81894706 Q81894706",
    "Q819628 Q819628",
    "Q820114 Q820114",
@@ -3591,6 +3592,7 @@
    "Q1484051 G-Man",
    "Q1495652 mole",
    "Q1552147 Romeo",
+   "Q15651243 Titushky",
    "Q16536537 Q16536537",
    "Q16872924 informant",
    "Q16910705 Hori's nevus",
@@ -3793,6 +3795,7 @@
    "Q104849782 VUHL",
    "Q104855273 Delta State University of Science and Technology, Ozoro",
    "Q104855455 Quarterhorse",
+   "Q104858363 College",
    "Q104869199 pen",
    "Q10487656 Joint-stock cooperative enterprise in China",
    "Q104916176 secondary pedagogical schools",
@@ -4006,6 +4009,7 @@
    "Q106727392 Street cinema",
    "Q10672907 Q10672907",
    "Q10672946 society house",
+   "Q10673590 summer park",
    "Q10674566 compulsory special needs schools",
    "Q10675976 Q10675976",
    "Q10676520 sports bar",
@@ -4053,22 +4057,20 @@
    "Q107112765 Q107112765",
    "Q10711481 Q10711481",
    "Q107121408 Feminist credit unions",
+   "Q10712377 Walloon forge",
    "Q10713200 Q10713200",
    "Q107137983 chacra",
    "Q10714006 Venture Catalysts",
    "Q10716140 Q10716140",
    "Q10717186 Q10717186",
    "Q107173841 insurance company",
+   "Q107176681 Private maritime security companies",
    "Q107185387 Naberezhnye Chelny Pedagogical College",
    "Q107185507 Agency Houses in Company Rule",
    "Q107212145 Salumeria",
-   "Q1072166 tea house",
-   "Q10727386 open preschool",
-   "Q107286953 instituto español",
-   "Q10728708 Q10728708",
-   "Q107293007 citrus orchard"
+   "Q1072166 tea house"
   ],
-  "a. office holders who served a spy service": 737,
+  "a. office holders who served a spy service": 738,
   "b. office holders convicted": 234,
   "crimes matched": [
    "Espionage Act of 1917",
@@ -4105,7 +4107,7 @@
   ],
   "colombia items": 29,
   "colombia_wiki features": 24,
-  "country names": 1261,
+  "country names": 1248,
   "sec cases": 266,
   "sec points": 326,
   "sec_fcpa features": 326,
@@ -4130,14 +4132,14 @@
   "doj cases": 246,
   "doj_fcpa features": 246,
   "cs categories": {
-   "Kategorie:Spolupracovníci Státní bezpečnosti": 218
+   "Kategorie:Spolupracovníci Státní bezpečnosti": 225
   },
   "sk categories": {
    "Kategória:Agenti ŠtB": 41,
    "Kategória:Vedomí spolupracovníci ŠtB": 1
   },
   "pl categories": {
-   "Kategoria:Tajni współpracownicy Służby Bezpieczeństwa PRL": 246,
+   "Kategoria:Tajni współpracownicy Służby Bezpieczeństwa PRL": 245,
    "Kategoria:Tajni współpracownicy organów bezpieczeństwa Polski Ludowej": 66
   },
   "de categories": {
@@ -4178,19 +4180,19 @@
   "hr categories": {},
   "sl categories": {},
   "sr categories": {},
-  "secret_police_categories features": 1416,
+  "secret_police_categories features": 1419,
   "ipn drawn": 3363,
   "ipn features": 3363,
   "stb drawn": 116,
   "stb features": 116,
   "development bank debarment lists": [
-   "gb_fcdo_sanctions: UK FCDO Sanctions List",
    "ebrd_ineligible: EBRD Ineligible Entities",
-   "afdb_sanctions: African Development Bank Debarred Entities",
-   "worldbank_debarred: WorldBank Debarred Providers"
+   "gb_fcdo_sanctions: UK FCDO Sanctions List",
+   "worldbank_debarred: WorldBank Debarred Providers",
+   "afdb_sanctions: African Development Bank Debarred Entities"
   ],
-  "debarment points": 10993,
-  "mdb_debarments features": 10993,
+  "debarment points": 11003,
+  "mdb_debarments features": 11003,
   "fara columns": [
    "Foreign Principal Termination Date",
    "Foreign Principal",
@@ -4205,7 +4207,7 @@
    "State",
    "Zip"
   ],
-  "fara rows": 17786,
+  "fara rows": 17789,
   "fara countries not matched": [
    "01/10/1947",
    "04/20/1993",
@@ -4253,6 +4255,7 @@
    "ISLE OF MAN",
    "KOREA, NORTH",
    "KOREA, SOUTH",
+   "KOSOVA",
    "MACAU",
    "MONTSERRAT",
    "MUSCAT",
@@ -4274,6 +4277,7 @@
    "ST. EUSTATIUS",
    "ST. MARTIN",
    "SULU AND NORTH BORNEO",
+   "SWAZILAND",
    "TAHITI",
    "TAIWAN",
    "TIBET",
@@ -4291,7 +4295,7 @@
    "YUGOSLAVIA",
    "ZAIRE"
   ],
-  "fara features": 17786,
+  "fara features": 17789,
   "probes": {
    "ipn_catalogue_entry_86435.html": {
     "url": "https://katalog.bip.ipn.gov.pl/informacje/86435",
@@ -4323,13 +4327,13 @@
    }
   },
   "compiled names matched to Wikidata": 13,
-  "cases moved to a truer place": 1528,
-  "organisations placed at their address": 3271,
+  "cases moved to a truer place": 1574,
+  "organisations placed at their address": 3275,
   "addresses still to look up (next runs)": 0,
   "moved to rows of their own (round cap1w)": {
-   "fara": 17786,
-   "uk_sanctions": 6962,
-   "debarments": 4031,
+   "fara": 17789,
+   "uk_sanctions": 6981,
+   "debarments": 4022,
    "ipn_watched": 2911
   },
   "countries with cases": 114
