@@ -1,13 +1,13 @@
 {
- "built": "2026-11-09 19:02 UTC",
- "countries": 145,
- "wikidata": 6021,
+ "built": "2026-11-16 18:29 UTC",
+ "countries": 196,
+ "wikidata": 6032,
  "colombia": {
   "towns": 1108,
   "records read": 345195,
   "homicides not placed (town code not in DANE's list)": 0
  },
- "chicago": 14449,
+ "chicago": 14456,
  "los_angeles": 1566,
  "new_york": {
   "placed": 8394,
@@ -18,7 +18,7 @@
  },
  "washington_post": 52119,
  "case archive": {
-  "points": 76528,
+  "points": 76535,
   "files": 5
  }
 }
