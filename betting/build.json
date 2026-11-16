@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-16",
  "kinds": {
   "Q664702": "bookmaker",
   "Q7366867": "sportsbook",
@@ -27,6 +27,7 @@
   "Q2742026": "fixed-odds betting",
   "Q2900944": "liar's poker",
   "Q3550859": "online gambling",
+  "Q17985414": "Advanced Deposit Wagering",
   "Q114653522": "gambling in Latvia",
   "Q5088944": "casino cheating",
   "Q5504093": "friendly political wager",
@@ -57,8 +58,8 @@
   "Q55605291": "betting on horse racing",
   "Q117445087": "nelegální hazardní hry"
  },
- "items": 349,
- "placed": 290,
+ "items": 355,
+ "placed": 296,
  "not_placed": [
   "10bet South Africa",
   "10bet.com",
