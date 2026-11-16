@@ -4,10 +4,10 @@
  "areas with a boundary": 507966,
  "areas measured": 503030,
  "areas given only as a point (not measured)": 7886,
- "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "wdpa": "WDPA_WDOECM_Nov2026_Public_all_shp.zip",
  "wdpa layers read": [
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
    "layer": null,
    "geometry": "Polygon",
    "rows": 169322,
@@ -18,7 +18,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
    "layer": null,
    "geometry": "MultiPoint",
    "rows": 2629,
@@ -29,7 +29,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
    "layer": null,
    "geometry": "Polygon",
    "rows": 169322,
@@ -40,7 +40,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
    "layer": null,
    "geometry": "MultiPoint",
    "rows": 2629,
@@ -51,7 +51,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
    "layer": null,
    "geometry": "Polygon",
    "rows": 169322,
@@ -62,7 +62,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
    "layer": null,
    "geometry": "MultiPoint",
    "rows": 2628,
@@ -73,5 +73,5 @@
    }
   }
  ],
- "made": "2026-10-17T05:31:31Z"
+ "made": "2026-11-16T20:48:19Z"
 }
