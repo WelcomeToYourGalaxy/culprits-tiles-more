@@ -1,16 +1,16 @@
 {
  "mines": 192584,
  "counts": {
-  "inside a protected area": 30502,
-  "within 1 km": 26782,
-  "within 10 km": 66115,
-  "within 20 km": 20171,
-  "further than 20 km": 49014
+  "inside a protected area": 30531,
+  "within 1 km": 25253,
+  "within 10 km": 63626,
+  "within 20 km": 19758,
+  "further than 20 km": 53416
  },
- "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "wdpa": "WDPA_WDOECM_Nov2026_Public_all_shp.zip",
  "wdpa layers read": [
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
    "layer": null,
    "geometry": "Polygon",
    "rows": 169322,
@@ -24,7 +24,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
    "layer": null,
    "geometry": "MultiPoint",
    "rows": 2629,
@@ -38,7 +38,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
    "layer": null,
    "geometry": "Polygon",
    "rows": 169322,
@@ -52,7 +52,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
    "layer": null,
    "geometry": "MultiPoint",
    "rows": 2629,
@@ -66,7 +66,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-polygons.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-polygons.shp",
    "layer": null,
    "geometry": "Polygon",
    "rows": 169322,
@@ -80,7 +80,7 @@
    }
   },
   {
-   "file": "WDPA_WDOECM_Oct2026_Public_all_shp-points.shp",
+   "file": "WDPA_WDOECM_Nov2026_Public_all_shp-points.shp",
    "layer": null,
    "geometry": "MultiPoint",
    "rows": 2628,
@@ -101,5 +101,5 @@
   "area",
   "geometry"
  ],
- "made": "2026-10-17T07:04:14Z"
+ "made": "2026-11-16T19:57:55Z"
 }

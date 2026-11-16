@@ -1,6 +1,6 @@
 {
- "source": "Mines: Maus et al. 2022 and OpenStreetMap (Zenodo 7307210, ODbL); protected areas: WDPA_WDOECM_Oct2026_Public_all_shp.zip",
- "wdpa": "WDPA_WDOECM_Oct2026_Public_all_shp.zip",
+ "source": "Mines: Maus et al. 2022 and OpenStreetMap (Zenodo 7307210, ODbL); protected areas: WDPA_WDOECM_Nov2026_Public_all_shp.zip",
+ "wdpa": "WDPA_WDOECM_Nov2026_Public_all_shp.zip",
  "layer": "mines",
  "detail": 8,
  "bands": [
@@ -11,11 +11,11 @@
   "further than 20 km"
  ],
  "counts": {
-  "inside a protected area": 30502,
-  "within 1 km": 26782,
-  "within 10 km": 66115,
-  "within 20 km": 20171,
-  "further than 20 km": 49014
+  "inside a protected area": 30531,
+  "within 1 km": 25253,
+  "within 10 km": 63626,
+  "within 20 km": 19758,
+  "further than 20 km": 53416
  },
  "total": 192584,
  "sets": {
@@ -24,31 +24,31 @@
     "file": "extraction/mines_inside_a_protected_area.pmtiles",
     "from": 0,
     "to": 1,
-    "bytes": 20270
+    "bytes": 20195
    },
    {
     "file": "extraction/mines_inside_a_protected_area_z2.pmtiles",
     "from": 2,
     "to": 3,
-    "bytes": 62569
+    "bytes": 62452
    },
    {
     "file": "extraction/mines_inside_a_protected_area_z4.pmtiles",
     "from": 4,
     "to": 5,
-    "bytes": 179188
+    "bytes": 179119
    },
    {
     "file": "extraction/mines_inside_a_protected_area_z6.pmtiles",
     "from": 6,
     "to": 7,
-    "bytes": 433512
+    "bytes": 433282
    },
    {
     "file": "extraction/mines_inside_a_protected_area_z8.pmtiles",
     "from": 8,
     "to": 8,
-    "bytes": 1543827
+    "bytes": 1545232
    }
   ],
   "within 1 km": [
@@ -56,31 +56,31 @@
     "file": "extraction/mines_within_1_km.pmtiles",
     "from": 0,
     "to": 1,
-    "bytes": 19694
+    "bytes": 19608
    },
    {
     "file": "extraction/mines_within_1_km_z2.pmtiles",
     "from": 2,
     "to": 3,
-    "bytes": 70582
+    "bytes": 70195
    },
    {
     "file": "extraction/mines_within_1_km_z4.pmtiles",
     "from": 4,
     "to": 5,
-    "bytes": 197586
+    "bytes": 196071
    },
    {
     "file": "extraction/mines_within_1_km_z6.pmtiles",
     "from": 6,
     "to": 7,
-    "bytes": 425932
+    "bytes": 422625
    },
    {
     "file": "extraction/mines_within_1_km_z8.pmtiles",
     "from": 8,
     "to": 8,
-    "bytes": 1990245
+    "bytes": 1959014
    }
   ],
   "within 10 km": [
@@ -88,31 +88,31 @@
     "file": "extraction/mines_within_10_km.pmtiles",
     "from": 0,
     "to": 1,
-    "bytes": 31104
+    "bytes": 31028
    },
    {
     "file": "extraction/mines_within_10_km_z2.pmtiles",
     "from": 2,
     "to": 3,
-    "bytes": 125327
+    "bytes": 124877
    },
    {
     "file": "extraction/mines_within_10_km_z4.pmtiles",
     "from": 4,
     "to": 5,
-    "bytes": 391547
+    "bytes": 389599
    },
    {
     "file": "extraction/mines_within_10_km_z6.pmtiles",
     "from": 6,
     "to": 7,
-    "bytes": 840593
+    "bytes": 835788
    },
    {
     "file": "extraction/mines_within_10_km_z8.pmtiles",
     "from": 8,
     "to": 8,
-    "bytes": 4045654
+    "bytes": 3993111
    }
   ],
   "within 20 km": [
@@ -120,31 +120,31 @@
     "file": "extraction/mines_within_20_km.pmtiles",
     "from": 0,
     "to": 1,
-    "bytes": 23051
+    "bytes": 23020
    },
    {
     "file": "extraction/mines_within_20_km_z2.pmtiles",
     "from": 2,
     "to": 3,
-    "bytes": 65342
+    "bytes": 65299
    },
    {
     "file": "extraction/mines_within_20_km_z4.pmtiles",
     "from": 4,
     "to": 5,
-    "bytes": 154640
+    "bytes": 154370
    },
    {
     "file": "extraction/mines_within_20_km_z6.pmtiles",
     "from": 6,
     "to": 7,
-    "bytes": 405499
+    "bytes": 404611
    },
    {
     "file": "extraction/mines_within_20_km_z8.pmtiles",
     "from": 8,
     "to": 8,
-    "bytes": 1618426
+    "bytes": 1610374
    }
   ],
   "further than 20 km": [
@@ -152,33 +152,33 @@
     "file": "extraction/mines_further_than_20_km.pmtiles",
     "from": 0,
     "to": 1,
-    "bytes": 28763
+    "bytes": 30903
    },
    {
     "file": "extraction/mines_further_than_20_km_z2.pmtiles",
     "from": 2,
     "to": 3,
-    "bytes": 94604
+    "bytes": 100253
    },
    {
     "file": "extraction/mines_further_than_20_km_z4.pmtiles",
     "from": 4,
     "to": 5,
-    "bytes": 265755
+    "bytes": 276534
    },
    {
     "file": "extraction/mines_further_than_20_km_z6.pmtiles",
     "from": 6,
     "to": 7,
-    "bytes": 665485
+    "bytes": 702182
    },
    {
     "file": "extraction/mines_further_than_20_km_z8.pmtiles",
     "from": 8,
     "to": 8,
-    "bytes": 1529738
+    "bytes": 1620586
    }
   ]
  },
- "made": "2026-10-17"
+ "made": "2026-11-16"
 }
