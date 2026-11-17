@@ -1,22 +1,22 @@
 {
- "built": "2026-11-16 19:17 UTC",
+ "built": "2026-11-17 18:26 UTC",
  "by_source_and_kind": {
   "Wikidata": {
-   "forts": 83756,
-   "naval": 545,
-   "bases": 10145,
+   "forts": 83801,
    "schools": 944,
-   "other": 774,
+   "naval": 545,
+   "bases": 10156,
+   "other": 793,
    "air": 3137,
-   "ranges": 416,
+   "ranges": 419,
    "nuclear": 73
   },
   "OpenStreetMap": {
-   "air": 2428,
-   "bases": 21077,
-   "naval": 516,
-   "ranges": 8859,
-   "nuclear": 2806
+   "air": 2432,
+   "bases": 21194,
+   "naval": 508,
+   "ranges": 8809,
+   "nuclear": 2838
   },
   "US Department of Defense register (MIRTA)": {
    "bases": 611,
@@ -27,14 +27,14 @@
   }
  },
  "files": {
-  "nuclear": 2879,
-  "air": 5678,
-  "naval": 1123,
-  "ranges": 9315,
+  "nuclear": 2911,
+  "air": 5682,
+  "naval": 1115,
+  "ranges": 9268,
   "schools": 949,
-  "forts": 83756,
-  "bases": 31833,
-  "other": 774
+  "forts": 83801,
+  "bases": 31961,
+  "other": 793
  },
  "rules": {
   "nuclear": "nuclear|missile launch|missile silo|test site",
