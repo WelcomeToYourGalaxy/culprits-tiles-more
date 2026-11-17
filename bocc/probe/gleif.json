@@ -6056,8 +6056,8 @@
    }
   },
   {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800HVQMZIPOGSN251",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6089,8 +6089,8 @@
    }
   },
   {
-   "lei": "213800SUKVY8V67W2Y36",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6155,8 +6155,8 @@
    }
   },
   {
-   "lei": "213800HVQMZIPOGSN251",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
+   "lei": "213800SUKVY8V67W2Y36",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7727,8 +7727,8 @@
    }
   },
   {
-   "lei": "213800RN8G8WGY7GS835",
-   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
+   "lei": "213800L6AFRWDKEU5W12",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7760,8 +7760,8 @@
    }
   },
   {
-   "lei": "213800L6AFRWDKEU5W12",
-   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
+   "lei": "213800RN8G8WGY7GS835",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
