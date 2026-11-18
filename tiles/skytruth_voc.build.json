@@ -1,7 +1,7 @@
 {
  "points_merged": false,
  "slim": true,
- "from": "09c8998f6fc4d11a0c3e0847315d194c189a2106",
+ "from": "724a693ca7b2e806ec825087b44c3c189e0a60d7",
  "row": "skytruth_voc",
  "feed": "vessels_of_concern",
  "alerts_with_position": 12,
