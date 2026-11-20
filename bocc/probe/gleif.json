@@ -92,7 +92,7 @@
     "language": "en",
     "addressLines": [
      "C/O JPMORGAN CHASE & CO.",
-     "383 MADISON AVENUE"
+     "270 Park Avenue"
     ],
     "addressNumber": null,
     "addressNumberWithinBuilding": null,
@@ -100,7 +100,7 @@
     "city": "NEW YORK",
     "region": "US-NY",
     "country": "US",
-    "postalCode": "10179"
+    "postalCode": "10017"
    }
   },
   {
@@ -1179,8 +1179,8 @@
    }
   },
   {
-   "lei": "213800Y9PAZTWQCYVS21",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
+   "lei": "213800LNBAJFZBEP1196",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -1211,8 +1211,8 @@
    }
   },
   {
-   "lei": "213800LNBAJFZBEP1196",
-   "legal_name": "BARCLAYS FUNDS - BARCLAYS TARGET RETURN 2014",
+   "lei": "213800Y9PAZTWQCYVS21",
+   "legal_name": "BARCLAYS FUNDS - BARCLAYS EQUITY ASIA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -4231,8 +4231,8 @@
    }
   },
   {
-   "lei": "636700P3Y9I9KCGUWH64",
-   "legal_name": "Bourso France",
+   "lei": "6367007ISLF5V6ZEJP88",
+   "legal_name": "Bourso Europe",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -4264,8 +4264,8 @@
    }
   },
   {
-   "lei": "6367007ISLF5V6ZEJP88",
-   "legal_name": "Bourso Europe",
+   "lei": "636700P3Y9I9KCGUWH64",
+   "legal_name": "Bourso France",
    "status": "ACTIVE",
    "legal_address": {
     "language": "fr",
@@ -6023,8 +6023,8 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800SUKVY8V67W2Y36",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6056,8 +6056,8 @@
    }
   },
   {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800HVQMZIPOGSN251",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6122,8 +6122,8 @@
    }
   },
   {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "lei": "213800SUKVY8V67W2Y36",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6155,8 +6155,8 @@
    }
   },
   {
-   "lei": "213800HVQMZIPOGSN251",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CRESCITA",
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7026,8 +7026,8 @@
    }
   },
   {
-   "lei": "213800GPB7NYZQPOAT64",
-   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
+   "lei": "213800PHORTTEXG59989",
+   "legal_name": "RBS HOLDINGS USA INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7092,8 +7092,8 @@
    }
   },
   {
-   "lei": "213800PHORTTEXG59989",
-   "legal_name": "RBS HOLDINGS USA INC.",
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7125,8 +7125,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800GPB7NYZQPOAT64",
+   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7727,8 +7727,8 @@
    }
   },
   {
-   "lei": "213800RN8G8WGY7GS835",
-   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
+   "lei": "213800L6AFRWDKEU5W12",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7760,8 +7760,8 @@
    }
   },
   {
-   "lei": "213800L6AFRWDKEU5W12",
-   "legal_name": "HOUSING GROWTH PARTNERSHIP MANAGER LIMITED",
+   "lei": "213800RN8G8WGY7GS835",
+   "legal_name": "HOUSING GROWTH PARTNERSHIP LIMITED",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
