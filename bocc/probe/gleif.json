@@ -845,41 +845,6 @@
    }
   },
   {
-   "lei": "549300HBRVSSS2TEMC28",
-   "legal_name": "Allspring Core Bond Portfolio",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O THE CORPORATION TRUST COMPANY",
-     "CORPORATION TRUST CENTER",
-     "1209 ORANGE ST"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "WILMINGTON",
-    "region": "US-DE",
-    "country": "US",
-    "postalCode": "19801"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O ALLSPRING FUNDS MANAGEMENT, LLC",
-     "1415 VANTAGE PARK DRIVE",
-     "3RD FLOOR"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "CHARLOTTE",
-    "region": "US-NC",
-    "country": "US",
-    "postalCode": "28203"
-   }
-  },
-  {
    "lei": "549300IXNTMPN6B3FP15",
    "legal_name": "Wells Fargo Small Cap Value Fund",
    "status": "ACTIVE",
@@ -911,6 +876,41 @@
     "region": "US-CA",
     "country": "US",
     "postalCode": "94105"
+   }
+  },
+  {
+   "lei": "549300QW98O00HJ00K93",
+   "legal_name": "Allspring Pennsylvania Tax-Free Fund",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O The Corporation Trust Company",
+     "Corporation Trust Center",
+     "1209 Orange St"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Wilmington",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19801"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O Allspring Funds Management, LLC",
+     "1415 Vantage Park Drive",
+     "3rd Floor"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "Charlotte",
+    "region": "US-NC",
+    "country": "US",
+    "postalCode": "28203"
    }
   }
  ],
@@ -2268,7 +2268,7 @@
     "addressNumberWithinBuilding": null,
     "mailRouting": null,
     "city": "Almaty",
-    "region": null,
+    "region": "KZ-75",
     "country": "KZ",
     "postalCode": "A05A1B9"
    },
@@ -6023,8 +6023,41 @@
  ],
  "Intesa Sanpaolo": [
   {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
+   "status": "INACTIVE",
+   "legal_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   },
+   "headquarters_address": {
+    "language": null,
+    "addressLines": [
+     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
+     "VIALE STELVIO 55/57"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "MILANO",
+    "region": null,
+    "country": "IT",
+    "postalCode": "20159"
+   }
+  },
+  {
+   "lei": "2138007AN6K7FAAWVY22",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6089,39 +6122,6 @@
    }
   },
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
-   "status": "INACTIVE",
-   "legal_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   },
-   "headquarters_address": {
-    "language": null,
-    "addressLines": [
-     "C/O INTESA SANPAOLO PREVIDENZA SIM S.P.A",
-     "VIALE STELVIO 55/57"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "MILANO",
-    "region": null,
-    "country": "IT",
-    "postalCode": "20159"
-   }
-  },
-  {
    "lei": "213800SUKVY8V67W2Y36",
    "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
    "status": "INACTIVE",
@@ -6155,8 +6155,8 @@
    }
   },
   {
-   "lei": "2138007AN6K7FAAWVY22",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA CAPITALE",
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7092,8 +7092,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800GPB7NYZQPOAT64",
+   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7125,8 +7125,8 @@
    }
   },
   {
-   "lei": "213800GPB7NYZQPOAT64",
-   "legal_name": "RBS FINANCIAL PRODUCTS INC.",
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
