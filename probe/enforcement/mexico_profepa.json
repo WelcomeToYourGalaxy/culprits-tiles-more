@@ -1,0 +1,10 @@
+[
+ {
+  "url": "https://www.datos.gob.mx/api/3/action/package_search?q=profepa&rows=50",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "url": "https://datos.gob.mx/busca/api/3/action/package_search?q=profepa&rows=50",
+  "error": "HTTP Error 403: Forbidden"
+ }
+]

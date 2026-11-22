@@ -1,0 +1,260 @@
+{
+ "site": "https://www.unroca.org/",
+ "requests": [
+  {
+   "url": "https://www.unroca.org/",
+   "status": 202,
+   "type": "text/html; charset=UTF-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://5cbec4d3dc8f.c0b160fb.us-east-1.token.awswaf.com/5cbec4d3dc8f/4c277a6a0f02/669651537b17/challenge.js",
+   "status": 200,
+   "type": "text/javascript",
+   "method": "GET"
+  },
+  {
+   "url": "https://5cbec4d3dc8f.c0b160fb.us-east-1.token.awswaf.com/5cbec4d3dc8f/4c277a6a0f02/669651537b17/inputs?client=browser",
+   "status": 200,
+   "type": "application/json",
+   "method": "GET",
+   "bytes": 773,
+   "start": "{\"challenge\":{\"input\":\"bd266d71-ebe9-4ee8-bd0f-9aa822786346:EQoAiz9p0AAwAgAA:Z1triZ6dMdPoHDQ09DQMgDiixzmbhtOGI2Pnj0n+szxnPQODohIsesv+nrEum6WzHxBdlzl/Q9Izi3W7cf81Qo27bGCjgkkqYwzVXVFYDcZXnDqZK/bqESsNY6uSGF8I2+t5Ld9QQmdrTMVNK9x/RcgUE6nFtUSZ45i17oVDlab1b6oEaADJGIbsj+XPgUjH5V4w7vNx86Oja8m2BWVsuqJWp8MG4m+kCqjH4VyxCy48/tloVeWx+pEL0W+8U2brgv47+4rFqva7sJaJACzAC7nIVb5L2AbqfCFkzyb4ppaqoEJxy3j5WP+c1qnTjLYlY3Vuwu5Tsz1N04+8ooGlR1bvHnytzJ8LBwlPNOR5A/yBKThXwLMXmGY8eZmTPSnEPAblIa7KXzM90Os0I468vuNJGtAmmC9uWePBmczDPh18j6DtZQr7oQKvIWyVLxTceVWIf6BRI7qRplovQ5H2ZTy/6B8jBfkUpCgalLNb+ZPx0Q0iqfFmN9j6FRMsZbcGJ+/ZTi5UvWyj0iw/DQN0+QgyGlevcWqDDlFrlzlzBlPBRwW2HYn0R9EF+W0=\",\"region\":\"us-east-1\"},\"challenge_type\":\"ha9faaffd31b4d5ede2a2e19d2d7fd525f66fee61911511960dcbb52d3c48ce25\",\"difficulty\":3}"
+  },
+  {
+   "url": "https://5cbec4d3dc8f.c0b160fb.us-east-1.token.awswaf.com/5cbec4d3dc8f/4c277a6a0f02/669651537b17/mp_verify?region=us-east-1",
+   "status": 200,
+   "type": "application/json",
+   "method": "POST",
+   "bytes": 392,
+   "start": "{\"token\":\"b0545609-0daf-439b-b8ed-54ff76c248ff:EQoAd9Jf6gwwCgAA:EGD1fSPjUHiN71+W8Vq1Sc9auCqqqEdq84Byvc+7/CCDWcnI48X5+V/jNkSTEFGc7oWyDIMe89xmMz1WxqPuiIDWCmt4zseFOYCaKCq4fYDXZtZOppeq6sNNOqQFEY4UPzt7rrWPWOYXG5ziE4eE3Gt0p7q//fHbLEW8FM87ElfWkvYcrkF4DmKqBZzXNKYYgGDngSqQ53UhGlrJ6m4eZgl/BXJyuYbKBDqDvlZXJ6xsphLBawhhzEuCGHrxj2FaCeRbIf8FDUk5CV5yY7ezpDVJnLL4+INsqt2YObj5PlsroGhPohChwg==\",\"inputs\":null}"
+  },
+  {
+   "url": "https://www.unroca.org/",
+   "status": 302,
+   "type": "text/html; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/en/",
+   "status": 200,
+   "type": "text/html; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/bootstrap/dist/css/bootstrap.css",
+   "status": 200,
+   "type": "text/css",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/ng-dialog/css/ngDialog.min.css",
+   "status": 200,
+   "type": "text/css",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/ng-dialog/css/ngDialog-theme-default.min.css",
+   "status": 200,
+   "type": "text/css",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/bootstrap-select/dist/css/bootstrap-select.min.css",
+   "status": 200,
+   "type": "text/css",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/public/public-unroca-style.min.css?v=2018-12",
+   "status": 200,
+   "type": "text/css",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/angular-route/angular-route.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/angular-animate/angular-animate.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/jquery/dist/jquery.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/angular/angular.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/bootstrap-select/dist/js/bootstrap-select.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/angular-ui-bootstrap/ui-bootstrap-tpls.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/topojson/build/topojson.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/angular-datamaps/dist/angular-datamaps.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/spin.js/spin.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/node_modules/d3/d3.min.js",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
+   "status": 200,
+   "type": "text/css; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+   "status": 200,
+   "type": "text/css; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/public/images/branding/comparisoncell-motive-background.png",
+   "status": 200,
+   "type": "image/png",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/public/images/branding/un-logo-white-50.png",
+   "status": 200,
+   "type": "image/png",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/public/unroca-javascript.min.js?v=2018-12",
+   "status": 200,
+   "type": "application/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.google-analytics.com/analytics.js",
+   "status": 200,
+   "type": "text/javascript",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/templates/country-profile.html?bust=ifzei4z13o",
+   "status": 200,
+   "type": "text/html; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=704017062&t=pageview&_s=1&dl=https%3A%2F%2Fwww.unroca.org%2Fen%2F&ul=en-us&dt=ROCA%20(United%20Nations%20Register%20of%20Conventional%20Arms)&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=511489820&gjid=541180676&cid=1039037840.1790614931&tid=UA-7833057-9&_gid=2134186187.1790614931&_r=1&_slc=1&z=515069192",
+   "status": 200,
+   "type": "text/plain",
+   "method": "POST",
+   "bytes": 15,
+   "start": "2,cG-3WNFXT4NN7"
+  },
+  {
+   "url": "https://www.unroca.org/static/unroca_spa/templates/data-availability-template.html?bust=j9srdj1vb88",
+   "status": 200,
+   "type": "text/html; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.googletagmanager.com/gtag/js?id=G-WVYR3E2ECX",
+   "status": 200,
+   "type": "application/javascript; charset=UTF-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.unroca.org/api/country-list/",
+   "status": 200,
+   "type": "application/json",
+   "method": "GET",
+   "bytes": 16015,
+   "start": "[{\"name_en\": \"Afghanistan\", \"countryname_slug\": \"afghanistan\", \"iso_2_acronym\": \"AF\"}, {\"name_en\": \"Albania\", \"countryname_slug\": \"albania\", \"iso_2_acronym\": \"AL\"}, {\"name_en\": \"Algeria\", \"countryname_slug\": \"algeria\", \"iso_2_acronym\": \"DZ\"}, {\"name_en\": \"Andorra\", \"countryname_slug\": \"andorra\", \"iso_2_acronym\": \"AD\"}, {\"name_en\": \"Angola\", \"countryname_slug\": \"angola\", \"iso_2_acronym\": \"AO\"}, {\"name_en\": \"Antigua and Barbuda\", \"countryname_slug\": \"antigua-and-barbuda\", \"iso_2_acronym\": \"AG\"}, {\"name_en\": \"Argentina\", \"countryname_slug\": \"argentina\", \"iso_2_acronym\": \"AR\"}, {\"name_en\": \"Armenia\", \"countryname_slug\": \"armenia\", \"iso_2_acronym\": \"AM\"}, {\"name_en\": \"Australia\", \"countryname_slug\": \"australia\", \"iso_2_acronym\": \"AU\"}, {\"name_en\": \"Austria\", \"countryname_slug\": \"austria\", \"iso_"
+  },
+  {
+   "url": "https://www.unroca.org/api/country-list/",
+   "status": 200,
+   "type": "application/json",
+   "method": "GET",
+   "bytes": 16015,
+   "start": "[{\"name_en\": \"Afghanistan\", \"countryname_slug\": \"afghanistan\", \"iso_2_acronym\": \"AF\"}, {\"name_en\": \"Albania\", \"countryname_slug\": \"albania\", \"iso_2_acronym\": \"AL\"}, {\"name_en\": \"Algeria\", \"countryname_slug\": \"algeria\", \"iso_2_acronym\": \"DZ\"}, {\"name_en\": \"Andorra\", \"countryname_slug\": \"andorra\", \"iso_2_acronym\": \"AD\"}, {\"name_en\": \"Angola\", \"countryname_slug\": \"angola\", \"iso_2_acronym\": \"AO\"}, {\"name_en\": \"Antigua and Barbuda\", \"countryname_slug\": \"antigua-and-barbuda\", \"iso_2_acronym\": \"AG\"}, {\"name_en\": \"Argentina\", \"countryname_slug\": \"argentina\", \"iso_2_acronym\": \"AR\"}, {\"name_en\": \"Armenia\", \"countryname_slug\": \"armenia\", \"iso_2_acronym\": \"AM\"}, {\"name_en\": \"Australia\", \"countryname_slug\": \"australia\", \"iso_2_acronym\": \"AU\"}, {\"name_en\": \"Austria\", \"countryname_slug\": \"austria\", \"iso_"
+  },
+  {
+   "url": "https://www.googletagmanager.com/gtag/js?id=G-3WNFXT4NN7&cx=c&_slc=1",
+   "status": 200,
+   "type": "application/javascript; charset=UTF-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WVYR3E2ECX&gtm=45je69o0v9218526561za200zd9218526561xf1&_p=1790614930897&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1039037840.1790614931&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790614931&sct=1&seg=0&dl=https%3A%2F%2Fwww.unroca.org%2F&dr=https%3A%2F%2Fwww.unroca.org%2F&dt=ROCA%20(United%20Nations%20Register%20of%20Conventional%20Arms)&en=page_view&_fv=1&_ss=1&_ee=1&tfd=391",
+   "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3WNFXT4NN7&gtm=45je69o0v9112288858za20gxf1&_p=1790614930897&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAI&cid=1039037840.1790614931&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&dl=https%3A%2F%2Fwww.unroca.org%2Fen%2F&dt=ROCA%20(United%20Nations%20Register%20of%20Conventional%20Arms)&sid=1790614931&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=454",
+   "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3WNFXT4NN7&gtm=45je69o0v9112288858za20gxf1&_p=1790614930897&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAAQ&cid=1039037840.1790614931&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&dl=https%3A%2F%2Fwww.unroca.org%2Fen%2F&dt=ROCA%20(United%20Nations%20Register%20of%20Conventional%20Arms)&sid=1790614931&sct=1&seg=1&en=page_view&_ee=1&_et=4&tfd=5458",
+   "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+  }
+ ],
+ "links": [
+  "https://www.unroca.org/country-select",
+  "https://www.unroca.org/participation",
+  "https://www.unroca.org/about",
+  "https://www.unroca.org/categories",
+  "https://www.unroca.org/",
+  "https://www.unroca.org/",
+  "https://www.unroca.org/",
+  "https://www.unroca.org/categories",
+  "http://www.un.org/",
+  "https://www.un.org/en/contact-us-0",
+  "https://www.un.org/en/about-us/copyright",
+  "https://www.un.org/en/about-us/fraud-alert",
+  "https://www.un.org/en/about-us/privacy-notice",
+  "https://www.un.org/en/about-us/terms-of-use"
+ ],
+ "text": "United Nations Register of Conventional Arms\n\nUNROCA  Transparency in the global reported arms trade.\nHome\nParticipation\nAbout\nCategories\n\nIf governments act predictably and transparently - including on their arms transfers - it builds confidence among them. It helps prevent conflict. For this purpose, countries can report to the UN Register of Conventional Arms (UNROCA).\nOver the past two decades, UNROCA seems to have captured over 90% of the global arms trade.\n\nFind any reported arms transfer by clicking a country\n\nAfghanistan\nAlbania\nAlgeria\nAndorra\nAngola\nAntigua and Barbuda\nArgentina\nArmenia\nAustralia\nAustria\nAzerbaijan\nBahamas\nBahrain\nBangladesh\nBarbados\nBelarus\nBelgium\nBelize\nBenin\nBhutan\nBolivia\nBosnia and Herzegovina\nBotswana\nBrazil\nBrunei Darussalam\nBulgaria\nBurkina Faso\nBurundi\nCabo Verde\nCambodia\nCameroon\nCanada\nCentral African Rep.\nChad\nChile\nChina\nColombia\nComoros\nCongo\nCosta Rica\nCôte d'Ivoire\nCroatia\nCuba\nCyprus\nCzechia\nDem. People's Rep. of Korea\nDem. Rep. of the Congo\nDenmark\nDjibouti\nDominica\nDominican Rep.\nEcuador\nEgypt\nEl Salvador\nEquatorial Guinea\nEritrea\nEstonia\neSwatini\nEthiopia\nFiji\nFinland\nFrance\nGabon\nGambia\nGeorgia\nGermany\nGhana\nGreece\nGrenada\nGuatemala\nGuinea\nGuinea-Bissau\nGuyana\nHaiti\nHonduras\nHungary\nIceland\nIndia\nIndonesia\nIran (Islamic Republic of)\nIraq\nIreland\nIsrael\nItaly\nJamaica\nJapan\nJordan\nKazakhstan\nKenya\nKiribati\nKuwait\nKyrgyzstan\nLao People's Dem. Rep.\nLatvia\nLebanon\nLesotho\nLiberia\nLibya\nLiechtenstein\nLithuania\nLuxembourg\nMadagascar\nMalawi\nMalaysia\nMaldives\nMali\nMalta\nMarshall Islands\nMauritania\nMauritius\nMexico\nMicronesia (Federated States of)\nMonaco\nMongolia\nMontenegro\nMorocco\nMozambique\nMyanmar\nNamibia\nNauru\nNepal\nNetherlands\nNew Zealand\nNicaragua\nNiger\nNigeria\nNorth Macedonia\nNorway\nOman\nPakistan\nPalau\nPanama\nPapua New Guinea\nParaguay\nPeru\nPhilippines\nPoland\nPortugal\nQatar\nRep. of Korea\nRep. of Moldova\nRomania\nRussian Federation\nRwanda\nSaint Kitts and Nevis\nSaint Lucia\nSaint Vincent and the Grenadines\nSamoa\nSan Marino\nSao Tome and Principe\nSaudi Arabia\nSenegal\nSerbia\nSeychelles\nSierra Leone\nSingapore\nSlovakia\nSlovenia\nSolomon Islands\nSomalia\nSouth Africa\nSouth Sudan\nSpain\nSri Lanka\nSudan\nSuriname\nSweden\nSwitzerland\nSyrian Arab Republic\nTajikistan\nThailand\nTimor-Leste\nTogo\nTonga\nTrinidad and Tobago\nTunisia\nTürkiye\nTurkmenistan\nTuvalu\nUganda\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited Rep. of Tanzania\nUnited States\nUruguay\nUzbekistan\nVanuatu\nVenezuela (Bolivarian Republic of)\nViet Nam\nYemen\nZambia\nZimbabwe\nUNITED NATIONS\nContact\n \nCopyright\n \nFraud Alert\n \nPrivacy Notice\n \nTerms of Use"
+}

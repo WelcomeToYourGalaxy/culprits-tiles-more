@@ -1,0 +1,57 @@
+{
+ "built": "2026-11-22 16:42 UTC",
+ "by_source_and_kind": {
+  "Wikidata": {
+   "forts": 83966,
+   "naval": 569,
+   "other": 795,
+   "bases": 10201,
+   "schools": 947,
+   "air": 3139,
+   "ranges": 425,
+   "nuclear": 73
+  },
+  "OpenStreetMap": {
+   "air": 2430,
+   "bases": 21090,
+   "naval": 509,
+   "ranges": 8711,
+   "nuclear": 2825
+  },
+  "US Department of Defense register (MIRTA)": {
+   "bases": 611,
+   "ranges": 40,
+   "naval": 62,
+   "air": 113,
+   "schools": 5
+  }
+ },
+ "files": {
+  "nuclear": 2898,
+  "air": 5682,
+  "naval": 1140,
+  "ranges": 9176,
+  "schools": 952,
+  "forts": 83966,
+  "bases": 31902,
+  "other": 795
+ },
+ "rules": {
+  "nuclear": "nuclear|missile launch|missile silo|test site",
+  "air": "air ?base|airfield|fliegerhorst|air station|air force|royal air force|airport|aerodrome|air national guard|\\bafb\\b|\\bang\\b",
+  "naval": "naval|navy|submarine|dockyard|coast guard|marine corps|\\bnas\\b|\\bnsa\\b|sea base",
+  "ranges": "\\brange\\b|training area|training cent|proving ground|test range|firing|manoeuv|maneuver|polygon",
+  "schools": "academ|school|college|hospital|university",
+  "forts": "castle|fort|nuragh|wall|gate|tower|bastion|casemate|pillbox|bunker|redoubt|rampart|citadel|\\bkeep\\b|castr|oppid|\\bdun\\b|dava|\\bgord\\b|ksar|crannog|kremlin|stronghold|moat|sconce|enceinte|blockhouse|battery|trench|defen[cs]|burg|rocca|castell|\\bp\u0101\\b|gusuku|\\bborg\\b|zwinger|motte|milecastle|acropolis|outpost|watch|landwehr|bailey|shelter|bergfried|bastle|lunette|diaolou|kasbah|alcazaba|alc\u00e1zar|tenshu|dzong|presidio|tulou|ouvrage|tobruk|kazemat|turret|celtiberian|cul\u0103|stra\u017cnica|vigilarium",
+  "bases": "base|barracks|garrison|camp|cantonment|installation|armou?ry|arsenal|military building|depot|ammunition|magazine|drill hall|guardhouse|station|headquarters|command|reserve center|national guard"
+ },
+ "osm_tags": {
+  "airfield": "air",
+  "naval_base": "naval",
+  "base": "bases",
+  "barracks": "bases",
+  "range": "ranges",
+  "training_area": "ranges",
+  "nuclear_explosion_site": "nuclear"
+ }
+}

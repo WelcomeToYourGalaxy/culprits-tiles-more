@@ -1,0 +1,1061 @@
+
+<!DOCTYPE html>
+
+<html lang="sk">
+	<meta charset="utf-8">
+	<title>Vyhľadávanie
+ - Registračné protokoly agentúrnych a operatívnych zväzkov Štátnej bezpečnosti a vojenskej kontrarozviedky - Ústav pamäti národa</title>
+	<meta name="copyright" content="Ústav pamäti národa, 2004-2026">
+	<meta name="author" content="Sekcia informatiky ÚPN">
+	<meta name="description" content="Vyhľadávanie v Registračných protokoloch agentúrnych a operatívnych zväzkov Štátnej bezpečnosti a vojenskej kontrarozviedky, ktoré zverejnil Ústav pamäti národa.">
+	<meta name="keywords" content="registračné protokoly, vojenská kontratozviedka, štb, zväzky, zoznam zväzkov, štátna bezpečnosť, prenasledovaná osoba, nepriatelská osoba, agent, dôverník, tajný spolupracovník, komunizmus, ústav pamäti národa">
+  	<link rel="stylesheet" href="/assets/stylesheets/application.css?v=2" media="screen">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="/assets/regpro/js/focus-form-field.js"> </script>
+</html>
+
+<body>
+
+	<div class="header">
+		<h1>Registračné protokoly agentúrnych a operatívnych zväzkov Štátnej bezpečnosti a vojenskej kontrarozviedky</h1>
+	</div>
+
+	<div class="nav">
+		<ul class="left">
+			<li><a title="Vyhľadávanie v registračných protokoloch" href="/projekty/regpro/">Registračné protokoly</a></li>
+			<li><a href="//www.upn.gov.sk/sk/vysvetlivky-k-registracnym-protokolom/" title="Vysvetlivky k registračným protokolom">Vysvetlivky</a></li>
+			<li><a title="Najčastejšie otázky" href="/projekty/regpro/faq/">Najčastejšie otázky</a></li>
+		</ul>
+		<ul class="right">
+			<li><a href="//www.upn.gov.sk/" title="Na úvodnú stránku Ústavu pamäti národa">Hlavná stránka ÚPN</a></li>
+		</ul>
+	</div>
+
+<div class="content-container">
+	<h2>Vyhľadávanie
+</h2>
+
+
+<div class="search-form" id="regpro">
+	<form action="/projekty/regpro/vysledky-vyhladavania/" method="get">
+		<div class="row">
+			<div class="column-full">
+				<label for="kraj" class="col1">Kraj:</label><br>
+				<select id="kraj" class="select-col1 no-full-width" name="kraj">
+					<option value="">všetky</option>
+							<option value="BA">Bratislavský</option>
+							<option value="NR">Nitriansky</option>
+							<option value="BB">Banskobystrický</option>
+							<option value="KE">Košický</option>
+							<option value="88">II. správa ZNB</option>
+							<option value="BA_VKR">11. brigáda Pohraničnej stráže Bratislava (VKR)</option>
+							<option value="KE_VKR">Oddelenie VKR pri Krajskej vojenskej správe v Košiciach (VKR)</option>
+							<option value="TN_VKR">1. oddelenie Odboru VKR VVO Trenčín (VKR)</option>
+							<option value="TO_VKR">Oddelenie VKR 13. tankovej divízie v Topoľčanoch (VKR)</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<label for="priezvisko" class="col1">Priezvisko:</label><br>
+				<input type="text" id="priezvisko" class="input-col1" name="priezvisko" maxlength="50" value="Novak">
+			</div>
+			<div class="column">
+				<label for="meno" class="col2">Meno:</label><br>
+				<input type="text" id="meno" name="meno" class="input-col2" maxlength="50" value="">
+			</div>
+			<div class="column">
+				<label for="krycie-meno" class="col2">Krycie meno:</label><br>
+				<input type="text" id="krycie-meno" name="krycie_meno" class="input-col2" maxlength="50" value="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+            	<label for="datum-narodenia" class="col1">Dátum narodenia:</label><br>
+				<input type="text" id="datum-narodenia" class="input-col1" name="datum_narodenia" size="8" maxlength="10" value="">
+			</div>
+			<div class="column">
+				<label for="kategoria" class="col2">Kategória:</label><br>
+				<select id="kategoria" class="select-col2" name="kategoria">
+					<option value="">všetky</option>
+						<option value="A">agent (A)</option>
+						<option value="I">informátor (I)</option>
+						<option value="R">rezident (R)</option>
+						<option value="KB">konšpiračný byt (KB)</option>
+						<option value="PB">prepožičaný byt (PB)</option>
+						<option value="PO">preverovaná osoba (PO)</option>
+						<option value="NO">nepriateľská osoba (NO)</option>
+						<option value="TS">tajný spolupracovník (TS)</option>
+						<option value="KTS">kandidát tajnej spolupráce (KTS)</option>
+						<option value="D">dôverník (D)</option>
+						<option value="KI">kandidát informátora (KI)</option>
+						<option value="KA">kandidát agenta (KA)</option>
+						<option value="S">signálny zväzok (S)</option>
+						<option value="Z">sobný zväzok (OZ)</option>
+						<option value="OB">objektový zväzok (OB)</option>
+						<option value="SKZ">skupinový zväzok (SKZ)</option>
+						<option value="APZ">agentúrno-pátrací zväzok (APZ)</option>
+						<option value="EZ">evidenčný zväzok (EZ)</option>
+						<option value="K">kontrolný zväzok (K)</option>
+						<option value="VOZ">vecný operatívny zväzok (VOZ)</option>
+						<option value="P">pozorovací zväzok (P)</option>
+						<option value="PZ">pátrací zväzok (PZ)</option>
+						<option value="ZPS">zväzok pohraničnej stráže (ZPS)</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-full">
+				<button type="submit" id="tlacitko-hladaj">Hľadaj</button>
+			</div>
+		</div>
+	</form>
+</div>
+
+
+
+			<h3>Výsledky vyhľadávania pre krajské správy ZNB:</h3>
+
+			<div class="searched-records">
+				<p>Nájdených záznamov: <strong>186</strong></p>
+			</div>
+
+<div class="records-navigation">
+    <p>
+            &laquo; predchádzajúca
+        <span class="actual-page">1</span>
+            <a class="next-page" href="/projekty/regpro/vysledky-vyhladavania/?strana=2&amp;priezvisko=Novak&amp;typ=kraj&amp;zorad=priezvisko">nasledujúca &raquo; </a>
+    </p>
+</div>
+				<div class="note">
+					<p><strong>Kategórie rezident, agent, informátor, držiteľ prepožičaného bytu alebo držiteľ konšpiračného bytu sú kategóriami vedomých spolupracovníkov.</strong></p>
+				</div>
+
+				<div class="table-container">
+					<table>
+						<thead>
+							<tr>
+								<th>priezvisko</th>
+								<th>meno</th>
+								<th>dátum narodenia</th>
+								<th>krycie meno</th>
+								<th>kategória</th>
+								<th>registračné číslo</th>
+								<th>séria</th>
+								<th>kraj</th>
+								<th>poznámka</th>
+								<th>&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td class="priezvisko">CHZWP NOVÁKY</td>
+									<td class="meno"></td>
+									<td></td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Objektový zväzok bol zavedený na inštitúcie a úrady, na centrály a úradovne nepriateľských rozviedok, emigrantské centrá a iné nepriateľské organizácie s cieľom získať informácie o ich činnosti. Objektové zväzky boli zavádzané na významné objekty čs. národného hospodárstva, vojenské objekty, zastupiteľské úrady kapitalistických štátov, hraničné priestory a ďalšie, v ktorých bol predpoklad výskytu nepriateľskej činnosti. Na základe poznatkov z týchto zväzkov boli potom zavádzané na konkrétne osoby evidenčné, osobné alebo skupinové operatívne zväzky.">objektový zväzok</span></td>
+									<td>5214</td>
+									<td>I</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=26&amp;strana=25&amp;zaznam=22576">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">CHZWP NOVÁKY</td>
+									<td class="meno"></td>
+									<td></td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Objektový zväzok bol zavedený na inštitúcie a úrady, na centrály a úradovne nepriateľských rozviedok, emigrantské centrá a iné nepriateľské organizácie s cieľom získať informácie o ich činnosti. Objektové zväzky boli zavádzané na významné objekty čs. národného hospodárstva, vojenské objekty, zastupiteľské úrady kapitalistických štátov, hraničné priestory a ďalšie, v ktorých bol predpoklad výskytu nepriateľskej činnosti. Na základe poznatkov z týchto zväzkov boli potom zavádzané na konkrétne osoby evidenčné, osobné alebo skupinové operatívne zväzky.">objektový zväzok</span></td>
+									<td>1313</td>
+									<td>III</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=46&amp;strana=35&amp;zaznam=42722">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">ENO-NOVÁKY</td>
+									<td class="meno"></td>
+									<td></td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Objektový zväzok bol zavedený na inštitúcie a úrady, na centrály a úradovne nepriateľských rozviedok, emigrantské centrá a iné nepriateľské organizácie s cieľom získať informácie o ich činnosti. Objektové zväzky boli zavádzané na významné objekty čs. národného hospodárstva, vojenské objekty, zastupiteľské úrady kapitalistických štátov, hraničné priestory a ďalšie, v ktorých bol predpoklad výskytu nepriateľskej činnosti. Na základe poznatkov z týchto zväzkov boli potom zavádzané na konkrétne osoby evidenčné, osobné alebo skupinové operatívne zväzky.">objektový zväzok</span></td>
+									<td>5220</td>
+									<td>I</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=26&amp;strana=25&amp;zaznam=22582">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno"></td>
+									<td></td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Držiteľ takéhoto bytu bol tajný spolupracovník získaný s cieľom prepožičania bytu alebo miestnosti k vykonávaniu konšpiratívnych schôdzok pracovníkov kontrarozviedky s tajnými spolupracovníkmi.">prepožičaný byt</span></strong></td>
+									<td>295</td>
+									<td>I</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=21&amp;strana=33&amp;zaznam=17650">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno"></td>
+									<td></td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Držiteľ takéhoto bytu bol tajný spolupracovník získaný s cieľom prepožičania bytu alebo miestnosti k vykonávaniu konšpiratívnych schôdzok pracovníkov kontrarozviedky s tajnými spolupracovníkmi.">prepožičaný byt</span></strong></td>
+									<td>295</td>
+									<td>II</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=41&amp;strana=33&amp;zaznam=37697">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno"></td>
+									<td></td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Držiteľ takéhoto bytu bol tajný spolupracovník získaný s cieľom prepožičania bytu alebo miestnosti k vykonávaniu konšpiratívnych schôdzok pracovníkov kontrarozviedky s tajnými spolupracovníkmi.">prepožičaný byt</span></strong></td>
+									<td>295</td>
+									<td>III</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=45&amp;strana=33&amp;zaznam=41701">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Adolf</td>
+									<td>07.02.1915</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <span class="" title="Evidenčný zväzok bol zavedený na osoby, u ktorých existovali náznaky protištátnej činnosti, ktoré si však vyžadovali dôkladné preverenie. Evidenčné zväzky boli zavádzané ako predbežné opatrenie. Neskôr tento druh zväzku nahradil Pozorovací zväzok.">evidenčný zväzok</span></td>
+									<td>1511</td>
+									<td>I</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=53&amp;strana=57&amp;zaznam=48439">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Adolf</td>
+									<td></td>
+									<td class="krycie-meno">Dynyl</td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Agent bol tajný spolupracovník, ktorý plnil úlohy pri odhaľovaní, rozpracovávaní a dokumentovaní protištátnej trestnej činnosti a úlohy, ktoré mali zabrániť takejto trestnej činnosti. V registračných protokoloch je táto kategória uvádzaná aj ako tajný spolupracovník.">tajný spolupracovník</span></strong></td>
+									<td>656</td>
+									<td>TS</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=90&amp;strana=69&amp;zaznam=83294">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Adolf</td>
+									<td>07.02.1915</td>
+									<td class="krycie-meno">Černý</td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Agent bol tajný spolupracovník, ktorý plnil úlohy pri odhaľovaní, rozpracovávaní a dokumentovaní protištátnej trestnej činnosti a úlohy, ktoré mali zabrániť takejto trestnej činnosti. V registračných protokoloch je táto kategória uvádzaná aj ako tajný spolupracovník.">agent</span></strong></td>
+									<td>5399</td>
+									<td>TS</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=90&amp;strana=544&amp;zaznam=88065">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Alexej</td>
+									<td>17.09.1925</td>
+									<td class="krycie-meno">Alex</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+									<td>18098</td>
+									<td>II</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=68&amp;strana=12&amp;zaznam=61937">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Alexej</td>
+									<td>17.09.1925</td>
+									<td class="krycie-meno">Oko, Jordán</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span>, <span class="popis-kategorie" title="Signálny zväzok bol vedený na osoby podozrivé z trestnej činnosti (preverenie signálu), t. j. na potvrdenie alebo vyvrátenie podozrenia.">signálny zväzok</span></td>
+									<td>27544</td>
+									<td>II</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=77&amp;strana=68&amp;zaznam=71398">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Alexej</td>
+									<td>17.09.1925</td>
+									<td class="krycie-meno">Navrátil</td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Agent bol tajný spolupracovník, ktorý plnil úlohy pri odhaľovaní, rozpracovávaní a dokumentovaní protištátnej trestnej činnosti a úlohy, ktoré mali zabrániť takejto trestnej činnosti. V registračných protokoloch je táto kategória uvádzaná aj ako tajný spolupracovník.">tajný spolupracovník</span></strong></td>
+									<td>153</td>
+									<td>TS</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=90&amp;strana=19&amp;zaznam=82789">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alfréd</td>
+									<td>07.06.1925</td>
+									<td class="krycie-meno">ALI</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis zhromažďoval údaje previerkového charakteru na osobu, ktorá mala byť získaná na spoluprácu.">kandidát tajnej spolupráce</span>, <strong><span class="popis-kategorie" title="Agent bol tajný spolupracovník, ktorý plnil úlohy pri odhaľovaní, rozpracovávaní a dokumentovaní protištátnej trestnej činnosti a úlohy, ktoré mali zabrániť takejto trestnej činnosti. V registračných protokoloch je táto kategória uvádzaná aj ako tajný spolupracovník.">agent</span></strong>, <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span></td>
+									<td>3791</td>
+									<td>I</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=24&amp;strana=83&amp;zaznam=21152">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Andrej</td>
+									<td>03.05.1935</td>
+									<td class="krycie-meno">Škola</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+									<td>17814</td>
+									<td>I</td>
+									<td class="kraj">Košice</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=16&amp;strana=59&amp;zaznam=12395">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Andrej</td>
+									<td>17.01.1957</td>
+									<td class="krycie-meno">Vak</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+									<td>21044</td>
+									<td>I</td>
+									<td class="kraj">Košice</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=19&amp;strana=85&amp;zaznam=15625">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Anton</td>
+									<td>24.02.1928</td>
+									<td class="krycie-meno">Tono</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+									<td>30455</td>
+									<td>II</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=80&amp;strana=63&amp;zaznam=74318">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Anton</td>
+									<td></td>
+									<td class="krycie-meno">Irma</td>
+									<td class="kategoria"></td>
+									<td>3855</td>
+									<td>TS</td>
+									<td class="kraj">Banská Bystrica</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=93&amp;strana=193&amp;zaznam=96608">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Antonín</td>
+									<td>23.10.1928</td>
+									<td class="krycie-meno">Radek</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis zhromažďoval údaje previerkového charakteru na osobu, ktorá mala byť získaná na spoluprácu.">kandidát tajnej spolupráce</span></td>
+									<td>26708</td>
+									<td>II</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=76&amp;strana=81&amp;zaznam=70559">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Antonín</td>
+									<td>22.10.1928</td>
+									<td class="krycie-meno">Radek</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span></td>
+									<td>38088</td>
+									<td>II</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=86&amp;strana=47&amp;zaznam=80019">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Atila</td>
+									<td>12.10.1927</td>
+									<td class="krycie-meno">Atila</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+									<td>13382</td>
+									<td>II</td>
+									<td class="kraj">Bratislava</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=kraj&amp;kniha=63&amp;strana=45&amp;zaznam=57318">zobraz stranu</a></td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+
+<div class="records-navigation">
+    <p>
+            &laquo; predchádzajúca
+        <span class="actual-page">1</span>
+            <a class="next-page" href="/projekty/regpro/vysledky-vyhladavania/?strana=2&amp;priezvisko=Novak&amp;typ=kraj&amp;zorad=priezvisko">nasledujúca &raquo; </a>
+    </p>
+</div>			<h3>Výsledky vyhľadávania pre II. správu ZNB:</h3>
+
+			<div class="searched-records">
+				<p>Nájdených záznamov: <strong>371</strong></p>
+			</div>
+
+<div class="records-navigation">
+    <p>
+        &laquo; predchádzajúca
+	<span class="actual-page">1</span>
+        <a class="next-page" href="/projekty/regpro/vysledky-vyhladavania/?strana=2&amp;priezvisko=Novak&amp;typ=centrala&amp;zorad=priezvisko">nasledujúca &raquo; </a>
+    </p>
+</div>
+				<div class="note">
+					<p><strong>Kategórie rezident, agent, informátor, držiteľ prepožičaného bytu alebo držiteľ konšpiračného bytu sú kategóriami vedomých spolupracovníkov.</strong></p>
+				</div>
+
+				<div class="table-container">
+					<table>
+						<thead>
+							<tr>
+								<th>priezvisko</th>
+								<th>meno</th>
+								<th>dátum narodenia</th>
+								<th>krycie meno</th>
+								<th>kategória</th>
+								<th>registračné číslo</th>
+								<th>séria</th>
+								<th>poznámka</th>
+								<th>&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td class="priezvisko">HAVRÁNKOVÁ NOVÁKOVÁ</td>
+									<td class="meno">Jiřina</td>
+									<td>12.03.1945</td>
+									<td class="krycie-meno">PAVLA</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis zhromažďoval údaje previerkového charakteru na osobu, ktorá mala byť získaná na spoluprácu.">kandidát tajnej spolupráce</span>, <strong><span class="popis-kategorie" title="Agent bol tajný spolupracovník, ktorý plnil úlohy pri odhaľovaní, rozpracovávaní a dokumentovaní protištátnej trestnej činnosti a úlohy, ktoré mali zabrániť takejto trestnej činnosti. V registračných protokoloch je táto kategória uvádzaná aj ako tajný spolupracovník.">agent</span></strong></td>
+									<td>18513</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=120&amp;strana=16&amp;zaznam=43549">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Adolf</td>
+									<td>10.04.1935</td>
+									<td class="krycie-meno">KOCH</td>
+									<td class="kategoria"></td>
+									<td>9822</td>
+									<td>RTS</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=155&amp;strana=127&amp;zaznam=17319">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Aleš</td>
+									<td>02.08.1949</td>
+									<td class="krycie-meno">BYSTRÝ</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis zhromažďoval údaje previerkového charakteru na osobu, ktorá mala byť získaná na spoluprácu.">kandidát tajnej spolupráce</span></td>
+									<td>10028</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=111&amp;strana=59&amp;zaznam=35040">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Aleš</td>
+									<td>02.08.1949</td>
+									<td class="krycie-meno">BYSTRÝ</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis zhromažďoval údaje previerkového charakteru na osobu, ktorá mala byť získaná na spoluprácu.">kandidát tajnej spolupráce</span>, <strong><span class="popis-kategorie" title="Agent bol tajný spolupracovník, ktorý plnil úlohy pri odhaľovaní, rozpracovávaní a dokumentovaní protištátnej trestnej činnosti a úlohy, ktoré mali zabrániť takejto trestnej činnosti. V registračných protokoloch je táto kategória uvádzaná aj ako tajný spolupracovník.">agent</span></strong></td>
+									<td>32420</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=135&amp;strana=66&amp;zaznam=57453">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alexandr</td>
+									<td>29.12.1929</td>
+									<td class="krycie-meno">PALETA</td>
+									<td class="kategoria"> <strong><span class="popis-kategorie" title="Držiteľ takéhoto bytu bol tajný spolupracovník získaný s cieľom prepožičania bytu alebo miestnosti k vykonávaniu konšpiratívnych schôdzok pracovníkov kontrarozviedky s tajnými spolupracovníkmi.">prepožičaný byt</span></strong></td>
+									<td>26461</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=129&amp;strana=65&amp;zaznam=51483">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>15.06.1920</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"></td>
+									<td>2110</td>
+									<td>RES</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=144&amp;strana=26&amp;zaznam=2110">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>26.11.1927</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"></td>
+									<td>2338</td>
+									<td>RES</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=144&amp;strana=39&amp;zaznam=2339">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>18.05.1904</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"></td>
+									<td>2624</td>
+									<td>RES</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=144&amp;strana=55&amp;zaznam=2625">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>26.11.1927</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> pozorovací zväzok</td>
+									<td>500</td>
+									<td>RKR</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=146&amp;strana=53&amp;zaznam=4074">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>24.06.1893</td>
+									<td class="krycie-meno">NOVÝ</td>
+									<td class="kategoria"></td>
+									<td>2365</td>
+									<td>RTS</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=153&amp;strana=238&amp;zaznam=11660">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>28.04.1944</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Signálny zväzok bol vedený na osoby podozrivé z trestnej činnosti (preverenie signálu), t. j. na potvrdenie alebo vyvrátenie podozrenia.">signálny zväzok</span></td>
+									<td>22086</td>
+									<td>VR</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=157&amp;strana=92&amp;zaznam=20772">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Alois</td>
+									<td>21.04.1926</td>
+									<td class="krycie-meno">LOJZA</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span></td>
+									<td>7237</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=108&amp;strana=88&amp;zaznam=32342">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Anton</td>
+									<td>17.01.1925</td>
+									<td class="krycie-meno">NARVIK</td>
+									<td class="kategoria"></td>
+									<td>669</td>
+									<td>RTS</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=153&amp;strana=69&amp;zaznam=9964">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Antonín</td>
+									<td>01.01.1915</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"></td>
+									<td>2404</td>
+									<td>RES</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=144&amp;strana=43&amp;zaznam=2405">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Antonín</td>
+									<td>13.06.1927</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> pozorovací zväzok</td>
+									<td>1911</td>
+									<td>RKR</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=147&amp;strana=92&amp;zaznam=5485">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Antonín</td>
+									<td>29.07.1924</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> pozorovací zväzok</td>
+									<td>23035</td>
+									<td>VR</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=158&amp;strana=85&amp;zaznam=21721">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Antonín</td>
+									<td>29.07.1924</td>
+									<td class="krycie-meno">AMROŽ</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis zhromažďoval údaje previerkového charakteru na osobu, ktorá mala byť získaná na spoluprácu.">kandidát tajnej spolupráce</span></td>
+									<td>6253</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=107&amp;strana=89&amp;zaznam=31355">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Antonín</td>
+									<td>06.09.1947</td>
+									<td class="krycie-meno">MALÍŘ</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span></td>
+									<td>11219</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=112&amp;strana=80&amp;zaznam=36238">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Antonín</td>
+									<td>19.04.1938</td>
+									<td class="krycie-meno">PŘEDSEDA</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span>, <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+									<td>29108</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=132&amp;strana=32&amp;zaznam=54137">zobraz stranu</a></td>
+								</tr>
+								<tr>
+									<td class="priezvisko">NOVÁK</td>
+									<td class="meno">Arnošt</td>
+									<td>03.01.1930</td>
+									<td class="krycie-meno">TRUHLÁŘ</td>
+									<td class="kategoria"> <span class="popis-kategorie" title="Spis preverovanej osoby bol zavedený s cieľom sústreďovať písomnosti previerkového charakteru na osoby z hľadiska ich využiteľnosti alebo nebezpečnosti.">preverovaná osoba</span></td>
+									<td>21754</td>
+									<td>FMV</td>
+									<td></td>
+									<td><a class="button" href="/projekty/regpro/zobraz/?typ=centrala&amp;kniha=124&amp;strana=92&amp;zaznam=46774">zobraz stranu</a></td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+
+<div class="records-navigation">
+    <p>
+        &laquo; predchádzajúca
+	<span class="actual-page">1</span>
+        <a class="next-page" href="/projekty/regpro/vysledky-vyhladavania/?strana=2&amp;priezvisko=Novak&amp;typ=centrala&amp;zorad=priezvisko">nasledujúca &raquo; </a>
+    </p>
+</div>			<h3>Výsledky vyhľadávania pre Vojenskú kontrarozviedku:</h3>
+			<div class="searched-records">
+				<p>Nájdených záznamov: <strong>30</strong></p>
+			</div>
+
+				<div class="note">
+					<p><strong>Kategórie rezident, agent, informátor, držiteľ prepožičaného bytu alebo držiteľ konšpiračného bytu sú kategóriami vedomých spolupracovníkov.</strong></p>
+				</div>
+
+
+<div class="records-navigation">
+    <p>
+            &laquo; predchádzajúca
+        <span class="actual-page">1</span>
+            <a class="next-page" href="/projekty/regpro/vysledky-vyhladavania/?strana=2&amp;priezvisko=Novak&amp;typ=vkr&amp;zorad=priezvisko">nasledujúca &raquo;</a>
+    </p>
+</div>
+				<div class="table-container">
+					<table id="zoznam-vysledkov">
+						<thead>
+							<tr>
+								<th>priezvisko</th>
+								<th>meno</th>
+								<th>dátum narodenia</th>
+								<th>krycie meno</th>
+								<th>kategória</th>
+								<th>registračné číslo</th>
+								<th>útvar</th>
+								<th>poznámka</th>
+								<th>&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Aloiz</td>
+									<td>
+											20.10.1932
+									</td>
+									<td class="krycie-meno">Lojzo</td>
+									<td class="kategoria"> dôverník</td>
+									<td>70590</td>
+									<td>1. oddelenie OdVKR VVO TN</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=14&amp;strana=35&amp;zaznam=5957">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Aloiz</td>
+									<td>
+											20.10.1932
+									</td>
+									<td class="krycie-meno">Lojzo</td>
+									<td class="kategoria"> dôverník</td>
+									<td>70590</td>
+									<td>1. oddelenie OdVKR VVO TN</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=13&amp;strana=27&amp;zaznam=5510">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Emil</td>
+									<td>
+											
+									</td>
+									<td class="krycie-meno">Irena</td>
+									<td class="kategoria"></td>
+									<td>48350</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=2&amp;strana=90&amp;zaznam=1034">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">František</td>
+									<td>
+											
+									</td>
+									<td class="krycie-meno">Javor</td>
+									<td class="kategoria"></td>
+									<td>10836</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=2&amp;strana=89&amp;zaznam=1017">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Ján</td>
+									<td>
+											27.03.1933
+									</td>
+									<td class="krycie-meno">Krajan</td>
+									<td class="kategoria"> blokovaná osoba k OB</td>
+									<td>blok. k OB 2105</td>
+									<td>OVKR 13. td TO</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=15&amp;strana=30&amp;zaznam=8533">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Ján</td>
+									<td>
+											27.03.1933
+									</td>
+									<td class="krycie-meno">Krajan</td>
+									<td class="kategoria"> preverovaná osoba</td>
+									<td>081550</td>
+									<td>OVKR 13. td TO</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=15&amp;strana=34&amp;zaznam=8567">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Jaroslav</td>
+									<td>
+											18.06.1958
+									</td>
+									<td class="krycie-meno">Juraj</td>
+									<td class="kategoria"> <strong>agent</strong></td>
+									<td>85549</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=3&amp;strana=58&amp;zaznam=1905">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Jaroslav</td>
+									<td>
+											16.08.1958
+									</td>
+									<td class="krycie-meno">Juraj</td>
+									<td class="kategoria"> <strong>agent</strong></td>
+									<td>85549</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=4&amp;strana=62&amp;zaznam=2481">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Jiří</td>
+									<td>
+											12.05.1957
+									</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> dôverník</td>
+									<td>71179</td>
+									<td>OVKR 13. td TO</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=19&amp;strana=49&amp;zaznam=7707">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Jiří</td>
+									<td>
+											08.05.1968
+									</td>
+									<td class="krycie-meno">Klouček</td>
+									<td class="kategoria"> dôverník</td>
+									<td>027314</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=8&amp;strana=55&amp;zaznam=4290">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Josef</td>
+									<td>
+											
+									</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"></td>
+									<td>100</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=1&amp;strana=3&amp;zaznam=7">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Karol</td>
+									<td>
+											31.08.1915
+									</td>
+									<td class="krycie-meno"></td>
+									<td class="kategoria"> dôverník</td>
+									<td>20040</td>
+									<td>1. oddelenie OdVKR VVO TN</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=13&amp;strana=11&amp;zaznam=5359">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Ladislav</td>
+									<td>
+											
+									</td>
+									<td class="krycie-meno">Roman</td>
+									<td class="kategoria"></td>
+									<td>19300</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=2&amp;strana=90&amp;zaznam=1028">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Ladislav</td>
+									<td>
+											16.01.1956
+									</td>
+									<td class="krycie-meno">Jankovič</td>
+									<td class="kategoria"> <strong>agent</strong></td>
+									<td>82540</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=3&amp;strana=57&amp;zaznam=1902">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Ladislav</td>
+									<td>
+											16.01.1956
+									</td>
+									<td class="krycie-meno">Jankovič</td>
+									<td class="kategoria"> <strong>agent</strong></td>
+									<td>82540</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=4&amp;strana=62&amp;zaznam=2480">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Libor</td>
+									<td>
+											13.09.1963
+									</td>
+									<td class="krycie-meno">Nový I.</td>
+									<td class="kategoria"> dôverník</td>
+									<td>082518</td>
+									<td>1. oddelenie OdVKR VVO TN</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=13&amp;strana=23&amp;zaznam=5473">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Ľubomír</td>
+									<td>
+											21.07.1954
+									</td>
+									<td class="krycie-meno">Štefan</td>
+									<td class="kategoria"> <strong>agent</strong></td>
+									<td>080140</td>
+									<td>OVKR 13. td TO</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=17&amp;strana=79&amp;zaznam=7073">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Milan</td>
+									<td>
+											
+									</td>
+									<td class="krycie-meno">Dunaj</td>
+									<td class="kategoria"></td>
+									<td>53662</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=2&amp;strana=91&amp;zaznam=1041">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Milan</td>
+									<td>
+											18.11.1964
+									</td>
+									<td class="krycie-meno">Morava</td>
+									<td class="kategoria"> signálny zväzok</td>
+									<td>018549</td>
+									<td>OVKR 11. b PS BA</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=1&amp;strana=22&amp;zaznam=207">zobraz stranu</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="priezvisko">Novák</td>
+									<td class="meno">Pavel</td>
+									<td>
+											13.12.1966
+									</td>
+									<td class="krycie-meno">Pavel</td>
+									<td class="kategoria"> dôverník</td>
+									<td>019857</td>
+									<td>OVKR 13. td TO</td>
+									<td class="kraj"></td>
+									<td>
+										<a class="button" href="/projekty/regpro/zobraz/?typ=vkr&amp;kniha=20&amp;strana=11&amp;zaznam=8068">zobraz stranu</a>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+
+<div class="records-navigation">
+    <p>
+            &laquo; predchádzajúca
+        <span class="actual-page">1</span>
+            <a class="next-page" href="/projekty/regpro/vysledky-vyhladavania/?strana=2&amp;priezvisko=Novak&amp;typ=vkr&amp;zorad=priezvisko">nasledujúca &raquo;</a>
+    </p>
+</div>
+			<h3>Zničené zväzky</h3>
+
+			<div class="table-container">
+				<table>
+					<thead>
+						<tr>
+							<th>priezvisko</th>
+							<th>meno</th>
+							<th>dátum narodenia</th>
+							<th>krycie meno</th>
+							<th>kategória</th>
+							<th>registračné číslo</th>
+							<th>séria</th>
+							<th>kraj</th>
+							<th>poznámka</th>
+						</tr>
+					</thead>
+					<tbody>
+							<tr>
+								<td class="priezvisko">novák</td>
+								<td class="meno">Róbert</td>
+								<td>11.06.1956</td>
+								<td class="krycie-meno">Turčan</td>
+								<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+								<td>18163</td>
+								<td></td>
+								<td class="kraj">Banská Bystrica</td>
+								<td>2. odbor - Záver. správy zničených zv. 1989</td>
+							</tr>
+							<tr>
+								<td class="priezvisko">novák</td>
+								<td class="meno">Vladimír</td>
+								<td>14.09.1954</td>
+								<td class="krycie-meno">Lano</td>
+								<td class="kategoria"> <span class="popis-kategorie" title="Dôverník zhromažďoval informácie, ktoré pomáhali kontrarozviedke plniť previerkové, pomocné a orientačné úlohy štátnobezpečnostnej povahy v súvislosti s odhaľovaním alebo objasňovaním protištátnej činnosti.">dôverník</span></td>
+								<td>17986</td>
+								<td></td>
+								<td class="kraj">Banská Bystrica</td>
+								<td>O-ŠtB Martin - Záver. správy zničených zv. 1989</td>
+							</tr>
+					</tbody>
+				</table>
+			</div>
+</div>
+	<div class="footer">
+		<p>Copyright &copy; <a href="//www.upn.gov.sk/">Ústav pamäti národa</a> 2004-2026, Všetky práva vyhradené.</p>
+	</div>
+
+
+	<script type="text/javascript" src="//codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/assets/regpro/js/cookie.js"></script>
+
+</body>
+</html>

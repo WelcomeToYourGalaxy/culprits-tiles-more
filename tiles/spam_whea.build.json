@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "WHEA"
+ ],
+ "hectares": 194392432.0,
+ "to_zoom": 5,
+ "squares": 289,
+ "bytes": 837207,
+ "how": "max"
+}

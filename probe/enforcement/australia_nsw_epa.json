@@ -1,0 +1,6 @@
+[
+ {
+  "url": "https://apps.epa.nsw.gov.au/prpoeoapp/",
+  "error": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other"
+ }
+]

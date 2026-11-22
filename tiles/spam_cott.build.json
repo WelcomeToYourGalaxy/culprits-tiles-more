@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "COTT"
+ ],
+ "hectares": 32068412.0,
+ "to_zoom": 5,
+ "squares": 185,
+ "bytes": 430347,
+ "how": "max"
+}

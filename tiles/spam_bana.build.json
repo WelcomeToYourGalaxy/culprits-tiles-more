@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "BANA"
+ ],
+ "hectares": 4987288.0,
+ "to_zoom": 5,
+ "squares": 181,
+ "bytes": 399549,
+ "how": "max"
+}

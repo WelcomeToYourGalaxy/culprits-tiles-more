@@ -1,0 +1,80 @@
+{
+ "layer": "schools",
+ "schools": 2336677,
+ "detail_from": 8,
+ "fields": {
+  "id": 2336677,
+  "coverage_type": 2336677,
+  "coverage_status": 2336677,
+  "connectivity_status": 2336677
+ },
+ "id_field": "id",
+ "squares": [
+  {
+   "zooms": [
+    0,
+    1
+   ],
+   "degrees": 2.0
+  },
+  {
+   "zooms": [
+    2,
+    3
+   ],
+   "degrees": 0.5
+  },
+  {
+   "zooms": [
+    4,
+    5
+   ],
+   "degrees": 0.1
+  },
+  {
+   "zooms": [
+    6,
+    7
+   ],
+   "degrees": 0.02
+  }
+ ],
+ "from": "https://uni-ooi-giga-backend-hjekcuagasashucv.a03.azurefd.net/api/locations/schools/tiles/?z={z}&x={x}&y={y}.mvt",
+ "read_at_zoom": 7,
+ "squares_failed": [],
+ "squares_failed_count": 0,
+ "parts": [
+  {
+   "file": "giga_points.pmtiles",
+   "from": 0,
+   "to": 1,
+   "bytes": 81034
+  },
+  {
+   "file": "giga_points_z2.pmtiles",
+   "from": 2,
+   "to": 3,
+   "bytes": 507722
+  },
+  {
+   "file": "giga_points_z4.pmtiles",
+   "from": 4,
+   "to": 5,
+   "bytes": 3244371
+  },
+  {
+   "file": "giga_points_z6.pmtiles",
+   "from": 6,
+   "to": 7,
+   "bytes": 10722188
+  },
+  {
+   "file": "giga_points_z8.pmtiles",
+   "from": 8,
+   "to": 8,
+   "bytes": 24861402
+  }
+ ],
+ "date": "2026-11-16",
+ "seconds": 327
+}

@@ -1,0 +1,8 @@
+{
+ "from": "https://data.ornldaac.earthdata.nasa.gov/protected/cms/Global_Salt_Marsh_Change/data/sm_loss.tif",
+ "kind": "loss",
+ "to_zoom": 9,
+ "squares": 3043,
+ "bytes": 4195172,
+ "how": "max"
+}

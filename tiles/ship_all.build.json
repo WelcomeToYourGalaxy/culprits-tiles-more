@@ -1,0 +1,8 @@
+{
+ "from": "https://datacatalogfiles.worldbank.org/ddh-published/0037580/5/DR0045406/shipdensity_global.zip",
+ "file": "shipdensity_global.tif",
+ "to_zoom": 7,
+ "squares": 14258,
+ "bytes": 56532988,
+ "how": "max"
+}

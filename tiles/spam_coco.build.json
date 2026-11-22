@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "COCO"
+ ],
+ "hectares": 7989680.5,
+ "to_zoom": 5,
+ "squares": 107,
+ "bytes": 225120,
+ "how": "max"
+}

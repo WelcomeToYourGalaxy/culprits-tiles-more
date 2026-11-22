@@ -1,0 +1,125 @@
+{
+ "site": "https://missilerangesimulator.web.app/",
+ "requests": [
+  {
+   "url": "https://missilerangesimulator.web.app/",
+   "status": 200,
+   "type": "text/html; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap",
+   "status": 200,
+   "type": "text/css; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://missilerangesimulator.web.app/assets/index-BaWZh199.js",
+   "status": 200,
+   "type": "text/javascript; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://missilerangesimulator.web.app/assets/index-B1vC5mGC.css",
+   "status": 200,
+   "type": "text/css; charset=utf-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pb0EPOreec.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDIxapCSOBg7S-QT7p4HM-Y.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:141606313854:web:d709b7403505906a5a1d2f/webConfig",
+   "status": 200,
+   "type": "application/json; charset=UTF-8",
+   "method": "GET",
+   "bytes": 294,
+   "start": "{\n  \"projectId\": \"missilerangesimulator\",\n  \"appId\": \"1:141606313854:web:d709b7403505906a5a1d2f\",\n  \"storageBucket\": \"missilerangesimulator.firebasestorage.app\",\n  \"authDomain\": \"missilerangesimulator.firebaseapp.com\",\n  \"messagingSenderId\": \"141606313854\",\n  \"measurementId\": \"G-NKREMZ7ERQ\"\n}\n"
+  },
+  {
+   "url": "https://firebaseinstallations.googleapis.com/v1/projects/missilerangesimulator/installations",
+   "status": 200,
+   "type": "application/json; charset=UTF-8",
+   "method": "POST",
+   "bytes": 626,
+   "start": "{\n  \"name\": \"projects/141606313854/installations/eZsIaCypx1_4esZxW-jPNH\",\n  \"fid\": \"eZsIaCypx1_4esZxW-jPNH\",\n  \"refreshToken\": \"3_AS3qfwLhveD1uU70s4Z19Y4kmD6KmlTaKffnx280c1VjbrrPn_yLQFzuPOw4CLdGdoQBs__u6WinQh7lW4ke6whjIbhQNOjUiWMnQb6mpoU3vHQ\",\n  \"authToken\": {\n    \"token\": \"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjE6MTQxNjA2MzEzODU0OndlYjpkNzA5Yjc0MDM1MDU5MDZhNWExZDJmIiwiZXhwIjoxNzkxMjE5NzQwLCJmaWQiOiJlWnNJYUN5cHgxXzRlc1p4Vy1qUE5IIiwicHJvamVjdE51bWJlciI6MTQxNjA2MzEzODU0fQ.AB2LPV8wRgIhAOrAilJQyzJo4n2Q6vU4g4_solj8NjsuTIkXfJIEDchOAiEAkbDsO_zZb_tcw_-ziZq-ZJq7Vpy0A169z0y1YhWrlyU\",\n    \"expiresIn\": \"604800s\"\n  }\n}\n"
+  },
+  {
+   "url": "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-NKREMZ7ERQ",
+   "status": 200,
+   "type": "application/javascript; charset=UTF-8",
+   "method": "GET"
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NKREMZ7ERQ&gtm=45je69o0v9252420310za200zd9252420310xf1&_p=1790614940291&gcd=13l3l3l3l1l1&npa=0&dma=0&_fid=eZsIaCypx1_4esZxW-jPNH&cid=88114996.1790614940&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790614940&sct=1&seg=0&dl=https%3A%2F%2Fmissilerangesimulator.web.app%2F&dt=Missile%20Range%20Simulator%20-%20Advanced%20Tactical%20Analysis%20Platform&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.origin=firebase&tfd=653",
+   "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+  },
+  {
+   "url": "https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?VER=8&database=projects%2Fmissilerangesimulator%2Fdatabases%2F(default)&RID=24847&CVER=22&X-HTTP-Session-Id=gsessionid&zx=5f60d9l20686&t=1",
+   "status": 200,
+   "type": "text/plain; charset=utf-8",
+   "method": "POST",
+   "bytes": 54,
+   "start": "51\n[[0,[\"c\",\"Y7_3AdFxSx_CkUZsiVePhg\",\"\",8,15,30000]]]\n"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pbYF_Oreec.woff2",
+   "status": 200,
+   "type": "font/woff2",
+   "method": "GET"
+  },
+  {
+   "url": "https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?VER=8&database=projects%2Fmissilerangesimulator%2Fdatabases%2F(default)&gsessionid=HfGkM6eU6pZ_4HBa8UYYKjBle2gH_3KYsRmT8JIC8Dh8OCWyoXNDVw&SID=Y7_3AdFxSx_CkUZsiVePhg&RID=24848&AID=17&zx=m97bh5ju5m35&t=1",
+   "status": 200,
+   "type": "text/plain; charset=utf-8",
+   "method": "POST",
+   "bytes": 11,
+   "start": "9\n[1,17,7]\n"
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NKREMZ7ERQ&gtm=45je69o0v9252420310za200zd9252420310xf1&_p=1790614940291&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&_fid=eZsIaCypx1_4esZxW-jPNH&cid=88114996.1790614940&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790614940&sct=1&seg=0&dl=https%3A%2F%2Fmissilerangesimulator.web.app%2F&dt=Missile%20Range%20Simulator%20-%20Advanced%20Tactical%20Analysis%20Platform&en=analytics_connected&_ee=1&ep.origin=firebase&ep.timestamp=2026-09-28T17%3A02%3A20.137Z&_et=4&tfd=5660",
+   "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+  },
+  {
+   "url": "https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?gsessionid=HfGkM6eU6pZ_4HBa8UYYKjBle2gH_3KYsRmT8JIC8Dh8OCWyoXNDVw&VER=8&database=projects%2Fmissilerangesimulator%2Fdatabases%2F(default)&RID=rpc&SID=Y7_3AdFxSx_CkUZsiVePhg&AID=0&CI=0&TYPE=xmlhttp&zx=j8vw78j2nmbt&t=1",
+   "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+  },
+  {
+   "url": "https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?VER=8&database=projects%2Fmissilerangesimulator%2Fdatabases%2F(default)&gsessionid=HfGkM6eU6pZ_4HBa8UYYKjBle2gH_3KYsRmT8JIC8Dh8OCWyoXNDVw&SID=Y7_3AdFxSx_CkUZsiVePhg&RID=24849&TYPE=terminate&zx=a0zb99sgvy7x",
+   "status": 200,
+   "type": "",
+   "method": "POST"
+  }
+ ],
+ "links": [
+  "https://missilerangesimulator.web.app/",
+  "https://missilerangesimulator.web.app/",
+  "https://missilerangesimulator.web.app/simulator",
+  "https://missilerangesimulator.web.app/missiles",
+  "https://missilerangesimulator.web.app/about",
+  "https://www.patreon.com/MissileRangeSimulator/join",
+  "https://www.patreon.com/MissileRangeSimulator/join",
+  "https://missilerangesimulator.web.app/simulator",
+  "https://missilerangesimulator.web.app/missiles",
+  "https://www.patreon.com/MissileRangeSimulator/join",
+  "https://missilerangesimulator.web.app/about",
+  "https://missilerangesimulator.web.app/privacy",
+  "mailto:extracontents837@gmail.com"
+ ],
+ "text": "MISSILE RANGE SIMULATOR\nCOMMAND CENTER\nSIMULATOR\nDATABASE\nINTEL\nSUPPORT\nSUPPORT OUR MISSION\n\nThe Missile Range Simulator is a free educational platform. Your support helps us maintain servers, expand our database, and add new features.\n\nSupport ongoing platform maintenance\n\nHelp expand missile database with new entries\n\nEnable development of advanced features\n\nBECOME A PATRON\nCLOSE\nMISSILE RANGE\nSIMULATOR\n\nAdvanced tactical simulation system for missile range analysis and strategic planning. Access classified payload data and deployment scenarios with our comprehensive defense research platform.\n\nINITIATE SIMULATION\nACCESS DATABASE\nSYSTEM CAPABILITIES\nGLOBAL MAPPING\n\nReal-time world map integration with precision targeting capabilities and range visualization for comprehensive tactical analysis.\n\nRADAR ANALYSIS\n\nAdvanced radar sweep animations and range calculations with multi-target analysis for strategic planning operations.\n\nTACTICAL DATA\n\nComprehensive missile specifications, payload analysis, and strategic comparisons from global defense systems.\n\nALLIED COMMANDERS\n\nOur Patreon supporters who keep this platform operational\n\nCOMMANDER\n2 patrons\nAlpha Wolf\nIron Hawk\nSTRATEGIST\n3 patrons\nNova Strike\nGhost Recon\nShadow Fox\nOPERATIVE\n3 patrons\nViper Unit\nSteel Falcon\nDark Matter\nRECRUIT\n4 patrons\nCadet_X7\nRookie99\nTrainee404\nNewAgent\nJOIN THE RANKS ON PATREON\n\nYour name appears here within 24 hours of becoming a patron\n\nMISSILE RANGE SIMULATOR\nAbout\nPrivacy Policy\nContact\n\nEducational use only. All data from public sources."
+}

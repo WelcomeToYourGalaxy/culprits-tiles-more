@@ -1,0 +1,186 @@
+{
+ "choices": [
+  {
+   "label": "2019",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_2019.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell under crops"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell under crops"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell under crops"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell under crops"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell under crops"
+    ]
+   ]
+  },
+  {
+   "label": "2015",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_2015.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell under crops"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell under crops"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell under crops"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell under crops"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell under crops"
+    ]
+   ]
+  },
+  {
+   "label": "2011",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_2011.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell under crops"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell under crops"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell under crops"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell under crops"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell under crops"
+    ]
+   ]
+  },
+  {
+   "label": "2007",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_2007.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell under crops"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell under crops"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell under crops"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell under crops"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell under crops"
+    ]
+   ]
+  },
+  {
+   "label": "2003",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_2003.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell under crops"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell under crops"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell under crops"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell under crops"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell under crops"
+    ]
+   ]
+  },
+  {
+   "label": "net gain, 2003 to 2019",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_netgain.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell gained as cropland"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell gained as cropland"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell gained as cropland"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell gained as cropland"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell gained as cropland"
+    ]
+   ]
+  },
+  {
+   "label": "net loss, 2003 to 2019",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/potapov_cropland_netloss.pmtiles",
+   "key": [
+    [
+     "#D6EEF6",
+     "up to 5% of the cell lost from cropland"
+    ],
+    [
+     "#8FD6E8",
+     "5 to 15% of the cell lost from cropland"
+    ],
+    [
+     "#3FA9C2",
+     "15 to 30% of the cell lost from cropland"
+    ],
+    [
+     "#1E6FA8",
+     "30 to 60% of the cell lost from cropland"
+    ],
+    [
+     "#0E2F66",
+     "over 60% of the cell lost from cropland"
+    ]
+   ]
+  }
+ ]
+}

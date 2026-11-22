@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "TROF"
+ ],
+ "hectares": 17868736.0,
+ "to_zoom": 5,
+ "squares": 255,
+ "bytes": 651374,
+ "how": "max"
+}

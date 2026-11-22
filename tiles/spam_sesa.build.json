@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "SESA"
+ ],
+ "hectares": 12869655.0,
+ "to_zoom": 5,
+ "squares": 146,
+ "bytes": 330778,
+ "how": "max"
+}

@@ -1,0 +1,15 @@
+{
+ "sources": {
+  "Google My Maps": "not read (not well-formed (invalid token): line 17293, column 84)",
+  "OpenStreetMap tags": "1564 places",
+  "OpenStreetMap names": "1510 places"
+ },
+ "places": 3074,
+ "read": 3074,
+ "groups": {
+  "Place selling Christmas trees": 482,
+  "Christmas tree farm": 1460,
+  "Other place named for Christmas trees": 1132
+ },
+ "date": "2026-11-16"
+}

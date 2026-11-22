@@ -1,0 +1,282 @@
+{
+ "source": "GRIP4, Meijer et al. 2018 (PBL), Zenodo 6420961",
+ "licence": "cc-by-4.0",
+ "choices": [
+  {
+   "label": "Density of all roads",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/roads/grip4_total_dens_m_km2.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to under 52 m per km²"
+    ],
+    [
+     "#C6E7F0",
+     "52 to under 101 m per km²"
+    ],
+    [
+     "#9CD6E6",
+     "101 to under 120 m per km²"
+    ],
+    [
+     "#6FC2DA",
+     "120 to under 144 m per km²"
+    ],
+    [
+     "#46AACB",
+     "144 to under 181 m per km²"
+    ],
+    [
+     "#2E8FBA",
+     "181 to under 229 m per km²"
+    ],
+    [
+     "#2275A8",
+     "229 to under 292 m per km²"
+    ],
+    [
+     "#1A5C92",
+     "292 to under 402 m per km²"
+    ],
+    [
+     "#13447A",
+     "402 to under 658 m per km²"
+    ],
+    [
+     "#0C2E5E",
+     "658 to 330,306 m per km²"
+    ]
+   ]
+  },
+  {
+   "label": "Density of highways",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/roads/grip4_tp1_dens_m_km2.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to under 35 m per km²"
+    ],
+    [
+     "#C6E7F0",
+     "35 to under 72 m per km²"
+    ],
+    [
+     "#9CD6E6",
+     "72 to under 108 m per km²"
+    ],
+    [
+     "#6FC2DA",
+     "108 to under 121 m per km²"
+    ],
+    [
+     "#46AACB",
+     "121 to under 140 m per km²"
+    ],
+    [
+     "#2E8FBA",
+     "140 to under 169 m per km²"
+    ],
+    [
+     "#2275A8",
+     "169 to under 218 m per km²"
+    ],
+    [
+     "#1A5C92",
+     "218 to under 263 m per km²"
+    ],
+    [
+     "#13447A",
+     "263 to under 342 m per km²"
+    ],
+    [
+     "#0C2E5E",
+     "342 to 42,789 m per km²"
+    ]
+   ]
+  },
+  {
+   "label": "Density of local roads",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/roads/grip4_tp5_dens_m_km2.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to under 11 m per km²"
+    ],
+    [
+     "#C6E7F0",
+     "11 to under 27 m per km²"
+    ],
+    [
+     "#9CD6E6",
+     "27 to under 51 m per km²"
+    ],
+    [
+     "#6FC2DA",
+     "51 to under 86 m per km²"
+    ],
+    [
+     "#46AACB",
+     "86 to under 134 m per km²"
+    ],
+    [
+     "#2E8FBA",
+     "134 to under 214 m per km²"
+    ],
+    [
+     "#2275A8",
+     "214 to under 360 m per km²"
+    ],
+    [
+     "#1A5C92",
+     "360 to under 652 m per km²"
+    ],
+    [
+     "#13447A",
+     "652 to under 1,464 m per km²"
+    ],
+    [
+     "#0C2E5E",
+     "1,464 to 228,589 m per km²"
+    ]
+   ]
+  },
+  {
+   "label": "Density of primary roads",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/roads/grip4_tp2_dens_m_km2.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to under 31 m per km²"
+    ],
+    [
+     "#C6E7F0",
+     "31 to under 62 m per km²"
+    ],
+    [
+     "#9CD6E6",
+     "62 to under 92 m per km²"
+    ],
+    [
+     "#6FC2DA",
+     "92 to under 111 m per km²"
+    ],
+    [
+     "#46AACB",
+     "111 to under 121 m per km²"
+    ],
+    [
+     "#2E8FBA",
+     "121 to under 135 m per km²"
+    ],
+    [
+     "#2275A8",
+     "135 to under 156 m per km²"
+    ],
+    [
+     "#1A5C92",
+     "156 to under 194 m per km²"
+    ],
+    [
+     "#13447A",
+     "194 to under 269 m per km²"
+    ],
+    [
+     "#0C2E5E",
+     "269 to 93,321 m per km²"
+    ]
+   ]
+  },
+  {
+   "label": "Density of secondary roads",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/roads/grip4_tp3_dens_m_km2.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to under 31 m per km²"
+    ],
+    [
+     "#C6E7F0",
+     "31 to under 63 m per km²"
+    ],
+    [
+     "#9CD6E6",
+     "63 to under 95 m per km²"
+    ],
+    [
+     "#6FC2DA",
+     "95 to under 114 m per km²"
+    ],
+    [
+     "#46AACB",
+     "114 to under 128 m per km²"
+    ],
+    [
+     "#2E8FBA",
+     "128 to under 150 m per km²"
+    ],
+    [
+     "#2275A8",
+     "150 to under 182 m per km²"
+    ],
+    [
+     "#1A5C92",
+     "182 to under 229 m per km²"
+    ],
+    [
+     "#13447A",
+     "229 to under 310 m per km²"
+    ],
+    [
+     "#0C2E5E",
+     "310 to 58,497 m per km²"
+    ]
+   ]
+  },
+  {
+   "label": "Density of tertiary roads",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/roads/grip4_tp4_dens_m_km2.pmtiles",
+   "key": [
+    [
+     "#E4F3F8",
+     "1 to under 29 m per km²"
+    ],
+    [
+     "#C6E7F0",
+     "29 to under 61 m per km²"
+    ],
+    [
+     "#9CD6E6",
+     "61 to under 94 m per km²"
+    ],
+    [
+     "#6FC2DA",
+     "94 to under 116 m per km²"
+    ],
+    [
+     "#46AACB",
+     "116 to under 137 m per km²"
+    ],
+    [
+     "#2E8FBA",
+     "137 to under 173 m per km²"
+    ],
+    [
+     "#2275A8",
+     "173 to under 222 m per km²"
+    ],
+    [
+     "#1A5C92",
+     "222 to under 293 m per km²"
+    ],
+    [
+     "#13447A",
+     "293 to under 430 m per km²"
+    ],
+    [
+     "#0C2E5E",
+     "430 to 93,671 m per km²"
+    ]
+   ]
+  }
+ ]
+}

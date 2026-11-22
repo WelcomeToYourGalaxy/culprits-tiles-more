@@ -1,0 +1,297 @@
+{
+ "about": "Rows of the Culprits map whose points can be read from one shared file when the layers box's 'Turn on every: Points' switch is used (round 58). scripts/point_bundles.py copies each row's own archive and joins them by zoom range into tiles/points_bundle_N.pmtiles, listed in bundles/points.json. Rows with a split archive (a .build.json listing parts), over 40 MB, or not found are left to load on their own. The row's own archive stays the source for everything else.",
+ "rows": [
+  {
+   "row": "global_energy_monitor",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/global_energy_monitor.pmtiles"
+  },
+  {
+   "row": "carbon_bombs",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/carbon_bombs.pmtiles"
+  },
+  {
+   "row": "carbon_majors",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/carbon_majors.pmtiles"
+  },
+  {
+   "row": "fertilizer_facilities",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/fertilizer_facilities.pmtiles"
+  },
+  {
+   "row": "soy_organizations",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/soy_organizations.pmtiles"
+  },
+  {
+   "row": "trase",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/trase.pmtiles"
+  },
+  {
+   "row": "counterglow",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/counterglow.pmtiles"
+  },
+  {
+   "row": "epa_tri_sites",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/epa_tri_sites.pmtiles"
+  },
+  {
+   "row": "local_projects",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/local_projects.pmtiles"
+  },
+  {
+   "row": "wastewater_n_tot",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/wastewater_n_tot.pmtiles"
+  },
+  {
+   "row": "wastewater_n_treated",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/wastewater_n_treated.pmtiles"
+  },
+  {
+   "row": "wastewater_n_septic",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/wastewater_n_septic.pmtiles"
+  },
+  {
+   "row": "wastewater_n_open",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/wastewater_n_open.pmtiles"
+  },
+  {
+   "row": "hydrowaste",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/hydrowaste.pmtiles"
+  },
+  {
+   "row": "slavery_sites",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/slavery_sites.pmtiles"
+  },
+  {
+   "row": "slavery_ports",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/slavery_ports.pmtiles"
+  },
+  {
+   "row": "slavery_fishing",
+   "url": "https://welcometoyourgalaxy.github.io/culprits/tiles/slavery_fishing.pmtiles"
+  },
+  {
+   "row": "site_environment_law",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/site_environment_law.pmtiles"
+  },
+  {
+   "row": "exec_police",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_police.pmtiles"
+  },
+  {
+   "row": "exec_townhall",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_townhall.pmtiles"
+  },
+  {
+   "row": "exec_firestation",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_firestation.pmtiles"
+  },
+  {
+   "row": "exec_govoffice",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_govoffice.pmtiles"
+  },
+  {
+   "row": "exec_ministry",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_ministry.pmtiles"
+  },
+  {
+   "row": "exec_diplomatic",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_diplomatic.pmtiles"
+  },
+  {
+   "row": "exec_border",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_border.pmtiles"
+  },
+  {
+   "row": "exec_prison",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/exec_prison.pmtiles"
+  },
+  {
+   "row": "fin_bank",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_bank.pmtiles"
+  },
+  {
+   "row": "fin_taxoffice",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_taxoffice.pmtiles"
+  },
+  {
+   "row": "fin_govfinance",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_govfinance.pmtiles"
+  },
+  {
+   "row": "fin_financial",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_financial.pmtiles"
+  },
+  {
+   "row": "fin_exchange",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_exchange.pmtiles"
+  },
+  {
+   "row": "fin_insurance",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_insurance.pmtiles"
+  },
+  {
+   "row": "fin_accountant",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_accountant.pmtiles"
+  },
+  {
+   "row": "fin_remittance",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_remittance.pmtiles"
+  },
+  {
+   "row": "fin_centralbank",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_centralbank.pmtiles"
+  },
+  {
+   "row": "fin_stockexchange",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_stockexchange.pmtiles"
+  },
+  {
+   "row": "fin_auditoffice",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_auditoffice.pmtiles"
+  },
+  {
+   "row": "fin_devbank",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_devbank.pmtiles"
+  },
+  {
+   "row": "fin_mint",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/fin_mint.pmtiles"
+  },
+  {
+   "row": "legal_prison",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_prison.pmtiles"
+  },
+  {
+   "row": "legal_courthouse",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_courthouse.pmtiles"
+  },
+  {
+   "row": "legal_publicdefender",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_publicdefender.pmtiles"
+  },
+  {
+   "row": "legal_police",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_police.pmtiles"
+  },
+  {
+   "row": "legal_immigration",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_immigration.pmtiles"
+  },
+  {
+   "row": "legal_probation",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_probation.pmtiles"
+  },
+  {
+   "row": "legal_juvenile",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/legal_juvenile.pmtiles"
+  },
+  {
+   "row": "leg_parliament",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/leg_parliament.pmtiles"
+  },
+  {
+   "row": "leg_townhall",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/leg_townhall.pmtiles"
+  },
+  {
+   "row": "leg_audit",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/leg_audit.pmtiles"
+  },
+  {
+   "row": "leg_electoral",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/leg_electoral.pmtiles"
+  },
+  {
+   "row": "leg_ombudsman",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/leg_ombudsman.pmtiles"
+  },
+  {
+   "row": "leg_council",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/leg_council.pmtiles"
+  },
+  {
+   "row": "jud_courts",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/jud_courts.pmtiles"
+  },
+  {
+   "row": "jud_prisons",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-gov/tiles/jud_prisons.pmtiles"
+  },
+  {
+   "row": "slavery_facilities",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/slavery_facilities.pmtiles"
+  },
+  {
+   "row": "slavery_determinations",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/slavery_determinations.pmtiles"
+  },
+  {
+   "row": "slavery_enforcement",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/slavery_enforcement.pmtiles"
+  },
+  {
+   "row": "activist_courts",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/activist_courts.pmtiles"
+  },
+  {
+   "row": "activist_police",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/activist_police.pmtiles"
+  },
+  {
+   "row": "activist_prisons",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/activist_prisons.pmtiles"
+  },
+  {
+   "row": "remains_findings",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/remains_findings.pmtiles"
+  },
+  {
+   "row": "remains_cemeteries",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/remains_cemeteries.pmtiles"
+  },
+  {
+   "row": "skytruth_voc",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_voc.pmtiles"
+  },
+  {
+   "row": "skytruth_nrc",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_nrc.pmtiles"
+  },
+  {
+   "row": "skytruth_posts",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_posts.pmtiles"
+  },
+  {
+   "row": "skytruth_marine_incidents",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_marine_incidents.pmtiles"
+  },
+  {
+   "row": "skytruth_pa_permits",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_pa_permits.pmtiles"
+  },
+  {
+   "row": "skytruth_pa_spud",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_pa_spud.pmtiles"
+  },
+  {
+   "row": "skytruth_pa_violations",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_pa_violations.pmtiles"
+  },
+  {
+   "row": "skytruth_well_permits",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_well_permits.pmtiles"
+  },
+  {
+   "row": "skytruth_fracfocus",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_fracfocus.pmtiles"
+  },
+  {
+   "row": "skytruth_tests",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_tests.pmtiles"
+  },
+  {
+   "row": "skytruth_quakes",
+   "url": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/tiles/skytruth_quakes.pmtiles"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "CASS"
+ ],
+ "hectares": 21997196.0,
+ "to_zoom": 5,
+ "squares": 129,
+ "bytes": 354351,
+ "how": "max"
+}

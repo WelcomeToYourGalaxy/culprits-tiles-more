@@ -1,0 +1,11 @@
+{
+ "version": "2.2",
+ "crops": [
+  "RCOF"
+ ],
+ "hectares": 4377867.0,
+ "to_zoom": 5,
+ "squares": 113,
+ "bytes": 222855,
+ "how": "max"
+}

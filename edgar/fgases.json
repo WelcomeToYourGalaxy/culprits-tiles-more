@@ -1,0 +1,102 @@
+{
+ "HFC-125": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-134": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-134a": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-143": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-143a": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-152a": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-227ea": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-236fa": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-23": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-245fa": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-32": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-365mfc": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-41": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HFC-43-10-mee": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "C2F6": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "C3F8": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "C4F10": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "C5F12": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "C6F14": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "CF4": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "c-C4F8": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "SF6": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "NF3": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HCFC-141b": {
+  "year": 2024,
+  "unit": "Tonnes"
+ },
+ "HCFC-142b": {
+  "year": 2024,
+  "unit": "Tonnes"
+ }
+}

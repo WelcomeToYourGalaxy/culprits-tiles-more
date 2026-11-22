@@ -1,0 +1,9 @@
+{
+ "year": -5000,
+ "from": "zip:///home/runner/work/_temp/anthromes/anthromes-anthropogenic-biomes-12k-geographic-projection-geotiff.zip!/anthromes_F5000BC.tif band 1",
+ "label": " {\"STATISTICS_COUNT\": \"2225402.000000\", \"STATISTICS_MAXIMUM\": \"63\", \"STATISTICS_MEAN\": \"56.19339517085\", \"STATISTICS_MEDIAN\": \"nan\", \"STATISTICS_MINIMUM\": \"23\", \"STATISTICS_SKIPFACTORX\": \"1\", \"STATIST",
+ "to_zoom": 4,
+ "squares": 179,
+ "bytes": 566610,
+ "how": "max"
+}

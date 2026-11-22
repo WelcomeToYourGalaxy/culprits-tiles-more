@@ -1,0 +1,6719 @@
+{
+ "sha256": "2433a538b004c4cb9285d0b381e8569ec325a453ec0d21891ecf3bd7d3532506",
+ "read": "2026-10-16",
+ "release": "Global Energy Ownership Tracker - September 2026",
+ "cite": "Global Energy Monitor, Global Energy Ownership Tracker, September 2026 (CC BY 4.0)",
+ "files": [
+  "gem_ownership_sept2026_csv.zip"
+ ],
+ "sheets": {
+  "all entities": 27707,
+  "asset ownership": 50773,
+  "bioenergy power ownership": 34604,
+  "cement and concrete ownership": 15352,
+  "coal mine ownership": 26867,
+  "coal plant ownership": 147063,
+  "entity ownership": 26511,
+  "gas pipeline ownership": 55888,
+  "gas plant ownership": 180455,
+  "iron mine ownership": 9628,
+  "oil and ngl pipeline ownership": 23409,
+  "steel plant ownership": 20817
+ },
+ "sector rows": {
+  "Bioenergy Power": 34604,
+  "Cement and Concrete": 15352,
+  "Coal Mine": 26867,
+  "Coal Plant": 147063,
+  "Gas Pipeline": 55888,
+  "Gas Plant": 180455,
+  "Iron Mine": 9628,
+  "Oil & NGL Pipeline": 23409,
+  "Steel Plant": 20817
+ },
+ "parents": 11435,
+ "parents placed": 10935,
+ "parents not placed": [
+  {
+   "parent": "small shareholder(s)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "member/employee owned",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "natural person(s)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "unknown",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Government of Hong Kong",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Huaihe Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "EP Investment S.à r.l.",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shaanxi Coal and Chemical Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Coal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Everred Corporate",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Vistra Group Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "municipally owned",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dongfang Energy (Hong Kong) International Trading",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Isan International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Minorum Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Essess Aluminum Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "HSBC Asia Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shandong Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Deutsche Shell Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Government of Telengana",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "State of Tyrol",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Trian Fund Management GP",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Huayang New Material Technology Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "MOL Hungarian Oil and Gas",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Rafeh Capital Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Government of Donetsk People's Republic",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "NYSE-New York Stock Exchange",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "UBA Nominees",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Court Investments",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "HH Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fondazione Compagnia di San Paolo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fondazione Cariplo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Shipping",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Beijing Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guohua Industry",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ministry of Energy (Mongolia)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Jingneng Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Huainan Industial Development Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fidelity Investments Canada",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "The Paul and Alexandra Canellopoulos Foundation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "British Asia Pan Ruogen International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Familie Porsche Beteiligung",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "InterCement Trading e Inversiones",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Huaneng",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Lopez",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "DB Spore DCS A/C DB SG DCS AC Japet Res",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Westmoreland Haystack Mining",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hebei Construction Investment Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Charterway",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Wuxi Municipal People's Government",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hargaon Investment & Trading",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yashovardhan Investment & Trading",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Gridiron Funding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Orbit Marketing",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Long Chen Paper (China) Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Edalat Fund",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Treasure Global Investments",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Mach Energy (Hongkong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Chengdong Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "TXNM Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Interseguro compañia de seguros",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Suryachakra Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Videocon Reality and Infrastructure",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ningxia State-Owned Capital Operation Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Asia Gain",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tebian Electric Apparatus [TBEA]",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guizhou Water Mine Holding Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "GPSC Holding (Thailand)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Cheniere GP Holding Company",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "AP Trading Enterprise",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yihua Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Lygend Resources & Technology",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hong Kong Chunhua Mining",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Advocate",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "JSC Uzbekenergo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dadi Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Well Crown International Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Australia Maid International Trade",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fengtu Nonferrous Metals (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Techint Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Atha Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Polska Grupa Górnicza (PGG)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Cowlan",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Nine Star Plastic Packaging Services",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Karamveer Impex",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Stoket",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Newbury Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shuangyao Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Metro Holding Torino",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Stadt Witten",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Finanziaria Sviluppo Utilities",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Reggio Emilia Municipality",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shanden",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Primerose",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Social Insurance Fund of Farmers and Villagers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fusion Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Finanziaria Città di Torino Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ronson Traders",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Thüga BS Beteiligungsgesellschaft",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ministry of Fuel and Energy of Luhansk People's Republic",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Kinetic Crest",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Goldway Capital Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Power Africa",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Alpine Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yankuang Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Longelephant International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PT Satya Abadi Semesta",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "[8%] China Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Lion International Asset Management (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Aksara Commercial",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "River Point Ventures",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tianhe Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "South Asia Energy Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Diamond Mint",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tan Tao Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Waha Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fajr Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "HSBC Bank Middle East",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Truong Thanh Viet Nam",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PT Apollo Visintama Putra",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Décima Parca",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Landire",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Javelin Global Commodoties (UK)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "State Power Investment Corporation [SPIC]",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Murray Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "SINOPEC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Daelim",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ege Trade",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CDPQ Infrastructures Asia II",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Raven FS Property Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "ONC International Trading (Ningbo)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Wanbei Coal & Electrical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "NSL Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CLP GPEC (Mauritius) Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "BTN Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hikari Tsushin",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Quantum Capital Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Broad River Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sirida (Hong Kong) Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CIP MidCo 3",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "WIND POWER INVEST",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CMB International Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CIP MidCo 1",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "U.S. Medical Glove Company",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CIP MidCo 2",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CIP MidCo 5",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "FICO",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "State-owned Assets Supervision and Administration Bureau of Xiangning County Government",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guizhou Bangda Energy Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Raffles International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ordos City Ulan Development Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guizhou Shuicheng Coal Mine Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Lygend New Power (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Kinggood Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Zhongshan Electric Power (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hong Kong Wanye Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Gaoping State-Owned Capital Investment Operation Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Burj Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Eins energie Beteiligungsgesellschaft Chemnitz",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Huolinhe Coal Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Arcil",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hao Bo International Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tsingtuo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yulin City Finance Investment Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Gujarat Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sumitomo Corporation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Luminant Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sikder Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Campbell (Group) Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CGN Huamei Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Anchor Energy LNG",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "LTL Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Oliveira Trust Servicer",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Landkreis Roth",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "British Virgin Islands Best Environmental Technology",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "ENERVIE – Südwestfalen Energie und Wasser",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Zhongsheng International Holdings (Singapore)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Veolia Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Resources Capital Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Financiere",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "JP Morgan Chase Bank N.A. FBO Holders Of",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "National Energy Investment Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Zhong Yi Jin Cai Qian Hong Kong Energy Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Centum Investment Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sinopec Century Century International Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Jiaxing Dejian Investment Partnership",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Refex Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Formosa Investment (Cayman)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "LOTTE Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Manshi Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sinpoo Chemicals Pte",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "King Car",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CVR Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "South Asia Plastic Industry (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Alberta Teachers Retirement Fund (ATRF)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Government of National Capital Territory of Delhi",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Nscale Global Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Mega Financial Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "GenOn Bowline Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "KGI Financial Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Jiuwei Power Co., Ltd.",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Africa Infrastructure Investment Fund 2 Power Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Gangfa International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "ARM-Harith Infrastructure Fund (ARMHIF)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Apium Media Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Energy Asia Consultancy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "The Energy & Minerals Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Amineo Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hilal Al-Tuwairqi",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "A2-Link",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Roin Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CIP Holding 8",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Groupe E",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Grupo Campollo Codina",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Citiclient Nominees No8 NY GW",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Jilin Energy Investment Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Biyun Construction Investment of Zhijin Bijie",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Cox Enterprises",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Coalmines [Overseas] Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ministry of Energy of Ukraine",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Kestenbaum & Tradburks Resource Ventures",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "New Energy Engineering",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Africa Coal Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Chase Manhattan Nominees",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Guoxin Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PT Deli Coal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Employee Partnership Foundation of Taiyuan Dongshan Coal Mine",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Metinvest B V",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "King Makhado Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Henan Energy Chemical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Prosperity Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dalmia Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sparkling Commodities",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "EMTA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PowerChina Power Investment Corporation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Besa Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Huarui Energy (Hong Kong) Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Essel Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sintex Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Panweston Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Aagam Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shaanxi Xingmao Jurassic Coal Magnesium Power Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Beijing Huarui Century Holding Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yuling Mining Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yankuang Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dameng (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Luck Scenery International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China-Africa Trade & Industry Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hong Kong North and South Brothers International Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hong Kong Guangfeng Industrial",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Energo Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Altona Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PT Biidznillah Tambang Nusantara",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Arvind Farms",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hong Kong Hengfa Century",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yuncheng State-owned Assets Supervision and Administration Commission",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Perusahaan Gas Negara",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Bangchak Corporation Public",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Storebrand Asset Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Axium Three Rivers Acquisition",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Gulf Energy USA",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "J-POWER Jackson Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Enery Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "feng rong",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "(Hong Kong) Dewei Industrial Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Osaka Gas Three Rivers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Luoshan Longxing Gas Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Bouygues",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "NOMAC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "HS Three Rivers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Humens Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Huaying Investment Holding Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sravanthi Infratech",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "B.G.M.",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Synergy International Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Government of Rajasthan",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Clearway West Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Black Hills Electric Parent Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Elseif",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CPV Three Rivers Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Vertex Bioenergy Solutions",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Americas Mining Corporation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Gold Geneses Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fideicomiso en Garantía Herederos JHB",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hamilton Projects Acquiror",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Link Business Solution",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Rhein Papier",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Al-Zamil & Brothers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "DB Energy Assets",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "FIRST GLORY SERVICES",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Luminant Power Generation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Concord 3 Rivers Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Japan Brazil Iron Ore Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hancock Energy Corporation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Polskie Górnictwo Naftowe i Gazownictwo SA (PGNiG)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Thailand Huihua Industrial",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ministry of Industry and Trade (Donetsk People's Republic)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Twenty20 Securities",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Grupo Córdova",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "TRFI Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Oaks Corporation Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "RenoDa Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Palani Participações",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Alliance Landfill",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Primary Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Biokala",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Margeruite Fund",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shifeng International Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Global X Uranium ETF",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "MCFSL- Trustee JS Growth Fund (CDC)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sugar Invest",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Narra Capital Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "SB Reshellers",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fiji Pine",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Mitsubishi UFJ Lease & Finance",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Gezhouba Group Overseas Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Lucky Construction",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Catering for Corporate Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "JHD Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "UREC Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "American Lighting",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fossil Mines",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fortier Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yong-Sheng Development Industrial",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "AGM Desarrollos",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Metal Industries",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Asian Paints",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "EGIN Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ri Kon Construction",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Murarka Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "KPD Simas Equity Fund 2",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Kitty Hawk Natural Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Xuzhou Zhongnuoji Enterprise Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guangdong Yuedian Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ordos Guangli Coal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Kangping State-Owned Asset Operation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Head Office Organ Employees Joint Stock Foundation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guangdong Yuedian Holdings West Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shandong Wangchao Coal and Power Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Vibrant Veterans Mineral Resource Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Wuhai Liangzhu Energy Coal-Chemical",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ordos City Huneng Coal Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Belvedere Mining Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ningxia Xingjun Energy Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "show collar",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Inner Mongolia Yuanyuan Energy Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ordos Ulan Development Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Inner Mongolia Huolinhe Coal Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Mogul Resources",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fuyuan County Laochang Town Hongfa Coal Mine",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Inner Mongolia Ordos Investment Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sichuan Coal Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Zoucheng Asset Operation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ningxia Haosheng Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yijin Huoluo Banner Xinmiao Ahuigou Zhifu Coal Mine",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "nner Mongolia Mengxing Investment Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Jungar Banner Shentao Coal Transportation and Marketing",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Xinda Asset Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dachuanhe Coal Mine Employees Joint Stock Foundation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Yijinhuoluo Banner Nalin Taohai Coal Management, Transportation and Marketing",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dongguan Ruilong Property Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Multi-Employee Partnership Foundation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shandong Zhongda Advanced Material",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Inner Mongolia Mengxing Products",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guizhou Coalfield Geology Bureau",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Baosteel Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Wenshan State Industrial Investment Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Weishan County Cuizhuangkuang Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shandong Xingning Energy Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Trade Union Committee",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ohai Coal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shandong Zhongtai Coal Industry Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PT Agata Nugraha Nastari",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Guizhou Guoxing Mining Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Chifeng City Economic and Information Commission",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shandong Mingxing Mining Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "JINAN Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Southern Power Grid Company",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Inner Mongolia Autonomous Region Prison Administration",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hawaii Motor",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Xinjiang Shenxin Development Co Ltd Trade Union Committee",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "http://finance.china.com.cn/news/20220916/5879360.shtml",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Xinjiang Lvyuan State-Owned Capital Investment Operation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Datong Region Coal Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Heungkong Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "IL&FS Tamil Nadu Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fanshigou Coal Mine Employees Joint Stock Foundation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Coal Energy Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Federal Government of Nigeria",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ordos Wanxinglong Industry and Trade",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "SDC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "https://www.csm.org.cn/col/col6293/art/2024/art_b59a36de17904a09bebc6dd934b24218.html",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Pingmei Shenma Energy and Chemical Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Zhonghe Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Chinese Academy Of Sciences Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Shenhua Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Uttarakhand Jal Vidyut Nigam",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indomie",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Municipality of Baikal",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Chan Tien Heng Industrial",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Anadolu Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Namane Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "China Risun Group (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Steam Trading",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Oba Yatırım",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "BROAD HORIZON DEVELOPMENTS",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ping An Huan Yu Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Aq Sora",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Alumina",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Diamond Palace Services",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "An Xing Yu Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Crow Nation",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Bengal & Assam",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Cheng Tuo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Baikal Municipality",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Zakłady Azotowe Kędzierzyn",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Asia United Chemical Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Chang Tuo",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "King International",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Permak Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Olympic Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Pitanes Elektrik",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indu Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Global Adviser",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Allergan",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Servis Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Satria Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "United American Holding Co.",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Enel Spa",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "INEOS",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck Energy Services of Oswego",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "IGNIS Ventures",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "SWG Goal Line GP",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Summit Kwinana Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Vistra Asset",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "BKW Italia",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Empire Gen Holdco",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Lockport Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "KremsChem Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck Energy Services of Olean",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Puxingan (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Marco DM Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Carroll County Energy Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Liang Mao Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Jun Wei Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Grand Nation Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "North Bridge Construction",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ironclad Energy Management",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CalPeak Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Stend",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "LI Generation Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck-Olean Cogeneration",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hong Kong Yujin Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Smurfit Westrock Packaging UK",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Prudential Capital Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Taiwan San Ton Assets",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "PowerTransitions Buyer, LLC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Foresight Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "SWG Goal Line Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Vortex Energy IV Fund",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Taichi Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Bayou Power",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Phoenix Group",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tenaska Hampden Partners",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Carville Power Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck-Yerkes Cogeneration",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fisterra Energy",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck-Corinth",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "SOGEX Oman",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Singapore Asia Power Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sammons Power Development",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck Energy Services of Corinth",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Fresenius Medical Care Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Model Beteiligungen",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "INEOS Köln Beteiligungs",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck-Tonawanda",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Webb Energy LLC",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Ineos Solvents",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Sanya Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CPV Valley Holdings",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Puxingxing (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "INEOS Deutschland",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Dartmouth Power Holding Company",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "ACR IV (AP) Frontier",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Indeck-Yerkes Energy Services",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "E-Infra",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Arctic Slope Regional",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Hongxing (Hong Kong)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tianwei",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Development and Equipment of Relief Mines",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "CAB Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Asia Pacific Investments",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Xuan Gang International Trading (HK)",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Helvella Holding",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Greybull Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Boao Investment",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "MM Construction Materials",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "Tuchuan Capital",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "parent": "VS energy Structure",
+   "headquarters": "",
+   "registration": ""
+  }
+ ],
+ "entities": 27707,
+ "entities placed": 27011,
+ "entities not placed, count": 696,
+ "entities not placed": [
+  {
+   "entity": "3S Enerji ve Maden Üretim",
+   "id": "E100000120001",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "[8%] China Energy",
+   "id": "E100000193057",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "A2-Link",
+   "id": "E100002027205",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Aagam Holdings",
+   "id": "E100002024476",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ABL Energy Godo",
+   "id": "E100000120004",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Acc4t",
+   "id": "E100000002394",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ACE Enexor",
+   "id": "E100000002362",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ACR IV (AP) Frontier",
+   "id": "E100002012107",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Advocate",
+   "id": "E100000125888",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Aegon Energy",
+   "id": "E100002001417",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Africa Coal Partners",
+   "id": "E100002010584",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Africa Infrastructure Investment Fund 2 Power Holdings",
+   "id": "E100002015890",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "AGM Desarrollos",
+   "id": "E100002023325",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Agripower",
+   "id": "E100000132509",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Aksara Commercial",
+   "id": "E100001010883",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Alberta Teachers Retirement Fund (ATRF)",
+   "id": "E100000150031",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Allergan",
+   "id": "E100000120049",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Alliance Landfill",
+   "id": "E100000193388",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Alpine Development",
+   "id": "E100000193724",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Altona Energy",
+   "id": "E100000120055",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Altona Resources",
+   "id": "E100000120056",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Alumina",
+   "id": "E100002026980",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Al-Zamil & Brothers",
+   "id": "E100000001374",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "American Lighting",
+   "id": "E100002023326",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Americas Mining Corporation",
+   "id": "E100002026074",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Amineo Holding",
+   "id": "E100002027204",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Anadolu Group",
+   "id": "E100000120067",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Anambra Gas Fired IPP",
+   "id": "E100000002443",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Anchor Energy LNG",
+   "id": "E100002000648",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ant Enerji",
+   "id": "E100000120072",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "An Xing Yu Investment",
+   "id": "E100002027237",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Apium Media Holding",
+   "id": "E100002027118",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "AP Trading Enterprise",
+   "id": "E100000126060",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Aq Sora",
+   "id": "E100000120074",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ArcelorMittal Flat Europe",
+   "id": "E100002025855",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Arcil",
+   "id": "E100000120076",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Arctic Slope Regional",
+   "id": "E100002013870",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Argos Guyane",
+   "id": "E100002015404",
+   "headquarters": "French Guiana",
+   "registration": "French Guiana"
+  },
+  {
+   "entity": "Arian Steel Co",
+   "id": "E100002021989",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ARM-Harith Infrastructure Fund (ARMHIF)",
+   "id": "E100000133871",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Arvind Farms",
+   "id": "E100002024477",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Asia Gain",
+   "id": "E100002005945",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Asian Paints",
+   "id": "E100002023240",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Asia Pacific Investments",
+   "id": "E100001016310",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Asia United Chemical Holdings",
+   "id": "E100000125898",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "A/S Norske Shell",
+   "id": "E100000189361",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Atha Group",
+   "id": "E100000134289",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Atlas Iron",
+   "id": "E100002011532",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Australia Maid International Trade",
+   "id": "E100000125905",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Austromineral",
+   "id": "E100002003937",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Axium Three Rivers Acquisition",
+   "id": "E100002024337",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bahçepınar Enerji Üretim ve İnşaat",
+   "id": "E100000120121",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Baikal Municipality",
+   "id": "E100000120123",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bangchak Corporation Public",
+   "id": "E100002014014",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Baosteel Group",
+   "id": "E100000192747",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Baramarta",
+   "id": "E100001013128",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bayou Power",
+   "id": "E100000001399",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Beijing Energy",
+   "id": "E100000192759",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Beijing Huarui Century Holding Group",
+   "id": "E100000192895",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Beijing Jingqiao Thermal Power",
+   "id": "E100000002523",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Belvedere Mining Holdings",
+   "id": "E100002010304",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bengal & Assam",
+   "id": "E100002024498",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Besa Group",
+   "id": "E100000120148",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bethune Energy",
+   "id": "E100002025465",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "B.G.M.",
+   "id": "E100002016033",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bioenergia Cerradão II",
+   "id": "E100000132550",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Biokala",
+   "id": "E100002015756",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Biyun Construction Investment of Zhijin Bijie",
+   "id": "E100000193060",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bkv North Texas",
+   "id": "E100000192023",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "BKW Italia",
+   "id": "E100002018908",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Black Hills Electric Parent Holdings",
+   "id": "E100002024302",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Boao Investment",
+   "id": "E100000130617",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Bouygues",
+   "id": "E100002026228",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "BrightNight Power Marketing",
+   "id": "E100002025445",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "British Asia Pan Ruogen International",
+   "id": "E100000130417",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "British Virgin Islands Best Environmental Technology",
+   "id": "E100000125847",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "BROAD HORIZON DEVELOPMENTS",
+   "id": "E100000126077",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Broad River Power",
+   "id": "E100002024314",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Brunei Shell Petroleum Company",
+   "id": "E100002013956",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "BTN Power",
+   "id": "E100000120119",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Buğra Enerji Üretimi",
+   "id": "E100000120183",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Burj Capital",
+   "id": "E100000120179",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "BW Energy",
+   "id": "E100000190448",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CAB Holding",
+   "id": "E100002025856",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CalPeak Power",
+   "id": "E100002024345",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Campbell (Group) Investment",
+   "id": "E100000001413",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Capitol Energy Group",
+   "id": "E100001014381",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Carroll County Energy Holdings",
+   "id": "E100002024370",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Carville Power Holdings",
+   "id": "E100002024360",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Catering for Corporate Management",
+   "id": "E100002006966",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CATIDC Power",
+   "id": "E100002007631",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CDPQ Infrastructures Asia II",
+   "id": "E100002024464",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Çelikler Termik Elektrik Üretim",
+   "id": "E100000121597",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Central Africa Cement",
+   "id": "E100002023905",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Centum Investment Group",
+   "id": "E100000120223",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CES Placerita",
+   "id": "E100000002578",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CGN Huamei Investment",
+   "id": "E100001000340",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Changli Xingguo Precision Machinery Co Ltd",
+   "id": "E100002021991",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chang Tuo",
+   "id": "E100002027235",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chan Tien Heng Industrial",
+   "id": "E100002027236",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Charterway",
+   "id": "E100000126024",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chase Manhattan Nominees",
+   "id": "E100001013280",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chengdong Investment",
+   "id": "E100002024565",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Cheng Tuo",
+   "id": "E100002027239",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Cheniere GP Holding Company",
+   "id": "E100002025250",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chennai Power Generation",
+   "id": "E100000002681",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chesco Energy",
+   "id": "E100002025459",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chifeng City Economic and Information Commission",
+   "id": "E100000192777",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China-Africa Trade & Industry Development",
+   "id": "E100002007630",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Coal",
+   "id": "E100000192757",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Coal Energy Group",
+   "id": "E100000193015",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Coalmines [Overseas] Group",
+   "id": "E100000192947",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Energy",
+   "id": "E100000192751",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Gezhouba Group Overseas Investment",
+   "id": "E100000187489",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Guoxin Holding",
+   "id": "E100000180385",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Huaneng",
+   "id": "E100000192768",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Lian He Cement",
+   "id": "E100002006150",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Pingmei Shenma Energy and Chemical Group",
+   "id": "E100000156814",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Resources Capital Management",
+   "id": "E100000130497",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Risun Group (Hong Kong)",
+   "id": "E100000125961",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Shipping",
+   "id": "E100000192762",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Southern Power Grid Company",
+   "id": "E100000186811",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "China Xinda Asset Management",
+   "id": "E100000193131",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chinese Academy Of Sciences Holdings",
+   "id": "E100000193039",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Chongqing Guangchuan Comprehensive Energy Service",
+   "id": "E100002021053",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CIP Holding 8",
+   "id": "E100002026155",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CIP MidCo 1",
+   "id": "E100002026146",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CIP MidCo 2",
+   "id": "E100002026147",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CIP MidCo 3",
+   "id": "E100002026148",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CIP MidCo 5",
+   "id": "E100002026154",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Citiclient Nominees No8 NY GW",
+   "id": "E100002006732",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Clearway West Holdings",
+   "id": "E100002024419",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CLP GPEC (Mauritius) Holdings",
+   "id": "E100002024465",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CMB International Capital",
+   "id": "E100000130589",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Compañia Minera San Jose",
+   "id": "E100000120277",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Concord 3 Rivers Holdings",
+   "id": "E100002024338",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Converge Power Generation",
+   "id": "E100000002750",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Court Investments",
+   "id": "E100002026855",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Cowlan",
+   "id": "E100002000208",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Cox Enterprises",
+   "id": "E100000131520",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CPGCBL & Mitsui JV",
+   "id": "E100000002603",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CPGCBL/Sembcorp",
+   "id": "E100000120194",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CPV Three Rivers Investment",
+   "id": "E100002024335",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CPV Valley Holdings",
+   "id": "E100002024340",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CR Energy Concepts",
+   "id": "E100000132577",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Crow Nation",
+   "id": "E100001010028",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CVR Group",
+   "id": "E100000120197",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CVW Energética",
+   "id": "E100000132578",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "CZ Coal",
+   "id": "E100000120198",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dachuanhe Coal Mine Employees Joint Stock Foundation",
+   "id": "E100000130506",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dadi Chemical",
+   "id": "E100000125904",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Daelim",
+   "id": "E100000001441",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dalmia Group",
+   "id": "E100000120313",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dameng (Hong Kong)",
+   "id": "E100000126027",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dartmouth Power Holding Company",
+   "id": "E100002024389",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Datong Region Coal Group",
+   "id": "E100000192828",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dazhou Zhineng Xiangying New Energy Technology",
+   "id": "E100000002790",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "DB Energy Assets",
+   "id": "E100002024422",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "DB Spore DCS A/C DB SG DCS AC Japet Res",
+   "id": "E100002015909",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "DD Elektrik",
+   "id": "E100000120298",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Décima Parca",
+   "id": "E100001010952",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Delta Offshore Energy",
+   "id": "E100000188721",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Deutsche Shell Holding",
+   "id": "E100002024657",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Development and Equipment of Relief Mines",
+   "id": "E100001016087",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Diamond Mint",
+   "id": "E100002016285",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Diamond Palace Services",
+   "id": "E100000120329",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dongfang Energy (Hong Kong) International Trading",
+   "id": "E100000126052",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dongguan Ruilong Property Investment",
+   "id": "E100000192906",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dual Gas",
+   "id": "E100000120344",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Dushanbinskaya Heat Station",
+   "id": "E100000003680",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Eagle Horizon Resources",
+   "id": "E100002022738",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "East-West Power Generation",
+   "id": "E100000120377",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Edalat Fund",
+   "id": "E100000001351",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "EDF Power Solutions Chile",
+   "id": "E100002025902",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "EECO Jacutinga Empreendimentos Energéticos do Centro Oeste",
+   "id": "E100000002856",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ege Trade",
+   "id": "E100000120381",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "EGIN Holding",
+   "id": "E100002024007",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "E-Infra",
+   "id": "E100002021617",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Eins energie Beteiligungsgesellschaft Chemnitz",
+   "id": "E100002023106",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ElectriGen",
+   "id": "E100002025457",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Elseif",
+   "id": "E100000001468",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Elso Nogradi Eromu",
+   "id": "E100000120394",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Emami Cements",
+   "id": "E100000120395",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Empire Gen Holdco",
+   "id": "E100002024421",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Employee Partnership Foundation of Taiyuan Dongshan Coal Mine",
+   "id": "E100000130521",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "EMTA",
+   "id": "E100000120364",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Enel",
+   "id": "E100000189601",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Enel Spa",
+   "id": "E100000190061",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Energija Novi Sad",
+   "id": "E100000002953",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Energo Group",
+   "id": "E100000120414",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Energy Asia Consultancy",
+   "id": "E100000001352",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ENERVIE – Südwestfalen Energie und Wasser",
+   "id": "E100002024673",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Enery Holdings",
+   "id": "E100000001476",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Engie Energy International",
+   "id": "E100001010027",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Enstor Pipeline Holdings",
+   "id": "E100002022198",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "EP Investment S.à r.l.",
+   "id": "E100002021743",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ESC Brooke County Power I",
+   "id": "E100000002876",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ESC Tioga County Power",
+   "id": "E100000002878",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Essel Group",
+   "id": "E100000120436",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Essess Aluminum Holdings",
+   "id": "E100002021916",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Everred Corporate",
+   "id": "E100002022269",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fajr Capital",
+   "id": "E100002026852",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Familie Porsche Beteiligung",
+   "id": "E100002022480",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fanshigou Coal Mine Employees Joint Stock Foundation",
+   "id": "E100000130508",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Federal Government of Nigeria",
+   "id": "E100000193298",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "feng rong",
+   "id": "E100000125980",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fengtu Nonferrous Metals (Hong Kong)",
+   "id": "E100000126088",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "FICO",
+   "id": "E100000151221",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fideicomiso en Garantía Herederos JHB",
+   "id": "E100001011452",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fidelity Investments Canada",
+   "id": "E100002022063",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fier Thermoelectric",
+   "id": "E100000003028",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fiji Pine",
+   "id": "E100002011936",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Financiere",
+   "id": "E100002006331",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Finanziaria Città di Torino Holding",
+   "id": "E100002027153",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Finanziaria Sviluppo Utilities",
+   "id": "E100002027152",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "FirstEnergy Generation",
+   "id": "E100001001290",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "FIRST GLORY SERVICES",
+   "id": "E100000126002",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fisterra Energy",
+   "id": "E100001000422",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fondazione Cariplo",
+   "id": "E100002026963",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fondazione Compagnia di San Paolo",
+   "id": "E100002026962",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fonterra/Todd",
+   "id": "E100000003036",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Foresight Group",
+   "id": "E100000137273",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Formosa Investment (Cayman)",
+   "id": "E100000125866",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fortier Capital",
+   "id": "E100002015388",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fortistar Castleton Power",
+   "id": "E100000003039",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fossil Mines",
+   "id": "E100002006924",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fresenius Medical Care Investment",
+   "id": "E100002024681",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fusion Holdings",
+   "id": "E100000001487",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Fuyuan County Laochang Town Hongfa Coal Mine",
+   "id": "E100000192848",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gajamara Power Project",
+   "id": "E100000120480",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gangfa International",
+   "id": "E100000125831",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gaoping State-Owned Capital Investment Operation Group",
+   "id": "E100000192969",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gas RES",
+   "id": "E100001014794",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gaza Power Generating",
+   "id": "E100000003075",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gazprom Neft",
+   "id": "E100000190990",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "GCL (Huanghua) Gas Thermal Power",
+   "id": "E100000003054",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Genco Power",
+   "id": "E100000120492",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Generation Bridge II Connecticut",
+   "id": "E100001001301",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "GenOn Bowline Power",
+   "id": "E100002024426",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Georgia-Pacific Cons Op LLC Port Hudson",
+   "id": "E100000003094",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gerze Enerji Santrali",
+   "id": "E100000120497",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Giti Group",
+   "id": "E100002006594",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Global Adviser",
+   "id": "E100000120502",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Global Invest",
+   "id": "E100000001879",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Global X Uranium ETF",
+   "id": "E100002024700",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Golden Lake",
+   "id": "E100000131635",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gold Geneses Development",
+   "id": "E100000126003",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Goldway Capital Investment",
+   "id": "E100002022566",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Government of Donetsk People's Republic",
+   "id": "E100001016267",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Government of Hong Kong",
+   "id": "E100002026868",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Government of National Capital Territory of Delhi",
+   "id": "E100002024470",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Government of Rajasthan",
+   "id": "E100002024472",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Government of Telengana",
+   "id": "E100000192744",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "GPSC Holding (Thailand)",
+   "id": "E100002021196",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Grand Nation Investment",
+   "id": "E100000001495",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Green Iron Magnetite Project",
+   "id": "E100002020678",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Green River East GenCo",
+   "id": "E100002025452",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Greybull Capital",
+   "id": "E100002022016",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gridiron Funding",
+   "id": "E100002024460",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Groupe E",
+   "id": "E100000186491",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Grupo Aroeira",
+   "id": "E100000132692",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Grupo Campollo Codina",
+   "id": "E100000132693",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Grupo Córdova",
+   "id": "E100001010301",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guangdong Yuedian Group",
+   "id": "E100000192961",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guangdong Yuedian Holdings West Investment",
+   "id": "E100000192960",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guinea Bauxite",
+   "id": "E100000120522",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guizhou Bangda Energy Development",
+   "id": "E100000192981",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guizhou Coalfield Geology Bureau",
+   "id": "E100000192962",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guizhou Guoxing Mining Group",
+   "id": "E100000192927",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guizhou Shuangcheng Energy",
+   "id": "E100002011810",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guizhou Shuicheng Coal Mine Group",
+   "id": "E100000192860",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guizhou Water Mine Holding Group",
+   "id": "E100000192829",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gujarat Energy",
+   "id": "E100002024467",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Gulf Energy USA",
+   "id": "E100002024456",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Guohua Industry",
+   "id": "E100000192760",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Halyard Energy Wharton",
+   "id": "E100000003178",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hamilton Liberty O&M",
+   "id": "E100000003179",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hamilton Projects Acquiror",
+   "id": "E100002024882",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hancock Energy Corporation",
+   "id": "E100002024724",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hanoi Industrial Construction and Investment",
+   "id": "E100000120540",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hao Bo International Development",
+   "id": "E100000126026",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hargaon Investment & Trading",
+   "id": "E100002026570",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hawaii Motor",
+   "id": "E100000193000",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Head Office Organ Employees Joint Stock Foundation",
+   "id": "E100000130507",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hebei Construction Investment Group",
+   "id": "E100000179886",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Helvella Holding",
+   "id": "E100001016233",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Henan Energy Chemical Group",
+   "id": "E100000192810",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Heungkong Group",
+   "id": "E100000192924",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "HH Capital",
+   "id": "E100002022264",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hikari Tsushin",
+   "id": "E100002022095",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hilal Al-Tuwairqi",
+   "id": "E100001016122",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Himeji Natural Gas Power Generation",
+   "id": "E100000003216",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hoa Dau Son",
+   "id": "E100000120570",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hong Kong Chunhua Mining",
+   "id": "E100000125910",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "(Hong Kong) Dewei Industrial Investment",
+   "id": "E100000001514",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hong Kong Guangfeng Industrial",
+   "id": "E100000125977",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hong Kong Hengfa Century",
+   "id": "E100000126094",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hong Kong North and South Brothers International Investment",
+   "id": "E100000125832",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hong Kong Wanye Group",
+   "id": "E100000125812",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hong Kong Yujin Development",
+   "id": "E100000125960",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Hongxing (Hong Kong)",
+   "id": "E100000130646",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Horizon Oil",
+   "id": "E100000191202",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "HSBC Asia Holdings",
+   "id": "E100002025349",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "HSBC Bank Middle East",
+   "id": "E100002026853",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "HS Three Rivers",
+   "id": "E100002024339",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "http://finance.china.com.cn/news/20220916/5879360.shtml",
+   "id": "E100000193087",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "https://www.csm.org.cn/col/col6293/art/2024/art_b59a36de17904a09bebc6dd934b24218.html",
+   "id": "E100000193086",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Huaihe Energy",
+   "id": "E100000192834",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Huainan Industial Development Group",
+   "id": "E100000192761",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Huarui Energy (Hong Kong) Investment",
+   "id": "E100000125855",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Huayang New Material Technology Group",
+   "id": "E100000192805",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Huaying Investment Holding Group",
+   "id": "E100000189021",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Humens Group",
+   "id": "E100002018650",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Huolinhe Coal Industry Group",
+   "id": "E100000192776",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ichihara Thermal Power Generation",
+   "id": "E100000120604",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "IGNIS Ventures",
+   "id": "E100001000367",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "IL&FS Tamil Nadu Power",
+   "id": "E100002024569",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck-Corinth",
+   "id": "E100002024447",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck Energy Services of Corinth",
+   "id": "E100002024446",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck Energy Services of Olean",
+   "id": "E100002024448",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck Energy Services of Oswego",
+   "id": "E100002024450",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck-Olean Cogeneration",
+   "id": "E100002024449",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck-Tonawanda",
+   "id": "E100002024451",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck-Yerkes Cogeneration",
+   "id": "E100002024453",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indeck-Yerkes Energy Services",
+   "id": "E100002024454",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Independent Third Party",
+   "id": "E100001013357",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indomie",
+   "id": "E100000120613",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Indu Group",
+   "id": "E100000120622",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "INEOS",
+   "id": "E100000189181",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "INEOS Deutschland",
+   "id": "E100002024678",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "INEOS Köln Beteiligungs",
+   "id": "E100002024679",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ineos Solvents",
+   "id": "E100002024677",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Inner Mongolia Autonomous Region Prison Administration",
+   "id": "E100000192942",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Inner Mongolia Huolinhe Coal Industry Group",
+   "id": "E100000192903",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Inner Mongolia Mengxing Products",
+   "id": "E100000192915",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Inner Mongolia Ordos Investment Holding",
+   "id": "E100000192748",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Inner Mongolia Taisheng Industrial Group Etuoke BannerTaiyuan Coal Mine",
+   "id": "E100002010389",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Inner Mongolia Yuanyuan Energy Group",
+   "id": "E100000193113",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "InterCement Trading e Inversiones",
+   "id": "E100002022491",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Interseguro compañia de seguros",
+   "id": "E100002026072",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Irkutsk Oil",
+   "id": "E100000191034",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ironclad Energy Management",
+   "id": "E100002024961",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Iron Light",
+   "id": "E100000131715",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Isan International",
+   "id": "E100002021917",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Japan Brazil Iron Ore Holdings",
+   "id": "E100002004101",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Javelin Global Commodoties (UK)",
+   "id": "E100000193504",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "J-Energy",
+   "id": "E100000120643",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "JHD Holdings",
+   "id": "E100002015389",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jiaoling Longteng Rotary Kiln Cement",
+   "id": "E100002023890",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jiaxing Dejian Investment Partnership",
+   "id": "E100000192936",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jilin Energy Investment Group",
+   "id": "E100000192780",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jin An Coal",
+   "id": "E100002010468",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "JINAN Group",
+   "id": "E100002020526",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jindutt Minerals",
+   "id": "E100002011636",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jingneng Power",
+   "id": "E100000192758",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jiuwei Power Co., Ltd.",
+   "id": "E100002019410",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jo’ydam Ta`mir Qurilish",
+   "id": "E100002016178",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "JP Morgan Chase Bank N.A. FBO Holders Of",
+   "id": "E100002015493",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "J-POWER Jackson Partners",
+   "id": "E100002024455",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "JSC Uzbekenergo",
+   "id": "E100002009060",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jungar Banner Shentao Coal Transportation and Marketing",
+   "id": "E100000193108",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Jun Wei Development",
+   "id": "E100000001544",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kangping State-Owned Asset Operation",
+   "id": "E100000193047",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Karamveer Impex",
+   "id": "E100002025558",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kaung Myat Thaw Myae",
+   "id": "E100000120717",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "KEN electricity company",
+   "id": "E100000001546",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kestenbaum & Tradburks Resource Ventures",
+   "id": "E100002007873",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "KGI Financial Holding",
+   "id": "E100002027115",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kinetic Crest",
+   "id": "E100002022565",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "King Car",
+   "id": "E100002016039",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kinggood Investment",
+   "id": "E100000125869",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "King International",
+   "id": "E100002016452",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "King Makhado Holdings",
+   "id": "E100001016496",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kitty Hawk Natural Resources",
+   "id": "E100002009459",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kolin-Kalyon-Celikler Consortium",
+   "id": "E100000120732",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Korangi Creek Industrial Park",
+   "id": "E100000003439",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Korea Carbon Energy International",
+   "id": "E100000130682",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "KPD Simas Equity Fund 2",
+   "id": "E100001013300",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "KremsChem Holding",
+   "id": "E100002025857",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "KTG Zenica",
+   "id": "E100000003393",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Kyauktan Project",
+   "id": "E100000120752",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lafarge Ciments Antilles",
+   "id": "E100002007052",
+   "headquarters": "Martinique",
+   "registration": "Martinique"
+  },
+  {
+   "entity": "Landire",
+   "id": "E100001010950",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Landkreis Roth",
+   "id": "E100002024239",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lanxi Southern Cement Jinhua Cement Plant",
+   "id": "E100002023753",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lebedinsky GOK",
+   "id": "E100002022189",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lestari",
+   "id": "E100000131837",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Liang Mao Investment",
+   "id": "E100000001567",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lianshui China Power New Energy",
+   "id": "E100000003482",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Life Cycle Power",
+   "id": "E100002025464",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LI Generation Holdings",
+   "id": "E100002024341",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Link Business Solution",
+   "id": "E100002016241",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lins Bioenergia",
+   "id": "E100000132787",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lion International Asset Management (Hong Kong)",
+   "id": "E100000125850",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LKAB",
+   "id": "E100002011693",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LLC LUKOIL-Western Siberia",
+   "id": "E100000192392",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LNG",
+   "id": "E100000188379",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lockport Energy",
+   "id": "E100002024938",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Long Chen Paper (China) Holdings",
+   "id": "E100000125962",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Longelephant International",
+   "id": "E100002022567",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Long Ridge Energy Generation",
+   "id": "E100000003490",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lopez",
+   "id": "E100002022366",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LOTTE Holdings",
+   "id": "E100002024872",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Low Carbon Infrastructure",
+   "id": "E100002021517",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LTL Holdings",
+   "id": "E100001000186",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Luck Scenery International",
+   "id": "E100002024533",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lucky Construction",
+   "id": "E100002007239",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "LUKOIL-Komi",
+   "id": "E100000191084",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Luminant Power",
+   "id": "E100002024418",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Luminant Power Generation",
+   "id": "E100002024416",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Luoshan Longxing Gas Power",
+   "id": "E100000001573",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lygend New Power (Hong Kong)",
+   "id": "E100002024547",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Lygend Resources & Technology",
+   "id": "E100002024548",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mach Energy (Hongkong)",
+   "id": "E100002024564",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mainline Generation",
+   "id": "E100000003522",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Malaxmi Energy",
+   "id": "E100000120813",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Manshi Group",
+   "id": "E100000192902",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Marco DM Holdings",
+   "id": "E100002024411",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Margeruite Fund",
+   "id": "E100000152376",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "MBH Power",
+   "id": "E100000003507",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "MCFSL- Trustee JS Growth Fund (CDC)",
+   "id": "E100002018953",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mega Financial Holding",
+   "id": "E100002027116",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "member/employee owned",
+   "id": "E100002001974",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Metal Industries",
+   "id": "E100002006146",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Metinvest B V",
+   "id": "E100000193491",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Metro Holding Torino",
+   "id": "E100002027154",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Middlesex Energy Center",
+   "id": "E100000003565",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mikhailovsky GOK",
+   "id": "E100002011037",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Milhouse Generation",
+   "id": "E100000120843",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ministry of Energy (Mongolia)",
+   "id": "E100000120851",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ministry of Energy of Ukraine",
+   "id": "E100000193340",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ministry of Fuel and Energy of Luhansk People's Republic",
+   "id": "E100000193341",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ministry of Industry and Trade (Donetsk People's Republic)",
+   "id": "E100001016254",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Minorum Holding",
+   "id": "E100002021918",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mitsubishi UFJ Lease & Finance",
+   "id": "E100000133564",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mitsui Holdings",
+   "id": "E100000131929",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "MM Construction Materials",
+   "id": "E100001016300",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Model Beteiligungen",
+   "id": "E100002024671",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Mogul Resources",
+   "id": "E100002018576",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "MOL Hungarian Oil and Gas",
+   "id": "E100000192323",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Multi-Employee Partnership Foundation",
+   "id": "E100000130505",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Municipality of Baikal",
+   "id": "E100000120875",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "municipally owned",
+   "id": "E100002021278",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Murarka Group",
+   "id": "E100000188255",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Murray Energy",
+   "id": "E100000193747",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "MVM Group",
+   "id": "E100000189964",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NAEA Energy Massachusetts",
+   "id": "E100000003607",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Namane Generation",
+   "id": "E100000120903",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Namane Group",
+   "id": "E100000120904",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Narra Capital Investment",
+   "id": "E100002003395",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "National Energy Investment Group",
+   "id": "E100000192818",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "natural person(s)",
+   "id": "E100000123261",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Newbury Management",
+   "id": "E100002000207",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "New Energy Development",
+   "id": "E100002026928",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "New Energy Engineering",
+   "id": "E100001014750",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NewGen Kwinana Holdings",
+   "id": "E100002027151",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Nexus Fulcrum",
+   "id": "E100002025458",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NIGELEC",
+   "id": "E100001012865",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Nine Star Plastic Packaging Services",
+   "id": "E100002025557",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ningxia Haosheng Industry Group",
+   "id": "E100000192974",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ningxia State-Owned Capital Operation Group",
+   "id": "E100000192954",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ningxia Xingjun Energy Development",
+   "id": "E100000192975",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Nixxy",
+   "id": "E100002025455",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "nner Mongolia Mengxing Investment Group",
+   "id": "E100000192908",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NOMAC",
+   "id": "E100000001590",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "North Bridge Construction",
+   "id": "E100000001601",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "North Negros Energy Power",
+   "id": "E100000120939",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Nova Gália Bioenergia",
+   "id": "E100000132826",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NPower Legacy Holdings",
+   "id": "E100000120886",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Nscale Global Holdings",
+   "id": "E100002023095",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NSL Group",
+   "id": "E100000120888",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NYC ENERGY",
+   "id": "E100000003617",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "NYSE-New York Stock Exchange",
+   "id": "E100001015415",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Oaks Corporation Capital",
+   "id": "E100002016714",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Oba Yatırım",
+   "id": "E100000120949",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Off Routes",
+   "id": "E100000120954",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "OGPA Funding",
+   "id": "E100002025563",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "OGPA Saranac Partner One",
+   "id": "E100002025560",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ohai Coal",
+   "id": "E100000132001",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Oliveira Trust Servicer",
+   "id": "E100002025067",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Olympic Group",
+   "id": "E100000120957",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ONC International Trading (Ningbo)",
+   "id": "E100002024587",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Orbit Marketing",
+   "id": "E100002024702",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ordos City Huneng Coal Group",
+   "id": "E100000192764",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ordos City Ulan Development Group",
+   "id": "E100000192794",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ordos Guangli Coal",
+   "id": "E100000192914",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ordos Ulan Development Group",
+   "id": "E100000192888",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ordos Wanxinglong Industry and Trade",
+   "id": "E100000192913",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Osaka Gas Three Rivers",
+   "id": "E100002024336",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "other",
+   "id": "E100000189094",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "other",
+   "id": "E100000190560",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Pace",
+   "id": "E100002025461",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Palani Participações",
+   "id": "E100002024591",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Panweston Energy",
+   "id": "E100000125871",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Penglai Donghai Thermal Power",
+   "id": "E100000001625",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Perennial-Wind Chaser",
+   "id": "E100000003799",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Permak Enerji Üretim ve Dağıtım",
+   "id": "E100000121112",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Permak Group",
+   "id": "E100000121113",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Persian Gulf Negin Steel",
+   "id": "E100002021992",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Perusahaan Gas Negara",
+   "id": "E100000192589",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Petrobangla",
+   "id": "E100000192421",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PGNiG Upstream Norway",
+   "id": "E100000192330",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Phoenix Group",
+   "id": "E100002027234",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ping An Huan Yu Investment",
+   "id": "E100002027238",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Pitanes Elektrik",
+   "id": "E100000121122",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Polska Grupa Górnicza (PGG)",
+   "id": "E100000193305",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Polskie Górnictwo Naftowe i Gazownictwo SA (PGNiG)",
+   "id": "E100000190065",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Power Africa",
+   "id": "E100001011278",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PowerChina Power Investment Corporation",
+   "id": "E100002021456",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PowerTransitions Buyer, LLC",
+   "id": "E100002024372",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Prestige Power Resources",
+   "id": "E100000003837",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Primary Energy",
+   "id": "E100002017240",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Primerose",
+   "id": "E100001011340",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Project DoXA",
+   "id": "E100000121143",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Prosperity Development",
+   "id": "E100000126018",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Prudential Capital Group",
+   "id": "E100000150551",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Agata Nugraha Nastari",
+   "id": "E100002024568",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Apollo Visintama Putra",
+   "id": "E100002024542",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Bantaeng Sigma Energy",
+   "id": "E100000120994",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Biidznillah Tambang Nusantara",
+   "id": "E100000120997",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Deli Coal",
+   "id": "E100001013067",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Satya Abadi Semesta",
+   "id": "E100000121065",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "PT Sepoetih Daya Prima",
+   "id": "E100000121068",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Puxingan (Hong Kong)",
+   "id": "E100000001631",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Puxingxing (Hong Kong)",
+   "id": "E100000001632",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Qua Iboe Power Plant",
+   "id": "E100000003859",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Quantum Capital Group",
+   "id": "E100000188622",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Rafeh Capital Development",
+   "id": "E100002026856",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Raffles International",
+   "id": "E100002024571",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Raigarh Energy",
+   "id": "E100000121164",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Raven FS Property Holdings",
+   "id": "E100002024437",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Refex Holding",
+   "id": "E100002024530",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Reggio Emilia Municipality",
+   "id": "E100002027155",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "RenoDa Partners",
+   "id": "E100001010973",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Rhein Papier",
+   "id": "E100002024676",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ri Kon Construction",
+   "id": "E100002007237",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "River Point Ventures",
+   "id": "E100002016291",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "RN-Nyaganneftegaz",
+   "id": "E100000191038",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "RN-Uvatneftegaz",
+   "id": "E100000191120",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Roin Holding",
+   "id": "E100002026152",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Rolugi Geração de Energia Eletrica",
+   "id": "E100000003907",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Ronson Traders",
+   "id": "E100002026576",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Rospan International",
+   "id": "E100000191044",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Rudnik Uglja Berane",
+   "id": "E100000121189",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Salym Petroleum Development",
+   "id": "E100000191025",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sammons Power Development",
+   "id": "E100002024428",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sanya Investment",
+   "id": "E100000001653",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Saranac Energy Company",
+   "id": "E100002025564",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Satria Group",
+   "id": "E100000192593",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SB Reshellers",
+   "id": "E100002024550",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Scudder Latin America Trust for Independent Power",
+   "id": "E100001010533",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SDC",
+   "id": "E100000193613",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Servis Group",
+   "id": "E100000121264",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shaanxi Coal and Chemical Industry Group",
+   "id": "E100000192763",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shaanxi Xingmao Jurassic Coal Magnesium Power Group",
+   "id": "E100000192864",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shanden",
+   "id": "E100000001659",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shandong Energy",
+   "id": "E100000192779",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shandong Mingxing Mining Group",
+   "id": "E100000193090",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shandong Wangchao Coal and Power Group",
+   "id": "E100000193041",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shandong Xingning Energy Group",
+   "id": "E100000192976",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shandong Zhongda Advanced Material",
+   "id": "E100000193035",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shandong Zhongtai Coal Industry Group",
+   "id": "E100000193040",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shangtan Power Generation",
+   "id": "E100000004006",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shanxian Shenneng Thermal Power",
+   "id": "E100000004012",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shenhua Group",
+   "id": "E100000192767",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shifeng International Investment",
+   "id": "E100000130643",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "show collar",
+   "id": "E100000130607",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shuangyao Investment",
+   "id": "E100000130610",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Shuifa Group",
+   "id": "E100000158493",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sichuan Coal Industry Group",
+   "id": "E100000192820",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sichuan Guangjian Cement",
+   "id": "E100002023496",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Siemens Energy",
+   "id": "E100000189010",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sigma Infrarop",
+   "id": "E100000121293",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sikder Group",
+   "id": "E100000001675",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sinafcam",
+   "id": "E100002023973",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Singapore Asia Power Investment",
+   "id": "E100000001676",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SINOPEC",
+   "id": "E100000192496",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sinopec Century Century International Investment",
+   "id": "E100000125829",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sinpoo Chemicals Pte",
+   "id": "E100000125953",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sintex Group",
+   "id": "E100000121302",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sintex Power",
+   "id": "E100000121303",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sirida (Hong Kong) Group",
+   "id": "E100000130645",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SK earthon",
+   "id": "E100000191206",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "small shareholder(s)",
+   "id": "E100001015587",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Smurfit Westrock Packaging UK",
+   "id": "E100002027240",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Social Insurance Fund of Farmers and Villagers",
+   "id": "E100002022014",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SOGEX Oman",
+   "id": "E100002026070",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Solaris",
+   "id": "E100000138302",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "South Asia Energy Investment",
+   "id": "E100000125852",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "South Asia Plastic Industry (Hong Kong)",
+   "id": "E100000125858",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sparkling Commodities",
+   "id": "E100000121329",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sravanthi Infratech",
+   "id": "E100002024473",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Stadt Witten",
+   "id": "E100002024654",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Stak Energy Corporation",
+   "id": "E100002025463",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "State Enterprise Mirnohradugol",
+   "id": "E100001013752",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "State of Tyrol",
+   "id": "E100002022085",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "State-owned Assets Supervision and Administration Bureau of Xiangning County Government",
+   "id": "E100000130538",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "State Power Investment Corporation [SPIC]",
+   "id": "E100000192775",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Steam Trading",
+   "id": "E100002027120",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Stend",
+   "id": "E100001015378",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Stoket",
+   "id": "E100002000206",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Storebrand Asset Management",
+   "id": "E100002022240",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sugar Invest",
+   "id": "E100002000696",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Sumitomo Corporation",
+   "id": "E100002021240",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Summit Kwinana Power",
+   "id": "E100002024692",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Summit-Mitsubishi-GE JV",
+   "id": "E100000004125",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Suryachakra Group",
+   "id": "E100000121362",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SWG Goal Line GP",
+   "id": "E100002024429",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "SWG Goal Line Holdings",
+   "id": "E100002024430",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Synergy International Holdings",
+   "id": "E100000130410",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tachyon9 Corporation",
+   "id": "E100002025454",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Taichi Investment",
+   "id": "E100002021607",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Taiwan San Ton Assets",
+   "id": "E100000001701",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "TalenEnergy Martins Creek",
+   "id": "E100001001423",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tam Enerji Üretim",
+   "id": "E100000121399",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tan Tao Energy",
+   "id": "E100000121401",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tan Tao Group",
+   "id": "E100000121402",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "TAQA",
+   "id": "E100000192327",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "TeaM Sual Power",
+   "id": "E100000121415",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tebian Electric Apparatus [TBEA]",
+   "id": "E100000192918",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Techint Group",
+   "id": "E100001000385",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tenaska Hampden Partners",
+   "id": "E100002024298",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Texhong Hai Ha Industrial Park",
+   "id": "E100000121432",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Thailand Huihua Industrial",
+   "id": "E100000130639",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "The Energy & Minerals Group",
+   "id": "E100001015647",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "The Paul and Alexandra Canellopoulos Foundation",
+   "id": "E100002022088",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Thüga BS Beteiligungsgesellschaft",
+   "id": "E100002024594",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tianhe Investment",
+   "id": "E100000125927",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tianwei",
+   "id": "E100000130640",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "to be determined",
+   "id": "E100000121374",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tract",
+   "id": "E100002025447",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Trade Union Committee",
+   "id": "E100000192952",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Transalpine Pipeline Group",
+   "id": "E100001015944",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Trans-Asia Oil & Energy Development",
+   "id": "E100000121468",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Treasure Global Investments",
+   "id": "E100002024566",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "TRFI Investment",
+   "id": "E100001016323",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Trian Fund Management GP",
+   "id": "E100002022986",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Trigas",
+   "id": "E100001015979",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Truong Thanh Viet Nam",
+   "id": "E100000189040",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tsingtuo",
+   "id": "E100002024551",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tubindo",
+   "id": "E100000132312",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Tuchuan Capital",
+   "id": "E100000130419",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Twenty20 Securities",
+   "id": "E100001016325",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "TXNM Energy",
+   "id": "E100002025466",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "UBA Nominees",
+   "id": "E100002022265",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "United American Holding Co.",
+   "id": "E100002004381",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Unit International Enerji",
+   "id": "E100000004272",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "unknown",
+   "id": "E100000132388",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "UREC Investment",
+   "id": "E100002005951",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "U.S. Medical Glove Company",
+   "id": "E100002023139",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "UTE Novo Horizonte Geração e Comercialização de Energia Elétrica",
+   "id": "E100000132952",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Uttarakhand Jal Vidyut Nigam",
+   "id": "E100001011939",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Valiant Resources",
+   "id": "E100001000970",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Veolia Group",
+   "id": "E100000193212",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Vertex Bioenergy Solutions",
+   "id": "E100002024890",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Vibrant Veterans Mineral Resource Group",
+   "id": "E100001016394",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Videocon Reality and Infrastructure",
+   "id": "E100001010810",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Viru Keemia Grupp",
+   "id": "E100000189899",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Vistra Asset",
+   "id": "E100002024423",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Vistra Group Holdings",
+   "id": "E100002022928",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Vortex Energy IV Fund",
+   "id": "E100001000366",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "VS energy Structure",
+   "id": "E100002022019",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Waha Capital",
+   "id": "E100002026854",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Wanbei Coal & Electrical Group",
+   "id": "E100000155779",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Webb Energy LLC",
+   "id": "E100002024458",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Weishan County Cuizhuangkuang Investment",
+   "id": "E100000193059",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Well Crown International Group",
+   "id": "E100000126082",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Wenshan State Industrial Investment Group",
+   "id": "E100000193062",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Westcom Power Plant",
+   "id": "E100001011116",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Westmoreland Haystack Mining",
+   "id": "E100000193977",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "WIND POWER INVEST",
+   "id": "E100002026156",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Wuhai Liangzhu Energy Coal-Chemical",
+   "id": "E100000192905",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Wuxi Municipal People's Government",
+   "id": "E100000125958",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Xinjiang Lvyuan State-Owned Capital Investment Operation",
+   "id": "E100000192866",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Xinjiang Shenxin Development Co Ltd Trade Union Committee",
+   "id": "E100000130593",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Xinyuan Ronghe (Beijing) Power",
+   "id": "E100002022495",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Xuan Gang International Trading (HK)",
+   "id": "E100001010246",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Xuzhou Zhongnuoji Enterprise Management",
+   "id": "E100000192912",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yankuang Group",
+   "id": "E100000192798",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yankuang Group",
+   "id": "E100000192874",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yashovardhan Investment & Trading",
+   "id": "E100002026571",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yihua Group",
+   "id": "E100000125928",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yijinhuoluo Banner Nalin Taohai Coal Management, Transportation and Marketing",
+   "id": "E100000192907",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yijin Huoluo Banner Xinmiao Ahuigou Zhifu Coal Mine",
+   "id": "E100000192909",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yong-Sheng Development Industrial",
+   "id": "E100002007238",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yulin City Finance Investment Management",
+   "id": "E100000193124",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yuling Mining Group",
+   "id": "E100000193079",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Yuncheng State-owned Assets Supervision and Administration Commission",
+   "id": "E100000125917",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zakłady Azotowe Kędzierzyn",
+   "id": "E100000121571",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "ZAK-PKE Consortium",
+   "id": "E100000121567",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zhejiang Datang International Jiangshan New City Thermal Power",
+   "id": "E100000163398",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zhonghe Energy",
+   "id": "E100000130480",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zhongshan Electric Power (Hong Kong)",
+   "id": "E100000125823",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zhongsheng International Holdings (Singapore)",
+   "id": "E100000125822",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zhong Yi Jin Cai Qian Hong Kong Energy Holding",
+   "id": "E100000192988",
+   "headquarters": "",
+   "registration": ""
+  },
+  {
+   "entity": "Zoucheng Asset Operation",
+   "id": "E100000193130",
+   "headquarters": "",
+   "registration": ""
+  }
+ ]
+}

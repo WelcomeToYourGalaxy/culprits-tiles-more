@@ -1,0 +1,35 @@
+{
+ "us_tri": {
+  "ok": true,
+  "at": 1795200201.739456,
+  "when": "2026-11-20",
+  "plants": 339,
+  "vinyl_chloride": 37
+ },
+ "eu_prtr": {
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden",
+  "tried": "2026-11-22"
+ },
+ "ct_crack": {
+  "ok": true,
+  "at": 1795200249.1462748,
+  "when": "2026-11-20",
+  "plants": 241,
+  "vinyl_chloride": 0
+ },
+ "osm": {
+  "ok": true,
+  "at": 1795200594.0010877,
+  "when": "2026-11-20",
+  "plants": 822,
+  "vinyl_chloride": 12
+ },
+ "wikidata": {
+  "ok": true,
+  "at": 1795200640.2461936,
+  "when": "2026-11-20",
+  "plants": 35,
+  "vinyl_chloride": 6
+ }
+}

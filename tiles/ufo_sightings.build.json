@@ -1,0 +1,75 @@
+{
+ "release": "v0.17.0",
+ "rows": 702572,
+ "alerts_with_position": 493845,
+ "no_position": 208727,
+ "placed_from_place_name": 200177,
+ "by_source_database": {
+  "UFOCAT": 320412,
+  "UPDB": 296956,
+  "UFO-search": 54751,
+  "Capella": 30453
+ },
+ "points_merged": "only sightings at the same spot in the same year",
+ "spots": 227516,
+ "format": 3,
+ "years": [
+  19,
+  2023
+ ],
+ "undated_with_position": 1188,
+ "left_out_columns": [
+  "witness_names"
+ ],
+ "source": "https://github.com/UFOSINT/ufosint-explorer/releases/latest/download/ufo_public.db",
+ "parts": [
+  {
+   "file": "ufo_sightings.pmtiles",
+   "from": 0,
+   "to": 1,
+   "bytes": 519136
+  },
+  {
+   "file": "ufo_sightings_z2.pmtiles",
+   "from": 2,
+   "to": 3,
+   "bytes": 1240653
+  },
+  {
+   "file": "ufo_sightings_z4.pmtiles",
+   "from": 4,
+   "to": 5,
+   "bytes": 1914950
+  },
+  {
+   "file": "ufo_sightings_z6.pmtiles",
+   "from": 6,
+   "to": 10,
+   "bytes": 23767672
+  }
+ ],
+ "squares": [
+  {
+   "zooms": [
+    0,
+    1
+   ],
+   "degrees": 2.0
+  },
+  {
+   "zooms": [
+    2,
+    3
+   ],
+   "degrees": 0.5
+  },
+  {
+   "zooms": [
+    4,
+    5
+   ],
+   "degrees": 0.1
+  }
+ ],
+ "detail_from": 6
+}

@@ -1,0 +1,17 @@
+{
+ "from": "https://ndownloader.figshare.com/files/15090536",
+ "layer": "FFR_river_network_v1",
+ "fields": {
+  "csi": "CSI",
+  "free_flowing": "CSI_FF1"
+ },
+ "cells": {
+  "1": 22423210,
+  "2": 534092,
+  "3": 917833
+ },
+ "to_zoom": 8,
+ "squares": 22147,
+ "bytes": 64420351,
+ "how": "max"
+}

@@ -1,0 +1,9 @@
+{
+ "year": 1910,
+ "from": "zip:///home/runner/work/_temp/anthromes/anthromes-anthropogenic-biomes-12k-geographic-projection-geotiff.zip!/anthromes_F1910AD.tif band 1",
+ "label": " {\"STATISTICS_COUNT\": \"2225402.000000\", \"STATISTICS_MAXIMUM\": \"63\", \"STATISTICS_MEAN\": \"50.274309091122\", \"STATISTICS_MEDIAN\": \"nan\", \"STATISTICS_MINIMUM\": \"11\", \"STATISTICS_SKIPFACTORX\": \"1\", \"STATIS",
+ "to_zoom": 4,
+ "squares": 179,
+ "bytes": 861033,
+ "how": "max"
+}

@@ -1,0 +1,462 @@
+{
+ "source": "Ellis et al. 2021, Anthromes 12K, Harvard Dataverse doi:10.7910/DVN/MWMWPH",
+ "steps": [
+  {
+   "year": -10000,
+   "label": "10,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m10000.pmtiles"
+  },
+  {
+   "year": -9000,
+   "label": "9,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m9000.pmtiles"
+  },
+  {
+   "year": -8000,
+   "label": "8,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m8000.pmtiles"
+  },
+  {
+   "year": -7000,
+   "label": "7,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m7000.pmtiles"
+  },
+  {
+   "year": -6000,
+   "label": "6,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m6000.pmtiles"
+  },
+  {
+   "year": -5000,
+   "label": "5,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m5000.pmtiles"
+  },
+  {
+   "year": -4000,
+   "label": "4,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m4000.pmtiles"
+  },
+  {
+   "year": -3000,
+   "label": "3,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m3000.pmtiles"
+  },
+  {
+   "year": -2000,
+   "label": "2,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m2000.pmtiles"
+  },
+  {
+   "year": -1000,
+   "label": "1,000 BCE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_m1000.pmtiles"
+  },
+  {
+   "year": 0,
+   "label": "0 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_0.pmtiles"
+  },
+  {
+   "year": 100,
+   "label": "100 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_100.pmtiles"
+  },
+  {
+   "year": 200,
+   "label": "200 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_200.pmtiles"
+  },
+  {
+   "year": 300,
+   "label": "300 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_300.pmtiles"
+  },
+  {
+   "year": 400,
+   "label": "400 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_400.pmtiles"
+  },
+  {
+   "year": 500,
+   "label": "500 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_500.pmtiles"
+  },
+  {
+   "year": 600,
+   "label": "600 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_600.pmtiles"
+  },
+  {
+   "year": 700,
+   "label": "700 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_700.pmtiles"
+  },
+  {
+   "year": 800,
+   "label": "800 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_800.pmtiles"
+  },
+  {
+   "year": 900,
+   "label": "900 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_900.pmtiles"
+  },
+  {
+   "year": 1000,
+   "label": "1000 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1000.pmtiles"
+  },
+  {
+   "year": 1100,
+   "label": "1100 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1100.pmtiles"
+  },
+  {
+   "year": 1200,
+   "label": "1200 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1200.pmtiles"
+  },
+  {
+   "year": 1300,
+   "label": "1300 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1300.pmtiles"
+  },
+  {
+   "year": 1400,
+   "label": "1400 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1400.pmtiles"
+  },
+  {
+   "year": 1500,
+   "label": "1500 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1500.pmtiles"
+  },
+  {
+   "year": 1600,
+   "label": "1600 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1600.pmtiles"
+  },
+  {
+   "year": 1700,
+   "label": "1700 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1700.pmtiles"
+  },
+  {
+   "year": 1710,
+   "label": "1710 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1710.pmtiles"
+  },
+  {
+   "year": 1720,
+   "label": "1720 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1720.pmtiles"
+  },
+  {
+   "year": 1730,
+   "label": "1730 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1730.pmtiles"
+  },
+  {
+   "year": 1740,
+   "label": "1740 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1740.pmtiles"
+  },
+  {
+   "year": 1750,
+   "label": "1750 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1750.pmtiles"
+  },
+  {
+   "year": 1760,
+   "label": "1760 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1760.pmtiles"
+  },
+  {
+   "year": 1770,
+   "label": "1770 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1770.pmtiles"
+  },
+  {
+   "year": 1780,
+   "label": "1780 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1780.pmtiles"
+  },
+  {
+   "year": 1790,
+   "label": "1790 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1790.pmtiles"
+  },
+  {
+   "year": 1800,
+   "label": "1800 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1800.pmtiles"
+  },
+  {
+   "year": 1810,
+   "label": "1810 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1810.pmtiles"
+  },
+  {
+   "year": 1820,
+   "label": "1820 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1820.pmtiles"
+  },
+  {
+   "year": 1830,
+   "label": "1830 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1830.pmtiles"
+  },
+  {
+   "year": 1840,
+   "label": "1840 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1840.pmtiles"
+  },
+  {
+   "year": 1850,
+   "label": "1850 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1850.pmtiles"
+  },
+  {
+   "year": 1860,
+   "label": "1860 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1860.pmtiles"
+  },
+  {
+   "year": 1870,
+   "label": "1870 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1870.pmtiles"
+  },
+  {
+   "year": 1880,
+   "label": "1880 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1880.pmtiles"
+  },
+  {
+   "year": 1890,
+   "label": "1890 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1890.pmtiles"
+  },
+  {
+   "year": 1900,
+   "label": "1900 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1900.pmtiles"
+  },
+  {
+   "year": 1910,
+   "label": "1910 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1910.pmtiles"
+  },
+  {
+   "year": 1920,
+   "label": "1920 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1920.pmtiles"
+  },
+  {
+   "year": 1930,
+   "label": "1930 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1930.pmtiles"
+  },
+  {
+   "year": 1940,
+   "label": "1940 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1940.pmtiles"
+  },
+  {
+   "year": 1950,
+   "label": "1950 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1950.pmtiles"
+  },
+  {
+   "year": 1960,
+   "label": "1960 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1960.pmtiles"
+  },
+  {
+   "year": 1970,
+   "label": "1970 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1970.pmtiles"
+  },
+  {
+   "year": 1980,
+   "label": "1980 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1980.pmtiles"
+  },
+  {
+   "year": 1990,
+   "label": "1990 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_1990.pmtiles"
+  },
+  {
+   "year": 2000,
+   "label": "2000 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2000.pmtiles"
+  },
+  {
+   "year": 2001,
+   "label": "2001 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2001.pmtiles"
+  },
+  {
+   "year": 2002,
+   "label": "2002 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2002.pmtiles"
+  },
+  {
+   "year": 2003,
+   "label": "2003 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2003.pmtiles"
+  },
+  {
+   "year": 2004,
+   "label": "2004 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2004.pmtiles"
+  },
+  {
+   "year": 2005,
+   "label": "2005 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2005.pmtiles"
+  },
+  {
+   "year": 2006,
+   "label": "2006 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2006.pmtiles"
+  },
+  {
+   "year": 2007,
+   "label": "2007 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2007.pmtiles"
+  },
+  {
+   "year": 2008,
+   "label": "2008 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2008.pmtiles"
+  },
+  {
+   "year": 2009,
+   "label": "2009 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2009.pmtiles"
+  },
+  {
+   "year": 2010,
+   "label": "2010 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2010.pmtiles"
+  },
+  {
+   "year": 2011,
+   "label": "2011 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2011.pmtiles"
+  },
+  {
+   "year": 2012,
+   "label": "2012 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2012.pmtiles"
+  },
+  {
+   "year": 2013,
+   "label": "2013 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2013.pmtiles"
+  },
+  {
+   "year": 2014,
+   "label": "2014 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2014.pmtiles"
+  },
+  {
+   "year": 2015,
+   "label": "2015 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2015.pmtiles"
+  },
+  {
+   "year": 2016,
+   "label": "2016 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2016.pmtiles"
+  },
+  {
+   "year": 2017,
+   "label": "2017 CE",
+   "archive": "https://welcometoyourgalaxy.github.io/culprits-tiles-more/nonhuman/anthromes/anthromes_2017.pmtiles"
+  }
+ ],
+ "key": [
+  [
+   "#F2ECE0",
+   "Urban"
+  ],
+  [
+   "#DCD0BF",
+   "Mixed settlements"
+  ],
+  [
+   "#D597A6",
+   "Rice villages"
+  ],
+  [
+   "#C2849A",
+   "Irrigated villages"
+  ],
+  [
+   "#AC728A",
+   "Rainfed villages"
+  ],
+  [
+   "#966279",
+   "Pastoral villages"
+  ],
+  [
+   "#0C2E5E",
+   "Residential irrigated croplands"
+  ],
+  [
+   "#13447A",
+   "Residential rainfed croplands"
+  ],
+  [
+   "#1E6FA8",
+   "Populated croplands"
+  ],
+  [
+   "#2E8FBA",
+   "Remote croplands"
+  ],
+  [
+   "#46AACB",
+   "Residential rangelands"
+  ],
+  [
+   "#6FC2DA",
+   "Populated rangelands"
+  ],
+  [
+   "#9CD6E6",
+   "Remote rangelands"
+  ],
+  [
+   "#6A5E7A",
+   "Residential woodlands"
+  ],
+  [
+   "#7C7090",
+   "Populated woodlands"
+  ],
+  [
+   "#8E84A4",
+   "Remote woodlands"
+  ],
+  [
+   "#A39AB6",
+   "Inhabited drylands"
+  ],
+  [
+   "#2F4A55",
+   "Wild woodlands"
+  ],
+  [
+   "#4A5560",
+   "Wild drylands"
+  ],
+  [
+   "#C9D2D8",
+   "Ice"
+  ]
+ ]
+}

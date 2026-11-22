@@ -1,0 +1,980 @@
+{
+ "complete": true,
+ "ingredients": 95,
+ "geotiffs": 1410,
+ "other files": [
+  "Alfalfa_HarvestedArea.tif",
+  "Corn_HarvestedArea.tif",
+  "Cotton_HarvestedArea.tif",
+  "OrcGra_HarvestedArea.tif",
+  "Other_HarvestedArea.tif",
+  "PasHay_HarvestedArea.tif",
+  "Rice_HarvestedArea.tif",
+  "Soybean_HarvestedArea.tif",
+  "VegFru_HarvestedArea.tif",
+  "Wheat_HarvestedArea.tif",
+  "QI_Alfalfa_2,4-d.tif",
+  "QI_Alfalfa_2,4-db.tif",
+  "QI_Alfalfa_Bromoxynil.tif",
+  "QI_Alfalfa_Carbaryl.tif",
+  "QI_Alfalfa_Chlorpyrifos.tif",
+  "QI_Alfalfa_Clethodim.tif",
+  "QI_Alfalfa_Cyhalothrin-lambda.tif",
+  "QI_Alfalfa_Dimethoate.tif",
+  "QI_Alfalfa_Diuron.tif",
+  "QI_Alfalfa_Eptc.tif",
+  "QI_Alfalfa_Glyphosate.tif",
+  "QI_Alfalfa_Hexazinone.tif",
+  "QI_Alfalfa_Indoxacarb.tif",
+  "QI_Alfalfa_Malathion.tif",
+  "QI_Alfalfa_Metribuzin.tif",
+  "QI_Alfalfa_Paraquat.tif",
+  "QI_Alfalfa_Pendimethalin.tif",
+  "QI_Alfalfa_Phosmet.tif",
+  "QI_Alfalfa_Sethoxydim.tif",
+  "QI_Alfalfa_Trifluralin.tif",
+  "QI_Corn_2,4-d.tif",
+  "QI_Corn_Acetochlor.tif",
+  "QI_Corn_Alachlor.tif",
+  "QI_Corn_Atrazine.tif",
+  "QI_Corn_Azoxystrobin.tif",
+  "QI_Corn_Chlorpyrifos.tif",
+  "QI_Corn_Clopyralid.tif",
+  "QI_Corn_Dicamba.tif",
+  "QI_Corn_Dimethenamid(-p).tif",
+  "QI_Corn_Glufosinate.tif",
+  "QI_Corn_Glyphosate.tif",
+  "QI_Corn_Isoxaflutole.tif",
+  "QI_Corn_Mesotrione.tif",
+  "QI_Corn_Metolachlor(-s).tif",
+  "QI_Corn_Paraquat.tif",
+  "QI_Corn_Pendimethalin.tif",
+  "QI_Corn_Propargite.tif",
+  "QI_Corn_Pyraclostrobin.tif",
+  "QI_Corn_Simazine.tif",
+  "QI_Corn_Terbufos.tif",
+  "QI_Cotton_2,4-d.tif",
+  "QI_Cotton_Acephate.tif",
+  "QI_Cotton_Acetochlor.tif",
+  "QI_Cotton_Bifenthrin.tif",
+  "QI_Cotton_Chlorpyrifos.tif",
+  "QI_Cotton_Dicamba.tif",
+  "QI_Cotton_Dichloropropene.tif",
+  "QI_Cotton_Dicrotophos.tif",
+  "QI_Cotton_Diuron.tif",
+  "QI_Cotton_Fluometuron.tif",
+  "QI_Cotton_Fomesafen.tif",
+  "QI_Cotton_Glufosinate.tif",
+  "QI_Cotton_Glyphosate.tif",
+  "QI_Cotton_Imidacloprid.tif",
+  "QI_Cotton_Metolachlor(-s).tif",
+  "QI_Cotton_Msma.tif",
+  "QI_Cotton_Paraquat.tif",
+  "QI_Cotton_Pendimethalin.tif",
+  "QI_Cotton_Prometryn.tif",
+  "QI_Cotton_Trifluralin.tif",
+  "QI_OrcGra_2,4-d.tif",
+  "QI_OrcGra_Calcium polysulfide.tif",
+  "QI_OrcGra_Captan.tif",
+  "QI_OrcGra_Chloropicrin.tif",
+  "QI_OrcGra_Chlorothalonil.tif",
+  "QI_OrcGra_Chlorpyrifos.tif",
+  "QI_OrcGra_Copper hydroxide.tif",
+  "QI_OrcGra_Copper sulfate tribasic.tif",
+  "QI_OrcGra_Copper sulfate.tif",
+  "QI_OrcGra_Dichloropropene.tif",
+  "QI_OrcGra_Diuron.tif",
+  "QI_OrcGra_Glufosinate.tif",
+  "QI_OrcGra_Glyphosate.tif",
+  "QI_OrcGra_Mancozeb.tif",
+  "QI_OrcGra_Methyl bromide.tif",
+  "QI_OrcGra_Oxyfluorfen.tif",
+  "QI_OrcGra_Paraquat.tif",
+  "QI_OrcGra_Pendimethalin.tif",
+  "QI_OrcGra_Petroleum oil.tif",
+  "QI_OrcGra_Ziram.tif",
+  "QI_Other_2,4-d.tif",
+  "QI_Other_Acetochlor.tif",
+  "QI_Other_Atrazine.tif",
+  "QI_Other_Bacillus amyloliquifacien.tif",
+  "QI_Other_Bromoxynil.tif",
+  "QI_Other_Chloropicrin.tif",
+  "QI_Other_Chlorothalonil.tif",
+  "QI_Other_Chlorpyrifos.tif",
+  "QI_Other_Dicamba.tif",
+  "QI_Other_Dichloropropene.tif",
+  "QI_Other_Dimethenamid(-p).tif",
+  "QI_Other_Flutolanil.tif",
+  "QI_Other_Glyphosate.tif",
+  "QI_Other_Metam.tif",
+  "QI_Other_Metolachlor(-s).tif",
+  "QI_Other_Metribuzin.tif",
+  "QI_Other_Paraquat.tif",
+  "QI_Other_Pendimethalin.tif",
+  "QI_Other_Phorate.tif",
+  "QI_Other_Propazine.tif",
+  "QI_PasHay_2,4-d.tif",
+  "QI_PasHay_2,4-db.tif",
+  "QI_PasHay_Aminopyralid.tif",
+  "QI_PasHay_Atrazine.tif",
+  "QI_PasHay_Clethodim.tif",
+  "QI_PasHay_Clopyralid.tif",
+  "QI_PasHay_Dicamba.tif",
+  "QI_PasHay_Dichlorprop.tif",
+  "QI_PasHay_Diuron.tif",
+  "QI_PasHay_Fluroxypyr.tif",
+  "QI_PasHay_Glufosinate.tif",
+  "QI_PasHay_Glyphosate.tif",
+  "QI_PasHay_Imazapyr.tif",
+  "QI_PasHay_Mcpa.tif",
+  "QI_PasHay_Metolachlor(-s).tif",
+  "QI_PasHay_Metribuzin.tif",
+  "QI_PasHay_Metsulfuron.tif",
+  "QI_PasHay_Paraquat.tif",
+  "QI_PasHay_Picloram.tif",
+  "QI_PasHay_Triclopyr.tif",
+  "QI_Rice_2,4-d.tif",
+  "QI_Rice_Acifluorfen.tif",
+  "QI_Rice_Azoxystrobin.tif",
+  "QI_Rice_Bentazone.tif",
+  "QI_Rice_Clomazone.tif",
+  "QI_Rice_Clothianidin.tif",
+  "QI_Rice_Copper sulfate.tif",
+  "QI_Rice_Cyhalofop.tif",
+  "QI_Rice_Cyhalothrin-lambda.tif",
+  "QI_Rice_Glyphosate.tif",
+  "QI_Rice_Halosulfuron.tif",
+  "QI_Rice_Imazethapyr.tif",
+  "QI_Rice_Pendimethalin.tif",
+  "QI_Rice_Propanil.tif",
+  "QI_Rice_Propiconazole.tif",
+  "QI_Rice_Quinclorac.tif",
+  "QI_Rice_Saflufenacil.tif",
+  "QI_Rice_Thiobencarb.tif",
+  "QI_Rice_Triclopyr.tif",
+  "QI_Rice_Trifloxystrobin.tif",
+  "QI_Soybean_2,4-d.tif",
+  "QI_Soybean_Acephate.tif",
+  "QI_Soybean_Acetochlor.tif",
+  "QI_Soybean_Acifluorfen.tif",
+  "QI_Soybean_Chlorpyrifos.tif",
+  "QI_Soybean_Clethodim.tif",
+  "QI_Soybean_Dicamba.tif",
+  "QI_Soybean_Dimethenamid(-p).tif",
+  "QI_Soybean_Flumioxazin.tif",
+  "QI_Soybean_Fomesafen.tif",
+  "QI_Soybean_Glufosinate.tif",
+  "QI_Soybean_Glyphosate.tif",
+  "QI_Soybean_Metolachlor(-s).tif",
+  "QI_Soybean_Metribuzin.tif",
+  "QI_Soybean_Paraquat.tif",
+  "QI_Soybean_Pendimethalin.tif",
+  "QI_Soybean_Pyraclostrobin.tif",
+  "QI_Soybean_Pyroxasulfone.tif",
+  "QI_Soybean_Sulfentrazone.tif",
+  "QI_Soybean_Trifluralin.tif",
+  "QI_VegFru_Bacillus amyloliquifacien.tif",
+  "QI_VegFru_Bensulide.tif",
+  "QI_VegFru_Bentazone.tif",
+  "QI_VegFru_Captan.tif",
+  "QI_VegFru_Chloropicrin.tif",
+  "QI_VegFru_Chlorothalonil.tif",
+  "QI_VegFru_Copper hydroxide.tif",
+  "QI_VegFru_Dichloropropene.tif",
+  "QI_VegFru_Eptc.tif",
+  "QI_VegFru_Ethalfluralin.tif",
+  "QI_VegFru_Ethoprophos.tif",
+  "QI_VegFru_Glyphosate.tif",
+  "QI_VegFru_Mancozeb.tif",
+  "QI_VegFru_Metam potassium.tif",
+  "QI_VegFru_Metam.tif",
+  "QI_VegFru_Methyl bromide.tif",
+  "QI_VegFru_Metolachlor(-s).tif",
+  "QI_VegFru_Pendimethalin.tif",
+  "QI_VegFru_Petroleum oil.tif",
+  "QI_VegFru_Thiophanate-methyl.tif",
+  "QI_Wheat_2,4-d.tif",
+  "QI_Wheat_Atrazine.tif",
+  "QI_Wheat_Azoxystrobin.tif",
+  "QI_Wheat_Bromoxynil.tif",
+  "QI_Wheat_Chlorpyrifos.tif",
+  "QI_Wheat_Clopyralid.tif",
+  "QI_Wheat_Dicamba.tif",
+  "QI_Wheat_Dimethoate.tif",
+  "QI_Wheat_Fluroxypyr.tif",
+  "QI_Wheat_Glyphosate.tif"
+ ],
+ "by ingredient": {
+  "2,4-d": {
+   "files": 54,
+   "crops": [
+    "Alfalfa",
+    "Corn",
+    "Cotton",
+    "OrcGra",
+    "Other",
+    "PasHay",
+    "Rice",
+    "Soybean",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "2,4-db": {
+   "files": 12,
+   "crops": [
+    "Alfalfa",
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Acephate": {
+   "files": 12,
+   "crops": [
+    "Cotton",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Acetochlor": {
+   "files": 24,
+   "crops": [
+    "Corn",
+    "Cotton",
+    "Other",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Acifluorfen": {
+   "files": 12,
+   "crops": [
+    "Rice",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Alachlor": {
+   "files": 6,
+   "crops": [
+    "Corn"
+   ],
+   "kept from the last run": false
+  },
+  "Aminopyralid": {
+   "files": 6,
+   "crops": [
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Atrazine": {
+   "files": 24,
+   "crops": [
+    "Corn",
+    "Other",
+    "PasHay",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Azoxystrobin": {
+   "files": 18,
+   "crops": [
+    "Corn",
+    "Rice",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Bacillus amyloliquifacien": {
+   "files": 12,
+   "crops": [
+    "Other",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Bensulide": {
+   "files": 6,
+   "crops": [
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Bentazone": {
+   "files": 12,
+   "crops": [
+    "Rice",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Bifenthrin": {
+   "files": 6,
+   "crops": [
+    "Cotton"
+   ],
+   "kept from the last run": false
+  },
+  "Bromoxynil": {
+   "files": 18,
+   "crops": [
+    "Alfalfa",
+    "Other",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Calcium polysulfide": {
+   "files": 6,
+   "crops": [
+    "OrcGra"
+   ],
+   "kept from the last run": false
+  },
+  "Captan": {
+   "files": 12,
+   "crops": [
+    "OrcGra",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Carbaryl": {
+   "files": 6,
+   "crops": [
+    "Alfalfa"
+   ],
+   "kept from the last run": false
+  },
+  "Chloropicrin": {
+   "files": 18,
+   "crops": [
+    "OrcGra",
+    "Other",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Chlorothalonil": {
+   "files": 18,
+   "crops": [
+    "OrcGra",
+    "Other",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Chlorpyrifos": {
+   "files": 42,
+   "crops": [
+    "Alfalfa",
+    "Corn",
+    "Cotton",
+    "OrcGra",
+    "Other",
+    "Soybean",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Clethodim": {
+   "files": 18,
+   "crops": [
+    "Alfalfa",
+    "PasHay",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Clomazone": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Clopyralid": {
+   "files": 18,
+   "crops": [
+    "Corn",
+    "PasHay",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Clothianidin": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Copper hydroxide": {
+   "files": 12,
+   "crops": [
+    "OrcGra",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Copper sulfate": {
+   "files": 12,
+   "crops": [
+    "OrcGra",
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Copper sulfate tribasic": {
+   "files": 6,
+   "crops": [
+    "OrcGra"
+   ],
+   "kept from the last run": false
+  },
+  "Cyhalofop": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Cyhalothrin-lambda": {
+   "files": 12,
+   "crops": [
+    "Alfalfa",
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Dicamba": {
+   "files": 36,
+   "crops": [
+    "Corn",
+    "Cotton",
+    "Other",
+    "PasHay",
+    "Soybean",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Dichloropropene": {
+   "files": 24,
+   "crops": [
+    "Cotton",
+    "OrcGra",
+    "Other",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Dichlorprop": {
+   "files": 6,
+   "crops": [
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Dicrotophos": {
+   "files": 6,
+   "crops": [
+    "Cotton"
+   ],
+   "kept from the last run": false
+  },
+  "Dimethenamid(-p)": {
+   "files": 18,
+   "crops": [
+    "Corn",
+    "Other",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Dimethoate": {
+   "files": 12,
+   "crops": [
+    "Alfalfa",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Diuron": {
+   "files": 24,
+   "crops": [
+    "Alfalfa",
+    "Cotton",
+    "OrcGra",
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Eptc": {
+   "files": 12,
+   "crops": [
+    "Alfalfa",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Ethalfluralin": {
+   "files": 6,
+   "crops": [
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Ethoprophos": {
+   "files": 6,
+   "crops": [
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Flumioxazin": {
+   "files": 6,
+   "crops": [
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Fluometuron": {
+   "files": 6,
+   "crops": [
+    "Cotton"
+   ],
+   "kept from the last run": false
+  },
+  "Fluroxypyr": {
+   "files": 12,
+   "crops": [
+    "PasHay",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Flutolanil": {
+   "files": 6,
+   "crops": [
+    "Other"
+   ],
+   "kept from the last run": false
+  },
+  "Fomesafen": {
+   "files": 12,
+   "crops": [
+    "Cotton",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Glufosinate": {
+   "files": 30,
+   "crops": [
+    "Corn",
+    "Cotton",
+    "OrcGra",
+    "PasHay",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Glyphosate": {
+   "files": 60,
+   "crops": [
+    "Alfalfa",
+    "Corn",
+    "Cotton",
+    "OrcGra",
+    "Other",
+    "PasHay",
+    "Rice",
+    "Soybean",
+    "VegFru",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Halosulfuron": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Hexazinone": {
+   "files": 6,
+   "crops": [
+    "Alfalfa"
+   ],
+   "kept from the last run": false
+  },
+  "Imazapyr": {
+   "files": 6,
+   "crops": [
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Imazethapyr": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Imidacloprid": {
+   "files": 6,
+   "crops": [
+    "Cotton"
+   ],
+   "kept from the last run": false
+  },
+  "Indoxacarb": {
+   "files": 6,
+   "crops": [
+    "Alfalfa"
+   ],
+   "kept from the last run": false
+  },
+  "Isoxaflutole": {
+   "files": 6,
+   "crops": [
+    "Corn"
+   ],
+   "kept from the last run": false
+  },
+  "Malathion": {
+   "files": 6,
+   "crops": [
+    "Alfalfa"
+   ],
+   "kept from the last run": false
+  },
+  "Mancozeb": {
+   "files": 12,
+   "crops": [
+    "OrcGra",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Mcpa": {
+   "files": 12,
+   "crops": [
+    "PasHay",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Mesotrione": {
+   "files": 6,
+   "crops": [
+    "Corn"
+   ],
+   "kept from the last run": false
+  },
+  "Metam": {
+   "files": 12,
+   "crops": [
+    "Other",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Metam potassium": {
+   "files": 6,
+   "crops": [
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Metconazole": {
+   "files": 6,
+   "crops": [
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Methyl bromide": {
+   "files": 12,
+   "crops": [
+    "OrcGra",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Metolachlor(-s)": {
+   "files": 36,
+   "crops": [
+    "Corn",
+    "Cotton",
+    "Other",
+    "PasHay",
+    "Soybean",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Metribuzin": {
+   "files": 24,
+   "crops": [
+    "Alfalfa",
+    "Other",
+    "PasHay",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Metsulfuron": {
+   "files": 6,
+   "crops": [
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Msma": {
+   "files": 6,
+   "crops": [
+    "Cotton"
+   ],
+   "kept from the last run": false
+  },
+  "Oxyfluorfen": {
+   "files": 6,
+   "crops": [
+    "OrcGra"
+   ],
+   "kept from the last run": false
+  },
+  "Paraquat": {
+   "files": 48,
+   "crops": [
+    "Alfalfa",
+    "Corn",
+    "Cotton",
+    "OrcGra",
+    "Other",
+    "PasHay",
+    "Soybean",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Pendimethalin": {
+   "files": 48,
+   "crops": [
+    "Alfalfa",
+    "Corn",
+    "Cotton",
+    "OrcGra",
+    "Other",
+    "Rice",
+    "Soybean",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Petroleum oil": {
+   "files": 12,
+   "crops": [
+    "OrcGra",
+    "VegFru"
+   ],
+   "kept from the last run": false
+  },
+  "Phorate": {
+   "files": 6,
+   "crops": [
+    "Other"
+   ],
+   "kept from the last run": false
+  },
+  "Phosmet": {
+   "files": 6,
+   "crops": [
+    "Alfalfa"
+   ],
+   "kept from the last run": false
+  },
+  "Picloram": {
+   "files": 6,
+   "crops": [
+    "PasHay"
+   ],
+   "kept from the last run": false
+  },
+  "Pinoxaden": {
+   "files": 6,
+   "crops": [
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Prometryn": {
+   "files": 6,
+   "crops": [
+    "Cotton"
+   ],
+   "kept from the last run": false
+  },
+  "Propanil": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Propargite": {
+   "files": 6,
+   "crops": [
+    "Corn"
+   ],
+   "kept from the last run": false
+  },
+  "Propazine": {
+   "files": 6,
+   "crops": [
+    "Other"
+   ],
+   "kept from the last run": false
+  },
+  "Propiconazole": {
+   "files": 12,
+   "crops": [
+    "Rice",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Prothioconazole": {
+   "files": 6,
+   "crops": [
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Pyraclostrobin": {
+   "files": 18,
+   "crops": [
+    "Corn",
+    "Soybean",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Pyroxasulfone": {
+   "files": 6,
+   "crops": [
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Quinclorac": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Saflufenacil": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Sethoxydim": {
+   "files": 6,
+   "crops": [
+    "Alfalfa"
+   ],
+   "kept from the last run": false
+  },
+  "Simazine": {
+   "files": 6,
+   "crops": [
+    "Corn"
+   ],
+   "kept from the last run": false
+  },
+  "Sulfentrazone": {
+   "files": 6,
+   "crops": [
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Tebuconazole": {
+   "files": 6,
+   "crops": [
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Terbufos": {
+   "files": 6,
+   "crops": [
+    "Corn"
+   ],
+   "kept from the last run": false
+  },
+  "Thiobencarb": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Thiophanate-methyl": {
+   "files": 12,
+   "crops": [
+    "VegFru",
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Tri-allate": {
+   "files": 6,
+   "crops": [
+    "Wheat"
+   ],
+   "kept from the last run": false
+  },
+  "Triclopyr": {
+   "files": 12,
+   "crops": [
+    "PasHay",
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Trifloxystrobin": {
+   "files": 6,
+   "crops": [
+    "Rice"
+   ],
+   "kept from the last run": false
+  },
+  "Trifluralin": {
+   "files": 18,
+   "crops": [
+    "Alfalfa",
+    "Cotton",
+    "Soybean"
+   ],
+   "kept from the last run": false
+  },
+  "Ziram": {
+   "files": 6,
+   "crops": [
+    "OrcGra"
+   ],
+   "kept from the last run": false
+  }
+ },
+ "made": "2026-10-17T01:58:46Z"
+}
