@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-23",
  "kinds": {
   "Q664702": "bookmaker",
   "Q7366867": "sportsbook",
@@ -58,8 +58,8 @@
   "Q55605291": "betting on horse racing",
   "Q117445087": "nelegální hazardní hry"
  },
- "items": 355,
- "placed": 296,
+ "items": 359,
+ "placed": 301,
  "not_placed": [
   "10bet South Africa",
   "10bet.com",
@@ -79,7 +79,6 @@
   "Duelbits",
   "Entain",
   "EuroMillions",
-  "FA CHAI Gaming",
   "GGPoker",
   "Gambling Soft",
   "Grosvenor Casinos",
