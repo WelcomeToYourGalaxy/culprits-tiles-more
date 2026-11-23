@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "zoos": {
   "places": 11052,
   "kinds": {
@@ -52,7 +52,7 @@
   "named_like_aquariums": 882
  },
  "failed": [
-  "breeding: no Overpass instance answered (HTTP Error 504: Gateway Timeout)"
+  "breeding: no Overpass instance answered (HTTP Error 502: Bad Gateway)"
  ],
  "breeding": {
   "places": 8818,
@@ -387,6 +387,6 @@
    "breeding turtle;dove": 1,
    "breeding koala": 1
   },
-  "kept_from": "2026-11-21"
+  "kept_from": "2026-11-22"
  }
 }
