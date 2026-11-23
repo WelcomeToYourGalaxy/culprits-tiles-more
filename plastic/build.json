@@ -1,9 +1,9 @@
 {
- "read": "2026-11-16",
- "features": 50,
+ "read": "2026-11-23",
+ "features": 216,
  "by_company": {
   "The Coca-Cola Company": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
+   "Wikidata": 27,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Nestlé": {
@@ -11,19 +11,19 @@
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Unilever": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 502: Bad Gateway)",
+   "Wikidata": 43,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "PepsiCo": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
+   "Wikidata": 20,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Mondelēz International": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
+   "Wikidata": 21,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Mars, Inc.": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
+   "Wikidata": 13,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Procter & Gamble": {
@@ -31,15 +31,15 @@
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Danone": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
+   "Wikidata": 20,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "Altria": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 502: Bad Gateway)",
+   "Wikidata": 3,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   },
   "British American Tobacco": {
-   "Wikidata": "did not answer (HTTPError: HTTP Error 504: Gateway Timeout)",
+   "Wikidata": 19,
    "OpenStreetMap": "did not answer (HTTPError: HTTP Error 406: Not Acceptable)"
   }
  },
