@@ -1,15 +1,15 @@
 {
  "sources": {
   "Google My Maps": "not read (not well-formed (invalid token): line 17293, column 84)",
-  "OpenStreetMap tags": "1564 places",
-  "OpenStreetMap names": "1510 places"
+  "OpenStreetMap tags": "not read (no Overpass instance answered (HTTP Error 502: Bad Gateway))",
+  "OpenStreetMap names": "1555 places"
  },
- "places": 3074,
- "read": 3074,
+ "places": 1555,
+ "read": 1555,
  "groups": {
-  "Place selling Christmas trees": 482,
-  "Christmas tree farm": 1460,
-  "Other place named for Christmas trees": 1132
+  "Other place named for Christmas trees": 1112,
+  "Place selling Christmas trees": 163,
+  "Christmas tree farm": 280
  },
- "date": "2026-11-16"
+ "date": "2026-11-23"
 }
