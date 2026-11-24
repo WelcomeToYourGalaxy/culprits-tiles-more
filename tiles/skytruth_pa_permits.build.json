@@ -1,11 +1,11 @@
 {
  "points_merged": false,
  "slim": true,
- "from": "185950b5f26d0d31f5005a7d8e23d4bb59866640",
+ "from": "3a9e8db9ba87923301a1fc3df42a675c5956146f",
  "row": "skytruth_pa_permits",
  "feed": "feed_4",
- "alerts_with_position": 32956,
+ "alerts_with_position": 32958,
  "no_position": 0,
- "bytes": 14341458,
+ "bytes": 14342334,
  "boxes": "skytruth/feed_4"
 }
