@@ -1817,6 +1817,84 @@
      }
     ]
    }
+  },
+  {
+   "name": "Oil_and_Natural_Gas_Fields",
+   "label": "Oil and Natural Gas Fields",
+   "kind": "shape",
+   "count": 17742,
+   "counts": {
+    "inside a protected area": 2729,
+    "within 1 km": 894,
+    "within 10 km": 4907,
+    "within 20 km": 2904,
+    "further than 20 km": 6308
+   },
+   "columns": [
+    "OGIM_ID",
+    "CATEGORY",
+    "REGION",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "ON_OFFSHORE",
+    "NAME",
+    "RESERVOIR_TYPE",
+    "OPERATOR",
+    "AREA_KM2"
+   ],
+   "columns kept beyond 20 km": [
+    "OGIM_ID",
+    "CATEGORY",
+    "COUNTRY",
+    "STATE_PROV",
+    "SRC_REF_ID",
+    "SRC_DATE",
+    "OPERATOR"
+   ],
+   "sets": {
+    "inside a protected area": [
+     {
+      "file": "oilgas/oil_and_natural_gas_fields_inside_a_protected_area.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 6743864
+     }
+    ],
+    "within 1 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_fields_within_1_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 2112920
+     }
+    ],
+    "within 10 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_fields_within_10_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 6659858
+     }
+    ],
+    "within 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_fields_within_20_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 3971424
+     }
+    ],
+    "further than 20 km": [
+     {
+      "file": "oilgas/oil_and_natural_gas_fields_further_than_20_km.pmtiles",
+      "from": 0,
+      "to": 10,
+      "bytes": 4938301
+     }
+    ]
+   }
   }
  ],
  "source": "OGIM Version 3.1 (Environmental Defense Fund), Zenodo record 7466758, CC BY 4.0",
@@ -1829,5 +1907,5 @@
   "further than 20 km"
  ],
  "detail": 8,
- "made": "2026-11-24"
+ "made": "2026-11-25"
 }
