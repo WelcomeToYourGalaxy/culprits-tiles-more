@@ -879,8 +879,8 @@
    }
   },
   {
-   "lei": "549300LPCSNGNB6ZNN91",
-   "legal_name": "Allspring Money Market Fund",
+   "lei": "549300QW98O00HJ00K93",
+   "legal_name": "Allspring Pennsylvania Tax-Free Fund",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -3210,6 +3210,39 @@
    }
   },
   {
+   "lei": "213800UVQRQC2HOEPK06",
+   "legal_name": "HSBC PI HOLDINGS (MAURITIUS) LIMITED",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O HSBC BANK (MAURITIUS) LIMITED",
+     "6TH FLOOR, HSBC CENTRE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "EBENE",
+    "region": "MU-PW",
+    "country": "MU",
+    "postalCode": "72201"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O HSBC HOLDINGS PLC",
+     "8 CANADA SQUARE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "LONDON",
+    "region": "GB-LND",
+    "country": "GB",
+    "postalCode": "E14 5HQ"
+   }
+  },
+  {
    "lei": "213800R9W4BDUVGI6O12",
    "legal_name": "HSBC INVESTMENT FUNDS (HONG KONG) LIMITED",
    "status": "ACTIVE",
@@ -3259,39 +3292,6 @@
     "region": null,
     "country": "JE",
     "postalCode": "JE1 1GT"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O HSBC HOLDINGS PLC",
-     "8 CANADA SQUARE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "LONDON",
-    "region": "GB-LND",
-    "country": "GB",
-    "postalCode": "E14 5HQ"
-   }
-  },
-  {
-   "lei": "213800UVQRQC2HOEPK06",
-   "legal_name": "HSBC PI HOLDINGS (MAURITIUS) LIMITED",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O HSBC BANK (MAURITIUS) LIMITED",
-     "6TH FLOOR, HSBC CENTRE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "EBENE",
-    "region": "MU-PW",
-    "country": "MU",
-    "postalCode": "72201"
    },
    "headquarters_address": {
     "language": "en",
@@ -6056,8 +6056,8 @@
    }
   },
   {
-   "lei": "213800Z8RDOERZACSL18",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
+   "lei": "213800SUKVY8V67W2Y36",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6089,8 +6089,8 @@
    }
   },
   {
-   "lei": "213800ALUI5LNBGGXM45",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
+   "lei": "213800Z8RDOERZACSL18",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA REDDITO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -6155,8 +6155,8 @@
    }
   },
   {
-   "lei": "213800SUKVY8V67W2Y36",
-   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA DINAMICO",
+   "lei": "213800ALUI5LNBGGXM45",
+   "legal_name": "INTESA MIAPREVIDENZA - FONDO PENSIONE APERTO - PIANO PREVIDENZA ACCUMULO",
    "status": "INACTIVE",
    "legal_address": {
     "language": null,
@@ -7026,39 +7026,6 @@
    }
   },
   {
-   "lei": "213800PHORTTEXG59989",
-   "legal_name": "RBS HOLDINGS USA INC.",
-   "status": "ACTIVE",
-   "legal_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O CORPORATION SERVICE COMPANY",
-     "251 LITTLE FALLS DRIVE"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "WILMINGTON",
-    "region": "US-DE",
-    "country": "US",
-    "postalCode": "19808"
-   },
-   "headquarters_address": {
-    "language": "en",
-    "addressLines": [
-     "C/O NATWEST GROUP PLC",
-     "600 WASHINGTON BOULEVARD"
-    ],
-    "addressNumber": null,
-    "addressNumberWithinBuilding": null,
-    "mailRouting": null,
-    "city": "STAMFORD",
-    "region": "US-CT",
-    "country": "US",
-    "postalCode": "06901"
-   }
-  },
-  {
    "lei": "213800GPB7NYZQPOAT64",
    "legal_name": "RBS FINANCIAL PRODUCTS INC.",
    "status": "ACTIVE",
@@ -7092,8 +7059,8 @@
    }
   },
   {
-   "lei": "213800LFIK7QRGP8UY79",
-   "legal_name": "RBS COMMERCIAL FUNDING INC.",
+   "lei": "213800PHORTTEXG59989",
+   "legal_name": "RBS HOLDINGS USA INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
@@ -7127,6 +7094,39 @@
   {
    "lei": "213800SJ9EDGYZ296T83",
    "legal_name": "RBS AMERICAS PROPERTY CORP.",
+   "status": "ACTIVE",
+   "legal_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O CORPORATION SERVICE COMPANY",
+     "251 LITTLE FALLS DRIVE"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "WILMINGTON",
+    "region": "US-DE",
+    "country": "US",
+    "postalCode": "19808"
+   },
+   "headquarters_address": {
+    "language": "en",
+    "addressLines": [
+     "C/O NATWEST GROUP PLC",
+     "600 WASHINGTON BOULEVARD"
+    ],
+    "addressNumber": null,
+    "addressNumberWithinBuilding": null,
+    "mailRouting": null,
+    "city": "STAMFORD",
+    "region": "US-CT",
+    "country": "US",
+    "postalCode": "06901"
+   }
+  },
+  {
+   "lei": "213800LFIK7QRGP8UY79",
+   "legal_name": "RBS COMMERCIAL FUNDING INC.",
    "status": "ACTIVE",
    "legal_address": {
     "language": "en",
