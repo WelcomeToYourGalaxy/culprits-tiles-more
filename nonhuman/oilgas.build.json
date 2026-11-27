@@ -1,5 +1,5 @@
 {
- "version": "OGIM_v3.0",
+ "version": "Version 3.1",
  "layers in the file": [
   [
    "Crude_Oil_Refineries",
@@ -166,6 +166,20 @@
   }
  ],
  "this run": {
+  "Oil_and_Natural_Gas_Pipelines": {
+   "inside a protected area": 30786,
+   "within 1 km": 59424,
+   "within 10 km": 642550,
+   "within 20 km": 480929,
+   "further than 20 km": 644420
+  },
+  "Oil_and_Natural_Gas_Production": {
+   "inside a protected area": 6290,
+   "within 1 km": 26718,
+   "within 10 km": 339593,
+   "within 20 km": 216533,
+   "further than 20 km": 281787
+  },
   "Oil_and_Natural_Gas_Wells": {
    "inside a protected area": 84717,
    "within 1 km": 164934,
@@ -191,24 +205,11 @@
    "inside a protected area": 1599,
    "within 1 km": 2929,
    "within 10 km": 40794,
-   "within 20 km": 36253,
+   "within 20 km": 36252,
    "further than 20 km": 50645
-  },
-  "Data_Catalog": {
-   "inside a protected area": 0,
-   "within 1 km": 0,
-   "within 10 km": 0,
-   "within 20 km": 0,
-   "further than 20 km": 0
-  },
-  "ML_Oil_and_Natural_Gas_Well_Pads": {
-   "inside a protected area": 420,
-   "within 1 km": 10,
-   "within 10 km": 74,
-   "within 20 km": 110,
-   "further than 20 km": 8378
   }
  },
- "complete": true,
- "made": "2026-11-10T22:16:19Z"
+ "stopped": "time budget reached before Data_Catalog; the next run carries on",
+ "complete": false,
+ "made": "2026-11-27T21:34:09Z"
 }
