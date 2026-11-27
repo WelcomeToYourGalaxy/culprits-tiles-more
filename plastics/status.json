@@ -1,34 +1,34 @@
 {
  "us_tri": {
   "ok": true,
-  "at": 1795200201.739456,
-  "when": "2026-11-20",
+  "at": 1795810944.030247,
+  "when": "2026-11-27",
   "plants": 339,
   "vinyl_chloride": 37
  },
  "eu_prtr": {
   "ok": false,
   "error": "HTTP Error 403: Forbidden",
-  "tried": "2026-11-26"
+  "tried": "2026-11-27"
  },
  "ct_crack": {
   "ok": true,
-  "at": 1795200249.1462748,
-  "when": "2026-11-20",
+  "at": 1795810992.6965265,
+  "when": "2026-11-27",
   "plants": 241,
   "vinyl_chloride": 0
  },
  "osm": {
   "ok": true,
-  "at": 1795200594.0010877,
-  "when": "2026-11-20",
-  "plants": 822,
+  "at": 1795811321.2832847,
+  "when": "2026-11-27",
+  "plants": 811,
   "vinyl_chloride": 12
  },
  "wikidata": {
   "ok": true,
-  "at": 1795200640.2461936,
-  "when": "2026-11-20",
+  "at": 1795811344.0845115,
+  "when": "2026-11-27",
   "plants": 35,
   "vinyl_chloride": 6
  }
